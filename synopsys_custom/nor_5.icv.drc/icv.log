@@ -1,0 +1,94 @@
+
+                                 IC Validator 
+
+          Version S-2021.06-SP2 for linux64 - Aug 30, 2021 cl#6831572
+
+                    Copyright (c) 1996 - 2021 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Called as: icv -f gdsii -i /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/nor_5.icv.drc/nor_5.custom_compiler.gds -c nor_5 -I /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/syncust/NCSU_TechLib_FreePDK3/../../icv -oa_dm6 -vue /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/nor_5.icv.drc/FreePDK3_main.drc.drc.rs
+
+
+
+
+Parsing runset "/afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/nor_5.icv.drc/FreePDK3_main.drc.drc.rs"
+
+Loaded runset from cache: /afs/unity.ncsu.edu/users/z/zwmurray/.icvrscache/110ab7a2e930fe7dc6bc98a2868eada5-9E317BC4-3504-4E11-8BF1-B52F4CC1346B-grendel26.ece.ncsu.edu-26766.rscache
+Cached Runset Compile Time=0:00:01 User=1.12 Sys=0.07 Mem=0.845 GB
+
+Virtual Machine Init Time=0:00:00 User=0.01 Sys=0.00 Mem=0.845 GB
+
+
+Host startup begins.
+Host startup done: 2 successes, 0 failures.
+	grendel31.ece.ncsu.edu: 2 total cores, maximum 2 commands in parallel.
+Selecting "grendel31.ece.ncsu.edu" as Primary host
+
+System Startup Time=0:00:01 User=0.00 Sys=0.03 Mem=0.845 GB
+
+
+Command execution begins.  Details recorded in the summary and log files:
+    /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/nor_5.icv.drc/run_details/nor_5.sum
+    /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/nor_5.icv.drc/run_details/FreePDK3_main.drc.drc.dp.log
+
+Running ...
+  ICV_Engine run is   1% complete.    Elapsed Time=0:00:01
+  ICV_Engine run is   2% complete.    Elapsed Time=0:00:02
+  ICV_Engine run is   3% complete.    Elapsed Time=0:00:02
+  ICV_Engine run is   4% complete.    Elapsed Time=0:00:02
+  ICV_Engine run is   5% complete.    Elapsed Time=0:00:02
+  ICV_Engine run is  10% complete.    Elapsed Time=0:00:02
+  ICV_Engine run is  15% complete.    Elapsed Time=0:00:02
+  ICV_Engine run is  20% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  25% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  30% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  35% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  40% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  45% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  50% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  55% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  60% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  65% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  70% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  75% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  80% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  85% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  90% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  95% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is 100% complete.    Elapsed Time=0:00:04
+
+Completing error storage...
+  Overall error storage time: User=0.08 Sys=0.27 Mem=0.003 GB
+
+Generating nor_5.LAYOUT_ERRORS...
+  Generation Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB
+
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.003 GB
+
+IC Validator Run: Time=0:00:07
+
+-------------
+
+IC Validator Machine Memory Report
+grendel31.ece.ncsu.edu : Average = 0.049 GB, Peak = 0.135 GB
+
+Overall Disk Usage Disk=0.008 GB
+Network Disk Usage Peak=0.010 GB
+Group File Disk Usage Peak=0.000 GB
+Overall engine Time=0:00:07 Highest command Mem=0.049 GB
+
+Overall Master Mem=0.961 GB
+IC Validator is done.

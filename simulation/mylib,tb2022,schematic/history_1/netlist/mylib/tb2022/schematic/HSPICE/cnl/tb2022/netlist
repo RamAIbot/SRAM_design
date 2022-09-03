@@ -1,0 +1,37 @@
+********************************************************************************
+* Library          : mylib
+* Cell             : tb2022
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+c1 q<1> gnd! c=1f
+c3 q<3> gnd! c=1f
+c2 q<2> gnd! c=1f
+c0 q<0> gnd! c=1f
+r33 i_a<4> gnd! r=1meg
+rdwenb i_wenb gnd! r=1meg
+rdar1 i_a<3> gnd! r=1meg
+rdar0 i_a<2> gnd! r=1meg
+rdaw1 i_a<1> gnd! r=1meg
+rdaw0 i_a<0> gnd! r=1meg
+rddw3 i_d<3> gnd! r=1meg
+rddw2 i_d<2> gnd! r=1meg
+rddw1 i_d<1> gnd! r=1meg
+rddw0 i_d<0> gnd! r=1meg
+xi34 a<4> i_a<4> inputbuf
+xi25 clk net35 inputbuf
+xbwenb wenb i_wenb inputbuf
+xbar1 a<3> i_a<3> inputbuf
+xbar0 a<2> i_a<2> inputbuf
+xbaw1 a<1> i_a<1> inputbuf
+xbaw0 a<0> i_a<0> inputbuf
+xbdw3 d<3> i_d<3> inputbuf
+xbdw2 d<2> i_d<2> inputbuf
+xbdw1 d<1> i_d<1> inputbuf
+xbdw0 d<0> i_d<0> inputbuf
+vclk net35 gnd! dc=0 pulse ( 0 'vdd' 0 'clkrise' 'clkrise' '((clkperiod/2)-clkrise)' 'clkperiod'
++  )
+vdd vdd! gnd! dc='vdd'
+xi36 a<0> a<1> a<2> a<3> a<4> clk d<0> d<1> d<2> d<3> q<0> q<1> q<2> q<3> wenb
++ bit_cell_array

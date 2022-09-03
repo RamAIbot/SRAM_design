@@ -1,0 +1,5 @@
+
+/* top equiv */
+equiv_options({{"bit_cell_array", "BIT_CELL_ARRAY"}});
+
+/* Generated system equivalence points are listed in this section */

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Wed Apr  6 17:43:24 2022-->
+<file-format version="1.0" name="stateData">
+ <attribute value="" name="description" type="giString"/>
+ <attribute value="mylib/column_decoder_test1/schematic" name="design" type="dmCellView"/>
+ <attribute value="1" name="enabled" type="giBoolean"/>
+ <attribute value="0" name="enabledJobClass" type="giBoolean"/>
+ <attribute value="HSPICE" name="migratedSimulator" type="giString"/>
+ <attribute value="HSPICE_default" name="name" type="giString"/>
+ <attribute value="mylib/column_decoder_test1/HSPICE_default" name="openaccessState" type="dmCellView"/>
+ <attribute value="HSPICE" name="simulator" type="giString"/>
+ <comment></comment>
+ <integration version="1"/>
+</file-format>

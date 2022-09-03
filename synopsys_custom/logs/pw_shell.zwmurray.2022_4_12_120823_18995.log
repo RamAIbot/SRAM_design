@@ -1,0 +1,121 @@
+[12:08:29.95] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[12:08:44.52] /o pw_shell Version PrimeWave Design Envrionment S-2021.09
+              /c Build  (OPT) compiled on Fri Aug 20 11:32:52 2021 for CentOS64 7.3
+              /c Execution time: Tue Apr 12 12:08:23 2022
+              /c Host: grendel32.ece.ncsu.edu
+              /c 
+              /c Copyright © 2004-2021 Synopsys, Inc.
+              /c This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, or distribution of this software is strictly prohibited.
+              /c 
+              /c 
+[12:08:44.67] /o /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/samples/basic
+[12:08:44.67] /o /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/samples/snpsDeviceLib
+[12:08:44.88] /o /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/samples/analogLib
+[12:08:44.88] /o /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/samples/sheets
+[12:08:44.89] /o /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/samples/parasitics
+[12:08:45.74] /o /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/syncust/NCSU_TechLib_FreePDK3
+[12:08:45.74] /o Loading: Callback files...
+[12:08:45.74] /o Loading: scripts/callbacks/callbacks.tcl
+[12:08:45.74] /o 
+              /c [INFO] : Loading display.drf from /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/syncust/NCSU_TechLib_FreePDK3
+              /c 
+              /c  if you wish to Load other display.drf, please set shell environment valiable "iPDK_load_display_NCSU_TechLib_FreePDK3" to value = 0
+[12:08:45.74] /o 
+[12:08:45.75] /w Warning: Could not set the value of preference xtDRCTool because it does not exist. (PREFERENCE-016)
+[12:08:45.75] /w Warning: Could not set the value of preference xtDRCICVRunsetFile because it does not exist. (PREFERENCE-016)
+[12:08:45.75] /w Warning: Could not set the value of preference xtDRCICVIncludePaths because it does not exist. (PREFERENCE-016)
+[12:08:45.75] /w Warning: Could not set the value of preference xtDRCLayDBFormat because it does not exist. (PREFERENCE-016)
+[12:08:45.75] /w Warning: Could not set the value of preference xtLVSTool because it does not exist. (PREFERENCE-016)
+[12:08:45.75] /w Warning: Could not set the value of preference xtLVSICVRunsetFile because it does not exist. (PREFERENCE-016)
+[12:08:45.75] /w Warning: Could not set the value of preference xtLVSICVIncludePaths because it does not exist. (PREFERENCE-016)
+[12:08:45.75] /w Warning: Could not set the value of preference xtLVSLayDBFormat because it does not exist. (PREFERENCE-016)
+[12:08:45.75] /w Warning: Could not set the value of preference xtLPELVSTool because it does not exist. (PREFERENCE-016)
+[12:08:45.75] /w Warning: Could not set the value of preference xtLPETool because it does not exist. (PREFERENCE-016)
+[12:08:45.75] /w Warning: Could not set the value of preference xtLPEOpenParasiticView because it does not exist. (PREFERENCE-016)
+[12:08:45.75] /w Warning: Could not set the value of preference xtStarTcadGrdFile because it does not exist. (PREFERENCE-016)
+[12:08:45.75] /w Warning: Could not set the value of preference xtLPEStarOADeviceMappingFile because it does not exist. (PREFERENCE-016)
+[12:08:45.75] /w Warning: Could not set the value of preference xtStarOALayerMappingFile because it does not exist. (PREFERENCE-016)
+[12:08:45.75] /o 	#######################################
+[12:08:45.75] /o 	CC-PDK Library Name	: FreePDK3
+[12:08:45.75] /o 	#######################################
+[12:08:45.75] /o 
+[12:08:45.78] /i ::sa::_backgroundSaeShell::signalProcessReady 1649779701
+[12:08:45.79] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 24
+[12:11:51.00] /i ::sa::_backgroundSaeShell::runScript /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[12:11:51.33] /m Information: Loading preferences from /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/pw_shell_session_prefs.xml
+[12:11:51.62] /m Information: Start incremental database creation...
+[12:11:51.71] /m Information: Create Iter role param id map
+[12:11:51.81] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.8 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[12:11:51.81] /o false
+[12:11:51.81] /i ::wf::viewerExited
+[12:15:00.53] /i ::wf::viewerExited
+[12:15:01.69] /i ::sa::_backgroundSaeShell::runScript /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[12:15:01.96] /m Information: Loading preferences from /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/pw_shell_session_prefs.xml
+[12:15:02.10] /m Information: Start incremental database creation...
+[12:15:02.18] /m Information: Create Iter role param id map
+[12:15:02.27] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.5 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[12:15:02.27] /o false
+[12:18:04.23] /i ::wf::viewerExited
+[12:18:05.39] /i ::sa::_backgroundSaeShell::runScript /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[12:18:05.67] /m Information: Loading preferences from /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/pw_shell_session_prefs.xml
+[12:18:05.83] /m Information: Start incremental database creation...
+[12:18:05.90] /m Information: Create Iter role param id map
+[12:18:05.99] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.6 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[12:18:05.99] /o false
+[12:21:07.73] /i ::wf::viewerExited
+[12:21:08.95] /i ::sa::_backgroundSaeShell::runScript /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[12:21:09.27] /m Information: Loading preferences from /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/pw_shell_session_prefs.xml
+[12:21:09.42] /m Information: Start incremental database creation...
+[12:21:09.50] /m Information: Create Iter role param id map
+[12:21:09.59] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.6 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[12:21:09.59] /o false
+[12:24:00.33] /i ::wf::viewerExited
+[12:24:01.52] /i ::sa::_backgroundSaeShell::runScript /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[12:24:02.01] /m Information: Loading preferences from /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/pw_shell_session_prefs.xml
+[12:24:02.16] /m Information: Start incremental database creation...
+[12:24:02.25] /m Information: Create Iter role param id map
+[12:24:02.34] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.8 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[12:24:02.34] /o false
+[12:25:52.63] /i ::wf::viewerExited
+[12:25:54.53] /i ::sa::_backgroundSaeShell::runScript /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[12:25:54.83] /m Information: Loading preferences from /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/pw_shell_session_prefs.xml
+[12:25:54.99] /m Information: Start incremental database creation...
+[12:25:55.08] /m Information: Create Iter role param id map
+[12:25:55.17] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.6 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[12:25:55.17] /o false
+[12:28:07.43] /i ::wf::viewerExited
+[12:28:08.66] /i ::sa::_backgroundSaeShell::runScript /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[12:28:08.96] /m Information: Loading preferences from /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/pw_shell_session_prefs.xml
+[12:28:09.11] /m Information: Start incremental database creation...
+[12:28:09.20] /m Information: Create Iter role param id map
+[12:28:09.29] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.6 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[12:28:09.29] /o false
+[12:29:42.63] /i ::wf::viewerExited
+[12:29:43.86] /i ::sa::_backgroundSaeShell::runScript /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[12:29:44.33] /m Information: Loading preferences from /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/pw_shell_session_prefs.xml
+[12:29:44.48] /m Information: Start incremental database creation...
+[12:29:44.57] /m Information: Create Iter role param id map
+[12:29:44.67] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.8 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[12:29:44.67] /o false
+[12:34:45.83] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[12:34:45.93] /i ::sa::_backgroundSaeShell::parentRunning
+[12:34:45.93] /o 1649781285
+[12:39:46.85] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[12:39:47.03] /i ::sa::_backgroundSaeShell::parentRunning
+[12:39:47.03] /o 1649781587
+[12:44:47.87] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[12:44:48.03] /i ::sa::_backgroundSaeShell::parentRunning
+[12:44:48.03] /o 1649781888
+[12:48:52.93] /i ::wf::viewerExited
+[12:48:54.11] /i ::sa::_backgroundSaeShell::runScript /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[12:48:54.12] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)
+[12:48:54.15] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[12:48:54.44] /m Information: Loading preferences from /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/pw_shell_session_prefs.xml
+[12:48:54.61] /m Information: Start incremental database creation...
+[12:48:54.69] /m Information: Create Iter role param id map
+[12:48:54.78] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.6 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[12:48:54.78] /o false
+[12:49:09.53] /i ::wf::viewerExited
+[12:49:36.68] /i ::sa::_backgroundSaeShell::exit
+[12:49:36.68] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting
+[12:49:37.40] /m Information: License 'Apex' checked in. (LICENSE-004)

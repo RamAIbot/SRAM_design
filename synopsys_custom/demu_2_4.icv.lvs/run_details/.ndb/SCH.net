@@ -1,0 +1,44 @@
+{netlist .sch.net
+{version 3 1 0}
+{net_global vdd! gnd! }
+{cell inv_2
+{port A Z}
+{inst MM0=nmos {TYPE MOS} 
+{pin Z=DRN A=GATE gnd!=SRC}}
+{inst MM1=pmos {TYPE MOS} 
+{pin Z=DRN A=GATE vdd!=SRC}}
+}
+
+{cell and_2
+{port A B Z}
+{inst MM10=nmos {TYPE MOS} 
+{pin Z=DRN net26=GATE gnd!=SRC}}
+{inst MM1=nmos {TYPE MOS} 
+{pin net22=DRN B=GATE gnd!=SRC}}
+{inst MM0=nmos {TYPE MOS} 
+{pin net26=DRN A=GATE net22=SRC}}
+{inst MM9=pmos {TYPE MOS} 
+{pin Z=DRN net26=GATE vdd!=SRC}}
+{inst MM3=pmos {TYPE MOS} 
+{pin net26=DRN A=GATE vdd!=SRC}}
+{inst MM2=pmos {TYPE MOS} 
+{pin net26=DRN B=GATE vdd!=SRC}}
+}
+
+{cell demu_2_4
+{port A0 A1 Out0 Out1 Out2 Out3}
+{inst XI3=and_2 {TYPE CELL} 
+{pin net13=A net15=B Out0=Z}}
+{inst XI2=and_2 {TYPE CELL} 
+{pin A0=A A1=B Out3=Z}}
+{inst XI1=and_2 {TYPE CELL} 
+{pin net13=A A1=B Out2=Z}}
+{inst XI0=and_2 {TYPE CELL} 
+{pin A0=A net15=B Out1=Z}}
+{inst XI5=inv_2 {TYPE CELL} 
+{pin A1=A net15=Z}}
+{inst XI4=inv_2 {TYPE CELL} 
+{pin A0=A net13=Z}}
+}
+
+}

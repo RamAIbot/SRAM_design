@@ -1,0 +1,3 @@
+NMOS { }
+PMOS { }
+nor_5 { NMOS PMOS }

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Mon Apr  4 15:15:59 2022-->
+<file-format version="1.0" name="stateCategory">
+ <object version="1" type="saModelSetup" name="models">
+  <attribute type="giBoolean" value="1" name="includeGlobal"/>
+  <attribute type="giString" value="/afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/syncust/NCSU_TechLib_FreePDK3/../../hspice/models/" name="includePath"/>
+  <collection name="modelFiles">
+   <object version="1" type="saModelFile" name="modelFiles">
+    <attribute type="giBoolean" value="1" name="enabled"/>
+    <attribute type="giString" value="fet.mod" name="filename"/>
+    <attribute type="giString" value="nfet_typ" name="section"/>
+   </object>
+   <object version="1" type="saModelFile" name="modelFiles">
+    <attribute type="giBoolean" value="1" name="enabled"/>
+    <attribute type="giString" value="fet.mod" name="filename"/>
+    <attribute type="giString" value="pfet_typ" name="section"/>
+   </object>
+  </collection>
+  <collection name="modelGroupDefs"/>
+  <collection name="modelGroups"/>
+ </object>
+</file-format>

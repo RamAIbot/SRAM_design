@@ -1,0 +1,3 @@
+inv_2 { }
+and_2 { }
+demu_2_4 { and_2 inv_2 }

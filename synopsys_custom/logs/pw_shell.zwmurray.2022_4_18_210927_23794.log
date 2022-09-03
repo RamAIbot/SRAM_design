@@ -1,0 +1,52 @@
+[21:09:35.97] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[21:09:47.10] /o pw_shell Version PrimeWave Design Envrionment S-2021.09
+              /c Build  (OPT) compiled on Fri Aug 20 11:32:52 2021 for CentOS64 7.3
+              /c Execution time: Mon Apr 18 21:09:27 2022
+              /c Host: grendel28.ece.ncsu.edu
+              /c 
+              /c Copyright © 2004-2021 Synopsys, Inc.
+              /c This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, or distribution of this software is strictly prohibited.
+              /c 
+              /c 
+[21:09:47.25] /o /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/samples/basic
+[21:09:47.25] /o /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/samples/snpsDeviceLib
+[21:09:47.26] /o /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/samples/analogLib
+[21:09:47.26] /o /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/samples/sheets
+[21:09:47.27] /o /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/samples/parasitics
+[21:09:47.70] /o /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/syncust/NCSU_TechLib_FreePDK3
+[21:09:47.70] /o Loading: Callback files...
+[21:09:47.71] /o Loading: scripts/callbacks/callbacks.tcl
+[21:09:47.71] /o 
+              /c [INFO] : Loading display.drf from /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/syncust/NCSU_TechLib_FreePDK3
+              /c 
+              /c  if you wish to Load other display.drf, please set shell environment valiable "iPDK_load_display_NCSU_TechLib_FreePDK3" to value = 0
+[21:09:47.71] /o 
+[21:09:47.72] /w Warning: Could not set the value of preference xtDRCTool because it does not exist. (PREFERENCE-016)
+[21:09:47.72] /w Warning: Could not set the value of preference xtDRCICVRunsetFile because it does not exist. (PREFERENCE-016)
+[21:09:47.72] /w Warning: Could not set the value of preference xtDRCICVIncludePaths because it does not exist. (PREFERENCE-016)
+[21:09:47.72] /w Warning: Could not set the value of preference xtDRCLayDBFormat because it does not exist. (PREFERENCE-016)
+[21:09:47.72] /w Warning: Could not set the value of preference xtLVSTool because it does not exist. (PREFERENCE-016)
+[21:09:47.72] /w Warning: Could not set the value of preference xtLVSICVRunsetFile because it does not exist. (PREFERENCE-016)
+[21:09:47.72] /w Warning: Could not set the value of preference xtLVSICVIncludePaths because it does not exist. (PREFERENCE-016)
+[21:09:47.72] /w Warning: Could not set the value of preference xtLVSLayDBFormat because it does not exist. (PREFERENCE-016)
+[21:09:47.72] /w Warning: Could not set the value of preference xtLPELVSTool because it does not exist. (PREFERENCE-016)
+[21:09:47.72] /w Warning: Could not set the value of preference xtLPETool because it does not exist. (PREFERENCE-016)
+[21:09:47.72] /w Warning: Could not set the value of preference xtLPEOpenParasiticView because it does not exist. (PREFERENCE-016)
+[21:09:47.72] /w Warning: Could not set the value of preference xtStarTcadGrdFile because it does not exist. (PREFERENCE-016)
+[21:09:47.72] /w Warning: Could not set the value of preference xtLPEStarOADeviceMappingFile because it does not exist. (PREFERENCE-016)
+[21:09:47.72] /w Warning: Could not set the value of preference xtStarOALayerMappingFile because it does not exist. (PREFERENCE-016)
+[21:09:47.72] /o 	#######################################
+[21:09:47.72] /o 	CC-PDK Library Name	: FreePDK3
+[21:09:47.72] /o 	#######################################
+[21:09:47.72] /o 
+[21:09:47.75] /i ::sa::_backgroundSaeShell::signalProcessReady 1650330566
+[21:09:47.76] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 21
+[21:14:37.48] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)
+[21:14:48.78] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:14:48.88] /i ::sa::_backgroundSaeShell::parentRunning
+[21:14:48.88] /o 1650330888
+[21:19:49.80] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:19:49.98] /i ::sa::_backgroundSaeShell::parentRunning
+[21:19:49.98] /o 1650331189
+[21:22:57.11] /i ::sa::_backgroundSaeShell::exit
+[21:22:57.11] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting

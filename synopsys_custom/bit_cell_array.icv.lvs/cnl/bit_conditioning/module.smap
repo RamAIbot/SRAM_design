@@ -1,0 +1,36 @@
+<module name="vsl: mylib bit_conditioning schematic vl: auCdl schematic symbol">
+<scope name="Instance">
+<forward>
+<mapping src="I9" dst="XI9"/>
+<mapping src="M7" dst="MM7"/>
+<mapping src="M8" dst="MM8"/>
+</forward>
+<reverse>
+<mapping src="XI9" dst="I9"/>
+<mapping src="MM7" dst="M7"/>
+<mapping src="MM8" dst="M8"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward/>
+<reverse/>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping src="&lt;unmappedTermOrder>" dst="BL BLB CLK"/>
+<mapping src="&lt;termOrder>" dst="BL BLB CLK"/>
+</forward>
+<reverse>
+<mapping src="BL BLB CLK" dst="&lt;unmappedTermOrder>"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="inv_2">
+<instance name="I9"/>
+</instance_header>
+<instance_header master="pmos">
+<instance name="M7"/>
+<instance name="M8"/>
+</instance_header>
+</master_instances>
+</module>

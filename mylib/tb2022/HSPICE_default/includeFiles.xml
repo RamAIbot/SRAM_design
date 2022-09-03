@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Tue Apr 19 14:56:23 2022-->
+<file-format version="1.0" name="stateCategory">
+ <collection name="includeFiles">
+  <object version="1" name="includeFiles" type="saIncludeFile">
+   <attribute name="enabled" value="1" type="giBoolean"/>
+   <attribute name="filename" value="/afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/invec.dat" type="giString"/>
+   <attribute name="includeType" value="Digital Vector" type="giString"/>
+   <attribute name="section" value="" type="giString"/>
+  </object>
+  <object version="1" name="includeFiles" type="saIncludeFile">
+   <attribute name="enabled" value="1" type="giBoolean"/>
+   <attribute name="filename" value="/afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/outvec.dat" type="giString"/>
+   <attribute name="includeType" value="Digital Vector" type="giString"/>
+   <attribute name="section" value="" type="giString"/>
+  </object>
+ </collection>
+</file-format>

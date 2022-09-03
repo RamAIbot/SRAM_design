@@ -1,0 +1,45 @@
+<module name="vsl: mylib demu_2_4 schematic vl: auCdl schematic symbol">
+<scope name="Instance">
+<forward>
+<mapping dst="XI4" src="I4"/>
+<mapping dst="XI0" src="I0"/>
+<mapping dst="XI5" src="I5"/>
+<mapping dst="XI1" src="I1"/>
+<mapping dst="XI2" src="I2"/>
+<mapping dst="XI3" src="I3"/>
+</forward>
+<reverse>
+<mapping dst="I5" src="XI5"/>
+<mapping dst="I4" src="XI4"/>
+<mapping dst="I0" src="XI0"/>
+<mapping dst="I1" src="XI1"/>
+<mapping dst="I2" src="XI2"/>
+<mapping dst="I3" src="XI3"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward/>
+<reverse/>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping dst="A0 A1 Out0 Out1 Out2 Out3" src="&lt;unmappedTermOrder>"/>
+<mapping dst="A0 A1 Out0 Out1 Out2 Out3" src="&lt;termOrder>"/>
+</forward>
+<reverse>
+<mapping dst="&lt;unmappedTermOrder>" src="A0 A1 Out0 Out1 Out2 Out3"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="and_2">
+<instance name="I0"/>
+<instance name="I1"/>
+<instance name="I2"/>
+<instance name="I3"/>
+</instance_header>
+<instance_header master="inv_2">
+<instance name="I4"/>
+<instance name="I5"/>
+</instance_header>
+</master_instances>
+</module>

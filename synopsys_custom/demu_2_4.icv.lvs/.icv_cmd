@@ -1,0 +1,8 @@
+icv gdsii demu_2_4 demu_2_4 SPICE /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/demu_2_4.icv.lvs/demu_2_4.custom_compiler.gds /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/demu_2_4.icv.lvs/FreePDK3_main.lvs.lvs.rs /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/syncust/NCSU_TechLib_FreePDK3/../../icv -vue -stc -sf -oa_dm6 -i -f -c -I 
+schematic=/afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/demu_2_4.icv.lvs/demu_2_4.icv.sp
+ICV_HOME_DIR=/mnt/apps/public/COE/synopsys_apps/icvalidator/S-2021.06-SP2
+ICV_INCLUDES=UNSET
+nettran_command= icv_nettran -sp /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/demu_2_4.icv.lvs/demu_2_4.icv.sp -cell demu_2_4 -dupCell USE_MULTIPLE -sp-ndbConnect -sp-dupProp LAST -quiet -logFile run_details/icv_nettran.log  -wireLog run_details/nettran_wire.log -dupCellReportFile run_details/nettran_dupCell.log  -outName /.netlist_database_sch100 -outType ndb -ndb-meter -sp-multiplier M 
+demu_2_4
+/afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/demu_2_4.icv.lvs/run_details
+Complete

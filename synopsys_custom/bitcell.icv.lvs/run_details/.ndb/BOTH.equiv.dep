@@ -1,0 +1,3 @@
+pmos::PMOS { }
+nmos::NMOS { }
+bitcell::bitcell { nmos::NMOS pmos::PMOS }

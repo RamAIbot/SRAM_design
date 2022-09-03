@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<!--Created by Custom Compiler (TM), build , on Thu Apr  7 02:04:43 2022-->
+<file-format version="1.0" name="stateData">
+ <attribute value="" type="giString" name="description"/>
+ <attribute value="mylib/bit_cell_array/schematic" type="dmCellView" name="design"/>
+ <attribute value="1" type="giBoolean" name="enabled"/>
+ <attribute value="0" type="giBoolean" name="enabledJobClass"/>
+ <attribute value="" type="giString" name="migratedSimulator"/>
+ <attribute value="HSPICE_default" type="giString" name="name"/>
+ <attribute value="//" type="dmCellView" name="openaccessState"/>
+ <attribute value="HSPICE" type="giString" name="simulator"/>
+ <comment/>
+ <resultsDir>./simulation</resultsDir>
+ <integration version="1"/>
+</file-format>

@@ -1,0 +1,522 @@
+<module name="vsl: mylib bit_cell_array schematic vl: hspice hspiceD schematic spice veriloga">
+<scope name="Instance">
+<forward>
+<mapping dst="m193" src="M193"/>
+<mapping dst="v186" src="V186"/>
+<mapping dst="v190" src="V190"/>
+<mapping dst="xi128" src="I128"/>
+<mapping dst="xi66" src="I66"/>
+<mapping dst="xi49" src="I49"/>
+<mapping dst="xi32" src="I32"/>
+<mapping dst="v184" src="V184"/>
+<mapping dst="xi1" src="I1"/>
+<mapping dst="v181" src="V181"/>
+<mapping dst="xi16" src="I16"/>
+<mapping dst="v183" src="V183"/>
+<mapping dst="xi133" src="I133"/>
+<mapping dst="xi145" src="I145"/>
+<mapping dst="v196" src="V196"/>
+<mapping dst="v185" src="V185"/>
+<mapping dst="xi0" src="I0"/>
+<mapping dst="xi25" src="I25"/>
+<mapping dst="xi50" src="I50"/>
+<mapping dst="xi143" src="I143"/>
+<mapping dst="xi144" src="I144"/>
+<mapping dst="xi2" src="I2"/>
+<mapping dst="xi18" src="I18"/>
+<mapping dst="xi17" src="I17"/>
+<mapping dst="xi76" src="I76"/>
+<mapping dst="xi64" src="I64"/>
+<mapping dst="xi22" src="I22"/>
+<mapping dst="xi19" src="I19"/>
+<mapping dst="xi45" src="I45"/>
+<mapping dst="xi94" src="I94"/>
+<mapping dst="xi33" src="I33"/>
+<mapping dst="xi35" src="I35"/>
+<mapping dst="xi146" src="I146"/>
+<mapping dst="xi86" src="I86"/>
+<mapping dst="xi41" src="I41"/>
+<mapping dst="xi37" src="I37"/>
+<mapping dst="xi141" src="I141"/>
+<mapping dst="xi36" src="I36"/>
+<mapping dst="xi31" src="I31"/>
+<mapping dst="xi43" src="I43"/>
+<mapping dst="xi38" src="I38"/>
+<mapping dst="xi47" src="I47"/>
+<mapping dst="xi51" src="I51"/>
+<mapping dst="xi54" src="I54"/>
+<mapping dst="xi93" src="I93"/>
+<mapping dst="xi62" src="I62"/>
+<mapping dst="xi56" src="I56"/>
+<mapping dst="xi57" src="I57"/>
+<mapping dst="xi61" src="I61"/>
+<mapping dst="xi60" src="I60"/>
+<mapping dst="xi65" src="I65"/>
+<mapping dst="xi42" src="I42"/>
+<mapping dst="xi68" src="I68"/>
+<mapping dst="m192" src="M192"/>
+<mapping dst="xi3" src="I3"/>
+<mapping dst="xi70" src="I70"/>
+<mapping dst="xi74" src="I74"/>
+<mapping dst="xi77" src="I77"/>
+<mapping dst="xi26" src="I26"/>
+<mapping dst="xi82" src="I82"/>
+<mapping dst="xi44" src="I44"/>
+<mapping dst="xi83" src="I83"/>
+<mapping dst="xi23" src="I23"/>
+<mapping dst="xi85" src="I85"/>
+<mapping dst="xi88" src="I88"/>
+<mapping dst="xi40" src="I40"/>
+<mapping dst="xi73" src="I73"/>
+<mapping dst="xi92" src="I92"/>
+<mapping dst="xi87" src="I87"/>
+<mapping dst="xi34" src="I34"/>
+<mapping dst="xi95" src="I95"/>
+<mapping dst="xi58" src="I58"/>
+<mapping dst="xi96" src="I96"/>
+<mapping dst="xi29" src="I29"/>
+<mapping dst="xi97" src="I97"/>
+<mapping dst="xi71" src="I71"/>
+<mapping dst="xi99" src="I99"/>
+<mapping dst="xi69" src="I69"/>
+<mapping dst="xi100" src="I100"/>
+<mapping dst="xi101" src="I101"/>
+<mapping dst="xi21" src="I21"/>
+<mapping dst="xi102" src="I102"/>
+<mapping dst="xi103" src="I103"/>
+<mapping dst="xi80" src="I80"/>
+<mapping dst="xi98" src="I98"/>
+<mapping dst="xi105" src="I105"/>
+<mapping dst="xi63" src="I63"/>
+<mapping dst="xi106" src="I106"/>
+<mapping dst="xi108" src="I108"/>
+<mapping dst="xi109" src="I109"/>
+<mapping dst="xi111" src="I111"/>
+<mapping dst="xi84" src="I84"/>
+<mapping dst="xi55" src="I55"/>
+<mapping dst="xi112" src="I112"/>
+<mapping dst="xi90" src="I90"/>
+<mapping dst="xi81" src="I81"/>
+<mapping dst="xi116" src="I116"/>
+<mapping dst="xi91" src="I91"/>
+<mapping dst="xi107" src="I107"/>
+<mapping dst="xi119" src="I119"/>
+<mapping dst="v182" src="V182"/>
+<mapping dst="xi114" src="I114"/>
+<mapping dst="xi67" src="I67"/>
+<mapping dst="xi75" src="I75"/>
+<mapping dst="xi121" src="I121"/>
+<mapping dst="m191" src="M191"/>
+<mapping dst="xi30" src="I30"/>
+<mapping dst="xi118" src="I118"/>
+<mapping dst="xi129" src="I129"/>
+<mapping dst="xi127" src="I127"/>
+<mapping dst="xi27" src="I27"/>
+<mapping dst="xi110" src="I110"/>
+<mapping dst="xi53" src="I53"/>
+<mapping dst="xi132" src="I132"/>
+<mapping dst="xi48" src="I48"/>
+<mapping dst="m194" src="M194"/>
+<mapping dst="xi113" src="I113"/>
+<mapping dst="xi24" src="I24"/>
+<mapping dst="xi130" src="I130"/>
+<mapping dst="xi89" src="I89"/>
+<mapping dst="xi28" src="I28"/>
+<mapping dst="xi124" src="I124"/>
+<mapping dst="xi52" src="I52"/>
+<mapping dst="xi59" src="I59"/>
+<mapping dst="xi134" src="I134"/>
+<mapping dst="xi72" src="I72"/>
+<mapping dst="xi135" src="I135"/>
+<mapping dst="xi137" src="I137"/>
+<mapping dst="xi115" src="I115"/>
+<mapping dst="xi123" src="I123"/>
+<mapping dst="xi78" src="I78"/>
+<mapping dst="xi125" src="I125"/>
+<mapping dst="xi126" src="I126"/>
+<mapping dst="xi20" src="I20"/>
+<mapping dst="xi120" src="I120"/>
+<mapping dst="xi122" src="I122"/>
+<mapping dst="xi46" src="I46"/>
+<mapping dst="xi79" src="I79"/>
+<mapping dst="xi138" src="I138"/>
+<mapping dst="xi136" src="I136"/>
+<mapping dst="xi39" src="I39"/>
+<mapping dst="xi142" src="I142"/>
+<mapping dst="xi117" src="I117"/>
+<mapping dst="xi131" src="I131"/>
+<mapping dst="xi139" src="I139"/>
+<mapping dst="xi104" src="I104"/>
+</forward>
+<reverse>
+<mapping dst="M194" src="m194"/>
+<mapping dst="I44" src="xi44"/>
+<mapping dst="M192" src="m192"/>
+<mapping dst="I28" src="xi28"/>
+<mapping dst="I33" src="xi33"/>
+<mapping dst="I18" src="xi18"/>
+<mapping dst="V190" src="v190"/>
+<mapping dst="V196" src="v196"/>
+<mapping dst="V183" src="v183"/>
+<mapping dst="I16" src="xi16"/>
+<mapping dst="I125" src="xi125"/>
+<mapping dst="I144" src="xi144"/>
+<mapping dst="I22" src="xi22"/>
+<mapping dst="I145" src="xi145"/>
+<mapping dst="I90" src="xi90"/>
+<mapping dst="I143" src="xi143"/>
+<mapping dst="I21" src="xi21"/>
+<mapping dst="I35" src="xi35"/>
+<mapping dst="V186" src="v186"/>
+<mapping dst="I128" src="xi128"/>
+<mapping dst="I146" src="xi146"/>
+<mapping dst="I141" src="xi141"/>
+<mapping dst="I34" src="xi34"/>
+<mapping dst="I0" src="xi0"/>
+<mapping dst="I24" src="xi24"/>
+<mapping dst="I23" src="xi23"/>
+<mapping dst="I36" src="xi36"/>
+<mapping dst="I29" src="xi29"/>
+<mapping dst="I88" src="xi88"/>
+<mapping dst="I17" src="xi17"/>
+<mapping dst="I30" src="xi30"/>
+<mapping dst="I39" src="xi39"/>
+<mapping dst="I38" src="xi38"/>
+<mapping dst="I41" src="xi41"/>
+<mapping dst="I45" src="xi45"/>
+<mapping dst="I46" src="xi46"/>
+<mapping dst="I48" src="xi48"/>
+<mapping dst="I51" src="xi51"/>
+<mapping dst="I20" src="xi20"/>
+<mapping dst="I55" src="xi55"/>
+<mapping dst="I85" src="xi85"/>
+<mapping dst="I58" src="xi58"/>
+<mapping dst="I2" src="xi2"/>
+<mapping dst="I59" src="xi59"/>
+<mapping dst="I25" src="xi25"/>
+<mapping dst="I62" src="xi62"/>
+<mapping dst="I1" src="xi1"/>
+<mapping dst="I47" src="xi47"/>
+<mapping dst="I92" src="xi92"/>
+<mapping dst="I57" src="xi57"/>
+<mapping dst="I63" src="xi63"/>
+<mapping dst="V184" src="v184"/>
+<mapping dst="I65" src="xi65"/>
+<mapping dst="I66" src="xi66"/>
+<mapping dst="I67" src="xi67"/>
+<mapping dst="I68" src="xi68"/>
+<mapping dst="I69" src="xi69"/>
+<mapping dst="I3" src="xi3"/>
+<mapping dst="I142" src="xi142"/>
+<mapping dst="I71" src="xi71"/>
+<mapping dst="I72" src="xi72"/>
+<mapping dst="I52" src="xi52"/>
+<mapping dst="I75" src="xi75"/>
+<mapping dst="I73" src="xi73"/>
+<mapping dst="I78" src="xi78"/>
+<mapping dst="I50" src="xi50"/>
+<mapping dst="I49" src="xi49"/>
+<mapping dst="I77" src="xi77"/>
+<mapping dst="I37" src="xi37"/>
+<mapping dst="I87" src="xi87"/>
+<mapping dst="I96" src="xi96"/>
+<mapping dst="I97" src="xi97"/>
+<mapping dst="I31" src="xi31"/>
+<mapping dst="I98" src="xi98"/>
+<mapping dst="I42" src="xi42"/>
+<mapping dst="I99" src="xi99"/>
+<mapping dst="I27" src="xi27"/>
+<mapping dst="I56" src="xi56"/>
+<mapping dst="I101" src="xi101"/>
+<mapping dst="I102" src="xi102"/>
+<mapping dst="I64" src="xi64"/>
+<mapping dst="I103" src="xi103"/>
+<mapping dst="I86" src="xi86"/>
+<mapping dst="I60" src="xi60"/>
+<mapping dst="I61" src="xi61"/>
+<mapping dst="I104" src="xi104"/>
+<mapping dst="I76" src="xi76"/>
+<mapping dst="I105" src="xi105"/>
+<mapping dst="I91" src="xi91"/>
+<mapping dst="I106" src="xi106"/>
+<mapping dst="M193" src="m193"/>
+<mapping dst="I107" src="xi107"/>
+<mapping dst="I94" src="xi94"/>
+<mapping dst="I110" src="xi110"/>
+<mapping dst="I111" src="xi111"/>
+<mapping dst="I112" src="xi112"/>
+<mapping dst="I80" src="xi80"/>
+<mapping dst="I74" src="xi74"/>
+<mapping dst="I93" src="xi93"/>
+<mapping dst="I89" src="xi89"/>
+<mapping dst="M191" src="m191"/>
+<mapping dst="I116" src="xi116"/>
+<mapping dst="I26" src="xi26"/>
+<mapping dst="I119" src="xi119"/>
+<mapping dst="I81" src="xi81"/>
+<mapping dst="I32" src="xi32"/>
+<mapping dst="I114" src="xi114"/>
+<mapping dst="I120" src="xi120"/>
+<mapping dst="I109" src="xi109"/>
+<mapping dst="I124" src="xi124"/>
+<mapping dst="I82" src="xi82"/>
+<mapping dst="I83" src="xi83"/>
+<mapping dst="I108" src="xi108"/>
+<mapping dst="I40" src="xi40"/>
+<mapping dst="I126" src="xi126"/>
+<mapping dst="I130" src="xi130"/>
+<mapping dst="I100" src="xi100"/>
+<mapping dst="I43" src="xi43"/>
+<mapping dst="I129" src="xi129"/>
+<mapping dst="I70" src="xi70"/>
+<mapping dst="I132" src="xi132"/>
+<mapping dst="I19" src="xi19"/>
+<mapping dst="I135" src="xi135"/>
+<mapping dst="I113" src="xi113"/>
+<mapping dst="I121" src="xi121"/>
+<mapping dst="I118" src="xi118"/>
+<mapping dst="I131" src="xi131"/>
+<mapping dst="I53" src="xi53"/>
+<mapping dst="I84" src="xi84"/>
+<mapping dst="I134" src="xi134"/>
+<mapping dst="I122" src="xi122"/>
+<mapping dst="I54" src="xi54"/>
+<mapping dst="I127" src="xi127"/>
+<mapping dst="I117" src="xi117"/>
+<mapping dst="I115" src="xi115"/>
+<mapping dst="V182" src="v182"/>
+<mapping dst="I123" src="xi123"/>
+<mapping dst="I137" src="xi137"/>
+<mapping dst="I95" src="xi95"/>
+<mapping dst="V185" src="v185"/>
+<mapping dst="I79" src="xi79"/>
+<mapping dst="I138" src="xi138"/>
+<mapping dst="V181" src="v181"/>
+<mapping dst="I133" src="xi133"/>
+<mapping dst="I139" src="xi139"/>
+<mapping dst="I136" src="xi136"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward>
+<mapping dst="q&lt;1>" src="Q&lt;1>"/>
+<mapping dst="q&lt;0>" src="Q&lt;0>"/>
+<mapping dst="q&lt;2>" src="Q&lt;2>"/>
+<mapping dst="clk" src="CLK"/>
+<mapping dst="a&lt;4>" src="A4"/>
+<mapping dst="a&lt;3>" src="A3"/>
+<mapping dst="q&lt;3>" src="Q&lt;3>"/>
+<mapping dst="a&lt;2>" src="A2"/>
+<mapping dst="a1" src="A1"/>
+<mapping dst="a0" src="A0"/>
+</forward>
+<reverse>
+<mapping dst="Q&lt;0>" src="q&lt;0>"/>
+<mapping dst="A2" src="a&lt;2>"/>
+<mapping dst="A4" src="a&lt;4>"/>
+<mapping dst="Q&lt;3>" src="q&lt;3>"/>
+<mapping dst="CLK" src="clk"/>
+<mapping dst="A1" src="a1"/>
+<mapping dst="Q&lt;2>" src="q&lt;2>"/>
+<mapping dst="A3" src="a&lt;3>"/>
+<mapping dst="A0" src="a0"/>
+<mapping dst="Q&lt;1>" src="q&lt;1>"/>
+</reverse>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping dst="a0 a1 a&lt;2> a&lt;3> a&lt;4> clk q&lt;0> q&lt;1> q&lt;2> q&lt;3>" src="&lt;termOrder>"/>
+<mapping dst="q&lt;1>" src="Q&lt;1>"/>
+<mapping dst="A0 A1 A&lt;2> A&lt;3> A&lt;4> CLK Q&lt;0> Q&lt;1> Q&lt;2> Q&lt;3>" src="&lt;unmappedTermOrder>"/>
+<mapping dst="q&lt;0>" src="Q&lt;0>"/>
+<mapping dst="q" src="Q"/>
+<mapping dst="q&lt;3>" src="Q&lt;3>"/>
+<mapping dst="a&lt;4>" src="A&lt;4>"/>
+<mapping dst="q&lt;2>" src="Q&lt;2>"/>
+<mapping dst="clk" src="CLK"/>
+<mapping dst="a&lt;3>" src="A&lt;3>"/>
+<mapping dst="a&lt;2>" src="A&lt;2>"/>
+<mapping dst="a" src="A"/>
+<mapping dst="a1" src="A1"/>
+<mapping dst="a0" src="A0"/>
+</forward>
+<reverse>
+<mapping dst="&lt;termOrder>" src="a0 a1 a&lt;2> a&lt;3> a&lt;4> clk q&lt;0> q&lt;1> q&lt;2> q&lt;3>"/>
+<mapping dst="Q" src="q"/>
+<mapping dst="&lt;unmappedTermOrder>" src="A0 A1 A&lt;2> A&lt;3> A&lt;4> CLK Q&lt;0> Q&lt;1> Q&lt;2> Q&lt;3>"/>
+<mapping dst="Q&lt;0>" src="q&lt;0>"/>
+<mapping dst="A&lt;4>" src="a&lt;4>"/>
+<mapping dst="Q&lt;3>" src="q&lt;3>"/>
+<mapping dst="A&lt;2>" src="a&lt;2>"/>
+<mapping dst="A" src="a"/>
+<mapping dst="Q&lt;2>" src="q&lt;2>"/>
+<mapping dst="CLK" src="clk"/>
+<mapping dst="A&lt;3>" src="a&lt;3>"/>
+<mapping dst="A1" src="a1"/>
+<mapping dst="Q&lt;1>" src="q&lt;1>"/>
+<mapping dst="A0" src="a0"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="bitcell">
+<instance name="I0"/>
+<instance name="I1"/>
+<instance name="I100"/>
+<instance name="I101"/>
+<instance name="I102"/>
+<instance name="I103"/>
+<instance name="I104"/>
+<instance name="I105"/>
+<instance name="I106"/>
+<instance name="I107"/>
+<instance name="I108"/>
+<instance name="I109"/>
+<instance name="I110"/>
+<instance name="I111"/>
+<instance name="I112"/>
+<instance name="I113"/>
+<instance name="I114"/>
+<instance name="I115"/>
+<instance name="I116"/>
+<instance name="I117"/>
+<instance name="I118"/>
+<instance name="I119"/>
+<instance name="I120"/>
+<instance name="I121"/>
+<instance name="I122"/>
+<instance name="I123"/>
+<instance name="I124"/>
+<instance name="I125"/>
+<instance name="I126"/>
+<instance name="I127"/>
+<instance name="I128"/>
+<instance name="I129"/>
+<instance name="I130"/>
+<instance name="I131"/>
+<instance name="I132"/>
+<instance name="I133"/>
+<instance name="I134"/>
+<instance name="I135"/>
+<instance name="I136"/>
+<instance name="I137"/>
+<instance name="I138"/>
+<instance name="I139"/>
+<instance name="I16"/>
+<instance name="I17"/>
+<instance name="I18"/>
+<instance name="I19"/>
+<instance name="I2"/>
+<instance name="I20"/>
+<instance name="I21"/>
+<instance name="I22"/>
+<instance name="I23"/>
+<instance name="I24"/>
+<instance name="I25"/>
+<instance name="I26"/>
+<instance name="I27"/>
+<instance name="I28"/>
+<instance name="I29"/>
+<instance name="I3"/>
+<instance name="I30"/>
+<instance name="I31"/>
+<instance name="I32"/>
+<instance name="I33"/>
+<instance name="I34"/>
+<instance name="I35"/>
+<instance name="I36"/>
+<instance name="I37"/>
+<instance name="I38"/>
+<instance name="I39"/>
+<instance name="I40"/>
+<instance name="I41"/>
+<instance name="I42"/>
+<instance name="I43"/>
+<instance name="I44"/>
+<instance name="I45"/>
+<instance name="I46"/>
+<instance name="I47"/>
+<instance name="I48"/>
+<instance name="I49"/>
+<instance name="I50"/>
+<instance name="I51"/>
+<instance name="I52"/>
+<instance name="I53"/>
+<instance name="I54"/>
+<instance name="I55"/>
+<instance name="I56"/>
+<instance name="I57"/>
+<instance name="I58"/>
+<instance name="I59"/>
+<instance name="I60"/>
+<instance name="I61"/>
+<instance name="I62"/>
+<instance name="I63"/>
+<instance name="I64"/>
+<instance name="I65"/>
+<instance name="I66"/>
+<instance name="I67"/>
+<instance name="I68"/>
+<instance name="I69"/>
+<instance name="I70"/>
+<instance name="I71"/>
+<instance name="I72"/>
+<instance name="I73"/>
+<instance name="I74"/>
+<instance name="I75"/>
+<instance name="I76"/>
+<instance name="I77"/>
+<instance name="I78"/>
+<instance name="I79"/>
+<instance name="I80"/>
+<instance name="I81"/>
+<instance name="I82"/>
+<instance name="I83"/>
+<instance name="I84"/>
+<instance name="I85"/>
+<instance name="I86"/>
+<instance name="I87"/>
+<instance name="I88"/>
+<instance name="I89"/>
+<instance name="I90"/>
+<instance name="I91"/>
+<instance name="I92"/>
+<instance name="I93"/>
+<instance name="I94"/>
+<instance name="I95"/>
+<instance name="I96"/>
+<instance name="I97"/>
+<instance name="I98"/>
+<instance name="I99"/>
+</instance_header>
+<instance_header master="column_decoder">
+<instance name="I141"/>
+</instance_header>
+<instance_header master="nmos">
+<instance name="M191"/>
+<instance name="M192"/>
+<instance name="M193"/>
+<instance name="M194"/>
+</instance_header>
+<instance_header master="rowdecoder">
+<instance name="I142"/>
+</instance_header>
+<instance_header master="tspc_flip_flop">
+<instance name="I143"/>
+<instance name="I144"/>
+<instance name="I145"/>
+<instance name="I146"/>
+</instance_header>
+<instance_header master="vdc">
+<instance name="V190"/>
+</instance_header>
+<instance_header master="vpulse">
+<instance name="V181"/>
+<instance name="V182"/>
+<instance name="V183"/>
+<instance name="V184"/>
+<instance name="V185"/>
+<instance name="V186"/>
+<instance name="V196"/>
+</instance_header>
+</master_instances>
+</module>

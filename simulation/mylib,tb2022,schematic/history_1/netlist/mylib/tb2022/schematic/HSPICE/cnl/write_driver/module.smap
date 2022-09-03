@@ -1,0 +1,64 @@
+<module name="vsl: mylib Write_Driver schematic vl: hspice hspiceD schematic spice veriloga">
+<scope name="Instance">
+<forward>
+<mapping src="I8" dst="xi8"/>
+<mapping src="I9" dst="xi9"/>
+<mapping src="M0" dst="m0"/>
+<mapping src="M1" dst="m1"/>
+<mapping src="M2" dst="m2"/>
+<mapping src="M3" dst="m3"/>
+</forward>
+<reverse>
+<mapping src="xi9" dst="I9"/>
+<mapping src="m1" dst="M1"/>
+<mapping src="m0" dst="M0"/>
+<mapping src="m2" dst="M2"/>
+<mapping src="xi8" dst="I8"/>
+<mapping src="m3" dst="M3"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward>
+<mapping src="Write_data" dst="write_data"/>
+<mapping src="WE" dst="we"/>
+<mapping src="BLB" dst="blb"/>
+<mapping src="BL" dst="bl"/>
+</forward>
+<reverse>
+<mapping src="write_data" dst="Write_data"/>
+<mapping src="we" dst="WE"/>
+<mapping src="blb" dst="BLB"/>
+<mapping src="bl" dst="BL"/>
+</reverse>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping src="WE" dst="we"/>
+<mapping src="Write_data" dst="write_data"/>
+<mapping src="&lt;unmappedTermOrder>" dst="BL BLB WE Write_data"/>
+<mapping src="BLB" dst="blb"/>
+<mapping src="BL" dst="bl"/>
+<mapping src="&lt;termOrder>" dst="bl blb we write_data"/>
+</forward>
+<reverse>
+<mapping src="BL BLB WE Write_data" dst="&lt;unmappedTermOrder>"/>
+<mapping src="we" dst="WE"/>
+<mapping src="write_data" dst="Write_data"/>
+<mapping src="bl blb we write_data" dst="&lt;termOrder>"/>
+<mapping src="blb" dst="BLB"/>
+<mapping src="bl" dst="BL"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="inv_2">
+<instance name="I8"/>
+<instance name="I9"/>
+</instance_header>
+<instance_header master="nmos">
+<instance name="M0"/>
+<instance name="M1"/>
+<instance name="M2"/>
+<instance name="M3"/>
+</instance_header>
+</master_instances>
+</module>

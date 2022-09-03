@@ -1,0 +1,20 @@
+<module name="vsl: analogLib res hspice">
+<scope name="Terminal">
+<forward>
+<mapping src="&lt;unmappedTermOrder>" dst="PLUS MINUS"/>
+<mapping src="&lt;termOrder>" dst="PLUS (FUNCTION\ minus(root(&quot;PLUS&quot;)))"/>
+<mapping src="MINUS" dst="(FUNCTION\ minus(root(&quot;PLUS&quot;)))"/>
+<mapping src="PLUS" dst=""/>
+</forward>
+<reverse>
+<mapping src="(FUNCTION\ minus(root(&quot;PLUS&quot;)))" dst="MINUS"/>
+<mapping src="PLUS (FUNCTION\ minus(root(&quot;PLUS&quot;)))" dst="&lt;termOrder>"/>
+<mapping src="" dst="PLUS"/>
+<mapping src="plus minus" dst="&lt;termOrder>"/>
+<mapping src="minus" dst="MINUS"/>
+<mapping src="PLUS MINUS" dst="&lt;unmappedTermOrder>"/>
+<mapping src="plus" dst="PLUS"/>
+</reverse>
+</scope>
+<master_instances/>
+</module>

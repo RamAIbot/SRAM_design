@@ -1,0 +1,17 @@
+VDD! 0 0 2496 2153 BPR bit_conditioning
+GND! 0 0 2497 1523 BPR bit_conditioning
+VDD! 0 0 2244 1954 M0A bit_conditioning
+BLB 0 0 2412 1783 M0A bit_conditioning
+VDD! 0 0 2580 1954 M0A bit_conditioning
+BL 0 0 2748 1783 M0A bit_conditioning
+2 0 0 2496 1910 M0B bit_conditioning
+BLB 0 0 2412 1720 M0B bit_conditioning
+BL 0 0 2748 1720 M0B bit_conditioning
+CLK 0 0 3000 1754 M0B bit_conditioning
+2 0 0 3084 1924 M0B bit_conditioning
+BLB 0 0 2412 1549 M1 bit_conditioning
+2 0 0 2664 1922 M1 bit_conditioning
+BL 0 0 2748 1549 M1 bit_conditioning
+CLK 0 0 3000 1566 M1 bit_conditioning
+2 0 0 3084 1924 M1 bit_conditioning
+2 0 0 2874 1924 M2 bit_conditioning

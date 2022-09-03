@@ -1,0 +1,277 @@
+[17:29:46.42] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[17:29:59.52] /o pw_shell Version PrimeWave Design Envrionment S-2021.09
+              /c Build  (OPT) compiled on Fri Aug 20 11:32:52 2021 for CentOS64 7.3
+              /c Execution time: Thu Apr  7 17:29:39 2022
+              /c Host: grendel28.ece.ncsu.edu
+              /c 
+              /c Copyright © 2004-2021 Synopsys, Inc.
+              /c This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, or distribution of this software is strictly prohibited.
+              /c 
+              /c 
+[17:29:59.67] /o /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/samples/basic
+[17:29:59.67] /o /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/samples/snpsDeviceLib
+[17:29:59.68] /o /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/samples/analogLib
+[17:29:59.68] /o /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/samples/sheets
+[17:29:59.68] /o /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/samples/parasitics
+[17:30:00.68] /o /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/syncust/NCSU_TechLib_FreePDK3
+[17:30:00.68] /o Loading: Callback files...
+[17:30:00.68] /o Loading: scripts/callbacks/callbacks.tcl
+[17:30:00.68] /o 
+              /c [INFO] : Loading display.drf from /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/syncust/NCSU_TechLib_FreePDK3
+              /c 
+              /c  if you wish to Load other display.drf, please set shell environment valiable "iPDK_load_display_NCSU_TechLib_FreePDK3" to value = 0
+[17:30:00.68] /o 
+[17:30:00.69] /w Warning: Could not set the value of preference xtDRCTool because it does not exist. (PREFERENCE-016)
+[17:30:00.69] /w Warning: Could not set the value of preference xtDRCICVRunsetFile because it does not exist. (PREFERENCE-016)
+[17:30:00.69] /w Warning: Could not set the value of preference xtDRCICVIncludePaths because it does not exist. (PREFERENCE-016)
+[17:30:00.69] /w Warning: Could not set the value of preference xtDRCLayDBFormat because it does not exist. (PREFERENCE-016)
+[17:30:00.69] /w Warning: Could not set the value of preference xtLVSTool because it does not exist. (PREFERENCE-016)
+[17:30:00.69] /w Warning: Could not set the value of preference xtLVSICVRunsetFile because it does not exist. (PREFERENCE-016)
+[17:30:00.69] /w Warning: Could not set the value of preference xtLVSICVIncludePaths because it does not exist. (PREFERENCE-016)
+[17:30:00.69] /w Warning: Could not set the value of preference xtLVSLayDBFormat because it does not exist. (PREFERENCE-016)
+[17:30:00.69] /w Warning: Could not set the value of preference xtLPELVSTool because it does not exist. (PREFERENCE-016)
+[17:30:00.70] /w Warning: Could not set the value of preference xtLPETool because it does not exist. (PREFERENCE-016)
+[17:30:00.70] /w Warning: Could not set the value of preference xtLPEOpenParasiticView because it does not exist. (PREFERENCE-016)
+[17:30:00.70] /w Warning: Could not set the value of preference xtStarTcadGrdFile because it does not exist. (PREFERENCE-016)
+[17:30:00.70] /w Warning: Could not set the value of preference xtLPEStarOADeviceMappingFile because it does not exist. (PREFERENCE-016)
+[17:30:00.70] /w Warning: Could not set the value of preference xtStarOALayerMappingFile because it does not exist. (PREFERENCE-016)
+[17:30:00.70] /o 	#######################################
+[17:30:00.70] /o 	CC-PDK Library Name	: FreePDK3
+[17:30:00.70] /o 	#######################################
+[17:30:00.70] /o 
+[17:30:00.93] /i ::sa::_backgroundSaeShell::signalProcessReady 1649366978
+[17:30:00.94] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 22
+[17:30:23.08] /i ::wf::viewerExited
+[17:30:43.99] /i ::wf::viewerExited
+[17:31:16.48] /i ::wf::viewerExited
+[17:31:25.36] /i ::wf::viewerExited
+[17:34:50.48] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)
+[17:35:01.94] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[17:35:01.98] /i ::sa::_backgroundSaeShell::parentRunning
+[17:35:01.98] /o 1649367301
+[17:38:18.35] /i ::wf::viewerExited
+[17:40:02.96] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[17:40:02.98] /i ::sa::_backgroundSaeShell::parentRunning
+[17:40:02.98] /o 1649367602
+[17:45:03.98] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[17:45:04.18] /i ::sa::_backgroundSaeShell::parentRunning
+[17:45:04.18] /o 1649367904
+[17:46:24.88] /i ::wf::viewerExited
+[17:50:05.00] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[17:50:05.18] /i ::sa::_backgroundSaeShell::parentRunning
+[17:50:05.18] /o 1649368205
+[17:55:06.02] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[17:55:06.08] /i ::sa::_backgroundSaeShell::parentRunning
+[17:55:06.08] /o 1649368506
+[18:00:07.04] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:00:07.08] /i ::sa::_backgroundSaeShell::parentRunning
+[18:00:07.08] /o 1649368807
+[18:05:08.06] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:05:08.18] /i ::sa::_backgroundSaeShell::parentRunning
+[18:05:08.18] /o 1649369108
+[18:10:09.08] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:10:09.28] /i ::sa::_backgroundSaeShell::parentRunning
+[18:10:09.28] /o 1649369409
+[18:15:10.10] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:15:10.28] /i ::sa::_backgroundSaeShell::parentRunning
+[18:15:10.28] /o 1649369710
+[18:20:11.12] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:20:11.28] /i ::sa::_backgroundSaeShell::parentRunning
+[18:20:11.28] /o 1649370011
+[18:25:12.12] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:25:12.28] /i ::sa::_backgroundSaeShell::parentRunning
+[18:25:12.28] /o 1649370312
+[18:30:13.14] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:30:13.18] /i ::sa::_backgroundSaeShell::parentRunning
+[18:30:13.18] /o 1649370613
+[18:35:14.14] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:35:14.18] /i ::sa::_backgroundSaeShell::parentRunning
+[18:35:14.18] /o 1649370914
+[18:40:15.16] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:40:15.28] /i ::sa::_backgroundSaeShell::parentRunning
+[18:40:15.28] /o 1649371215
+[18:45:16.18] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:45:16.28] /i ::sa::_backgroundSaeShell::parentRunning
+[18:45:16.28] /o 1649371516
+[18:50:17.20] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:50:17.38] /i ::sa::_backgroundSaeShell::parentRunning
+[18:50:17.38] /o 1649371817
+[18:55:18.22] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:55:18.38] /i ::sa::_backgroundSaeShell::parentRunning
+[18:55:18.38] /o 1649372118
+[19:00:19.24] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[19:00:19.38] /i ::sa::_backgroundSaeShell::parentRunning
+[19:00:19.38] /o 1649372419
+[19:03:26.14] /i ::wf::viewerExited
+[19:05:20.26] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[19:05:20.38] /i ::sa::_backgroundSaeShell::parentRunning
+[19:05:20.38] /o 1649372720
+[19:10:21.28] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[19:10:21.48] /i ::sa::_backgroundSaeShell::parentRunning
+[19:10:21.48] /o 1649373021
+[19:11:51.48] /i ::wf::viewerExited
+[19:15:22.30] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[19:15:22.48] /i ::sa::_backgroundSaeShell::parentRunning
+[19:15:22.48] /o 1649373322
+[19:15:27.58] /i ::wf::viewerExited
+[19:20:23.32] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[19:20:23.38] /i ::sa::_backgroundSaeShell::parentRunning
+[19:20:23.38] /o 1649373623
+[19:20:57.78] /i ::wf::viewerExited
+[19:24:51.98] /i ::wf::viewerExited
+[19:25:24.34] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[19:25:24.48] /i ::sa::_backgroundSaeShell::parentRunning
+[19:25:24.48] /o 1649373924
+[19:30:25.36] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[19:30:25.48] /i ::sa::_backgroundSaeShell::parentRunning
+[19:30:25.48] /o 1649374225
+[19:35:26.38] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[19:35:26.58] /i ::sa::_backgroundSaeShell::parentRunning
+[19:35:26.58] /o 1649374526
+[19:40:27.40] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[19:40:27.48] /i ::sa::_backgroundSaeShell::parentRunning
+[19:40:27.48] /o 1649374827
+[19:45:28.42] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[19:45:28.58] /i ::sa::_backgroundSaeShell::parentRunning
+[19:45:28.58] /o 1649375128
+[19:50:29.44] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[19:50:29.58] /i ::sa::_backgroundSaeShell::parentRunning
+[19:50:29.58] /o 1649375429
+[19:54:05.58] /i ::wf::viewerExited
+[19:55:30.46] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[19:55:30.48] /i ::sa::_backgroundSaeShell::parentRunning
+[19:55:30.48] /o 1649375730
+[19:56:26.18] /i ::wf::viewerExited
+[20:00:31.46] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[20:00:31.48] /i ::sa::_backgroundSaeShell::parentRunning
+[20:00:31.48] /o 1649376031
+[20:04:07.77] /i ::wf::viewerExited
+[20:05:32.48] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[20:05:32.68] /i ::sa::_backgroundSaeShell::parentRunning
+[20:05:32.68] /o 1649376332
+[20:08:20.05] /i ::wf::viewerExited
+[20:10:26.59] /i ::wf::viewerExited
+[20:10:33.50] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[20:10:33.58] /i ::sa::_backgroundSaeShell::parentRunning
+[20:10:33.58] /o 1649376633
+[20:11:45.59] /i ::wf::viewerExited
+[20:15:34.52] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[20:15:34.58] /i ::sa::_backgroundSaeShell::parentRunning
+[20:15:34.58] /o 1649376934
+[20:18:24.91] /i ::wf::viewerExited
+[20:20:35.54] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[20:20:35.58] /i ::sa::_backgroundSaeShell::parentRunning
+[20:20:35.58] /o 1649377235
+[20:25:36.56] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[20:25:36.68] /i ::sa::_backgroundSaeShell::parentRunning
+[20:25:36.68] /o 1649377536
+[20:30:37.58] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[20:30:37.78] /i ::sa::_backgroundSaeShell::parentRunning
+[20:30:37.78] /o 1649377837
+[20:35:38.58] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[20:35:38.68] /i ::sa::_backgroundSaeShell::parentRunning
+[20:35:38.68] /o 1649378138
+[20:40:39.60] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[20:40:39.68] /i ::sa::_backgroundSaeShell::parentRunning
+[20:40:39.68] /o 1649378439
+[20:45:40.62] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[20:45:40.68] /i ::sa::_backgroundSaeShell::parentRunning
+[20:45:40.68] /o 1649378740
+[20:50:41.64] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[20:50:41.78] /i ::sa::_backgroundSaeShell::parentRunning
+[20:50:41.78] /o 1649379041
+[20:55:42.66] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[20:55:42.78] /i ::sa::_backgroundSaeShell::parentRunning
+[20:55:42.78] /o 1649379342
+[21:00:43.68] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:00:43.88] /i ::sa::_backgroundSaeShell::parentRunning
+[21:00:43.88] /o 1649379643
+[21:05:44.70] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:05:44.78] /i ::sa::_backgroundSaeShell::parentRunning
+[21:05:44.78] /o 1649379944
+[21:10:45.72] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:10:45.78] /i ::sa::_backgroundSaeShell::parentRunning
+[21:10:45.78] /o 1649380245
+[21:13:32.56] /i ::wf::viewerExited
+[21:15:46.74] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:15:46.78] /i ::sa::_backgroundSaeShell::parentRunning
+[21:15:46.78] /o 1649380546
+[21:20:47.76] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:20:47.88] /i ::sa::_backgroundSaeShell::parentRunning
+[21:20:47.88] /o 1649380847
+[21:24:54.08] /i ::wf::viewerExited
+[21:25:48.78] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:25:48.98] /i ::sa::_backgroundSaeShell::parentRunning
+[21:25:48.98] /o 1649381148
+[21:30:49.80] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:30:49.98] /i ::sa::_backgroundSaeShell::parentRunning
+[21:30:49.98] /o 1649381449
+[21:35:50.82] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:35:50.88] /i ::sa::_backgroundSaeShell::parentRunning
+[21:35:50.88] /o 1649381750
+[21:40:51.84] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:40:51.88] /i ::sa::_backgroundSaeShell::parentRunning
+[21:40:51.88] /o 1649382051
+[21:45:52.86] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:45:52.88] /i ::sa::_backgroundSaeShell::parentRunning
+[21:45:52.88] /o 1649382352
+[21:47:45.38] /i ::wf::viewerExited
+[21:50:53.88] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:50:53.98] /i ::sa::_backgroundSaeShell::parentRunning
+[21:50:53.98] /o 1649382653
+[21:55:54.90] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:55:55.08] /i ::sa::_backgroundSaeShell::parentRunning
+[21:55:55.08] /o 1649382955
+[21:55:58.18] /i ::wf::viewerExited
+[22:00:55.92] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[22:00:55.98] /i ::sa::_backgroundSaeShell::parentRunning
+[22:00:55.98] /o 1649383255
+[22:05:56.94] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[22:05:57.08] /i ::sa::_backgroundSaeShell::parentRunning
+[22:05:57.08] /o 1649383557
+[22:09:01.98] /i ::wf::viewerExited
+[22:10:57.96] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[22:10:58.08] /i ::sa::_backgroundSaeShell::parentRunning
+[22:10:58.08] /o 1649383858
+[22:11:26.98] /i ::wf::viewerExited
+[22:15:58.96] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[22:15:59.08] /i ::sa::_backgroundSaeShell::parentRunning
+[22:15:59.08] /o 1649384159
+[22:19:05.18] /i ::wf::viewerExited
+[22:20:59.98] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[22:21:00.08] /i ::sa::_backgroundSaeShell::parentRunning
+[22:21:00.08] /o 1649384460
+[22:21:51.68] /i ::wf::viewerExited
+[22:25:01.88] /i ::wf::viewerExited
+[22:26:01.00] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[22:26:01.08] /i ::sa::_backgroundSaeShell::parentRunning
+[22:26:01.08] /o 1649384761
+[22:28:49.28] /i ::wf::viewerExited
+[22:31:02.02] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[22:31:02.18] /i ::sa::_backgroundSaeShell::parentRunning
+[22:31:02.18] /o 1649385062
+[22:36:03.04] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[22:36:03.18] /i ::sa::_backgroundSaeShell::parentRunning
+[22:36:03.18] /o 1649385363
+[22:37:10.58] /i ::wf::viewerExited
+[22:39:46.78] /i ::wf::viewerExited
+[22:41:04.06] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[22:41:04.18] /i ::sa::_backgroundSaeShell::parentRunning
+[22:41:04.18] /o 1649385664
+[22:43:58.28] /i ::wf::viewerExited
+[22:46:05.08] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[22:46:05.28] /i ::sa::_backgroundSaeShell::parentRunning
+[22:46:05.28] /o 1649385965
+[22:46:53.18] /i ::wf::viewerExited
+[22:51:06.10] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[22:51:06.18] /i ::sa::_backgroundSaeShell::parentRunning
+[22:51:06.18] /o 1649386266
+[22:56:07.12] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[22:56:07.28] /i ::sa::_backgroundSaeShell::parentRunning
+[22:56:07.28] /o 1649386567
+[23:01:08.14] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[23:01:08.18] /i ::sa::_backgroundSaeShell::parentRunning
+[23:01:08.18] /o 1649386868
+[23:03:54.46] /i ::sa::_backgroundSaeShell::exit
+[23:03:54.46] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting
+[23:03:55.06] /m Information: License 'Apex' checked in. (LICENSE-004)

@@ -1,0 +1,34 @@
+{netlist .sch.net
+{version 3 1 0}
+{net_global vdd! gnd! }
+{cell tspc_flip_flop
+{port CLK D Qbar}
+{inst MM20=nmos {TYPE MOS} 
+{pin Qbar=DRN net42=GATE gnd!=SRC}}
+{inst MM16=nmos {TYPE MOS} 
+{pin net42=DRN net38=GATE gnd!=SRC}}
+{inst MM10=nmos {TYPE MOS} 
+{pin net23=DRN net12=GATE gnd!=SRC}}
+{inst MM8=nmos {TYPE MOS} 
+{pin net38=DRN CLK=GATE net23=SRC}}
+{inst MM7=nmos {TYPE MOS} 
+{pin net16=DRN CLK=GATE gnd!=SRC}}
+{inst MM5=nmos {TYPE MOS} 
+{pin net12=DRN net8=GATE net16=SRC}}
+{inst MM2=nmos {TYPE MOS} 
+{pin net8=DRN D=GATE gnd!=SRC}}
+{inst MM21=pmos {TYPE MOS} 
+{pin Qbar=DRN net42=GATE vdd!=SRC}}
+{inst MM17=pmos {TYPE MOS} 
+{pin net42=DRN net38=GATE vdd!=SRC}}
+{inst MM9=pmos {TYPE MOS} 
+{pin net38=DRN net12=GATE vdd!=SRC}}
+{inst MM6=pmos {TYPE MOS} 
+{pin net12=DRN CLK=GATE vdd!=SRC}}
+{inst MM4=pmos {TYPE MOS} 
+{pin net8=DRN CLK=GATE net7=SRC}}
+{inst MM3=pmos {TYPE MOS} 
+{pin net7=DRN D=GATE vdd!=SRC}}
+}
+
+}

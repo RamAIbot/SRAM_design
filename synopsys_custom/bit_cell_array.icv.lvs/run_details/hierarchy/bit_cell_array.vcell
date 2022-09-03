@@ -1,0 +1,31 @@
+********************************************************************
+
+Preprocess Step 11 : Vcell_pass Pairs Iteration   0 (   0 )
+
+ count    shift nameA                 nameB                overlaps shift      VCELL    overlap_area
+      120  X_   bitcell               -                       7   7 (  -0.336) VCELLR1             0.012
+       12  X_   bit_conditioning      -                       9   9 (  -0.252) VCELLR2             0.009
+ 2 New Array_id vcells
+
+ 0 New Pair vcells
+
+********************************************************************
+
+Preprocess Step 12 : Vcell_pass Pairs Iteration   0 (   1 )
+
+ count    shift nameA                 nameB                overlaps shift      VCELL    overlap_area
+       56  X_   VCELLR1               -                       3   3 (  -0.672) VCELLR3             0.016
+ 1 New Array_id vcells
+
+ 0 New Pair vcells
+
+********************************************************************
+
+Preprocess Step 13 : Vcell_pass Pairs Iteration   0 (   2 )
+
+ count    shift nameA                 nameB                overlaps shift      VCELL    overlap_area
+       24  X_   VCELLR3               -                       1   1 (  -1.344) VCELLR4             0.025
+ 1 New Array_id vcells
+
+ 0 New Pair vcells
+

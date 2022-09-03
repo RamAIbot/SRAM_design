@@ -1,0 +1,7 @@
+GND! 0 0 -1 -145 BPR inv_2
+VDD! 0 0 -1 485 BPR inv_2
+GND! 0 0 -84 -31 M0A inv_2
+VDD! 0 0 -84 286 M0A inv_2
+Z 0 0 84 170 M0A inv_2
+A 0 0 0 86 M0B inv_2
+Z 0 0 84 256 M0B inv_2

@@ -1,0 +1,63 @@
+<module name="vsl: mylib tri_state_buffer schematic vl: hspice hspiceD schematic spice veriloga">
+<scope name="Instance">
+<forward>
+<mapping dst="m3" src="M3"/>
+<mapping dst="m4" src="M4"/>
+<mapping dst="xi1" src="I1"/>
+<mapping dst="xi2" src="I2"/>
+<mapping dst="xi0" src="I0"/>
+</forward>
+<reverse>
+<mapping dst="M4" src="m4"/>
+<mapping dst="M3" src="m3"/>
+<mapping dst="I2" src="xi2"/>
+<mapping dst="I1" src="xi1"/>
+<mapping dst="I0" src="xi0"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward>
+<mapping dst="z" src="Z"/>
+<mapping dst="enable" src="ENABLE"/>
+<mapping dst="datain" src="DATAIN"/>
+</forward>
+<reverse>
+<mapping dst="Z" src="z"/>
+<mapping dst="DATAIN" src="datain"/>
+<mapping dst="ENABLE" src="enable"/>
+</reverse>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping dst="DATAIN ENABLE Z" src="&lt;unmappedTermOrder>"/>
+<mapping dst="z" src="Z"/>
+<mapping dst="enable" src="ENABLE"/>
+<mapping dst="datain enable z" src="&lt;termOrder>"/>
+<mapping dst="datain" src="DATAIN"/>
+</forward>
+<reverse>
+<mapping dst="&lt;unmappedTermOrder>" src="DATAIN ENABLE Z"/>
+<mapping dst="DATAIN" src="datain"/>
+<mapping dst="Z" src="z"/>
+<mapping dst="&lt;termOrder>" src="datain enable z"/>
+<mapping dst="ENABLE" src="enable"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="inv_2">
+<instance name="I2"/>
+</instance_header>
+<instance_header master="nand_2">
+<instance name="I0"/>
+</instance_header>
+<instance_header master="nmos">
+<instance name="M3"/>
+</instance_header>
+<instance_header master="nor_2">
+<instance name="I1"/>
+</instance_header>
+<instance_header master="pmos">
+<instance name="M4"/>
+</instance_header>
+</master_instances>
+</module>

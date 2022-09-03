@@ -1,0 +1,5 @@
+
+/* top equiv */
+equiv_options({{"and_2", "AND_2"}});
+
+/* Generated system equivalence points are listed in this section */

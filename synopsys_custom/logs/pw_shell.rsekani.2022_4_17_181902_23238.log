@@ -1,0 +1,46 @@
+[18:19:25.34] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[18:19:39.18] /o pw_shell Version PrimeWave Design Envrionment S-2021.09
+              /c Build  (OPT) compiled on Fri Aug 20 11:32:52 2021 for CentOS64 7.3
+              /c Execution time: Sun Apr 17 18:19:02 2022
+              /c Host: grendel29.ece.ncsu.edu
+              /c 
+              /c Copyright © 2004-2021 Synopsys, Inc.
+              /c This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, or distribution of this software is strictly prohibited.
+              /c 
+              /c 
+[18:19:39.32] /o /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/samples/basic
+[18:19:39.33] /o /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/samples/snpsDeviceLib
+[18:19:39.33] /o /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/samples/analogLib
+[18:19:39.34] /o /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/samples/sheets
+[18:19:39.34] /o /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/samples/parasitics
+[18:19:39.76] /o /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/syncust/NCSU_TechLib_FreePDK3
+[18:19:39.76] /o Loading: Callback files...
+[18:19:39.77] /o Loading: scripts/callbacks/callbacks.tcl
+[18:19:39.77] /o 
+              /c [INFO] : Loading display.drf from /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/syncust/NCSU_TechLib_FreePDK3
+              /c 
+              /c  if you wish to Load other display.drf, please set shell environment valiable "iPDK_load_display_NCSU_TechLib_FreePDK3" to value = 0
+[18:19:39.77] /o 
+[18:19:39.79] /w Warning: Could not set the value of preference xtDRCTool because it does not exist. (PREFERENCE-016)
+[18:19:39.79] /w Warning: Could not set the value of preference xtDRCICVRunsetFile because it does not exist. (PREFERENCE-016)
+[18:19:39.79] /w Warning: Could not set the value of preference xtDRCICVIncludePaths because it does not exist. (PREFERENCE-016)
+[18:19:39.79] /w Warning: Could not set the value of preference xtDRCLayDBFormat because it does not exist. (PREFERENCE-016)
+[18:19:39.79] /w Warning: Could not set the value of preference xtLVSTool because it does not exist. (PREFERENCE-016)
+[18:19:39.79] /w Warning: Could not set the value of preference xtLVSICVRunsetFile because it does not exist. (PREFERENCE-016)
+[18:19:39.79] /w Warning: Could not set the value of preference xtLVSICVIncludePaths because it does not exist. (PREFERENCE-016)
+[18:19:39.79] /w Warning: Could not set the value of preference xtLVSLayDBFormat because it does not exist. (PREFERENCE-016)
+[18:19:39.79] /w Warning: Could not set the value of preference xtLPELVSTool because it does not exist. (PREFERENCE-016)
+[18:19:39.79] /w Warning: Could not set the value of preference xtLPETool because it does not exist. (PREFERENCE-016)
+[18:19:39.79] /w Warning: Could not set the value of preference xtLPEOpenParasiticView because it does not exist. (PREFERENCE-016)
+[18:19:39.79] /w Warning: Could not set the value of preference xtStarTcadGrdFile because it does not exist. (PREFERENCE-016)
+[18:19:39.79] /w Warning: Could not set the value of preference xtLPEStarOADeviceMappingFile because it does not exist. (PREFERENCE-016)
+[18:19:39.79] /w Warning: Could not set the value of preference xtStarOALayerMappingFile because it does not exist. (PREFERENCE-016)
+[18:19:39.79] /o 	#######################################
+[18:19:39.79] /o 	CC-PDK Library Name	: FreePDK3
+[18:19:39.79] /o 	#######################################
+[18:19:39.79] /o 
+[18:19:39.84] /i ::sa::_backgroundSaeShell::signalProcessReady 1650233940
+[18:19:39.85] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 39
+[18:19:39.85] /i ::sa::_backgroundSaeShell::exit
+[18:19:39.85] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting
+[18:19:40.50] /m Information: License 'Apex' checked in. (LICENSE-004)

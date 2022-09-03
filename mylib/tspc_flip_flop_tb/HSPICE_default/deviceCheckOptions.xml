@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Tue Apr  5 20:31:48 2022-->
+<file-format name="stateCategory" version="1.0">
+ <object name="deviceCheckOptions" type="saDeviceCheckOptions" version="1">
+  <collection name="deviceCheckElements"/>
+  <collection name="deviceCheckExpressions"/>
+  <collection name="deviceCheckRegions"/>
+  <collection name="deviceCheckSizes"/>
+  <collection name="deviceCheckSubckts"/>
+  <attribute name="extraOptions" type="giString" value=""/>
+ </object>
+</file-format>

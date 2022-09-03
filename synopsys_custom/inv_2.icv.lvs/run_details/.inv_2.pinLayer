@@ -1,0 +1,3 @@
+DEVICE_COUNT 2
+0 1 nmos gPOLY.polygonlayer.0005 3 GATE gPOLY.polygonlayer.0005 SRC gNFINS.polygonlayer.0005 DRN gNFINS.polygonlayer.0005
+1 1 pmos gPOLY.polygonlayer.0005 3 GATE gPOLY.polygonlayer.0005 SRC gPFINS.polygonlayer.0005 DRN gPFINS.polygonlayer.0005

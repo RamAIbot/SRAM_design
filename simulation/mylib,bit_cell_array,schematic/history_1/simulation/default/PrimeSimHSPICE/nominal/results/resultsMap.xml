@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Thu Apr  7 01:53:59 2022-->
+<file-format version="1.0" name="saResultsMap">
+ <object version="1" type="saResultsMap" name="saResultsMap">
+  <attribute value="" type="giString" name="cornerParamNames"/>
+  <attribute value="." type="giString" name="masterResultsDir"/>
+  <attribute value="resultsMap.xml" type="giString" name="name"/>
+  <collection name="resultsInfo">
+   <object version="1" type="saResultsInfo" name="resultsInfo">
+    <attribute value="../netlist" type="giString" name="netlistDir"/>
+    <attribute value="." type="giString" name="resultsDir"/>
+    <attribute value="results.xml resultsACE.xml" type="giString" name="resultsFiles"/>
+   </object>
+  </collection>
+  <attribute value="." type="giString" name="resultsMapDir"/>
+  <attribute value="HSPICE" type="giString" name="simulator"/>
+  <attribute value="Thu Apr  7 01:53:59 2022" type="giString" name="timeStamp"/>
+ </object>
+</file-format>

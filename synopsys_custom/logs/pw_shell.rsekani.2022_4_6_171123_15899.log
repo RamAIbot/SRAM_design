@@ -1,0 +1,237 @@
+[17:11:35.56] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[17:11:52.62] /o pw_shell Version PrimeWave Design Envrionment S-2021.09
+              /c Build  (OPT) compiled on Fri Aug 20 11:32:52 2021 for CentOS64 7.3
+              /c Execution time: Wed Apr  6 17:11:23 2022
+              /c Host: grendel28.ece.ncsu.edu
+              /c 
+              /c Copyright © 2004-2021 Synopsys, Inc.
+              /c This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, or distribution of this software is strictly prohibited.
+              /c 
+              /c 
+[17:11:52.76] /o /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/samples/basic
+[17:11:52.78] /o /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/samples/snpsDeviceLib
+[17:11:52.78] /o /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/samples/analogLib
+[17:11:52.78] /o /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/samples/sheets
+[17:11:52.79] /o /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/samples/parasitics
+[17:11:53.39] /o /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/syncust/NCSU_TechLib_FreePDK3
+[17:11:53.39] /o Loading: Callback files...
+[17:11:53.40] /o Loading: scripts/callbacks/callbacks.tcl
+[17:11:53.40] /o 
+              /c [INFO] : Loading display.drf from /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/syncust/NCSU_TechLib_FreePDK3
+              /c 
+              /c  if you wish to Load other display.drf, please set shell environment valiable "iPDK_load_display_NCSU_TechLib_FreePDK3" to value = 0
+[17:11:53.40] /o 
+[17:11:53.41] /w Warning: Could not set the value of preference xtDRCTool because it does not exist. (PREFERENCE-016)
+[17:11:53.41] /w Warning: Could not set the value of preference xtDRCICVRunsetFile because it does not exist. (PREFERENCE-016)
+[17:11:53.41] /w Warning: Could not set the value of preference xtDRCICVIncludePaths because it does not exist. (PREFERENCE-016)
+[17:11:53.41] /w Warning: Could not set the value of preference xtDRCLayDBFormat because it does not exist. (PREFERENCE-016)
+[17:11:53.41] /w Warning: Could not set the value of preference xtLVSTool because it does not exist. (PREFERENCE-016)
+[17:11:53.41] /w Warning: Could not set the value of preference xtLVSICVRunsetFile because it does not exist. (PREFERENCE-016)
+[17:11:53.41] /w Warning: Could not set the value of preference xtLVSICVIncludePaths because it does not exist. (PREFERENCE-016)
+[17:11:53.41] /w Warning: Could not set the value of preference xtLVSLayDBFormat because it does not exist. (PREFERENCE-016)
+[17:11:53.41] /w Warning: Could not set the value of preference xtLPELVSTool because it does not exist. (PREFERENCE-016)
+[17:11:53.41] /w Warning: Could not set the value of preference xtLPETool because it does not exist. (PREFERENCE-016)
+[17:11:53.41] /w Warning: Could not set the value of preference xtLPEOpenParasiticView because it does not exist. (PREFERENCE-016)
+[17:11:53.41] /w Warning: Could not set the value of preference xtStarTcadGrdFile because it does not exist. (PREFERENCE-016)
+[17:11:53.41] /w Warning: Could not set the value of preference xtLPEStarOADeviceMappingFile because it does not exist. (PREFERENCE-016)
+[17:11:53.41] /w Warning: Could not set the value of preference xtStarOALayerMappingFile because it does not exist. (PREFERENCE-016)
+[17:11:53.41] /o 	#######################################
+[17:11:53.41] /o 	CC-PDK Library Name	: FreePDK3
+[17:11:53.41] /o 	#######################################
+[17:11:53.41] /o 
+[17:11:53.44] /i ::sa::_backgroundSaeShell::signalProcessReady 1649279482
+[17:11:53.45] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 31
+[17:11:53.50] /i ::sa::_backgroundSaeShell::runScript /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,column_decoder_test1,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession3 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,column_decoder_test1,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,column_decoder_test1,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,column_decoder_test1,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[17:11:53.83] /m Information: Loading preferences from /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,column_decoder_test1,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/pw_shell_session_prefs.xml
+[17:11:54.12] /m Information: Start incremental database creation...
+[17:11:54.16] /m Information: Create Iter role param id map
+[17:11:54.23] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.7 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession3 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,column_decoder_test1,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,column_decoder_test1,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,column_decoder_test1,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[17:11:54.23] /o false
+[17:11:54.23] /i ::wf::viewerExited
+[17:16:54.45] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[17:16:54.48] /i ::sa::_backgroundSaeShell::parentRunning
+[17:16:54.48] /o 1649279814
+[17:21:55.47] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[17:21:55.48] /i ::sa::_backgroundSaeShell::parentRunning
+[17:21:55.48] /o 1649280115
+[17:23:41.08] /i ::wf::viewerExited
+[17:23:42.42] /i ::sa::_backgroundSaeShell::runScript /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,column_decoder_test1,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession3 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,column_decoder_test1,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,column_decoder_test1,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,column_decoder_test1,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[17:23:42.42] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)
+[17:23:42.44] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[17:23:42.74] /m Information: Loading preferences from /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,column_decoder_test1,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/pw_shell_session_prefs.xml
+[17:23:42.90] /m Information: Start incremental database creation...
+[17:23:42.94] /m Information: Create Iter role param id map
+[17:23:43.00] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.5 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession3 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,column_decoder_test1,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,column_decoder_test1,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,column_decoder_test1,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[17:23:43.00] /o false
+[17:28:44.50] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[17:28:44.68] /i ::sa::_backgroundSaeShell::parentRunning
+[17:28:44.68] /o 1649280524
+[17:28:47.48] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)
+[17:33:45.50] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[17:33:45.58] /i ::sa::_backgroundSaeShell::parentRunning
+[17:33:45.58] /o 1649280825
+[17:38:46.52] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[17:38:46.68] /i ::sa::_backgroundSaeShell::parentRunning
+[17:38:46.68] /o 1649281126
+[17:43:30.88] /i ::wf::viewerExited
+[17:43:31.92] /i ::sa::_backgroundSaeShell::runScript /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,column_decoder_test1,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession3 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,column_decoder_test1,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,column_decoder_test1,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,column_decoder_test1,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[17:43:31.94] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[17:43:32.23] /m Information: Loading preferences from /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,column_decoder_test1,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/pw_shell_session_prefs.xml
+[17:43:32.37] /m Information: Start incremental database creation...
+[17:43:32.42] /m Information: Create Iter role param id map
+[17:43:32.48] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.5 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession3 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,column_decoder_test1,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,column_decoder_test1,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,column_decoder_test1,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[17:43:32.48] /o false
+[17:48:33.56] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[17:48:33.68] /i ::sa::_backgroundSaeShell::parentRunning
+[17:48:33.68] /o 1649281713
+[17:48:36.48] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)
+[17:53:34.58] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[17:53:34.78] /i ::sa::_backgroundSaeShell::parentRunning
+[17:53:34.78] /o 1649282014
+[17:58:35.60] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[17:58:35.78] /i ::sa::_backgroundSaeShell::parentRunning
+[17:58:35.78] /o 1649282315
+[18:03:36.62] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:03:36.78] /i ::sa::_backgroundSaeShell::parentRunning
+[18:03:36.78] /o 1649282616
+[18:08:37.64] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:08:37.78] /i ::sa::_backgroundSaeShell::parentRunning
+[18:08:37.78] /o 1649282917
+[18:13:38.66] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:13:38.78] /i ::sa::_backgroundSaeShell::parentRunning
+[18:13:38.78] /o 1649283218
+[18:18:39.68] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:18:39.88] /i ::sa::_backgroundSaeShell::parentRunning
+[18:18:39.88] /o 1649283519
+[18:23:40.70] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:23:40.88] /i ::sa::_backgroundSaeShell::parentRunning
+[18:23:40.88] /o 1649283820
+[18:28:41.72] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:28:41.88] /i ::sa::_backgroundSaeShell::parentRunning
+[18:28:41.88] /o 1649284121
+[18:33:42.74] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:33:42.88] /i ::sa::_backgroundSaeShell::parentRunning
+[18:33:42.88] /o 1649284422
+[18:38:43.76] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:38:43.88] /i ::sa::_backgroundSaeShell::parentRunning
+[18:38:43.88] /o 1649284723
+[18:43:44.78] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:43:44.98] /i ::sa::_backgroundSaeShell::parentRunning
+[18:43:44.98] /o 1649285024
+[18:48:45.80] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:48:45.98] /i ::sa::_backgroundSaeShell::parentRunning
+[18:48:45.98] /o 1649285325
+[18:53:46.82] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:53:46.88] /i ::sa::_backgroundSaeShell::parentRunning
+[18:53:46.88] /o 1649285626
+[18:58:47.84] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:58:47.88] /i ::sa::_backgroundSaeShell::parentRunning
+[18:58:47.88] /o 1649285927
+[19:03:48.86] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[19:03:48.88] /i ::sa::_backgroundSaeShell::parentRunning
+[19:03:48.88] /o 1649286228
+[19:08:49.88] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[19:08:49.98] /i ::sa::_backgroundSaeShell::parentRunning
+[19:08:49.98] /o 1649286529
+[19:13:50.90] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[19:13:50.98] /i ::sa::_backgroundSaeShell::parentRunning
+[19:13:50.98] /o 1649286830
+[19:18:51.92] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[19:18:51.98] /i ::sa::_backgroundSaeShell::parentRunning
+[19:18:51.98] /o 1649287131
+[19:23:52.94] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[19:23:53.08] /i ::sa::_backgroundSaeShell::parentRunning
+[19:23:53.08] /o 1649287433
+[19:28:53.96] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[19:28:53.98] /i ::sa::_backgroundSaeShell::parentRunning
+[19:28:53.98] /o 1649287733
+[19:33:54.98] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[19:33:55.08] /i ::sa::_backgroundSaeShell::parentRunning
+[19:33:55.08] /o 1649288035
+[19:38:56.00] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[19:38:56.18] /i ::sa::_backgroundSaeShell::parentRunning
+[19:38:56.18] /o 1649288336
+[19:43:57.02] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[19:43:57.18] /i ::sa::_backgroundSaeShell::parentRunning
+[19:43:57.18] /o 1649288637
+[19:48:58.04] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[19:48:58.08] /i ::sa::_backgroundSaeShell::parentRunning
+[19:48:58.08] /o 1649288938
+[19:53:59.06] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[19:53:59.08] /i ::sa::_backgroundSaeShell::parentRunning
+[19:53:59.08] /o 1649289239
+[19:59:00.08] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[19:59:00.28] /i ::sa::_backgroundSaeShell::parentRunning
+[19:59:00.28] /o 1649289540
+[20:04:01.10] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[20:04:01.28] /i ::sa::_backgroundSaeShell::parentRunning
+[20:04:01.28] /o 1649289841
+[20:09:02.12] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[20:09:02.18] /i ::sa::_backgroundSaeShell::parentRunning
+[20:09:02.18] /o 1649290142
+[20:14:03.14] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[20:14:03.18] /i ::sa::_backgroundSaeShell::parentRunning
+[20:14:03.18] /o 1649290443
+[20:19:04.16] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[20:19:04.28] /i ::sa::_backgroundSaeShell::parentRunning
+[20:19:04.28] /o 1649290744
+[20:24:05.18] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[20:24:05.28] /i ::sa::_backgroundSaeShell::parentRunning
+[20:24:05.28] /o 1649291045
+[20:29:06.20] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[20:29:06.28] /i ::sa::_backgroundSaeShell::parentRunning
+[20:29:06.28] /o 1649291346
+[20:34:07.22] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[20:34:07.28] /i ::sa::_backgroundSaeShell::parentRunning
+[20:34:07.28] /o 1649291647
+[20:39:08.24] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[20:39:08.28] /i ::sa::_backgroundSaeShell::parentRunning
+[20:39:08.28] /o 1649291948
+[20:44:09.26] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[20:44:09.28] /i ::sa::_backgroundSaeShell::parentRunning
+[20:44:09.28] /o 1649292249
+[20:49:10.28] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[20:49:10.38] /i ::sa::_backgroundSaeShell::parentRunning
+[20:49:10.38] /o 1649292550
+[20:54:11.30] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[20:54:11.48] /i ::sa::_backgroundSaeShell::parentRunning
+[20:54:11.48] /o 1649292851
+[20:59:12.32] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[20:59:12.48] /i ::sa::_backgroundSaeShell::parentRunning
+[20:59:12.48] /o 1649293152
+[21:04:13.34] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:04:13.48] /i ::sa::_backgroundSaeShell::parentRunning
+[21:04:13.48] /o 1649293453
+[21:09:14.36] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:09:14.48] /i ::sa::_backgroundSaeShell::parentRunning
+[21:09:14.48] /o 1649293754
+[21:14:15.38] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:14:15.48] /i ::sa::_backgroundSaeShell::parentRunning
+[21:14:15.48] /o 1649294055
+[21:19:16.40] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:19:16.48] /i ::sa::_backgroundSaeShell::parentRunning
+[21:19:16.48] /o 1649294356
+[21:24:17.42] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:24:17.48] /i ::sa::_backgroundSaeShell::parentRunning
+[21:24:17.48] /o 1649294657
+[21:29:18.44] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:29:18.58] /i ::sa::_backgroundSaeShell::parentRunning
+[21:29:18.58] /o 1649294958
+[21:34:19.46] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:34:19.58] /i ::sa::_backgroundSaeShell::parentRunning
+[21:34:19.58] /o 1649295259
+[21:39:20.48] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:39:20.58] /i ::sa::_backgroundSaeShell::parentRunning
+[21:39:20.58] /o 1649295560
+[21:44:21.49] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:44:21.58] /i ::sa::_backgroundSaeShell::parentRunning
+[21:44:21.58] /o 1649295861
+[21:49:22.51] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:49:22.58] /i ::sa::_backgroundSaeShell::parentRunning
+[21:49:22.58] /o 1649296162
+[21:54:23.51] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:54:23.68] /i ::sa::_backgroundSaeShell::parentRunning
+[21:54:23.68] /o 1649296463
+[21:59:24.53] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:59:24.58] /i ::sa::_backgroundSaeShell::parentRunning
+[21:59:24.58] /o 1649296764

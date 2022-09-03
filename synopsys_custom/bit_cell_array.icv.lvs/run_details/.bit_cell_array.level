@@ -1,0 +1,18 @@
+nor_5 2
+1-nmos
+1-pmos
+bitcell 2
+1-nmos
+1-pmos
+and_2 2
+1-nmos
+1-pmos
+inv_2 2
+1-nmos
+1-pmos
+tspc_flip_flop 2
+1-nmos
+1-pmos
+inverter_write_driver 2
+1-nmos
+1-pmos

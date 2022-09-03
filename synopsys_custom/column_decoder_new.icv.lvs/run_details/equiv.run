@@ -1,0 +1,5 @@
+
+/* top equiv */
+equiv_options({{"column_decoder_new", "COLUMN_DECODER_NEW"}});
+
+/* Generated system equivalence points are listed in this section */

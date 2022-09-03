@@ -1,0 +1,45 @@
+<module name="vsl: mylib Write_Driver schematic vl: auCdl schematic symbol">
+<scope name="Instance">
+<forward>
+<mapping src="I8" dst="XI8"/>
+<mapping src="I9" dst="XI9"/>
+<mapping src="M0" dst="MM0"/>
+<mapping src="M1" dst="MM1"/>
+<mapping src="M2" dst="MM2"/>
+<mapping src="M3" dst="MM3"/>
+</forward>
+<reverse>
+<mapping src="XI8" dst="I8"/>
+<mapping src="XI9" dst="I9"/>
+<mapping src="MM0" dst="M0"/>
+<mapping src="MM1" dst="M1"/>
+<mapping src="MM2" dst="M2"/>
+<mapping src="MM3" dst="M3"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward/>
+<reverse/>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping src="&lt;unmappedTermOrder>" dst="BL BLB WE Write_data"/>
+<mapping src="&lt;termOrder>" dst="BL BLB WE Write_data"/>
+</forward>
+<reverse>
+<mapping src="BL BLB WE Write_data" dst="&lt;unmappedTermOrder>"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="inv_2">
+<instance name="I8"/>
+<instance name="I9"/>
+</instance_header>
+<instance_header master="nmos">
+<instance name="M0"/>
+<instance name="M1"/>
+<instance name="M2"/>
+<instance name="M3"/>
+</instance_header>
+</master_instances>
+</module>

@@ -1,0 +1,8 @@
+tspc_flip_flop
+	Cell Level Device Counts
+		NMOS[nmos] = 7
+		PMOS[pmos] = 6
+
+********  DEVICE EXTRACTION STATS    TOPBLOCK = tspc_flip_flop  *******
+		NMOS[nmos] = 7
+		PMOS[pmos] = 6

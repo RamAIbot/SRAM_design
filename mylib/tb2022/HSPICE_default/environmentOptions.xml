@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Tue Apr 19 14:56:23 2022-->
+<file-format version="1.0" name="stateCategory">
+ <object version="1" name="environmentOptions" type="saEnvironmentOptions">
+  <attribute name="accuracyLevel" value="runlvl" type="giString"/>
+  <attribute name="caseSensitive" value="0" type="giBoolean"/>
+  <attribute name="commandLineOptions" value="" type="giString"/>
+  <attribute name="enableMultiThreading" value="0" type="giBoolean"/>
+  <attribute name="hpp" value="0" type="giBoolean"/>
+  <attribute name="ignoreParasitics" value="0" type="giBoolean"/>
+  <attribute name="includePath" value="/afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/syncust/NCSU_TechLib_FreePDK3/../../hspice/models/" type="giString"/>
+  <attribute name="netlistLanguage" value="HSPICE" type="giString"/>
+  <attribute name="numThreads" value="1" type="giInt"/>
+  <attribute name="outputDataFormat" value="wdf" type="giString"/>
+  <attribute name="stopViewList" value="hspice hspiceD" type="giString"/>
+  <attribute name="switchViewList" value="hspice hspiceD schematic spice veriloga" type="giString"/>
+  <attribute name="use64Bit" value="1" type="giBoolean"/>
+ </object>
+</file-format>

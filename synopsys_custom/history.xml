@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler (TM), build #, on Tue May  3 21:19:04 2022
+-->
+<synopsysFile name="synopsysRecentFiles" version="1.1">
+        <recentFiles>
+                <file mode="read" view="schematic" library="mylib" cell="Write_Driver" file="schematic"/>
+                <file mode="write" view="layout" library="mylib" cell="bit_conditioning" file="maskLayout"/>
+                <file mode="write" view="layout" library="mylib" cell="Write_Driver" file="maskLayout"/>
+                <file mode="read" view="schematic" library="mylib" cell="bitcell" file="schematic"/>
+                <file mode="write" view="layout" library="mylib" cell="bitcell" file="maskLayout"/>
+        </recentFiles>
+</synopsysFile>

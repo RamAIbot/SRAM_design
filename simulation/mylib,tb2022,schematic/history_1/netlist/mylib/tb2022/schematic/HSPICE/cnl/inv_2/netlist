@@ -1,0 +1,12 @@
+********************************************************************************
+* Library          : mylib
+* Cell             : inv_2
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt inv_2 a z
+m0 z a gnd! nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m1 z a vdd! pfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+.ends inv_2
+

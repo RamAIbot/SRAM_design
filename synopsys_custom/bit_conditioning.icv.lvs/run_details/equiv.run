@@ -1,0 +1,5 @@
+
+/* top equiv */
+equiv_options({{"bit_conditioning", "BIT_CONDITIONING"}});
+
+/* Generated system equivalence points are listed in this section */

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Fri Apr  8 01:38:05 2022-->
+<file-format name="netlisting-timestamps" version="2.0">
+<module viewSearchList="hspice hspiceD schematic spice veriloga" contextID="switched: mylib column_decoder schematic vl: hspice hspiceD schematic spice veriloga sl: hspice hspiceD" isSubcircuit="1" timestamp="3395" viewStopList="hspice hspiceD">
+<parameterizedConnections>
+<connectDefs timestamp="0"/>
+<oaAssignments timestamp="0"/>
+<dbAssignValue timestamp="0"/>
+<dbAssignAssignment timestamp="0"/>
+</parameterizedConnections>
+<parameters timestamp="13"/>
+<lib_parameters/>
+<LineageParams/>
+<ParentParams/>
+<Terms timestamp="3388"/>
+<PortOrder><![CDATA[A0A1B0B1B2B3B4B5B6B7B8B9B10B11B12B13B14B15Bit0Bit1Bit2Bit3]]></PortOrder>
+<ShortOptions timestamp="3580584169"/>
+</module>
+</file-format>

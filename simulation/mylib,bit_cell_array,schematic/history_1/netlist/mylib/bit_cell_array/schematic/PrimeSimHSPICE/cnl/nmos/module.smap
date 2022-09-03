@@ -1,0 +1,23 @@
+<module name="vsl: NCSU_TechLib_FreePDK3 nmos hspiceD">
+<scope name="Terminal">
+<forward>
+<mapping dst="D G S" src="&lt;unmappedTermOrder>"/>
+<mapping dst="\,D \,G \,S" src="&lt;termOrder>"/>
+<mapping dst="\,S" src="S"/>
+<mapping dst="\,G" src="G"/>
+<mapping dst="\,D" src="D"/>
+</forward>
+<reverse>
+<mapping dst="S" src="\,S"/>
+<mapping dst="G" src="\,G"/>
+<mapping dst="&lt;unmappedTermOrder>" src="D G S"/>
+<mapping dst="D" src="\,D"/>
+<mapping dst="&lt;termOrder>" src="d g s"/>
+<mapping dst="&lt;termOrder>" src="\,D \,G \,S"/>
+<mapping dst="S" src="s"/>
+<mapping dst="G" src="g"/>
+<mapping dst="D" src="d"/>
+</reverse>
+</scope>
+<master_instances/>
+</module>

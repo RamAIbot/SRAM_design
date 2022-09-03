@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Wed May  4 03:44:42 2022-->
+<file-format name="saResults" version="1.0">
+ <object type="saResults" name="saResults" version="1">
+  <attribute type="giString" name="name" value="resultsMap.xml"/>
+  <attribute type="giString" name="netlistDir" value="../netlist"/>
+  <collection name="resultFiles">
+   <object type="saResultFile" name="resultFiles" version="1">
+    <attribute type="giString" name="analysisName" value="tranMeasure"/>
+    <attribute type="giString" name="filename" value="hspice.mt0"/>
+    <attribute type="giString" name="format" value="wdf"/>
+    <attribute type="giString" name="resultType" value="tranMeasure"/>
+   </object>
+   <object type="saResultFile" name="resultFiles" version="1">
+    <attribute type="giString" name="analysisName" value="tran"/>
+    <attribute type="giString" name="filename" value="hspice_wdf.tr0"/>
+    <attribute type="giString" name="format" value="wdf"/>
+    <attribute type="giString" name="resultType" value="tran"/>
+   </object>
+   <object type="saResultFile" name="resultFiles" version="1">
+    <attribute type="giString" name="analysisName" value=""/>
+    <attribute type="giString" name="filename" value="designVariables.wdf"/>
+    <attribute type="giString" name="format" value="wdf"/>
+    <attribute type="giString" name="resultType" value="variables"/>
+   </object>
+  </collection>
+  <attribute type="giString" name="resultsDir" value="."/>
+  <attribute type="giString" name="runTime" value="Wed May  4 03:44:42 2022"/>
+  <attribute type="giString" name="simulator" value="HSPICE"/>
+  <attribute type="giString" name="version" value=""/>
+ </object>
+</file-format>

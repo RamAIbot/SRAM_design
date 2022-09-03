@@ -1,0 +1,702 @@
+00400000-18e1e000 r-xp 00000000 00:2c 8306071896                         /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/platform/bin/nti_shell
+18e1f000-19666000 r-xp 18a1e000 00:2c 8306071896                         /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/platform/bin/nti_shell
+19666000-19824000 rwxp 19265000 00:2c 8306071896                         /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/platform/bin/nti_shell
+19824000-1cedf000 rwxp 00000000 00:00 0 
+1eb67000-2e0b3000 rwxp 00000000 00:00 0                                  [heap]
+7fd848000000-7fd848021000 rwxp 00000000 00:00 0 
+7fd848021000-7fd84c000000 ---p 00000000 00:00 0 
+7fd84c000000-7fd84c021000 rwxp 00000000 00:00 0 
+7fd84c021000-7fd850000000 ---p 00000000 00:00 0 
+7fd8537ff000-7fd853800000 ---p 00000000 00:00 0 
+7fd853800000-7fd854000000 rwxp 00000000 00:00 0 
+7fd854000000-7fd854021000 rwxp 00000000 00:00 0 
+7fd854021000-7fd858000000 ---p 00000000 00:00 0 
+7fd858000000-7fd858021000 rwxp 00000000 00:00 0 
+7fd858021000-7fd85c000000 ---p 00000000 00:00 0 
+7fd85c121000-7fd85c128000 r-xs 00000000 fd:00 33645771                   /usr/lib64/gconv/gconv-modules.cache
+7fd85c128000-7fd85c129000 rwxp 00000000 00:00 0 
+7fd85c129000-7fd85c12a000 ---p 00000000 00:00 0 
+7fd85c12a000-7fd85c92a000 rwxp 00000000 00:00 0 
+7fd85c92a000-7fd85c939000 r-xp 00000000 00:2c 8319707711                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/sae_results/sae_results_tcl.rcc
+7fd85c939000-7fd85c94c000 r-xp 00000000 00:2c 8306054595                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/waveform/waveform_tcl.rcc
+7fd85c94c000-7fd85cbe2000 r-xp 00000000 00:2c 8319707701                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/sae/sae_tcl.rcc
+7fd85cbe2000-7fd85cbe4000 r-xp 00000000 00:2c 8320670055                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/selection_highlighting/selection_highlighting_tcl.rcc
+7fd85cbe4000-7fd85cc06000 r-xp 00000000 00:2c 8319709529                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/sbr/sbr_tcl.rcc
+7fd85cc06000-7fd85cc6b000 r-xp 00000000 00:2c 8320670129                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/simenv/simenv_tcl.rcc
+7fd85cc6b000-7fd85cd1b000 r-xp 00000000 fd:00 101392403                  /usr/share/fonts/dejavu/DejaVuSans.ttf
+7fd85cd1b000-7fd85cd33000 r-xs 00000000 fd:00 69320682                   /usr/lib/fontconfig/cache/2cab43d2-7a0e-4e34-9c52-35dff5eb6f68-le64.cache-7
+7fd85cd33000-7fd85cd38000 r-xs 00000000 fd:00 70574680                   /usr/lib/fontconfig/cache/f6d5f050-c894-413d-b7f4-0d324aa05af0-le64.cache-7
+7fd85cd38000-7fd85cd3a000 r-xs 00000000 fd:00 69328224                   /usr/lib/fontconfig/cache/356e764c-8d63-41b3-955d-32e3ef4b2932-le64.cache-7
+7fd85cd3a000-7fd85cd45000 r-xs 00000000 fd:00 70574695                   /usr/lib/fontconfig/cache/18e21291-20e0-4de6-81f7-93a0f4627cd5-le64.cache-7
+7fd85cd45000-7fd85cd4a000 r-xs 00000000 fd:00 69320683                   /usr/lib/fontconfig/cache/4749be5a-78d2-4816-9ac2-58fca7c2971e-le64.cache-7
+7fd85cd4a000-7fd85cd6d000 r-xp 00000000 00:2c 8306054165                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/schematic_editor/schematic_editor_tcl.rcc
+7fd85cd6d000-7fd85cd94000 r-xp 00000000 00:2c 8319701775                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/ndm_oa/ndm_oa_tcl.rcc
+7fd85cd94000-7fd85cdb9000 r-xp 00000000 00:2c 8319701772                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/mwbridge/mwbridge_tcl.rcc
+7fd85cdb9000-7fd85cdbd000 r-xp 00000000 00:2c 8317659155                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/job_monitor/job_monitor_tcl.rcc
+7fd85cdbd000-7fd85cdd6000 r-xp 00000000 00:2c 8320689270                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/tcl-dp/lib/libdp42.so
+7fd85cdd6000-7fd85cfd6000 ---p 00019000 00:2c 8320689270                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/tcl-dp/lib/libdp42.so
+7fd85cfd6000-7fd85cfd7000 r-xp 00019000 00:2c 8320689270                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/tcl-dp/lib/libdp42.so
+7fd85cfd7000-7fd85cfd8000 rwxp 0001a000 00:2c 8320689270                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/tcl-dp/lib/libdp42.so
+7fd85cfd8000-7fd85cfd9000 rwxp 00000000 00:00 0 
+7fd85cfd9000-7fd85cfec000 r-xp 00000000 00:2c 8317659117                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/data_io/data_io_tcl.rcc
+7fd85cfec000-7fd85cfed000 ---p 00000000 00:00 0 
+7fd85cfed000-7fd85d7ed000 rwxp 00000000 00:00 0 
+7fd85d7ed000-7fd85d84a000 r-xp 00000000 00:2c 8317684547                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/qt/plugins/imageformats/libqwebp.so
+7fd85d84a000-7fd85da49000 ---p 0005d000 00:2c 8317684547                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/qt/plugins/imageformats/libqwebp.so
+7fd85da49000-7fd85da4c000 rwxp 0005c000 00:2c 8317684547                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/qt/plugins/imageformats/libqwebp.so
+7fd85da4c000-7fd85da51000 r-xp 00000000 00:2c 8306071951                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/qt/plugins/imageformats/libqwbmp.so
+7fd85da51000-7fd85dc50000 ---p 00005000 00:2c 8306071951                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/qt/plugins/imageformats/libqwbmp.so
+7fd85dc50000-7fd85dc51000 rwxp 00004000 00:2c 8306071951                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/qt/plugins/imageformats/libqwbmp.so
+7fd85dc51000-7fd85dcb4000 r-xp 00000000 fd:00 34198383                   /usr/lib64/libtiff.so.3.9.4
+7fd85dcb4000-7fd85deb3000 ---p 00063000 fd:00 34198383                   /usr/lib64/libtiff.so.3.9.4
+7fd85deb3000-7fd85deb5000 r-xp 00062000 fd:00 34198383                   /usr/lib64/libtiff.so.3.9.4
+7fd85deb5000-7fd85deb6000 rwxp 00064000 fd:00 34198383                   /usr/lib64/libtiff.so.3.9.4
+7fd85deb6000-7fd85debd000 r-xp 00000000 00:2c 8306071947                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/qt/plugins/imageformats/libqtiff.so
+7fd85debd000-7fd85e0bd000 ---p 00007000 00:2c 8306071947                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/qt/plugins/imageformats/libqtiff.so
+7fd85e0bd000-7fd85e0be000 rwxp 00007000 00:2c 8306071947                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/qt/plugins/imageformats/libqtiff.so
+7fd85e0be000-7fd85e0c3000 r-xp 00000000 00:2c 8317684549                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/qt/plugins/imageformats/libqtga.so
+7fd85e0c3000-7fd85e2c2000 ---p 00005000 00:2c 8317684549                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/qt/plugins/imageformats/libqtga.so
+7fd85e2c2000-7fd85e2c3000 rwxp 00004000 00:2c 8317684549                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/qt/plugins/imageformats/libqtga.so
+7fd85e2c3000-7fd85e2c8000 r-xp 00000000 00:2c 8317684548                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/qt/plugins/imageformats/libqsvg.so
+7fd85e2c8000-7fd85e4c8000 ---p 00005000 00:2c 8317684548                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/qt/plugins/imageformats/libqsvg.so
+7fd85e4c8000-7fd85e4c9000 rwxp 00005000 00:2c 8317684548                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/qt/plugins/imageformats/libqsvg.so
+7fd85e4c9000-7fd85e536000 r-xp 00000000 fd:00 34106368                   /usr/lib64/libmng.so.1.0.0
+7fd85e536000-7fd85e736000 ---p 0006d000 fd:00 34106368                   /usr/lib64/libmng.so.1.0.0
+7fd85e736000-7fd85e739000 r-xp 0006d000 fd:00 34106368                   /usr/lib64/libmng.so.1.0.0
+7fd85e739000-7fd85e73b000 rwxp 00070000 fd:00 34106368                   /usr/lib64/libmng.so.1.0.0
+7fd85e73b000-7fd85e741000 r-xp 00000000 00:2c 8306071950                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/qt/plugins/imageformats/libqmng.so
+7fd85e741000-7fd85e940000 ---p 00006000 00:2c 8306071950                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/qt/plugins/imageformats/libqmng.so
+7fd85e940000-7fd85e941000 rwxp 00005000 00:2c 8306071950                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/qt/plugins/imageformats/libqmng.so
+7fd85e941000-7fd85e981000 r-xp 00000000 00:2c 8320688783                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/qt/plugins/imageformats/libqjpeg.so
+7fd85e981000-7fd85eb81000 ---p 00040000 00:2c 8320688783                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/qt/plugins/imageformats/libqjpeg.so
+7fd85eb81000-7fd85eb82000 rwxp 00040000 00:2c 8320688783                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/qt/plugins/imageformats/libqjpeg.so
+7fd85eb82000-7fd85ebc5000 r-xp 00000000 fd:00 33660800                   /usr/lib64/libjpeg.so.62.1.0
+7fd85ebc5000-7fd85edc5000 ---p 00043000 fd:00 33660800                   /usr/lib64/libjpeg.so.62.1.0
+7fd85edc5000-7fd85edc6000 r-xp 00043000 fd:00 33660800                   /usr/lib64/libjpeg.so.62.1.0
+7fd85edc6000-7fd85edc7000 rwxp 00044000 fd:00 33660800                   /usr/lib64/libjpeg.so.62.1.0
+7fd85edc7000-7fd85edd7000 rwxp 00000000 00:00 0 
+7fd85edd7000-7fd85ee26000 r-xp 00000000 fd:00 34386561                   /usr/lib64/libjasper.so.1.0.0
+7fd85ee26000-7fd85f025000 ---p 0004f000 fd:00 34386561                   /usr/lib64/libjasper.so.1.0.0
+7fd85f025000-7fd85f026000 r-xp 0004e000 fd:00 34386561                   /usr/lib64/libjasper.so.1.0.0
+7fd85f026000-7fd85f02a000 rwxp 0004f000 fd:00 34386561                   /usr/lib64/libjasper.so.1.0.0
+7fd85f02a000-7fd85f031000 rwxp 00000000 00:00 0 
+7fd85f031000-7fd85f039000 r-xp 00000000 00:2c 8306071948                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/qt/plugins/imageformats/libqjp2.so
+7fd85f039000-7fd85f238000 ---p 00008000 00:2c 8306071948                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/qt/plugins/imageformats/libqjp2.so
+7fd85f238000-7fd85f239000 rwxp 00007000 00:2c 8306071948                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/qt/plugins/imageformats/libqjp2.so
+7fd85f239000-7fd85f240000 r-xp 00000000 00:2c 8319727914                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/qt/plugins/imageformats/libqico.so
+7fd85f240000-7fd85f43f000 ---p 00007000 00:2c 8319727914                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/qt/plugins/imageformats/libqico.so
+7fd85f43f000-7fd85f440000 rwxp 00006000 00:2c 8319727914                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/qt/plugins/imageformats/libqico.so
+7fd85f440000-7fd85f449000 r-xp 00000000 00:2c 8319727915                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/qt/plugins/imageformats/libqicns.so
+7fd85f449000-7fd85f648000 ---p 00009000 00:2c 8319727915                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/qt/plugins/imageformats/libqicns.so
+7fd85f648000-7fd85f649000 rwxp 00008000 00:2c 8319727915                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/qt/plugins/imageformats/libqicns.so
+7fd85f649000-7fd85f64f000 r-xp 00000000 00:2c 8306071949                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/qt/plugins/imageformats/libqgif.so
+7fd85f64f000-7fd85f84f000 ---p 00006000 00:2c 8306071949                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/qt/plugins/imageformats/libqgif.so
+7fd85f84f000-7fd85f850000 rwxp 00006000 00:2c 8306071949                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/qt/plugins/imageformats/libqgif.so
+7fd85f850000-7fd85f85b000 r-xp 00000000 00:2c 8317684550                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/qt/plugins/imageformats/libqdds.so
+7fd85f85b000-7fd85fa5a000 ---p 0000b000 00:2c 8317684550                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/qt/plugins/imageformats/libqdds.so
+7fd85fa5a000-7fd85fa5b000 rwxp 0000a000 00:2c 8317684550                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/qt/plugins/imageformats/libqdds.so
+7fd85fa5b000-7fd860000000 r-xp 00000000 00:2c 8320662753                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/images/images.rcc
+7fd860000000-7fd860021000 rwxp 00000000 00:00 0 
+7fd860021000-7fd864000000 ---p 00000000 00:00 0 
+7fd864000000-7fd864001000 r-xp 00000000 00:2c 8306046687                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/find_replace_commands/find_replace_commands_tcl.rcc
+7fd864001000-7fd86400a000 r-xp 00000000 00:2c 8319701701                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/job/job_tcl.rcc
+7fd86400a000-7fd86400e000 r-xp 00000000 00:2c 8319701629                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/design_editor/design_editor_tcl.rcc
+7fd86400e000-7fd864015000 r-xp 00000000 00:2c 8320662675                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/cellview_generators/cellview_generators_tcl.rcc
+7fd864015000-7fd864027000 r-xp 00000000 00:2c 8319701595                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/constraints/constraints_tcl.rcc
+7fd864027000-7fd86402d000 r-xp 00000000 00:2c 8320670331                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/text_editor/text_editor_tcl.rcc
+7fd86402d000-7fd86402f000 r-xp 00000000 00:2c 8319701639                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/design_navigator/design_navigator_tcl.rcc
+7fd86402f000-7fd864031000 r-xp 00000000 00:2c 8317659144                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/display_resources/display_resources_tcl.rcc
+7fd864031000-7fd864034000 r-xp 00000000 00:2c 8319707232                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/object_layer/object_layer_tcl.rcc
+7fd864034000-7fd864038000 r-xp 00000000 00:2c 8306051949                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/parameter_editor/parameter_editor_tcl.rcc
+7fd864038000-7fd86403c000 r-xp 00000000 00:2c 8306046884                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/netlist_editor/netlist_editor_tcl.rcc
+7fd86403c000-7fd86403f000 r-xp 00000000 00:2c 8317664022                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/parameter_gui_commands/parameter_gui_commands_tcl.rcc
+7fd86403f000-7fd864052000 r-xp 00000000 00:2c 8319711687                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTclEngine.so
+7fd864052000-7fd864251000 ---p 00013000 00:2c 8319711687                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTclEngine.so
+7fd864251000-7fd864252000 r-xp 00012000 00:2c 8319711687                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTclEngine.so
+7fd864252000-7fd864253000 rwxp 00013000 00:2c 8319711687                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTclEngine.so
+7fd864253000-7fd86428f000 r-xp 00000000 fd:00 33556650                   /usr/lib64/libblkid.so.1.1.0
+7fd86428f000-7fd86448e000 ---p 0003c000 fd:00 33556650                   /usr/lib64/libblkid.so.1.1.0
+7fd86448e000-7fd864491000 r-xp 0003b000 fd:00 33556650                   /usr/lib64/libblkid.so.1.1.0
+7fd864491000-7fd864492000 rwxp 0003e000 fd:00 33556650                   /usr/lib64/libblkid.so.1.1.0
+7fd864492000-7fd864493000 rwxp 00000000 00:00 0 
+7fd864493000-7fd8644d3000 r-xp 00000000 fd:00 33556652                   /usr/lib64/libmount.so.1.1.0
+7fd8644d3000-7fd8646d3000 ---p 00040000 fd:00 33556652                   /usr/lib64/libmount.so.1.1.0
+7fd8646d3000-7fd8646d4000 r-xp 00040000 fd:00 33556652                   /usr/lib64/libmount.so.1.1.0
+7fd8646d4000-7fd8646d5000 rwxp 00041000 fd:00 33556652                   /usr/lib64/libmount.so.1.1.0
+7fd8646d5000-7fd8646d6000 rwxp 00000000 00:00 0 
+7fd8646d6000-7fd8646d9000 r-xp 00000000 fd:00 33556657                   /usr/lib64/libgmodule-2.0.so.0.5600.1
+7fd8646d9000-7fd8648d8000 ---p 00003000 fd:00 33556657                   /usr/lib64/libgmodule-2.0.so.0.5600.1
+7fd8648d8000-7fd8648d9000 r-xp 00002000 fd:00 33556657                   /usr/lib64/libgmodule-2.0.so.0.5600.1
+7fd8648d9000-7fd8648da000 rwxp 00003000 fd:00 33556657                   /usr/lib64/libgmodule-2.0.so.0.5600.1
+7fd8648da000-7fd8648e1000 r-xp 00000000 fd:00 33645912                   /usr/lib64/libffi.so.6.0.1
+7fd8648e1000-7fd864ae0000 ---p 00007000 fd:00 33645912                   /usr/lib64/libffi.so.6.0.1
+7fd864ae0000-7fd864ae1000 r-xp 00006000 fd:00 33645912                   /usr/lib64/libffi.so.6.0.1
+7fd864ae1000-7fd864ae2000 rwxp 00007000 fd:00 33645912                   /usr/lib64/libffi.so.6.0.1
+7fd864ae2000-7fd864b31000 r-xp 00000000 fd:00 33556659                   /usr/lib64/libgobject-2.0.so.0.5600.1
+7fd864b31000-7fd864d31000 ---p 0004f000 fd:00 33556659                   /usr/lib64/libgobject-2.0.so.0.5600.1
+7fd864d31000-7fd864d32000 r-xp 0004f000 fd:00 33556659                   /usr/lib64/libgobject-2.0.so.0.5600.1
+7fd864d32000-7fd864d33000 rwxp 00050000 fd:00 33556659                   /usr/lib64/libgobject-2.0.so.0.5600.1
+7fd864d33000-7fd864ec9000 r-xp 00000000 fd:00 33556653                   /usr/lib64/libgio-2.0.so.0.5600.1
+7fd864ec9000-7fd8650c9000 ---p 00196000 fd:00 33556653                   /usr/lib64/libgio-2.0.so.0.5600.1
+7fd8650c9000-7fd8650ce000 r-xp 00196000 fd:00 33556653                   /usr/lib64/libgio-2.0.so.0.5600.1
+7fd8650ce000-7fd8650d1000 rwxp 0019b000 fd:00 33556653                   /usr/lib64/libgio-2.0.so.0.5600.1
+7fd8650d1000-7fd8650d3000 rwxp 00000000 00:00 0 
+7fd8650d3000-7fd8650f9000 r-xp 00000000 fd:00 34073312                   /usr/lib64/libdbus-glib-1.so.2.2.2
+7fd8650f9000-7fd8652f9000 ---p 00026000 fd:00 34073312                   /usr/lib64/libdbus-glib-1.so.2.2.2
+7fd8652f9000-7fd8652fa000 r-xp 00026000 fd:00 34073312                   /usr/lib64/libdbus-glib-1.so.2.2.2
+7fd8652fa000-7fd8652fb000 rwxp 00027000 fd:00 34073312                   /usr/lib64/libdbus-glib-1.so.2.2.2
+7fd8652fb000-7fd86530f000 r-xp 00000000 fd:00 33556636                   /usr/lib64/libudev.so.1.6.2
+7fd86530f000-7fd86550f000 ---p 00014000 fd:00 33556636                   /usr/lib64/libudev.so.1.6.2
+7fd86550f000-7fd865510000 r-xp 00014000 fd:00 33556636                   /usr/lib64/libudev.so.1.6.2
+7fd865510000-7fd865511000 rwxp 00015000 fd:00 33556636                   /usr/lib64/libudev.so.1.6.2
+7fd865511000-7fd865517000 r-xp 00000000 fd:00 33645205                   /usr/lib64/libnss_dns-2.17.so
+7fd865517000-7fd865716000 ---p 00006000 fd:00 33645205                   /usr/lib64/libnss_dns-2.17.so
+7fd865716000-7fd865717000 r-xp 00005000 fd:00 33645205                   /usr/lib64/libnss_dns-2.17.so
+7fd865717000-7fd865718000 rwxp 00006000 fd:00 33645205                   /usr/lib64/libnss_dns-2.17.so
+7fd865718000-7fd86571b000 r-xp 00000000 fd:00 34356364                   /usr/lib64/libnss_mdns4_minimal.so.2
+7fd86571b000-7fd86591a000 ---p 00003000 fd:00 34356364                   /usr/lib64/libnss_mdns4_minimal.so.2
+7fd86591a000-7fd86591b000 r-xp 00002000 fd:00 34356364                   /usr/lib64/libnss_mdns4_minimal.so.2
+7fd86591b000-7fd86591c000 rwxp 00003000 fd:00 34356364                   /usr/lib64/libnss_mdns4_minimal.so.2
+7fd86591c000-7fd86591d000 r-xs 00000000 fd:00 70574694                   /usr/lib/fontconfig/cache/b5ea451b-796c-4ebb-99fa-40b7109c67f7-le64.cache-7
+7fd86591d000-7fd86591f000 r-xs 00000000 fd:00 70576341                   /usr/lib/fontconfig/cache/73a8e1ce-8625-42e6-a240-3d1afb819f52-le64.cache-7
+7fd86591f000-7fd865920000 r-xp 00000000 00:2c 8306046721                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/hierarchy_commands/hierarchy_commands_tcl.rcc
+7fd865920000-7fd865922000 r-xp 00000000 00:2c 8319707218                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/object_access/object_access_tcl.rcc
+7fd865922000-7fd865924000 r-xp 00000000 00:2c 8306046796                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/integrated_tool_help/integrated_tool_help_tcl.rcc
+7fd865924000-7fd865936000 r-xp 00000000 00:2c 8317659163                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/layout_editor/layout_editor_tcl.rcc
+7fd865936000-7fd865937000 ---p 00000000 00:00 0 
+7fd865937000-7fd866137000 rwxp 00000000 00:00 0 
+7fd866137000-7fd866138000 ---p 00000000 00:00 0 
+7fd866138000-7fd866382000 rwxp 00000000 00:00 0 
+7fd866382000-7fd86638b000 r-xp 00000000 00:2c 8317668138                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaNativeLock.so
+7fd86638b000-7fd86658b000 ---p 00009000 00:2c 8317668138                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaNativeLock.so
+7fd86658b000-7fd86658c000 r-xp 00009000 00:2c 8317668138                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaNativeLock.so
+7fd86658c000-7fd86658d000 rwxp 0000a000 00:2c 8317668138                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaNativeLock.so
+7fd86658d000-7fd8665c7000 r-xp 00000000 00:2c 8320671949                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/libsnpsLibDef.so
+7fd8665c7000-7fd8667c7000 ---p 0003a000 00:2c 8320671949                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/libsnpsLibDef.so
+7fd8667c7000-7fd8667c8000 r-xp 0003a000 00:2c 8320671949                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/libsnpsLibDef.so
+7fd8667c8000-7fd8667c9000 rwxp 0003b000 00:2c 8320671949                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/libsnpsLibDef.so
+7fd8667c9000-7fd8667ca000 rwxp 00000000 00:00 0 
+7fd8667ca000-7fd8667e6000 r-xp 00000000 00:2c 8319701660                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/fonts/INFOT_Synopsys.ttf
+7fd8667e6000-7fd8667f8000 r-xp 00000000 00:2c 8319701664                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/fonts/luxisb.ttf
+7fd8667f8000-7fd866809000 r-xp 00000000 00:2c 8320662733                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/fonts/luxisr.ttf
+7fd866809000-7fd86684b000 r-xp 00000000 00:2c 8306071954                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/qt/plugins/platforminputcontexts/libcomposeplatforminputcontextplugin.so
+7fd86684b000-7fd866a4b000 ---p 00042000 00:2c 8306071954                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/qt/plugins/platforminputcontexts/libcomposeplatforminputcontextplugin.so
+7fd866a4b000-7fd866a4d000 rwxp 00042000 00:2c 8306071954                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/qt/plugins/platforminputcontexts/libcomposeplatforminputcontextplugin.so
+7fd866a4d000-7fd866a4e000 ---p 00000000 00:00 0 
+7fd866a4e000-7fd86724e000 rwxp 00000000 00:00 0 
+7fd86724e000-7fd86725d000 r-xp 00000000 fd:00 33645883                   /usr/lib64/libbz2.so.1.0.6
+7fd86725d000-7fd86745c000 ---p 0000f000 fd:00 33645883                   /usr/lib64/libbz2.so.1.0.6
+7fd86745c000-7fd86745d000 r-xp 0000e000 fd:00 33645883                   /usr/lib64/libbz2.so.1.0.6
+7fd86745d000-7fd86745e000 rwxp 0000f000 fd:00 33645883                   /usr/lib64/libbz2.so.1.0.6
+7fd86745e000-7fd867475000 r-xp 00000000 fd:00 33645907                   /usr/lib64/libelf-0.176.so
+7fd867475000-7fd867674000 ---p 00017000 fd:00 33645907                   /usr/lib64/libelf-0.176.so
+7fd867674000-7fd867675000 r-xp 00016000 fd:00 33645907                   /usr/lib64/libelf-0.176.so
+7fd867675000-7fd867676000 rwxp 00017000 fd:00 33645907                   /usr/lib64/libelf-0.176.so
+7fd867676000-7fd86767a000 r-xp 00000000 fd:00 33645918                   /usr/lib64/libattr.so.1.1.0
+7fd86767a000-7fd867879000 ---p 00004000 fd:00 33645918                   /usr/lib64/libattr.so.1.1.0
+7fd867879000-7fd86787a000 r-xp 00003000 fd:00 33645918                   /usr/lib64/libattr.so.1.1.0
+7fd86787a000-7fd86787b000 rwxp 00004000 fd:00 33645918                   /usr/lib64/libattr.so.1.1.0
+7fd86787b000-7fd8678c9000 r-xp 00000000 fd:00 34041297                   /usr/lib64/libdw-0.176.so
+7fd8678c9000-7fd867ac9000 ---p 0004e000 fd:00 34041297                   /usr/lib64/libdw-0.176.so
+7fd867ac9000-7fd867acb000 r-xp 0004e000 fd:00 34041297                   /usr/lib64/libdw-0.176.so
+7fd867acb000-7fd867acc000 rwxp 00050000 fd:00 34041297                   /usr/lib64/libdw-0.176.so
+7fd867acc000-7fd867ad0000 r-xp 00000000 fd:00 33645910                   /usr/lib64/libgpg-error.so.0.10.0
+7fd867ad0000-7fd867ccf000 ---p 00004000 fd:00 33645910                   /usr/lib64/libgpg-error.so.0.10.0
+7fd867ccf000-7fd867cd0000 r-xp 00003000 fd:00 33645910                   /usr/lib64/libgpg-error.so.0.10.0
+7fd867cd0000-7fd867cd1000 rwxp 00004000 fd:00 33645910                   /usr/lib64/libgpg-error.so.0.10.0
+7fd867cd1000-7fd867d4e000 r-xp 00000000 fd:00 33645916                   /usr/lib64/libgcrypt.so.11.8.2
+7fd867d4e000-7fd867f4d000 ---p 0007d000 fd:00 33645916                   /usr/lib64/libgcrypt.so.11.8.2
+7fd867f4d000-7fd867f4e000 r-xp 0007c000 fd:00 33645916                   /usr/lib64/libgcrypt.so.11.8.2
+7fd867f4e000-7fd867f51000 rwxp 0007d000 fd:00 33645916                   /usr/lib64/libgcrypt.so.11.8.2
+7fd867f51000-7fd867f52000 rwxp 00000000 00:00 0 
+7fd867f52000-7fd867f60000 r-xp 00000000 fd:00 33708249                   /usr/lib64/liblz4.so.1.8.3
+7fd867f60000-7fd86815f000 ---p 0000e000 fd:00 33708249                   /usr/lib64/liblz4.so.1.8.3
+7fd86815f000-7fd868160000 r-xp 0000d000 fd:00 33708249                   /usr/lib64/liblz4.so.1.8.3
+7fd868160000-7fd868161000 rwxp 0000e000 fd:00 33708249                   /usr/lib64/liblz4.so.1.8.3
+7fd868161000-7fd868186000 r-xp 00000000 fd:00 33645859                   /usr/lib64/liblzma.so.5.2.2
+7fd868186000-7fd868385000 ---p 00025000 fd:00 33645859                   /usr/lib64/liblzma.so.5.2.2
+7fd868385000-7fd868386000 r-xp 00024000 fd:00 33645859                   /usr/lib64/liblzma.so.5.2.2
+7fd868386000-7fd868387000 rwxp 00025000 fd:00 33645859                   /usr/lib64/liblzma.so.5.2.2
+7fd868387000-7fd86838b000 r-xp 00000000 fd:00 33708032                   /usr/lib64/libcap.so.2.22
+7fd86838b000-7fd86858a000 ---p 00004000 fd:00 33708032                   /usr/lib64/libcap.so.2.22
+7fd86858a000-7fd86858b000 r-xp 00003000 fd:00 33708032                   /usr/lib64/libcap.so.2.22
+7fd86858b000-7fd86858c000 rwxp 00004000 fd:00 33708032                   /usr/lib64/libcap.so.2.22
+7fd86858c000-7fd8685bb000 r-xp 00000000 fd:00 33556634                   /usr/lib64/libsystemd.so.0.6.0
+7fd8685bb000-7fd8687bb000 ---p 0002f000 fd:00 33556634                   /usr/lib64/libsystemd.so.0.6.0
+7fd8687bb000-7fd8687bc000 r-xp 0002f000 fd:00 33556634                   /usr/lib64/libsystemd.so.0.6.0
+7fd8687bc000-7fd8687bd000 rwxp 00030000 fd:00 33556634                   /usr/lib64/libsystemd.so.0.6.0
+7fd8687bd000-7fd868841000 r-xp 00000000 00:2c 8319727841                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5DBus.so.5.6.2
+7fd868841000-7fd868a40000 ---p 00084000 00:2c 8319727841                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5DBus.so.5.6.2
+7fd868a40000-7fd868a43000 rwxp 00083000 00:2c 8319727841                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5DBus.so.5.6.2
+7fd868a43000-7fd868a5d000 r-xp 00000000 00:2c 8306071833                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libxcb-xkb.so.1.0.0
+7fd868a5d000-7fd868c5d000 ---p 0001a000 00:2c 8306071833                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libxcb-xkb.so.1.0.0
+7fd868c5d000-7fd868c5e000 rwxp 0001a000 00:2c 8306071833                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libxcb-xkb.so.1.0.0
+7fd868c5e000-7fd868c60000 r-xp 00000000 00:2c 8319727816                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libxcb-xinerama.so.0.0.0
+7fd868c60000-7fd868e5f000 ---p 00002000 00:2c 8319727816                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libxcb-xinerama.so.0.0.0
+7fd868e5f000-7fd868e60000 rwxp 00001000 00:2c 8319727816                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libxcb-xinerama.so.0.0.0
+7fd868e60000-7fd868e62000 r-xp 00000000 00:2c 8317684456                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libxcb-keysyms.so.1.0.0
+7fd868e62000-7fd869061000 ---p 00002000 00:2c 8317684456                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libxcb-keysyms.so.1.0.0
+7fd869061000-7fd869062000 rwxp 00001000 00:2c 8317684456                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libxcb-keysyms.so.1.0.0
+7fd869062000-7fd869064000 r-xp 00000000 00:2c 8320688700                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libxcb-shape.so.0.0.0
+7fd869064000-7fd869264000 ---p 00002000 00:2c 8320688700                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libxcb-shape.so.0.0.0
+7fd869264000-7fd869265000 rwxp 00002000 00:2c 8320688700                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libxcb-shape.so.0.0.0
+7fd869265000-7fd869269000 r-xp 00000000 00:2c 8320688683                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libxcb-icccm.so.4.0.0
+7fd869269000-7fd869468000 ---p 00004000 00:2c 8320688683                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libxcb-icccm.so.4.0.0
+7fd869468000-7fd869469000 rwxp 00003000 00:2c 8320688683                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libxcb-icccm.so.4.0.0
+7fd869469000-7fd8694b7000 r-xp 00000000 fd:00 34041314                   /usr/lib64/libdbus-1.so.3.14.14
+7fd8694b7000-7fd8696b6000 ---p 0004e000 fd:00 34041314                   /usr/lib64/libdbus-1.so.3.14.14
+7fd8696b6000-7fd8696b7000 r-xp 0004d000 fd:00 34041314                   /usr/lib64/libdbus-1.so.3.14.14
+7fd8696b7000-7fd8696b8000 rwxp 0004e000 fd:00 34041314                   /usr/lib64/libdbus-1.so.3.14.14
+7fd8696b8000-7fd8696b9000 rwxp 00000000 00:00 0 
+7fd8696b9000-7fd8696bc000 r-xp 00000000 00:2c 8306071829                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libxcb-render-util.so.0.0.0
+7fd8696bc000-7fd8698bb000 ---p 00003000 00:2c 8306071829                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libxcb-render-util.so.0.0.0
+7fd8698bb000-7fd8698bc000 rwxp 00002000 00:2c 8306071829                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libxcb-render-util.so.0.0.0
+7fd8698bc000-7fd8698bd000 r-xp 00000000 00:2c 8319727826                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libX11-xcb.so.1.0.0
+7fd8698bd000-7fd869abc000 ---p 00001000 00:2c 8319727826                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libX11-xcb.so.1.0.0
+7fd869abc000-7fd869abd000 rwxp 00000000 00:2c 8319727826                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libX11-xcb.so.1.0.0
+7fd869abd000-7fd870000000 r-xp 00000000 fd:00 107883                     /usr/lib/locale/locale-archive
+7fd870000000-7fd870021000 rwxp 00000000 00:00 0 
+7fd870021000-7fd874000000 ---p 00000000 00:00 0 
+7fd874000000-7fd874001000 r-xp 00000000 00:2c 8319701754                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/marker_browser/marker_browser_tcl.rcc
+7fd874001000-7fd874002000 r-xp 00000000 00:2c 8306051946                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/parameter_commands/parameter_commands_tcl.rcc
+7fd874002000-7fd874006000 r-xp 00000000 00:2c 8320667915                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/parameter_evaluation/parameter_evaluation_tcl.rcc
+7fd874006000-7fd874009000 r-xp 00000000 00:2c 8306054600                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/window/window_tcl.rcc
+7fd874009000-7fd87400e000 r-xp 00000000 00:2c 8319701573                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/base_editor/base_editor_tcl.rcc
+7fd87400e000-7fd87401d000 r-xp 00000000 00:2c 8319701662                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/fonts/INFOL___.TTF
+7fd87401d000-7fd87402f000 r-xp 00000000 00:2c 8319701665                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/fonts/COUR.ttf
+7fd87402f000-7fd874041000 r-xp 00000000 00:2c 8319701665                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/fonts/COUR.ttf
+7fd874041000-7fd874053000 r-xp 00000000 00:2c 8319701665                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/fonts/COUR.ttf
+7fd874053000-7fd87406f000 r-xp 00000000 00:2c 8319701660                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/fonts/INFOT_Synopsys.ttf
+7fd87406f000-7fd874187000 r-xp 00000000 00:2c 8306071839                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5XcbQpa.so.5.6.2
+7fd874187000-7fd874386000 ---p 00118000 00:2c 8306071839                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5XcbQpa.so.5.6.2
+7fd874386000-7fd87438f000 rwxp 00117000 00:2c 8306071839                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5XcbQpa.so.5.6.2
+7fd87438f000-7fd874391000 r-xp 00000000 00:2c 8306071955                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/qt/plugins/platforms/libqxcb.so
+7fd874391000-7fd874591000 ---p 00002000 00:2c 8306071955                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/qt/plugins/platforms/libqxcb.so
+7fd874591000-7fd874592000 rwxp 00002000 00:2c 8306071955                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/qt/plugins/platforms/libqxcb.so
+7fd874592000-7fd874593000 ---p 00000000 00:00 0 
+7fd874593000-7fd874d93000 rwxp 00000000 00:00 0 
+7fd874e7c000-7fd875794000 rwxs 00000000 00:04 11567125                   /SYSVf64a54ab (deleted)
+7fd875794000-7fd875996000 rwxp 00000000 00:00 0 
+7fd875996000-7fd876201000 r-xs 00000000 fd:00 67169061                   /var/lib/sss/mc/passwd
+7fd876201000-7fd876209000 r-xp 00000000 fd:00 34135931                   /usr/lib64/libnss_sss.so.2
+7fd876209000-7fd876408000 ---p 00008000 fd:00 34135931                   /usr/lib64/libnss_sss.so.2
+7fd876408000-7fd876409000 r-xp 00007000 fd:00 34135931                   /usr/lib64/libnss_sss.so.2
+7fd876409000-7fd87640a000 rwxp 00008000 fd:00 34135931                   /usr/lib64/libnss_sss.so.2
+7fd87640a000-7fd876416000 r-xp 00000000 fd:00 33645207                   /usr/lib64/libnss_files-2.17.so
+7fd876416000-7fd876615000 ---p 0000c000 fd:00 33645207                   /usr/lib64/libnss_files-2.17.so
+7fd876615000-7fd876616000 r-xp 0000b000 fd:00 33645207                   /usr/lib64/libnss_files-2.17.so
+7fd876616000-7fd876617000 rwxp 0000c000 fd:00 33645207                   /usr/lib64/libnss_files-2.17.so
+7fd876617000-7fd87661d000 rwxp 00000000 00:00 0 
+7fd87661d000-7fd876641000 r-xp 00000000 fd:00 33645848                   /usr/lib64/libselinux.so.1
+7fd876641000-7fd876840000 ---p 00024000 fd:00 33645848                   /usr/lib64/libselinux.so.1
+7fd876840000-7fd876841000 r-xp 00023000 fd:00 33645848                   /usr/lib64/libselinux.so.1
+7fd876841000-7fd876842000 rwxp 00024000 fd:00 33645848                   /usr/lib64/libselinux.so.1
+7fd876842000-7fd876844000 rwxp 00000000 00:00 0 
+7fd876844000-7fd87685a000 r-xp 00000000 fd:00 33645441                   /usr/lib64/libresolv-2.17.so
+7fd87685a000-7fd876a5a000 ---p 00016000 fd:00 33645441                   /usr/lib64/libresolv-2.17.so
+7fd876a5a000-7fd876a5b000 r-xp 00016000 fd:00 33645441                   /usr/lib64/libresolv-2.17.so
+7fd876a5b000-7fd876a5c000 rwxp 00017000 fd:00 33645441                   /usr/lib64/libresolv-2.17.so
+7fd876a5c000-7fd876a5e000 rwxp 00000000 00:00 0 
+7fd876a5e000-7fd876a61000 r-xp 00000000 fd:00 33708256                   /usr/lib64/libkeyutils.so.1.5
+7fd876a61000-7fd876c60000 ---p 00003000 fd:00 33708256                   /usr/lib64/libkeyutils.so.1.5
+7fd876c60000-7fd876c61000 r-xp 00002000 fd:00 33708256                   /usr/lib64/libkeyutils.so.1.5
+7fd876c61000-7fd876c62000 rwxp 00003000 fd:00 33708256                   /usr/lib64/libkeyutils.so.1.5
+7fd876c62000-7fd876c70000 r-xp 00000000 fd:00 33748088                   /usr/lib64/libkrb5support.so.0.1
+7fd876c70000-7fd876e70000 ---p 0000e000 fd:00 33748088                   /usr/lib64/libkrb5support.so.0.1
+7fd876e70000-7fd876e71000 r-xp 0000e000 fd:00 33748088                   /usr/lib64/libkrb5support.so.0.1
+7fd876e71000-7fd876e72000 rwxp 0000f000 fd:00 33748088                   /usr/lib64/libkrb5support.so.0.1
+7fd876e72000-7fd876ea3000 r-xp 00000000 fd:00 33748080                   /usr/lib64/libk5crypto.so.3.1
+7fd876ea3000-7fd8770a2000 ---p 00031000 fd:00 33748080                   /usr/lib64/libk5crypto.so.3.1
+7fd8770a2000-7fd8770a4000 r-xp 00030000 fd:00 33748080                   /usr/lib64/libk5crypto.so.3.1
+7fd8770a4000-7fd8770a5000 rwxp 00032000 fd:00 33748080                   /usr/lib64/libk5crypto.so.3.1
+7fd8770a5000-7fd8770a8000 r-xp 00000000 fd:00 33645861                   /usr/lib64/libcom_err.so.2.1
+7fd8770a8000-7fd8772a7000 ---p 00003000 fd:00 33645861                   /usr/lib64/libcom_err.so.2.1
+7fd8772a7000-7fd8772a8000 r-xp 00002000 fd:00 33645861                   /usr/lib64/libcom_err.so.2.1
+7fd8772a8000-7fd8772a9000 rwxp 00003000 fd:00 33645861                   /usr/lib64/libcom_err.so.2.1
+7fd8772a9000-7fd877382000 r-xp 00000000 fd:00 33748086                   /usr/lib64/libkrb5.so.3.3
+7fd877382000-7fd877581000 ---p 000d9000 fd:00 33748086                   /usr/lib64/libkrb5.so.3.3
+7fd877581000-7fd87758f000 r-xp 000d8000 fd:00 33748086                   /usr/lib64/libkrb5.so.3.3
+7fd87758f000-7fd877592000 rwxp 000e6000 fd:00 33748086                   /usr/lib64/libkrb5.so.3.3
+7fd877592000-7fd8775dc000 r-xp 00000000 fd:00 33748076                   /usr/lib64/libgssapi_krb5.so.2.2
+7fd8775dc000-7fd8777dc000 ---p 0004a000 fd:00 33748076                   /usr/lib64/libgssapi_krb5.so.2.2
+7fd8777dc000-7fd8777dd000 r-xp 0004a000 fd:00 33748076                   /usr/lib64/libgssapi_krb5.so.2.2
+7fd8777dd000-7fd8777df000 rwxp 0004b000 fd:00 33748076                   /usr/lib64/libgssapi_krb5.so.2.2
+7fd8777df000-7fd8777e1000 r-xp 00000000 fd:00 33554540                   /usr/lib64/libfreebl3.so
+7fd8777e1000-7fd8779e0000 ---p 00002000 fd:00 33554540                   /usr/lib64/libfreebl3.so
+7fd8779e0000-7fd8779e1000 r-xp 00001000 fd:00 33554540                   /usr/lib64/libfreebl3.so
+7fd8779e1000-7fd8779e2000 rwxp 00002000 fd:00 33554540                   /usr/lib64/libfreebl3.so
+7fd8779e2000-7fd877a08000 r-xp 00000000 00:2c 8319715712                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/PyCellStudio/linux64/lib/libexpat.so.1
+7fd877a08000-7fd877c07000 ---p 00026000 00:2c 8319715712                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/PyCellStudio/linux64/lib/libexpat.so.1
+7fd877c07000-7fd877c0a000 rwxp 00025000 00:2c 8319715712                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/PyCellStudio/linux64/lib/libexpat.so.1
+7fd877c0a000-7fd877c0f000 r-xp 00000000 fd:00 34106377                   /usr/lib64/libXdmcp.so.6.0.0
+7fd877c0f000-7fd877e0e000 ---p 00005000 fd:00 34106377                   /usr/lib64/libXdmcp.so.6.0.0
+7fd877e0e000-7fd877e0f000 r-xp 00004000 fd:00 34106377                   /usr/lib64/libXdmcp.so.6.0.0
+7fd877e0f000-7fd877e10000 rwxp 00005000 fd:00 34106377                   /usr/lib64/libXdmcp.so.6.0.0
+7fd877e10000-7fd877e12000 r-xp 00000000 fd:00 33665468                   /usr/lib64/libXau.so.6.0.0
+7fd877e12000-7fd878012000 ---p 00002000 fd:00 33665468                   /usr/lib64/libXau.so.6.0.0
+7fd878012000-7fd878013000 r-xp 00002000 fd:00 33665468                   /usr/lib64/libXau.so.6.0.0
+7fd878013000-7fd878014000 rwxp 00003000 fd:00 33665468                   /usr/lib64/libXau.so.6.0.0
+7fd878014000-7fd878019000 r-xp 00000000 fd:00 33666322                   /usr/lib64/libXfixes.so.3.1.0
+7fd878019000-7fd878218000 ---p 00005000 fd:00 33666322                   /usr/lib64/libXfixes.so.3.1.0
+7fd878218000-7fd878219000 r-xp 00004000 fd:00 33666322                   /usr/lib64/libXfixes.so.3.1.0
+7fd878219000-7fd87821a000 rwxp 00005000 fd:00 33666322                   /usr/lib64/libXfixes.so.3.1.0
+7fd87821a000-7fd87821e000 r-xp 00000000 fd:00 33556639                   /usr/lib64/libuuid.so.1.3.0
+7fd87821e000-7fd87841d000 ---p 00004000 fd:00 33556639                   /usr/lib64/libuuid.so.1.3.0
+7fd87841d000-7fd87841e000 r-xp 00003000 fd:00 33556639                   /usr/lib64/libuuid.so.1.3.0
+7fd87841e000-7fd87841f000 rwxp 00004000 fd:00 33556639                   /usr/lib64/libuuid.so.1.3.0
+7fd87841f000-7fd87847f000 r-xp 00000000 fd:00 33645839                   /usr/lib64/libpcre.so.1.2.0
+7fd87847f000-7fd87867f000 ---p 00060000 fd:00 33645839                   /usr/lib64/libpcre.so.1.2.0
+7fd87867f000-7fd878680000 r-xp 00060000 fd:00 33645839                   /usr/lib64/libpcre.so.1.2.0
+7fd878680000-7fd878681000 rwxp 00061000 fd:00 33645839                   /usr/lib64/libpcre.so.1.2.0
+7fd878681000-7fd8788b5000 r-xp 00000000 00:2c 8319727830                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libcrypto.so.1.0.2k
+7fd8788b5000-7fd878ab5000 ---p 00234000 00:2c 8319727830                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libcrypto.so.1.0.2k
+7fd878ab5000-7fd878ad1000 r-xp 00234000 00:2c 8319727830                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libcrypto.so.1.0.2k
+7fd878ad1000-7fd878ade000 rwxp 00250000 00:2c 8319727830                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libcrypto.so.1.0.2k
+7fd878ade000-7fd878ae2000 rwxp 00000000 00:00 0 
+7fd878ae2000-7fd878b49000 r-xp 00000000 00:2c 8306071830                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libssl.so.1.0.2k
+7fd878b49000-7fd878d49000 ---p 00067000 00:2c 8306071830                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libssl.so.1.0.2k
+7fd878d49000-7fd878d4d000 r-xp 00067000 00:2c 8306071830                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libssl.so.1.0.2k
+7fd878d4d000-7fd878d54000 rwxp 0006b000 00:2c 8306071830                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libssl.so.1.0.2k
+7fd878d54000-7fd878d6a000 r-xp 00000000 00:2c 8306071838                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libgcc_s.so.1
+7fd878d6a000-7fd878f6a000 ---p 00016000 00:2c 8306071838                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libgcc_s.so.1
+7fd878f6a000-7fd878f6b000 r-xp 00016000 00:2c 8306071838                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libgcc_s.so.1
+7fd878f6b000-7fd878f6c000 rwxp 00017000 00:2c 8306071838                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libgcc_s.so.1
+7fd878f6c000-7fd879130000 r-xp 00000000 fd:00 33645189                   /usr/lib64/libc-2.17.so
+7fd879130000-7fd87932f000 ---p 001c4000 fd:00 33645189                   /usr/lib64/libc-2.17.so
+7fd87932f000-7fd879333000 r-xp 001c3000 fd:00 33645189                   /usr/lib64/libc-2.17.so
+7fd879333000-7fd879335000 rwxp 001c7000 fd:00 33645189                   /usr/lib64/libc-2.17.so
+7fd879335000-7fd87933a000 rwxp 00000000 00:00 0 
+7fd87933a000-7fd879351000 r-xp 00000000 fd:00 33645215                   /usr/lib64/libpthread-2.17.so
+7fd879351000-7fd879550000 ---p 00017000 fd:00 33645215                   /usr/lib64/libpthread-2.17.so
+7fd879550000-7fd879551000 r-xp 00016000 fd:00 33645215                   /usr/lib64/libpthread-2.17.so
+7fd879551000-7fd879552000 rwxp 00017000 fd:00 33645215                   /usr/lib64/libpthread-2.17.so
+7fd879552000-7fd879556000 rwxp 00000000 00:00 0 
+7fd879556000-7fd879558000 r-xp 00000000 fd:00 33645195                   /usr/lib64/libdl-2.17.so
+7fd879558000-7fd879758000 ---p 00002000 fd:00 33645195                   /usr/lib64/libdl-2.17.so
+7fd879758000-7fd879759000 r-xp 00002000 fd:00 33645195                   /usr/lib64/libdl-2.17.so
+7fd879759000-7fd87975a000 rwxp 00003000 fd:00 33645195                   /usr/lib64/libdl-2.17.so
+7fd87975a000-7fd8798ca000 r-xp 00000000 00:2c 8317684451                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/liboasis-O.so
+7fd8798ca000-7fd8798cb000 ---p 00170000 00:2c 8317684451                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/liboasis-O.so
+7fd8798cb000-7fd8798cc000 r-xp 00170000 00:2c 8317684451                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/liboasis-O.so
+7fd8798cc000-7fd8798ce000 rwxp 00171000 00:2c 8317684451                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/liboasis-O.so
+7fd8798ce000-7fd8798cf000 rwxp 00000000 00:00 0 
+7fd8798cf000-7fd8798d7000 r-xp 00000000 fd:00 33645193                   /usr/lib64/libcrypt-2.17.so
+7fd8798d7000-7fd879ad6000 ---p 00008000 fd:00 33645193                   /usr/lib64/libcrypt-2.17.so
+7fd879ad6000-7fd879ad7000 r-xp 00007000 fd:00 33645193                   /usr/lib64/libcrypt-2.17.so
+7fd879ad7000-7fd879ad8000 rwxp 00008000 fd:00 33645193                   /usr/lib64/libcrypt-2.17.so
+7fd879ad8000-7fd879b06000 rwxp 00000000 00:00 0 
+7fd879b06000-7fd879b0d000 r-xp 00000000 fd:00 33645443                   /usr/lib64/librt-2.17.so
+7fd879b0d000-7fd879d0c000 ---p 00007000 fd:00 33645443                   /usr/lib64/librt-2.17.so
+7fd879d0c000-7fd879d0d000 r-xp 00006000 fd:00 33645443                   /usr/lib64/librt-2.17.so
+7fd879d0d000-7fd879d0e000 rwxp 00007000 fd:00 33645443                   /usr/lib64/librt-2.17.so
+7fd879d0e000-7fd879d33000 r-xp 00000000 fd:00 33645834                   /usr/lib64/libtinfo.so.5.9
+7fd879d33000-7fd879f33000 ---p 00025000 fd:00 33645834                   /usr/lib64/libtinfo.so.5.9
+7fd879f33000-7fd879f37000 r-xp 00025000 fd:00 33645834                   /usr/lib64/libtinfo.so.5.9
+7fd879f37000-7fd879f38000 rwxp 00029000 fd:00 33645834                   /usr/lib64/libtinfo.so.5.9
+7fd879f38000-7fd879f5e000 r-xp 00000000 fd:00 33645824                   /usr/lib64/libncurses.so.5.9
+7fd879f5e000-7fd87a15d000 ---p 00026000 fd:00 33645824                   /usr/lib64/libncurses.so.5.9
+7fd87a15d000-7fd87a15e000 r-xp 00025000 fd:00 33645824                   /usr/lib64/libncurses.so.5.9
+7fd87a15e000-7fd87a15f000 rwxp 00026000 fd:00 33645824                   /usr/lib64/libncurses.so.5.9
+7fd87a15f000-7fd87a1ab000 r-xp 00000000 00:2c 8317668139                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaUtil.so
+7fd87a1ab000-7fd87a3ab000 ---p 0004c000 00:2c 8317668139                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaUtil.so
+7fd87a3ab000-7fd87a3ad000 r-xp 0004c000 00:2c 8317668139                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaUtil.so
+7fd87a3ad000-7fd87a3ae000 rwxp 0004e000 00:2c 8317668139                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaUtil.so
+7fd87a3ae000-7fd87a3b2000 rwxp 00000000 00:00 0 
+7fd87a3b2000-7fd87a3b7000 r-xp 00000000 00:2c 8320671947                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaDMFileSysBase.so
+7fd87a3b7000-7fd87a5b6000 ---p 00005000 00:2c 8320671947                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaDMFileSysBase.so
+7fd87a5b6000-7fd87a5b7000 r-xp 00004000 00:2c 8320671947                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaDMFileSysBase.so
+7fd87a5b7000-7fd87a5b8000 rwxp 00005000 00:2c 8320671947                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaDMFileSysBase.so
+7fd87a5b8000-7fd87a601000 r-xp 00000000 00:2c 8319711686                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaDMFileSys.so
+7fd87a601000-7fd87a801000 ---p 00049000 00:2c 8319711686                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaDMFileSys.so
+7fd87a801000-7fd87a803000 r-xp 00049000 00:2c 8319711686                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaDMFileSys.so
+7fd87a803000-7fd87a804000 rwxp 0004b000 00:2c 8319711686                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaDMFileSys.so
+7fd87a804000-7fd87a805000 rwxp 00000000 00:00 0 
+7fd87a805000-7fd87a89d000 r-xp 00000000 00:2c 8319711689                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaWafer.so
+7fd87a89d000-7fd87aa9c000 ---p 00098000 00:2c 8319711689                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaWafer.so
+7fd87aa9c000-7fd87aaa3000 r-xp 00097000 00:2c 8319711689                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaWafer.so
+7fd87aaa3000-7fd87aaa4000 rwxp 0009e000 00:2c 8319711689                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaWafer.so
+7fd87aaa4000-7fd87aaa5000 rwxp 00000000 00:00 0 
+7fd87aaa5000-7fd87aada000 r-xp 00000000 00:2c 8319711691                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaCM.so
+7fd87aada000-7fd87acda000 ---p 00035000 00:2c 8319711691                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaCM.so
+7fd87acda000-7fd87acdc000 r-xp 00035000 00:2c 8319711691                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaCM.so
+7fd87acdc000-7fd87acdd000 rwxp 00037000 00:2c 8319711691                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaCM.so
+7fd87acdd000-7fd87acdf000 r-xp 00000000 00:2c 8317668142                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTclPlugIn.so
+7fd87acdf000-7fd87aedf000 ---p 00002000 00:2c 8317668142                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTclPlugIn.so
+7fd87aedf000-7fd87aee0000 r-xp 00002000 00:2c 8317668142                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTclPlugIn.so
+7fd87aee0000-7fd87aee1000 rwxp 00003000 00:2c 8317668142                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTclPlugIn.so
+7fd87aee1000-7fd87b4ea000 r-xp 00000000 00:2c 8320671953                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTclHelp.so
+7fd87b4ea000-7fd87b6e9000 ---p 00609000 00:2c 8320671953                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTclHelp.so
+7fd87b6e9000-7fd87b6ea000 r-xp 00608000 00:2c 8320671953                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTclHelp.so
+7fd87b6ea000-7fd87b6eb000 rwxp 00609000 00:2c 8320671953                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTclHelp.so
+7fd87b6eb000-7fd87b7cb000 r-xp 00000000 00:2c 8320671945                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaDM.so
+7fd87b7cb000-7fd87b9cb000 ---p 000e0000 00:2c 8320671945                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaDM.so
+7fd87b9cb000-7fd87b9d4000 r-xp 000e0000 00:2c 8320671945                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaDM.so
+7fd87b9d4000-7fd87b9d6000 rwxp 000e9000 00:2c 8320671945                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaDM.so
+7fd87b9d6000-7fd87b9d8000 rwxp 00000000 00:00 0 
+7fd87b9d8000-7fd87ba09000 r-xp 00000000 00:2c 8320671954                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaCommon.so
+7fd87ba09000-7fd87bc09000 ---p 00031000 00:2c 8320671954                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaCommon.so
+7fd87bc09000-7fd87bc0a000 r-xp 00031000 00:2c 8320671954                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaCommon.so
+7fd87bc0a000-7fd87bc0b000 rwxp 00032000 00:2c 8320671954                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaCommon.so
+7fd87bc0b000-7fd87be2e000 r-xp 00000000 00:2c 8319711688                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTech.so
+7fd87be2e000-7fd87c02e000 ---p 00223000 00:2c 8319711688                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTech.so
+7fd87c02e000-7fd87c048000 r-xp 00223000 00:2c 8319711688                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTech.so
+7fd87c048000-7fd87c04c000 rwxp 0023d000 00:2c 8319711688                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTech.so
+7fd87c04c000-7fd87c04e000 rwxp 00000000 00:00 0 
+7fd87c04e000-7fd87c476000 r-xp 00000000 00:2c 8319711685                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaBase.so
+7fd87c476000-7fd87c676000 ---p 00428000 00:2c 8319711685                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaBase.so
+7fd87c676000-7fd87c69b000 r-xp 00428000 00:2c 8319711685                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaBase.so
+7fd87c69b000-7fd87c6a2000 rwxp 0044d000 00:2c 8319711685                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaBase.so
+7fd87c6a2000-7fd87c6c7000 rwxp 00000000 00:00 0 
+7fd87c6c7000-7fd87cef6000 r-xp 00000000 00:2c 8317668141                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaDesign.so
+7fd87cef6000-7fd87d0f5000 ---p 0082f000 00:2c 8317668141                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaDesign.so
+7fd87d0f5000-7fd87d147000 r-xp 0082e000 00:2c 8317668141                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaDesign.so
+7fd87d147000-7fd87d153000 rwxp 00880000 00:2c 8317668141                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaDesign.so
+7fd87d153000-7fd87d159000 rwxp 00000000 00:00 0 
+7fd87d159000-7fd87d162000 r-xp 00000000 00:2c 8320671955                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaLangBase.so
+7fd87d162000-7fd87d361000 ---p 00009000 00:2c 8320671955                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaLangBase.so
+7fd87d361000-7fd87d362000 r-xp 00008000 00:2c 8320671955                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaLangBase.so
+7fd87d362000-7fd87d363000 rwxp 00009000 00:2c 8320671955                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaLangBase.so
+7fd87d363000-7fd87d373000 r-xp 00000000 00:2c 8320671948                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaPlugIn.so
+7fd87d373000-7fd87d572000 ---p 00010000 00:2c 8320671948                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaPlugIn.so
+7fd87d572000-7fd87d574000 r-xp 0000f000 00:2c 8320671948                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaPlugIn.so
+7fd87d574000-7fd87d575000 rwxp 00011000 00:2c 8320671948                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaPlugIn.so
+7fd87d575000-7fd87d7ae000 r-xp 00000000 00:2c 8320671958                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaLangInfo.so
+7fd87d7ae000-7fd87d9ae000 ---p 00239000 00:2c 8320671958                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaLangInfo.so
+7fd87d9ae000-7fd87d9c9000 r-xp 00239000 00:2c 8320671958                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaLangInfo.so
+7fd87d9c9000-7fd87d9cb000 rwxp 00254000 00:2c 8320671958                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaLangInfo.so
+7fd87d9cb000-7fd87d9da000 r-xp 00000000 00:2c 8317668144                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTclCommon.so
+7fd87d9da000-7fd87dbda000 ---p 0000f000 00:2c 8317668144                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTclCommon.so
+7fd87dbda000-7fd87dbdb000 r-xp 0000f000 00:2c 8317668144                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTclCommon.so
+7fd87dbdb000-7fd87dbdc000 rwxp 00010000 00:2c 8317668144                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTclCommon.so
+7fd87dbdc000-7fd87dbed000 r-xp 00000000 00:2c 8320671944                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTclBase.so
+7fd87dbed000-7fd87dded000 ---p 00011000 00:2c 8320671944                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTclBase.so
+7fd87dded000-7fd87ddee000 r-xp 00011000 00:2c 8320671944                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTclBase.so
+7fd87ddee000-7fd87ddef000 rwxp 00012000 00:2c 8320671944                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTclBase.so
+7fd87ddef000-7fd87eb7c000 r-xp 00000000 00:2c 8320671957                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTcl.so
+7fd87eb7c000-7fd87ed7b000 ---p 00d8d000 00:2c 8320671957                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTcl.so
+7fd87ed7b000-7fd87ed8a000 r-xp 00d8c000 00:2c 8320671957                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTcl.so
+7fd87ed8a000-7fd87ed9a000 rwxp 00d9b000 00:2c 8320671957                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTcl.so
+7fd87ed9a000-7fd87ef14000 r-xp 00000000 00:2c 8320688694                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libsym_datacore-O.so
+7fd87ef14000-7fd87f113000 ---p 0017a000 00:2c 8320688694                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libsym_datacore-O.so
+7fd87f113000-7fd87f11c000 r-xp 00179000 00:2c 8320688694                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libsym_datacore-O.so
+7fd87f11c000-7fd87f11f000 rwxp 00182000 00:2c 8320688694                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libsym_datacore-O.so
+7fd87f11f000-7fd87f143000 r-xp 00000000 00:2c 8319727834                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libmym_core-O.so
+7fd87f143000-7fd87f342000 ---p 00024000 00:2c 8319727834                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libmym_core-O.so
+7fd87f342000-7fd87f344000 r-xp 00023000 00:2c 8319727834                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libmym_core-O.so
+7fd87f344000-7fd87f345000 rwxp 00025000 00:2c 8319727834                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libmym_core-O.so
+7fd87f345000-7fd87f42a000 r-xp 00000000 00:2c 8306071832                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libgui_controls-O.so
+7fd87f42a000-7fd87f629000 ---p 000e5000 00:2c 8306071832                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libgui_controls-O.so
+7fd87f629000-7fd87f630000 r-xp 000e4000 00:2c 8306071832                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libgui_controls-O.so
+7fd87f630000-7fd87f632000 rwxp 000eb000 00:2c 8306071832                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libgui_controls-O.so
+7fd87f632000-7fd87fac4000 r-xp 00000000 00:2c 8319727819                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libsnpsst-O.so
+7fd87fac4000-7fd87fcc4000 ---p 00492000 00:2c 8319727819                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libsnpsst-O.so
+7fd87fcc4000-7fd87fcde000 r-xp 00492000 00:2c 8319727819                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libsnpsst-O.so
+7fd87fcde000-7fd87fce7000 rwxp 004ac000 00:2c 8319727819                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libsnpsst-O.so
+7fd87fce7000-7fd880057000 r-xp 00000000 00:2c 8320688684                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libnpiL1.so
+7fd880057000-7fd880058000 ---p 00370000 00:2c 8320688684                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libnpiL1.so
+7fd880058000-7fd880066000 r-xp 00370000 00:2c 8320688684                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libnpiL1.so
+7fd880066000-7fd88006e000 rwxp 0037e000 00:2c 8320688684                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libnpiL1.so
+7fd88006e000-7fd880075000 rwxp 00000000 00:00 0 
+7fd880075000-7fd883f85000 r-xp 00000000 00:2c 8317684453                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libNPI.so
+7fd883f85000-7fd883f86000 ---p 03f10000 00:2c 8317684453                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libNPI.so
+7fd883f86000-7fd8845cc000 r-xp 03f10000 00:2c 8317684453                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libNPI.so
+7fd8845cc000-7fd8846f1000 rwxp 04556000 00:2c 8317684453                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libNPI.so
+7fd8846f1000-7fd885d92000 rwxp 00000000 00:00 0 
+7fd885d92000-7fd885fc1000 r-xp 00000000 00:2c 8306071851                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libnsys.so
+7fd885fc1000-7fd885fc2000 ---p 0022f000 00:2c 8306071851                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libnsys.so
+7fd885fc2000-7fd885fcb000 r-xp 0022f000 00:2c 8306071851                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libnsys.so
+7fd885fcb000-7fd885fcf000 rwxp 00238000 00:2c 8306071851                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libnsys.so
+7fd885fcf000-7fd885fe5000 rwxp 00000000 00:00 0 
+7fd885fe5000-7fd886f93000 r-xp 00000000 00:2c 8306071828                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libnffr.so
+7fd886f93000-7fd886ff9000 r-xp 00fad000 00:2c 8306071828                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libnffr.so
+7fd886ff9000-7fd88702b000 rwxp 01013000 00:2c 8306071828                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libnffr.so
+7fd88702b000-7fd887b49000 rwxp 00000000 00:00 0 
+7fd887b49000-7fd887b7e000 r-xp 00000000 00:2c 8317684442                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libgomp.so.1.0.0
+7fd887b7e000-7fd887d7d000 ---p 00035000 00:2c 8317684442                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libgomp.so.1.0.0
+7fd887d7d000-7fd887d7e000 r-xp 00034000 00:2c 8317684442                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libgomp.so.1.0.0
+7fd887d7e000-7fd887d7f000 rwxp 00035000 00:2c 8317684442                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libgomp.so.1.0.0
+7fd887d7f000-7fd887f4e000 r-xp 00000000 00:2c 8306071823                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libstdc++.so.6.0.27
+7fd887f4e000-7fd88814d000 ---p 001cf000 00:2c 8306071823                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libstdc++.so.6.0.27
+7fd88814d000-7fd888158000 r-xp 001ce000 00:2c 8306071823                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libstdc++.so.6.0.27
+7fd888158000-7fd88815b000 rwxp 001d9000 00:2c 8306071823                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libstdc++.so.6.0.27
+7fd88815b000-7fd88815e000 rwxp 00000000 00:00 0 
+7fd88815e000-7fd888295000 r-xp 00000000 00:2c 8320688702                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libX11.so.6.3.0
+7fd888295000-7fd888495000 ---p 00137000 00:2c 8320688702                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libX11.so.6.3.0
+7fd888495000-7fd88849b000 rwxp 00137000 00:2c 8320688702                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libX11.so.6.3.0
+7fd88849b000-7fd8884ac000 r-xp 00000000 fd:00 33666313                   /usr/lib64/libXext.so.6.4.0
+7fd8884ac000-7fd8886ab000 ---p 00011000 fd:00 33666313                   /usr/lib64/libXext.so.6.4.0
+7fd8886ab000-7fd8886ac000 r-xp 00010000 fd:00 33666313                   /usr/lib64/libXext.so.6.4.0
+7fd8886ac000-7fd8886ad000 rwxp 00011000 fd:00 33666313                   /usr/lib64/libXext.so.6.4.0
+7fd8886ad000-7fd8886ed000 r-xp 00000000 fd:00 33660856                   /usr/lib64/libfontconfig.so.1.11.1
+7fd8886ed000-7fd8888ec000 ---p 00040000 fd:00 33660856                   /usr/lib64/libfontconfig.so.1.11.1
+7fd8888ec000-7fd8888ee000 r-xp 0003f000 fd:00 33660856                   /usr/lib64/libfontconfig.so.1.11.1
+7fd8888ee000-7fd8888ef000 rwxp 00041000 fd:00 33660856                   /usr/lib64/libfontconfig.so.1.11.1
+7fd8888ef000-7fd8888f3000 r-xp 00000000 00:2c 8319727814                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libxcb-util.so.1.0.0
+7fd8888f3000-7fd888af3000 ---p 00004000 00:2c 8319727814                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libxcb-util.so.1.0.0
+7fd888af3000-7fd888af4000 rwxp 00004000 00:2c 8319727814                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libxcb-util.so.1.0.0
+7fd888af4000-7fd888af6000 r-xp 00000000 00:2c 8317684467                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libxcb-shm.so.0.0.0
+7fd888af6000-7fd888cf5000 ---p 00002000 00:2c 8317684467                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libxcb-shm.so.0.0.0
+7fd888cf5000-7fd888cf6000 rwxp 00001000 00:2c 8317684467                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libxcb-shm.so.0.0.0
+7fd888cf6000-7fd888cfa000 r-xp 00000000 00:2c 8319727836                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libxcb-image.so.0.0.0
+7fd888cfa000-7fd888ef9000 ---p 00004000 00:2c 8319727836                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libxcb-image.so.0.0.0
+7fd888ef9000-7fd888efa000 rwxp 00003000 00:2c 8319727836                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libxcb-image.so.0.0.0
+7fd888efa000-7fd888f00000 r-xp 00000000 00:2c 8320688701                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libxcb-xfixes.so.0.0.0
+7fd888f00000-7fd889100000 ---p 00006000 00:2c 8320688701                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libxcb-xfixes.so.0.0.0
+7fd889100000-7fd889101000 rwxp 00006000 00:2c 8320688701                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libxcb-xfixes.so.0.0.0
+7fd889101000-7fd889106000 r-xp 00000000 00:2c 8319727815                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libxcb-sync.so.1.0.0
+7fd889106000-7fd889306000 ---p 00005000 00:2c 8319727815                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libxcb-sync.so.1.0.0
+7fd889306000-7fd889307000 rwxp 00005000 00:2c 8319727815                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libxcb-sync.so.1.0.0
+7fd889307000-7fd889312000 r-xp 00000000 00:2c 8306071826                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libxcb-render.so.0.0.0
+7fd889312000-7fd889512000 ---p 0000b000 00:2c 8306071826                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libxcb-render.so.0.0.0
+7fd889512000-7fd889513000 rwxp 0000b000 00:2c 8306071826                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libxcb-render.so.0.0.0
+7fd889513000-7fd889521000 r-xp 00000000 00:2c 8317684450                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libxcb-randr.so.0.1.0
+7fd889521000-7fd889721000 ---p 0000e000 00:2c 8317684450                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libxcb-randr.so.0.1.0
+7fd889721000-7fd889722000 rwxp 0000e000 00:2c 8317684450                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libxcb-randr.so.0.1.0
+7fd889722000-7fd889746000 r-xp 00000000 00:2c 8306071822                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libxcb.so.1.1.0
+7fd889746000-7fd889946000 ---p 00024000 00:2c 8306071822                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libxcb.so.1.1.0
+7fd889946000-7fd889947000 rwxp 00024000 00:2c 8306071822                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libxcb.so.1.1.0
+7fd889947000-7fd8899c3000 r-xp 00000000 00:2c 8320688348                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/freeType/libfreetype.so.6.3.20
+7fd8899c3000-7fd889bc2000 ---p 0007c000 00:2c 8320688348                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/freeType/libfreetype.so.6.3.20
+7fd889bc2000-7fd889bc8000 rwxp 0007b000 00:2c 8320688348                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/freeType/libfreetype.so.6.3.20
+7fd889bc8000-7fd889bca000 r-xp 00000000 fd:00 33666350                   /usr/lib64/libXinerama.so.1.0.0
+7fd889bca000-7fd889dc9000 ---p 00002000 fd:00 33666350                   /usr/lib64/libXinerama.so.1.0.0
+7fd889dc9000-7fd889dca000 r-xp 00001000 fd:00 33666350                   /usr/lib64/libXinerama.so.1.0.0
+7fd889dca000-7fd889dcb000 rwxp 00002000 fd:00 33666350                   /usr/lib64/libXinerama.so.1.0.0
+7fd889dcb000-7fd889dd4000 r-xp 00000000 fd:00 33666329                   /usr/lib64/libXcursor.so.1.0.2
+7fd889dd4000-7fd889fd4000 ---p 00009000 fd:00 33666329                   /usr/lib64/libXcursor.so.1.0.2
+7fd889fd4000-7fd889fd5000 r-xp 00009000 fd:00 33666329                   /usr/lib64/libXcursor.so.1.0.2
+7fd889fd5000-7fd889fd6000 rwxp 0000a000 fd:00 33666329                   /usr/lib64/libXcursor.so.1.0.2
+7fd889fd6000-7fd889fe0000 r-xp 00000000 fd:00 33666348                   /usr/lib64/libXrandr.so.2.2.0
+7fd889fe0000-7fd88a1df000 ---p 0000a000 fd:00 33666348                   /usr/lib64/libXrandr.so.2.2.0
+7fd88a1df000-7fd88a1e0000 r-xp 00009000 fd:00 33666348                   /usr/lib64/libXrandr.so.2.2.0
+7fd88a1e0000-7fd88a1e1000 rwxp 0000a000 fd:00 33666348                   /usr/lib64/libXrandr.so.2.2.0
+7fd88a1e1000-7fd88a1ea000 r-xp 00000000 fd:00 33666315                   /usr/lib64/libXrender.so.1.3.0
+7fd88a1ea000-7fd88a3ea000 ---p 00009000 fd:00 33666315                   /usr/lib64/libXrender.so.1.3.0
+7fd88a3ea000-7fd88a3eb000 r-xp 00009000 fd:00 33666315                   /usr/lib64/libXrender.so.1.3.0
+7fd88a3eb000-7fd88a3ec000 rwxp 0000a000 fd:00 33666315                   /usr/lib64/libXrender.so.1.3.0
+7fd88a3ec000-7fd88a3fb000 r-xp 00000000 fd:00 33666354                   /usr/lib64/libXi.so.6.1.0
+7fd88a3fb000-7fd88a5fa000 ---p 0000f000 fd:00 33666354                   /usr/lib64/libXi.so.6.1.0
+7fd88a5fa000-7fd88a5fb000 r-xp 0000e000 fd:00 33666354                   /usr/lib64/libXi.so.6.1.0
+7fd88a5fb000-7fd88a5fc000 rwxp 0000f000 fd:00 33666354                   /usr/lib64/libXi.so.6.1.0
+7fd88a5fc000-7fd88a613000 r-xp 00000000 fd:00 33660809                   /usr/lib64/libICE.so.6.3.0
+7fd88a613000-7fd88a812000 ---p 00017000 fd:00 33660809                   /usr/lib64/libICE.so.6.3.0
+7fd88a812000-7fd88a813000 r-xp 00016000 fd:00 33660809                   /usr/lib64/libICE.so.6.3.0
+7fd88a813000-7fd88a814000 rwxp 00017000 fd:00 33660809                   /usr/lib64/libICE.so.6.3.0
+7fd88a814000-7fd88a818000 rwxp 00000000 00:00 0 
+7fd88a818000-7fd88a81f000 r-xp 00000000 fd:00 33660817                   /usr/lib64/libSM.so.6.0.1
+7fd88a81f000-7fd88aa1e000 ---p 00007000 fd:00 33660817                   /usr/lib64/libSM.so.6.0.1
+7fd88aa1e000-7fd88aa1f000 r-xp 00006000 fd:00 33660817                   /usr/lib64/libSM.so.6.0.1
+7fd88aa1f000-7fd88aa20000 rwxp 00007000 fd:00 33660817                   /usr/lib64/libSM.so.6.0.1
+7fd88aa20000-7fd88aa5e000 r-xp 00000000 00:2c 8319727825                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5WebKitWidgets.so.5.5.1
+7fd88aa5e000-7fd88ac5d000 ---p 0003e000 00:2c 8319727825                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5WebKitWidgets.so.5.5.1
+7fd88ac5d000-7fd88ac61000 rwxp 0003d000 00:2c 8319727825                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5WebKitWidgets.so.5.5.1
+7fd88ac61000-7fd88c976000 r-xp 00000000 00:2c 8319727843                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5WebKit.so.5.5.1
+7fd88c976000-7fd88cb75000 ---p 01d15000 00:2c 8319727843                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5WebKit.so.5.5.1
+7fd88cb75000-7fd88ccef000 rwxp 01d14000 00:2c 8319727843                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5WebKit.so.5.5.1
+7fd88ccef000-7fd88cd1b000 rwxp 00000000 00:00 0 
+7fd88cd1b000-7fd88cd6b000 r-xp 00000000 00:2c 8306071821                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5Svg.so.5.6.2
+7fd88cd6b000-7fd88cf6b000 ---p 00050000 00:2c 8306071821                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5Svg.so.5.6.2
+7fd88cf6b000-7fd88cf6e000 rwxp 00050000 00:2c 8306071821                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5Svg.so.5.6.2
+7fd88cf6e000-7fd88cf9e000 r-xp 00000000 00:2c 8306071819                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5Test.so.5.6.2
+7fd88cf9e000-7fd88d19d000 ---p 00030000 00:2c 8306071819                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5Test.so.5.6.2
+7fd88d19d000-7fd88d1a0000 rwxp 0002f000 00:2c 8306071819                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5Test.so.5.6.2
+7fd88d1a0000-7fd88d1a4000 rwxp 00000000 00:00 0 
+7fd88d1a4000-7fd88d20e000 r-xp 00000000 00:2c 8306071817                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5PrintSupport.so.5.6.2
+7fd88d20e000-7fd88d40d000 ---p 0006a000 00:2c 8306071817                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5PrintSupport.so.5.6.2
+7fd88d40d000-7fd88d412000 rwxp 00069000 00:2c 8306071817                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5PrintSupport.so.5.6.2
+7fd88d412000-7fd88d44f000 r-xp 00000000 00:2c 8320688696                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5Positioning.so.5.6.2
+7fd88d44f000-7fd88d64f000 ---p 0003d000 00:2c 8320688696                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5Positioning.so.5.6.2
+7fd88d64f000-7fd88d651000 rwxp 0003d000 00:2c 8320688696                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5Positioning.so.5.6.2
+7fd88d651000-7fd88d68a000 r-xp 00000000 00:2c 8306071847                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5Sensors.so.5.6.2
+7fd88d68a000-7fd88d889000 ---p 00039000 00:2c 8306071847                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5Sensors.so.5.6.2
+7fd88d889000-7fd88d88d000 rwxp 00038000 00:2c 8306071847                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5Sensors.so.5.6.2
+7fd88d88d000-7fd88d890000 r-xp 00000000 00:2c 8306071849                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5X11Extras.so.5.6.2
+7fd88d890000-7fd88da8f000 ---p 00003000 00:2c 8306071849                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5X11Extras.so.5.6.2
+7fd88da8f000-7fd88da90000 rwxp 00002000 00:2c 8306071849                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5X11Extras.so.5.6.2
+7fd88da90000-7fd88e054000 r-xp 00000000 00:2c 8306071843                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5Widgets.so.5.6.2
+7fd88e054000-7fd88e253000 ---p 005c4000 00:2c 8306071843                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5Widgets.so.5.6.2
+7fd88e253000-7fd88e27f000 rwxp 005c3000 00:2c 8306071843                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5Widgets.so.5.6.2
+7fd88e27f000-7fd88e74d000 r-xp 00000000 00:2c 8306071845                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5Gui.so.5.6.2
+7fd88e74d000-7fd88e94d000 ---p 004ce000 00:2c 8306071845                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5Gui.so.5.6.2
+7fd88e94d000-7fd88e960000 rwxp 004ce000 00:2c 8306071845                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5Gui.so.5.6.2
+7fd88e960000-7fd88e965000 rwxp 00000000 00:00 0 
+7fd88e965000-7fd88ea22000 r-xp 00000000 00:2c 8320688704                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libsqlite3.so
+7fd88ea22000-7fd88ec21000 ---p 000bd000 00:2c 8320688704                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libsqlite3.so
+7fd88ec21000-7fd88ec25000 rwxp 000bc000 00:2c 8320688704                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libsqlite3.so
+7fd88ec25000-7fd88ec26000 rwxp 00000000 00:00 0 
+7fd88ec26000-7fd88ed27000 r-xp 00000000 fd:00 33645197                   /usr/lib64/libm-2.17.so
+7fd88ed27000-7fd88ef26000 ---p 00101000 fd:00 33645197                   /usr/lib64/libm-2.17.so
+7fd88ef26000-7fd88ef27000 r-xp 00100000 fd:00 33645197                   /usr/lib64/libm-2.17.so
+7fd88ef27000-7fd88ef28000 rwxp 00101000 fd:00 33645197                   /usr/lib64/libm-2.17.so
+7fd88ef28000-7fd88ef42000 r-xp 00000000 00:2c 8306071835                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libz.so.1.2.11
+7fd88ef42000-7fd88f142000 ---p 0001a000 00:2c 8306071835                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libz.so.1.2.11
+7fd88f142000-7fd88f143000 rwxp 0001a000 00:2c 8306071835                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libz.so.1.2.11
+7fd88f143000-7fd88f257000 r-xp 00000000 fd:00 33556655                   /usr/lib64/libglib-2.0.so.0.5600.1
+7fd88f257000-7fd88f456000 ---p 00114000 fd:00 33556655                   /usr/lib64/libglib-2.0.so.0.5600.1
+7fd88f456000-7fd88f457000 r-xp 00113000 fd:00 33556655                   /usr/lib64/libglib-2.0.so.0.5600.1
+7fd88f457000-7fd88f458000 rwxp 00114000 fd:00 33556655                   /usr/lib64/libglib-2.0.so.0.5600.1
+7fd88f458000-7fd88f459000 rwxp 00000000 00:00 0 
+7fd88f459000-7fd88f45a000 r-xp 00000000 fd:00 33556661                   /usr/lib64/libgthread-2.0.so.0.5600.1
+7fd88f45a000-7fd88f659000 ---p 00001000 fd:00 33556661                   /usr/lib64/libgthread-2.0.so.0.5600.1
+7fd88f659000-7fd88f65a000 r-xp 00000000 fd:00 33556661                   /usr/lib64/libgthread-2.0.so.0.5600.1
+7fd88f65a000-7fd88f65b000 rwxp 00001000 fd:00 33556661                   /usr/lib64/libgthread-2.0.so.0.5600.1
+7fd88f65b000-7fd890e85000 r-xp 00000000 00:2c 8306071820                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libicudata.so.54.1
+7fd890e85000-7fd891084000 ---p 0182a000 00:2c 8306071820                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libicudata.so.54.1
+7fd891084000-7fd891085000 rwxp 01829000 00:2c 8306071820                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libicudata.so.54.1
+7fd891085000-7fd891229000 r-xp 00000000 00:2c 8317684443                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libicuuc.so.54.1
+7fd891229000-7fd891429000 ---p 001a4000 00:2c 8317684443                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libicuuc.so.54.1
+7fd891429000-7fd89143a000 rwxp 001a4000 00:2c 8317684443                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libicuuc.so.54.1
+7fd89143a000-7fd89143f000 rwxp 00000000 00:00 0 
+7fd89143f000-7fd8916b1000 r-xp 00000000 00:2c 8317684465                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libicui18n.so.54.1
+7fd8916b1000-7fd8918b1000 ---p 00272000 00:2c 8317684465                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libicui18n.so.54.1
+7fd8918b1000-7fd8918c2000 rwxp 00272000 00:2c 8317684465                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libicui18n.so.54.1
+7fd8918c2000-7fd8918c3000 rwxp 00000000 00:00 0 
+7fd8918c3000-7fd89190f000 r-xp 00000000 00:2c 8320688698                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5Sql.so.5.6.2
+7fd89190f000-7fd891b0e000 ---p 0004c000 00:2c 8320688698                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5Sql.so.5.6.2
+7fd891b0e000-7fd891b11000 rwxp 0004b000 00:2c 8320688698                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5Sql.so.5.6.2
+7fd891b11000-7fd891c6f000 r-xp 00000000 00:2c 8306071848                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5Network.so.5.6.2
+7fd891c6f000-7fd891e6f000 ---p 0015e000 00:2c 8306071848                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5Network.so.5.6.2
+7fd891e6f000-7fd891e77000 rwxp 0015e000 00:2c 8306071848                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5Network.so.5.6.2
+7fd891e77000-7fd892395000 r-xp 00000000 00:2c 8319727824                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5Core.so.5.6.2
+7fd892395000-7fd892594000 ---p 0051e000 00:2c 8319727824                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5Core.so.5.6.2
+7fd892594000-7fd8925a2000 rwxp 0051d000 00:2c 8319727824                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5Core.so.5.6.2
+7fd8925a2000-7fd8925a5000 rwxp 00000000 00:00 0 
+7fd8925a5000-7fd892945000 r-xp 00000000 00:2c 8319727821                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5XmlPatterns.so.5.6.2
+7fd892945000-7fd892b44000 ---p 003a0000 00:2c 8319727821                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5XmlPatterns.so.5.6.2
+7fd892b44000-7fd892b7b000 rwxp 0039f000 00:2c 8319727821                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5XmlPatterns.so.5.6.2
+7fd892b7b000-7fd892bb3000 r-xp 00000000 00:2c 8320688685                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5Xml.so.5.6.2
+7fd892bb3000-7fd892db2000 ---p 00038000 00:2c 8320688685                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5Xml.so.5.6.2
+7fd892db2000-7fd892db4000 rwxp 00037000 00:2c 8320688685                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libQt5Xml.so.5.6.2
+7fd892db4000-7fd892dd6000 r-xp 00000000 fd:00 33645182                   /usr/lib64/ld-2.17.so
+7fd892dd6000-7fd892dda000 rwxp 00000000 00:00 0 
+7fd892dda000-7fd892ddf000 r-xp 00000000 00:2c 8320662694                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/console/console_tcl.rcc
+7fd892ddf000-7fd892df7000 r-xp 00000000 00:2c 8317659154                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/fonts/AM196___.TTF
+7fd892df7000-7fd892e29000 r-xp 00000000 00:2c 8306046703                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/fonts/TNR_WG__.ttf
+7fd892e29000-7fd892e35000 r-xp 00000000 00:2c 8320662732                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/fonts/td______.pfb
+7fd892e35000-7fd892e67000 r-xp 00000000 00:2c 8306046703                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/fonts/TNR_WG__.ttf
+7fd892e67000-7fd892f00000 rwxp 00000000 00:00 0 
+7fd892f00000-7fd892f05000 r-xp 00000000 00:2c 8319727817                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libtbcload-O.so
+7fd892f05000-7fd892f06000 r-xp 00004000 00:2c 8319727817                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libtbcload-O.so
+7fd892f06000-7fd892f07000 rwxp 00005000 00:2c 8319727817                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libtbcload-O.so
+7fd892f07000-7fd892f11000 rwxp 00000000 00:00 0 
+7fd892f11000-7fd892f82000 r-xp 00000000 00:2c 8306071814                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libvfs.so
+7fd892f82000-7fd892f83000 ---p 00071000 00:2c 8306071814                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libvfs.so
+7fd892f83000-7fd892f86000 r-xp 00071000 00:2c 8306071814                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libvfs.so
+7fd892f86000-7fd892f87000 rwxp 00074000 00:2c 8306071814                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libvfs.so
+7fd892f87000-7fd892f8b000 rwxp 00000000 00:00 0 
+7fd892f8b000-7fd892fa7000 r-xp 00000000 00:2c 8319727811                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libsnps_boost_1_73_0_filesystem-mt.so.1.73.0
+7fd892fa7000-7fd892fa8000 ---p 0001c000 00:2c 8319727811                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libsnps_boost_1_73_0_filesystem-mt.so.1.73.0
+7fd892fa8000-7fd892fa9000 r-xp 0001c000 00:2c 8319727811                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libsnps_boost_1_73_0_filesystem-mt.so.1.73.0
+7fd892fa9000-7fd892faa000 rwxp 0001d000 00:2c 8319727811                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/lib/libsnps_boost_1_73_0_filesystem-mt.so.1.73.0
+7fd892faa000-7fd892fb8000 rwxp 00000000 00:00 0 
+7fd892fb8000-7fd892fc3000 r-xp 00000000 00:2c 8306046702                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/fonts/lc______.ttf
+7fd892fc3000-7fd892fca000 r-xs 00000000 00:2a 1758462980                 /afs/unity.ncsu.edu/users/z/zwmurray/.cache/fontconfig/1a652eca-db92-4d4c-a592-7b70ad7e88cc-le64.cache-7
+7fd892fca000-7fd892fcb000 r-xp 00000000 00:2c 8319709580                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/startup/startup_tcl.rcc
+7fd892fcb000-7fd892fcc000 r-xp 00000000 00:2c 8319709775                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/tdk/tdk_tcl.rcc
+7fd892fcc000-7fd892fd5000 rwxp 00000000 00:00 0 
+7fd892fd5000-7fd892fd6000 r-xp 00021000 fd:00 33645182                   /usr/lib64/ld-2.17.so
+7fd892fd6000-7fd892fd7000 rwxp 00022000 fd:00 33645182                   /usr/lib64/ld-2.17.so
+7fd892fd7000-7fd892fd8000 rwxp 00000000 00:00 0 
+7ffc8acf8000-7ffc8ad1c000 rwxp 00000000 00:00 0                          [stack]
+7ffc8ad86000-7ffc8ad88000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]

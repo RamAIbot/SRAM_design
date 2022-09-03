@@ -1,0 +1,2568 @@
+
+                                 IC Validator 
+
+          Version S-2021.06-SP2 for linux64 - Aug 30, 2021 cl#6831572
+
+                    Copyright (c) 1996 - 2021 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Called as: icv -f gdsii -i /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/rowdecoder.icv.lvs/rowdecoder.custom_compiler.gds -c rowdecoder -I /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/syncust/NCSU_TechLib_FreePDK3/../../icv -s /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/rowdecoder.icv.lvs/rowdecoder.icv.sp -sf SPICE -stc rowdecoder -oa_dm6 -vue /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/rowdecoder.icv.lvs/FreePDK3_main.lvs.lvs.rs
+
+Loaded runset from cache: /afs/unity.ncsu.edu/users/z/zwmurray/.icvrscache/87f9d36fef8f7cbd573bb0469a6823c1-C2698C7A-4162-45CD-8AA0-87414A2D4E73-grendel31.ece.ncsu.edu-20312.rscache
+Cached Runset Compile Time=0:00:02 User=1.33 Sys=0.06 Mem=0.843 GB
+
+/afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/FreePDK3_main.lvs.rs.user_functions:1: warning: Converted [CR+LF] to [LF]
+    // 3nm FreePDK(TM) ICV LVS Functions
+/afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/FreePDK3_main.lvs.rs.user_functions:1: warning: Converted [CR+LF] to [LF]
+    // 3nm FreePDK(TM) ICV LVS Functions
+/afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/FreePDK3_main.lvs.rs.user_functions:1: warning: Converted [CR+LF] to [LF]
+    // 3nm FreePDK(TM) ICV LVS Functions
+/afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/inv_2.icv.lvs/FreePDK3_main.lvs.lvs.rs:422: warning: ICV device extraction settings for write_property_to, processing_layer_hash_map, and pin_map has been automated. As of the 2016.06 release this behavior is the default and can be disabled with "-D ICV_REVERT_DEVICE_PROPERTY_DEPENDENCY_ANALYSIS". 
+/afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/inv_2.icv.lvs/FreePDK3_main.lvs.lvs.rs:451: warning: ICV LVS device settings currently use overwrite mode. Use command line option '-D ICV_ENABLE_DEVICE_SETTING_APPEND_MODE' or runset instruction '#define ICV_ENABLE_DEVICE_SETTING_APPEND_MODE' to enable LVS device setting append mode in this release.
+/afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/inv_2.icv.lvs/FreePDK3_main.lvs.lvs.rs:451: warning: Some LVS reports change since 2019.12 release. Set environment variable 'ICV_REVERT_LVS_REPORT_IN_IDENTICAL_STRING' to see old LVS reports.
+Virtual Machine Init Time=0:00:00 User=0.02 Sys=0.00 Mem=0.843 GB
+
+System Startup Time=0:00:00 User=0.00 Sys=0.03 Mem=0.843 GB
+
+Wed Apr 20 01:54:37 2022
+
+                                  ICV_Engine 
+
+          Version S-2021.06-SP2 for linux64 - Aug 30, 2021 cl#6831572
+
+                    Copyright (c) 1996 - 2021 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+
+
+Running Multi-Threaded code with 2 shared thread(s)
+
+Runset file ......................  /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/rowdecoder.icv.lvs/FreePDK3_main.lvs.lvs.rs
+Current Directory ................  /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/rowdecoder.icv.lvs
+Hostname .........................  grendel25.ece.ncsu.edu
+Platform type ....................  LINUX.64
+GDSII input file name ............  /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/rowdecoder.icv.lvs/rowdecoder.custom_compiler.gds
+GDSII block name .................  rowdecoder
+Run details ......................  /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/rowdecoder.icv.lvs/run_details
+Group file directory .............  /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/rowdecoder.icv.lvs/run_details/group
+Check reference structures .......  no
+
+single pass sequential reading.
+library() at /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/inv_2.icv.lvs/FreePDK3_main.lvs.lvs.rs:155
+library(cell = "cell", format = GDSII, library_name = "inlib")
+
+schematic() at /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/inv_2.icv.lvs/FreePDK3_main.lvs.lvs.rs:161
+schematic_db = schematic(schematic_file = { { "sch", SPICE } })
+
+run_options() at /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/inv_2.icv.lvs/FreePDK3_main.lvs.lvs.rs:165
+run_options(lvs_netlist_flow = SPICE, lvs_user_unit = METER, uppercase = run_options_uppercase)
+
+compatibility_options() at /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/inv_2.icv.lvs/FreePDK3_main.lvs.lvs.rs:171
+compatibility_options(drc = { { orphan_edge_membership = NONE } })
+
+error_options() at /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/inv_2.icv.lvs/FreePDK3_main.lvs.lvs.rs:175
+error_options(error_limit_per_check = 1000, report_empty_violations = true)
+
+gds_options() at /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/inv_2.icv.lvs/FreePDK3_main.lvs.lvs.rs:180
+gds_options(duplicate_cell = DROP)
+
+resolution_options() at /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/inv_2.icv.lvs/FreePDK3_main.lvs.lvs.rs:184
+resolution_options(drc_angle_precision = 0.0, drc_length_precision = 0.0, internal_resolution = 0.0005, spacing_tolerance = 0.0)
+
+layout_drawn_options() at /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/inv_2.icv.lvs/FreePDK3_main.lvs.lvs.rs:191
+layout_drawn_options(self_intersect_action = FILL)
+
+layout_grid_options() at /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/inv_2.icv.lvs/FreePDK3_main.lvs.lvs.rs:195
+layout_grid_options(check_45 = {  }, check_90 = {  })
+
+text_options() at /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/inv_2.icv.lvs/FreePDK3_main.lvs.lvs.rs:200
+text_options(allow_all_numeric = true, colon_text = REGULAR_TEXT, layout_ground = vLVS_GROUND_NAMES, layout_power = vLVS_POWER_NAMES, replace_text_characters_regex = { { { { search_string = "[\s\*"={},]", replace_string = "_" } } } }, semicolon_text = REGULAR_TEXT)
+
+net_options() at /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/inv_2.icv.lvs/FreePDK3_main.lvs.lvs.rs:209
+net_options(schematic_ground = vLVS_GROUND_NAMES, schematic_power = vLVS_POWER_NAMES)
+
+lvs_options() at /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/inv_2.icv.lvs/FreePDK3_main.lvs.lvs.rs:214
+lvs_options(spice_multiplier_names = { "M" })
+
+[Generated Command]
+drc_black_box_options()
+
+[Generated Command]
+incremental_options()
+
+[Generated Command]
+layout_integrity_options()
+
+[Generated Command]
+hierarchy_options()
+
+[Generated Command]
+prototype_options()
+
+[Generated Command]
+hierarchy_auto_options()
+
+[Generated Command]
+text_net_global_options()
+
+[Generated Command]
+waiver_options()
+
+   Prescan Library Time=0:00:00  User=0.01 Sys=0.00 Mem=0.006 GB
+
+   Scan Hierarchy Time=0:00:00  User=0.01 Sys=0.01 Mem=0.005 GB
+
+Shared recipe is disabled for create_layer commands, too few layers in the design.
+   Read Library Time=0:00:00  User=0.05 Sys=0.03 Mem=0.039 GB
+
+ML for preprocessing is disabled for small designs.
+     Find Top Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+[HA] Hierarchy : Cell Area =        0.000 M : Cell Flat Area =        0.000 M : Child Area Factor =  0.27 x
+    Create Hierarchy Tree Phase: 0 Time=0:00:00  User=0.15 Sys=0.02 Mem=0.012 GB
+
+0 Total errors found.
+  Set 3 schematic file cells to NO_EXPLODE
+Prototype Placement Pass 1
+Preprocessing group files...
+Preprocess Step 1 : Exploding
+    Create Hierarchy Tree Phase: 1 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+Find duplicate placements in cells
+    Create Hierarchy Tree Phase: 1 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     Determine Region Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+      Compress struct nums Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+      Init regions Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+      Highest text setup for instances Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+      write_verbose_text Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     Create Layer Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+    Create Hierarchy Tree Phase: 2 Time=0:00:00  User=0.02 Sys=0.01 Mem=0.007 GB
+
+   Create Hierarchy Tree Time=0:00:00  User=0.18 Sys=0.03 Mem=0.012 GB
+
+No output written.
+Layer "empty_layer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:225
+aBPR = assign({ { 0 } })
+  Value of SPACE GRID is 0.26 micron
+A total of 0 relations are recorded
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+     OHT record layer intent before V-Cell Pairing Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+      Pairing Iteration 1 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     Pairing Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+    Combined VCELL Time=0:00:00  User=0.01 Sys=0.00 Mem=0.007 GB
+
+Preprocess Step 11 : Post-VCell Explodes
+    Post VCell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+[HA] Hierarchy : Cell Area =        0.000 M : Cell Flat Area =        0.000 M : Child Area Factor =  0.20 x
+     Compress struct nums Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     Init regions Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     Highest text setup for instances Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     Update inums Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     Write Instance Name Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     End uniquify verbose names Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     write_verbose_text Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+    Create Layer Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     OHT Write recipe for current exploded hrchy + record hrchy/recipe mem in hdb Time=0:00:00  User=0.01 Sys=0.01 Mem=0.006 GB
+
+    
+Hierarchy Cleanup Time=0:00:00  User=0.01 Sys=0.01 Mem=0.007 GB
+
+   Optimize Hierarchy Tree Time=0:00:00  User=0.15 Sys=0.03 Mem=0.007 GB
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:225
+aBPR = assign({ { 0 } })
+A total of 0 relations are recorded
+ref_ref_file error._hier.0001.refref
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.009 GB
+
+Reading error hierarchy hrchy1.0001 ...
+   Elapsed Time=0:00:00  User=0.01 Sys=0.00 Mem=0.006 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:225:Layer creation
+aBPR = assign({ { 0 } })
+  Function: assign
+  Inputs: aBPR.polygonlayer.0001, aBPR.polygonlayer.0001
+  Outputs: aBPR.polygonlayer.0002, 
+26 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.02 Sys=0.00 Mem=0.011 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:225:Layer creation
+aBPR = assign({ { 0 } })
+  Function: assign
+  Inputs: aBPR.polygonlayer.0002, aBPR.polygonlayer.0002
+  Outputs: aBPR.polygonlayer.0003, 
+26 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+assign_text() at FreePDK3_main.lvs.lvs.rs:226:Layer creation
+tBPR = assign_text({ { 0 } })
+  Function: assign_text
+  Inputs: tBPR.textlayer.0001.TEXT, tBPR.textlayer.0001.TEXT
+  Outputs: tBPR.textlayer.0002.TEXT, 
+6 text strings written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign_text() at FreePDK3_main.lvs.lvs.rs:226:Layer creation
+tBPR = assign_text({ { 0 } })
+  Function: assign_text
+  Inputs: tBPR.textlayer.0002.TEXT, tBPR.textlayer.0002.TEXT
+  Outputs: tBPR.textlayer.0003.TEXT, 
+6 text strings written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:227:Layer creation
+aVBPR = assign({ { 1 } })
+  Function: assign
+  Inputs: aVBPR.polygonlayer.0001, aVBPR.polygonlayer.0001
+  Outputs: aVBPR.polygonlayer.0002, 
+24 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.014 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:227:Layer creation
+aVBPR = assign({ { 1 } })
+  Function: assign
+  Inputs: aVBPR.polygonlayer.0002, aVBPR.polygonlayer.0002
+  Outputs: aVBPR.polygonlayer.0003, 
+24 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:228:Layer creation
+aNW = assign({ { 2 } })
+  Function: assign
+  Inputs: aNW.polygonlayer.0001, aNW.polygonlayer.0001
+  Outputs: aNW.polygonlayer.0002, 
+2 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:228:Layer creation
+aNW = assign({ { 2 } })
+  Function: assign
+  Inputs: aNW.polygonlayer.0002, aNW.polygonlayer.0002
+  Outputs: aNW.polygonlayer.0003, 
+2 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.010 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:229:Layer creation
+aACT = assign({ { 3 } })
+  Function: assign
+  Inputs: aACT.polygonlayer.0001, aACT.polygonlayer.0001
+  Outputs: aACT.polygonlayer.0002, 
+28 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:229:Layer creation
+aACT = assign({ { 3 } })
+  Function: assign
+  Inputs: aACT.polygonlayer.0002, aACT.polygonlayer.0002
+  Outputs: aACT.polygonlayer.0003, 
+28 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.010 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:230:Layer creation
+aGATE = assign({ { 4 } })
+  Function: assign
+  Inputs: aGATE.polygonlayer.0001, aGATE.polygonlayer.0001
+  Outputs: aGATE.polygonlayer.0002, 
+63 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.012 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:230:Layer creation
+aGATE = assign({ { 4 } })
+  Function: assign
+  Inputs: aGATE.polygonlayer.0002, aGATE.polygonlayer.0002
+  Outputs: aGATE.polygonlayer.0003, 
+63 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.010 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:231
+aGCUT = assign({ { 5 } })
+  Function: assign
+  Outputs: aGCUT.polygonlayer.0002
+No output written.
+Layer "aGCUT.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:232:Layer creation
+aDUMMY = assign({ { 6 } })
+  Function: assign
+  Inputs: aDUMMY.polygonlayer.0001, aDUMMY.polygonlayer.0001
+  Outputs: aDUMMY.polygonlayer.0002, 
+59 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:232:Layer creation
+aDUMMY = assign({ { 6 } })
+  Function: assign
+  Inputs: aDUMMY.polygonlayer.0002, aDUMMY.polygonlayer.0002
+  Outputs: aDUMMY.polygonlayer.0003, 
+59 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:233:Layer creation
+aNIM = assign({ { 7 } })
+  Function: assign
+  Inputs: aNIM.polygonlayer.0001, aNIM.polygonlayer.0001
+  Outputs: aNIM.polygonlayer.0002, 
+12 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:233:Layer creation
+aNIM = assign({ { 7 } })
+  Function: assign
+  Inputs: aNIM.polygonlayer.0002, aNIM.polygonlayer.0002
+  Outputs: aNIM.polygonlayer.0003, 
+12 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.008 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:234:Layer creation
+aPIM = assign({ { 8 } })
+  Function: assign
+  Inputs: aPIM.polygonlayer.0001, aPIM.polygonlayer.0001
+  Outputs: aPIM.polygonlayer.0002, 
+12 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.012 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.01 Sys=0.00 Mem=0.010 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:234:Layer creation
+aPIM = assign({ { 8 } })
+  Function: assign
+  Inputs: aPIM.polygonlayer.0002, aPIM.polygonlayer.0002
+  Outputs: aPIM.polygonlayer.0003, 
+12 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:235:Layer creation
+aM0A = assign({ { 9 } })
+  Function: assign
+  Inputs: aM0A.polygonlayer.0001, aM0A.polygonlayer.0001
+  Outputs: aM0A.polygonlayer.0002, 
+30 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:235:Layer creation
+aM0A = assign({ { 9 } })
+  Function: assign
+  Inputs: aM0A.polygonlayer.0002, aM0A.polygonlayer.0002
+  Outputs: aM0A.polygonlayer.0003, 
+30 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+assign_text() at FreePDK3_main.lvs.lvs.rs:236
+tM0A = assign_text({ { 9 } })
+  Function: assign_text
+  Outputs: tM0A.textlayer.0002.TEXT
+No output written.
+Layer "tM0A.textlayer.0002.TEXT" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:237:Layer creation
+aV0A = assign({ { 10 } })
+  Function: assign
+  Inputs: aV0A.polygonlayer.0001, aV0A.polygonlayer.0001
+  Outputs: aV0A.polygonlayer.0002, 
+22 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.013 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:237:Layer creation
+aV0A = assign({ { 10 } })
+  Function: assign
+  Inputs: aV0A.polygonlayer.0002, aV0A.polygonlayer.0002
+  Outputs: aV0A.polygonlayer.0003, 
+22 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.011 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:238:Layer creation
+aGCON = assign({ { 11 } })
+  Function: assign
+  Inputs: aGCON.polygonlayer.0001, aGCON.polygonlayer.0001
+  Outputs: aGCON.polygonlayer.0002, 
+5 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:238:Layer creation
+aGCON = assign({ { 11 } })
+  Function: assign
+  Inputs: aGCON.polygonlayer.0002, aGCON.polygonlayer.0002
+  Outputs: aGCON.polygonlayer.0003, 
+5 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:239:Layer creation
+aM0B = assign({ { 12 } })
+  Function: assign
+  Inputs: aM0B.polygonlayer.0001, aM0B.polygonlayer.0001
+  Outputs: aM0B.polygonlayer.0002, 
+63 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.013 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:239:Layer creation
+aM0B = assign({ { 12 } })
+  Function: assign
+  Inputs: aM0B.polygonlayer.0002, aM0B.polygonlayer.0002
+  Outputs: aM0B.polygonlayer.0003, 
+63 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.009 GB
+
+assign_text() at FreePDK3_main.lvs.lvs.rs:240:Layer creation
+tM0B = assign_text({ { 12 } })
+  Function: assign_text
+  Inputs: tM0B.textlayer.0001.TEXT, tM0B.textlayer.0001.TEXT
+  Outputs: tM0B.textlayer.0002.TEXT, 
+17 text strings written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign_text() at FreePDK3_main.lvs.lvs.rs:240:Layer creation
+tM0B = assign_text({ { 12 } })
+  Function: assign_text
+  Inputs: tM0B.textlayer.0002.TEXT, tM0B.textlayer.0002.TEXT
+  Outputs: tM0B.textlayer.0003.TEXT, 
+17 text strings written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:241:Layer creation
+aV0B = assign({ { 13 } })
+  Function: assign
+  Inputs: aV0B.polygonlayer.0001, aV0B.polygonlayer.0001
+  Outputs: aV0B.polygonlayer.0002, 
+58 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:241:Layer creation
+aV0B = assign({ { 13 } })
+  Function: assign
+  Inputs: aV0B.polygonlayer.0002, aV0B.polygonlayer.0002
+  Outputs: aV0B.polygonlayer.0003, 
+58 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:242:Layer creation
+aM1 = assign({ { 14 } })
+  Function: assign
+  Inputs: aM1.polygonlayer.0001, aM1.polygonlayer.0001
+  Outputs: aM1.polygonlayer.0002, 
+36 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.013 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:242:Layer creation
+aM1 = assign({ { 14 } })
+  Function: assign
+  Inputs: aM1.polygonlayer.0002, aM1.polygonlayer.0002
+  Outputs: aM1.polygonlayer.0003, 
+36 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.009 GB
+
+assign_text() at FreePDK3_main.lvs.lvs.rs:243
+tM1 = assign_text({ { 14 } })
+  Function: assign_text
+  Outputs: tM1.textlayer.0002.TEXT
+No output written.
+Layer "tM1.textlayer.0002.TEXT" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:244:Layer creation
+aV1 = assign({ { 15 } })
+  Function: assign
+  Inputs: aV1.polygonlayer.0001, aV1.polygonlayer.0001
+  Outputs: aV1.polygonlayer.0002, 
+46 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:244:Layer creation
+aV1 = assign({ { 15 } })
+  Function: assign
+  Inputs: aV1.polygonlayer.0002, aV1.polygonlayer.0002
+  Outputs: aV1.polygonlayer.0003, 
+46 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+Reading error hierarchy hrchy1.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:245:Layer creation
+aM2 = assign({ { 16 } })
+  Function: assign
+  Inputs: aM2.polygonlayer.0001, aM2.polygonlayer.0001
+  Outputs: aM2.polygonlayer.0002, 
+27 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.012 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.01 Mem=0.010 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:245:Layer creation
+aM2 = assign({ { 16 } })
+  Function: assign
+  Inputs: aM2.polygonlayer.0002, aM2.polygonlayer.0002
+  Outputs: aM2.polygonlayer.0003, 
+27 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+assign_text() at FreePDK3_main.lvs.lvs.rs:246
+tM2 = assign_text({ { 16 } })
+  Function: assign_text
+  Outputs: tM2.textlayer.0002.TEXT
+No output written.
+Layer "tM2.textlayer.0002.TEXT" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:247
+aV2 = assign({ { 17 } })
+  Function: assign
+  Outputs: aV2.polygonlayer.0002
+No output written.
+Layer "aV2.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:248
+aM3 = assign({ { 18 } })
+  Function: assign
+  Outputs: aM3.polygonlayer.0002
+No output written.
+Layer "aM3.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign_text() at FreePDK3_main.lvs.lvs.rs:249
+tM3 = assign_text({ { 18 } })
+  Function: assign_text
+  Outputs: tM3.textlayer.0002.TEXT
+No output written.
+Layer "tM3.textlayer.0002.TEXT" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:250
+aV3 = assign({ { 19 } })
+  Function: assign
+  Outputs: aV3.polygonlayer.0002
+No output written.
+Layer "aV3.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:251
+aM4 = assign({ { 20 } })
+  Function: assign
+  Outputs: aM4.polygonlayer.0002
+No output written.
+Layer "aM4.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign_text() at FreePDK3_main.lvs.lvs.rs:252
+tM4 = assign_text({ { 20 } })
+  Function: assign_text
+  Outputs: tM4.textlayer.0002.TEXT
+No output written.
+Layer "tM4.textlayer.0002.TEXT" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:253
+aV4 = assign({ { 21 } })
+  Function: assign
+  Outputs: aV4.polygonlayer.0002
+No output written.
+Layer "aV4.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:254
+aM5 = assign({ { 22 } })
+  Function: assign
+  Outputs: aM5.polygonlayer.0002
+No output written.
+Layer "aM5.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign_text() at FreePDK3_main.lvs.lvs.rs:255
+tM5 = assign_text({ { 22 } })
+  Function: assign_text
+  Outputs: tM5.textlayer.0002.TEXT
+No output written.
+Layer "tM5.textlayer.0002.TEXT" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:256
+aV5 = assign({ { 23 } })
+  Function: assign
+  Outputs: aV5.polygonlayer.0002
+No output written.
+Layer "aV5.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:257
+aM6 = assign({ { 24 } })
+  Function: assign
+  Outputs: aM6.polygonlayer.0002
+No output written.
+Layer "aM6.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign_text() at FreePDK3_main.lvs.lvs.rs:258
+tM6 = assign_text({ { 24 } })
+  Function: assign_text
+  Outputs: tM6.textlayer.0002.TEXT
+No output written.
+Layer "tM6.textlayer.0002.TEXT" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:259
+aV6 = assign({ { 25 } })
+  Function: assign
+  Outputs: aV6.polygonlayer.0002
+No output written.
+Layer "aV6.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:260
+aM7 = assign({ { 26 } })
+  Function: assign
+  Outputs: aM7.polygonlayer.0002
+No output written.
+Layer "aM7.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign_text() at FreePDK3_main.lvs.lvs.rs:261
+tM7 = assign_text({ { 26 } })
+  Function: assign_text
+  Outputs: tM7.textlayer.0002.TEXT
+No output written.
+Layer "tM7.textlayer.0002.TEXT" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:262
+aV7 = assign({ { 27 } })
+  Function: assign
+  Outputs: aV7.polygonlayer.0002
+No output written.
+Layer "aV7.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:263
+aM8 = assign({ { 28 } })
+  Function: assign
+  Outputs: aM8.polygonlayer.0002
+No output written.
+Layer "aM8.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign_text() at FreePDK3_main.lvs.lvs.rs:264
+tM8 = assign_text({ { 28 } })
+  Function: assign_text
+  Outputs: tM8.textlayer.0002.TEXT
+No output written.
+Layer "tM8.textlayer.0002.TEXT" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:265
+aV8 = assign({ { 29 } })
+  Function: assign
+  Outputs: aV8.polygonlayer.0002
+No output written.
+Layer "aV8.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:266
+aM9 = assign({ { 30 } })
+  Function: assign
+  Outputs: aM9.polygonlayer.0002
+No output written.
+Layer "aM9.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign_text() at FreePDK3_main.lvs.lvs.rs:267
+tM9 = assign_text({ { 30 } })
+  Function: assign_text
+  Outputs: tM9.textlayer.0002.TEXT
+No output written.
+Layer "tM9.textlayer.0002.TEXT" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:268
+aV9 = assign({ { 31 } })
+  Function: assign
+  Outputs: aV9.polygonlayer.0002
+No output written.
+Layer "aV9.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:269
+aM10 = assign({ { 32 } })
+  Function: assign
+  Outputs: aM10.polygonlayer.0002
+No output written.
+Layer "aM10.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign_text() at FreePDK3_main.lvs.lvs.rs:270
+tM10 = assign_text({ { 32 } })
+  Function: assign_text
+  Outputs: tM10.textlayer.0002.TEXT
+No output written.
+Layer "tM10.textlayer.0002.TEXT" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:271
+aV10 = assign({ { 33 } })
+  Function: assign
+  Outputs: aV10.polygonlayer.0002
+No output written.
+Layer "aV10.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:272
+aM11 = assign({ { 34 } })
+  Function: assign
+  Outputs: aM11.polygonlayer.0002
+No output written.
+Layer "aM11.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign_text() at FreePDK3_main.lvs.lvs.rs:273
+tM11 = assign_text({ { 34 } })
+  Function: assign_text
+  Outputs: tM11.textlayer.0002.TEXT
+No output written.
+Layer "tM11.textlayer.0002.TEXT" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:274
+aV11 = assign({ { 35 } })
+  Function: assign
+  Outputs: aV11.polygonlayer.0002
+No output written.
+Layer "aV11.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:275
+aM12 = assign({ { 36 } })
+  Function: assign
+  Outputs: aM12.polygonlayer.0002
+No output written.
+Layer "aM12.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign_text() at FreePDK3_main.lvs.lvs.rs:276
+tM12 = assign_text({ { 36 } })
+  Function: assign_text
+  Outputs: tM12.textlayer.0002.TEXT
+No output written.
+Layer "tM12.textlayer.0002.TEXT" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:277
+aV12 = assign({ { 37 } })
+  Function: assign
+  Outputs: aV12.polygonlayer.0002
+No output written.
+Layer "aV12.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:278
+aM13 = assign({ { 38 } })
+  Function: assign
+  Outputs: aM13.polygonlayer.0002
+No output written.
+Layer "aM13.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign_text() at FreePDK3_main.lvs.lvs.rs:279
+tM13 = assign_text({ { 38 } })
+  Function: assign_text
+  Outputs: tM13.textlayer.0002.TEXT
+No output written.
+Layer "tM13.textlayer.0002.TEXT" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:280
+aVRDL = assign({ { 39 } })
+  Function: assign
+  Outputs: aVRDL.polygonlayer.0002
+No output written.
+Layer "aVRDL.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:281
+aRDL = assign({ { 40 } })
+  Function: assign
+  Outputs: aRDL.polygonlayer.0002
+No output written.
+Layer "aRDL.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign_text() at FreePDK3_main.lvs.lvs.rs:282
+tRDL = assign_text({ { 40 } })
+  Function: assign_text
+  Outputs: tRDL.textlayer.0002.TEXT
+No output written.
+Layer "tRDL.textlayer.0002.TEXT" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+not() at FreePDK3_main.lvs.lvs.rs:344:command replaced with an internal copy command.
+gPOLY = (((aGATE)) not aGCUT) not aDUMMY
+  Function: not
+  Inputs: aDUMMY.polygonlayer.0003
+  Outputs: gPOLY.polygonlayer.0001
+59 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.009 GB
+
+not() at FreePDK3_main.lvs.lvs.rs:344
+gPOLY = (((aGATE)) not aGCUT) not aDUMMY
+  Function: not
+  Inputs: aGATE.polygonlayer.0003, #inserted_q.associated.0003, gPOLY.polygonlayer.0001, #inserted_q.associated.0004
+  Outputs: gPOLY.polygonlayer.0002
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+    Small Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+7 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+
+init_device_matrix() at FreePDK3_main.lvs.lvs.rs:412
+dev_matrix : device_matrix = init_device_matrix(CONNECT_DB)
+  Function: init_device_matrix
+  Outputs: dev_matrix.polygonlayer.0001
+No output written.
+Layer "dev_matrix.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+cell_extent() at FreePDK3_main.lvs.lvs.rs:357
+gBULK = cell_extent(cell_list = { "*" }, exclude_text_layers = false, extent_layers = USED_ASSIGN_LAYERS)
+  Function: cell_extent
+  Outputs: gBULK.polygonlayer.0001
+3 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+not() at FreePDK3_main.lvs.lvs.rs:359
+gPWELL = gBULK not aNW
+  Function: not
+  Inputs: gBULK.polygonlayer.0001, #inserted_q.associated.0019, aNW.polygonlayer.0003, #inserted_q.associated.0020
+  Outputs: gPWELL.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Small Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+4 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+
+and() at FreePDK3_main.lvs.lvs.rs:361
+gN_ACTIVE_AREA = gPWELL and aACT
+  Function: and
+  Inputs: gPWELL.polygonlayer.0001, #inserted_q.associated.0023, aACT.polygonlayer.0003, #inserted_q.associated.0024
+  Outputs: gN_ACTIVE_AREA.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Small Cell Time=0:00:00  User=0.01 Sys=0.00 Mem=0.015 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+25 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.015 GB
+
+and() at FreePDK3_main.lvs.lvs.rs:363
+gN_FIN_AREA = gN_ACTIVE_AREA and aNIM
+  Function: and
+  Inputs: gN_ACTIVE_AREA.polygonlayer.0001, #inserted_q.associated.0031, aNIM.polygonlayer.0003, #inserted_q.associated.0032
+  Outputs: gN_FIN_AREA.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.01 Mem=0.014 GB
+    Small Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+12 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.015 GB
+
+and() at FreePDK3_main.lvs.lvs.rs:365
+gNGATE1 = gN_FIN_AREA and gPOLY
+  Function: and
+  Inputs: gN_FIN_AREA.polygonlayer.0001, #inserted_q.associated.0033, gPOLY.polygonlayer.0002, #inserted_q.associated.0034
+  Outputs: gNGATE1.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Small Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+4 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+
+not() at FreePDK3_main.lvs.lvs.rs:369
+gNFINS = (gN_FIN_AREA not gNGATE1) not aDUMMY
+  Function: not
+  Inputs: gNGATE1.polygonlayer.0001, aDUMMY.polygonlayer.0003
+  Outputs: gNFINS.polygonlayer.0001
+63 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.012 GB
+
+not() at FreePDK3_main.lvs.lvs.rs:369
+gNFINS = (gN_FIN_AREA not gNGATE1) not aDUMMY
+  Function: not
+  Inputs: gN_FIN_AREA.polygonlayer.0001, #inserted_q.associated.0041, gNFINS.polygonlayer.0001, #inserted_q.associated.0042
+  Outputs: gNFINS.polygonlayer.0002
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Small Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+27 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.016 GB
+
+and() at FreePDK3_main.lvs.lvs.rs:373
+gNWELL = gBULK and aNW
+  Function: and
+  Inputs: gBULK.polygonlayer.0001, #inserted_q.associated.0021, aNW.polygonlayer.0003, #inserted_q.associated.0022
+  Outputs: gNWELL.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.01 Mem=0.013 GB
+    Small Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.013 GB
+
+and() at FreePDK3_main.lvs.lvs.rs:375
+gP_ACTIVE_AREA = gNWELL and aACT
+  Function: and
+  Inputs: gNWELL.polygonlayer.0001, #inserted_q.associated.0035, aACT.polygonlayer.0003, #inserted_q.associated.0036
+  Outputs: gP_ACTIVE_AREA.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+    Small Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+12 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+
+and() at FreePDK3_main.lvs.lvs.rs:377
+gP_FIN_AREA = gP_ACTIVE_AREA and aPIM
+  Function: and
+  Inputs: gP_ACTIVE_AREA.polygonlayer.0001, #inserted_q.associated.0043, aPIM.polygonlayer.0003, #inserted_q.associated.0044
+  Outputs: gP_FIN_AREA.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.01 Mem=0.016 GB
+    Small Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+12 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.017 GB
+
+and() at FreePDK3_main.lvs.lvs.rs:379
+gPGATE1 = gP_FIN_AREA and gPOLY
+  Function: and
+  Inputs: gP_FIN_AREA.polygonlayer.0001, #inserted_q.associated.0045, gPOLY.polygonlayer.0002, #inserted_q.associated.0046
+  Outputs: gPGATE1.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+    Small Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Large Cell Time=0:00:00  User=0.01 Sys=0.00 Mem=0.017 GB
+8 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.017 GB
+
+not() at FreePDK3_main.lvs.lvs.rs:383
+gPFINS = (gP_FIN_AREA not gPGATE1) not aDUMMY
+  Function: not
+  Inputs: gPGATE1.polygonlayer.0001, aDUMMY.polygonlayer.0003
+  Outputs: gPFINS.polygonlayer.0001
+67 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+not() at FreePDK3_main.lvs.lvs.rs:383
+gPFINS = (gP_FIN_AREA not gPGATE1) not aDUMMY
+  Function: not
+  Inputs: gP_FIN_AREA.polygonlayer.0001, #inserted_q.associated.0049, gPFINS.polygonlayer.0001, #inserted_q.associated.0050
+  Outputs: gPFINS.polygonlayer.0002
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.018 GB
+    Small Cell Time=0:00:00  User=0.01 Sys=0.00 Mem=0.019 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.01 Mem=0.019 GB
+21 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.019 GB
+
+interacting() at FreePDK3_main.lvs.lvs.rs:414
+nmos(bulk_relationship = INTERACT, device_name = "nmos", drain = gNFINS, gate = gPOLY, matrix = dev_matrix, properties = { { "W" }, { "L" }, { "NFIN" }, { "ADEO" }, { "ASEO" }, { "PDEO" }, { "PSEO" } }, property_function = dev_func_MY_FET_PROPERTIES, recognition_layer = (gNGATE1 interacting gPWELL), processing_layer_hash = { "DUMMY" => { aDUMMY, 0.050 } }, simulation_model_name = "nmos", source = gNFINS)
+  Function: interacting
+  Inputs: gNGATE1.polygonlayer.0001, #inserted_q.associated.0039, gPWELL.polygonlayer.0001, #inserted_q.associated.0040
+  Outputs: temp.polygonlayer.0001
+4 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+
+interacting() at FreePDK3_main.lvs.lvs.rs:416
+pmos(bulk_relationship = INTERACT, device_name = "pmos", drain = gPFINS, gate = gPOLY, matrix = dev_matrix, properties = { { "W" }, { "L" }, { "NFIN" }, { "ADEO" }, { "ASEO" }, { "PDEO" }, { "PSEO" } }, property_function = dev_func_MY_FET_PROPERTIES, recognition_layer = (gPGATE1 interacting gNWELL), processing_layer_hash = { "DUMMY" => { aDUMMY, 0.050 } }, simulation_model_name = "pmos", source = gPFINS)
+  Function: interacting
+  Inputs: gPGATE1.polygonlayer.0001, #inserted_q.associated.0047, gNWELL.polygonlayer.0001, #inserted_q.associated.0048
+  Outputs: temp.polygonlayer.0003
+8 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.016 GB
+
+nmos() at FreePDK3_main.lvs.lvs.rs:414
+nmos(bulk_relationship = INTERACT, device_name = "nmos", drain = gNFINS, gate = gPOLY, matrix = dev_matrix, properties = { { "W" }, { "L" }, { "NFIN" }, { "ADEO" }, { "ASEO" }, { "PDEO" }, { "PSEO" } }, property_function = dev_func_MY_FET_PROPERTIES, recognition_layer = (gNGATE1 interacting gPWELL), processing_layer_hash = { "DUMMY" => { aDUMMY, 0.050 } }, simulation_model_name = "nmos", source = gNFINS)
+  Function: nmos
+  Inputs: gPOLY.polygonlayer.0002, gNFINS.polygonlayer.0002, gNFINS.polygonlayer.0002, aDUMMY.polygonlayer.0003, temp.polygonlayer.0001, aGATE.polygonlayer.0003
+  Outputs: gPOLY.polygonlayer.0003, gNFINS.polygonlayer.0003, gNFINS.polygonlayer.0004, temp.polygonlayer.0002, aDUMMY.polygonlayer.0004
+Preprocessing device layers for nmos nmos ...
+    Pulldown Reduce Time=0:00:00  User=0.01 Sys=0.00 Mem=0.017 GB
+    Pulldown Cleanup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+Pulled 0 polygons
+    Pulldown Reduce Time=0:00:00  User=0.00 Sys=0.00 Mem=0.018 GB
+    Pulldown Cleanup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+Pulled 0 polygons
+    Pulldown Reduce Time=0:00:00  User=0.00 Sys=0.00 Mem=0.019 GB
+    Pulldown Cleanup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.018 GB
+Pulled 0 polygons
+    Pulldown Reduce Time=0:00:00  User=0.00 Sys=0.00 Mem=0.019 GB
+    Pulldown Cleanup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.018 GB
+Pulled 0 polygons
+   Check Time=0:00:00  User=0.06 Sys=0.03 Mem=0.026 GB
+
+pmos() at FreePDK3_main.lvs.lvs.rs:416
+pmos(bulk_relationship = INTERACT, device_name = "pmos", drain = gPFINS, gate = gPOLY, matrix = dev_matrix, properties = { { "W" }, { "L" }, { "NFIN" }, { "ADEO" }, { "ASEO" }, { "PDEO" }, { "PSEO" } }, property_function = dev_func_MY_FET_PROPERTIES, recognition_layer = (gPGATE1 interacting gNWELL), processing_layer_hash = { "DUMMY" => { aDUMMY, 0.050 } }, simulation_model_name = "pmos", source = gPFINS)
+  Function: pmos
+  Inputs: gPOLY.polygonlayer.0002, gPFINS.polygonlayer.0002, gPFINS.polygonlayer.0002, aDUMMY.polygonlayer.0003, temp.polygonlayer.0003, aGATE.polygonlayer.0003
+  Outputs: gPOLY.polygonlayer.0004, gPFINS.polygonlayer.0003, gPFINS.polygonlayer.0004, temp.polygonlayer.0004, aDUMMY.polygonlayer.0005
+Preprocessing device layers for pmos pmos ...
+    Pulldown Reduce Time=0:00:00  User=0.00 Sys=0.00 Mem=0.020 GB
+    Pulldown Cleanup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.019 GB
+Pulled 0 polygons
+    Pulldown Reduce Time=0:00:00  User=0.01 Sys=0.00 Mem=0.021 GB
+    Pulldown Cleanup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.020 GB
+Pulled 0 polygons
+    Pulldown Reduce Time=0:00:00  User=0.00 Sys=0.00 Mem=0.022 GB
+    Pulldown Cleanup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.021 GB
+Pulled 0 polygons
+    Pulldown Reduce Time=0:00:00  User=0.00 Sys=0.00 Mem=0.022 GB
+    Pulldown Cleanup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.021 GB
+Pulled 0 polygons
+   Check Time=0:00:00  User=0.06 Sys=0.02 Mem=0.030 GB
+
+extract_devices() at FreePDK3_main.lvs.lvs.rs:422
+device_db = extract_devices(dev_matrix)
+  Function: extract_devices
+Merging device layers ...
+39 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.011 GB
+
+extract_devices() at FreePDK3_main.lvs.lvs.rs:422
+device_db = extract_devices(dev_matrix)
+  Function: extract_devices
+Merging device layers ...
+75 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+extract_devices() at FreePDK3_main.lvs.lvs.rs:422
+device_db = extract_devices(dev_matrix)
+  Function: extract_devices
+Merging device layers ...
+85 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Inputs: aGCON.polygonlayer.0003, #inserted_q.associated.0059, gPOLY.polygonlayer.0005, #inserted_q.associated.0060
+  Outputs: CONNECT_DB.polygonlayer.0061
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Small Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+5 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Inputs: CONNECT_DB.polygonlayer.0061, #inserted_q.associated.0065, aM0B.polygonlayer.0003, #inserted_q.associated.0066
+  Outputs: CONNECT_DB.polygonlayer.0068
+    Setup Time=0:00:00  User=0.01 Sys=0.00 Mem=0.014 GB
+    Small Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+5 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.016 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.polygonlayer.0001
+No output written.
+Layer "CONNECT_DB.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.polygonlayer.0002
+No output written.
+Layer "CONNECT_DB.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.polygonlayer.0003
+No output written.
+Layer "CONNECT_DB.polygonlayer.0003" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.polygonlayer.0004
+No output written.
+Layer "CONNECT_DB.polygonlayer.0004" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.polygonlayer.0005
+No output written.
+Layer "CONNECT_DB.polygonlayer.0005" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.polygonlayer.0006
+No output written.
+Layer "CONNECT_DB.polygonlayer.0006" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.polygonlayer.0007
+No output written.
+Layer "CONNECT_DB.polygonlayer.0007" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.polygonlayer.0008
+No output written.
+Layer "CONNECT_DB.polygonlayer.0008" is empty.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.007 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.polygonlayer.0009
+No output written.
+Layer "CONNECT_DB.polygonlayer.0009" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.polygonlayer.0010
+No output written.
+Layer "CONNECT_DB.polygonlayer.0010" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.polygonlayer.0011
+No output written.
+Layer "CONNECT_DB.polygonlayer.0011" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.polygonlayer.0012
+No output written.
+Layer "CONNECT_DB.polygonlayer.0012" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.polygonlayer.0013
+No output written.
+Layer "CONNECT_DB.polygonlayer.0013" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.polygonlayer.0014
+No output written.
+Layer "CONNECT_DB.polygonlayer.0014" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.polygonlayer.0015
+No output written.
+Layer "CONNECT_DB.polygonlayer.0015" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.polygonlayer.0016
+No output written.
+Layer "CONNECT_DB.polygonlayer.0016" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.polygonlayer.0017
+No output written.
+Layer "CONNECT_DB.polygonlayer.0017" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.polygonlayer.0018
+No output written.
+Layer "CONNECT_DB.polygonlayer.0018" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.polygonlayer.0019
+No output written.
+Layer "CONNECT_DB.polygonlayer.0019" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.polygonlayer.0020
+No output written.
+Layer "CONNECT_DB.polygonlayer.0020" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.polygonlayer.0021
+No output written.
+Layer "CONNECT_DB.polygonlayer.0021" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.polygonlayer.0022
+No output written.
+Layer "CONNECT_DB.polygonlayer.0022" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.polygonlayer.0023
+No output written.
+Layer "CONNECT_DB.polygonlayer.0023" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.polygonlayer.0024
+No output written.
+Layer "CONNECT_DB.polygonlayer.0024" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Inputs: aV1.polygonlayer.0003, #inserted_q.associated.0015, aM1.polygonlayer.0003, #inserted_q.associated.0016
+  Outputs: CONNECT_DB.polygonlayer.0032
+    Setup Time=0:00:00  User=0.01 Sys=0.00 Mem=0.014 GB
+    Small Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+46 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.014 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Inputs: CONNECT_DB.polygonlayer.0032, #inserted_q.associated.0017, aM2.polygonlayer.0003, #inserted_q.associated.0018
+  Outputs: CONNECT_DB.polygonlayer.0033
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Small Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+46 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Inputs: aV0B.polygonlayer.0003, #inserted_q.associated.0011, aM0B.polygonlayer.0003, #inserted_q.associated.0012
+  Outputs: CONNECT_DB.polygonlayer.0030
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Small Cell Time=0:00:00  User=0.01 Sys=0.00 Mem=0.014 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+58 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.014 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Inputs: CONNECT_DB.polygonlayer.0030, #inserted_q.associated.0013, aM1.polygonlayer.0003, #inserted_q.associated.0014
+  Outputs: CONNECT_DB.polygonlayer.0031
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Small Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+58 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Inputs: aV0A.polygonlayer.0003, #inserted_q.associated.0007, aM0A.polygonlayer.0003, #inserted_q.associated.0008
+  Outputs: CONNECT_DB.polygonlayer.0028
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Small Cell Time=0:00:00  User=0.01 Sys=0.00 Mem=0.014 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+22 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.014 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Inputs: CONNECT_DB.polygonlayer.0028, #inserted_q.associated.0009, aM0B.polygonlayer.0003, #inserted_q.associated.0010
+  Outputs: CONNECT_DB.polygonlayer.0029
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Small Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Large Cell Time=0:00:00  User=0.01 Sys=0.00 Mem=0.012 GB
+22 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.012 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Inputs: aVBPR.polygonlayer.0003, #inserted_q.associated.0001, aBPR.polygonlayer.0003, #inserted_q.associated.0002
+  Outputs: CONNECT_DB.polygonlayer.0025
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Small Cell Time=0:00:00  User=0.00 Sys=0.01 Mem=0.012 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+24 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.012 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Inputs: CONNECT_DB.polygonlayer.0025, #inserted_q.associated.0005, aM0A.polygonlayer.0003, #inserted_q.associated.0006
+  Outputs: CONNECT_DB.polygonlayer.0026
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Small Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+24 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:309:Combined with subsequent incremental_connect.
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { aBPR, aM0A }, aVBPR, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.connect_database.0004
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:311:Combined with subsequent incremental_connect.
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { aM0A, aM0B }, aV0A, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.connect_database.0004
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:313:Combined with subsequent incremental_connect.
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { aM0B, aM1 }, aV0B, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.connect_database.0004
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:315:Combined with subsequent incremental_connect.
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { aM1, aM2 }, aV1, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.connect_database.0004
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:317:Combined with subsequent incremental_connect.
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { aM2, aM3 }, aV2, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.connect_database.0004
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:319:Combined with subsequent incremental_connect.
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { aM3, aM4 }, aV3, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.connect_database.0004
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:321:Combined with subsequent incremental_connect.
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { aM4, aM5 }, aV4, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.connect_database.0004
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:323:Combined with subsequent incremental_connect.
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { aM5, aM6 }, aV5, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.connect_database.0004
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:325:Combined with subsequent incremental_connect.
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { aM6, aM7 }, aV6, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.connect_database.0004
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:327:Combined with subsequent incremental_connect.
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { aM7, aM8 }, aV7, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.connect_database.0004
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:329:Combined with subsequent incremental_connect.
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { aM8, aM9 }, aV8, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.connect_database.0004
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:331:Combined with subsequent incremental_connect.
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { aM9, aM10 }, aV9, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.connect_database.0004
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:333:Combined with subsequent incremental_connect.
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { aM10, aM11 }, aV10, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.connect_database.0004
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:335:Combined with subsequent incremental_connect.
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { aM11, aM12 }, aV11, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.connect_database.0004
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:337:Combined with subsequent incremental_connect.
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { aM12, aM13 }, aV12, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.connect_database.0004
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:339:Combined with subsequent incremental_connect.
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { aM13, aRDL }, aVRDL, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.connect_database.0004
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.connect_database.0004
+#max block size is set as 8388608, prev_max_block_size is = 1048576
+Layer "aRDL.polygonlayer.0002" is empty.
+Layer "CONNECT_DB.polygonlayer.0002" is empty.
+Layer "aM13.polygonlayer.0002" is empty.
+Layer "aVRDL.polygonlayer.0002" is empty.
+Layer "CONNECT_DB.polygonlayer.0004" is empty.
+Layer "aM12.polygonlayer.0002" is empty.
+Layer "aV12.polygonlayer.0002" is empty.
+Layer "CONNECT_DB.polygonlayer.0006" is empty.
+Layer "aM11.polygonlayer.0002" is empty.
+Layer "aV11.polygonlayer.0002" is empty.
+Layer "CONNECT_DB.polygonlayer.0008" is empty.
+Layer "aM10.polygonlayer.0002" is empty.
+Layer "aV10.polygonlayer.0002" is empty.
+Layer "CONNECT_DB.polygonlayer.0010" is empty.
+Layer "aM9.polygonlayer.0002" is empty.
+Layer "aV9.polygonlayer.0002" is empty.
+Layer "CONNECT_DB.polygonlayer.0012" is empty.
+Layer "aM8.polygonlayer.0002" is empty.
+Layer "aV8.polygonlayer.0002" is empty.
+Layer "CONNECT_DB.polygonlayer.0014" is empty.
+Layer "aM7.polygonlayer.0002" is empty.
+Layer "aV7.polygonlayer.0002" is empty.
+Layer "CONNECT_DB.polygonlayer.0016" is empty.
+Layer "aM6.polygonlayer.0002" is empty.
+Layer "aV6.polygonlayer.0002" is empty.
+Layer "CONNECT_DB.polygonlayer.0018" is empty.
+Layer "aM5.polygonlayer.0002" is empty.
+Layer "aV5.polygonlayer.0002" is empty.
+Layer "CONNECT_DB.polygonlayer.0020" is empty.
+Layer "aM4.polygonlayer.0002" is empty.
+Layer "aV4.polygonlayer.0002" is empty.
+Layer "CONNECT_DB.polygonlayer.0022" is empty.
+Layer "aM3.polygonlayer.0002" is empty.
+Layer "aV3.polygonlayer.0002" is empty.
+Layer "CONNECT_DB.polygonlayer.0024" is empty.
+Layer "aV2.polygonlayer.0002" is empty.
+    Setup Time=0:00:00  User=0.01 Sys=0.01 Mem=0.033 GB
+    Small Cell Time=0:00:00  User=0.01 Sys=0.00 Mem=0.037 GB
+    Large Cell Time=0:00:00  User=0.01 Sys=0.01 Mem=0.040 GB
+   Check Time=0:00:00  User=0.05 Sys=0.03 Mem=0.040 GB
+
+text_net() at FreePDK3_main.lvs.lvs.rs:350
+CONNECT_DB = text_net(CONNECT_DB, text_layer_items = text_net_items, use_text = TOP, attach_text = ALL, opens = MERGE_CONNECTED_AND_TOP, merge_open_net_names = merge_open_net_names_items, rename_open_nets = KEEP_ONE)
+  Function: text_net
+  Inputs: aBPR.polygonlayer.0003, tBPR.textlayer.0003.TEXT
+  Outputs: CONNECT_DB.polygonlayer.0035, CONNECT_DB.textlayer.0001.TEXT
+WARNING - 2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.016 GB
+
+text_net() at FreePDK3_main.lvs.lvs.rs:350
+CONNECT_DB = text_net(CONNECT_DB, text_layer_items = text_net_items, use_text = TOP, attach_text = ALL, opens = MERGE_CONNECTED_AND_TOP, merge_open_net_names = merge_open_net_names_items, rename_open_nets = KEEP_ONE)
+  Function: text_net
+  Inputs: aM0A.polygonlayer.0003, tM0A.textlayer.0002.TEXT
+  Outputs: CONNECT_DB.polygonlayer.0036, CONNECT_DB.textlayer.0002.TEXT
+ Text file "tM0A.textlayer.0002.TEXT" doesn't exist.
+No output written.
+Layer "CONNECT_DB.polygonlayer.0036" is empty.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.012 GB
+
+text_net() at FreePDK3_main.lvs.lvs.rs:350
+CONNECT_DB = text_net(CONNECT_DB, text_layer_items = text_net_items, use_text = TOP, attach_text = ALL, opens = MERGE_CONNECTED_AND_TOP, merge_open_net_names = merge_open_net_names_items, rename_open_nets = KEEP_ONE)
+  Function: text_net
+  Inputs: aM0B.polygonlayer.0003, tM0B.textlayer.0003.TEXT
+  Outputs: CONNECT_DB.polygonlayer.0037, CONNECT_DB.textlayer.0003.TEXT
+WARNING - 11 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+
+text_net() at FreePDK3_main.lvs.lvs.rs:350
+CONNECT_DB = text_net(CONNECT_DB, text_layer_items = text_net_items, use_text = TOP, attach_text = ALL, opens = MERGE_CONNECTED_AND_TOP, merge_open_net_names = merge_open_net_names_items, rename_open_nets = KEEP_ONE)
+  Function: text_net
+  Inputs: aM1.polygonlayer.0003, tM1.textlayer.0002.TEXT
+  Outputs: CONNECT_DB.polygonlayer.0038, CONNECT_DB.textlayer.0004.TEXT
+ Text file "tM1.textlayer.0002.TEXT" doesn't exist.
+No output written.
+Layer "CONNECT_DB.polygonlayer.0038" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+text_net() at FreePDK3_main.lvs.lvs.rs:350
+CONNECT_DB = text_net(CONNECT_DB, text_layer_items = text_net_items, use_text = TOP, attach_text = ALL, opens = MERGE_CONNECTED_AND_TOP, merge_open_net_names = merge_open_net_names_items, rename_open_nets = KEEP_ONE)
+  Function: text_net
+  Inputs: aM10.polygonlayer.0002, tM10.textlayer.0002.TEXT
+  Outputs: CONNECT_DB.polygonlayer.0039, CONNECT_DB.textlayer.0005.TEXT
+Input layer "aM10.polygonlayer.0002" is empty.
+No output written.
+Layer "CONNECT_DB.polygonlayer.0039" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+text_net() at FreePDK3_main.lvs.lvs.rs:350
+CONNECT_DB = text_net(CONNECT_DB, text_layer_items = text_net_items, use_text = TOP, attach_text = ALL, opens = MERGE_CONNECTED_AND_TOP, merge_open_net_names = merge_open_net_names_items, rename_open_nets = KEEP_ONE)
+  Function: text_net
+  Inputs: aM11.polygonlayer.0002, tM11.textlayer.0002.TEXT
+  Outputs: CONNECT_DB.polygonlayer.0040, CONNECT_DB.textlayer.0006.TEXT
+Input layer "aM11.polygonlayer.0002" is empty.
+No output written.
+Layer "CONNECT_DB.polygonlayer.0040" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+text_net() at FreePDK3_main.lvs.lvs.rs:350
+CONNECT_DB = text_net(CONNECT_DB, text_layer_items = text_net_items, use_text = TOP, attach_text = ALL, opens = MERGE_CONNECTED_AND_TOP, merge_open_net_names = merge_open_net_names_items, rename_open_nets = KEEP_ONE)
+  Function: text_net
+  Inputs: aM12.polygonlayer.0002, tM12.textlayer.0002.TEXT
+  Outputs: CONNECT_DB.polygonlayer.0041, CONNECT_DB.textlayer.0007.TEXT
+Input layer "aM12.polygonlayer.0002" is empty.
+No output written.
+Layer "CONNECT_DB.polygonlayer.0041" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+text_net() at FreePDK3_main.lvs.lvs.rs:350
+CONNECT_DB = text_net(CONNECT_DB, text_layer_items = text_net_items, use_text = TOP, attach_text = ALL, opens = MERGE_CONNECTED_AND_TOP, merge_open_net_names = merge_open_net_names_items, rename_open_nets = KEEP_ONE)
+  Function: text_net
+  Inputs: aM13.polygonlayer.0002, tM13.textlayer.0002.TEXT
+  Outputs: CONNECT_DB.polygonlayer.0042, CONNECT_DB.textlayer.0008.TEXT
+Input layer "aM13.polygonlayer.0002" is empty.
+No output written.
+Layer "CONNECT_DB.polygonlayer.0042" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+text_net() at FreePDK3_main.lvs.lvs.rs:350
+CONNECT_DB = text_net(CONNECT_DB, text_layer_items = text_net_items, use_text = TOP, attach_text = ALL, opens = MERGE_CONNECTED_AND_TOP, merge_open_net_names = merge_open_net_names_items, rename_open_nets = KEEP_ONE)
+  Function: text_net
+  Inputs: aM2.polygonlayer.0003, tM2.textlayer.0002.TEXT
+  Outputs: CONNECT_DB.polygonlayer.0043, CONNECT_DB.textlayer.0009.TEXT
+ Text file "tM2.textlayer.0002.TEXT" doesn't exist.
+No output written.
+Layer "CONNECT_DB.polygonlayer.0043" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+text_net() at FreePDK3_main.lvs.lvs.rs:350
+CONNECT_DB = text_net(CONNECT_DB, text_layer_items = text_net_items, use_text = TOP, attach_text = ALL, opens = MERGE_CONNECTED_AND_TOP, merge_open_net_names = merge_open_net_names_items, rename_open_nets = KEEP_ONE)
+  Function: text_net
+  Inputs: aM3.polygonlayer.0002, tM3.textlayer.0002.TEXT
+  Outputs: CONNECT_DB.polygonlayer.0044, CONNECT_DB.textlayer.0010.TEXT
+Input layer "aM3.polygonlayer.0002" is empty.
+No output written.
+Layer "CONNECT_DB.polygonlayer.0044" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+text_net() at FreePDK3_main.lvs.lvs.rs:350
+CONNECT_DB = text_net(CONNECT_DB, text_layer_items = text_net_items, use_text = TOP, attach_text = ALL, opens = MERGE_CONNECTED_AND_TOP, merge_open_net_names = merge_open_net_names_items, rename_open_nets = KEEP_ONE)
+  Function: text_net
+  Inputs: aM4.polygonlayer.0002, tM4.textlayer.0002.TEXT
+  Outputs: CONNECT_DB.polygonlayer.0045, CONNECT_DB.textlayer.0011.TEXT
+Input layer "aM4.polygonlayer.0002" is empty.
+No output written.
+Layer "CONNECT_DB.polygonlayer.0045" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+text_net() at FreePDK3_main.lvs.lvs.rs:350
+CONNECT_DB = text_net(CONNECT_DB, text_layer_items = text_net_items, use_text = TOP, attach_text = ALL, opens = MERGE_CONNECTED_AND_TOP, merge_open_net_names = merge_open_net_names_items, rename_open_nets = KEEP_ONE)
+  Function: text_net
+  Inputs: aM5.polygonlayer.0002, tM5.textlayer.0002.TEXT
+  Outputs: CONNECT_DB.polygonlayer.0046, CONNECT_DB.textlayer.0012.TEXT
+Input layer "aM5.polygonlayer.0002" is empty.
+No output written.
+Layer "CONNECT_DB.polygonlayer.0046" is empty.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.009 GB
+
+text_net() at FreePDK3_main.lvs.lvs.rs:350
+CONNECT_DB = text_net(CONNECT_DB, text_layer_items = text_net_items, use_text = TOP, attach_text = ALL, opens = MERGE_CONNECTED_AND_TOP, merge_open_net_names = merge_open_net_names_items, rename_open_nets = KEEP_ONE)
+  Function: text_net
+  Inputs: aM6.polygonlayer.0002, tM6.textlayer.0002.TEXT
+  Outputs: CONNECT_DB.polygonlayer.0047, CONNECT_DB.textlayer.0013.TEXT
+Input layer "aM6.polygonlayer.0002" is empty.
+No output written.
+Layer "CONNECT_DB.polygonlayer.0047" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+text_net() at FreePDK3_main.lvs.lvs.rs:350
+CONNECT_DB = text_net(CONNECT_DB, text_layer_items = text_net_items, use_text = TOP, attach_text = ALL, opens = MERGE_CONNECTED_AND_TOP, merge_open_net_names = merge_open_net_names_items, rename_open_nets = KEEP_ONE)
+  Function: text_net
+  Inputs: aM7.polygonlayer.0002, tM7.textlayer.0002.TEXT
+  Outputs: CONNECT_DB.polygonlayer.0048, CONNECT_DB.textlayer.0014.TEXT
+Input layer "aM7.polygonlayer.0002" is empty.
+No output written.
+Layer "CONNECT_DB.polygonlayer.0048" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+text_net() at FreePDK3_main.lvs.lvs.rs:350
+CONNECT_DB = text_net(CONNECT_DB, text_layer_items = text_net_items, use_text = TOP, attach_text = ALL, opens = MERGE_CONNECTED_AND_TOP, merge_open_net_names = merge_open_net_names_items, rename_open_nets = KEEP_ONE)
+  Function: text_net
+  Inputs: aM8.polygonlayer.0002, tM8.textlayer.0002.TEXT
+  Outputs: CONNECT_DB.polygonlayer.0049, CONNECT_DB.textlayer.0015.TEXT
+Input layer "aM8.polygonlayer.0002" is empty.
+No output written.
+Layer "CONNECT_DB.polygonlayer.0049" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+text_net() at FreePDK3_main.lvs.lvs.rs:350
+CONNECT_DB = text_net(CONNECT_DB, text_layer_items = text_net_items, use_text = TOP, attach_text = ALL, opens = MERGE_CONNECTED_AND_TOP, merge_open_net_names = merge_open_net_names_items, rename_open_nets = KEEP_ONE)
+  Function: text_net
+  Inputs: aM9.polygonlayer.0002, tM9.textlayer.0002.TEXT
+  Outputs: CONNECT_DB.polygonlayer.0050, CONNECT_DB.textlayer.0016.TEXT
+Input layer "aM9.polygonlayer.0002" is empty.
+No output written.
+Layer "CONNECT_DB.polygonlayer.0050" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+text_net() at FreePDK3_main.lvs.lvs.rs:350
+CONNECT_DB = text_net(CONNECT_DB, text_layer_items = text_net_items, use_text = TOP, attach_text = ALL, opens = MERGE_CONNECTED_AND_TOP, merge_open_net_names = merge_open_net_names_items, rename_open_nets = KEEP_ONE)
+  Function: text_net
+  Inputs: aRDL.polygonlayer.0002, tRDL.textlayer.0002.TEXT
+  Outputs: CONNECT_DB.polygonlayer.0051, CONNECT_DB.textlayer.0017.TEXT
+Input layer "aRDL.polygonlayer.0002" is empty.
+No output written.
+Layer "CONNECT_DB.polygonlayer.0051" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+text_net() at FreePDK3_main.lvs.lvs.rs:350
+CONNECT_DB = text_net(CONNECT_DB, text_layer_items = text_net_items, use_text = TOP, attach_text = ALL, opens = MERGE_CONNECTED_AND_TOP, merge_open_net_names = merge_open_net_names_items, rename_open_nets = KEEP_ONE)
+  Function: text_net
+  Inputs: CONNECT_DB.polygonlayer.0035, CONNECT_DB.polygonlayer.0036, CONNECT_DB.polygonlayer.0037, CONNECT_DB.polygonlayer.0038, CONNECT_DB.polygonlayer.0039, CONNECT_DB.polygonlayer.0040, CONNECT_DB.polygonlayer.0041, CONNECT_DB.polygonlayer.0042, CONNECT_DB.polygonlayer.0043, CONNECT_DB.polygonlayer.0044, CONNECT_DB.polygonlayer.0045, CONNECT_DB.polygonlayer.0046, CONNECT_DB.polygonlayer.0047, CONNECT_DB.polygonlayer.0048, CONNECT_DB.polygonlayer.0049, CONNECT_DB.polygonlayer.0050, CONNECT_DB.polygonlayer.0051, CONNECT_DB.textlayer.0001.TEXT, CONNECT_DB.textlayer.0002.TEXT, CONNECT_DB.textlayer.0003.TEXT, CONNECT_DB.textlayer.0004.TEXT, CONNECT_DB.textlayer.0005.TEXT, CONNECT_DB.textlayer.0006.TEXT, CONNECT_DB.textlayer.0007.TEXT, CONNECT_DB.textlayer.0008.TEXT, CONNECT_DB.textlayer.0009.TEXT, CONNECT_DB.textlayer.0010.TEXT, CONNECT_DB.textlayer.0011.TEXT, CONNECT_DB.textlayer.0012.TEXT, CONNECT_DB.textlayer.0013.TEXT, CONNECT_DB.textlayer.0014.TEXT, CONNECT_DB.textlayer.0015.TEXT, CONNECT_DB.textlayer.0016.TEXT, CONNECT_DB.textlayer.0017.TEXT
+    connect_by_name = MERGE_CONNECTED_AND_TOP 
+  ## Texting 17 pairs, skipping 0 pair, doing opens.
+     Text aBPR by tBPR Time=0:00:00  User=0.00 Sys=0.00 Mem=0.020 GB
+
+Input layer "CONNECT_DB.polygonlayer.0036" is empty.
+     Text aM0A by tM0A Time=0:00:00  User=0.00 Sys=0.00 Mem=0.020 GB
+
+     Text aM0B by tM0B Time=0:00:00  User=0.01 Sys=0.01 Mem=0.021 GB
+
+Input layer "CONNECT_DB.polygonlayer.0038" is empty.
+     Text aM1 by tM1 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.021 GB
+
+Input layer "aM10.polygonlayer.0002" is empty.
+     Text aM10 by tM10 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.021 GB
+
+Input layer "aM11.polygonlayer.0002" is empty.
+     Text aM11 by tM11 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.021 GB
+
+Input layer "aM12.polygonlayer.0002" is empty.
+     Text aM12 by tM12 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.022 GB
+
+Input layer "aM13.polygonlayer.0002" is empty.
+     Text aM13 by tM13 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.022 GB
+
+Input layer "CONNECT_DB.polygonlayer.0043" is empty.
+     Text aM2 by tM2 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.023 GB
+
+Input layer "aM3.polygonlayer.0002" is empty.
+     Text aM3 by tM3 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.023 GB
+
+Input layer "aM4.polygonlayer.0002" is empty.
+     Text aM4 by tM4 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.024 GB
+
+Input layer "aM5.polygonlayer.0002" is empty.
+     Text aM5 by tM5 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.024 GB
+
+Input layer "aM6.polygonlayer.0002" is empty.
+     Text aM6 by tM6 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.025 GB
+
+Input layer "aM7.polygonlayer.0002" is empty.
+     Text aM7 by tM7 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.025 GB
+
+Input layer "aM8.polygonlayer.0002" is empty.
+     Text aM8 by tM8 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.026 GB
+
+Input layer "aM9.polygonlayer.0002" is empty.
+     Text aM9 by tM9 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.026 GB
+
+Input layer "aRDL.polygonlayer.0002" is empty.
+     Text aRDL by tRDL Time=0:00:00  User=0.00 Sys=0.00 Mem=0.027 GB
+
+     sn_process_all_text_pair Time=0:00:00  User=0.01 Sys=0.01 Mem=0.027 GB
+
+   Check Time=0:00:00  User=0.02 Sys=0.01 Mem=0.030 GB
+
+text_net() at FreePDK3_main.lvs.lvs.rs:350
+CONNECT_DB = text_net(CONNECT_DB, text_layer_items = text_net_items, use_text = TOP, attach_text = ALL, opens = MERGE_CONNECTED_AND_TOP, merge_open_net_names = merge_open_net_names_items, rename_open_nets = KEEP_ONE)
+    connect_by_name = MERGE_CONNECTED_AND_TOP 
+Completed opens check. Now merging/renaming nets based on text.
+    0 merged net.
+    0 net is renamed.
+   Check Time=0:00:00  User=0.02 Sys=0.02 Mem=0.024 GB
+
+and() at FreePDK3_main.lvs.lvs.rs:387
+gVPW1 = aPIM and aACT
+  Function: and
+  Inputs: aPIM.polygonlayer.0003, #inserted_q.associated.0025, aACT.polygonlayer.0003, #inserted_q.associated.0026
+  Outputs: gVPW1.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Small Cell Time=0:00:00  User=0.01 Sys=0.00 Mem=0.013 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+16 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.013 GB
+
+and() at FreePDK3_main.lvs.lvs.rs:389
+gVPW = gVPW1 and gPWELL
+  Function: and
+  Inputs: gVPW1.polygonlayer.0001, #inserted_q.associated.0029, gPWELL.polygonlayer.0001, #inserted_q.associated.0030
+  Outputs: gVPW.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Small Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+12 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+
+and() at FreePDK3_main.lvs.lvs.rs:393
+gVNW1 = aNIM and aM0A
+  Function: and
+  Inputs: aNIM.polygonlayer.0003, #inserted_q.associated.0027, aM0A.polygonlayer.0003, #inserted_q.associated.0028
+  Outputs: gVNW1.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Small Cell Time=0:00:00  User=0.01 Sys=0.00 Mem=0.015 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+17 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.015 GB
+
+and() at FreePDK3_main.lvs.lvs.rs:395
+gVNW = gVNW1 and gNWELL
+  Function: and
+  Inputs: gVNW1.polygonlayer.0001, #inserted_q.associated.0037, gNWELL.polygonlayer.0001, #inserted_q.associated.0038
+  Outputs: gVNW.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Small Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+No output written.
+Layer "gVNW.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: aM0A.polygonlayer.0003, .handle.0002
+  Outputs: CONNECT_DB.polygonlayer.0027
+30 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: aM0A.polygonlayer.0003, #inserted_q.associated.0051, gNFINS.polygonlayer.0005, #inserted_q.associated.0052
+  Outputs: CONNECT_DB.polygonlayer.0057
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Small Cell Time=0:00:00  User=0.00 Sys=0.01 Mem=0.017 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+17 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.017 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: CONNECT_DB.polygonlayer.0057, .handle.0002
+  Outputs: CONNECT_DB.polygonlayer.0077
+17 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: CONNECT_DB.polygonlayer.0077, CONNECT_DB.polygonlayer.0027
+  Outputs: CONNECT_DB.polygonlayer.0078
+17 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: aM0A.polygonlayer.0003, #inserted_q.associated.0053, gPFINS.polygonlayer.0005, #inserted_q.associated.0054
+  Outputs: CONNECT_DB.polygonlayer.0058
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Small Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+12 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: CONNECT_DB.polygonlayer.0058, .handle.0002
+  Outputs: CONNECT_DB.polygonlayer.0075
+12 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: CONNECT_DB.polygonlayer.0075, CONNECT_DB.polygonlayer.0027
+  Outputs: CONNECT_DB.polygonlayer.0076
+12 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: gVPW.polygonlayer.0001, aM0A.polygonlayer.0003
+  Outputs: CONNECT_DB.polygonlayer.0052
+12 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.011 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: aM0A.polygonlayer.0003, #inserted_q.associated.0055, gVPW.polygonlayer.0001, #inserted_q.associated.0056
+  Outputs: CONNECT_DB.polygonlayer.0059
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Small Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Large Cell Time=0:00:00  User=0.01 Sys=0.00 Mem=0.017 GB
+9 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.017 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: CONNECT_DB.polygonlayer.0059, #inserted_q.associated.0084, gPWELL.polygonlayer.0001, #inserted_q.associated.0085
+  Outputs: CONNECT_DB.polygonlayer.0069
+9 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: CONNECT_DB.polygonlayer.0069, .handle.0002
+  Outputs: CONNECT_DB.polygonlayer.0070
+9 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.014 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: CONNECT_DB.polygonlayer.0070, CONNECT_DB.polygonlayer.0052
+  Outputs: CONNECT_DB.polygonlayer.0071
+9 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: CONNECT_DB.polygonlayer.0071, CONNECT_DB.polygonlayer.0027
+  Outputs: CONNECT_DB.polygonlayer.0072
+9 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: CONNECT_DB.polygonlayer.0052, #inserted_q.associated.0086, CONNECT_DB.polygonlayer.0072, #inserted_q.associated.0087
+  Outputs: CONNECT_DB.polygonlayer.0073
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.018 GB
+    Small Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.018 GB
+    Large Cell Time=0:00:00  User=0.01 Sys=0.00 Mem=0.018 GB
+Pulling down the select result(Quasi).
+9 unique polygons written.
+Pulled 0 polygon
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.018 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: gVNW.polygonlayer.0001, aM0A.polygonlayer.0003
+  Outputs: CONNECT_DB.polygonlayer.0054
+Input layer "gVNW.polygonlayer.0001" is empty.
+No output written.
+Layer "CONNECT_DB.polygonlayer.0054" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+No output written.
+Layer "#inserted_q.associated.0057" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+No output written.
+Layer "#inserted_q.associated.0058" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: aM0A.polygonlayer.0003, #inserted_q.associated.0057, gVNW.polygonlayer.0001, #inserted_q.associated.0058
+  Outputs: CONNECT_DB.polygonlayer.0060
+Input layer "gVNW.polygonlayer.0001" is empty.
+No output written.
+Layer "CONNECT_DB.polygonlayer.0060" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+No output written.
+Layer "#inserted_q.associated.0061" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+No output written.
+Layer "#inserted_q.associated.0062" is empty.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.011 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: CONNECT_DB.polygonlayer.0060, #inserted_q.associated.0061, gNWELL.polygonlayer.0001, #inserted_q.associated.0062
+  Outputs: CONNECT_DB.polygonlayer.0062
+Input layer "CONNECT_DB.polygonlayer.0060" is empty.
+No output written.
+Layer "CONNECT_DB.polygonlayer.0062" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: CONNECT_DB.polygonlayer.0062, .handle.0002
+  Outputs: CONNECT_DB.polygonlayer.0063
+Input layer "CONNECT_DB.polygonlayer.0062" is empty.
+No output written.
+Layer "CONNECT_DB.polygonlayer.0063" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: CONNECT_DB.polygonlayer.0063, CONNECT_DB.polygonlayer.0054
+  Outputs: CONNECT_DB.polygonlayer.0064
+Input layer "CONNECT_DB.polygonlayer.0063" is empty.
+Input layer "CONNECT_DB.polygonlayer.0054" is empty.
+No output written.
+Layer "CONNECT_DB.polygonlayer.0064" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: CONNECT_DB.polygonlayer.0064, CONNECT_DB.polygonlayer.0027
+  Outputs: CONNECT_DB.polygonlayer.0065
+Input layer "CONNECT_DB.polygonlayer.0064" is empty.
+No output written.
+Layer "CONNECT_DB.polygonlayer.0065" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+No output written.
+Layer "#inserted_q.associated.0063" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+No output written.
+Layer "#inserted_q.associated.0064" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: CONNECT_DB.polygonlayer.0054, #inserted_q.associated.0063, CONNECT_DB.polygonlayer.0065, #inserted_q.associated.0064
+  Outputs: CONNECT_DB.polygonlayer.0066
+Input layer "CONNECT_DB.polygonlayer.0054" is empty.
+Input layer "CONNECT_DB.polygonlayer.0065" is empty.
+No output written.
+Layer "CONNECT_DB.polygonlayer.0066" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: gNFINS.polygonlayer.0005, .handle.0002
+  Outputs: CONNECT_DB.polygonlayer.0055
+68 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.011 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: CONNECT_DB.polygonlayer.0055, CONNECT_DB.polygonlayer.0078
+  Outputs: CONNECT_DB.polygonlayer.0079
+68 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: gPFINS.polygonlayer.0005, .handle.0002
+  Outputs: CONNECT_DB.polygonlayer.0056
+77 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: CONNECT_DB.polygonlayer.0056, CONNECT_DB.polygonlayer.0076
+  Outputs: CONNECT_DB.polygonlayer.0080
+77 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.015 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: gPWELL.polygonlayer.0001, .handle.0002
+  Outputs: CONNECT_DB.polygonlayer.0034
+1 unique polygon written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.011 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: CONNECT_DB.polygonlayer.0034, CONNECT_DB.polygonlayer.0072
+  Outputs: CONNECT_DB.polygonlayer.0074
+1 unique polygon written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.015 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: gNWELL.polygonlayer.0001, .handle.0002
+  Outputs: CONNECT_DB.polygonlayer.0053
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: CONNECT_DB.polygonlayer.0053, CONNECT_DB.polygonlayer.0065
+  Outputs: CONNECT_DB.polygonlayer.0067
+Input layer "CONNECT_DB.polygonlayer.0065" is empty.
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: CONNECT_DB.connect_database.0002
+  Outputs: CONNECT_DB.connect_database.0005
+#max block size is set as 8388608, prev_max_block_size is = 1048576
+Layer "CONNECT_DB.polygonlayer.0062" is empty.
+Layer "gVNW.polygonlayer.0001" is empty.
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.026 GB
+    Small Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.027 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.027 GB
+   Check Time=0:00:00  User=0.02 Sys=0.02 Mem=0.027 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: CONNECT_DB.connect_database.0005
+  Outputs: CONNECT_DB.connect_database.0006
+  Inputs: CONNECT_DB.polygonlayer.0078, CONNECT_DB.polygonlayer.0027, CONNECT_DB.polygonlayer.0076, CONNECT_DB.polygonlayer.0027, CONNECT_DB.polygonlayer.0072, CONNECT_DB.polygonlayer.0027, CONNECT_DB.polygonlayer.0073, CONNECT_DB.polygonlayer.0065, CONNECT_DB.polygonlayer.0027, CONNECT_DB.polygonlayer.0066
+#max block size is set as 8388608, prev_max_block_size is = 1048576
+Layer "CONNECT_DB.polygonlayer.0065" is empty.
+Layer "CONNECT_DB.polygonlayer.0066" is empty.
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.040 GB
+    Small Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.042 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.041 GB
+   Check Time=0:00:00  User=0.03 Sys=0.02 Mem=0.044 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: CONNECT_DB.polygonlayer.0079, CONNECT_DB.polygonlayer.0078, aM0A.polygonlayer.0003, CONNECT_DB.polygonlayer.0027, .handle.0002
+  Outputs: CONNECT_DB.polygonlayer.0082, CONNECT_DB.polygonlayer.0081, CONNECT_DB.polygonlayer.0083
+59 unique polygons written.
+No output written.
+Layer "CONNECT_DB.polygonlayer.0083" is empty.
+No output written.
+Layer "CONNECT_DB.polygonlayer.0082" is empty.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.026 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: CONNECT_DB.polygonlayer.0081, aM0A.polygonlayer.0003
+  Outputs: CONNECT_DB.polygonlayer.0096
+    Pulldown Reduce Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+     Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+     Small Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+     Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+17 unique polygons written.
+    Pulldown Cleanup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+Pulled 6 polygons
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: CONNECT_DB.polygonlayer.0080, CONNECT_DB.polygonlayer.0076, aM0A.polygonlayer.0003, CONNECT_DB.polygonlayer.0027, .handle.0002
+  Outputs: CONNECT_DB.polygonlayer.0085, CONNECT_DB.polygonlayer.0084, CONNECT_DB.polygonlayer.0086
+68 unique polygons written.
+No output written.
+Layer "CONNECT_DB.polygonlayer.0086" is empty.
+No output written.
+Layer "CONNECT_DB.polygonlayer.0085" is empty.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.030 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: CONNECT_DB.polygonlayer.0084, aM0A.polygonlayer.0003
+  Outputs: CONNECT_DB.polygonlayer.0095
+    Pulldown Reduce Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+     Setup Time=0:00:00  User=0.01 Sys=0.00 Mem=0.016 GB
+     Small Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+     Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+12 unique polygons written.
+    Pulldown Cleanup Time=0:00:00  User=0.01 Sys=0.00 Mem=0.017 GB
+Pulled 8 polygons
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.017 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: CONNECT_DB.polygonlayer.0074, CONNECT_DB.polygonlayer.0072, gVPW.polygonlayer.0001, CONNECT_DB.polygonlayer.0027, CONNECT_DB.polygonlayer.0073
+  Outputs: CONNECT_DB.polygonlayer.0088, CONNECT_DB.polygonlayer.0087, CONNECT_DB.polygonlayer.0089
+9 unique polygons written.
+No output written.
+Layer "CONNECT_DB.polygonlayer.0089" is empty.
+No output written.
+Layer "CONNECT_DB.polygonlayer.0088" is empty.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.025 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: CONNECT_DB.polygonlayer.0087, gVPW.polygonlayer.0001
+  Outputs: CONNECT_DB.polygonlayer.0094
+9 unique polygons written.
+Pulled 0 polygon
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: CONNECT_DB.polygonlayer.0067, CONNECT_DB.polygonlayer.0065, gVNW.polygonlayer.0001, CONNECT_DB.polygonlayer.0027, CONNECT_DB.polygonlayer.0066
+  Outputs: CONNECT_DB.polygonlayer.0091, CONNECT_DB.polygonlayer.0090, CONNECT_DB.polygonlayer.0092
+Input layer "CONNECT_DB.polygonlayer.0065" is empty.
+Input layer "gVNW.polygonlayer.0001" is empty.
+Input layer "CONNECT_DB.polygonlayer.0066" is empty.
+No output written.
+Layer "CONNECT_DB.polygonlayer.0090" is empty.
+No output written.
+Layer "CONNECT_DB.polygonlayer.0092" is empty.
+No output written.
+Layer "CONNECT_DB.polygonlayer.0091" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.029 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: CONNECT_DB.polygonlayer.0090, gVNW.polygonlayer.0001
+  Outputs: CONNECT_DB.polygonlayer.0093
+Input layer "CONNECT_DB.polygonlayer.0090" is empty.
+Input layer "gVNW.polygonlayer.0001" is empty.
+No output written.
+Layer "CONNECT_DB.polygonlayer.0093" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: CONNECT_DB.connect_database.0005
+  Outputs: CONNECT_DB.connect_database.0007
+#max block size is set as 8388608, prev_max_block_size is = 1048576
+Layer "CONNECT_DB.polygonlayer.0093" is empty.
+    Setup Time=0:00:00  User=0.00 Sys=0.01 Mem=0.041 GB
+    Small Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.044 GB
+    Large Cell Time=0:00:00  User=0.01 Sys=0.00 Mem=0.044 GB
+   Check Time=0:00:00  User=0.03 Sys=0.02 Mem=0.044 GB
+
+create_ports() at FreePDK3_main.lvs.lvs.rs:410
+CONNECT_DB = create_ports(CONNECT_DB, { { aBPR, aBPR }, { aM0A, aM0A }, { aM0B, aM0B }, { aM1, aM1 }, { aM2, aM2 }, { aM3, aM3 }, { aM4, aM4 }, { aM5, aM5 }, { aM6, aM6 }, { aM7, aM7 }, { aM8, aM8 }, { aM9, aM9 }, { aM10, aM10 }, { aM11, aM11 }, { aM12, aM12 }, { aM13, aM13 }, { aRDL, aRDL } })
+Input layer "aM3.polygonlayer.0002" is empty.
+Input layer "aM4.polygonlayer.0002" is empty.
+Input layer "aM5.polygonlayer.0002" is empty.
+Input layer "aM6.polygonlayer.0002" is empty.
+Input layer "aM7.polygonlayer.0002" is empty.
+Input layer "aM8.polygonlayer.0002" is empty.
+Input layer "aM9.polygonlayer.0002" is empty.
+Input layer "aM10.polygonlayer.0002" is empty.
+Input layer "aM11.polygonlayer.0002" is empty.
+Input layer "aM12.polygonlayer.0002" is empty.
+Input layer "aM13.polygonlayer.0002" is empty.
+Input layer "aRDL.polygonlayer.0002" is empty.
+    Load connect database Time=0:00:00  User=0.00 Sys=0.00 Mem=0.026 GB
+
+    Process all port items Time=0:00:00  User=0.00 Sys=0.00 Mem=0.028 GB
+
+    16 new ports are created. 
+     Store connect database Time=0:00:00  User=0.01 Sys=0.01 Mem=0.028 GB
+
+    Postprocessing  Time=0:00:00  User=0.01 Sys=0.01 Mem=0.028 GB
+
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.028 GB
+
+init_device_matrix() at FreePDK3_main.lvs.lvs.rs:412
+dev_matrix : device_matrix = init_device_matrix(CONNECT_DB)
+  Function: init_device_matrix
+  Outputs: _ICV_FLAT_PROPERTY_.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+nmos() at FreePDK3_main.lvs.lvs.rs:414
+nmos(bulk_relationship = INTERACT, device_name = "nmos", drain = gNFINS, gate = gPOLY, matrix = dev_matrix, properties = { { "W" }, { "L" }, { "NFIN" }, { "ADEO" }, { "ASEO" }, { "PDEO" }, { "PSEO" } }, property_function = dev_func_MY_FET_PROPERTIES, recognition_layer = (gNGATE1 interacting gPWELL), processing_layer_hash = { "DUMMY" => { aDUMMY, 0.050 } }, simulation_model_name = "nmos", source = gNFINS)
+  Function: nmos
+  Inputs: gPOLY.polygonlayer.0005, gNFINS.polygonlayer.0005, gNFINS.polygonlayer.0005, temp.polygonlayer.0002, gPOLY.polygonlayer.0003, aDUMMY.polygonlayer.0004
+nmos(bulk_relationship = INTERACT, device_name = \"nmos\", drain = gNFINS, gate = gPOLY, matrix = dev_matrix, properties = { { \"W\" }, { \"L\" }, { \"NFIN\" }, { \"ADEO\" }, { \"ASEO\" }, { \"PDEO\" }, { \"PSEO\" } }, property_function = dev_func_MY_FET_PROPERTIES, recognition_layer = (gNGATE1 interacting gPWELL), processing_layer_hash = { \"DUMMY\" => { aDUMMY, 0.050 } }, simulation_model_name = \"nmos\", source = gNFINS)
+Extracted 25 unique 3-terminal "nmos" devices.
+   Check Time=0:00:00  User=0.04 Sys=0.01 Mem=0.029 GB
+
+pmos() at FreePDK3_main.lvs.lvs.rs:416
+pmos(bulk_relationship = INTERACT, device_name = "pmos", drain = gPFINS, gate = gPOLY, matrix = dev_matrix, properties = { { "W" }, { "L" }, { "NFIN" }, { "ADEO" }, { "ASEO" }, { "PDEO" }, { "PSEO" } }, property_function = dev_func_MY_FET_PROPERTIES, recognition_layer = (gPGATE1 interacting gNWELL), processing_layer_hash = { "DUMMY" => { aDUMMY, 0.050 } }, simulation_model_name = "pmos", source = gPFINS)
+  Function: pmos
+  Inputs: gPOLY.polygonlayer.0005, gPFINS.polygonlayer.0005, gPFINS.polygonlayer.0005, temp.polygonlayer.0004, gPOLY.polygonlayer.0004, aDUMMY.polygonlayer.0005
+pmos(bulk_relationship = INTERACT, device_name = \"pmos\", drain = gPFINS, gate = gPOLY, matrix = dev_matrix, properties = { { \"W\" }, { \"L\" }, { \"NFIN\" }, { \"ADEO\" }, { \"ASEO\" }, { \"PDEO\" }, { \"PSEO\" } }, property_function = dev_func_MY_FET_PROPERTIES, recognition_layer = (gPGATE1 interacting gNWELL), processing_layer_hash = { \"DUMMY\" => { aDUMMY, 0.050 } }, simulation_model_name = \"pmos\", source = gPFINS)
+Extracted 25 unique 3-terminal "pmos" devices.
+   Check Time=0:00:00  User=0.07 Sys=0.01 Mem=0.025 GB
+
+extract_devices() at FreePDK3_main.lvs.lvs.rs:422
+device_db = extract_devices(dev_matrix)
+Creating netlisting connect database ...
+Print precise coordinates FALSE.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.028 GB
+
+extract_devices() at FreePDK3_main.lvs.lvs.rs:422
+device_db = extract_devices(dev_matrix)
+  Function: extract_devices
+Connecting devices ...
+   Device Connect Time=0:00:00  User=0.03 Sys=0.01 Mem=0.014 GB
+
+extract_devices() at FreePDK3_main.lvs.lvs.rs:422
+device_db = extract_devices(dev_matrix)
+Generating rowdecoder.acct file ...
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.013 GB
+
+extract_devices() at FreePDK3_main.lvs.lvs.rs:422
+device_db = extract_devices(dev_matrix)
+   Check Time=0:00:00  User=0.02 Sys=0.01 Mem=0.029 GB
+
+extract_devices() at FreePDK3_main.lvs.lvs.rs:422
+device_db = extract_devices(dev_matrix)
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+
+extract_devices() at FreePDK3_main.lvs.lvs.rs:422
+device_db = extract_devices(dev_matrix)
+LCL_DVD_skip_unuse_data = 0
+Writing VUE info.
+Input layer "aRDL.polygonlayer.0002" is empty.
+Input layer "CONNECT_DB.polygonlayer.0002" is empty.
+Input layer "aM13.polygonlayer.0002" is empty.
+Input layer "aVRDL.polygonlayer.0002" is empty.
+Input layer "CONNECT_DB.polygonlayer.0004" is empty.
+Input layer "aM12.polygonlayer.0002" is empty.
+Input layer "aV12.polygonlayer.0002" is empty.
+Input layer "CONNECT_DB.polygonlayer.0006" is empty.
+Input layer "aM11.polygonlayer.0002" is empty.
+Input layer "aV11.polygonlayer.0002" is empty.
+Input layer "CONNECT_DB.polygonlayer.0008" is empty.
+Input layer "aM10.polygonlayer.0002" is empty.
+Input layer "aV10.polygonlayer.0002" is empty.
+Input layer "CONNECT_DB.polygonlayer.0010" is empty.
+Input layer "aM9.polygonlayer.0002" is empty.
+Input layer "aV9.polygonlayer.0002" is empty.
+Input layer "CONNECT_DB.polygonlayer.0012" is empty.
+Input layer "aM8.polygonlayer.0002" is empty.
+Input layer "aV8.polygonlayer.0002" is empty.
+Input layer "CONNECT_DB.polygonlayer.0014" is empty.
+Input layer "aM7.polygonlayer.0002" is empty.
+Input layer "aV7.polygonlayer.0002" is empty.
+Input layer "CONNECT_DB.polygonlayer.0016" is empty.
+Input layer "aM6.polygonlayer.0002" is empty.
+Input layer "aV6.polygonlayer.0002" is empty.
+Input layer "CONNECT_DB.polygonlayer.0018" is empty.
+Input layer "aM5.polygonlayer.0002" is empty.
+Input layer "aV5.polygonlayer.0002" is empty.
+Input layer "CONNECT_DB.polygonlayer.0020" is empty.
+Input layer "aM4.polygonlayer.0002" is empty.
+Input layer "aV4.polygonlayer.0002" is empty.
+Input layer "CONNECT_DB.polygonlayer.0022" is empty.
+Input layer "aM3.polygonlayer.0002" is empty.
+Input layer "aV3.polygonlayer.0002" is empty.
+Input layer "CONNECT_DB.polygonlayer.0024" is empty.
+Input layer "aV2.polygonlayer.0002" is empty.
+Input layer "gVNW.polygonlayer.0001" is empty.
+Input layer "CONNECT_DB.polygonlayer.0062" is empty.
+Input layer "CONNECT_DB.polygonlayer.0093" is empty.
+Creating VUE info directory.
+Running with cell_thread_count = 8, region_thread_count = 8
+   Check Time=0:00:00  User=0.67 Sys=0.08 Mem=0.045 GB
+
+extract_devices() at FreePDK3_main.lvs.lvs.rs:422
+device_db = extract_devices(dev_matrix)
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.007 GB
+
+netlist() at FreePDK3_main.lvs.lvs.rs:424
+layout_netlist_db = netlist(device_db = device_db, include_empty_cells = NONE, precision = 6)
+
+Generating meter-based NDB ...
+
+   Check Time=0:00:00  User=0.03 Sys=0.01 Mem=0.029 GB
+
+netlist() at FreePDK3_main.lvs.lvs.rs:424
+layout_netlist_db = netlist(device_db = device_db, include_empty_cells = NONE, precision = 6)
+Creating layout netlist view.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.024 GB
+
+netlist() at FreePDK3_main.lvs.lvs.rs:424
+layout_netlist_db = netlist(device_db = device_db, include_empty_cells = NONE, precision = 6)
+Creating layout netlist view.
+   Check Time=0:00:00  User=0.03 Sys=0.00 Mem=0.024 GB
+
+compare() at FreePDK3_main.lvs.lvs.rs:451
+compare(user_functions_file = search_include_path("FreePDK3_main.lvs.rs.user_functions"), state = compare_settings, schematic = schematic_db, layout = layout_netlist_db)
+Creating schematic netlist view.
+   Check Time=0:00:00  User=0.03 Sys=0.01 Mem=0.010 GB
+
+compare() at FreePDK3_main.lvs.lvs.rs:451
+compare(user_functions_file = search_include_path("FreePDK3_main.lvs.rs.user_functions"), state = compare_settings, schematic = schematic_db, layout = layout_netlist_db)
+Comparing schematic and layout netlists.
+   Check Time=0:00:00  User=0.40 Sys=0.02 Mem=0.021 GB
+
+compare() at FreePDK3_main.lvs.lvs.rs:451
+compare(user_functions_file = search_include_path("FreePDK3_main.lvs.rs.user_functions"), state = compare_settings, schematic = schematic_db, layout = layout_netlist_db)
+Output equiv netlists.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.021 GB
+
+pex_generate_database() at FreePDK3_main.lvs.lvs.rs:515
+pex_generate_database(pex_matrix = pex_matrix, pex_library = pex_layout_library_handle, pex_library_layer_map = pex_layout_library_layer_map_handle, pex_netlist_file = pex_spice_netlist_file_handle, pex_cell_extents_file = pex_cell_extents_file_handle, pex_cell_port_file = pex_cell_port_file_handle, pex_process_map_file = pex_process_handle, pex_runset_report_file = pex_report_handle)
+  Function: pex_generate_database
+  Inputs: aM0B.polygonlayer.0003, CONNECT_DB.polygonlayer.0068, gPOLY.polygonlayer.0005, aGCON.polygonlayer.0003, aRDL.polygonlayer.0002, CONNECT_DB.polygonlayer.0002, aM13.polygonlayer.0002, aVRDL.polygonlayer.0002, CONNECT_DB.polygonlayer.0004, aM12.polygonlayer.0002, aV12.polygonlayer.0002, CONNECT_DB.polygonlayer.0006, aM11.polygonlayer.0002, aV11.polygonlayer.0002, CONNECT_DB.polygonlayer.0008, aM10.polygonlayer.0002, aV10.polygonlayer.0002, CONNECT_DB.polygonlayer.0010, aM9.polygonlayer.0002, aV9.polygonlayer.0002, CONNECT_DB.polygonlayer.0012, aM8.polygonlayer.0002, aV8.polygonlayer.0002, CONNECT_DB.polygonlayer.0014, aM7.polygonlayer.0002, aV7.polygonlayer.0002, CONNECT_DB.polygonlayer.0016, aM6.polygonlayer.0002, aV6.polygonlayer.0002, CONNECT_DB.polygonlayer.0018, aM5.polygonlayer.0002, aV5.polygonlayer.0002, CONNECT_DB.polygonlayer.0020, aM4.polygonlayer.0002, aV4.polygonlayer.0002, CONNECT_DB.polygonlayer.0022, aM3.polygonlayer.0002, aV3.polygonlayer.0002, CONNECT_DB.polygonlayer.0024, aM2.polygonlayer.0003, aV2.polygonlayer.0002, CONNECT_DB.polygonlayer.0033, aM1.polygonlayer.0003, aV1.polygonlayer.0003, CONNECT_DB.polygonlayer.0031, aV0B.polygonlayer.0003, CONNECT_DB.polygonlayer.0029, aM0A.polygonlayer.0003, aV0A.polygonlayer.0003, CONNECT_DB.polygonlayer.0026, aBPR.polygonlayer.0003, aVBPR.polygonlayer.0003, gVPW.polygonlayer.0001, gVNW.polygonlayer.0001, gNFINS.polygonlayer.0005, gPFINS.polygonlayer.0005, gPWELL.polygonlayer.0001, gNWELL.polygonlayer.0001
+Input layer "aM3.polygonlayer.0002" is empty.
+Input layer "aM3.polygonlayer.0002" is empty.
+Input layer "aM4.polygonlayer.0002" is empty.
+Input layer "aM4.polygonlayer.0002" is empty.
+Input layer "aM5.polygonlayer.0002" is empty.
+Input layer "aM5.polygonlayer.0002" is empty.
+Input layer "aM6.polygonlayer.0002" is empty.
+Input layer "aM6.polygonlayer.0002" is empty.
+Input layer "aM7.polygonlayer.0002" is empty.
+Input layer "aM7.polygonlayer.0002" is empty.
+Input layer "aM8.polygonlayer.0002" is empty.
+Input layer "aM8.polygonlayer.0002" is empty.
+Input layer "aM9.polygonlayer.0002" is empty.
+Input layer "aM9.polygonlayer.0002" is empty.
+Input layer "aM10.polygonlayer.0002" is empty.
+Input layer "aM10.polygonlayer.0002" is empty.
+Input layer "aM11.polygonlayer.0002" is empty.
+Input layer "aM11.polygonlayer.0002" is empty.
+Input layer "aM12.polygonlayer.0002" is empty.
+Input layer "aM12.polygonlayer.0002" is empty.
+Input layer "aM13.polygonlayer.0002" is empty.
+Input layer "aM13.polygonlayer.0002" is empty.
+Input layer "aRDL.polygonlayer.0002" is empty.
+Input layer "aRDL.polygonlayer.0002" is empty.
+Input layer "aRDL.polygonlayer.0002" is empty.
+Input layer "CONNECT_DB.polygonlayer.0002" is empty.
+Input layer "aM13.polygonlayer.0002" is empty.
+Input layer "aVRDL.polygonlayer.0002" is empty.
+Input layer "CONNECT_DB.polygonlayer.0004" is empty.
+Input layer "aM12.polygonlayer.0002" is empty.
+Input layer "aV12.polygonlayer.0002" is empty.
+Input layer "CONNECT_DB.polygonlayer.0006" is empty.
+Input layer "aM11.polygonlayer.0002" is empty.
+Input layer "aV11.polygonlayer.0002" is empty.
+Input layer "CONNECT_DB.polygonlayer.0008" is empty.
+Input layer "aM10.polygonlayer.0002" is empty.
+Input layer "aV10.polygonlayer.0002" is empty.
+Input layer "CONNECT_DB.polygonlayer.0010" is empty.
+Input layer "aM9.polygonlayer.0002" is empty.
+Input layer "aV9.polygonlayer.0002" is empty.
+Input layer "CONNECT_DB.polygonlayer.0012" is empty.
+Input layer "aM8.polygonlayer.0002" is empty.
+Input layer "aV8.polygonlayer.0002" is empty.
+Input layer "CONNECT_DB.polygonlayer.0014" is empty.
+Input layer "aM7.polygonlayer.0002" is empty.
+Input layer "aV7.polygonlayer.0002" is empty.
+Input layer "CONNECT_DB.polygonlayer.0016" is empty.
+Input layer "aM6.polygonlayer.0002" is empty.
+Input layer "aV6.polygonlayer.0002" is empty.
+Input layer "CONNECT_DB.polygonlayer.0018" is empty.
+Input layer "aM5.polygonlayer.0002" is empty.
+Input layer "aV5.polygonlayer.0002" is empty.
+Input layer "CONNECT_DB.polygonlayer.0020" is empty.
+Input layer "aM4.polygonlayer.0002" is empty.
+Input layer "aV4.polygonlayer.0002" is empty.
+Input layer "CONNECT_DB.polygonlayer.0022" is empty.
+Input layer "aM3.polygonlayer.0002" is empty.
+Input layer "aV3.polygonlayer.0002" is empty.
+Input layer "CONNECT_DB.polygonlayer.0024" is empty.
+Input layer "aV2.polygonlayer.0002" is empty.
+Input layer "gVNW.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.02 Sys=0.01 Mem=0.074 GB
+
+pex_generate_database() at FreePDK3_main.lvs.lvs.rs:515
+pex_generate_database(pex_matrix = pex_matrix, pex_library = pex_layout_library_handle, pex_library_layer_map = pex_layout_library_layer_map_handle, pex_netlist_file = pex_spice_netlist_file_handle, pex_cell_extents_file = pex_cell_extents_file_handle, pex_cell_port_file = pex_cell_port_file_handle, pex_process_map_file = pex_process_handle, pex_runset_report_file = pex_report_handle)
+   Check Time=0:00:00  User=0.23 Sys=0.04 Mem=0.034 GB
+
+pex_generate_database() at FreePDK3_main.lvs.lvs.rs:515
+pex_generate_database(pex_matrix = pex_matrix, pex_library = pex_layout_library_handle, pex_library_layer_map = pex_layout_library_layer_map_handle, pex_netlist_file = pex_spice_netlist_file_handle, pex_cell_extents_file = pex_cell_extents_file_handle, pex_cell_port_file = pex_cell_port_file_handle, pex_process_map_file = pex_process_handle, pex_runset_report_file = pex_report_handle)
+  Function: pex_generate_database
+  Inputs: aM0B.polygonlayer.0003, CONNECT_DB.polygonlayer.0068, gPOLY.polygonlayer.0005, aGCON.polygonlayer.0003, aM2.polygonlayer.0003, CONNECT_DB.polygonlayer.0033, aM1.polygonlayer.0003, aV1.polygonlayer.0003, CONNECT_DB.polygonlayer.0031, aV0B.polygonlayer.0003, CONNECT_DB.polygonlayer.0029, aM0A.polygonlayer.0003, aV0A.polygonlayer.0003, CONNECT_DB.polygonlayer.0026, aBPR.polygonlayer.0003, aVBPR.polygonlayer.0003, gVPW.polygonlayer.0001, gNFINS.polygonlayer.0005, gPFINS.polygonlayer.0005, gPWELL.polygonlayer.0001, gNWELL.polygonlayer.0001
+Writing stream file pex.gds
+
+Outputs:
+  aM0B (1;0) ....................................... 63 polygons written
+  CONNECT_DB (2;0) ................................. 5 polygons written
+  gPOLY (3;0) ...................................... 39 polygons written
+  aGCON (4;0) ...................................... 5 polygons written
+  aM2 (5;0) ........................................ 27 polygons written
+  CONNECT_DB (6;0) ................................. 46 polygons written
+  aM1 (7;0) ........................................ 36 polygons written
+  aV1 (8;0) ........................................ 46 polygons written
+  CONNECT_DB (9;0) ................................. 58 polygons written
+  aV0B (10;0) ...................................... 58 polygons written
+  CONNECT_DB (11;0) ................................ 22 polygons written
+  aM0A (12;0) ...................................... 30 polygons written
+  aV0A (13;0) ...................................... 22 polygons written
+  CONNECT_DB (14;0) ................................ 24 polygons written
+  aBPR (15;0) ...................................... 26 polygons written
+  aVBPR (16;0) ..................................... 24 polygons written
+  gVPW (17;0) ...................................... 12 polygons written
+  gNFINS (18;0) .................................... 75 polygons written
+  gPFINS (19;0) .................................... 85 polygons written
+  gPWELL (20;0) .................................... 4 polygons written
+  gNWELL (21;0) .................................... 2 polygons written
+
+   Writing Time=0:00:00  User=0.04 Sys=0.02 Mem=0.040 GB
+
+Completing error storage...
+  Overall error storage time: User=0.00 Sys=0.00 Mem=0.000 GB
+
+Generating rowdecoder.LAYOUT_ERRORS...
+  Generation Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB
+
+
+IC Validator Machine Memory Report
+grendel25.ece.ncsu.edu : Average = 0.536 GB, Peak = 0.536 GB
+
+Overall Disk Usage Disk=0.006 GB
+Network Disk Usage Peak=0.008 GB
+Group File Disk Usage Peak=0.003 GB
+Overall engine Time=0:00:08 Highest command Mem=0.074 GB
+
+Overall Master Mem=0.965 GB

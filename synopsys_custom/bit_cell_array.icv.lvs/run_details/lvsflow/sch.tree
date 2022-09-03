@@ -1,0 +1,62 @@
+bit_cell_array Level=0 Count=1
+   bitcell Level=1 Count=128
+   Write_Driver Level=1 Count=4
+      inv_2 Level=2 Count=8
+   bit_conditioning Level=1 Count=16
+      inv_2 Level=2 Count=16
+   tspc_flip_flop Level=1 Count=4
+   rowdecoder Level=1 Count=1
+      nor_5 Level=2 Count=8
+      inv_2 Level=2 Count=3
+   column_decoder_new Level=1 Count=1
+      demu_2_4 Level=2 Count=1
+         and_2 Level=3 Count=4
+         inv_2 Level=3 Count=2
+
++--------------------------------------------------------------------------+
+|                             CELL STATISTICS                              |
++--------------------------------------------------------------------------+
+
+
+CELL = bit_cell_array
+	Flat Placements      =	1
+
+CELL = column_decoder_new
+	Flat Placements      =	1
+
+CELL = rowdecoder
+	Flat Placements      =	1
+
+CELL = Write_Driver
+	Flat Placements      =	4
+
+CELL = bit_conditioning
+	Flat Placements      =	16
+
+CELL = demu_2_4
+	Flat Placements      =	1
+
+CELL = bitcell
+	Flat Placements      =	128
+
+CELL = nor_5
+	Flat Placements      =	8
+
+CELL = inv_2
+	Flat Placements      =	29
+
+CELL = and_2
+	Flat Placements      =	4
+
+CELL = tspc_flip_flop
+	Flat Placements      =	4
+
+TOP CELL = bit_cell_array
+	Ports                =	17
+
++--------------------------------------------------------------------------+
+|                            DEVICE STATISTICS                             |
++--------------------------------------------------------------------------+
+
+	NMOS[nmos] = 653
+	PMOS[pmos] = 377

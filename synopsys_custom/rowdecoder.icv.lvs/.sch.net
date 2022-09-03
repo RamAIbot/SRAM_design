@@ -1,0 +1,55 @@
+{netlist .sch.net
+{version 3 1 0}
+{net_global vdd! gnd! }
+{cell inv_2
+{port A Z}
+{inst MM0=nmos {TYPE MOS} 
+{pin Z=DRN A=GATE gnd!=SRC}}
+{inst MM1=pmos {TYPE MOS} 
+{pin Z=DRN A=GATE vdd!=SRC}}
+}
+
+{cell nor_5
+{port A B C Z}
+{inst MM21=nmos {TYPE MOS} 
+{pin Z=DRN B=GATE gnd!=SRC}}
+{inst MM22=nmos {TYPE MOS} 
+{pin Z=DRN A=GATE gnd!=SRC}}
+{inst MM8=nmos {TYPE MOS} 
+{pin Z=DRN C=GATE gnd!=SRC}}
+{inst MM18=pmos {TYPE MOS} 
+{pin net50=DRN A=GATE vdd!=SRC}}
+{inst MM19=pmos {TYPE MOS} 
+{pin net53=DRN B=GATE net50=SRC}}
+{inst MM20=pmos {TYPE MOS} 
+{pin Z=DRN C=GATE net53=SRC}}
+}
+
+{cell rowdecoder
+{port A<2> A<3> A<4> WL<0> WL<1> WL<2>
+ WL<3> WL<4> WL<5> WL<6> WL<7>}
+{inst XI60=nor_5 {TYPE CELL} 
+{pin A<4>=A A<3>=B ~A<0>=C WL<1>=Z}}
+{inst XI54=nor_5 {TYPE CELL} 
+{pin ~A<2>=A ~A<1>=B ~A<0>=C WL<7>=Z}}
+{inst XI59=nor_5 {TYPE CELL} 
+{pin A<4>=A ~A<1>=B A<2>=C WL<2>=Z}}
+{inst XI55=nor_5 {TYPE CELL} 
+{pin ~A<2>=A ~A<1>=B A<2>=C WL<6>=Z}}
+{inst XI56=nor_5 {TYPE CELL} 
+{pin ~A<2>=A A<3>=B ~A<0>=C WL<5>=Z}}
+{inst XI57=nor_5 {TYPE CELL} 
+{pin ~A<2>=A A<3>=B A<2>=C WL<4>=Z}}
+{inst XI61=nor_5 {TYPE CELL} 
+{pin A<4>=A A<3>=B A<2>=C WL<0>=Z}}
+{inst XI58=nor_5 {TYPE CELL} 
+{pin A<4>=A ~A<1>=B ~A<0>=C WL<3>=Z}}
+{inst XI21=inv_2 {TYPE CELL} 
+{pin A<2>=A ~A<0>=Z}}
+{inst XI20=inv_2 {TYPE CELL} 
+{pin A<3>=A ~A<1>=Z}}
+{inst XI19=inv_2 {TYPE CELL} 
+{pin A<4>=A ~A<2>=Z}}
+}
+
+}

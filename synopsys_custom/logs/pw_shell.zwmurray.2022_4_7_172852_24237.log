@@ -1,0 +1,446 @@
+[17:28:59.91] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[17:29:14.13] /o pw_shell Version PrimeWave Design Envrionment S-2021.09
+              /c Build  (OPT) compiled on Fri Aug 20 11:32:52 2021 for CentOS64 7.3
+              /c Execution time: Thu Apr  7 17:28:52 2022
+              /c Host: grendel28.ece.ncsu.edu
+              /c 
+              /c Copyright © 2004-2021 Synopsys, Inc.
+              /c This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, or distribution of this software is strictly prohibited.
+              /c 
+              /c 
+[17:29:14.48] /o /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/samples/basic
+[17:29:14.48] /o /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/samples/snpsDeviceLib
+[17:29:14.49] /o /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/samples/analogLib
+[17:29:14.49] /o /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/samples/sheets
+[17:29:14.49] /o /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/samples/parasitics
+[17:29:14.91] /o /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/syncust/NCSU_TechLib_FreePDK3
+[17:29:14.91] /o Loading: Callback files...
+[17:29:14.91] /o Loading: scripts/callbacks/callbacks.tcl
+[17:29:14.91] /o 
+              /c [INFO] : Loading display.drf from /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/syncust/NCSU_TechLib_FreePDK3
+              /c 
+              /c  if you wish to Load other display.drf, please set shell environment valiable "iPDK_load_display_NCSU_TechLib_FreePDK3" to value = 0
+[17:29:14.91] /o 
+[17:29:14.92] /w Warning: Could not set the value of preference xtDRCTool because it does not exist. (PREFERENCE-016)
+[17:29:14.92] /w Warning: Could not set the value of preference xtDRCICVRunsetFile because it does not exist. (PREFERENCE-016)
+[17:29:14.92] /w Warning: Could not set the value of preference xtDRCICVIncludePaths because it does not exist. (PREFERENCE-016)
+[17:29:14.92] /w Warning: Could not set the value of preference xtDRCLayDBFormat because it does not exist. (PREFERENCE-016)
+[17:29:14.92] /w Warning: Could not set the value of preference xtLVSTool because it does not exist. (PREFERENCE-016)
+[17:29:14.92] /w Warning: Could not set the value of preference xtLVSICVRunsetFile because it does not exist. (PREFERENCE-016)
+[17:29:14.93] /w Warning: Could not set the value of preference xtLVSICVIncludePaths because it does not exist. (PREFERENCE-016)
+[17:29:14.93] /w Warning: Could not set the value of preference xtLVSLayDBFormat because it does not exist. (PREFERENCE-016)
+[17:29:14.93] /w Warning: Could not set the value of preference xtLPELVSTool because it does not exist. (PREFERENCE-016)
+[17:29:14.93] /w Warning: Could not set the value of preference xtLPETool because it does not exist. (PREFERENCE-016)
+[17:29:14.93] /w Warning: Could not set the value of preference xtLPEOpenParasiticView because it does not exist. (PREFERENCE-016)
+[17:29:14.93] /w Warning: Could not set the value of preference xtStarTcadGrdFile because it does not exist. (PREFERENCE-016)
+[17:29:14.93] /w Warning: Could not set the value of preference xtLPEStarOADeviceMappingFile because it does not exist. (PREFERENCE-016)
+[17:29:14.93] /w Warning: Could not set the value of preference xtStarOALayerMappingFile because it does not exist. (PREFERENCE-016)
+[17:29:14.93] /o 	#######################################
+[17:29:14.93] /o 	CC-PDK Library Name	: FreePDK3
+[17:29:14.93] /o 	#######################################
+[17:29:14.93] /o 
+[17:29:14.96] /i ::sa::_backgroundSaeShell::signalProcessReady 1649366931
+[17:29:14.96] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 23
+[17:29:38.11] /i ::sa::_backgroundSaeShell::runScript /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[17:29:38.50] /m Information: Loading preferences from /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/pw_shell_session_prefs.xml
+[17:29:39.03] /m Information: Start incremental database creation...
+[17:29:39.13] /m Information: Create Iter role param id map
+[17:29:39.24] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 1.1 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[17:29:39.24] /o false
+[17:29:39.24] /i ::wf::viewerExited
+[17:30:23.08] /i ::wf::viewerExited
+[17:30:24.18] /i ::sa::_backgroundSaeShell::runScript /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[17:30:24.51] /m Information: Loading preferences from /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/pw_shell_session_prefs.xml
+[17:30:24.69] /m Information: Start incremental database creation...
+[17:30:24.79] /m Information: Create Iter role param id map
+[17:30:24.89] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.7 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[17:30:24.89] /o false
+[17:30:43.99] /i ::wf::viewerExited
+[17:31:16.34] /i ::sa::_backgroundSaeShell::runScript /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[17:31:16.88] /m Information: Loading preferences from /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/pw_shell_session_prefs.xml
+[17:31:17.07] /m Information: Start incremental database creation...
+[17:31:17.16] /m Information: Create Iter role param id map
+[17:31:17.26] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.9 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[17:31:17.26] /o false
+[17:31:17.26] /i ::wf::viewerExited
+[17:31:25.36] /i ::wf::viewerExited
+[17:36:18.99] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[17:36:19.18] /i ::sa::_backgroundSaeShell::parentRunning
+[17:36:19.18] /o 1649367379
+[17:38:18.21] /i ::sa::_backgroundSaeShell::runScript /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[17:38:18.22] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)
+[17:38:18.24] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[17:38:18.77] /m Information: Loading preferences from /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/pw_shell_session_prefs.xml
+[17:38:18.96] /m Information: Start incremental database creation...
+[17:38:19.06] /m Information: Create Iter role param id map
+[17:38:19.16] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.9 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[17:38:19.16] /o false
+[17:38:19.16] /i ::wf::viewerExited
+[17:43:20.02] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[17:43:20.08] /i ::sa::_backgroundSaeShell::parentRunning
+[17:43:20.08] /o 1649367800
+[17:43:23.48] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)
+[17:46:24.88] /i ::wf::viewerExited
+[17:48:21.02] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[17:48:21.18] /i ::sa::_backgroundSaeShell::parentRunning
+[17:48:21.18] /o 1649368101
+[17:53:22.04] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[17:53:22.18] /i ::sa::_backgroundSaeShell::parentRunning
+[17:53:22.18] /o 1649368402
+[17:58:23.06] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[17:58:23.08] /i ::sa::_backgroundSaeShell::parentRunning
+[17:58:23.08] /o 1649368703
+[18:03:24.08] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:03:24.18] /i ::sa::_backgroundSaeShell::parentRunning
+[18:03:24.18] /o 1649369004
+[18:08:25.11] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:08:25.18] /i ::sa::_backgroundSaeShell::parentRunning
+[18:08:25.18] /o 1649369305
+[18:13:26.12] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:13:26.28] /i ::sa::_backgroundSaeShell::parentRunning
+[18:13:26.28] /o 1649369606
+[18:18:27.14] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:18:27.18] /i ::sa::_backgroundSaeShell::parentRunning
+[18:18:27.18] /o 1649369907
+[18:23:28.16] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:23:28.28] /i ::sa::_backgroundSaeShell::parentRunning
+[18:23:28.28] /o 1649370208
+[18:28:29.18] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:28:29.38] /i ::sa::_backgroundSaeShell::parentRunning
+[18:28:29.38] /o 1649370509
+[18:33:30.20] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:33:30.38] /i ::sa::_backgroundSaeShell::parentRunning
+[18:33:30.38] /o 1649370810
+[18:38:31.22] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:38:31.28] /i ::sa::_backgroundSaeShell::parentRunning
+[18:38:31.28] /o 1649371111
+[18:43:32.24] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:43:32.38] /i ::sa::_backgroundSaeShell::parentRunning
+[18:43:32.38] /o 1649371412
+[18:48:33.26] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:48:33.38] /i ::sa::_backgroundSaeShell::parentRunning
+[18:48:33.38] /o 1649371713
+[18:53:34.28] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:53:34.48] /i ::sa::_backgroundSaeShell::parentRunning
+[18:53:34.48] /o 1649372014
+[18:58:35.30] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:58:35.38] /i ::sa::_backgroundSaeShell::parentRunning
+[18:58:35.38] /o 1649372315
+[19:03:25.89] /i ::sa::_backgroundSaeShell::runScript /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[19:03:25.93] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[19:03:26.32] /m Information: Loading preferences from /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/pw_shell_session_prefs.xml
+[19:03:26.56] /m Information: Start incremental database creation...
+[19:03:26.67] /m Information: Create Iter role param id map
+[19:03:26.79] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.8 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[19:03:26.79] /o false
+[19:03:26.79] /i ::wf::viewerExited
+[19:08:27.33] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[19:08:27.48] /i ::sa::_backgroundSaeShell::parentRunning
+[19:08:27.48] /o 1649372907
+[19:08:30.48] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)
+[19:11:51.48] /i ::wf::viewerExited
+[19:11:52.57] /i ::sa::_backgroundSaeShell::runScript /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[19:11:52.62] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[19:11:52.97] /m Information: Loading preferences from /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/pw_shell_session_prefs.xml
+[19:11:53.16] /m Information: Start incremental database creation...
+[19:11:53.25] /m Information: Create Iter role param id map
+[19:11:53.35] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.7 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[19:11:53.35] /o false
+[19:15:27.58] /i ::wf::viewerExited
+[19:15:29.21] /i ::sa::_backgroundSaeShell::runScript /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[19:15:29.22] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)
+[19:15:29.23] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[19:15:29.63] /m Information: Loading preferences from /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/pw_shell_session_prefs.xml
+[19:15:29.88] /m Information: Start incremental database creation...
+[19:15:30.00] /m Information: Create Iter role param id map
+[19:15:30.12] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.9 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[19:15:30.12] /o false
+[19:20:31.36] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[19:20:31.48] /i ::sa::_backgroundSaeShell::parentRunning
+[19:20:31.48] /o 1649373631
+[19:20:34.48] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)
+[19:20:57.78] /i ::wf::viewerExited
+[19:20:59.39] /i ::sa::_backgroundSaeShell::runScript /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[19:20:59.41] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[19:20:59.74] /m Information: Loading preferences from /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/pw_shell_session_prefs.xml
+[19:20:59.93] /m Information: Start incremental database creation...
+[19:21:00.03] /m Information: Create Iter role param id map
+[19:21:00.14] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.7 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[19:21:00.14] /o false
+[19:24:51.98] /i ::wf::viewerExited
+[19:24:53.60] /i ::sa::_backgroundSaeShell::runScript /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[19:24:53.60] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)
+[19:24:53.62] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[19:24:53.95] /m Information: Loading preferences from /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/pw_shell_session_prefs.xml
+[19:24:54.18] /m Information: Start incremental database creation...
+[19:24:54.31] /m Information: Create Iter role param id map
+[19:24:54.42] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.8 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[19:24:54.42] /o false
+[19:29:55.36] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[19:29:55.48] /i ::sa::_backgroundSaeShell::parentRunning
+[19:29:55.48] /o 1649374195
+[19:29:58.48] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)
+[19:34:56.38] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[19:34:56.58] /i ::sa::_backgroundSaeShell::parentRunning
+[19:34:56.58] /o 1649374496
+[19:39:57.40] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[19:39:57.58] /i ::sa::_backgroundSaeShell::parentRunning
+[19:39:57.58] /o 1649374797
+[19:44:58.42] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[19:44:58.48] /i ::sa::_backgroundSaeShell::parentRunning
+[19:44:58.48] /o 1649375098
+[19:49:59.44] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[19:49:59.58] /i ::sa::_backgroundSaeShell::parentRunning
+[19:49:59.58] /o 1649375399
+[19:54:05.58] /i ::wf::viewerExited
+[19:54:07.04] /i ::sa::_backgroundSaeShell::runScript /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[19:54:07.06] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[19:54:07.39] /m Information: Loading preferences from /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/pw_shell_session_prefs.xml
+[19:54:07.60] /m Information: Start incremental database creation...
+[19:54:07.73] /m Information: Create Iter role param id map
+[19:54:07.84] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.8 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[19:54:07.84] /o false
+[19:56:26.18] /i ::wf::viewerExited
+[19:56:27.61] /i ::sa::_backgroundSaeShell::runScript /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[19:56:27.62] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)
+[19:56:27.63] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[19:56:27.94] /m Information: Loading preferences from /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/pw_shell_session_prefs.xml
+[19:56:28.18] /m Information: Start incremental database creation...
+[19:56:28.31] /m Information: Create Iter role param id map
+[19:56:28.42] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.8 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[19:56:28.42] /o false
+[20:01:29.49] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[20:01:29.58] /i ::sa::_backgroundSaeShell::parentRunning
+[20:01:29.58] /o 1649376089
+[20:01:32.48] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)
+[20:04:07.77] /i ::wf::viewerExited
+[20:06:30.51] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[20:06:30.68] /i ::sa::_backgroundSaeShell::parentRunning
+[20:06:30.68] /o 1649376390
+[20:08:19.83] /i ::sa::_backgroundSaeShell::runScript /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[20:08:19.85] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[20:08:20.21] /m Information: Loading preferences from /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/pw_shell_session_prefs.xml
+[20:08:20.43] /m Information: Start incremental database creation...
+[20:08:20.55] /m Information: Create Iter role param id map
+[20:08:20.67] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.8 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[20:08:20.67] /o false
+[20:08:20.67] /i ::wf::viewerExited
+[20:10:26.59] /i ::wf::viewerExited
+[20:11:45.46] /i ::sa::_backgroundSaeShell::runScript /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[20:11:45.46] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)
+[20:11:45.48] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[20:11:45.81] /m Information: Loading preferences from /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/pw_shell_session_prefs.xml
+[20:11:46.03] /m Information: Start incremental database creation...
+[20:11:46.15] /m Information: Create Iter role param id map
+[20:11:46.27] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.8 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[20:11:46.28] /o false
+[20:11:46.28] /i ::wf::viewerExited
+[20:16:47.54] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[20:16:47.58] /i ::sa::_backgroundSaeShell::parentRunning
+[20:16:47.58] /o 1649377007
+[20:16:50.48] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)
+[20:18:24.91] /i ::wf::viewerExited
+[20:21:48.56] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[20:21:48.58] /i ::sa::_backgroundSaeShell::parentRunning
+[20:21:48.58] /o 1649377308
+[20:26:49.56] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[20:26:49.58] /i ::sa::_backgroundSaeShell::parentRunning
+[20:26:49.58] /o 1649377609
+[20:31:50.58] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[20:31:50.78] /i ::sa::_backgroundSaeShell::parentRunning
+[20:31:50.78] /o 1649377910
+[20:36:51.60] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[20:36:51.68] /i ::sa::_backgroundSaeShell::parentRunning
+[20:36:51.68] /o 1649378211
+[20:41:52.62] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[20:41:52.78] /i ::sa::_backgroundSaeShell::parentRunning
+[20:41:52.78] /o 1649378512
+[20:46:53.64] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[20:46:53.68] /i ::sa::_backgroundSaeShell::parentRunning
+[20:46:53.68] /o 1649378813
+[20:51:54.66] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[20:51:54.68] /i ::sa::_backgroundSaeShell::parentRunning
+[20:51:54.68] /o 1649379114
+[20:56:55.66] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[20:56:55.78] /i ::sa::_backgroundSaeShell::parentRunning
+[20:56:55.78] /o 1649379415
+[21:01:56.68] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:01:56.88] /i ::sa::_backgroundSaeShell::parentRunning
+[21:01:56.88] /o 1649379716
+[21:06:57.70] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:06:57.88] /i ::sa::_backgroundSaeShell::parentRunning
+[21:06:57.88] /o 1649380017
+[21:11:58.72] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:11:58.78] /i ::sa::_backgroundSaeShell::parentRunning
+[21:11:58.78] /o 1649380318
+[21:13:32.42] /i ::sa::_backgroundSaeShell::runScript /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[21:13:32.45] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[21:13:32.80] /m Information: Loading preferences from /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/pw_shell_session_prefs.xml
+[21:13:33.01] /m Information: Start incremental database creation...
+[21:13:33.14] /m Information: Create Iter role param id map
+[21:13:33.25] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.8 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[21:13:33.25] /o false
+[21:13:33.25] /i ::wf::viewerExited
+[21:18:34.76] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:18:34.88] /i ::sa::_backgroundSaeShell::parentRunning
+[21:18:34.88] /o 1649380714
+[21:18:37.48] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)
+[21:23:35.78] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:23:35.98] /i ::sa::_backgroundSaeShell::parentRunning
+[21:23:35.98] /o 1649381015
+[21:24:54.08] /i ::wf::viewerExited
+[21:24:55.57] /i ::sa::_backgroundSaeShell::runScript /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[21:24:55.59] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[21:24:55.95] /m Information: Loading preferences from /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/pw_shell_session_prefs.xml
+[21:24:56.19] /m Information: Start incremental database creation...
+[21:24:56.30] /m Information: Create Iter role param id map
+[21:24:56.41] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.8 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[21:24:56.41] /o false
+[21:29:57.80] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:29:57.88] /i ::sa::_backgroundSaeShell::parentRunning
+[21:29:57.88] /o 1649381397
+[21:30:00.48] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)
+[21:34:58.82] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:34:58.88] /i ::sa::_backgroundSaeShell::parentRunning
+[21:34:58.88] /o 1649381698
+[21:39:59.84] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:39:59.88] /i ::sa::_backgroundSaeShell::parentRunning
+[21:39:59.88] /o 1649381999
+[21:45:00.86] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:45:00.98] /i ::sa::_backgroundSaeShell::parentRunning
+[21:45:00.98] /o 1649382300
+[21:47:45.38] /i ::wf::viewerExited
+[21:47:47.10] /i ::sa::_backgroundSaeShell::runScript /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[21:47:47.12] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[21:47:47.47] /m Information: Loading preferences from /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/pw_shell_session_prefs.xml
+[21:47:47.71] /m Information: Start incremental database creation...
+[21:47:47.82] /m Information: Create Iter role param id map
+[21:47:47.93] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.8 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[21:47:47.93] /o false
+[21:52:48.89] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:52:48.98] /i ::sa::_backgroundSaeShell::parentRunning
+[21:52:48.98] /o 1649382768
+[21:52:52.48] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)
+[21:55:58.18] /i ::wf::viewerExited
+[21:55:59.88] /i ::sa::_backgroundSaeShell::runScript /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[21:55:59.90] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[21:56:00.24] /m Information: Loading preferences from /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/pw_shell_session_prefs.xml
+[21:56:00.45] /m Information: Start incremental database creation...
+[21:56:00.56] /m Information: Create Iter role param id map
+[21:56:00.67] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.7 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[21:56:00.67] /o false
+[22:01:01.92] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[22:01:01.98] /i ::sa::_backgroundSaeShell::parentRunning
+[22:01:01.98] /o 1649383261
+[22:01:04.48] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)
+[22:06:02.94] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[22:06:03.08] /i ::sa::_backgroundSaeShell::parentRunning
+[22:06:03.08] /o 1649383563
+[22:09:01.98] /i ::wf::viewerExited
+[22:09:03.48] /i ::sa::_backgroundSaeShell::runScript /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[22:09:03.50] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[22:09:04.25] /m Information: Loading preferences from /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/pw_shell_session_prefs.xml
+[22:09:04.47] /m Information: Start incremental database creation...
+[22:09:04.59] /m Information: Create Iter role param id map
+[22:09:04.69] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 1.2 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[22:09:04.69] /o false
+[22:11:26.98] /i ::wf::viewerExited
+[22:11:28.45] /i ::sa::_backgroundSaeShell::runScript /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[22:11:28.45] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)
+[22:11:28.47] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[22:11:28.80] /m Information: Loading preferences from /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/pw_shell_session_prefs.xml
+[22:11:29.01] /m Information: Start incremental database creation...
+[22:11:29.12] /m Information: Create Iter role param id map
+[22:11:29.23] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.7 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[22:11:29.23] /o false
+[22:16:30.99] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[22:16:31.18] /i ::sa::_backgroundSaeShell::parentRunning
+[22:16:31.18] /o 1649384191
+[22:16:33.48] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)
+[22:19:05.18] /i ::wf::viewerExited
+[22:19:06.65] /i ::sa::_backgroundSaeShell::runScript /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[22:19:06.69] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[22:19:07.04] /m Information: Loading preferences from /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/pw_shell_session_prefs.xml
+[22:19:07.25] /m Information: Start incremental database creation...
+[22:19:07.36] /m Information: Create Iter role param id map
+[22:19:07.48] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.8 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[22:19:07.48] /o false
+[22:21:51.68] /i ::wf::viewerExited
+[22:21:53.32] /i ::sa::_backgroundSaeShell::runScript /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[22:21:53.33] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)
+[22:21:53.35] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[22:21:53.68] /m Information: Loading preferences from /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/pw_shell_session_prefs.xml
+[22:21:53.90] /m Information: Start incremental database creation...
+[22:21:54.01] /m Information: Create Iter role param id map
+[22:21:54.11] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.7 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[22:21:54.11] /o false
+[22:25:01.88] /i ::wf::viewerExited
+[22:25:03.40] /i ::sa::_backgroundSaeShell::runScript /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[22:25:03.40] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)
+[22:25:03.42] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[22:25:03.79] /m Information: Loading preferences from /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/pw_shell_session_prefs.xml
+[22:25:04.00] /m Information: Start incremental database creation...
+[22:25:04.11] /m Information: Create Iter role param id map
+[22:25:04.22] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.8 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[22:25:04.22] /o false
+[22:28:49.28] /i ::wf::viewerExited
+[22:28:50.78] /i ::sa::_backgroundSaeShell::runScript /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[22:28:50.79] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)
+[22:28:50.81] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[22:28:51.36] /m Information: Loading preferences from /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/pw_shell_session_prefs.xml
+[22:28:51.58] /m Information: Start incremental database creation...
+[22:28:51.69] /m Information: Create Iter role param id map
+[22:28:51.81] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 1.0 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[22:28:51.81] /o false
+[22:33:52.05] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[22:33:52.18] /i ::sa::_backgroundSaeShell::parentRunning
+[22:33:52.18] /o 1649385232
+[22:33:55.48] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)
+[22:37:10.58] /i ::wf::viewerExited
+[22:37:12.02] /i ::sa::_backgroundSaeShell::runScript /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[22:37:12.05] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[22:37:12.38] /m Information: Loading preferences from /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/pw_shell_session_prefs.xml
+[22:37:12.59] /m Information: Start incremental database creation...
+[22:37:12.70] /m Information: Create Iter role param id map
+[22:37:12.81] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.7 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[22:37:12.81] /o false
+[22:39:46.78] /i ::wf::viewerExited
+[22:39:48.31] /i ::sa::_backgroundSaeShell::runScript /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[22:39:48.32] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)
+[22:39:48.33] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[22:39:48.86] /m Information: Loading preferences from /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/pw_shell_session_prefs.xml
+[22:39:49.06] /m Information: Start incremental database creation...
+[22:39:49.17] /m Information: Create Iter role param id map
+[22:39:49.28] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.9 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[22:39:49.28] /o false
+[22:43:58.28] /i ::wf::viewerExited
+[22:43:59.76] /i ::sa::_backgroundSaeShell::runScript /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[22:43:59.76] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)
+[22:43:59.78] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[22:44:00.11] /m Information: Loading preferences from /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/pw_shell_session_prefs.xml
+[22:44:00.31] /m Information: Start incremental database creation...
+[22:44:00.42] /m Information: Create Iter role param id map
+[22:44:00.53] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.7 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[22:44:00.53] /o false
+[22:46:53.18] /i ::wf::viewerExited
+[22:46:54.61] /i ::sa::_backgroundSaeShell::runScript /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[22:46:54.62] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)
+[22:46:54.63] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[22:46:54.96] /m Information: Loading preferences from /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/pw_shell_session_prefs.xml
+[22:46:55.16] /m Information: Start incremental database creation...
+[22:46:55.27] /m Information: Create Iter role param id map
+[22:46:55.38] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.7 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession7 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /afs/unity.ncsu.edu/users/z/zwmurray/ece546/SRAM_design_new/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[22:46:55.38] /o false
+[22:51:56.10] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[22:51:56.28] /i ::sa::_backgroundSaeShell::parentRunning
+[22:51:56.28] /o 1649386316
+[22:51:59.48] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)
+[22:56:57.12] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[22:56:57.28] /i ::sa::_backgroundSaeShell::parentRunning
+[22:56:57.28] /o 1649386617
+[23:01:58.14] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[23:01:58.28] /i ::sa::_backgroundSaeShell::parentRunning
+[23:01:58.28] /o 1649386918
+[23:03:54.46] /i ::sa::_backgroundSaeShell::exit
+[23:03:54.46] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting
+[23:03:55.50] /m Information: License 'Apex' checked in. (LICENSE-004)

@@ -1,0 +1,60 @@
+<module name="vsl: mylib 2to1mux schematic vl: hspice hspiceD schematic spice veriloga">
+<scope name="Instance">
+<forward>
+<mapping src="I4" dst="xi4"/>
+<mapping src="I9" dst="xi9"/>
+<mapping src="I8" dst="xi8"/>
+<mapping src="I7" dst="xi7"/>
+</forward>
+<reverse>
+<mapping src="xi4" dst="I4"/>
+<mapping src="xi8" dst="I8"/>
+<mapping src="xi7" dst="I7"/>
+<mapping src="xi9" dst="I9"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward>
+<mapping src="Z" dst="z"/>
+<mapping src="S" dst="s"/>
+<mapping src="A1" dst="a1"/>
+<mapping src="A0" dst="a0"/>
+</forward>
+<reverse>
+<mapping src="s" dst="S"/>
+<mapping src="a0" dst="A0"/>
+<mapping src="z" dst="Z"/>
+<mapping src="a1" dst="A1"/>
+</reverse>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping src="&lt;unmappedTermOrder>" dst="A0 A1 S Z"/>
+<mapping src="&lt;termOrder>" dst="a0 a1 s z"/>
+<mapping src="Z" dst="z"/>
+<mapping src="S" dst="s"/>
+<mapping src="A1" dst="a1"/>
+<mapping src="A0" dst="a0"/>
+</forward>
+<reverse>
+<mapping src="a0 a1 s z" dst="&lt;termOrder>"/>
+<mapping src="A0 A1 S Z" dst="&lt;unmappedTermOrder>"/>
+<mapping src="s" dst="S"/>
+<mapping src="z" dst="Z"/>
+<mapping src="a1" dst="A1"/>
+<mapping src="a0" dst="A0"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="and_2">
+<instance name="I7"/>
+<instance name="I8"/>
+</instance_header>
+<instance_header master="inv_2">
+<instance name="I4"/>
+</instance_header>
+<instance_header master="or_2">
+<instance name="I9"/>
+</instance_header>
+</master_instances>
+</module>

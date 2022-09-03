@@ -1,0 +1,51 @@
+BIT_CELL_ARRAY Level=0 Count=1
+   COLUMN_DECODER_NEW Level=1 Count=1
+      DEMU_2_4 Level=2 Count=1
+         AND_2 Level=3 Count=4
+   WRITE_DRIVER Level=1 Count=4
+      INVERTER_WRITE_DRIVER Level=2 Count=8
+   VCELLR2 Level=1 Count=8
+      BIT_CONDITIONING Level=2 Count=16
+   ROWDECODER Level=1 Count=1
+
++--------------------------------------------------------------------------+
+|                             CELL STATISTICS                              |
++--------------------------------------------------------------------------+
+
+
+CELL = BIT_CELL_ARRAY
+	Flat Placements      =	1
+
+CELL = COLUMN_DECODER_NEW
+	Flat Placements      =	1
+
+CELL = DEMU_2_4
+	Flat Placements      =	1
+
+CELL = WRITE_DRIVER
+	Flat Placements      =	4
+
+CELL = VCELLR2
+	Flat Placements      =	8
+
+CELL = AND_2
+	Flat Placements      =	4
+
+CELL = INVERTER_WRITE_DRIVER
+	Flat Placements      =	8
+
+CELL = BIT_CONDITIONING
+	Flat Placements      =	16
+
+CELL = ROWDECODER
+	Flat Placements      =	1
+
+TOP CELL = BIT_CELL_ARRAY
+	Ports                =	65
+
++--------------------------------------------------------------------------+
+|                            DEVICE STATISTICS                             |
++--------------------------------------------------------------------------+
+
+	NMOS[NMOS] = 653
+	PMOS[PMOS] = 377

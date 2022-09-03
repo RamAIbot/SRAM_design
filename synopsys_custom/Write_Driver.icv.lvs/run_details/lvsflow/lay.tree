@@ -1,0 +1,23 @@
+WRITE_DRIVER Level=0 Count=1
+   INVERTER_WRITE_DRIVER Level=1 Count=2
+
++--------------------------------------------------------------------------+
+|                             CELL STATISTICS                              |
++--------------------------------------------------------------------------+
+
+
+CELL = WRITE_DRIVER
+	Flat Placements      =	1
+
+CELL = INVERTER_WRITE_DRIVER
+	Flat Placements      =	2
+
+TOP CELL = WRITE_DRIVER
+	Ports                =	10
+
++--------------------------------------------------------------------------+
+|                            DEVICE STATISTICS                             |
++--------------------------------------------------------------------------+
+
+	NMOS[NMOS] = 6
+	PMOS[PMOS] = 2

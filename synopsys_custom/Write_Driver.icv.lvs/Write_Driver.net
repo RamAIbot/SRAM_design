@@ -1,0 +1,24 @@
+* Write_Driver
+
+
+.subckt inverter_write_driver 2 3 7 8 
+*.CELL_INFO DEVICE_LEVELED 1-pmos 1-nmos
+M1 2 3 7 nmos W=2.1e-08 L=1.5e-08 NFIN=2 ADEO=2.835e-16 ASEO=2.835e-16 PDEO=5.85e-08 
++    PSEO=5.85e-08 $X=0.0075 $Y=0.0300 
+M2 2 3 8 pmos W=2.1e-08 L=1.5e-08 NFIN=2 ADEO=2.835e-16 ASEO=2.835e-16 PDEO=5.85e-08 
++    PSEO=5.85e-08 $X=0.0075 $Y=0.0300 
+.ends inverter_write_driver
+
+.subckt Write_Driver 2 BL BLB 5 WRITE_DATA 7 WE 9 GND! 19 
+M1 GND! 9 2 nmos W=2.1e-08 L=1.5e-08 NFIN=2 ADEO=2.835e-16 ASEO=2.835e-16 PDEO=5.85e-08 
++    PSEO=5.85e-08 $X=0.3870 $Y=0.0537 
+M2 5 WRITE_DATA GND! nmos W=2.1e-08 L=1.5e-08 NFIN=2 ADEO=2.835e-16 ASEO=2.835e-16 
++    PDEO=5.85e-08 PSEO=5.85e-08 $X=0.3030 $Y=0.0607 
+M3 2 7 BLB nmos W=2.1e-08 L=1.5e-08 NFIN=2 ADEO=2.835e-16 ASEO=2.835e-16 PDEO=5.85e-08 
++    PSEO=5.85e-08 $X=0.0510 $Y=0.0660 
+M4 5 7 BL nmos W=2.1e-08 L=1.5e-08 NFIN=2 ADEO=2.835e-16 ASEO=2.835e-16 PDEO=5.85e-08 
++    PSEO=5.85e-08 $X=-0.0330 $Y=0.0660 
+X3FEC1B2C1 9 WRITE_DATA GND! 19 inverter_write_driver $T=0.2115 0.0820 0 0 
+X3FEC1B2C2 7 WE GND! 19 inverter_write_driver $T=0.1275 0.0820 0 0 
+.ends Write_Driver
+

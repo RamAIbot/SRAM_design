@@ -1,0 +1,5 @@
+.option opfile=1 split_dp=1
+.option probe=1
+.probe tran v(*) level=1
+.probe tran v(a0) v(a1) v(a<2>) v(a<3>) v(a<4>) v(clk) v(q<0>) v(q<1>) v(q<2>)
++ v(q<3>) v(net473) v(net477) v(rw)

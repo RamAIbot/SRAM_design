@@ -1,0 +1,10 @@
+* inv_2
+
+
+.subckt inv_2 A Z GND! VDD! 
+M1 Z A GND! nmos W=2.1e-08 L=1.5e-08 NFIN=2 ADEO=2.835e-16 ASEO=2.835e-16 PDEO=5.85e-08 
++    PSEO=5.85e-08 $X=0.0000 $Y=0.0425 
+M2 Z A VDD! pmos W=2.1e-08 L=1.5e-08 NFIN=4 ADEO=5.67e-16 ASEO=5.67e-16 PDEO=1.17e-07 
++    PSEO=1.17e-07 $X=0.0000 $Y=0.0425 
+.ends inv_2
+

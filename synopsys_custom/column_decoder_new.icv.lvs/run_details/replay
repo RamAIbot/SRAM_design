@@ -1,0 +1,709 @@
+#
+# runset is /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/column_decoder_new.icv.lvs/FreePDK3_main.lvs.lvs.rs
+#
+runset_csum = 65417
+num_hosts = 2
+events {
+S 477.0.0 1822 0
+# grendel32.ece.ncsu.edu(0):       764  1 _prescan_library
+F 477.0.0 1822 0
+S 479.0.0 1829 0
+# grendel32.ece.ncsu.edu(0):       810  1 _scan_hierarchy
+F 479.0.0 1829 0
+S 482.0.0 1836 1
+# grendel32.ece.ncsu.edu(1):      7229  1 _read_library_segment
+F 482.0.0 1836 1
+S 489.0.0 1868 0
+# grendel32.ece.ncsu.edu(0):      4494  1 _create_hierarchy_tree
+F 489.0.0 1868 0
+S 556.0.0 2090 0
+# grendel32.ece.ncsu.edu(0):      1566  1 _optimize_hierarchy_tree
+F 0 0 1
+S 1809.0.0.1811.0.0 5929 1
+# grendel32.ece.ncsu.edu(1):      2072  1 _nettran_sch
+F 556.0.0 2090 0
+S 557.0.0 2099 0
+# grendel32.ece.ncsu.edu(0):       957  1 _hierarchy_cleanup
+F 1809.0.0.1811.0.0 5929 1
+S 729.0.0 2653 1
+# grendel32.ece.ncsu.edu(1):      3741  1 _create_layer_dp
+F 729.0.0 2653 1
+S 721.0.0 2627 1
+# grendel32.ece.ncsu.edu(1):      3741  1 _create_layer_dp
+F 721.0.0 2627 1
+S 711.0.0 2598 1
+# grendel32.ece.ncsu.edu(1):      3741  1 _create_layer_dp
+F 711.0.0 2598 1
+S 703.0.0 2572 1
+# grendel32.ece.ncsu.edu(1):      3741  1 _create_layer_dp
+F 703.0.0 2572 1
+S 693.0.0 2543 1
+# grendel32.ece.ncsu.edu(1):      3741  1 _create_layer_dp
+F 693.0.0 2543 1
+S 685.0.0 2517 1
+# grendel32.ece.ncsu.edu(1):      3745  1 _create_layer_dp
+F 685.0.0 2517 1
+S 682.0.0 2506 1
+# grendel32.ece.ncsu.edu(1):      3761  1 _create_layer_dp
+F 682.0.0 2506 1
+S 674.0.0 2480 1
+# grendel32.ece.ncsu.edu(1):      3745  1 _create_layer_dp
+F 674.0.0 2480 1
+S 666.0.0 2454 1
+# grendel32.ece.ncsu.edu(1):      3749  1 _create_layer_dp
+F 666.0.0 2454 1
+S 658.0.0 2428 1
+# grendel32.ece.ncsu.edu(1):      3745  1 _create_layer_dp
+F 658.0.0 2428 1
+S 648.0.0 2399 1
+# grendel32.ece.ncsu.edu(1):      3743  1 _create_layer_dp
+F 648.0.0 2399 1
+S 640.0.0 2373 1
+# grendel32.ece.ncsu.edu(1):      3743  1 _create_layer_dp
+F 640.0.0 2373 1
+S 632.0.0 2347 1
+# grendel32.ece.ncsu.edu(1):      3743  1 _create_layer_dp
+F 632.0.0 2347 1
+S 624.0.0 2321 1
+# grendel32.ece.ncsu.edu(1):      3751  1 _create_layer_dp
+F 624.0.0 2321 1
+S 616.0.0 2295 1
+# grendel32.ece.ncsu.edu(1):      3747  1 _create_layer_dp
+F 616.0.0 2295 1
+S 608.0.0 2269 1
+# grendel32.ece.ncsu.edu(1):      3747  1 _create_layer_dp
+F 608.0.0 2269 1
+S 600.0.0 2243 1
+# grendel32.ece.ncsu.edu(1):      3743  1 _create_layer_dp
+F 600.0.0 2243 1
+S 592.0.0 2217 1
+# grendel32.ece.ncsu.edu(1):      3739  1 _create_layer_dp
+F 592.0.0 2217 1
+S 584.0.0 2191 1
+# grendel32.ece.ncsu.edu(1):      3747  1 _create_layer_dp
+F 557.0.0 2099 0
+F 584.0.0 2191 1
+S 581.0.0 2180 1
+# grendel32.ece.ncsu.edu(1):      3759  1 _create_layer_dp
+F 581.0.0 2180 1
+S 573.0.0 2145 1
+# grendel32.ece.ncsu.edu(1):      3743  1 _create_layer_dp
+F 573.0.0 2145 1
+S 555.0.0 2087 1
+# grendel32.ece.ncsu.edu(1):       723  1 _generate_sibling_refref
+F 555.0.0 2087 1
+S 558.0.0 2102 1
+# grendel32.ece.ncsu.edu(1):       977  1 _update_and_pushdown_refref
+F 558.0.0 2102 1
+S 574.0.0 2157 1
+# grendel32.ece.ncsu.edu(1):      3748  1 _optimize_layer_dp
+F 574.0.0 2157 1
+S 582.0.0 2185 1
+# grendel32.ece.ncsu.edu(1):      3764  1 _optimize_layer_dp
+F 582.0.0 2185 1
+S 585.0.0 2196 1
+# grendel32.ece.ncsu.edu(1):      3752  1 _optimize_layer_dp
+F 585.0.0 2196 1
+S 1254.0.0 4129 1
+# grendel32.ece.ncsu.edu(1):      7022  1 _boolean_and_q
+F 1254.0.0 4129 1
+S 1579.0.0 5146 1
+# grendel32.ece.ncsu.edu(1):      1876  1 _cell_extent
+F 1579.0.0 5146 1
+S 921.0.0 3127 1
+# grendel32.ece.ncsu.edu(1):      1691  1 _cell_extent
+F 921.0.0 3127 1
+S 559.0.0 2104 1
+# grendel32.ece.ncsu.edu(1):       755  1 _create_substrate_layer
+F 559.0.0 2104 1
+S 593.0.0 2222 1
+# grendel32.ece.ncsu.edu(1):      3744  1 _optimize_layer_dp
+F 593.0.0 2222 1
+S 923.0.0 3134 1
+# grendel32.ece.ncsu.edu(1):      1893  1 _boolean_not_q
+F 923.0.0 3134 1
+S 1431.0.0 4736 1
+# grendel32.ece.ncsu.edu(1):      1695  1 _c_thru_level
+F 1431.0.0 4736 1
+S 601.0.0 2248 1
+# grendel32.ece.ncsu.edu(1):      3748  1 _optimize_layer_dp
+F 601.0.0 2248 1
+S 609.0.0 2274 1
+# grendel32.ece.ncsu.edu(1):      3752  1 _optimize_layer_dp
+F 609.0.0 2274 1
+S 617.0.0 2300 1
+# grendel32.ece.ncsu.edu(1):      3752  1 _optimize_layer_dp
+F 617.0.0 2300 1
+S 625.0.0 2326 1
+# grendel32.ece.ncsu.edu(1):      3756  1 _optimize_layer_dp
+F 625.0.0 2326 1
+S 915.0.0 3111 1
+# grendel32.ece.ncsu.edu(1):      1016  1 _boolean_or_list
+F 915.0.0 3111 1
+S 917.0.0 3116 1
+# grendel32.ece.ncsu.edu(1):      1912  1 _boolean_not_q
+S 633.0.0 2352 0
+# grendel32.ece.ncsu.edu(0):      3748  1 _optimize_layer_dp
+F 917.0.0 3116 1
+S 641.0.0 2378 1
+# grendel32.ece.ncsu.edu(1):      3748  1 _optimize_layer_dp
+F 633.0.0 2352 0
+S 649.0.0 2404 0
+# grendel32.ece.ncsu.edu(0):      3748  1 _optimize_layer_dp
+F 641.0.0 2378 1
+S 659.0.0 2433 1
+# grendel32.ece.ncsu.edu(1):      3750  1 _optimize_layer_dp
+F 649.0.0 2404 0
+S 1351.0.0 4526 0
+# grendel32.ece.ncsu.edu(0):      2298  1 _c_thru_level
+F 659.0.0 2433 1
+S 1244.0.0 4099 1
+# grendel32.ece.ncsu.edu(1):      7021  1 _boolean_and_q
+F 1351.0.0 4526 0
+S 1258.0.0 4142 0
+# grendel32.ece.ncsu.edu(0):      7016  1 _boolean_and_q
+F 1244.0.0 4099 1
+S 667.0.0 2459 1
+# grendel32.ece.ncsu.edu(1):      3754  1 _optimize_layer_dp
+F 1258.0.0 4142 0
+S 675.0.0 2485 0
+# grendel32.ece.ncsu.edu(0):      3750  1 _optimize_layer_dp
+F 667.0.0 2459 1
+S 683.0.0 2511 1
+# grendel32.ece.ncsu.edu(1):      3766  1 _optimize_layer_dp
+F 683.0.0 2511 1
+S 686.0.0 2522 1
+# grendel32.ece.ncsu.edu(1):      3750  1 _optimize_layer_dp
+F 686.0.0 2522 1
+S 694.0.0 2548 1
+# grendel32.ece.ncsu.edu(1):      3746  1 _optimize_layer_dp
+F 675.0.0 2485 0
+S 1248.0.0 4112 0
+# grendel32.ece.ncsu.edu(0):      7016  1 _boolean_and_q
+F 694.0.0 2548 1
+S 1235.0.0 4071 1
+# grendel32.ece.ncsu.edu(1):      7021  1 _boolean_and_q
+F 1248.0.0 4112 0
+S 704.0.0 2577 0
+# grendel32.ece.ncsu.edu(0):      3746  1 _optimize_layer_dp
+F 1235.0.0 4071 1
+S 1239.0.0 4084 1
+# grendel32.ece.ncsu.edu(1):      7015  1 _boolean_and_q
+F 704.0.0 2577 0
+S 1226.0.0 4043 0
+# grendel32.ece.ncsu.edu(0):      7019  1 _boolean_and_q
+F 1239.0.0 4084 1
+S 712.0.0 2603 1
+# grendel32.ece.ncsu.edu(1):      3746  1 _optimize_layer_dp
+F 712.0.0 2603 1
+S 722.0.0 2632 1
+# grendel32.ece.ncsu.edu(1):      3746  1 _optimize_layer_dp
+F 1226.0.0 4043 0
+S 1230.0.0 4056 0
+# grendel32.ece.ncsu.edu(0):      7015  1 _boolean_and_q
+F 722.0.0 2632 1
+S 1217.0.0 4015 1
+# grendel32.ece.ncsu.edu(1):      7019  1 _boolean_and_q
+F 1230.0.0 4056 0
+S 730.0.0 2658 0
+# grendel32.ece.ncsu.edu(0):      3746  1 _optimize_layer_dp
+F 1217.0.0 4015 1
+S 1822.0.0 5963 1
+# grendel32.ece.ncsu.edu(1):      6686  2 _translate_database_to_netlist_remote
+F 730.0.0 2658 0
+S 1221.0.0 4028 0
+# grendel32.ece.ncsu.edu(0):      7015  1 _boolean_and_q
+F 1221.0.0 4028 0
+S 1741.0.0 5679 0
+# grendel32.ece.ncsu.edu(0):      1766  2 _dev_update_vue_file
+F 1741.0.0 5679 0
+S 1212.0.0 4002 0
+# grendel32.ece.ncsu.edu(0):      6578  1 _empty_layer
+F 1212.0.0 4002 0
+F 1822.0.0 5963 1
+S 1209.0.0 3996 0
+# grendel32.ece.ncsu.edu(0):      6589  1 _empty_layer
+S 1205.0.0 3988 1
+# grendel32.ece.ncsu.edu(1):      6578  1 _empty_layer
+F 1209.0.0 3996 0
+S 1202.0.0 3982 0
+# grendel32.ece.ncsu.edu(0):      6589  1 _empty_layer
+F 1205.0.0 3988 1
+S 1198.0.0 3974 1
+# grendel32.ece.ncsu.edu(1):      6578  1 _empty_layer
+F 1202.0.0 3982 0
+S 1195.0.0 3968 0
+# grendel32.ece.ncsu.edu(0):      6589  1 _empty_layer
+F 1198.0.0 3974 1
+S 1191.0.0 3960 1
+# grendel32.ece.ncsu.edu(1):      6578  1 _empty_layer
+F 1195.0.0 3968 0
+S 1188.0.0 3954 0
+# grendel32.ece.ncsu.edu(0):      6589  1 _empty_layer
+F 1191.0.0 3960 1
+S 1184.0.0 3946 1
+# grendel32.ece.ncsu.edu(1):      6578  1 _empty_layer
+F 1188.0.0 3954 0
+S 1181.0.0 3940 0
+# grendel32.ece.ncsu.edu(0):      6589  1 _empty_layer
+F 1184.0.0 3946 1
+S 1177.0.0 3932 1
+# grendel32.ece.ncsu.edu(1):      6578  1 _empty_layer
+F 1181.0.0 3940 0
+S 1174.0.0 3926 0
+# grendel32.ece.ncsu.edu(0):      6589  1 _empty_layer
+F 1177.0.0 3932 1
+S 1170.0.0 3918 1
+# grendel32.ece.ncsu.edu(1):      6578  1 _empty_layer
+F 1174.0.0 3926 0
+S 1167.0.0 3912 0
+# grendel32.ece.ncsu.edu(0):      6589  1 _empty_layer
+F 1170.0.0 3918 1
+S 1163.0.0 3904 1
+# grendel32.ece.ncsu.edu(1):      6578  1 _empty_layer
+F 1167.0.0 3912 0
+S 1160.0.0 3898 0
+# grendel32.ece.ncsu.edu(0):      6589  1 _empty_layer
+F 1163.0.0 3904 1
+S 1156.0.0 3890 1
+# grendel32.ece.ncsu.edu(1):      6578  1 _empty_layer
+F 1160.0.0 3898 0
+S 1153.0.0 3884 0
+# grendel32.ece.ncsu.edu(0):      6589  1 _empty_layer
+F 1156.0.0 3890 1
+S 1149.0.0 3876 1
+# grendel32.ece.ncsu.edu(1):      6578  1 _empty_layer
+F 1153.0.0 3884 0
+S 1146.0.0 3870 0
+# grendel32.ece.ncsu.edu(0):      6589  1 _empty_layer
+F 1149.0.0 3876 1
+S 1142.0.0 3862 1
+# grendel32.ece.ncsu.edu(1):      6578  1 _empty_layer
+F 1146.0.0 3870 0
+S 1139.0.0 3856 0
+# grendel32.ece.ncsu.edu(0):      6589  1 _empty_layer
+F 1142.0.0 3862 1
+S 919.0.0 3122 1
+# grendel32.ece.ncsu.edu(1):      1234  1 _empty_layer
+F 1139.0.0 3856 0
+S 913.0.0 3108 0
+# grendel32.ece.ncsu.edu(0):      2540  1 _empty_layer
+F 919.0.0 3122 1
+S 906.0.0 3090 1
+# grendel32.ece.ncsu.edu(1):      2526  1 _empty_layer
+F 913.0.0 3108 0
+S 899.0.0 3072 0
+# grendel32.ece.ncsu.edu(0):      2529  1 _empty_layer
+F 906.0.0 3090 1
+S 897.0.0 3069 1
+# grendel32.ece.ncsu.edu(1):      2540  1 _empty_layer
+F 899.0.0 3072 0
+S 890.0.0 3051 0
+# grendel32.ece.ncsu.edu(0):      2526  1 _empty_layer
+F 897.0.0 3069 1
+S 883.0.0 3033 1
+# grendel32.ece.ncsu.edu(1):      2526  1 _empty_layer
+F 890.0.0 3051 0
+S 881.0.0 3030 0
+# grendel32.ece.ncsu.edu(0):      2540  1 _empty_layer
+F 883.0.0 3033 1
+S 874.0.0 3012 1
+# grendel32.ece.ncsu.edu(1):      2526  1 _empty_layer
+F 881.0.0 3030 0
+S 867.0.0 2994 0
+# grendel32.ece.ncsu.edu(0):      2526  1 _empty_layer
+F 874.0.0 3012 1
+S 865.0.0 2991 1
+# grendel32.ece.ncsu.edu(1):      2540  1 _empty_layer
+F 867.0.0 2994 0
+S 858.0.0 2973 0
+# grendel32.ece.ncsu.edu(0):      2526  1 _empty_layer
+F 865.0.0 2991 1
+S 851.0.0 2955 1
+# grendel32.ece.ncsu.edu(1):      2526  1 _empty_layer
+F 858.0.0 2973 0
+S 849.0.0 2952 0
+# grendel32.ece.ncsu.edu(0):      2540  1 _empty_layer
+F 851.0.0 2955 1
+S 842.0.0 2934 1
+# grendel32.ece.ncsu.edu(1):      2526  1 _empty_layer
+F 849.0.0 2952 0
+S 835.0.0 2916 0
+# grendel32.ece.ncsu.edu(0):      2523  1 _empty_layer
+F 842.0.0 2934 1
+S 833.0.0 2913 1
+# grendel32.ece.ncsu.edu(1):      2537  1 _empty_layer
+F 835.0.0 2916 0
+S 826.0.0 2895 0
+# grendel32.ece.ncsu.edu(0):      2523  1 _empty_layer
+F 833.0.0 2913 1
+S 819.0.0 2877 1
+# grendel32.ece.ncsu.edu(1):      2523  1 _empty_layer
+F 826.0.0 2895 0
+S 817.0.0 2874 0
+# grendel32.ece.ncsu.edu(0):      2537  1 _empty_layer
+F 819.0.0 2877 1
+S 810.0.0 2856 1
+# grendel32.ece.ncsu.edu(1):      2523  1 _empty_layer
+F 817.0.0 2874 0
+S 803.0.0 2838 0
+# grendel32.ece.ncsu.edu(0):      2523  1 _empty_layer
+F 810.0.0 2856 1
+S 801.0.0 2835 1
+# grendel32.ece.ncsu.edu(1):      2537  1 _empty_layer
+F 803.0.0 2838 0
+S 794.0.0 2817 0
+# grendel32.ece.ncsu.edu(0):      2523  1 _empty_layer
+F 801.0.0 2835 1
+S 787.0.0 2799 1
+# grendel32.ece.ncsu.edu(1):      2523  1 _empty_layer
+F 794.0.0 2817 0
+S 785.0.0 2796 0
+# grendel32.ece.ncsu.edu(0):      2537  1 _empty_layer
+F 787.0.0 2799 1
+S 778.0.0 2778 1
+# grendel32.ece.ncsu.edu(1):      2523  1 _empty_layer
+F 785.0.0 2796 0
+S 771.0.0 2760 0
+# grendel32.ece.ncsu.edu(0):      2523  1 _empty_layer
+F 778.0.0 2778 1
+S 769.0.0 2757 1
+# grendel32.ece.ncsu.edu(1):      2537  1 _empty_layer
+F 771.0.0 2760 0
+S 762.0.0 2739 0
+# grendel32.ece.ncsu.edu(0):      2523  1 _empty_layer
+F 769.0.0 2757 1
+S 755.0.0 2721 1
+# grendel32.ece.ncsu.edu(1):      2523  1 _empty_layer
+F 762.0.0 2739 0
+S 753.0.0 2718 0
+# grendel32.ece.ncsu.edu(0):      2537  1 _empty_layer
+F 755.0.0 2721 1
+S 746.0.0 2700 1
+# grendel32.ece.ncsu.edu(1):      2523  1 _empty_layer
+F 753.0.0 2718 0
+S 739.0.0 2682 0
+# grendel32.ece.ncsu.edu(0):      2523  1 _empty_layer
+F 746.0.0 2700 1
+S 737.0.0 2679 1
+# grendel32.ece.ncsu.edu(1):      2537  1 _empty_layer
+F 739.0.0 2682 0
+S 719.0.0 2624 0
+# grendel32.ece.ncsu.edu(0):      2537  1 _empty_layer
+F 737.0.0 2679 1
+S 701.0.0 2569 1
+# grendel32.ece.ncsu.edu(1):      2537  1 _empty_layer
+F 719.0.0 2624 0
+S 656.0.0 2425 0
+# grendel32.ece.ncsu.edu(0):      2539  1 _empty_layer
+F 701.0.0 2569 1
+S 554.0.0 2084 1
+# grendel32.ece.ncsu.edu(1):       238  1 _empty_layer
+F 656.0.0 2425 0
+F 554.0.0 2084 1
+S 1345.0.0 4506 1
+# grendel32.ece.ncsu.edu(1):      1857  1 _boolean_and_q
+F 0 0 0
+S 1340.0.0 4485 0
+# grendel32.ece.ncsu.edu(0):      1857  1 _boolean_and_q
+F 1345.0.0 4506 1
+S 926.0.0 3145 1
+# grendel32.ece.ncsu.edu(1):      1879  1 _boolean_and_q
+F 1340.0.0 4485 0
+S 1342.0.0 4495 0
+# grendel32.ece.ncsu.edu(0):      1861  1 _boolean_and_q
+F 926.0.0 3145 1
+S 929.0.0 3156 1
+# grendel32.ece.ncsu.edu(1):      1889  1 _boolean_and_q
+F 1342.0.0 4495 0
+S 1371.0.0 4576 0
+# grendel32.ece.ncsu.edu(0):      2315  1 _c_thru_level
+F 1371.0.0 4576 0
+S 939.0.0 3189 0
+# grendel32.ece.ncsu.edu(0):      1859  1 _boolean_and_q
+F 929.0.0 3156 1
+S 932.0.0 3167 1
+# grendel32.ece.ncsu.edu(1):      1877  1 _boolean_and_q
+F 939.0.0 3189 0
+S 1348.0.0 4517 0
+# grendel32.ece.ncsu.edu(0):      1861  1 _boolean_and_q
+F 932.0.0 3167 1
+S 954.0.0 3239 1
+# grendel32.ece.ncsu.edu(1):      3867  1 _select_q
+F 1348.0.0 4517 0
+S 1388.0.0 4625 0
+# grendel32.ece.ncsu.edu(0):      2365  1 _c_thru_level
+F 1388.0.0 4625 0
+S 934.0.0 3173 0
+# grendel32.ece.ncsu.edu(0):      1024  1 _boolean_or_list
+F 954.0.0 3239 1
+S 942.0.0 3200 1
+# grendel32.ece.ncsu.edu(1):      1879  1 _boolean_and_q
+F 934.0.0 3173 0
+S 936.0.0 3178 0
+# grendel32.ece.ncsu.edu(0):      1925  1 _boolean_not_q
+F 942.0.0 3200 1
+S 945.0.0 3211 1
+# grendel32.ece.ncsu.edu(1):      1889  1 _boolean_and_q
+F 936.0.0 3178 0
+S 1014.0.0 3455 0
+# grendel32.ece.ncsu.edu(0):      4904  1 _preprocess_device_layer
+F 945.0.0 3211 1
+S 948.0.0 3222 1
+# grendel32.ece.ncsu.edu(1):      1877  1 _boolean_and_q
+F 948.0.0 3222 1
+S 956.0.0 3247 1
+# grendel32.ece.ncsu.edu(1):      3867  1 _select_q
+F 956.0.0 3247 1
+S 950.0.0 3228 1
+# grendel32.ece.ncsu.edu(1):      1024  1 _boolean_or_list
+F 950.0.0 3228 1
+S 952.0.0 3233 1
+# grendel32.ece.ncsu.edu(1):      1925  1 _boolean_not_q
+F 952.0.0 3233 1
+S 1094.0.0 3728 1
+# grendel32.ece.ncsu.edu(1):      4904  1 _preprocess_device_layer
+F 1014.0.0 3455 0
+S 1122.0.0 3809 0
+# grendel32.ece.ncsu.edu(0):       939  1 _merge_device_layer
+F 1122.0.0 3809 0
+S 1406.0.0 4680 0
+# grendel32.ece.ncsu.edu(0):      1695  1 _c_thru_level
+F 1406.0.0 4680 0
+S 1445.0.0 4768 0
+# grendel32.ece.ncsu.edu(0):      1695  1 _c_thru_level
+F 1445.0.0 4768 0
+S 1320.0.0 4414 0
+# grendel32.ece.ncsu.edu(0):      4095  1 _stamp_text_q
+F 1320.0.0 4414 0
+S 1318.0.0 4409 0
+# grendel32.ece.ncsu.edu(0):      4093  1 _stamp_text_q
+F 1318.0.0 4409 0
+S 1316.0.0 4404 0
+# grendel32.ece.ncsu.edu(0):      4093  1 _stamp_text_q
+F 1316.0.0 4404 0
+S 1314.0.0 4399 0
+# grendel32.ece.ncsu.edu(0):      4093  1 _stamp_text_q
+F 1314.0.0 4399 0
+S 1312.0.0 4394 0
+# grendel32.ece.ncsu.edu(0):      4093  1 _stamp_text_q
+F 1312.0.0 4394 0
+S 1310.0.0 4389 0
+# grendel32.ece.ncsu.edu(0):      4093  1 _stamp_text_q
+F 1310.0.0 4389 0
+S 1308.0.0 4384 0
+# grendel32.ece.ncsu.edu(0):      4093  1 _stamp_text_q
+F 1308.0.0 4384 0
+S 1306.0.0 4379 0
+# grendel32.ece.ncsu.edu(0):      4093  1 _stamp_text_q
+F 1306.0.0 4379 0
+S 1304.0.0 4374 0
+# grendel32.ece.ncsu.edu(0):      4093  1 _stamp_text_q
+F 1304.0.0 4374 0
+S 1302.0.0 4369 0
+# grendel32.ece.ncsu.edu(0):      4095  1 _stamp_text_q
+F 1302.0.0 4369 0
+S 1300.0.0 4364 0
+# grendel32.ece.ncsu.edu(0):      4095  1 _stamp_text_q
+F 1094.0.0 3728 1
+S 1125.0.0 3816 1
+# grendel32.ece.ncsu.edu(1):       939  1 _merge_device_layer
+F 1300.0.0 4364 0
+S 1119.0.0 3802 0
+# grendel32.ece.ncsu.edu(0):       934  1 _merge_device_layer
+F 1125.0.0 3816 1
+S 1374.0.0 4585 1
+# grendel32.ece.ncsu.edu(1):      3543  1 _boolean_and_q
+F 1119.0.0 3802 0
+S 1131.0.0 3833 0
+# grendel32.ece.ncsu.edu(0):      7023  1 _boolean_and_q
+F 1374.0.0 4585 1
+S 1376.0.0 4595 1
+# grendel32.ece.ncsu.edu(1):      3315  1 _boolean_and_q
+F 1376.0.0 4595 1
+S 1378.0.0 4601 1
+# grendel32.ece.ncsu.edu(1):      2369  1 _c_thru_level
+F 1378.0.0 4601 1
+S 1380.0.0 4605 1
+# grendel32.ece.ncsu.edu(1):      2438  1 _c_thru_level
+F 1380.0.0 4605 1
+S 1382.0.0 4609 1
+# grendel32.ece.ncsu.edu(1):      2441  1 _c_thru_level
+F 1382.0.0 4609 1
+S 1439.0.0 4754 1
+# grendel32.ece.ncsu.edu(1):      1761  1 _c_thru_level
+F 1131.0.0 3833 0
+S 1135.0.0 3846 0
+# grendel32.ece.ncsu.edu(0):      7016  1 _boolean_and_q
+F 1439.0.0 4754 1
+S 1384.0.0 4613 1
+# grendel32.ece.ncsu.edu(1):      5291  1 _select_q
+F 1384.0.0 4613 1
+S 1391.0.0 4634 1
+# grendel32.ece.ncsu.edu(1):      3296  1 _boolean_and_q
+F 1391.0.0 4634 1
+S 1394.0.0 4645 1
+# grendel32.ece.ncsu.edu(1):      3315  1 _boolean_and_q
+F 1394.0.0 4645 1
+S 1396.0.0 4651 1
+# grendel32.ece.ncsu.edu(1):      2369  1 _c_thru_level
+F 1396.0.0 4651 1
+S 1398.0.0 4655 1
+# grendel32.ece.ncsu.edu(1):      2438  1 _c_thru_level
+F 1135.0.0 3846 0
+S 1263.0.0 4255 0
+# grendel32.ece.ncsu.edu(0):     22786  1 _connect_q
+F 1398.0.0 4655 1
+S 1400.0.0 4659 1
+# grendel32.ece.ncsu.edu(1):      2479  1 _c_thru_level
+F 1400.0.0 4659 1
+S 1453.0.0 4786 1
+# grendel32.ece.ncsu.edu(1):      1761  1 _c_thru_level
+F 1453.0.0 4786 1
+S 1402.0.0 4663 1
+# grendel32.ece.ncsu.edu(1):      5291  1 _select_q
+F 1402.0.0 4663 1
+S 1363.0.0 4558 1
+# grendel32.ece.ncsu.edu(1):      3309  1 _boolean_and_q
+F 1363.0.0 4558 1
+S 1365.0.0 4564 1
+# grendel32.ece.ncsu.edu(1):      2369  1 _c_thru_level
+F 1365.0.0 4564 1
+S 1367.0.0 4568 1
+# grendel32.ece.ncsu.edu(1):      2441  1 _c_thru_level
+F 1367.0.0 4568 1
+S 1354.0.0 4535 1
+# grendel32.ece.ncsu.edu(1):      3309  1 _boolean_and_q
+F 1354.0.0 4535 1
+S 1356.0.0 4541 1
+# grendel32.ece.ncsu.edu(1):      2369  1 _c_thru_level
+F 1356.0.0 4541 1
+S 1358.0.0 4545 1
+# grendel32.ece.ncsu.edu(1):      2441  1 _c_thru_level
+F 1358.0.0 4545 1
+S 1412.0.0 4693 1
+# grendel32.ece.ncsu.edu(1):      1761  1 _c_thru_level
+F 1412.0.0 4693 1
+S 1418.0.0 4707 1
+# grendel32.ece.ncsu.edu(1):      1695  1 _c_thru_level
+F 1418.0.0 4707 1
+S 1425.0.0 4722 1
+# grendel32.ece.ncsu.edu(1):      1761  1 _c_thru_level
+F 1425.0.0 4722 1
+S 1298.0.0 4359 1
+# grendel32.ece.ncsu.edu(1):      4095  1 _stamp_text_q
+F 1298.0.0 4359 1
+S 1296.0.0 4354 1
+# grendel32.ece.ncsu.edu(1):      4095  1 _stamp_text_q
+F 1296.0.0 4354 1
+S 1294.0.0 4349 1
+# grendel32.ece.ncsu.edu(1):      4093  1 _stamp_text_q
+F 1294.0.0 4349 1
+S 1292.0.0 4344 1
+# grendel32.ece.ncsu.edu(1):      4095  1 _stamp_text_q
+F 1292.0.0 4344 1
+S 1290.0.0 4339 1
+# grendel32.ece.ncsu.edu(1):      4095  1 _stamp_text_q
+F 1290.0.0 4339 1
+S 1288.0.0 4334 1
+# grendel32.ece.ncsu.edu(1):      4095  1 _stamp_text_q
+F 1288.0.0 4334 1
+F 0 0 1
+F 1263.0.0 4255 0
+S 1322.0.0 4419 0
+# grendel32.ece.ncsu.edu(0):     12127  1 _text
+F 1322.0.0 4419 0
+S 1332.0.0 4452 0
+# grendel32.ece.ncsu.edu(0):      9725  1 _process_text_opens
+F 1332.0.0 4452 0
+S 1467.0.0 4820 0
+# grendel32.ece.ncsu.edu(0):      3835  1 _connect_q
+F 1467.0.0 4820 0
+S 1471.0.0 4841 0
+# grendel32.ece.ncsu.edu(0):      5268  1 _connect_q
+F 1471.0.0 4841 0
+S 1515.0.0 4942 0
+# grendel32.ece.ncsu.edu(0):      2641  1 _soft_connect
+S 1501.0.0 4909 1
+# grendel32.ece.ncsu.edu(1):      2641  1 _soft_connect
+F 1501.0.0 4909 1
+S 1507.0.0 4923 1
+# grendel32.ece.ncsu.edu(1):      3347  1 _pulldown_to_q
+F 1515.0.0 4942 0
+S 1521.0.0 4956 0
+# grendel32.ece.ncsu.edu(0):      3347  1 _pulldown_to_q
+F 1507.0.0 4923 1
+S 1487.0.0 4877 1
+# grendel32.ece.ncsu.edu(1):      2625  1 _soft_connect
+F 1521.0.0 4956 0
+S 1473.0.0 4845 0
+# grendel32.ece.ncsu.edu(0):      2625  1 _soft_connect
+F 1487.0.0 4877 1
+S 1493.0.0 4891 1
+# grendel32.ece.ncsu.edu(1):      3347  1 _pulldown_to_q
+F 1473.0.0 4845 0
+S 1479.0.0 4859 0
+# grendel32.ece.ncsu.edu(0):      3347  1 _pulldown_to_q
+F 1493.0.0 4891 1
+F 1479.0.0 4859 0
+S 1536.0.0 5002 0
+# grendel32.ece.ncsu.edu(0):      4665  1 _connect_q
+F 0 0 1
+F 1536.0.0 5002 0
+S 1556.0.0 5073 0
+# grendel32.ece.ncsu.edu(0):      3684  1 _create_ports
+F 1556.0.0 5073 0
+S 1673.0.0 5417 0
+# grendel32.ece.ncsu.edu(0):       986  1 _create_netlist_cdb
+S 1646.0.0 5328 1
+# grendel32.ece.ncsu.edu(1):     48849  2 _mos
+F 1673.0.0 5417 0
+S 1606.0.0 5221 0
+# grendel32.ece.ncsu.edu(0):     48758  2 _mos
+F 1646.0.0 5328 1
+F 0 0 1
+F 1606.0.0 5221 0
+S 1683.0.0 5452 0
+# grendel32.ece.ncsu.edu(0):      1285  1 _connect_device
+F 1683.0.0 5452 0
+S 4187.0.0 14663 0
+# grendel32.ece.ncsu.edu(0):     11273  1 _write_gds
+S 4181.0.0 14646 1
+# grendel32.ece.ncsu.edu(1):     10576  1 _pex_perc_p2p_do_spice
+F 4187.0.0 14663 0
+S 4168.0.0 14599 0
+# grendel32.ece.ncsu.edu(0):      5462  1 _write_netlist_report
+F 4168.0.0 14599 0
+S 1740.0.0 5677 0
+# grendel32.ece.ncsu.edu(0):      7547  1 _write_vue_info
+F 4181.0.0 14646 1
+S 1689.0.0 5475 1
+# grendel32.ece.ncsu.edu(1):       896  1 _dev_create_acct
+F 1689.0.0 5475 1
+S 1764.0.0 5742 1
+# grendel32.ece.ncsu.edu(1):      1020  1 _do_ndb
+F 1764.0.0 5742 1
+S 1861.0.0 6091 1
+# grendel32.ece.ncsu.edu(1):     18470  2 _do_compare_remote
+F 1861.0.0 6091 1
+S 1862.0.0 6094 1
+# grendel32.ece.ncsu.edu(1):      6910  2 _do_translate_equiv_spice_netlists
+F 1862.0.0 6094 1
+S 1782.0.0 5784 1
+# grendel32.ece.ncsu.edu(1):      5707  2 _translate_database_to_netlist_remote
+F 1782.0.0 5784 1
+S 1773.0.0 5764 1
+# grendel32.ece.ncsu.edu(1):      5743  2 _translate_database_to_netlist_remote
+F 1773.0.0 5764 1
+S 1695.0.0 5489 1
+# grendel32.ece.ncsu.edu(1):       799  1 _write_mongo_netlist
+F 1695.0.0 5489 1
+S 1692.0.0 5482 1
+# grendel32.ece.ncsu.edu(1):      1109  1 _output_port_pin_data
+F 1692.0.0 5482 1
+F 0 0 1
+F 1740.0.0 5677 0
+S 4259.0.0 14911 0
+# grendel32.ece.ncsu.edu(0):       385  1 _accumulate_results
+F 4259.0.0 14911 0
+}

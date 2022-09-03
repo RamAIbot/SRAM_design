@@ -1,0 +1,11 @@
+inv_2 { }
+bitcell { }
+Write_Driver { inv_2 }
+tspc_flip_flop { }
+and_2 { }
+demu_2_4 { inv_2 and_2 }
+nor_5 { }
+bit_conditioning { inv_2 }
+rowdecoder { inv_2 nor_5 }
+column_decoder_new { demu_2_4 }
+bit_cell_array { column_decoder_new rowdecoder tspc_flip_flop bit_conditioning Write_Driver bitcell }

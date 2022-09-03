@@ -1,0 +1,22 @@
+{netlist .sch.net
+{version 3 1 0}
+{net_global vdd! gnd! }
+{cell inv_2
+{port A Z}
+{inst MM0=nmos {TYPE MOS} 
+{pin Z=DRN A=GATE gnd!=SRC}}
+{inst MM1=pmos {TYPE MOS} 
+{pin Z=DRN A=GATE vdd!=SRC}}
+}
+
+{cell bit_conditioning
+{port BL BLB CLK}
+{inst MM8=pmos {TYPE MOS} 
+{pin BLB=DRN net22=GATE vdd!=SRC}}
+{inst MM7=pmos {TYPE MOS} 
+{pin BL=DRN net22=GATE vdd!=SRC}}
+{inst XI9=inv_2 {TYPE CELL} 
+{pin CLK=A net22=Z}}
+}
+
+}

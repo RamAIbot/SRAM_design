@@ -1,0 +1,62 @@
+[17:04:34.78] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[17:04:50.78] /o pw_shell Version PrimeWave Design Envrionment S-2021.09
+              /c Build  (OPT) compiled on Fri Aug 20 11:32:52 2021 for CentOS64 7.3
+              /c Execution time: Wed Apr  6 17:04:22 2022
+              /c Host: grendel28.ece.ncsu.edu
+              /c 
+              /c Copyright © 2004-2021 Synopsys, Inc.
+              /c This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, or distribution of this software is strictly prohibited.
+              /c 
+              /c 
+[17:04:51.32] /o /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/samples/basic
+[17:04:51.33] /o /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/samples/snpsDeviceLib
+[17:04:51.33] /o /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/samples/analogLib
+[17:04:51.33] /o /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/samples/sheets
+[17:04:51.54] /o /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/samples/parasitics
+[17:04:52.33] /o /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/syncust/NCSU_TechLib_FreePDK3
+[17:04:52.33] /o Loading: Callback files...
+[17:04:52.33] /o Loading: scripts/callbacks/callbacks.tcl
+[17:04:52.33] /o 
+              /c [INFO] : Loading display.drf from /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/syncust/NCSU_TechLib_FreePDK3
+              /c 
+              /c  if you wish to Load other display.drf, please set shell environment valiable "iPDK_load_display_NCSU_TechLib_FreePDK3" to value = 0
+[17:04:52.33] /o 
+[17:04:52.34] /w Warning: Could not set the value of preference xtDRCTool because it does not exist. (PREFERENCE-016)
+[17:04:52.34] /w Warning: Could not set the value of preference xtDRCICVRunsetFile because it does not exist. (PREFERENCE-016)
+[17:04:52.34] /w Warning: Could not set the value of preference xtDRCICVIncludePaths because it does not exist. (PREFERENCE-016)
+[17:04:52.34] /w Warning: Could not set the value of preference xtDRCLayDBFormat because it does not exist. (PREFERENCE-016)
+[17:04:52.34] /w Warning: Could not set the value of preference xtLVSTool because it does not exist. (PREFERENCE-016)
+[17:04:52.34] /w Warning: Could not set the value of preference xtLVSICVRunsetFile because it does not exist. (PREFERENCE-016)
+[17:04:52.34] /w Warning: Could not set the value of preference xtLVSICVIncludePaths because it does not exist. (PREFERENCE-016)
+[17:04:52.34] /w Warning: Could not set the value of preference xtLVSLayDBFormat because it does not exist. (PREFERENCE-016)
+[17:04:52.34] /w Warning: Could not set the value of preference xtLPELVSTool because it does not exist. (PREFERENCE-016)
+[17:04:52.34] /w Warning: Could not set the value of preference xtLPETool because it does not exist. (PREFERENCE-016)
+[17:04:52.34] /w Warning: Could not set the value of preference xtLPEOpenParasiticView because it does not exist. (PREFERENCE-016)
+[17:04:52.34] /w Warning: Could not set the value of preference xtStarTcadGrdFile because it does not exist. (PREFERENCE-016)
+[17:04:52.34] /w Warning: Could not set the value of preference xtLPEStarOADeviceMappingFile because it does not exist. (PREFERENCE-016)
+[17:04:52.34] /w Warning: Could not set the value of preference xtStarOALayerMappingFile because it does not exist. (PREFERENCE-016)
+[17:04:52.35] /o 	#######################################
+[17:04:52.35] /o 	CC-PDK Library Name	: FreePDK3
+[17:04:52.35] /o 	#######################################
+[17:04:52.35] /o 
+[17:04:52.57] /i ::sa::_backgroundSaeShell::signalProcessReady 1649279060
+[17:04:52.58] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 32
+[17:05:46.66] /i ::sa::_backgroundSaeShell::runScript /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,bitcell_TB,schematic/history_1/simulation/HSPICE_default/PrimeSimHSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,bitcell_TB,schematic/history_1/simulation/HSPICE_default/PrimeSimHSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,bitcell_TB,schematic/history_1/simulation/HSPICE_default/PrimeSimHSPICE/nominal databaseName /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,bitcell_TB,schematic/history_1/simulation/HSPICE_default/PrimeSimHSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[17:05:47.03] /m Information: Loading preferences from /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,bitcell_TB,schematic/history_1/simulation/HSPICE_default/PrimeSimHSPICE/nominal/pw_shell_session_prefs.xml
+[17:05:47.32] /m Information: Start incremental database creation...
+[17:05:47.36] /m Information: Create Iter role param id map
+[17:05:47.42] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.7 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,bitcell_TB,schematic/history_1/simulation/HSPICE_default/PrimeSimHSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,bitcell_TB,schematic/history_1/simulation/HSPICE_default/PrimeSimHSPICE/nominal databaseName /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,bitcell_TB,schematic/history_1/simulation/HSPICE_default/PrimeSimHSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[17:05:47.42] /o false
+[17:05:47.42] /i ::wf::viewerExited
+[17:06:13.15] /i ::wf::viewerExited
+[17:07:30.31] /i ::sa::_backgroundSaeShell::runScript /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,bitcell_TB,schematic/history_1/simulation/HSPICE_default/PrimeSimHSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,bitcell_TB,schematic/history_1/simulation/HSPICE_default/PrimeSimHSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,bitcell_TB,schematic/history_1/simulation/HSPICE_default/PrimeSimHSPICE/nominal databaseName /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,bitcell_TB,schematic/history_1/simulation/HSPICE_default/PrimeSimHSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[17:07:30.61] /m Information: Loading preferences from /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,bitcell_TB,schematic/history_1/simulation/HSPICE_default/PrimeSimHSPICE/nominal/pw_shell_session_prefs.xml
+[17:07:30.79] /m Information: Start incremental database creation...
+[17:07:30.82] /m Information: Create Iter role param id map
+[17:07:30.88] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.5 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,bitcell_TB,schematic/history_1/simulation/HSPICE_default/PrimeSimHSPICE/nominal/results testSuiteDir /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,bitcell_TB,schematic/history_1/simulation/HSPICE_default/PrimeSimHSPICE/nominal databaseName /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,bitcell_TB,schematic/history_1/simulation/HSPICE_default/PrimeSimHSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[17:07:30.88] /o false
+[17:07:30.88] /i ::wf::viewerExited
+[17:08:08.01] /i ::wf::viewerExited
+[17:11:15.47] /i ::sa::_backgroundSaeShell::exit
+[17:11:15.47] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting
+[17:11:16.15] /m Information: License 'Apex' checked in. (LICENSE-004)

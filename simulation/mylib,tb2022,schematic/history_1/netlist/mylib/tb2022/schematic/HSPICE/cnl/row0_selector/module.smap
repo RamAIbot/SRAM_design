@@ -1,0 +1,82 @@
+<module name="vsl: mylib row0_selector schematic vl: hspice hspiceD schematic spice veriloga">
+<scope name="Instance">
+<forward>
+<mapping src="I1" dst="xi1"/>
+<mapping src="I15" dst="xi15"/>
+<mapping src="M11" dst="m11"/>
+<mapping src="M13" dst="m13"/>
+<mapping src="M12" dst="m12"/>
+<mapping src="I4" dst="xi4"/>
+<mapping src="I0" dst="xi0"/>
+<mapping src="I3" dst="xi3"/>
+</forward>
+<reverse>
+<mapping src="xi15" dst="I15"/>
+<mapping src="m13" dst="M13"/>
+<mapping src="xi1" dst="I1"/>
+<mapping src="xi4" dst="I4"/>
+<mapping src="xi0" dst="I0"/>
+<mapping src="m11" dst="M11"/>
+<mapping src="m12" dst="M12"/>
+<mapping src="xi3" dst="I3"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward>
+<mapping src="C_BLB" dst="c_blb"/>
+<mapping src="BLB" dst="blb"/>
+<mapping src="BL" dst="bl"/>
+<mapping src="C_BL" dst="c_bl"/>
+<mapping src="A1" dst="a1"/>
+<mapping src="A0" dst="a0"/>
+</forward>
+<reverse>
+<mapping src="c_blb" dst="C_BLB"/>
+<mapping src="a1" dst="A1"/>
+<mapping src="c_bl" dst="C_BL"/>
+<mapping src="blb" dst="BLB"/>
+<mapping src="bl" dst="BL"/>
+<mapping src="a0" dst="A0"/>
+</reverse>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping src="BL" dst="bl"/>
+<mapping src="BLB" dst="blb"/>
+<mapping src="&lt;unmappedTermOrder>" dst="A0 A1 BL BLB C_BL C_BLB"/>
+<mapping src="&lt;termOrder>" dst="a0 a1 bl blb c_bl c_blb"/>
+<mapping src="C_BLB" dst="c_blb"/>
+<mapping src="C_BL" dst="c_bl"/>
+<mapping src="A1" dst="a1"/>
+<mapping src="A0" dst="a0"/>
+</forward>
+<reverse>
+<mapping src="a0 a1 bl blb c_bl c_blb" dst="&lt;termOrder>"/>
+<mapping src="c_blb" dst="C_BLB"/>
+<mapping src="c_bl" dst="C_BL"/>
+<mapping src="blb" dst="BLB"/>
+<mapping src="a1" dst="A1"/>
+<mapping src="A0 A1 BL BLB C_BL C_BLB" dst="&lt;unmappedTermOrder>"/>
+<mapping src="bl" dst="BL"/>
+<mapping src="a0" dst="A0"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="_2to1mux">
+<instance name="I1"/>
+<instance name="I4"/>
+</instance_header>
+<instance_header master="inv_2">
+<instance name="I15"/>
+</instance_header>
+<instance_header master="or_2">
+<instance name="I0"/>
+<instance name="I3"/>
+</instance_header>
+<instance_header master="pmos">
+<instance name="M11"/>
+<instance name="M12"/>
+<instance name="M13"/>
+</instance_header>
+</master_instances>
+</module>

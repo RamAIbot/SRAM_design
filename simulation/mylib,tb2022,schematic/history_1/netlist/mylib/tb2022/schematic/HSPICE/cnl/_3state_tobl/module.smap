@@ -1,0 +1,54 @@
+<module name="vsl: mylib 3state_toBL schematic vl: hspice hspiceD schematic spice veriloga">
+<scope name="Instance">
+<forward>
+<mapping src="I3" dst="xi3"/>
+<mapping src="I4" dst="xi4"/>
+</forward>
+<reverse>
+<mapping src="xi3" dst="I3"/>
+<mapping src="xi4" dst="I4"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward>
+<mapping src="WENB" dst="wenb"/>
+<mapping src="Decode" dst="decode"/>
+<mapping src="BLB" dst="blb"/>
+<mapping src="WE" dst="we"/>
+<mapping src="BL" dst="bl"/>
+</forward>
+<reverse>
+<mapping src="decode" dst="Decode"/>
+<mapping src="we" dst="WE"/>
+<mapping src="blb" dst="BLB"/>
+<mapping src="wenb" dst="WENB"/>
+<mapping src="bl" dst="BL"/>
+</reverse>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping src="&lt;unmappedTermOrder>" dst="BL BLB Decode WE WENB"/>
+<mapping src="WE" dst="we"/>
+<mapping src="BLB" dst="blb"/>
+<mapping src="BL" dst="bl"/>
+<mapping src="&lt;termOrder>" dst="bl blb decode we wenb"/>
+<mapping src="Decode" dst="decode"/>
+<mapping src="WENB" dst="wenb"/>
+</forward>
+<reverse>
+<mapping src="BL BLB Decode WE WENB" dst="&lt;unmappedTermOrder>"/>
+<mapping src="decode" dst="Decode"/>
+<mapping src="we" dst="WE"/>
+<mapping src="bl blb decode we wenb" dst="&lt;termOrder>"/>
+<mapping src="wenb" dst="WENB"/>
+<mapping src="blb" dst="BLB"/>
+<mapping src="bl" dst="BL"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="tri_state_buffer">
+<instance name="I3"/>
+<instance name="I4"/>
+</instance_header>
+</master_instances>
+</module>

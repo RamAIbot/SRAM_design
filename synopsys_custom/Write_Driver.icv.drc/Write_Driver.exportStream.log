@@ -1,0 +1,96 @@
+*****************************************************************************
+Tool:		exportStream        S-2021.09
+*****************************************************************************
+Running: exportStream -logFile /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/Write_Driver.icv.drc/Write_Driver.exportStream.log -lib mylib -libDefFile /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/lib.defs -cell "Write_Driver" -hierDepth 256 -view "layout" -referenceMap /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/Write_Driver.icv.drc/Write_Driver.custom_compiler.xml -keepPcells -keepVias -keepAbuts -useTechLayerMap -useTechObjectMap -textHeight matchOABBox -gds /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/Write_Driver.icv.drc/Write_Driver.custom_compiler.gds -colorMapping honor
+Started: Tue May  3 21:17:48 2022 (Hostname: grendel27.ece.ncsu.edu)
+Reading layer map /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/syncust/NCSU_TechLib_FreePDK3/NCSU_TechLib_FreePDK3.layermap
+
+INFO: (EXPORT_STREAM-80033): Translating design NCSU_TechLib_FreePDK3/nmos/layout as "nmos".
+INFO: (EXPORT_STREAM-80033): Translating design NCSU_TechLib_FreePDK3/GATE_M0B/layout as "GATE_M0B".
+INFO: (EXPORT_STREAM-80033): Translating design NCSU_TechLib_FreePDK3/M0B_M1/layout as "M0B_M1".
+INFO: (EXPORT_STREAM-80033): Translating design NCSU_TechLib_FreePDK3/BPR_M0A/layout as "BPR_M0A".
+INFO: (EXPORT_STREAM-80033): Translating design NCSU_TechLib_FreePDK3/M0A_M0B/layout as "M0A_M0B".
+INFO: (EXPORT_STREAM-80033): Translating design NCSU_TechLib_FreePDK3/M1_M2/layout as "M1_M2".
+INFO: (EXPORT_STREAM-80033): Translating design NCSU_TechLib_FreePDK3/M2_M3/layout as "M2_M3".
+INFO: (EXPORT_STREAM-80033): Translating design NCSU_TechLib_FreePDK3/M3_M4/layout as "M3_M4".
+INFO: (EXPORT_STREAM-80033): Translating design mylib/inverter_write_driver/layout as "inverter_write_driver".
+WARNING: (EXPORT_STREAM-12064): Shape isn't mapped to any layer/purpose, layer:"annotate" purpose:"drawing".
+INFO: (EXPORT_STREAM-80033): Translating design mylib/Write_Driver/layout as "Write_Driver".
+
+Primary Cell(s):
+	1.Write_Driver
+
+Cell Statistics:
+	CellName               Rectangles  Polygons    Paths       PathSegs    Labels      Instances   Arrays      Nodes       
+	BPR_M0A                3           0           0           0           0           0           0           0           
+	GATE_M0B               3           0           0           0           0           0           0           0           
+	M0A_M0B                3           0           0           0           0           0           0           0           
+	M0B_M1                 3           0           0           0           0           0           0           0           
+	M1_M2                  3           0           0           0           0           0           0           0           
+	M2_M3                  3           0           0           0           0           0           0           0           
+	M3_M4                  3           0           0           0           0           0           0           0           
+	Write_Driver           84          0           0           0           5           45          0           0           
+	inverter_write_driver  37          0           0           0           4           1           0           0           
+	nmos                   7           0           0           0           0           0           0           0           
+
+Layer Statistics:
+	Layer       Purpose  StreamLayer     StreamDataType  Rectangles  Polygons    Paths       PathSegs    Labels      Nodes       
+	NW          drawing  2               0               4           0           0           0           0           0
+	PIM         drawing  8               0               3           0           0           0           0           0
+	DUMMY       drawing  6               0               10          0           0           0           0           0
+	M4          drawing  20              0               2           0           0           0           0           0
+	V3          drawing  19              0               1           0           0           0           0           0
+	M3          drawing  18              0               6           0           0           0           2           0
+	V0A         drawing  10              0               2           0           0           0           0           0
+	BPR         drawing  0               0               10          0           0           0           3           0
+	M1          drawing  14              0               12          0           0           0           3           0
+	V1          drawing  15              0               1           0           0           0           0           0
+	GCUT        drawing  5               0               8           0           0           0           0           0
+	M0B         drawing  12              0               15          0           0           0           1           0
+	GCON        drawing  11              0               2           0           0           0           0           0
+	NIM         drawing  7               0               9           0           0           0           0           0
+	V0B         drawing  13              0               3           0           0           0           0           0
+	M2          drawing  16              0               5           0           0           0           0           0
+	ACT         drawing  3               0               5           0           0           0           0           0
+	V2          drawing  17              0               1           0           0           0           0           0
+	M0A         drawing  9               0               16          0           0           0           0           0
+	GATE        drawing  4               0               31          0           0           0           0           0
+	VBPR        drawing  1               0               3           0           0           0           0           0
+
+Summary of Objects:
+	Scalar Instances:             46
+	Array Instances:              0
+	Vector Instances:             0
+	Vector Instance Bits:         0
+	Polygons:                     0
+	Paths:                        0
+	Rectangles:                   149
+	Lines:                        0
+	Arcs:                         0
+	Donuts:                       0
+	Dots:                         0
+	Ellipses:                     0
+	Blockages:                    0
+	Boundaries:                   0
+	Routes:                       0
+	Text:                         3
+	Text Displays:                
+	  PropDisplay:                0
+	  AttrDisplay:                6
+	  TextOverride:               0
+	PathSeg:                      0
+	StdVia:                       0
+	CustomVia:                    0
+	Cells:                        10
+
+
+Layers not streamed out:
+	Layer     Purpose   
+	annotate  drawing   
+
+Finished:     exportStream
+Time Elapsed: 1.12 seconds
+CPU Time:     1.00361 seconds
+System Time:  0.107817 seconds
+Peak VM:      12640256 bytes
+Messages:     0 error, 1 warning

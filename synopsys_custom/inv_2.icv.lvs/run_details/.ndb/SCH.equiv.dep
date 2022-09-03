@@ -1,0 +1,3 @@
+inv_2 { nmos pmos }
+nmos { }
+pmos { }

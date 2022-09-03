@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Sun Apr  3 20:18:23 2022-->
+<file-format version="1.0" name="stateData">
+ <attribute type="giString" value="" name="description"/>
+ <attribute type="dmCellView" value="mylib/tspc_flip_flop_tb/schematic" name="design"/>
+ <attribute type="giBoolean" value="1" name="enabled"/>
+ <attribute type="giBoolean" value="0" name="enabledJobClass"/>
+ <attribute type="giString" value="HSPICE" name="migratedSimulator"/>
+ <attribute type="giString" value="HSPICE_default" name="name"/>
+ <attribute type="dmCellView" value="mylib/tspc_flip_flop_tb/HSPICE_default" name="openaccessState"/>
+ <attribute type="giString" value="HSPICE" name="simulator"/>
+ <comment></comment>
+ <integration version="1"/>
+</file-format>

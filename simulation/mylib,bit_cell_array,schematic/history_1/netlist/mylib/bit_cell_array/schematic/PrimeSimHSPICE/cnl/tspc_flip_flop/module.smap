@@ -1,0 +1,81 @@
+<module name="vsl: mylib tspc_flip_flop schematic vl: hspice hspiceD schematic spice veriloga">
+<scope name="Instance">
+<forward>
+<mapping dst="m3" src="M3"/>
+<mapping dst="m6" src="M6"/>
+<mapping dst="m9" src="M9"/>
+<mapping dst="m17" src="M17"/>
+<mapping dst="m4" src="M4"/>
+<mapping dst="m21" src="M21"/>
+<mapping dst="m2" src="M2"/>
+<mapping dst="m5" src="M5"/>
+<mapping dst="m8" src="M8"/>
+<mapping dst="m7" src="M7"/>
+<mapping dst="m10" src="M10"/>
+<mapping dst="m16" src="M16"/>
+<mapping dst="m20" src="M20"/>
+</forward>
+<reverse>
+<mapping dst="M6" src="m6"/>
+<mapping dst="M4" src="m4"/>
+<mapping dst="M21" src="m21"/>
+<mapping dst="M9" src="m9"/>
+<mapping dst="M5" src="m5"/>
+<mapping dst="M17" src="m17"/>
+<mapping dst="M3" src="m3"/>
+<mapping dst="M2" src="m2"/>
+<mapping dst="M8" src="m8"/>
+<mapping dst="M10" src="m10"/>
+<mapping dst="M16" src="m16"/>
+<mapping dst="M7" src="m7"/>
+<mapping dst="M20" src="m20"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward>
+<mapping dst="d" src="D"/>
+<mapping dst="qbar" src="Qbar"/>
+<mapping dst="clk" src="CLK"/>
+</forward>
+<reverse>
+<mapping dst="Qbar" src="qbar"/>
+<mapping dst="D" src="d"/>
+<mapping dst="CLK" src="clk"/>
+</reverse>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping dst="CLK D Qbar" src="&lt;unmappedTermOrder>"/>
+<mapping dst="clk d qbar" src="&lt;termOrder>"/>
+<mapping dst="d" src="D"/>
+<mapping dst="qbar" src="Qbar"/>
+<mapping dst="clk" src="CLK"/>
+</forward>
+<reverse>
+<mapping dst="D" src="d"/>
+<mapping dst="&lt;termOrder>" src="clk d qbar"/>
+<mapping dst="Qbar" src="qbar"/>
+<mapping dst="&lt;unmappedTermOrder>" src="CLK D Qbar"/>
+<mapping dst="CLK" src="clk"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="nmos">
+<instance name="M10"/>
+<instance name="M16"/>
+<instance name="M2"/>
+<instance name="M20"/>
+<instance name="M5"/>
+<instance name="M7"/>
+<instance name="M8"/>
+</instance_header>
+<instance_header master="pmos">
+<instance name="M17"/>
+<instance name="M21"/>
+<instance name="M3"/>
+<instance name="M4"/>
+<instance name="M6"/>
+<instance name="M9"/>
+</instance_header>
+</master_instances>
+</module>

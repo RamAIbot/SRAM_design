@@ -1,0 +1,15 @@
+inverter_write_driver
+	Cell Level Device Counts
+		NMOS[nmos] = 1
+		PMOS[pmos] = 1
+	Flat Device Counts
+		NMOS[nmos] = 1
+		PMOS[pmos] = 1
+Write_Driver
+	Cell Level Device Counts
+		NMOS[nmos] = 4
+		PMOS[pmos] = 0
+
+********  DEVICE EXTRACTION STATS    TOPBLOCK = Write_Driver  *******
+		NMOS[nmos] = 6
+		PMOS[pmos] = 2

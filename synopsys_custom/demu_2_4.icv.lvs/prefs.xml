@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Custom Compiler Version S-2021.09-->
+<file-format version="2.0" name="synopsysPrefs"/>
+<preferences>
+	<pref name="xtLVSCalibreUseSVRFTranscript" value="true"/>
+	<pref name="xtLVSLayCell" value="demu_2_4"/>
+	<pref name="xtLVSLayInputNetlist" value="/afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/demu_2_4.icv.lvs/demu_2_4.net"/>
+	<pref name="xtLVSLayLCV" value="mylib/demu_2_4/layout"/>
+	<pref name="xtLVSLayOasisFile" value="/afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/demu_2_4.icv.lvs/demu_2_4.custom_compiler.oas"/>
+	<pref name="xtLVSLayStreamFile" value="/afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/demu_2_4.icv.lvs/demu_2_4.custom_compiler.gds"/>
+	<pref name="xtLVSSchCell" value="demu_2_4"/>
+	<pref name="xtLVSSchInputNetlist" value="/afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/demu_2_4.icv.lvs/demu_2_4.icv.sp"/>
+	<pref name="xtLVSSchInputNetlistFormat" value="CDL"/>
+	<pref name="xtLVSSchLCV" value="mylib/demu_2_4/schematic"/>
+	<pref name="xtLVSSchOutputNetlist" value="/afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/demu_2_4.icv.lvs/demu_2_4.icv.sp"/>
+	<pref name="xtLVSTool" value="IC Validator"/>
+</preferences>
+

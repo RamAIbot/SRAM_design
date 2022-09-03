@@ -1,0 +1,9 @@
+Write_Driver { inverter_write_driver }
+and_2 { }
+demu_2_4 { and_2 }
+bit_conditioning { }
+VCELLR2 { bit_conditioning }
+rowdecoder { }
+inverter_write_driver { }
+column_decoder_new { demu_2_4 }
+bit_cell_array { rowdecoder VCELLR2 Write_Driver column_decoder_new }

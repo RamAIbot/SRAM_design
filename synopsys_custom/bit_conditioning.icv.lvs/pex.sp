@@ -1,0 +1,23 @@
+* PEX netlist file	Wed May  4 02:36:35 2022	bit_conditioning
+* icv_netlist Version RHEL64 S-2021.06-SP2.6831572 2021/08/30
+*.UNIT=4000
+
+* Hierarchy Level 1
+.subckt inv_2 2 3 4 5 6 7 8 9 10 11
+MM1 3 2 4 nmos  W=2.1e-08 L=1.5e-08 NFIN=2 ADEO=2.835e-16 ASEO=2.835e-16 PDEO=5.85e-08
++	 PSEO=5.85e-08 $X=0 $Y=170  $PIN_XY=30,0,0,170,-30,0 $DEVICE_ID=1001
+MM2 3 2 5 pmos  W=2.1e-08 L=1.5e-08 NFIN=4 ADEO=5.67e-16 ASEO=5.67e-16 PDEO=1.17e-07
++	 PSEO=1.17e-07 $X=0 $Y=170  $PIN_XY=(30,340,30,170),0,170,(-30,340,-30,170) $DEVICE_ID=1003
+.ends inv_2
+
+* Hierarchy Level 0
+
+* Top of hierarchy  cell=bit_conditioning
+.subckt bit_conditioning 2 BLB BL CLK VDD! GND!
+*.floating_nets _GENERATED_22 _GENERATED_23 _GENERATED_24
+MM1 BL 2 VDD! pmos  W=2.1e-08 L=1.5e-08 NFIN=2 ADEO=2.835e-16 ASEO=2.835e-16 PDEO=5.85e-08
++	 PSEO=5.85e-08 $X=2664 $Y=1838  $PIN_XY=2694,1838,2664,1838,2634,1838 $DEVICE_ID=1003
+MM2 BLB 2 VDD! pmos  W=2.1e-08 L=1.5e-08 NFIN=2 ADEO=2.835e-16 ASEO=2.835e-16 PDEO=5.85e-08
++	 PSEO=5.85e-08 $X=2328 $Y=1838  $PIN_XY=2358,1838,2328,1838,2298,1838 $DEVICE_ID=1003
+XX7E46B1F01 CLK 2 GND! VDD! 8 BL BL 9 10 10 inv_2 $T=3000 1668 0 0 $X=2778 $Y=1460
+.ends bit_conditioning

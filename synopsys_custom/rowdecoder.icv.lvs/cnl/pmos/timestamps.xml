@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Wed Apr 20 01:54:30 2022-->
+<file-format version="2.0" name="netlisting-timestamps">
+<module contextID="switched: NCSU_TechLib_FreePDK3 pmos auCdl vl: auCdl schematic symbol sl: auCdl" timestamp="58" isSubcircuit="1" viewSearchList="auCdl schematic symbol" viewStopList="auCdl">
+<parameterizedConnections>
+<connectDefs timestamp="0"/>
+<oaAssignments timestamp="0"/>
+<dbAssignValue timestamp="0"/>
+<dbAssignAssignment timestamp="0"/>
+</parameterizedConnections>
+<parameters timestamp="1"/>
+<lib_parameters/>
+<LineageParams/>
+<ParentParams/>
+<Terms timestamp="55"/>
+<PortOrder><![CDATA[DGS]]></PortOrder>
+<ShortOptions timestamp="1009512283"/>
+</module>
+</file-format>

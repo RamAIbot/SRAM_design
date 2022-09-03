@@ -1,0 +1,12 @@
+********************************************************************************
+* Library          : mylib
+* Cell             : bitcell_TB
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+xi0 bl blb wl bitcell
+v2 vdd! gnd! dc=0.8
+v9 bl gnd! dc=0.8 pulse ( 0.8 0 0 5p 5p 50p 100p )
+v8 wl gnd! dc=0.8 pulse ( 0.8 0 0 5p 5p 100p 200p )
+v7 blb gnd! dc=0.8 pulse ( 0 0.8 0 5p 5p 50p 100p )

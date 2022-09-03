@@ -1,0 +1,285 @@
+[21:14:20.33] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c                  Version S-2021.09 for linux64 - Aug 25, 2021 
+              /c 
+              /c                     Copyright (c) 2004 - 2021 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c    or distribution of this software is strictly prohibited.  Licensed Products
+              /c      communicate with Synopsys servers for the purpose of providing software
+              /c     updates, detecting software piracy and verifying that customers are using
+              /c     Licensed Products in conformity with the applicable License Key for such
+              /c   Licensed Products. Synopsys will use information gathered in connection with
+              /c     this process to deliver software updates and pursue software pirates and
+              /c                                    infringers.
+              /c 
+              /c  Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+              /c             Inclusivity and Diversity" (Refer to article 000036315 at
+              /c                         https://solvnetplus.synopsys.com)
+              /c 
+              /c Build  (OPT) Config 6809741 compiled on Wed Aug 25 11:47:50 2021 for CentOS64 7.3
+              /c Invocation: /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/platform/bin/custom_compiler
+              /c Execution time: Tue May  3 21:14:12 2022
+              /c Host: grendel27.ece.ncsu.edu
+              /c Working directory: /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working
+              /c 
+[21:14:33.98] /r giShowFrameTabs true
+[21:14:33.98] /r giWindowId 1
+[21:14:33.98] /r giWindowGeometry 1040x800
+[21:14:45.62] /i db::setAttr maximized -of [gi::getFrames 1] -value true
+[21:14:45.93] /i db::setAttr geometry -of [gi::getFrames 1] -value 1920x986+0+46
+[21:14:46.43] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[21:14:46.43] /# 
+[21:14:46.73] /i gi::addWindow [dm::openLibraryManager] -to 1
+[21:14:46.73] /r giWindowId 2
+[21:14:46.73] /r giWindowGeometry 660x600+50+50
+[21:14:47.76] /i gi::setCurrentIndex {libs} -index {mylib} -in [gi::getWindows 2]
+[21:14:47.77] /i gi::setItemSelection {libs} -index {mylib} -in [gi::getWindows 2]
+[21:14:49.44] /i gi::setCurrentIndex {cells} -index {bit_cell_array} -in [gi::getWindows 2]
+[21:14:49.45] /i gi::setItemSelection {cells} -index {bit_cell_array} -in [gi::getWindows 2]
+[21:14:50.88] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[21:14:50.88] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[21:14:51.00] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[21:14:51.04] /o Loading: Callback files...
+[21:14:51.04] /o Loading: scripts/callbacks/callbacks.tcl
+[21:14:51.04] /o 
+              /c [INFO] : Loading display.drf from /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/syncust/NCSU_TechLib_FreePDK3
+              /c 
+              /c  if you wish to Load other display.drf, please set shell environment valiable "iPDK_load_display_NCSU_TechLib_FreePDK3" to value = 0
+[21:14:51.04] /o 
+[21:14:51.11] /o 	#######################################
+[21:14:51.11] /o 	CC-PDK Library Name	: FreePDK3
+[21:14:51.11] /o 	#######################################
+[21:14:51.11] /o 
+[21:14:51.12] /m Information: License 'Apex' checked out. (LICENSE-003)
+[21:14:51.25] /r giWindowId 3
+[21:14:51.25] /r giWindowGeometry 1632x972
+[21:14:52.76] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[21:14:52.76] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {8.96875 46.65625}
+[21:14:52.84] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[21:14:52.84] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {8.9375 46.65625}
+[21:14:53.72] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[21:14:53.72] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {6.58125 46.1}
+[21:14:53.82] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[21:14:53.82] /i de::zoom -window [gi::getWindows 3] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {6.5375 46}
+[21:14:54.53] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[21:14:54.53] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {6.71875 45.31875}
+[21:14:54.60] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[21:14:54.60] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {6.71875 45.3}
+[21:14:55.09] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[21:14:55.09] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {6.73125 43.7375}
+[21:14:55.15] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[21:14:55.15] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {6.69375 42.775}
+[21:14:55.25] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[21:14:55.25] /i de::zoom -window [gi::getWindows 3] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {6.2125 40.9}
+[21:14:57.42] /i gi::setActiveWindow 2
+[21:14:57.42] /i gi::setActiveWindow 2 -raise true
+[21:14:58.63] /i gi::setCurrentIndex {views} -index {layout} -in [gi::getWindows 2]
+[21:14:58.63] /i gi::setItemSelection {views} -index {layout} -in [gi::getWindows 2]
+[21:14:58.77] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[21:14:58.82] /r giWindowId 4
+[21:14:58.83] /r giWindowGeometry 1632x972
+[21:15:01.11] /# gi::executeAction {leDisplayAllLevels} -in [gi::getWindows 4]
+[21:15:01.11] /i db::setPrefValue leStopLevel -value 32 -scope [db::getNext [de::getContexts -window 4]]
+[21:15:01.97] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 4]
+[21:15:01.97] /i de::zoom -window [gi::getWindows 4] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {1.7545 -6.5725}
+[21:15:02.03] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 4]
+[21:15:02.03] /i de::zoom -window [gi::getWindows 4] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {1.7495 -6.5775}
+[21:15:02.07] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 4]
+[21:15:02.07] /i de::zoom -window [gi::getWindows 4] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {1.73 -6.5825}
+[21:15:02.50] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 4]
+[21:15:02.50] /i de::zoom -window [gi::getWindows 4] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {1.667 -6.618}
+[21:15:02.55] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 4]
+[21:15:02.55] /i de::zoom -window [gi::getWindows 4] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {1.6675 -6.618}
+[21:15:02.58] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 4]
+[21:15:02.58] /i de::zoom -window [gi::getWindows 4] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {1.6675 -6.6185}
+[21:15:02.62] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 4]
+[21:15:02.62] /i de::zoom -window [gi::getWindows 4] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {1.6675 -6.618}
+[21:15:02.99] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 4]
+[21:15:02.99] /i de::zoom -window [gi::getWindows 4] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {1.53 -7.0705}
+[21:15:03.02] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 4]
+[21:15:03.02] /i de::zoom -window [gi::getWindows 4] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {1.53 -7.0705}
+[21:15:03.08] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 4]
+[21:15:03.08] /i de::zoom -window [gi::getWindows 4] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {1.53 -7.0705}
+[21:15:03.15] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 4]
+[21:15:03.15] /i de::zoom -window [gi::getWindows 4] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {1.53 -7.0705}
+[21:15:03.37] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 4]
+[21:15:03.37] /i de::zoom -window [gi::getWindows 4] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {1.5375 -7.047}
+[21:15:03.40] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 4]
+[21:15:03.40] /i de::zoom -window [gi::getWindows 4] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {1.537 -7.0475}
+[21:15:03.46] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 4]
+[21:15:03.46] /i de::zoom -window [gi::getWindows 4] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {1.5375 -7.047}
+[21:15:04.04] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 4]
+[21:15:04.04] /i de::zoom -window [gi::getWindows 4] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {1.9895 -6.0935}
+[21:15:04.12] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 4]
+[21:15:04.12] /i de::zoom -window [gi::getWindows 4] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {1.955 -6.0985}
+[21:15:04.83] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 4]
+[21:15:04.83] /i de::zoom -window [gi::getWindows 4] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {1.3305 -4.5915}
+[21:15:04.92] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 4]
+[21:15:04.92] /i de::zoom -window [gi::getWindows 4] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {1.331 -4.7145}
+[21:15:05.06] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 4]
+[21:15:05.06] /i de::zoom -window [gi::getWindows 4] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {1.2915 -5.236}
+[21:15:06.19] /# gi::executeAction {deFitView} -in [gi::getWindows 4]
+[21:15:06.19] /i de::fit -window 4 -fitView true
+[21:15:07.51] /i gi::setActiveWindow 2
+[21:15:07.51] /i gi::setActiveWindow 2 -raise true
+[21:15:17.63] /i gi::setCurrentIndex {cells} -index {bitcell} -in [gi::getWindows 2]
+[21:15:17.64] /i gi::setItemSelection {cells} -index {bitcell} -in [gi::getWindows 2]
+[21:15:18.92] /i gi::setCurrentIndex {views} -index {layout} -in [gi::getWindows 2]
+[21:15:19.03] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[21:15:19.06] /r giWindowId 5
+[21:15:19.09] /r giWindowGeometry 1632x972
+[21:15:22.33] /# gi::executeAction {xtDRCSetup} -in [gi::getWindows 5]
+[21:15:22.33] /i xt::showDRCSetup -job drc -window 5
+[21:15:23.04] /i db::setAttr geometry -of [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 5]] -value 598x512+877+366
+[21:15:23.91] /i gi::pressButton {/ok} -in [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 5]]
+[21:15:24.03] /# xt::physicalVerification::executePve drc 5 xtDRCExecutePve
+[21:15:24.15] /m Information: Starting 'Stream Export of OA cell 'mylib/bitcell/layout''...
+[21:15:29.80] /m Information: "PVE Stream Export finished successfully with 0 error, 1 warning." (DATA_IO_COMMANDS-002)
+[21:15:29.90] /m Information: Stream Export of OA cell 'mylib/bitcell/layout' finished.
+[21:15:30.28] /r giWindowId 6
+[21:15:30.32] /r giWindowGeometry 800x600
+[21:15:38.66] /m Information: 
+              /c =============================
+              /c JobID: icv_drc_38
+              /c --- ERROR SUMMARY -----------
+              /c Rule and DRC Error Summary
+              /c 318 total rules were run.
+              /c 3 rules NOT EXECUTED.
+              /c 1 rule has violations.
+              /c There are 9 total violations.
+              /c Refer to bitcell.LAYOUT_ERRORS
+              /c =============================
+              /c 
+[21:15:38.70] /w Warning: Initialize IC Validator VUE Server failed at port 9189: couldn't open socket: address already in use.
+[21:15:38.70] /m Information: Attempt to bind to an available port.
+[21:15:38.70] /m Information: IC Validator VUE Server initialized successfully at port 43524.
+[21:15:43.86] /m Information: Connection closed with 'IC Validator VUE' running on 'grendel27.ece.ncsu.edu'.
+[21:15:44.58] /i gi::executeAction giCloseWindow -in [gi::getWindows 6]
+[21:15:48.07] /# gi::executeAction {leDisplayAllLevels} -in [gi::getWindows 5]
+[21:15:48.07] /i db::setPrefValue leStopLevel -value 32 -scope [db::getNext [de::getContexts -window 5]]
+[21:15:50.13] /i gi::executeAction giCloseWindow -in [gi::getWindows 5]
+[21:15:54.96] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[21:15:55.00] /r giWindowId 7
+[21:15:55.02] /r giWindowGeometry 1632x972
+[21:15:57.62] /# gi::executeAction {xtLVSSetup} -in [gi::getWindows 7]
+[21:15:57.62] /i xt::showLVSSetup -job lvs -window 7
+[21:15:58.36] /i db::setAttr geometry -of [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 7]] -value 838x485+877+362
+[21:15:58.86] /i gi::pressButton {/ok} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 7]]
+[21:15:59.11] /# xt::physicalVerification::executePve lvs 7 xtLVSExecutePve
+[21:15:59.19] /m Information: Starting 'Stream Export of OA cell 'mylib/bitcell/layout''...
+[21:15:59.22] /m Information: "Starting netlisting for design "mylib/bitcell/schematic"..." (NETLISTING-010)
+[21:15:59.31] /o No Design Integrity rule violations found in "mylib/bitcell/schematic"
+[21:15:59.45] /m Information: "Netlisting design "mylib/bitcell/schematic" finished successfully." (NETLISTING-012)
+[21:16:01.62] /m Information: "PVE Stream Export finished successfully with 0 error, 1 warning." (DATA_IO_COMMANDS-002)
+[21:16:01.73] /m Information: Stream Export of OA cell 'mylib/bitcell/layout' finished.
+[21:16:02.15] /r giWindowId 8
+[21:16:02.19] /r giWindowGeometry 800x600
+[21:16:10.26] /m Information: 
+              /c =============================
+              /c JobID: icv_lvs_10
+              /c --- ERROR SUMMARY -----------
+              /c LVS Device Extraction Error Summary
+              /c 2 total rules were run.
+              /c 0 rules NOT EXECUTED.
+              /c 0 rules have violations.
+              /c There are 0 total violations.
+              /c Refer to bitcell.LAYOUT_ERRORS
+              /c =============================
+              /c 
+[21:16:12.62] /r giWindowId 9
+[21:16:12.66] /r giWindowGeometry 1632x972
+[21:16:15.96] /m Information: Connection closed with 'IC Validator VUE' running on 'grendel27.ece.ncsu.edu'.
+[21:16:18.56] /i gi::executeAction giCloseWindow -in [gi::getWindows 7]
+[21:16:22.14] /i gi::executeAction giCloseWindow -in [gi::getWindows 9]
+[21:16:23.54] /i gi::setActiveWindow 2
+[21:16:23.54] /i gi::setActiveWindow 2 -raise true
+[21:16:30.38] /i gi::setCurrentIndex {cells} -index {Write_Driver} -in [gi::getWindows 2]
+[21:16:30.39] /i gi::setItemSelection {cells} -index {Write_Driver} -in [gi::getWindows 2]
+[21:16:31.99] /i gi::setCurrentIndex {views} -index {layout} -in [gi::getWindows 2]
+[21:16:32.12] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[21:16:32.16] /r giWindowId 10
+[21:16:32.19] /r giWindowGeometry 1632x972
+[21:16:33.83] /i gi::setActiveWindow 2
+[21:16:33.83] /i gi::setActiveWindow 2 -raise true
+[21:16:35.96] /i gi::setCurrentIndex {cells} -index {bit_conditioning} -in [gi::getWindows 2]
+[21:16:35.99] /i gi::setItemSelection {cells} -index {bit_conditioning} -in [gi::getWindows 2]
+[21:16:37.32] /i gi::setCurrentIndex {views} -index {layout} -in [gi::getWindows 2]
+[21:16:37.47] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[21:16:37.51] /r giWindowId 11
+[21:16:37.55] /r giWindowGeometry 1632x972
+[21:16:38.15] /i gi::setActiveDialog [gi::getDialogs {leMissingReferences} -parent [gi::getWindows 11]]
+[21:16:38.36] /i db::setAttr geometry -of [gi::getDialogs {leMissingReferences} -parent [gi::getWindows 11]] -value 500x300+700+337
+[21:16:41.42] /i gi::setCurrentIndex {missingReferences} -index {0,1} -in [gi::getDialogs {leMissingReferences} -parent [gi::getWindows 11]]
+[21:17:34.61] /i gi::pressButton {ok} -in [gi::getDialogs {leMissingReferences} -parent [gi::getWindows 11]]
+[21:17:36.19] /i gi::executeAction giCloseWindow -in [gi::getWindows 11]
+[21:17:39.50] /i gi::setActiveWindow 10
+[21:17:39.51] /i gi::setActiveWindow 10 -raise true
+[21:17:41.94] /# gi::executeAction {leDisplayAllLevels} -in [gi::getWindows 10]
+[21:17:41.94] /i db::setPrefValue leStopLevel -value 32 -scope [db::getNext [de::getContexts -window 10]]
+[21:17:44.65] /# gi::executeAction {xtDRCSetup} -in [gi::getWindows 10]
+[21:17:44.65] /i xt::showDRCSetup -job drc -window 10
+[21:17:45.32] /i db::setAttr geometry -of [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 10]] -value 676x512+877+366
+[21:17:46.09] /i gi::pressButton {/ok} -in [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 10]]
+[21:17:46.22] /# xt::physicalVerification::executePve drc 10 xtDRCExecutePve
+[21:17:46.30] /m Information: Starting 'Stream Export of OA cell 'mylib/Write_Driver/layout''...
+[21:17:48.55] /m Information: "PVE Stream Export finished successfully with 0 error, 1 warning." (DATA_IO_COMMANDS-002)
+[21:17:48.66] /m Information: Stream Export of OA cell 'mylib/Write_Driver/layout' finished.
+[21:17:49.06] /r giWindowId 12
+[21:17:49.10] /r giWindowGeometry 800x600
+[21:17:58.26] /m Information: 
+              /c =============================
+              /c JobID: icv_drc_39
+              /c --- ERROR SUMMARY -----------
+              /c Rule and DRC Error Summary
+              /c 318 total rules were run.
+              /c 3 rules NOT EXECUTED.
+              /c 1 rule has violations.
+              /c There are 15 total violations.
+              /c Refer to Write_Driver.LAYOUT_ERRORS
+              /c =============================
+              /c 
+[21:18:04.16] /m Information: Connection closed with 'IC Validator VUE' running on 'grendel27.ece.ncsu.edu'.
+[21:18:05.04] /i gi::setActiveWindow 10
+[21:18:05.04] /i gi::setActiveWindow 10 -raise true
+[21:18:08.21] /# gi::executeAction {xtLVSSetup} -in [gi::getWindows 10]
+[21:18:08.21] /i xt::showLVSSetup -job lvs -window 10
+[21:18:08.94] /i db::setAttr geometry -of [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 10]] -value 838x485+877+362
+[21:18:09.43] /i gi::pressButton {/ok} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 10]]
+[21:18:09.62] /# xt::physicalVerification::executePve lvs 10 xtLVSExecutePve
+[21:18:09.70] /m Information: Starting 'Stream Export of OA cell 'mylib/Write_Driver/layout''...
+[21:18:09.73] /m Information: "Starting netlisting for design "mylib/Write_Driver/schematic"..." (NETLISTING-010)
+[21:18:09.86] /m Information: 
+[21:18:09.86] /o Checking "mylib/Write_Driver/schematic"
+[21:18:09.86] /o No rule violations found in "mylib/Write_Driver/schematic"
+[21:18:09.86] /o No Design Integrity rule violations found in "mylib/Write_Driver/schematic"
+[21:18:10.02] /m Information: "Netlisting design "mylib/Write_Driver/schematic" finished successfully." (NETLISTING-012)
+[21:18:11.99] /m Information: "PVE Stream Export finished successfully with 0 error, 1 warning." (DATA_IO_COMMANDS-002)
+[21:18:12.09] /m Information: Stream Export of OA cell 'mylib/Write_Driver/layout' finished.
+[21:18:12.48] /r giWindowId 13
+[21:18:12.52] /r giWindowGeometry 800x600
+[21:18:20.56] /m Information: 
+              /c =============================
+              /c JobID: icv_lvs_11
+              /c --- ERROR SUMMARY -----------
+              /c LVS Device Extraction Error Summary
+              /c 2 total rules were run.
+              /c 0 rules NOT EXECUTED.
+              /c 0 rules have violations.
+              /c There are 0 total violations.
+              /c Refer to Write_Driver.LAYOUT_ERRORS
+              /c =============================
+              /c 
+[21:18:22.84] /r giWindowId 14
+[21:18:22.89] /r giWindowGeometry 1632x972
+[21:18:56.56] /m Information: Connection closed with 'IC Validator VUE' running on 'grendel27.ece.ncsu.edu'.
+[21:19:00.70] /i gi::executeAction giCloseWindow -in [gi::getWindows 10]
+[21:19:03.26] /i exit
+[21:19:03.30] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 14]]
+[21:19:03.56] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 14]] -value 419x181+741+397
+[21:19:04.26] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 14]]
+[21:19:05.76] /o Shutdown time: Tue May  3 21:19:05 2022
+[21:19:05.76] /o Elapsed session real time: 4.8 minutes
+[21:19:05.76] /o Session terminated. Log is at /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/logs/ccompiler.zwmurray.2022_5_3_211412_29005.log

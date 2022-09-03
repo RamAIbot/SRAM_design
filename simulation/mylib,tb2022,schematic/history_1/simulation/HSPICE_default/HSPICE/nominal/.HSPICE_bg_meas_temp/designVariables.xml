@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Wed May  4 03:43:27 2022-->
+<file-format name="stateCategory" version="1.0">
+ <object type="saDesignVariables" name="designVariables" version="1">
+  <attribute type="giString" name="variableSet" value="default"/>
+  <collection name="variableSets">
+   <object type="saDesignVariableSet" name="variableSets" version="1">
+    <collection name="designVariables">
+     <object type="saDesignVariable" name="designVariables" version="1">
+      <attribute type="giString" name="description" value=""/>
+      <attribute type="giString" name="name" value="clkperiod"/>
+      <attribute type="giBoolean" name="useLocal" value="1"/>
+      <attribute type="giString" name="value" value="500p"/>
+      <attribute type="enVariableType" name="variableType" value="none"/>
+     </object>
+     <object type="saDesignVariable" name="designVariables" version="1">
+      <attribute type="giString" name="description" value=""/>
+      <attribute type="giString" name="name" value="clkrise"/>
+      <attribute type="giBoolean" name="useLocal" value="1"/>
+      <attribute type="giString" name="value" value="5p"/>
+      <attribute type="enVariableType" name="variableType" value="none"/>
+     </object>
+     <object type="saDesignVariable" name="designVariables" version="1">
+      <attribute type="giString" name="description" value=""/>
+      <attribute type="giString" name="name" value="vdd"/>
+      <attribute type="giBoolean" name="useLocal" value="1"/>
+      <attribute type="giString" name="value" value="0.8"/>
+      <attribute type="enVariableType" name="variableType" value="none"/>
+     </object>
+    </collection>
+    <attribute type="giString" name="name" value="default"/>
+   </object>
+  </collection>
+ </object>
+</file-format>

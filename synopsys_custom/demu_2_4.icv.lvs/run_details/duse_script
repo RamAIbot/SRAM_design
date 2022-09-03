@@ -1,0 +1,12 @@
+#!/bin/sh
+total=0
+pathsize=`/usr/bin/du -s --block-size=1 /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/demu_2_4.icv.lvs/run_details | awk '{print $1}'`
+total=$(($total+$pathsize))
+group=0
+group=`/usr/bin/du -s --block-size=1 /dev/shm/ICV_tmp_zwmurray_3151 | awk '{print $1}'`
+echo $group > /dev/shm/ICV_tmp_zwmurray_3151/duse_group.tmp && \
+mv /dev/shm/ICV_tmp_zwmurray_3151/duse_group.tmp /dev/shm/ICV_tmp_zwmurray_3151/duse_group
+pathsize=`/usr/bin/du -s --block-size=1 /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/demu_2_4.icv.lvs/demu_2_4.LAYOUT_ERRORS | awk '{print $1}'`
+total=$(($total+$pathsize))
+echo $total > /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/demu_2_4.icv.lvs/run_details/duse_manager_res.tmp && \
+mv /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/demu_2_4.icv.lvs/run_details/duse_manager_res.tmp /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/demu_2_4.icv.lvs/run_details/duse_manager_res

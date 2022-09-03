@@ -1,0 +1,1679 @@
+not() at FreePDK3.gcut.drc.rs:12: Command replaced with an internal function.
+aGCUT not gGRGCUT1_check
+  Comment: "GCUT.1 : Exact vertical width of GCUT(shape is oriented horizontally) = 10.5 nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+internal1() at FreePDK3.gcut.drc.rs:17: Command replaced with an internal function.
+internal1(aGCUT, < 0.042, extension = NONE, extension_look_past = POINT_TO_POINT, intersecting = {  }, projection_filter = MUTUAL_NON_ORTHOGONAL, projection_mode = ASYMMETRIC, direction = HORIZONTAL, orthogonal = BOTH)
+  Comment: "GCUT.2 : Minimum horizontal length of GCUT(shape is oriented horizontally) >= 42 nm"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external1() at FreePDK3.gcut.drc.rs:23: Command replaced with an internal function.
+external1(aGCUT, < 0.069, extension = RADIAL, intersecting = {  }, intersection_angle = < 90, direction = HORIZONTAL, look_thru = NONE, relational = {  }, extension_look_past = POINT_TO_POINT)
+  Comment: "GCUT.3 : Minimum horizontal space of GCUT >= 69 nm"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external2() at FreePDK3.gcut.drc.rs:28: Command replaced with an internal function.
+external2(aGCUT, aACT, < 0.0205, extension = RADIAL, intersecting = {  }, intersection_angle = < 90, direction = VERTICAL, look_thru = NONE, relational = {  }, extension_look_past = POINT_TO_POINT)
+  Comment: "GCUT.4 : GCUT minimum space to ACT >= 20.5 nm"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not_rectangles() at FreePDK3.gcut.drc.rs:33: Command replaced with an internal function.
+not_rectangles(aGCUT)
+  Comment: "GCUT.5 : GCUT may not bend"
+  Function: not_rectangles
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+and_edge() at FreePDK3.gcut.drc.rs:38: Command replaced with an internal function.
+and_edge(gGCUT_v, aDUMMY, false)
+  Comment: "GCUT.6 : GCUT vertical edge must coinside with DUMMY vertical edge"
+  Function: and_edge
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not_cutting() at FreePDK3.gcut.drc.rs:43: Command replaced with an internal function.
+not_cutting(aGCUT, aGATE, count > 0)
+  Comment: "GCUT.7 : GCUT layer may not exist without the layer GATE"
+  Function: not_cutting
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+interacting() at FreePDK3.gcut.drc.rs:55: Command replaced with an internal function.
+interacting(aGCUT, aACT, include_touch = ALL)
+  Comment: "GCUT.9 : GCUT may not interact with ACT"
+  Function: interacting
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external1() at FreePDK3.gcut.drc.rs:60: Command replaced with an internal function.
+external1(aGCUT, < 0.105, extension = RADIAL, intersecting = {  }, intersection_angle = < 90, direction = VERTICAL, look_thru = NONE, relational = {  }, extension_look_past = POINT_TO_POINT)
+  Comment: "GCUT.10 : Minimum vertical spacing between two GCUT layer >= 105 nm"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external2() at FreePDK3.gcon.drc.rs:54: Command replaced with an internal function.
+external2(aGCON, aGCUT, < 0.0135, extension = RADIAL, intersecting = {  }, intersection_angle = < 90, direction = VERTICAL, look_thru = NONE, relational = {  }, extension_look_past = POINT_TO_POINT)
+  Comment: "GCON.9 : Minimum vertical spacing between GCON and GCUT >= 13.5 nm"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not_aspect_ratio() at FreePDK3.v2.drc.rs:11: Command replaced with an internal function.
+not_aspect_ratio(aV2, direction = SHORT_BY_LONG, orientation = ORTHOGONAL, ratio = == 1)
+  Comment: "V2.1 : V2 shape is square"
+  Function: not_aspect_ratio
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+aspect_ratio() at FreePDK3.v2.drc.rs:16: Command replaced with an internal function.
+aspect_ratio(rectangles(aV2, sides = { != 0.014, != 0.014 }), direction = SHORT_BY_LONG, ratio = == 1)
+  Comment: "V2.2 : V2 is a square with 14nm edge length"
+  Function: aspect_ratio
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external1() at FreePDK3.v2.drc.rs:21: Command replaced with an internal function.
+external1(aV2, < 0.015, extension = RADIAL, intersecting = {  }, intersection_angle = < 90, direction = HORIZONTAL, look_thru = NONE, relational = {  }, extension_look_past = POINT_TO_POINT)
+  Comment: "V2.3 : Minimum spacing of V2 - Full alignment >= 15nm"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external1() at FreePDK3.v2.drc.rs:22: Command replaced with an internal function.
+external1(aV2, < 0.015, extension = RADIAL, intersecting = {  }, intersection_angle = < 90, direction = VERTICAL, look_thru = NONE, relational = {  }, extension_look_past = POINT_TO_POINT)
+  Comment: "V2.3 : Minimum spacing of V2 - Full alignment >= 15nm"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not_interacting() at FreePDK3.v2.drc.rs:27: Command replaced with an internal function.
+not_interacting(aV2, aM2)
+  Comment: "V2.4 : V2 should be enclosed between M2 and M3"
+  Function: not_interacting
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not_interacting() at FreePDK3.v2.drc.rs:28: Command replaced with an internal function.
+not_interacting(aV2, aM3)
+  Comment: "V2.4 : V2 should be enclosed between M2 and M3"
+  Function: not_interacting
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose_error() at FreePDK3.v2.drc.rs:35: Command replaced with an internal function.
+enclose_error(sV2_VERTICAL_EDGES, sM2_VERTICAL_EDGES, < 0.003, edge_containment = INSIDE_TO_OUTSIDE, extension = RADIAL, intersecting = {  }, look_thru = NOT_ADJACENT)
+  Comment: "V2.5 : V2 enclosure by M2 on two opposite sides, horizontal direction >= 3nm"
+  Function: enclose_error
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v2.drc.rs:36: Command replaced with an internal function.
+aV2 not aM2
+  Comment: "V2.5 : V2 enclosure by M2 on two opposite sides, horizontal direction >= 3nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v2.drc.rs:43: Command replaced with an internal function.
+aV2 not aM2
+  Comment: "V2.6 : V2 enclosure by M2 on two opposite sides, vertical direction = 0nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v2.drc.rs:50: Command replaced with an internal function.
+aV2 not aM3
+  Comment: "V2.7 : V2 enclosure by M3 on two opposite sides, horizontal direction = 0nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose_error() at FreePDK3.v2.drc.rs:57: Command replaced with an internal function.
+enclose_error(sV2_HORIZONTAL_EDGES, sM3_HORIZONTAL_EDGES, < 0.003, edge_containment = INSIDE_TO_OUTSIDE, extension = RADIAL, intersecting = {  }, look_thru = NOT_ADJACENT)
+  Comment: "V2.8 : V2 enclosure by M3 on two opposite sides, vertical direction >= 3nm"
+  Function: enclose_error
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v2.drc.rs:58: Command replaced with an internal function.
+aV2 not aM3
+  Comment: "V2.8 : V2 enclosure by M3 on two opposite sides, vertical direction >= 3nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+area() at FreePDK3.v2.drc.rs:64: Command replaced with an internal function.
+area(gV10, < 0.000196)
+  Comment: "V2.9 : Minimum area overlap between M2 and V2 >= 196nm^2"
+  Function: area
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+internal1() at FreePDK3.m3.drc.rs:11: Command replaced with an internal function.
+internal1(aM3, < 0.015, extension = NONE, extension_look_past = POINT_TO_POINT, intersecting = {  }, projection_filter = MUTUAL_NON_ORTHOGONAL, projection_mode = ASYMMETRIC, direction = HORIZONTAL, orthogonal = BOTH)
+  Comment: "M3.1 : METAL3 width minimum >= 15nm"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external1() at FreePDK3.m3.drc.rs:16: Command replaced with an internal function.
+external1(aM3, < 0.015, extension = RADIAL, intersecting = {  }, intersection_angle = < 90, look_thru = NONE, relational = {  }, extension_look_past = POINT_TO_POINT)
+  Comment: "M3.2 : METAL3 spacing minimum >= 15nm"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.m3.drc.rs:22: Command replaced with an internal function.
+aM3 not m3_w_750
+  Comment: "M3.3 : METAL3 maximum width in horizontal direction = 750nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+or() at FreePDK3.m3.drc.rs:38: Command replaced with an internal function.
+mLAYER_3_1 or mLAYER_3_2
+  Comment: "M3.4 : Minimum spacing of METAL3 wider than 45nm and longer than 45nm >= 45nm"
+  Function: or
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+or() at FreePDK3.m3.drc.rs:46: Command replaced with an internal function.
+mLAYER_3_3 or mLAYER_3_4
+  Comment: "M3.5 : Minimum spacing of METAL3 wider than 135nm and longer than 135nm >= 135nm"
+  Function: or
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+or() at FreePDK3.m3.drc.rs:53: Command replaced with an internal function.
+mLAYER_3_5 or mLAYER_3_6
+  Comment: "M3.6 : Minimum spacing of METAL3 wider than 405nm and longer than 405nm >= 405nm"
+  Function: or
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not_rectangles() at FreePDK3.v3.drc.rs:11: Command replaced with an internal function.
+not_rectangles(aV3)
+  Comment: "V3.1 : V3 shape is rectangle"
+  Function: not_rectangles
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v3.drc.rs:17: Command replaced with an internal function.
+aV3 not gGRV3_1_check
+  Comment: "V3.2 : V3 is a rectangle with 15nm horizontal edge and 24nm vertical edge"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v3.drc.rs:19: Command replaced with an internal function.
+aV3 not gGRV3_2_check
+  Comment: "V3.2 : V3 is a rectangle with 15nm horizontal edge and 24nm vertical edge"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external1() at FreePDK3.v3.drc.rs:24: Command replaced with an internal function.
+external1(aV3, < 0.015, extension = RADIAL, intersecting = {  }, intersection_angle = < 90, direction = HORIZONTAL, look_thru = NONE, relational = {  }, extension_look_past = POINT_TO_POINT)
+  Comment: "V3.3a : Minimum horizontal spacing of V3 - Full alignment >= 15nm"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external1() at FreePDK3.v3.drc.rs:29: Command replaced with an internal function.
+external1(aV3, < 0.024, extension = RADIAL, intersecting = {  }, intersection_angle = < 90, direction = VERTICAL, look_thru = NONE, relational = {  }, extension_look_past = POINT_TO_POINT)
+  Comment: "V3.3b : Minimum vertical spacing of V3 - Full alignment >= 24nm"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not_interacting() at FreePDK3.v3.drc.rs:34: Command replaced with an internal function.
+not_interacting(aV3, aM3)
+  Comment: "V3.4 : V3 should be enclosed between M3 and M4"
+  Function: not_interacting
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not_interacting() at FreePDK3.v3.drc.rs:35: Command replaced with an internal function.
+not_interacting(aV3, aM4)
+  Comment: "V3.4 : V3 should be enclosed between M3 and M4"
+  Function: not_interacting
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v3.drc.rs:42: Command replaced with an internal function.
+aV3 not aM3
+  Comment: "V3.5 : V3 enclosure by M3 on two opposite sides, horizontal direction == 0nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose_error() at FreePDK3.v3.drc.rs:49: Command replaced with an internal function.
+enclose_error(sV3_HORIZONTAL_EDGES, sM3_HORIZONTAL_EDGES, < 0.003, edge_containment = INSIDE_TO_OUTSIDE, extension = RADIAL, intersecting = {  }, look_thru = NOT_ADJACENT)
+  Comment: "V3.6 : V3 enclosure by M3 on two opposite sides, vertical direction >= 3nm"
+  Function: enclose_error
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v3.drc.rs:50: Command replaced with an internal function.
+aV3 not aM3
+  Comment: "V3.6 : V3 enclosure by M3 on two opposite sides, vertical direction >= 3nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose_error() at FreePDK3.v3.drc.rs:57: Command replaced with an internal function.
+enclose_error(sV3_VERTICAL_EDGES, sM4_VERTICAL_EDGES, < 0.003, edge_containment = INSIDE_TO_OUTSIDE, extension = RADIAL, intersecting = {  }, look_thru = NOT_ADJACENT)
+  Comment: "V3.7 : V3 enclosure by M4 on two opposite sides, horizontal direction >= 3nm"
+  Function: enclose_error
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v3.drc.rs:58: Command replaced with an internal function.
+aV3 not aM4
+  Comment: "V3.7 : V3 enclosure by M4 on two opposite sides, horizontal direction >= 3nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v3.drc.rs:65: Command replaced with an internal function.
+aV3 not aM4
+  Comment: "V3.8 : V3 enclosure by M4 on two opposite sides, vertical direction == 0nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+area() at FreePDK3.v3.drc.rs:71: Command replaced with an internal function.
+area(gV11, < 0.000360)
+  Comment: "V3.9 : Minimum area overlap between M3 and V3 >= 360nm^2"
+  Function: area
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+internal1() at FreePDK3.m4.drc.rs:11: Command replaced with an internal function.
+internal1(aM4, < 0.024, extension = NONE, extension_look_past = POINT_TO_POINT, intersecting = {  }, projection_filter = MUTUAL_NON_ORTHOGONAL, projection_mode = ASYMMETRIC, direction = VERTICAL, orthogonal = BOTH)
+  Comment: "M4.1 : METAL4 width minimum >= 24nm"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external1() at FreePDK3.m4.drc.rs:16: Command replaced with an internal function.
+external1(aM4, < 0.024, extension = RADIAL, intersecting = {  }, intersection_angle = < 90, look_thru = NONE, relational = {  }, extension_look_past = POINT_TO_POINT)
+  Comment: "M4.2 : METAL4 spacing minimum >= 24nm"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.m4.drc.rs:22: Command replaced with an internal function.
+aM4 not m4_w_1200
+  Comment: "M4.3 : METAL4 maximum width in vertical direction = 1200nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+or() at FreePDK3.m4.drc.rs:38: Command replaced with an internal function.
+mLAYER_4_1 or mLAYER_4_2
+  Comment: "M4.4 : Minimum spacing of METAL4 wider than 72nm and longer than 72nm >= 72nm"
+  Function: or
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+or() at FreePDK3.m4.drc.rs:46: Command replaced with an internal function.
+mLAYER_4_3 or mLAYER_4_4
+  Comment: "M4.5 : Minimum spacing of METAL4 wider than 216nm and longer than 216nm >= 216nm"
+  Function: or
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+or() at FreePDK3.m4.drc.rs:53: Command replaced with an internal function.
+mLAYER_4_5 or mLAYER_4_6
+  Comment: "M4.6 : Minimum spacing of METAL4 wider than 648nm and longer than 648nm >= 648nm"
+  Function: or
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not_aspect_ratio() at FreePDK3.v4.drc.rs:11: Command replaced with an internal function.
+not_aspect_ratio(aV4, direction = SHORT_BY_LONG, orientation = ORTHOGONAL, ratio = == 1)
+  Comment: "V4.1 : V4 shape is square"
+  Function: not_aspect_ratio
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+aspect_ratio() at FreePDK3.v4.drc.rs:16: Command replaced with an internal function.
+aspect_ratio(rectangles(aV4, sides = { != 0.024, != 0.024 }), direction = SHORT_BY_LONG, ratio = == 1)
+  Comment: "V4.2 : V4 is a square with 24nm edge length"
+  Function: aspect_ratio
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external1() at FreePDK3.v4.drc.rs:21: Command replaced with an internal function.
+external1(aV4, < 0.024, extension = RADIAL, intersecting = {  }, intersection_angle = < 90, direction = HORIZONTAL, look_thru = NONE, relational = {  }, extension_look_past = POINT_TO_POINT)
+  Comment: "V4.3 : Minimum spacing of V4 - Full alignment >= 24nm"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external1() at FreePDK3.v4.drc.rs:23: Command replaced with an internal function.
+external1(aV4, < 0.024, extension = RADIAL, intersecting = {  }, intersection_angle = < 90, direction = VERTICAL, look_thru = NONE, relational = {  }, extension_look_past = POINT_TO_POINT)
+  Comment: "V4.3 : Minimum spacing of V4 - Full alignment >= 24nm"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not_interacting() at FreePDK3.v4.drc.rs:33: Command replaced with an internal function.
+not_interacting(aV4, aM4)
+  Comment: "V4.4 : V4 should be enclosed between M4 and M5"
+  Function: not_interacting
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not_interacting() at FreePDK3.v4.drc.rs:34: Command replaced with an internal function.
+not_interacting(aV4, aM5)
+  Comment: "V4.4 : V4 should be enclosed between M4 and M5"
+  Function: not_interacting
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose_error() at FreePDK3.v4.drc.rs:41: Command replaced with an internal function.
+enclose_error(sV4_VERTICAL_EDGES, sM4_VERTICAL_EDGES, < 0.01, edge_containment = INSIDE_TO_OUTSIDE, extension = RADIAL, intersecting = {  }, look_thru = NOT_ADJACENT)
+  Comment: "V4.5 : V4 enclosure by M4 on two opposite sides, horizontal direction >= 10nm"
+  Function: enclose_error
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v4.drc.rs:42: Command replaced with an internal function.
+aV4 not aM4
+  Comment: "V4.5 : V4 enclosure by M4 on two opposite sides, horizontal direction >= 10nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v4.drc.rs:49: Command replaced with an internal function.
+aV4 not aM4
+  Comment: "V4.6 : V4 enclosure by M4 on two opposite sides, vertical direction == 0nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v4.drc.rs:56: Command replaced with an internal function.
+aV4 not aM5
+  Comment: "V4.7 : V4 enclosure by M5 on two opposite sides, horizontal direction == 0nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose_error() at FreePDK3.v4.drc.rs:63: Command replaced with an internal function.
+enclose_error(sV4_HORIZONTAL_EDGES, sM5_HORIZONTAL_EDGES, < 0.01, edge_containment = INSIDE_TO_OUTSIDE, extension = RADIAL, intersecting = {  }, look_thru = NOT_ADJACENT)
+  Comment: "V4.8 : V4 enclosure by M5 on two opposite sides, vertical direction >= 10nm"
+  Function: enclose_error
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v4.drc.rs:64: Command replaced with an internal function.
+aV4 not aM5
+  Comment: "V4.8 : V4 enclosure by M5 on two opposite sides, vertical direction >= 10nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+area() at FreePDK3.v4.drc.rs:70: Command replaced with an internal function.
+area(gV9, < 0.000576)
+  Comment: "V4.9 : Minimum area overlap between M4 and V4 >= 576nm^2"
+  Function: area
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+internal1() at FreePDK3.m5.drc.rs:11: Command replaced with an internal function.
+internal1(aM5, < 0.024, extension = NONE, extension_look_past = POINT_TO_POINT, intersecting = {  }, projection_filter = MUTUAL_NON_ORTHOGONAL, projection_mode = ASYMMETRIC, direction = HORIZONTAL, orthogonal = BOTH)
+  Comment: "M5.1 : METAL5 width minimum >= 24nm"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external1() at FreePDK3.m5.drc.rs:16: Command replaced with an internal function.
+external1(aM5, < 0.024, extension = RADIAL, intersecting = {  }, intersection_angle = < 90, look_thru = NONE, relational = {  }, extension_look_past = POINT_TO_POINT)
+  Comment: "M5.2 : METAL5 spacing minimum >= 24nm"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.m5.drc.rs:22: Command replaced with an internal function.
+aM5 not m5_w_1200
+  Comment: "M5.3 : METAL5 maximum width in horizontal direction= 1200nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+or() at FreePDK3.m5.drc.rs:38: Command replaced with an internal function.
+mLAYER_5_1 or mLAYER_5_2
+  Comment: "M5.4 : Minimum spacing of METAL5 wider than 72nm and longer than 72nm >= 72nm"
+  Function: or
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+or() at FreePDK3.m5.drc.rs:46: Command replaced with an internal function.
+mLAYER_5_3 or mLAYER_5_4
+  Comment: "M5.5 : Minimum spacing of METAL5 wider than 216nm and longer than 216nm >= 216nm"
+  Function: or
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+or() at FreePDK3.m5.drc.rs:53: Command replaced with an internal function.
+mLAYER_5_5 or mLAYER_5_6
+  Comment: "M5.6 : Minimum spacing of METAL5 wider than 648nm and longer than 648nm >= 648nm"
+  Function: or
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not_aspect_ratio() at FreePDK3.v5.drc.rs:11: Command replaced with an internal function.
+not_aspect_ratio(aV5, direction = SHORT_BY_LONG, orientation = ORTHOGONAL, ratio = == 1)
+  Comment: "V5.1 : V5 shape is square"
+  Function: not_aspect_ratio
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+aspect_ratio() at FreePDK3.v5.drc.rs:16: Command replaced with an internal function.
+aspect_ratio(rectangles(aV5, sides = { != 0.024, != 0.024 }), direction = SHORT_BY_LONG, ratio = == 1)
+  Comment: "V5.2 : V5 is a square with 24nm edge length"
+  Function: aspect_ratio
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external1() at FreePDK3.v5.drc.rs:21: Command replaced with an internal function.
+external1(aV5, < 0.024, extension = RADIAL, intersecting = {  }, intersection_angle = < 90, direction = HORIZONTAL, look_thru = NONE, relational = {  }, extension_look_past = POINT_TO_POINT)
+  Comment: "V5.3 : Minimum spacing of V5 - Full alignment >= 24nm"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external1() at FreePDK3.v5.drc.rs:22: Command replaced with an internal function.
+external1(aV5, < 0.024, extension = RADIAL, intersecting = {  }, intersection_angle = < 90, direction = VERTICAL, look_thru = NONE, relational = {  }, extension_look_past = POINT_TO_POINT)
+  Comment: "V5.3 : Minimum spacing of V5 - Full alignment >= 24nm"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not_interacting() at FreePDK3.v5.drc.rs:27: Command replaced with an internal function.
+not_interacting(aV5, aM5)
+  Comment: "V5.4 : V5 should be enclosed between M5 and M6"
+  Function: not_interacting
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not_interacting() at FreePDK3.v5.drc.rs:28: Command replaced with an internal function.
+not_interacting(aV5, aM6)
+  Comment: "V5.4 : V5 should be enclosed between M5 and M6"
+  Function: not_interacting
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v5.drc.rs:35: Command replaced with an internal function.
+aV5 not aM5
+  Comment: "V5.5 : V5 enclosure by M5 on two opposite sides, horizontal direction = 0nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose_error() at FreePDK3.v5.drc.rs:42: Command replaced with an internal function.
+enclose_error(sV5_HORIZONTAL_EDGES, sM5_HORIZONTAL_EDGES, < 0.01, edge_containment = INSIDE_TO_OUTSIDE, extension = RADIAL, intersecting = {  }, look_thru = NOT_ADJACENT)
+  Comment: "V5.6 : V5 enclosure by M5 on two opposite sides, vertical direction >= 10nm"
+  Function: enclose_error
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v5.drc.rs:43: Command replaced with an internal function.
+aV5 not aM5
+  Comment: "V5.6 : V5 enclosure by M5 on two opposite sides, vertical direction >= 10nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose_error() at FreePDK3.v5.drc.rs:50: Command replaced with an internal function.
+enclose_error(sV5_VERTICAL_EDGES, sM6_VERTICAL_EDGES, < 0.01, edge_containment = INSIDE_TO_OUTSIDE, extension = RADIAL, intersecting = {  }, look_thru = NOT_ADJACENT)
+  Comment: "V5.7 : V5 enclosure by M6 on two opposite sides, horizontal direction >= 10nm"
+  Function: enclose_error
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v5.drc.rs:51: Command replaced with an internal function.
+aV5 not aM6
+  Comment: "V5.7 : V5 enclosure by M6 on two opposite sides, horizontal direction >= 10nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v5.drc.rs:58: Command replaced with an internal function.
+aV5 not aM6
+  Comment: "V5.8 : V5 enclosure by M6 on two opposite sides, vertical direction = 0nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+area() at FreePDK3.v5.drc.rs:64: Command replaced with an internal function.
+area(gV9, < 0.000576)
+  Comment: "V5.9 : Minimum area overlap between M5 and V5 >= 576nm^2"
+  Function: area
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+internal1() at FreePDK3.m6.drc.rs:11: Command replaced with an internal function.
+internal1(aM6, < 0.024, extension = NONE, extension_look_past = POINT_TO_POINT, intersecting = {  }, projection_filter = MUTUAL_NON_ORTHOGONAL, projection_mode = ASYMMETRIC, direction = VERTICAL, orthogonal = BOTH)
+  Comment: "M6.1 : METAL6 width minimum >= 24nm"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external1() at FreePDK3.m6.drc.rs:16: Command replaced with an internal function.
+external1(aM6, < 0.024, extension = RADIAL, intersecting = {  }, intersection_angle = < 90, look_thru = NONE, relational = {  }, extension_look_past = POINT_TO_POINT)
+  Comment: "M6.2 : METAL6 spacing minimum >= 24nm"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.m6.drc.rs:22: Command replaced with an internal function.
+aM6 not m6_w_1200
+  Comment: "M6.3 : METAL6 maximum width in vertical direction = 1200nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+or() at FreePDK3.m6.drc.rs:38: Command replaced with an internal function.
+mLAYER_6_1 or mLAYER_6_2
+  Comment: "M6.4 : Minimum spacing of METAL6 wider than 72nm and longer than 72nm >= 72nm"
+  Function: or
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+or() at FreePDK3.m6.drc.rs:46: Command replaced with an internal function.
+mLAYER_6_3 or mLAYER_6_4
+  Comment: "M6.5 : Minimum spacing of METAL6 wider than 216nm and longer than 216nm >= 216nm"
+  Function: or
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+or() at FreePDK3.m6.drc.rs:53: Command replaced with an internal function.
+mLAYER_6_5 or mLAYER_6_6
+  Comment: "M6.6 : Minimum spacing of METAL6 wider than 648nm and longer than 648nm >= 648nm"
+  Function: or
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not_rectangles() at FreePDK3.v6.drc.rs:11: Command replaced with an internal function.
+not_rectangles(aV6)
+  Comment: "V6.1 : V6 shape is rectangle"
+  Function: not_rectangles
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v6.drc.rs:17: Command replaced with an internal function.
+aV6 not gGRV6_1_check
+  Comment: "V6.2 : V6 is a rectangle with 40nm horizontal edge and 24nm vertical edge"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v6.drc.rs:19: Command replaced with an internal function.
+aV6 not gGRV6_2_check
+  Comment: "V6.2 : V6 is a rectangle with 40nm horizontal edge and 24nm vertical edge"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external1() at FreePDK3.v6.drc.rs:24: Command replaced with an internal function.
+external1(aV6, < 0.04, extension = RADIAL, intersecting = {  }, intersection_angle = < 90, direction = HORIZONTAL, look_thru = NONE, relational = {  }, extension_look_past = POINT_TO_POINT)
+  Comment: "V6.3a : Minimum horizontal spacing of V6 - Full alignment >= 40nm"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external1() at FreePDK3.v6.drc.rs:29: Command replaced with an internal function.
+external1(aV6, < 0.024, extension = RADIAL, intersecting = {  }, intersection_angle = < 90, direction = VERTICAL, look_thru = NONE, relational = {  }, extension_look_past = POINT_TO_POINT)
+  Comment: "V6.3b : Minimum vertical spacing of V6 - Full alignment >= 24nm"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not_interacting() at FreePDK3.v6.drc.rs:34: Command replaced with an internal function.
+not_interacting(aV6, aM6)
+  Comment: "V6.4 : V6 should be enclosed between M6 and M7"
+  Function: not_interacting
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not_interacting() at FreePDK3.v6.drc.rs:35: Command replaced with an internal function.
+not_interacting(aV6, aM7)
+  Comment: "V6.4 : V6 should be enclosed between M6 and M7"
+  Function: not_interacting
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose_error() at FreePDK3.v6.drc.rs:42: Command replaced with an internal function.
+enclose_error(sV6_VERTICAL_EDGES, sM6_VERTICAL_EDGES, < 0.01, edge_containment = INSIDE_TO_OUTSIDE, extension = RADIAL, intersecting = {  }, look_thru = NOT_ADJACENT)
+  Comment: "V6.5 : V6 enclosure by M6 on two opposite sides, horizontal direction >= 10nm"
+  Function: enclose_error
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v6.drc.rs:43: Command replaced with an internal function.
+aV6 not aM6
+  Comment: "V6.5 : V6 enclosure by M6 on two opposite sides, horizontal direction >= 10nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+and_edge() at FreePDK3.v6.drc.rs:49: Command replaced with an internal function.
+and_edge(sM6_HORIZONTAL_EDGES, aV6, false)
+  Comment: "V6.6 : V6 enclosure by M6 on two opposite sides, vertical direction = 0nm"
+  Function: and_edge
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+and_edge() at FreePDK3.v6.drc.rs:55: Command replaced with an internal function.
+and_edge(sM7_VERTICAL_EDGES, aV6, false)
+  Comment: "V6.7 : V6 enclosure by M7 on two opposite sides, horizontal direction = 0nm"
+  Function: and_edge
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose_error() at FreePDK3.v6.drc.rs:62: Command replaced with an internal function.
+enclose_error(sV6_HORIZONTAL_EDGES, sM7_HORIZONTAL_EDGES, < 0.01, edge_containment = INSIDE_TO_OUTSIDE, extension = RADIAL, intersecting = {  }, look_thru = NOT_ADJACENT)
+  Comment: "V6.8 : V6 enclosure by M7 on two opposite sides, vertical direction >= 10nm"
+  Function: enclose_error
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v6.drc.rs:63: Command replaced with an internal function.
+aV6 not aM7
+  Comment: "V6.8 : V6 enclosure by M7 on two opposite sides, vertical direction >= 10nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+area() at FreePDK3.v6.drc.rs:69: Command replaced with an internal function.
+area(gV10, < 0.000960)
+  Comment: "V6.9 : Minimum area overlap between M6 and V6 >= 960 nm^2"
+  Function: area
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+internal1() at FreePDK3.m7.drc.rs:11: Command replaced with an internal function.
+internal1(aM7, < 0.04, extension = NONE, extension_look_past = POINT_TO_POINT, intersecting = {  }, projection_filter = MUTUAL_NON_ORTHOGONAL, projection_mode = ASYMMETRIC, direction = HORIZONTAL, orthogonal = BOTH)
+  Comment: "M7.1 : METAL7 width minimum >= 40nm"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external1() at FreePDK3.m7.drc.rs:16: Command replaced with an internal function.
+external1(aM7, < 0.04, extension = RADIAL, intersecting = {  }, intersection_angle = < 90, look_thru = NONE, relational = {  }, extension_look_past = POINT_TO_POINT)
+  Comment: "M7.2 : METAL7 spacing minimum >= 40nm"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.m7.drc.rs:22: Command replaced with an internal function.
+aM7 not m7_w_2000
+  Comment: "M7.3 : METAL7 maximum width in horizontal direction = 2000nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+or() at FreePDK3.m7.drc.rs:38: Command replaced with an internal function.
+mLAYER_7_1 or mLAYER_7_2
+  Comment: "M7.4 : Minimum spacing of METAL7 wider than 120nm and longer than 120nm >= 120nm"
+  Function: or
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+or() at FreePDK3.m7.drc.rs:46: Command replaced with an internal function.
+mLAYER_7_3 or mLAYER_7_4
+  Comment: "M7.5 : Minimum spacing of METAL7 wider than 360nm and longer than 360nm >= 360nm"
+  Function: or
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+or() at FreePDK3.m7.drc.rs:53: Command replaced with an internal function.
+mLAYER_7_5 or mLAYER_7_6
+  Comment: "M7.6 : Minimum spacing of METAL7 wider than 1080nm and longer than 1080nm >= 1080nm"
+  Function: or
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not_aspect_ratio() at FreePDK3.v7.drc.rs:11: Command replaced with an internal function.
+not_aspect_ratio(aV7, direction = SHORT_BY_LONG, orientation = ORTHOGONAL, ratio = == 1)
+  Comment: "V7.1 : V7 shape is square"
+  Function: not_aspect_ratio
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+aspect_ratio() at FreePDK3.v7.drc.rs:16: Command replaced with an internal function.
+aspect_ratio(rectangles(aV7, sides = { != 0.04, != 0.04 }), direction = SHORT_BY_LONG, ratio = == 1)
+  Comment: "V7.2 : V7 is a square with 40nm edge length"
+  Function: aspect_ratio
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external1() at FreePDK3.v7.drc.rs:21: Command replaced with an internal function.
+external1(aV7, < 0.04, extension = RADIAL, intersecting = {  }, intersection_angle = < 90, direction = HORIZONTAL, look_thru = NONE, relational = {  }, extension_look_past = POINT_TO_POINT)
+  Comment: "V7.3 : Minimum spacing of V7 - Full alignment >= 40nm"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external1() at FreePDK3.v7.drc.rs:22: Command replaced with an internal function.
+external1(aV7, < 0.04, extension = RADIAL, intersecting = {  }, intersection_angle = < 90, direction = VERTICAL, look_thru = NONE, relational = {  }, extension_look_past = POINT_TO_POINT)
+  Comment: "V7.3 : Minimum spacing of V7 - Full alignment >= 40nm"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not_interacting() at FreePDK3.v7.drc.rs:27: Command replaced with an internal function.
+not_interacting(aV7, aM7)
+  Comment: "V7.4 : V7 should be enclosed between M7 and M8"
+  Function: not_interacting
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not_interacting() at FreePDK3.v7.drc.rs:28: Command replaced with an internal function.
+not_interacting(aV7, aM8)
+  Comment: "V7.4 : V7 should be enclosed between M7 and M8"
+  Function: not_interacting
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v7.drc.rs:35: Command replaced with an internal function.
+aV7 not aM7
+  Comment: "V7.5 : V7 enclosure by M7 on two opposite sides, horizontal direction = 0nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose_error() at FreePDK3.v7.drc.rs:42: Command replaced with an internal function.
+enclose_error(sV7_HORIZONTAL_EDGES, sM7_HORIZONTAL_EDGES, < 0.01, edge_containment = INSIDE_TO_OUTSIDE, extension = RADIAL, intersecting = {  }, look_thru = NOT_ADJACENT)
+  Comment: "V7.6 : V7 enclosure by M7 on two opposite sides, vertical direction >= 10nm"
+  Function: enclose_error
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v7.drc.rs:43: Command replaced with an internal function.
+aV7 not aM7
+  Comment: "V7.6 : V7 enclosure by M7 on two opposite sides, vertical direction >= 10nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose_error() at FreePDK3.v7.drc.rs:50: Command replaced with an internal function.
+enclose_error(sV7_VERTICAL_EDGES, sM8_VERTICAL_EDGES, < 0.01, edge_containment = INSIDE_TO_OUTSIDE, extension = RADIAL, intersecting = {  }, look_thru = NOT_ADJACENT)
+  Comment: "V7.7 : V7 enclosure by M8 on two opposite sides, horizontal direction >= 10nm"
+  Function: enclose_error
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v7.drc.rs:51: Command replaced with an internal function.
+aV7 not aM8
+  Comment: "V7.7 : V7 enclosure by M8 on two opposite sides, horizontal direction >= 10nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v7.drc.rs:58: Command replaced with an internal function.
+aV7 not aM8
+  Comment: "V7.8 : V7 enclosure by M8 on two opposite sides, vertical direction = 0nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+area() at FreePDK3.v7.drc.rs:64: Command replaced with an internal function.
+area(gV9, < 0.001600)
+  Comment: "V7.9 : Minimum area overlap between M7 and V7 >= 1600 nm^2"
+  Function: area
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+internal1() at FreePDK3.m8.drc.rs:11: Command replaced with an internal function.
+internal1(aM8, < 0.04, extension = NONE, extension_look_past = POINT_TO_POINT, intersecting = {  }, projection_filter = MUTUAL_NON_ORTHOGONAL, projection_mode = ASYMMETRIC, direction = VERTICAL, orthogonal = BOTH)
+  Comment: "M8.1 : METAL8 width minimum >= 40nm"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external1() at FreePDK3.m8.drc.rs:16: Command replaced with an internal function.
+external1(aM8, < 0.04, extension = RADIAL, intersecting = {  }, intersection_angle = < 90, look_thru = NONE, relational = {  }, extension_look_past = POINT_TO_POINT)
+  Comment: "M8.2 : METAL8 spacing minimum >= 40nm"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.m8.drc.rs:22: Command replaced with an internal function.
+aM8 not m8_w_2000
+  Comment: "M8.3 : METAL8 maximum width in vertical direction = 2000nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+or() at FreePDK3.m8.drc.rs:38: Command replaced with an internal function.
+mLAYER_8_1 or mLAYER_8_2
+  Comment: "M8.4 : Minimum spacing of METAL8 wider than 120nm and longer than 120nm >= 120nm"
+  Function: or
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+or() at FreePDK3.m8.drc.rs:46: Command replaced with an internal function.
+mLAYER_8_3 or mLAYER_8_4
+  Comment: "M8.5 : Minimum spacing of METAL8 wider than 360nm and longer than 360nm >= 360nm"
+  Function: or
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+or() at FreePDK3.m8.drc.rs:53: Command replaced with an internal function.
+mLAYER_8_5 or mLAYER_8_6
+  Comment: "M8.6 : Minimum spacing of METAL8 wider than 1080nm and longer than 1080nm >= 1080nm"
+  Function: or
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not_aspect_ratio() at FreePDK3.v8.drc.rs:11: Command replaced with an internal function.
+not_aspect_ratio(aV8, direction = SHORT_BY_LONG, orientation = ORTHOGONAL, ratio = == 1)
+  Comment: "V8.1 : V8 shape is square"
+  Function: not_aspect_ratio
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+aspect_ratio() at FreePDK3.v8.drc.rs:16: Command replaced with an internal function.
+aspect_ratio(rectangles(aV8, sides = { != 0.04, != 0.04 }), direction = SHORT_BY_LONG, ratio = == 1)
+  Comment: "V8.2 : V8 is a square with 40nm edge length"
+  Function: aspect_ratio
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external1() at FreePDK3.v8.drc.rs:21: Command replaced with an internal function.
+external1(aV8, < 0.04, extension = RADIAL, intersecting = {  }, intersection_angle = < 90, direction = HORIZONTAL, look_thru = NONE, relational = {  }, extension_look_past = POINT_TO_POINT)
+  Comment: "V8.3 : Minimum spacing of V8 - Full alignment >= 40nm"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external1() at FreePDK3.v8.drc.rs:22: Command replaced with an internal function.
+external1(aV8, < 0.04, extension = RADIAL, intersecting = {  }, intersection_angle = < 90, direction = VERTICAL, look_thru = NONE, relational = {  }, extension_look_past = POINT_TO_POINT)
+  Comment: "V8.3 : Minimum spacing of V8 - Full alignment >= 40nm"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not_interacting() at FreePDK3.v8.drc.rs:27: Command replaced with an internal function.
+not_interacting(aV8, aM8)
+  Comment: "V8.4 : V8 should be enclosed between M8 and M9"
+  Function: not_interacting
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not_interacting() at FreePDK3.v8.drc.rs:28: Command replaced with an internal function.
+not_interacting(aV8, aM9)
+  Comment: "V8.4 : V8 should be enclosed between M8 and M9"
+  Function: not_interacting
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose_error() at FreePDK3.v8.drc.rs:35: Command replaced with an internal function.
+enclose_error(sV8_VERTICAL_EDGES, sM8_VERTICAL_EDGES, < 0.01, edge_containment = INSIDE_TO_OUTSIDE, extension = RADIAL, intersecting = {  }, look_thru = NOT_ADJACENT)
+  Comment: "V8.5 : V8 enclosure by M8 on two opposite sides, horizontal direction >= 10nm"
+  Function: enclose_error
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v8.drc.rs:36: Command replaced with an internal function.
+aV8 not aM8
+  Comment: "V8.5 : V8 enclosure by M8 on two opposite sides, horizontal direction >= 10nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v8.drc.rs:43: Command replaced with an internal function.
+aV8 not aM8
+  Comment: "V8.6 : V8 enclosure by M8 on two opposite sides, vertical direction = 0nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v8.drc.rs:50: Command replaced with an internal function.
+aV8 not aM9
+  Comment: "V8.7 : V8 enclosure by M9 on two opposite sides, horizontal direction = 0nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose_error() at FreePDK3.v8.drc.rs:57: Command replaced with an internal function.
+enclose_error(sV8_HORIZONTAL_EDGES, sM9_HORIZONTAL_EDGES, < 0.01, edge_containment = INSIDE_TO_OUTSIDE, extension = RADIAL, intersecting = {  }, look_thru = NOT_ADJACENT)
+  Comment: "V8.8 : V8 enclosure by M9 on two opposite sides, vertical direction >= 10nm"
+  Function: enclose_error
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v8.drc.rs:58: Command replaced with an internal function.
+aV8 not aM9
+  Comment: "V8.8 : V8 enclosure by M9 on two opposite sides, vertical direction >= 10nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+area() at FreePDK3.v8.drc.rs:64: Command replaced with an internal function.
+area(gV9, < 0.001600)
+  Comment: "V8.9 : Minimum area overlap between M8 and V8 >= 1600nm^2"
+  Function: area
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+internal1() at FreePDK3.m9.drc.rs:11: Command replaced with an internal function.
+internal1(aM9, < 0.04, extension = NONE, extension_look_past = POINT_TO_POINT, intersecting = {  }, projection_filter = MUTUAL_NON_ORTHOGONAL, projection_mode = ASYMMETRIC, direction = HORIZONTAL, orthogonal = BOTH)
+  Comment: "M9.1 : METAL9 width minimum >= 40nm"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external1() at FreePDK3.m9.drc.rs:16: Command replaced with an internal function.
+external1(aM9, < 0.04, extension = RADIAL, intersecting = {  }, intersection_angle = < 90, look_thru = NONE, relational = {  }, extension_look_past = POINT_TO_POINT)
+  Comment: "M9.2 : METAL9 spacing minimum >= 40nm"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.m9.drc.rs:22: Command replaced with an internal function.
+aM9 not m9_w_2000
+  Comment: "M9.3 : METAL9 maximum width in horizontal direction = 2000nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+or() at FreePDK3.m9.drc.rs:38: Command replaced with an internal function.
+mLAYER_9_1 or mLAYER_9_2
+  Comment: "M9.4 : Minimum spacing of METAL9 wider than 120nm and longer than 120nm >= 120nm"
+  Function: or
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+or() at FreePDK3.m9.drc.rs:46: Command replaced with an internal function.
+mLAYER_9_3 or mLAYER_9_4
+  Comment: "M9.5 : Minimum spacing of METAL9 wider than 360nm and longer than 360nm >= 360nm"
+  Function: or
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+or() at FreePDK3.m9.drc.rs:53: Command replaced with an internal function.
+mLAYER_9_5 or mLAYER_9_6
+  Comment: "M9.6 : Minimum spacing of METAL9 wider than 1080nm and longer than 1080nm >= 1080nm"
+  Function: or
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not_rectangles() at FreePDK3.v9.drc.rs:11: Command replaced with an internal function.
+not_rectangles(aV9)
+  Comment: "V9.1 : V9 shape is rectangle"
+  Function: not_rectangles
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v9.drc.rs:17: Command replaced with an internal function.
+aV9 not gGRV9_1_check
+  Comment: "V9.2 : V9 is a rectangle with 40nm horizontal edge and 80nm vertical edge"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v9.drc.rs:19: Command replaced with an internal function.
+aV9 not gGRV9_2_check
+  Comment: "V9.2 : V9 is a rectangle with 40nm horizontal edge and 80nm vertical edge"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external1() at FreePDK3.v9.drc.rs:24: Command replaced with an internal function.
+external1(aV9, < 0.04, extension = RADIAL, intersecting = {  }, intersection_angle = < 90, direction = HORIZONTAL, look_thru = NONE, relational = {  }, extension_look_past = POINT_TO_POINT)
+  Comment: "V9.3a : Minimum horizontal spacing of V9 - Full alignment >= 40nm"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external1() at FreePDK3.v9.drc.rs:29: Command replaced with an internal function.
+external1(aV9, < 0.08, extension = RADIAL, intersecting = {  }, intersection_angle = < 90, direction = VERTICAL, look_thru = NONE, relational = {  }, extension_look_past = POINT_TO_POINT)
+  Comment: "V9.3b : Minimum vertical spacing of V9 - Full alignment >= 80nm"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not_interacting() at FreePDK3.v9.drc.rs:34: Command replaced with an internal function.
+not_interacting(aV9, aM9)
+  Comment: "V9.4 : V9 should be enclosed between M9 and M10"
+  Function: not_interacting
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not_interacting() at FreePDK3.v9.drc.rs:35: Command replaced with an internal function.
+not_interacting(aV9, aM10)
+  Comment: "V9.4 : V9 should be enclosed between M9 and M10"
+  Function: not_interacting
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v9.drc.rs:42: Command replaced with an internal function.
+aV9 not aM9
+  Comment: "V9.5 : V9 enclosure by M9 on two opposite sides, horizontal direction = 0nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose_error() at FreePDK3.v9.drc.rs:49: Command replaced with an internal function.
+enclose_error(sV9_HORIZONTAL_EDGES, sM9_HORIZONTAL_EDGES, < 0.01, edge_containment = INSIDE_TO_OUTSIDE, extension = RADIAL, intersecting = {  }, look_thru = NOT_ADJACENT)
+  Comment: "V9.6 : V9 enclosure by M9 on two opposite sides, vertical direction >= 10nm"
+  Function: enclose_error
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v9.drc.rs:50: Command replaced with an internal function.
+aV9 not aM9
+  Comment: "V9.6 : V9 enclosure by M9 on two opposite sides, vertical direction >= 10nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose_error() at FreePDK3.v9.drc.rs:57: Command replaced with an internal function.
+enclose_error(sV9_VERTICAL_EDGES, sM10_VERTICAL_EDGES, < 0.01, edge_containment = INSIDE_TO_OUTSIDE, extension = RADIAL, intersecting = {  }, look_thru = NOT_ADJACENT)
+  Comment: "V9.7 : V9 enclosure by M10 on two opposite sides, horizontal direction >= 10nm"
+  Function: enclose_error
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v9.drc.rs:58: Command replaced with an internal function.
+aV9 not aM10
+  Comment: "V9.7 : V9 enclosure by M10 on two opposite sides, horizontal direction >= 10nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v9.drc.rs:65: Command replaced with an internal function.
+aV9 not aM10
+  Comment: "V9.8 : V9 enclosure by M10 on two opposite sides, vertical direction = 0nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+area() at FreePDK3.v9.drc.rs:71: Command replaced with an internal function.
+area(gV10, < 0.003200)
+  Comment: "V9.9 : Minimum area overlap between M9 and V9 >= 3200nm^2"
+  Function: area
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+internal1() at FreePDK3.m10.drc.rs:11: Command replaced with an internal function.
+internal1(aM10, < 0.08, extension = NONE, extension_look_past = POINT_TO_POINT, intersecting = {  }, projection_filter = MUTUAL_NON_ORTHOGONAL, projection_mode = ASYMMETRIC, direction = VERTICAL, orthogonal = BOTH)
+  Comment: "M10.1 : METAL10 width minimum >= 80nm"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external1() at FreePDK3.m10.drc.rs:16: Command replaced with an internal function.
+external1(aM10, < 0.08, extension = RADIAL, intersecting = {  }, intersection_angle = < 90, look_thru = NONE, relational = {  }, extension_look_past = POINT_TO_POINT)
+  Comment: "M10.2 : METAL10 spacing minimum >= 80nm"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.m10.drc.rs:22: Command replaced with an internal function.
+aM10 not m10_w_4000
+  Comment: "M10.3 : METAL10 maximum width in vertical direction = 4000nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+or() at FreePDK3.m10.drc.rs:38: Command replaced with an internal function.
+mLAYER_10_1 or mLAYER_10_2
+  Comment: "M10.4 : Minimum spacing of METAL10 wider than 240nm and longer than 240nm >= 240nm"
+  Function: or
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+or() at FreePDK3.m10.drc.rs:46: Command replaced with an internal function.
+mLAYER_10_3 or mLAYER_10_4
+  Comment: "M10.5 : Minimum spacing of METAL10 wider than 720nm and longer than 720nm >= 720nm"
+  Function: or
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+or() at FreePDK3.m10.drc.rs:53: Command replaced with an internal function.
+mLAYER_10_5 or mLAYER_10_6
+  Comment: "M10.6 : Minimum spacing of METAL10 wider than 2160nm and longer than 2160nm >= 2160nm"
+  Function: or
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not_aspect_ratio() at FreePDK3.v10.drc.rs:11: Command replaced with an internal function.
+not_aspect_ratio(aV10, direction = SHORT_BY_LONG, orientation = ORTHOGONAL, ratio = == 1)
+  Comment: "V10.1 : V10 shape is square"
+  Function: not_aspect_ratio
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+aspect_ratio() at FreePDK3.v10.drc.rs:16: Command replaced with an internal function.
+aspect_ratio(rectangles(aV10, sides = { != 0.08, != 0.08 }), direction = SHORT_BY_LONG, ratio = == 1)
+  Comment: "V10.2 : V10 is a square with 80nm edge length"
+  Function: aspect_ratio
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external1() at FreePDK3.v10.drc.rs:21: Command replaced with an internal function.
+external1(aV10, < 0.08, extension = RADIAL, intersecting = {  }, intersection_angle = < 90, direction = HORIZONTAL, look_thru = NONE, relational = {  }, extension_look_past = POINT_TO_POINT)
+  Comment: "V10.3 : Minimum spacing of V10 - Full alignment >= 80nm"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external1() at FreePDK3.v10.drc.rs:22: Command replaced with an internal function.
+external1(aV10, < 0.08, extension = RADIAL, intersecting = {  }, intersection_angle = < 90, direction = VERTICAL, look_thru = NONE, relational = {  }, extension_look_past = POINT_TO_POINT)
+  Comment: "V10.3 : Minimum spacing of V10 - Full alignment >= 80nm"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not_interacting() at FreePDK3.v10.drc.rs:27: Command replaced with an internal function.
+not_interacting(aV10, aM10)
+  Comment: "V10.4 : V10 should be enclosed between M10 and M11"
+  Function: not_interacting
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not_interacting() at FreePDK3.v10.drc.rs:28: Command replaced with an internal function.
+not_interacting(aV10, aM11)
+  Comment: "V10.4 : V10 should be enclosed between M10 and M11"
+  Function: not_interacting
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose_error() at FreePDK3.v10.drc.rs:35: Command replaced with an internal function.
+enclose_error(sV10_VERTICAL_EDGES, sM10_VERTICAL_EDGES, < 0.01, edge_containment = INSIDE_TO_OUTSIDE, extension = RADIAL, intersecting = {  }, look_thru = NOT_ADJACENT)
+  Comment: "V10.5 : V10 enclosure by M10 on two opposite sides, horizontal direction >= 10nm"
+  Function: enclose_error
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v10.drc.rs:36: Command replaced with an internal function.
+aV10 not aM10
+  Comment: "V10.5 : V10 enclosure by M10 on two opposite sides, horizontal direction >= 10nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v10.drc.rs:43: Command replaced with an internal function.
+aV10 not aM10
+  Comment: "V10.6 : V10 enclosure by M10 on two opposite sides, vertical direction = 0nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v10.drc.rs:50: Command replaced with an internal function.
+aV10 not aM11
+  Comment: "V10.7 : V10 enclosure by M11 on two opposite sides, horizontal direction = 0nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose_error() at FreePDK3.v10.drc.rs:57: Command replaced with an internal function.
+enclose_error(sV10_HORIZONTAL_EDGES, sM11_HORIZONTAL_EDGES, < 0.01, edge_containment = INSIDE_TO_OUTSIDE, extension = RADIAL, intersecting = {  }, look_thru = NOT_ADJACENT)
+  Comment: "V10.8 : V10 enclosure by M11 on two opposite sides, vertical direction >= 10nm"
+  Function: enclose_error
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v10.drc.rs:58: Command replaced with an internal function.
+aV10 not aM11
+  Comment: "V10.8 : V10 enclosure by M11 on two opposite sides, vertical direction >= 10nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+area() at FreePDK3.v10.drc.rs:64: Command replaced with an internal function.
+area(gV9, < 0.006400)
+  Comment: "V10.9 : Minimum area overlap between M10 and V10 >= 6400nm^2"
+  Function: area
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+internal1() at FreePDK3.m11.drc.rs:11: Command replaced with an internal function.
+internal1(aM11, < 0.08, extension = NONE, extension_look_past = POINT_TO_POINT, intersecting = {  }, projection_filter = MUTUAL_NON_ORTHOGONAL, projection_mode = ASYMMETRIC, direction = HORIZONTAL, orthogonal = BOTH)
+  Comment: "M11.1 : METAL11 width minimum >= 80nm"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external1() at FreePDK3.m11.drc.rs:16: Command replaced with an internal function.
+external1(aM11, < 0.08, extension = RADIAL, intersecting = {  }, intersection_angle = < 90, look_thru = NONE, relational = {  }, extension_look_past = POINT_TO_POINT)
+  Comment: "M11.2 : METAL11 spacing minimum >= 80nm"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.m11.drc.rs:22: Command replaced with an internal function.
+aM11 not m11_w_4000
+  Comment: "M11.3 : METAL11 maximum width in horizontal direction = 4000nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+or() at FreePDK3.m11.drc.rs:38: Command replaced with an internal function.
+mLAYER_11_1 or mLAYER_11_2
+  Comment: "M11.4 : Minimum spacing of METAL11 wider than 240nm and longer than 240nm >= 240nm"
+  Function: or
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+or() at FreePDK3.m11.drc.rs:46: Command replaced with an internal function.
+mLAYER_11_3 or mLAYER_11_4
+  Comment: "M11.5 : Minimum spacing of METAL11 wider than 720nm and longer than 720nm >= 720nm"
+  Function: or
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+or() at FreePDK3.m11.drc.rs:53: Command replaced with an internal function.
+mLAYER_11_5 or mLAYER_11_6
+  Comment: "M11.6 : Minimum spacing of METAL11 wider than 2160nm and longer than 2160nm >= 2160nm"
+  Function: or
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not_rectangles() at FreePDK3.v11.drc.rs:11: Command replaced with an internal function.
+not_rectangles(aV11)
+  Comment: "V11.1 : V11 shape is rectangle"
+  Function: not_rectangles
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v11.drc.rs:17: Command replaced with an internal function.
+aV11 not gGRV11_1_check
+  Comment: "V11.2 : V11 is a rectangle with 80nm horizontal edge and 160nm vertical edge"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v11.drc.rs:19: Command replaced with an internal function.
+aV11 not gGRV11_2_check
+  Comment: "V11.2 : V11 is a rectangle with 80nm horizontal edge and 160nm vertical edge"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external1() at FreePDK3.v11.drc.rs:24: Command replaced with an internal function.
+external1(aV11, < 0.08, extension = RADIAL, intersecting = {  }, intersection_angle = < 90, direction = HORIZONTAL, look_thru = NONE, relational = {  }, extension_look_past = POINT_TO_POINT)
+  Comment: "V11.3a : Minimum horizontal spacing of V11 - Full alignment >= 80nm"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external1() at FreePDK3.v11.drc.rs:29: Command replaced with an internal function.
+external1(aV11, < 0.160, extension = RADIAL, intersecting = {  }, intersection_angle = < 90, direction = VERTICAL, look_thru = NONE, relational = {  }, extension_look_past = POINT_TO_POINT)
+  Comment: "V11.3b : Minimum vertical spacing of V11 - Full alignment >= 160nm"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not_interacting() at FreePDK3.v11.drc.rs:34: Command replaced with an internal function.
+not_interacting(aV11, aM11)
+  Comment: "V11.4 : V11 should be enclosed between M11 and M12"
+  Function: not_interacting
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not_interacting() at FreePDK3.v11.drc.rs:35: Command replaced with an internal function.
+not_interacting(aV11, aM12)
+  Comment: "V11.4 : V11 should be enclosed between M11 and M12"
+  Function: not_interacting
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v11.drc.rs:42: Command replaced with an internal function.
+aV11 not aM11
+  Comment: "V11.5 : V11 enclosure by M11 on two opposite sides, horizontal direction = 0nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose_error() at FreePDK3.v11.drc.rs:49: Command replaced with an internal function.
+enclose_error(sV11_HORIZONTAL_EDGES, sM11_HORIZONTAL_EDGES, < 0.01, edge_containment = INSIDE_TO_OUTSIDE, extension = RADIAL, intersecting = {  }, look_thru = NOT_ADJACENT)
+  Comment: "V11.6 : V11 enclosure by M11 on two opposite sides, vertical direction >= 10nm"
+  Function: enclose_error
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v11.drc.rs:50: Command replaced with an internal function.
+aV11 not aM11
+  Comment: "V11.6 : V11 enclosure by M11 on two opposite sides, vertical direction >= 10nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose_error() at FreePDK3.v11.drc.rs:57: Command replaced with an internal function.
+enclose_error(sV11_VERTICAL_EDGES, sM12_VERTICAL_EDGES, < 0.01, edge_containment = INSIDE_TO_OUTSIDE, extension = RADIAL, intersecting = {  }, look_thru = NOT_ADJACENT)
+  Comment: "V11.7 : V11 enclosure by M12 on two opposite sides, horizontal direction >= 10nm"
+  Function: enclose_error
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v11.drc.rs:58: Command replaced with an internal function.
+aV11 not aM12
+  Comment: "V11.7 : V11 enclosure by M12 on two opposite sides, horizontal direction >= 10nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v11.drc.rs:65: Command replaced with an internal function.
+aV11 not aM12
+  Comment: "V11.8 : V11 enclosure by M12 on two opposite sides, vertical direction = 0nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+area() at FreePDK3.v11.drc.rs:71: Command replaced with an internal function.
+area(gV10, < 0.012800)
+  Comment: "V11.9 : Minimum area overlap between M11 and V11 >= 12800nm^2"
+  Function: area
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+internal1() at FreePDK3.m12.drc.rs:11: Command replaced with an internal function.
+internal1(aM12, < 0.16, extension = NONE, extension_look_past = POINT_TO_POINT, intersecting = {  }, projection_filter = MUTUAL_NON_ORTHOGONAL, projection_mode = ASYMMETRIC, direction = VERTICAL, orthogonal = BOTH)
+  Comment: "M12.1 : METAL12 width minimum >= 160nm"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external1() at FreePDK3.m12.drc.rs:16: Command replaced with an internal function.
+external1(aM12, < 0.16, extension = RADIAL, intersecting = {  }, intersection_angle = < 90, look_thru = NONE, relational = {  }, extension_look_past = POINT_TO_POINT)
+  Comment: "M12.2 : METAL12 spacing minimum >= 160nm"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.m12.drc.rs:22: Command replaced with an internal function.
+aM12 not m12_w_8000
+  Comment: "M12.3 : METAL12 maximum width in vertical direction = 8000nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+or() at FreePDK3.m12.drc.rs:38: Command replaced with an internal function.
+mLAYER_12_1 or mLAYER_12_2
+  Comment: "M12.4 : Minimum spacing of METAL12 wider than 480nm and longer than 480nm >= 480nm"
+  Function: or
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+or() at FreePDK3.m12.drc.rs:46: Command replaced with an internal function.
+mLAYER_12_3 or mLAYER_12_4
+  Comment: "M12.5 : Minimum spacing of METAL12 wider than 1440nm and longer than 1440nm >= 1440nm"
+  Function: or
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+or() at FreePDK3.m12.drc.rs:53: Command replaced with an internal function.
+mLAYER_12_5 or mLAYER_12_6
+  Comment: "M12.6 : Minimum spacing of METAL12 wider than 4320nm and longer than 4320nm >= 4320nm"
+  Function: or
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not_aspect_ratio() at FreePDK3.v12.drc.rs:11: Command replaced with an internal function.
+not_aspect_ratio(aV12, direction = SHORT_BY_LONG, orientation = ORTHOGONAL, ratio = == 1)
+  Comment: "V12.1 : V12 shape is square"
+  Function: not_aspect_ratio
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+aspect_ratio() at FreePDK3.v12.drc.rs:16: Command replaced with an internal function.
+aspect_ratio(rectangles(aV12, sides = { != 0.16, != 0.16 }), direction = SHORT_BY_LONG, ratio = == 1)
+  Comment: "V12.2 : V12 is a square with 160nm edge length"
+  Function: aspect_ratio
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external1() at FreePDK3.v12.drc.rs:21: Command replaced with an internal function.
+external1(aV12, < 0.16, extension = RADIAL, intersecting = {  }, intersection_angle = < 90, direction = HORIZONTAL, look_thru = NONE, relational = {  }, extension_look_past = POINT_TO_POINT)
+  Comment: "V12.3 : Minimum spacing of V12 - Full alignment >= 160nm"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external1() at FreePDK3.v12.drc.rs:22: Command replaced with an internal function.
+external1(aV12, < 0.16, extension = RADIAL, intersecting = {  }, intersection_angle = < 90, direction = VERTICAL, look_thru = NONE, relational = {  }, extension_look_past = POINT_TO_POINT)
+  Comment: "V12.3 : Minimum spacing of V12 - Full alignment >= 160nm"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not_interacting() at FreePDK3.v12.drc.rs:27: Command replaced with an internal function.
+not_interacting(aV12, aM12)
+  Comment: "V12.4 : V12 should be enclosed between M12 and M13"
+  Function: not_interacting
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not_interacting() at FreePDK3.v12.drc.rs:28: Command replaced with an internal function.
+not_interacting(aV12, aM13)
+  Comment: "V12.4 : V12 should be enclosed between M12 and M13"
+  Function: not_interacting
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose_error() at FreePDK3.v12.drc.rs:35: Command replaced with an internal function.
+enclose_error(sV12_VERTICAL_EDGES, sM12_VERTICAL_EDGES, < 0.01, edge_containment = INSIDE_TO_OUTSIDE, extension = RADIAL, intersecting = {  }, look_thru = NOT_ADJACENT)
+  Comment: "V12.5 : V12 enclosure by M12 on two opposite sides, horizontal direction >= 10nm"
+  Function: enclose_error
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v12.drc.rs:36: Command replaced with an internal function.
+aV12 not aM12
+  Comment: "V12.5 : V12 enclosure by M12 on two opposite sides, horizontal direction >= 10nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v12.drc.rs:43: Command replaced with an internal function.
+aV12 not aM12
+  Comment: "V12.6 : V12 enclosure by M12 on two opposite sides, vertical direction = 0nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v12.drc.rs:50: Command replaced with an internal function.
+aV12 not aM13
+  Comment: "V12.7 : V12 enclosure by M13 on two opposite sides, horizontal direction = 0nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose_error() at FreePDK3.v12.drc.rs:57: Command replaced with an internal function.
+enclose_error(sV12_HORIZONTAL_EDGES, sM13_HORIZONTAL_EDGES, < 0.01, edge_containment = INSIDE_TO_OUTSIDE, extension = RADIAL, intersecting = {  }, look_thru = NOT_ADJACENT)
+  Comment: "V12.8 : V12 enclosure by M13 on two opposite sides, vertical direction >= 10nm"
+  Function: enclose_error
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.v12.drc.rs:58: Command replaced with an internal function.
+aV12 not aM13
+  Comment: "V12.8 : V12 enclosure by M13 on two opposite sides, vertical direction >= 10nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+area() at FreePDK3.v12.drc.rs:64: Command replaced with an internal function.
+area(gV12, < 0.025600)
+  Comment: "V12.9 : Minimum area overlap between M12 and V12 >= 25600nm^2"
+  Function: area
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+internal1() at FreePDK3.m13.drc.rs:11: Command replaced with an internal function.
+internal1(aM13, < 0.16, extension = NONE, extension_look_past = POINT_TO_POINT, intersecting = {  }, projection_filter = MUTUAL_NON_ORTHOGONAL, projection_mode = ASYMMETRIC, direction = HORIZONTAL, orthogonal = BOTH)
+  Comment: "M13.1 : METAL13 width minimum >= 160nm"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external1() at FreePDK3.m13.drc.rs:16: Command replaced with an internal function.
+external1(aM13, < 0.16, extension = RADIAL, intersecting = {  }, intersection_angle = < 90, look_thru = NONE, relational = {  }, extension_look_past = POINT_TO_POINT)
+  Comment: "M13.2 : METAL13 spacing minimum >= 160nm"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.m13.drc.rs:22: Command replaced with an internal function.
+aM13 not m13_w_8000
+  Comment: "M13.3 : METAL13 maximum width in horizontal direction = 8000nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+or() at FreePDK3.m13.drc.rs:38: Command replaced with an internal function.
+mLAYER_13_1 or mLAYER_13_2
+  Comment: "M13.4 : Minimum spacing of METAL13 wider than 480nm and longer than 480nm >= 480nm"
+  Function: or
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+or() at FreePDK3.m13.drc.rs:46: Command replaced with an internal function.
+mLAYER_13_3 or mLAYER_13_4
+  Comment: "M13.5 : Minimum spacing of METAL13 wider than 1440nm and longer than 1440nm >= 1440nm"
+  Function: or
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+or() at FreePDK3.m13.drc.rs:53: Command replaced with an internal function.
+mLAYER_13_5 or mLAYER_13_6
+  Comment: "M13.6 : Minimum spacing of METAL13 wider than 4320nm and longer than 4320nm >= 4320nm"
+  Function: or
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not_aspect_ratio() at FreePDK3.vrdl.drc.rs:11: Command replaced with an internal function.
+not_aspect_ratio(aVRDL, direction = SHORT_BY_LONG, orientation = ORTHOGONAL, ratio = == 1)
+  Comment: "VRDL.1 : VRDL shape is square"
+  Function: not_aspect_ratio
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+aspect_ratio() at FreePDK3.vrdl.drc.rs:16: Command replaced with an internal function.
+aspect_ratio(rectangles(aVRDL, sides = { != 0.16, != 0.16 }), direction = SHORT_BY_LONG, ratio = == 1)
+  Comment: "VRDL.2 : VRDL is a square with 160nm edge length"
+  Function: aspect_ratio
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external1() at FreePDK3.vrdl.drc.rs:21: Command replaced with an internal function.
+external1(aVRDL, < 0.16, extension = RADIAL, intersecting = {  }, intersection_angle = < 90, direction = HORIZONTAL, look_thru = NONE, relational = {  }, extension_look_past = POINT_TO_POINT)
+  Comment: "VRDL.3 : Minimum spacing of V12 - Full alignment >= 160nm"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external1() at FreePDK3.vrdl.drc.rs:22: Command replaced with an internal function.
+external1(aVRDL, < 0.16, extension = RADIAL, intersecting = {  }, intersection_angle = < 90, direction = VERTICAL, look_thru = NONE, relational = {  }, extension_look_past = POINT_TO_POINT)
+  Comment: "VRDL.3 : Minimum spacing of V12 - Full alignment >= 160nm"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not_interacting() at FreePDK3.vrdl.drc.rs:27: Command replaced with an internal function.
+not_interacting(aVRDL, aM13)
+  Comment: "VRDL.4 : VRDL must be enclosed between M13 and RDL layers"
+  Function: not_interacting
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not_interacting() at FreePDK3.vrdl.drc.rs:28: Command replaced with an internal function.
+not_interacting(aVRDL, aRDL)
+  Comment: "VRDL.4 : VRDL must be enclosed between M13 and RDL layers"
+  Function: not_interacting
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.vrdl.drc.rs:33: Command replaced with an internal function.
+aVRDL not aM13
+  Comment: "VRDL.5 : VRDL enclosure by M13 in horizontal direction >= 0nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose_error() at FreePDK3.vrdl.drc.rs:40: Command replaced with an internal function.
+enclose_error(sVRDL_HORIZONTAL_EDGES, sM13_HORIZONTAL_EDGES, < 0.01, edge_containment = INSIDE_TO_OUTSIDE, extension = RADIAL, intersecting = {  }, look_thru = NOT_ADJACENT)
+  Comment: "VRDL.6 : VRDL enclosure by M13 in vertical direction >= 10nm"
+  Function: enclose_error
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.vrdl.drc.rs:41: Command replaced with an internal function.
+aVRDL not aM13
+  Comment: "VRDL.6 : VRDL enclosure by M13 in vertical direction >= 10nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose_error() at FreePDK3.vrdl.drc.rs:48: Command replaced with an internal function.
+enclose_error(sVRDL_VERTICAL_EDGES, sRDL_VERTICAL_EDGES, < 0.08, edge_containment = INSIDE_TO_OUTSIDE, extension = RADIAL, intersecting = {  }, look_thru = NOT_ADJACENT)
+  Comment: "VRDL.7 : VRDL enclosure by RDL in horizontal direction >= 80nm"
+  Function: enclose_error
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.vrdl.drc.rs:49: Command replaced with an internal function.
+aVRDL not aRDL
+  Comment: "VRDL.7 : VRDL enclosure by RDL in horizontal direction >= 80nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+enclose_error() at FreePDK3.vrdl.drc.rs:56: Command replaced with an internal function.
+enclose_error(sVRDL_HORIZONTAL_EDGES, sRDL_HORIZONTAL_EDGES, < 0.08, edge_containment = INSIDE_TO_OUTSIDE, extension = RADIAL, intersecting = {  }, look_thru = NOT_ADJACENT)
+  Comment: "VRDL.8 : VRDL enclosure by RDL in vertical direction >= 80nm"
+  Function: enclose_error
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+not() at FreePDK3.vrdl.drc.rs:57: Command replaced with an internal function.
+aVRDL not aRDL
+  Comment: "VRDL.8 : VRDL enclosure by RDL in vertical direction >= 80nm"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+area() at FreePDK3.vrdl.drc.rs:63: Command replaced with an internal function.
+area(gVRDL, < 0.025600)
+  Comment: "VRDL.9 : Minimum area overlap between M13 and VRDL >= 25600nm^2"
+  Function: area
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+internal1() at FreePDK3.rdl.drc.rs:11: Command replaced with an internal function.
+internal1(aRDL, < 1.6, extension = NONE, extension_look_past = POINT_TO_POINT, intersecting = {  }, projection_filter = MUTUAL_NON_ORTHOGONAL, projection_mode = ASYMMETRIC, direction = VERTICAL, orthogonal = BOTH)
+  Comment: "MRDL.1 : RDL width minimum >= 1.6um"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external1() at FreePDK3.rdl.drc.rs:16: Command replaced with an internal function.
+external1(aRDL, < 1.6, extension = RADIAL, intersecting = {  }, intersection_angle = < 90, direction = VERTICAL, look_thru = NONE, relational = {  }, extension_look_past = POINT_TO_POINT)
+  Comment: "MRDL.2 : RDL spacing minimum >= 1.6um"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+Completing error storage...
+  Overall error storage time: User=0.07 Sys=0.30 Mem=0.003 GB
+
+Generating bit_conditioning.LAYOUT_ERRORS...
+  Generation Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB
+

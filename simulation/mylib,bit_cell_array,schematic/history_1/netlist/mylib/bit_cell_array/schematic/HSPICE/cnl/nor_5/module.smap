@@ -1,0 +1,64 @@
+<module name="vsl: mylib nor_5 schematic vl: hspice hspiceD schematic spice veriloga">
+<scope name="Instance">
+<forward>
+<mapping src="M20" dst="m20"/>
+<mapping src="M19" dst="m19"/>
+<mapping src="M18" dst="m18"/>
+<mapping src="M8" dst="m8"/>
+<mapping src="M22" dst="m22"/>
+<mapping src="M21" dst="m21"/>
+</forward>
+<reverse>
+<mapping src="m20" dst="M20"/>
+<mapping src="m19" dst="M19"/>
+<mapping src="m8" dst="M8"/>
+<mapping src="m18" dst="M18"/>
+<mapping src="m22" dst="M22"/>
+<mapping src="m21" dst="M21"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward>
+<mapping src="Z" dst="z"/>
+<mapping src="C" dst="c"/>
+<mapping src="B" dst="b"/>
+<mapping src="A" dst="a"/>
+</forward>
+<reverse>
+<mapping src="z" dst="Z"/>
+<mapping src="c" dst="C"/>
+<mapping src="b" dst="B"/>
+<mapping src="a" dst="A"/>
+</reverse>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping src="&lt;unmappedTermOrder>" dst="A B C Z"/>
+<mapping src="Z" dst="z"/>
+<mapping src="&lt;termOrder>" dst="a b c z"/>
+<mapping src="C" dst="c"/>
+<mapping src="B" dst="b"/>
+<mapping src="A" dst="a"/>
+</forward>
+<reverse>
+<mapping src="A B C Z" dst="&lt;unmappedTermOrder>"/>
+<mapping src="z" dst="Z"/>
+<mapping src="a b c z" dst="&lt;termOrder>"/>
+<mapping src="c" dst="C"/>
+<mapping src="b" dst="B"/>
+<mapping src="a" dst="A"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="nmos">
+<instance name="M21"/>
+<instance name="M22"/>
+<instance name="M8"/>
+</instance_header>
+<instance_header master="pmos">
+<instance name="M18"/>
+<instance name="M19"/>
+<instance name="M20"/>
+</instance_header>
+</master_instances>
+</module>

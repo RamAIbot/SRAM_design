@@ -1,0 +1,3 @@
+NMOS { }
+PMOS { }
+bit_conditioning { NMOS PMOS }

@@ -1,0 +1,556 @@
+{netlist .sch.net
+{version 3 1 0}
+{net_global vdd! gnd! }
+{cell tspc_flip_flop
+{port CLK D Qbar}
+{inst MM20=nmos {TYPE MOS} 
+{pin Qbar=DRN net42=GATE gnd!=SRC}}
+{inst MM16=nmos {TYPE MOS} 
+{pin net42=DRN net38=GATE gnd!=SRC}}
+{inst MM10=nmos {TYPE MOS} 
+{pin net23=DRN net12=GATE gnd!=SRC}}
+{inst MM8=nmos {TYPE MOS} 
+{pin net38=DRN CLK=GATE net23=SRC}}
+{inst MM7=nmos {TYPE MOS} 
+{pin net16=DRN CLK=GATE gnd!=SRC}}
+{inst MM5=nmos {TYPE MOS} 
+{pin net12=DRN net8=GATE net16=SRC}}
+{inst MM2=nmos {TYPE MOS} 
+{pin net8=DRN D=GATE gnd!=SRC}}
+{inst MM21=pmos {TYPE MOS} 
+{pin Qbar=DRN net42=GATE vdd!=SRC}}
+{inst MM17=pmos {TYPE MOS} 
+{pin net42=DRN net38=GATE vdd!=SRC}}
+{inst MM9=pmos {TYPE MOS} 
+{pin net38=DRN net12=GATE vdd!=SRC}}
+{inst MM6=pmos {TYPE MOS} 
+{pin net12=DRN CLK=GATE vdd!=SRC}}
+{inst MM4=pmos {TYPE MOS} 
+{pin net8=DRN CLK=GATE net7=SRC}}
+{inst MM3=pmos {TYPE MOS} 
+{pin net7=DRN D=GATE vdd!=SRC}}
+}
+
+{cell and_2
+{port A B Z}
+{inst MM10=nmos {TYPE MOS} 
+{pin Z=DRN net26=GATE gnd!=SRC}}
+{inst MM1=nmos {TYPE MOS} 
+{pin net22=DRN B=GATE gnd!=SRC}}
+{inst MM0=nmos {TYPE MOS} 
+{pin net26=DRN A=GATE net22=SRC}}
+{inst MM9=pmos {TYPE MOS} 
+{pin Z=DRN net26=GATE vdd!=SRC}}
+{inst MM3=pmos {TYPE MOS} 
+{pin net26=DRN A=GATE vdd!=SRC}}
+{inst MM2=pmos {TYPE MOS} 
+{pin net26=DRN B=GATE vdd!=SRC}}
+}
+
+{cell inv_2
+{port A Z}
+{inst MM0=nmos {TYPE MOS} 
+{pin Z=DRN A=GATE gnd!=SRC}}
+{inst MM1=pmos {TYPE MOS} 
+{pin Z=DRN A=GATE vdd!=SRC}}
+}
+
+{cell nor_5
+{port A B C Z}
+{inst MM21=nmos {TYPE MOS} 
+{pin Z=DRN B=GATE gnd!=SRC}}
+{inst MM22=nmos {TYPE MOS} 
+{pin Z=DRN A=GATE gnd!=SRC}}
+{inst MM8=nmos {TYPE MOS} 
+{pin Z=DRN C=GATE gnd!=SRC}}
+{inst MM18=pmos {TYPE MOS} 
+{pin net50=DRN A=GATE vdd!=SRC}}
+{inst MM19=pmos {TYPE MOS} 
+{pin net53=DRN B=GATE net50=SRC}}
+{inst MM20=pmos {TYPE MOS} 
+{pin Z=DRN C=GATE net53=SRC}}
+}
+
+{cell bitcell
+{port BL BLB WL}
+{inst MM3=nmos {TYPE MOS} 
+{pin Q=DRN QB=GATE gnd!=SRC}}
+{inst MM2=nmos {TYPE MOS} 
+{pin Q=DRN WL=GATE BL=SRC}}
+{inst MM1=nmos {TYPE MOS} 
+{pin QB=DRN Q=GATE gnd!=SRC}}
+{inst MM0=nmos {TYPE MOS} 
+{pin BLB=DRN WL=GATE QB=SRC}}
+{inst MM5=pmos {TYPE MOS} 
+{pin Q=DRN QB=GATE vdd!=SRC}}
+{inst MM4=pmos {TYPE MOS} 
+{pin QB=DRN Q=GATE vdd!=SRC}}
+}
+
+{cell demu_2_4
+{port A0 A1 Out0 Out1 Out2 Out3}
+{inst XI3=and_2 {TYPE CELL} 
+{pin net13=A net15=B Out0=Z}}
+{inst XI2=and_2 {TYPE CELL} 
+{pin A0=A A1=B Out3=Z}}
+{inst XI1=and_2 {TYPE CELL} 
+{pin net13=A A1=B Out2=Z}}
+{inst XI0=and_2 {TYPE CELL} 
+{pin A0=A net15=B Out1=Z}}
+{inst XI5=inv_2 {TYPE CELL} 
+{pin A1=A net15=Z}}
+{inst XI4=inv_2 {TYPE CELL} 
+{pin A0=A net13=Z}}
+}
+
+{cell bit_conditioning
+{port BL BLB CLK}
+{inst MM8=pmos {TYPE MOS} 
+{pin BLB=DRN net22=GATE vdd!=SRC}}
+{inst MM7=pmos {TYPE MOS} 
+{pin BL=DRN net22=GATE vdd!=SRC}}
+{inst XI9=inv_2 {TYPE CELL} 
+{pin CLK=A net22=Z}}
+}
+
+{cell Write_Driver
+{port BL BLB WE Write_data}
+{inst MM3=nmos {TYPE MOS} 
+{pin net10=DRN net13=GATE gnd!=SRC}}
+{inst MM2=nmos {TYPE MOS} 
+{pin BLB=DRN net16=GATE net10=SRC}}
+{inst MM1=nmos {TYPE MOS} 
+{pin net15=DRN Write_data=GATE gnd!=SRC}}
+{inst MM0=nmos {TYPE MOS} 
+{pin BL=DRN net16=GATE net15=SRC}}
+{inst XI9=inv_2 {TYPE CELL} 
+{pin WE=A net16=Z}}
+{inst XI8=inv_2 {TYPE CELL} 
+{pin Write_data=A net13=Z}}
+}
+
+{cell rowdecoder
+{port A<2> A<3> A<4> WL<0> WL<1> WL<2>
+ WL<3> WL<4> WL<5> WL<6> WL<7>}
+{inst XI60=nor_5 {TYPE CELL} 
+{pin A<4>=A A<3>=B ~A<0>=C WL<1>=Z}}
+{inst XI54=nor_5 {TYPE CELL} 
+{pin ~A<2>=A ~A<1>=B ~A<0>=C WL<7>=Z}}
+{inst XI59=nor_5 {TYPE CELL} 
+{pin A<4>=A ~A<1>=B A<2>=C WL<2>=Z}}
+{inst XI55=nor_5 {TYPE CELL} 
+{pin ~A<2>=A ~A<1>=B A<2>=C WL<6>=Z}}
+{inst XI56=nor_5 {TYPE CELL} 
+{pin ~A<2>=A A<3>=B ~A<0>=C WL<5>=Z}}
+{inst XI57=nor_5 {TYPE CELL} 
+{pin ~A<2>=A A<3>=B A<2>=C WL<4>=Z}}
+{inst XI61=nor_5 {TYPE CELL} 
+{pin A<4>=A A<3>=B A<2>=C WL<0>=Z}}
+{inst XI58=nor_5 {TYPE CELL} 
+{pin A<4>=A ~A<1>=B ~A<0>=C WL<3>=Z}}
+{inst XI21=inv_2 {TYPE CELL} 
+{pin A<2>=A ~A<0>=Z}}
+{inst XI20=inv_2 {TYPE CELL} 
+{pin A<3>=A ~A<1>=Z}}
+{inst XI19=inv_2 {TYPE CELL} 
+{pin A<4>=A ~A<2>=Z}}
+}
+
+{cell column_decoder_new
+{port A0 A1 B0 B0B B1 B1B
+ B2 B2B B3 B3B B4 B4B B5
+ B5B B6 B6B B7 B7B B8 B8B
+ B9 B9B B10 B10B B11 B11B B12
+ B12B B13 B13B B14 B14B B15 B15B
+ OutB_0 OutB_1 OutB_2 OutB_3 Out_0 Out_1 Out_2
+ Out_3}
+{inst XI1=demu_2_4 {TYPE CELL} 
+{pin A0=A0 A1=A1 net20=Out0 net44=Out1 net56=Out2 net68=Out3}}
+{inst MM49=nmos {TYPE MOS} 
+{pin B15B=DRN net68=GATE OutB_3=SRC}}
+{inst MM48=nmos {TYPE MOS} 
+{pin B14B=DRN net68=GATE OutB_2=SRC}}
+{inst MM47=nmos {TYPE MOS} 
+{pin B13B=DRN net68=GATE OutB_1=SRC}}
+{inst MM46=nmos {TYPE MOS} 
+{pin B12B=DRN net68=GATE OutB_0=SRC}}
+{inst MM45=nmos {TYPE MOS} 
+{pin B15=DRN net68=GATE Out_3=SRC}}
+{inst MM44=nmos {TYPE MOS} 
+{pin B14=DRN net68=GATE Out_2=SRC}}
+{inst MM43=nmos {TYPE MOS} 
+{pin B13=DRN net68=GATE Out_1=SRC}}
+{inst MM42=nmos {TYPE MOS} 
+{pin B12=DRN net68=GATE Out_0=SRC}}
+{inst MM41=nmos {TYPE MOS} 
+{pin B11B=DRN net56=GATE OutB_3=SRC}}
+{inst MM40=nmos {TYPE MOS} 
+{pin B10B=DRN net56=GATE OutB_2=SRC}}
+{inst MM39=nmos {TYPE MOS} 
+{pin B9B=DRN net56=GATE OutB_1=SRC}}
+{inst MM38=nmos {TYPE MOS} 
+{pin B8B=DRN net56=GATE OutB_0=SRC}}
+{inst MM37=nmos {TYPE MOS} 
+{pin B11=DRN net56=GATE Out_3=SRC}}
+{inst MM36=nmos {TYPE MOS} 
+{pin B10=DRN net56=GATE Out_2=SRC}}
+{inst MM35=nmos {TYPE MOS} 
+{pin B9=DRN net56=GATE Out_1=SRC}}
+{inst MM34=nmos {TYPE MOS} 
+{pin B8=DRN net56=GATE Out_0=SRC}}
+{inst MM17=nmos {TYPE MOS} 
+{pin B7B=DRN net44=GATE OutB_3=SRC}}
+{inst MM16=nmos {TYPE MOS} 
+{pin B6B=DRN net44=GATE OutB_2=SRC}}
+{inst MM15=nmos {TYPE MOS} 
+{pin B5B=DRN net44=GATE OutB_1=SRC}}
+{inst MM14=nmos {TYPE MOS} 
+{pin B4B=DRN net44=GATE OutB_0=SRC}}
+{inst MM13=nmos {TYPE MOS} 
+{pin B7=DRN net44=GATE Out_3=SRC}}
+{inst MM12=nmos {TYPE MOS} 
+{pin B6=DRN net44=GATE Out_2=SRC}}
+{inst MM11=nmos {TYPE MOS} 
+{pin B5=DRN net44=GATE Out_1=SRC}}
+{inst MM10=nmos {TYPE MOS} 
+{pin B4=DRN net44=GATE Out_0=SRC}}
+{inst MM9=nmos {TYPE MOS} 
+{pin B3B=DRN net20=GATE OutB_3=SRC}}
+{inst MM8=nmos {TYPE MOS} 
+{pin B2B=DRN net20=GATE OutB_2=SRC}}
+{inst MM7=nmos {TYPE MOS} 
+{pin B1B=DRN net20=GATE OutB_1=SRC}}
+{inst MM6=nmos {TYPE MOS} 
+{pin B0B=DRN net20=GATE OutB_0=SRC}}
+{inst MM5=nmos {TYPE MOS} 
+{pin B3=DRN net20=GATE Out_3=SRC}}
+{inst MM4=nmos {TYPE MOS} 
+{pin B2=DRN net20=GATE Out_2=SRC}}
+{inst MM3=nmos {TYPE MOS} 
+{pin B1=DRN net20=GATE Out_1=SRC}}
+{inst MM2=nmos {TYPE MOS} 
+{pin B0=DRN net20=GATE Out_0=SRC}}
+}
+
+{cell bit_cell_array
+{port A0 A1 A<2> A<3> A<4> CLK
+ D<0> D<1> D<2> D<3> Q<0> Q<1> Q<2>
+ Q<3> WENB}
+{inst XI146=tspc_flip_flop {TYPE CELL} 
+{pin CLK=CLK net1544=D Q<0>=Qbar}}
+{inst XI145=tspc_flip_flop {TYPE CELL} 
+{pin CLK=CLK net1545=D Q<1>=Qbar}}
+{inst XI144=tspc_flip_flop {TYPE CELL} 
+{pin CLK=CLK net1546=D Q<2>=Qbar}}
+{inst XI143=tspc_flip_flop {TYPE CELL} 
+{pin CLK=CLK net1547=D Q<3>=Qbar}}
+{inst XI453=column_decoder_new {TYPE CELL} 
+{pin A0=A0 A1=A1 net1483=B0 net1229=B0B net1242=B1 net1244=B1B
+ net1246=B2 net1248=B2B net1250=B3 net1252=B3B net1475=B4 net819=B4B net516=B5
+ net1091=B5B net514=B6 net1084=B6B net512=B7 net824=B7B net538=B8 net688=B8B
+ net536=B9 net680=B9B net534=B10 net826=B10B net533=B11 net672=B11B net531=B12
+ net684=B12B net529=B13 net664=B13B net542=B14 net827=B14B net540=B15 net689=B15B
+ net1524=OutB_0 net1528=OutB_1 net1532=OutB_2 net1547=OutB_3 net1544=Out_0 net1545=Out_1 net1546=Out_2
+ net1523=Out_3}}
+{inst XI139=bitcell {TYPE CELL} 
+{pin net533=BL net672=BLB net1050=WL}}
+{inst XI138=bitcell {TYPE CELL} 
+{pin net534=BL net826=BLB net1050=WL}}
+{inst XI137=bitcell {TYPE CELL} 
+{pin net536=BL net680=BLB net1050=WL}}
+{inst XI136=bitcell {TYPE CELL} 
+{pin net538=BL net688=BLB net1050=WL}}
+{inst XI135=bitcell {TYPE CELL} 
+{pin net512=BL net824=BLB net1050=WL}}
+{inst XI134=bitcell {TYPE CELL} 
+{pin net514=BL net1084=BLB net1050=WL}}
+{inst XI133=bitcell {TYPE CELL} 
+{pin net516=BL net1091=BLB net1050=WL}}
+{inst XI132=bitcell {TYPE CELL} 
+{pin net1475=BL net819=BLB net1050=WL}}
+{inst XI131=bitcell {TYPE CELL} 
+{pin net540=BL net689=BLB net1050=WL}}
+{inst XI130=bitcell {TYPE CELL} 
+{pin net542=BL net827=BLB net1050=WL}}
+{inst XI129=bitcell {TYPE CELL} 
+{pin net529=BL net664=BLB net1050=WL}}
+{inst XI128=bitcell {TYPE CELL} 
+{pin net531=BL net684=BLB net1050=WL}}
+{inst XI127=bitcell {TYPE CELL} 
+{pin net1250=BL net1252=BLB net1050=WL}}
+{inst XI126=bitcell {TYPE CELL} 
+{pin net1246=BL net1248=BLB net1050=WL}}
+{inst XI125=bitcell {TYPE CELL} 
+{pin net1242=BL net1244=BLB net1050=WL}}
+{inst XI124=bitcell {TYPE CELL} 
+{pin net1483=BL net1229=BLB net1050=WL}}
+{inst XI123=bitcell {TYPE CELL} 
+{pin net533=BL net672=BLB net464=WL}}
+{inst XI122=bitcell {TYPE CELL} 
+{pin net534=BL net826=BLB net464=WL}}
+{inst XI121=bitcell {TYPE CELL} 
+{pin net536=BL net680=BLB net464=WL}}
+{inst XI120=bitcell {TYPE CELL} 
+{pin net538=BL net688=BLB net464=WL}}
+{inst XI119=bitcell {TYPE CELL} 
+{pin net512=BL net824=BLB net464=WL}}
+{inst XI118=bitcell {TYPE CELL} 
+{pin net514=BL net1084=BLB net464=WL}}
+{inst XI117=bitcell {TYPE CELL} 
+{pin net516=BL net1091=BLB net464=WL}}
+{inst XI116=bitcell {TYPE CELL} 
+{pin net1475=BL net819=BLB net464=WL}}
+{inst XI115=bitcell {TYPE CELL} 
+{pin net540=BL net689=BLB net464=WL}}
+{inst XI114=bitcell {TYPE CELL} 
+{pin net542=BL net827=BLB net464=WL}}
+{inst XI113=bitcell {TYPE CELL} 
+{pin net529=BL net664=BLB net464=WL}}
+{inst XI112=bitcell {TYPE CELL} 
+{pin net531=BL net684=BLB net464=WL}}
+{inst XI111=bitcell {TYPE CELL} 
+{pin net1250=BL net1252=BLB net464=WL}}
+{inst XI110=bitcell {TYPE CELL} 
+{pin net1246=BL net1248=BLB net464=WL}}
+{inst XI109=bitcell {TYPE CELL} 
+{pin net1242=BL net1244=BLB net464=WL}}
+{inst XI108=bitcell {TYPE CELL} 
+{pin net1483=BL net1229=BLB net464=WL}}
+{inst XI107=bitcell {TYPE CELL} 
+{pin net533=BL net672=BLB net457=WL}}
+{inst XI106=bitcell {TYPE CELL} 
+{pin net534=BL net826=BLB net457=WL}}
+{inst XI105=bitcell {TYPE CELL} 
+{pin net536=BL net680=BLB net457=WL}}
+{inst XI104=bitcell {TYPE CELL} 
+{pin net538=BL net688=BLB net457=WL}}
+{inst XI103=bitcell {TYPE CELL} 
+{pin net512=BL net824=BLB net457=WL}}
+{inst XI102=bitcell {TYPE CELL} 
+{pin net514=BL net1084=BLB net457=WL}}
+{inst XI101=bitcell {TYPE CELL} 
+{pin net516=BL net1091=BLB net457=WL}}
+{inst XI100=bitcell {TYPE CELL} 
+{pin net1475=BL net819=BLB net457=WL}}
+{inst XI99=bitcell {TYPE CELL} 
+{pin net540=BL net689=BLB net457=WL}}
+{inst XI98=bitcell {TYPE CELL} 
+{pin net542=BL net827=BLB net457=WL}}
+{inst XI97=bitcell {TYPE CELL} 
+{pin net529=BL net664=BLB net457=WL}}
+{inst XI96=bitcell {TYPE CELL} 
+{pin net531=BL net684=BLB net457=WL}}
+{inst XI95=bitcell {TYPE CELL} 
+{pin net1250=BL net1252=BLB net457=WL}}
+{inst XI94=bitcell {TYPE CELL} 
+{pin net1246=BL net1248=BLB net457=WL}}
+{inst XI93=bitcell {TYPE CELL} 
+{pin net1242=BL net1244=BLB net457=WL}}
+{inst XI92=bitcell {TYPE CELL} 
+{pin net1483=BL net1229=BLB net457=WL}}
+{inst XI91=bitcell {TYPE CELL} 
+{pin net533=BL net672=BLB net456=WL}}
+{inst XI90=bitcell {TYPE CELL} 
+{pin net534=BL net826=BLB net456=WL}}
+{inst XI89=bitcell {TYPE CELL} 
+{pin net536=BL net680=BLB net456=WL}}
+{inst XI88=bitcell {TYPE CELL} 
+{pin net538=BL net688=BLB net456=WL}}
+{inst XI87=bitcell {TYPE CELL} 
+{pin net512=BL net824=BLB net456=WL}}
+{inst XI86=bitcell {TYPE CELL} 
+{pin net514=BL net1084=BLB net456=WL}}
+{inst XI85=bitcell {TYPE CELL} 
+{pin net516=BL net1091=BLB net456=WL}}
+{inst XI84=bitcell {TYPE CELL} 
+{pin net1475=BL net819=BLB net456=WL}}
+{inst XI83=bitcell {TYPE CELL} 
+{pin net540=BL net689=BLB net456=WL}}
+{inst XI82=bitcell {TYPE CELL} 
+{pin net542=BL net827=BLB net456=WL}}
+{inst XI81=bitcell {TYPE CELL} 
+{pin net529=BL net664=BLB net456=WL}}
+{inst XI80=bitcell {TYPE CELL} 
+{pin net531=BL net684=BLB net456=WL}}
+{inst XI79=bitcell {TYPE CELL} 
+{pin net1250=BL net1252=BLB net456=WL}}
+{inst XI78=bitcell {TYPE CELL} 
+{pin net1246=BL net1248=BLB net456=WL}}
+{inst XI77=bitcell {TYPE CELL} 
+{pin net1242=BL net1244=BLB net456=WL}}
+{inst XI76=bitcell {TYPE CELL} 
+{pin net1483=BL net1229=BLB net456=WL}}
+{inst XI75=bitcell {TYPE CELL} 
+{pin net533=BL net672=BLB net455=WL}}
+{inst XI74=bitcell {TYPE CELL} 
+{pin net534=BL net826=BLB net455=WL}}
+{inst XI73=bitcell {TYPE CELL} 
+{pin net536=BL net680=BLB net455=WL}}
+{inst XI72=bitcell {TYPE CELL} 
+{pin net538=BL net688=BLB net455=WL}}
+{inst XI71=bitcell {TYPE CELL} 
+{pin net512=BL net824=BLB net455=WL}}
+{inst XI70=bitcell {TYPE CELL} 
+{pin net514=BL net1084=BLB net455=WL}}
+{inst XI69=bitcell {TYPE CELL} 
+{pin net516=BL net1091=BLB net455=WL}}
+{inst XI68=bitcell {TYPE CELL} 
+{pin net1475=BL net819=BLB net455=WL}}
+{inst XI67=bitcell {TYPE CELL} 
+{pin net540=BL net689=BLB net455=WL}}
+{inst XI66=bitcell {TYPE CELL} 
+{pin net542=BL net827=BLB net455=WL}}
+{inst XI65=bitcell {TYPE CELL} 
+{pin net529=BL net664=BLB net455=WL}}
+{inst XI64=bitcell {TYPE CELL} 
+{pin net531=BL net684=BLB net455=WL}}
+{inst XI63=bitcell {TYPE CELL} 
+{pin net1250=BL net1252=BLB net455=WL}}
+{inst XI62=bitcell {TYPE CELL} 
+{pin net1246=BL net1248=BLB net455=WL}}
+{inst XI61=bitcell {TYPE CELL} 
+{pin net1242=BL net1244=BLB net455=WL}}
+{inst XI60=bitcell {TYPE CELL} 
+{pin net1483=BL net1229=BLB net455=WL}}
+{inst XI59=bitcell {TYPE CELL} 
+{pin net533=BL net672=BLB net423=WL}}
+{inst XI58=bitcell {TYPE CELL} 
+{pin net534=BL net826=BLB net423=WL}}
+{inst XI57=bitcell {TYPE CELL} 
+{pin net536=BL net680=BLB net423=WL}}
+{inst XI56=bitcell {TYPE CELL} 
+{pin net538=BL net688=BLB net423=WL}}
+{inst XI55=bitcell {TYPE CELL} 
+{pin net512=BL net824=BLB net423=WL}}
+{inst XI54=bitcell {TYPE CELL} 
+{pin net514=BL net1084=BLB net423=WL}}
+{inst XI53=bitcell {TYPE CELL} 
+{pin net516=BL net1091=BLB net423=WL}}
+{inst XI52=bitcell {TYPE CELL} 
+{pin net1475=BL net819=BLB net423=WL}}
+{inst XI51=bitcell {TYPE CELL} 
+{pin net540=BL net689=BLB net423=WL}}
+{inst XI50=bitcell {TYPE CELL} 
+{pin net542=BL net827=BLB net423=WL}}
+{inst XI49=bitcell {TYPE CELL} 
+{pin net529=BL net664=BLB net423=WL}}
+{inst XI48=bitcell {TYPE CELL} 
+{pin net531=BL net684=BLB net423=WL}}
+{inst XI47=bitcell {TYPE CELL} 
+{pin net1250=BL net1252=BLB net423=WL}}
+{inst XI46=bitcell {TYPE CELL} 
+{pin net1246=BL net1248=BLB net423=WL}}
+{inst XI45=bitcell {TYPE CELL} 
+{pin net1242=BL net1244=BLB net423=WL}}
+{inst XI44=bitcell {TYPE CELL} 
+{pin net1483=BL net1229=BLB net423=WL}}
+{inst XI43=bitcell {TYPE CELL} 
+{pin net533=BL net672=BLB net422=WL}}
+{inst XI42=bitcell {TYPE CELL} 
+{pin net534=BL net826=BLB net422=WL}}
+{inst XI41=bitcell {TYPE CELL} 
+{pin net536=BL net680=BLB net422=WL}}
+{inst XI40=bitcell {TYPE CELL} 
+{pin net538=BL net688=BLB net422=WL}}
+{inst XI39=bitcell {TYPE CELL} 
+{pin net512=BL net824=BLB net422=WL}}
+{inst XI38=bitcell {TYPE CELL} 
+{pin net514=BL net1084=BLB net422=WL}}
+{inst XI37=bitcell {TYPE CELL} 
+{pin net516=BL net1091=BLB net422=WL}}
+{inst XI36=bitcell {TYPE CELL} 
+{pin net1475=BL net819=BLB net422=WL}}
+{inst XI35=bitcell {TYPE CELL} 
+{pin net540=BL net689=BLB net422=WL}}
+{inst XI34=bitcell {TYPE CELL} 
+{pin net542=BL net827=BLB net422=WL}}
+{inst XI33=bitcell {TYPE CELL} 
+{pin net529=BL net664=BLB net422=WL}}
+{inst XI32=bitcell {TYPE CELL} 
+{pin net531=BL net684=BLB net422=WL}}
+{inst XI31=bitcell {TYPE CELL} 
+{pin net1250=BL net1252=BLB net422=WL}}
+{inst XI30=bitcell {TYPE CELL} 
+{pin net1246=BL net1248=BLB net422=WL}}
+{inst XI29=bitcell {TYPE CELL} 
+{pin net1242=BL net1244=BLB net422=WL}}
+{inst XI28=bitcell {TYPE CELL} 
+{pin net1483=BL net1229=BLB net422=WL}}
+{inst XI23=bitcell {TYPE CELL} 
+{pin net533=BL net672=BLB net421=WL}}
+{inst XI22=bitcell {TYPE CELL} 
+{pin net534=BL net826=BLB net421=WL}}
+{inst XI21=bitcell {TYPE CELL} 
+{pin net536=BL net680=BLB net421=WL}}
+{inst XI20=bitcell {TYPE CELL} 
+{pin net538=BL net688=BLB net421=WL}}
+{inst XI19=bitcell {TYPE CELL} 
+{pin net512=BL net824=BLB net421=WL}}
+{inst XI18=bitcell {TYPE CELL} 
+{pin net514=BL net1084=BLB net421=WL}}
+{inst XI17=bitcell {TYPE CELL} 
+{pin net516=BL net1091=BLB net421=WL}}
+{inst XI16=bitcell {TYPE CELL} 
+{pin net1475=BL net819=BLB net421=WL}}
+{inst XI27=bitcell {TYPE CELL} 
+{pin net540=BL net689=BLB net421=WL}}
+{inst XI26=bitcell {TYPE CELL} 
+{pin net542=BL net827=BLB net421=WL}}
+{inst XI25=bitcell {TYPE CELL} 
+{pin net529=BL net664=BLB net421=WL}}
+{inst XI24=bitcell {TYPE CELL} 
+{pin net531=BL net684=BLB net421=WL}}
+{inst XI3=bitcell {TYPE CELL} 
+{pin net1250=BL net1252=BLB net421=WL}}
+{inst XI2=bitcell {TYPE CELL} 
+{pin net1246=BL net1248=BLB net421=WL}}
+{inst XI1=bitcell {TYPE CELL} 
+{pin net1242=BL net1244=BLB net421=WL}}
+{inst XI0=bitcell {TYPE CELL} 
+{pin net1483=BL net1229=BLB net421=WL}}
+{inst XI215=bit_conditioning {TYPE CELL} 
+{pin net512=BL net824=BLB CLK=CLK}}
+{inst XI214=bit_conditioning {TYPE CELL} 
+{pin net514=BL net1084=BLB CLK=CLK}}
+{inst XI213=bit_conditioning {TYPE CELL} 
+{pin net516=BL net1091=BLB CLK=CLK}}
+{inst XI212=bit_conditioning {TYPE CELL} 
+{pin net1475=BL net819=BLB CLK=CLK}}
+{inst XI211=bit_conditioning {TYPE CELL} 
+{pin net1250=BL net1252=BLB CLK=CLK}}
+{inst XI210=bit_conditioning {TYPE CELL} 
+{pin net1246=BL net1248=BLB CLK=CLK}}
+{inst XI209=bit_conditioning {TYPE CELL} 
+{pin net1242=BL net1244=BLB CLK=CLK}}
+{inst Xf=bit_conditioning {TYPE CELL} 
+{pin net1483=BL net1229=BLB CLK=CLK}}
+{inst XI216=bit_conditioning {TYPE CELL} 
+{pin net538=BL net688=BLB CLK=CLK}}
+{inst XI217=bit_conditioning {TYPE CELL} 
+{pin net536=BL net680=BLB CLK=CLK}}
+{inst XI218=bit_conditioning {TYPE CELL} 
+{pin net534=BL net826=BLB CLK=CLK}}
+{inst XI219=bit_conditioning {TYPE CELL} 
+{pin net533=BL net672=BLB CLK=CLK}}
+{inst XI220=bit_conditioning {TYPE CELL} 
+{pin net531=BL net684=BLB CLK=CLK}}
+{inst XI221=bit_conditioning {TYPE CELL} 
+{pin net529=BL net664=BLB CLK=CLK}}
+{inst XI222=bit_conditioning {TYPE CELL} 
+{pin net542=BL net827=BLB CLK=CLK}}
+{inst XI223=bit_conditioning {TYPE CELL} 
+{pin net540=BL net689=BLB CLK=CLK}}
+{inst XI142=rowdecoder {TYPE CELL} 
+{pin A<2>=A<2> A<3>=A<3> A<4>=A<4> net421=WL<0> net422=WL<1> net423=WL<2>
+ net455=WL<3> net456=WL<4> net457=WL<5> net464=WL<6> net1050=WL<7>}}
+{inst XI461=Write_Driver {TYPE CELL} 
+{pin net1547=BL net1523=BLB WENB=WE D<3>=Write_data}}
+{inst XI460=Write_Driver {TYPE CELL} 
+{pin net1546=BL net1532=BLB WENB=WE D<2>=Write_data}}
+{inst XI459=Write_Driver {TYPE CELL} 
+{pin net1545=BL net1528=BLB WENB=WE D<1>=Write_data}}
+{inst XI458=Write_Driver {TYPE CELL} 
+{pin net1544=BL net1524=BLB WENB=WE D<0>=Write_data}}
+}
+
+}

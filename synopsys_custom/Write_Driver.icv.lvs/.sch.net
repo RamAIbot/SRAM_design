@@ -1,0 +1,28 @@
+{netlist .sch.net
+{version 3 1 0}
+{net_global vdd! gnd! }
+{cell inv_2
+{port A Z}
+{inst MM0=nmos {TYPE MOS} 
+{pin Z=DRN A=GATE gnd!=SRC}}
+{inst MM1=pmos {TYPE MOS} 
+{pin Z=DRN A=GATE vdd!=SRC}}
+}
+
+{cell Write_Driver
+{port BL BLB WE Write_data}
+{inst MM3=nmos {TYPE MOS} 
+{pin net10=DRN net13=GATE gnd!=SRC}}
+{inst MM2=nmos {TYPE MOS} 
+{pin BLB=DRN net16=GATE net10=SRC}}
+{inst MM1=nmos {TYPE MOS} 
+{pin net15=DRN Write_data=GATE gnd!=SRC}}
+{inst MM0=nmos {TYPE MOS} 
+{pin BL=DRN net16=GATE net15=SRC}}
+{inst XI9=inv_2 {TYPE CELL} 
+{pin WE=A net16=Z}}
+{inst XI8=inv_2 {TYPE CELL} 
+{pin Write_data=A net13=Z}}
+}
+
+}

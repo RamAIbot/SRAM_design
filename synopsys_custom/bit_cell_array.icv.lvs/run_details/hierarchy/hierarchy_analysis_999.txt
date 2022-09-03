@@ -1,0 +1,221 @@
+* Description of frequently used terms in hierarchy_analysis files*
+M indicates that the value of that column is in millions
+Hier Plc Count(Hierarchical Placement Count) : Number of unique instances of the cell in another cell (Parent)
+Flat Plc Count(Flat Placement Count)         : Total number of instances of the cell in the layout
+
+Example : 
+                               A                     
+                              / \                   Cell  Hier Plc Count Flat Plc Count 
+                             /   \                     A               1              1 
+                            B     B                    B               2              2 
+                           / \  /  \                   C               2              4 
+                          C   C C   C                
+------------------------------------------------------------------------------------------------------ 
+
+
+* Cells with flat area > 0.01 of top cell *
+Reports cells with flat area > 0.01 of top cell
+
+Flat A(Flat Area) : Total area covered by this cell in the layout(cell area * flat placement count)
+Cell A(Cell Area) : Area of this cell
+Percent of top    : Percentage of area of this cell w.r.t area of top cell
+This table contains 5 entries
+Original table contains 5 entries
+
+ Name                                          | Flat A (mm^2), Cell A (mm^2), Flat Plc Count, Hier Plc Count, Percent of top
+-----------------------------------------------
+ bit_cell_array                                |         0.000,         0.000,              1,              1,       100.00 %
+ bitcell                                       |         0.000,         0.000,            128,              8,        10.59 %
+ VCELLR4                                       |         0.000,         0.000,             16,             16,         9.90 %
+ column_decoder_new                            |         0.000,         0.000,              1,              1,         5.74 %
+ rowdecoder                                    |         0.000,         0.000,              1,              1,         2.26 %
+===============================================
+
+* Large-Area cells and child area ratio *
+This table reports cells with large areas and ratio of its area with total area covered by its children
+
+Num Inst(Number of instances) : Total Number of instances of the cell
+Child A(Child Area)           : Total area covered by all the children of the cell
+Pct of parent(Percent of area): Percentage of total area covered by its childern w.r.t area of this cell
+This table contains 5 entries
+Original table contains 5 entries
+
+ Name                                          | Flat A (mm^2), Cell A (mm^2), Num Inst (M), Child A (mm^2), Pct of parent
+-----------------------------------------------
+ bit_cell_array                                |         0.000,         0.000,        0.000,         0.000,       19.80 %
+ bitcell                                       |         0.000,         0.000,        0.000,         0.000,        0.00 %
+ VCELLR4                                       |         0.000,         0.000,        0.000,         0.000,      106.96 %
+ column_decoder_new                            |         0.000,         0.000,        0.000,         0.000,        6.67 %
+ rowdecoder                                    |         0.000,         0.000,        0.000,         0.000,       20.87 %
+===============================================
+
+* Exploded Cell Information *
+Displays information of exploded cells
+
+Parent cell           : Name of the parent cell the cell has exploded into
+Exploded Inst Count   : Total number of instances of the cell that has expldoed to the parent cell
+Parent Flat Plc Count : Parent cell flat placement count
+Parent Hier Plc Count : Parent cell hierarchical placement count
+This table contains 64 entries
+Original table contains 64 entries
+
+ Exploded Cell                                 | Parent Cell                                   | Exploded Inst Count, Parent Flat Plc Count, Parent Hier Plc Count
+----------------------------------------------- -----------------------------------------------
+ M0B_M1                                        | bit_cell_array                                |                 163,                     1,                     1
+ M0A_M0B                                       | bit_cell_array                                |                  96,                     1,                     1
+ M0B_M1                                        | column_decoder_new                            |                  90,                     1,                     1
+ M1_M2                                         | bit_cell_array                                |                  69,                     1,                     1
+ M0A_M0B                                       | column_decoder_new                            |                  64,                     1,                     1
+ M0B_M1                                        | rowdecoder                                    |                  56,                     1,                     1
+ M1_M2                                         | rowdecoder                                    |                  44,                     1,                     1
+ GATE_M0B                                      | column_decoder_new                            |                  34,                     1,                     1
+ nmos                                          | column_decoder_new                            |                  32,                     1,                     1
+ BPR_M0A                                       | bit_cell_array                                |                  22,                     1,                     1
+ M0B_M1                                        | demu_2_4                                      |                  18,                     1,                     1
+ BPR_M0A                                       | rowdecoder                                    |                  18,                     1,                     1
+ M0A_M0B                                       | rowdecoder                                    |                  18,                     1,                     1
+ M0B_M1                                        | Write_Driver                                  |                  12,                     4,                     4
+ M1_M2                                         | demu_2_4                                      |                  12,                     1,                     1
+ GATE_M0B                                      | tspc_flip_flop                                |                  12,                     4,                     4
+ M0B_M1                                        | tspc_flip_flop                                |                  12,                     4,                     4
+ M1_M2                                         | column_decoder_new                            |                  10,                     1,                     1
+ BPR_M0A                                       | tspc_flip_flop                                |                  10,                     4,                     4
+ nmos                                          | tspc_flip_flop                                |                   9,                     4,                     4
+ M1_M2                                         | Write_Driver                                  |                   8,                     4,                     4
+ M2_M3                                         | bit_cell_array                                |                   8,                     1,                     1
+ pmos                                          | tspc_flip_flop                                |                   8,                     4,                     4
+ M0A_M0B                                       | Write_Driver                                  |                   7,                     4,                     4
+ M0A_M0B                                       | bitcell                                       |                   7,                   128,                   128
+ M0A_M0B                                       | tspc_flip_flop                                |                   7,                     4,                     4
+ pmos                                          | and_2                                         |                   6,                     4,                     4
+ nmos                                          | bitcell                                       |                   6,                   128,                   128
+ pmos                                          | nor_5                                         |                   6,                     8,                     8
+ BPR_M0A                                       | and_2                                         |                   5,                     4,                     4
+ nmos                                          | and_2                                         |                   5,                     4,                     4
+ M0B_M1                                        | bit_conditioning                              |                   5,                    16,                    16
+ GATE_M0B                                      | Write_Driver                                  |                   4,                     4,                     4
+ M2_M3                                         | Write_Driver                                  |                   4,                     4,                     4
+ nmos                                          | Write_Driver                                  |                   4,                     4,                     4
+ GATE_M0B                                      | and_2                                         |                   4,                     4,                     4
+ M0A_M0B                                       | and_2                                         |                   4,                     4,                     4
+ M0B_M1                                        | and_2                                         |                   4,                     4,                     4
+ BPR_M0A                                       | bitcell                                       |                   4,                   128,                   128
+ GATE_M0B                                      | bitcell                                       |                   4,                   128,                   128
+ M0B_M1                                        | bitcell                                       |                   4,                   128,                   128
+ BPR_M0A                                       | nor_5                                         |                   4,                     8,                     8
+ GATE_M0B                                      | nor_5                                         |                   4,                     8,                     8
+ M0A_M0B                                       | nor_5                                         |                   3,                     8,                     8
+ nmos                                          | nor_5                                         |                   3,                     8,                     8
+ BPR_M0A                                       | Write_Driver                                  |                   2,                     4,                     4
+ M3_M4                                         | Write_Driver                                  |                   2,                     4,                     4
+ BPR_M0A                                       | bit_conditioning                              |                   2,                    16,                    16
+ GATE_M0B                                      | bit_conditioning                              |                   2,                    16,                    16
+ M0A_M0B                                       | bit_conditioning                              |                   2,                    16,                    16
+ M1_M2                                         | bit_conditioning                              |                   2,                    16,                    16
+ pmos                                          | bit_conditioning                              |                   2,                    16,                    16
+ pmos                                          | bitcell                                       |                   2,                   128,                   128
+ BPR_M0A                                       | demu_2_4                                      |                   2,                     1,                     1
+ M0A_M0B                                       | demu_2_4                                      |                   2,                     1,                     1
+ BPR_M0A                                       | inv_2                                         |                   2,                    21,                     6
+ pmos                                          | inv_2                                         |                   2,                    21,                     6
+ M0B_M1                                        | nor_5                                         |                   2,                     8,                     8
+ M1_M2                                         | nor_5                                         |                   2,                     8,                     8
+ M2_M3                                         | demu_2_4                                      |                   1,                     1,                     1
+ GATE_M0B                                      | inv_2                                         |                   1,                    21,                     6
+ M0A_M0B                                       | inv_2                                         |                   1,                    21,                     6
+ nmos                                          | inv_2                                         |                   1,                    21,                     6
+ M0A_M0B                                       | inverter_write_driver                         |                   1,                     8,                     2
+=============================================== ===============================================
+
+* Layer Report with Estimated Data *
+Reports information of layers present in the layout
+
+Trap        : Number of hierarchical trapezoids in the layer
+Poly        : Number of hierarchical polygons in the layer
+Text        : Number of hierarchical text primitives in the layer
+Flat Trap   : Number of flat trapezoids 
+Flat Poly   : Number of flat polygons
+Flat Text   : Number of flat text primitives 
+Trap F/H    : Ratio of flat and hierarchical placements of the trapezoids
+Base, Metal, Via, Fill, Colored : Indicates layer intent
+This table contains 25 entries
+Original table contains 25 entries
+
+ Name                                          | Trap (M), Poly (M), Text (M), Flat Trap (M), Flat Poly (M), Flat Text (M), Trap F/H, Base, Metal, Via, Fill, Colored
+-----------------------------------------------
+ aGATE                                         |    0.003,    0.003,    0.000,         0.009,         0.009,         0.000,     3.69,    0,     0,   0,    0,       0
+ aM0A                                          |    0.001,    0.001,    0.000,         0.008,         0.008,         0.000,     7.24,    0,     0,   0,    0,       0
+ aM0B                                          |    0.001,    0.001,    0.000,         0.004,         0.004,         0.000,     4.07,    0,     0,   0,    0,       0
+ aM1                                           |    0.001,    0.001,    0.000,         0.002,         0.002,         0.000,     3.11,    0,     0,   0,    0,       0
+ aBPR                                          |    0.001,    0.001,    0.000,         0.002,         0.002,         0.000,     3.45,    0,     0,   0,    0,       0
+ aDUMMY                                        |    0.001,    0.001,    0.000,         0.003,         0.003,         0.000,     6.46,    0,     0,   0,    0,       0
+ aACT                                          |    0.000,    0.000,    0.000,         0.002,         0.002,         0.000,     4.13,    0,     0,   0,    0,       0
+ aV0B                                          |    0.000,    0.000,    0.000,         0.001,         0.001,         0.000,     2.89,    0,     0,   0,    0,       0
+ aM2                                           |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     1.44,    0,     0,   0,    0,       0
+ aV0A                                          |    0.000,    0.000,    0.000,         0.001,         0.001,         0.000,     5.83,    0,     0,   0,    0,       0
+ aV1                                           |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     1.46,    0,     0,   0,    0,       0
+ aNIM                                          |    0.000,    0.000,    0.000,         0.002,         0.002,         0.000,    21.95,    0,     0,   0,    0,       0
+ tM0B                                          |    0.000,    0.000,    0.000,         0.000,         0.000,         0.001,     0.00,    0,     0,   0,    0,       0
+ aVBPR                                         |    0.000,    0.000,    0.000,         0.001,         0.001,         0.000,    10.19,    0,     0,   0,    0,       0
+ aGCON                                         |    0.000,    0.000,    0.000,         0.001,         0.001,         0.000,    10.89,    0,     0,   0,    0,       0
+ aPIM                                          |    0.000,    0.000,    0.000,         0.001,         0.001,         0.000,    17.02,    0,     0,   0,    0,       0
+ aNW                                           |    0.000,    0.000,    0.000,         0.001,         0.001,         0.000,    27.26,    0,     0,   0,    0,       0
+ tBPR                                          |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     0.00,    0,     0,   0,    0,       0
+ aM3                                           |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     2.58,    0,     0,   0,    0,       0
+ aGCUT                                         |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     3.00,    0,     0,   0,    0,       0
+ aV2                                           |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     1.92,    0,     0,   0,    0,       0
+ tM1                                           |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     0.00,    0,     0,   0,    0,       0
+ aM4                                           |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     4.00,    0,     0,   0,    0,       0
+ tM3                                           |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     0.00,    0,     0,   0,    0,       0
+ tM0A                                          |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     0.00,    0,     0,   0,    0,       0
+===============================================
+
+* Explosion tries on no explode cells *
+Reports the attempts to explode cells which can not be exploded
+Explosion Try         : Reason behind the attempt to explode that particular cell
+Not Exploding Reason  : Reason why the cell is not being exploded
+This table contains 4 entries
+Original table contains 4 entries
+
+ Cell Name                                     | Explosion Try                                 |                          Not Exploding Reason
+----------------------------------------------- ----------------------------------------------- -----------------------------------------------
+ column_decoder_new                            | AUTO_EXPLODED (PLACEMENT_LIMIT)               |                             USED (NO EXPLODE)
+ column_decoder_new                            | AUTO_EXPLODED (BIG_SPARSE_CELL)               |                             USED (NO EXPLODE)
+ demu_2_4                                      | AUTO_EXPLODED (PLACEMENT_LIMIT)               |                             USED (NO EXPLODE)
+ rowdecoder                                    | AUTO_EXPLODED (PLACEMENT_LIMIT)               |                             USED (NO EXPLODE)
+=============================================== =============================================== ===============================================
+
+* Top cells pushing ref->ref data *
+Reports cells sorted on count of pushed references
+Cell Snum           : Indicates an unique structure number to identify the cell
+Reference Count     : Indicates the number of references pushed by the cell
+This table contains 6 entries
+Original table contains 6 entries
+
+ Name                                          |    Reference Count,     Cell Snum
+-----------------------------------------------
+ inv_2                                         |                  6,             9
+ bit_conditioning                              |                  4,             5
+ and_2                                         |                  4,            11
+ inverter_write_driver                         |                  2,             8
+ VCELLR2                                       |                  2,            12
+ VCELLR4                                       |                  2,            13
+===============================================
+
+* Top cells accepting ref->ref data *
+Reports cells sorted on count of accepted references
+Cell Snum           : Indicates an unique structure number to identify the cell
+Reference Count     : Indicates the number of references accepted by the cell
+This table contains 6 entries
+Original table contains 6 entries
+
+ Name                                          |    Reference Count,     Cell Snum
+-----------------------------------------------
+ VCELLR2                                       |                  5,            12
+ inv_2                                         |                  4,             9
+ and_2                                         |                  4,            11
+ bit_conditioning                              |                  3,             5
+ inverter_write_driver                         |                  2,             8
+ VCELLR4                                       |                  2,            13
+===============================================
+

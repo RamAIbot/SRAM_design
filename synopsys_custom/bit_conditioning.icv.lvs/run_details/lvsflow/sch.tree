@@ -1,0 +1,23 @@
+bit_conditioning Level=0 Count=1
+   inv_2 Level=1 Count=1
+
++--------------------------------------------------------------------------+
+|                             CELL STATISTICS                              |
++--------------------------------------------------------------------------+
+
+
+CELL = bit_conditioning
+	Flat Placements      =	1
+
+CELL = inv_2
+	Flat Placements      =	1
+
+TOP CELL = bit_conditioning
+	Ports                =	5
+
++--------------------------------------------------------------------------+
+|                            DEVICE STATISTICS                             |
++--------------------------------------------------------------------------+
+
+	NMOS[nmos] = 1
+	PMOS[pmos] = 3

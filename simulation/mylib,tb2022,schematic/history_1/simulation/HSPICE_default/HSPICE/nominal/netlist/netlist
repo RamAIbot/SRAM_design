@@ -1,0 +1,424 @@
+*Custom Compiler Version S-2021.09
+*Wed May  4 03:43:25 2022
+
+.global gnd! vdd!
+********************************************************************************
+* Library          : proj_common
+* Cell             : inputbuf
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt inputbuf out in
+m9 out net7 gnd! nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m8 net7 in gnd! nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m11 out net7 vdd! pfet nfin=4 adeo=1.134e-15 aseo=1.134e-15 pdeo=2.34e-07 pseo=2.34e-07
+m10 net7 in vdd! pfet nfin=4 adeo=1.134e-15 aseo=1.134e-15 pdeo=2.34e-07 pseo=2.34e-07
+.ends inputbuf
+
+********************************************************************************
+* Library          : mylib
+* Cell             : tspc_flip_flop
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt tspc_flip_flop clk d qbar
+m20 qbar net42 gnd! nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m16 net42 net38 gnd! nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m10 net23 net12 gnd! nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=1.17e-07 pseo=1.17e-07
+m8 net38 clk net23 nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=1.17e-07 pseo=1.17e-07
+m7 net16 clk gnd! nfet nfin=4 adeo=1.134e-15 aseo=1.134e-15 pdeo=2.34e-07 pseo=2.34e-07
+m5 net12 net8 net16 nfet nfin=4 adeo=1.134e-15 aseo=1.134e-15 pdeo=2.34e-07
++ pseo=2.34e-07
+m2 net8 d gnd! nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=1.17e-07 pseo=1.17e-07
+m21 qbar net42 vdd! pfet nfin=4 adeo=1.134e-15 aseo=1.134e-15 pdeo=2.34e-07
++ pseo=2.34e-07
+m17 net42 net38 vdd! pfet nfin=4 adeo=1.134e-15 aseo=1.134e-15 pdeo=2.34e-07
++ pseo=2.34e-07
+m9 net38 net12 vdd! pfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=1.17e-07 pseo=1.17e-07
+m6 net12 clk vdd! pfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=1.17e-07 pseo=1.17e-07
+m4 net8 clk net7 pfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=1.17e-07 pseo=1.17e-07
+m3 net7 d vdd! pfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=1.17e-07 pseo=1.17e-07
+.ends tspc_flip_flop
+
+********************************************************************************
+* Library          : mylib
+* Cell             : and_2
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt and_2 a b z
+m10 z net26 gnd! nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=1.17e-07 pseo=1.17e-07
+m1 net22 b gnd! nfet nfin=4 adeo=1.134e-15 aseo=1.134e-15 pdeo=2.34e-07 pseo=2.34e-07
+m0 net26 a net22 nfet nfin=4 adeo=1.134e-15 aseo=1.134e-15 pdeo=2.34e-07 pseo=2.34e-07
+m9 z net26 vdd! pfet nfin=4 adeo=1.134e-15 aseo=1.134e-15 pdeo=2.34e-07 pseo=2.34e-07
+m3 net26 a vdd! pfet nfin=4 adeo=1.134e-15 aseo=1.134e-15 pdeo=2.34e-07 pseo=2.34e-07
+m2 net26 b vdd! pfet nfin=4 adeo=1.134e-15 aseo=1.134e-15 pdeo=2.34e-07 pseo=2.34e-07
+.ends and_2
+
+********************************************************************************
+* Library          : mylib
+* Cell             : inv_2
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt inv_2 a z
+m0 z a gnd! nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m1 z a vdd! pfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+.ends inv_2
+
+********************************************************************************
+* Library          : mylib
+* Cell             : demu_2_4
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt demu_2_4 a0 a1 out0 out1 out2 out3
+xi3 net13 net15 out0 and_2
+xi2 a0 a1 out3 and_2
+xi1 net13 a1 out2 and_2
+xi0 a0 net15 out1 and_2
+xi5 a1 net15 inv_2
+xi4 a0 net13 inv_2
+.ends demu_2_4
+
+********************************************************************************
+* Library          : mylib
+* Cell             : column_decoder_new
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt column_decoder_new a0 a1 b0 b0b b1 b1b b2 b2b b3 b3b b4 b4b b5 b5b b6
++ b6b b7 b7b b8 b8b b9 b9b b10 b10b b11 b11b b12 b12b b13 b13b b14 b14b b15 b15b
++  outb_0 outb_1 outb_2 outb_3 out_0 out_1 out_2 out_3
+xi1 a0 a1 net20 net44 net56 net68 demu_2_4
+m49 b15b net68 outb_3 nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m48 b14b net68 outb_2 nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m47 b13b net68 outb_1 nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m46 b12b net68 outb_0 nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m45 b15 net68 out_3 nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m44 b14 net68 out_2 nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m43 b13 net68 out_1 nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m42 b12 net68 out_0 nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m41 b11b net56 outb_3 nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m40 b10b net56 outb_2 nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m39 b9b net56 outb_1 nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m38 b8b net56 outb_0 nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m37 b11 net56 out_3 nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m36 b10 net56 out_2 nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m35 b9 net56 out_1 nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m34 b8 net56 out_0 nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m17 b7b net44 outb_3 nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m16 b6b net44 outb_2 nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m15 b5b net44 outb_1 nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m14 b4b net44 outb_0 nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m13 b7 net44 out_3 nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m12 b6 net44 out_2 nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m11 b5 net44 out_1 nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m10 b4 net44 out_0 nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m9 b3b net20 outb_3 nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m8 b2b net20 outb_2 nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m7 b1b net20 outb_1 nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m6 b0b net20 outb_0 nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m5 b3 net20 out_3 nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m4 b2 net20 out_2 nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m3 b1 net20 out_1 nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m2 b0 net20 out_0 nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+.ends column_decoder_new
+
+********************************************************************************
+* Library          : mylib
+* Cell             : bitcell
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt bitcell bl blb wl
+m3 q qb gnd! nfet nfin=4 adeo=1.134e-15 aseo=1.134e-15 pdeo=2.34e-07 pseo=2.34e-07
+m2 q wl bl nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=1.17e-07 pseo=1.17e-07
+m1 qb q gnd! nfet nfin=4 adeo=1.134e-15 aseo=1.134e-15 pdeo=2.34e-07 pseo=2.34e-07
+m0 blb wl qb nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=1.17e-07 pseo=1.17e-07
+m5 q qb vdd! pfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=1.17e-07 pseo=1.17e-07
+m4 qb q vdd! pfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=1.17e-07 pseo=1.17e-07
+.ends bitcell
+
+********************************************************************************
+* Library          : mylib
+* Cell             : bit_conditioning
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt bit_conditioning bl blb clk
+m8 blb net22 vdd! pfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=1.17e-07 pseo=1.17e-07
+m7 bl net22 vdd! pfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=1.17e-07 pseo=1.17e-07
+xi9 clk net22 inv_2
+.ends bit_conditioning
+
+********************************************************************************
+* Library          : mylib
+* Cell             : nor_5
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt nor_5 a b c z
+m21 z b gnd! nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m22 z a gnd! nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m8 z c gnd! nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m18 net50 a vdd! pfet nfin=4 adeo=1.134e-15 aseo=1.134e-15 pdeo=2.34e-07 pseo=2.34e-07
+m19 net53 b net50 pfet nfin=4 adeo=1.134e-15 aseo=1.134e-15 pdeo=2.34e-07 pseo=2.34e-07
+m20 z c net53 pfet nfin=4 adeo=1.134e-15 aseo=1.134e-15 pdeo=2.34e-07 pseo=2.34e-07
+.ends nor_5
+
+********************************************************************************
+* Library          : mylib
+* Cell             : rowdecoder
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt rowdecoder a<2> a<3> a<4> wl<0> wl<1> wl<2> wl<3> wl<4> wl<5> wl<6>
++ wl<7>
+xi60 a<4> a<3> ~a<0> wl<1> nor_5
+xi54 ~a<2> ~a<1> ~a<0> wl<7> nor_5
+xi59 a<4> ~a<1> a<2> wl<2> nor_5
+xi55 ~a<2> ~a<1> a<2> wl<6> nor_5
+xi56 ~a<2> a<3> ~a<0> wl<5> nor_5
+xi57 ~a<2> a<3> a<2> wl<4> nor_5
+xi61 a<4> a<3> a<2> wl<0> nor_5
+xi58 a<4> ~a<1> ~a<0> wl<3> nor_5
+xi21 a<2> ~a<0> inv_2
+xi20 a<3> ~a<1> inv_2
+xi19 a<4> ~a<2> inv_2
+.ends rowdecoder
+
+********************************************************************************
+* Library          : mylib
+* Cell             : Write_Driver
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt write_driver bl blb we write_data
+m3 net10 net13 gnd! nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m2 blb net16 net10 nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m1 net15 write_data gnd! nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m0 bl net16 net15 nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+xi9 we net16 inv_2
+xi8 write_data net13 inv_2
+.ends write_driver
+
+********************************************************************************
+* Library          : mylib
+* Cell             : bit_cell_array
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt bit_cell_array a0 a1 a<2> a<3> a<4> clk d<0> d<1> d<2> d<3> q<0> q<1>
++ q<2> q<3> wenb
+xi146 clk net1544 q<0> tspc_flip_flop
+xi145 clk net1545 q<1> tspc_flip_flop
+xi144 clk net1546 q<2> tspc_flip_flop
+xi143 clk net1547 q<3> tspc_flip_flop
+xi453 a0 a1 net1483 net1229 net1242 net1244 net1246 net1248 net1250 net1252
++ net1475 net819 net516 net1091 net514 net1084 net512 net824 net538 net688
++ net536 net680 net534 net826 net533 net672 net531 net684 net529 net664 net542
++ net827 net540 net689 net1524 net1528 net1532 net1547 net1544 net1545 net1546
++ net1523 column_decoder_new
+xi139 net533 net672 net1050 bitcell
+xi138 net534 net826 net1050 bitcell
+xi137 net536 net680 net1050 bitcell
+xi136 net538 net688 net1050 bitcell
+xi135 net512 net824 net1050 bitcell
+xi134 net514 net1084 net1050 bitcell
+xi133 net516 net1091 net1050 bitcell
+xi132 net1475 net819 net1050 bitcell
+xi131 net540 net689 net1050 bitcell
+xi130 net542 net827 net1050 bitcell
+xi129 net529 net664 net1050 bitcell
+xi128 net531 net684 net1050 bitcell
+xi127 net1250 net1252 net1050 bitcell
+xi126 net1246 net1248 net1050 bitcell
+xi125 net1242 net1244 net1050 bitcell
+xi124 net1483 net1229 net1050 bitcell
+xi123 net533 net672 net464 bitcell
+xi122 net534 net826 net464 bitcell
+xi121 net536 net680 net464 bitcell
+xi120 net538 net688 net464 bitcell
+xi119 net512 net824 net464 bitcell
+xi118 net514 net1084 net464 bitcell
+xi117 net516 net1091 net464 bitcell
+xi116 net1475 net819 net464 bitcell
+xi115 net540 net689 net464 bitcell
+xi114 net542 net827 net464 bitcell
+xi113 net529 net664 net464 bitcell
+xi112 net531 net684 net464 bitcell
+xi111 net1250 net1252 net464 bitcell
+xi110 net1246 net1248 net464 bitcell
+xi109 net1242 net1244 net464 bitcell
+xi108 net1483 net1229 net464 bitcell
+xi107 net533 net672 net457 bitcell
+xi106 net534 net826 net457 bitcell
+xi105 net536 net680 net457 bitcell
+xi104 net538 net688 net457 bitcell
+xi103 net512 net824 net457 bitcell
+xi102 net514 net1084 net457 bitcell
+xi101 net516 net1091 net457 bitcell
+xi100 net1475 net819 net457 bitcell
+xi99 net540 net689 net457 bitcell
+xi98 net542 net827 net457 bitcell
+xi97 net529 net664 net457 bitcell
+xi96 net531 net684 net457 bitcell
+xi95 net1250 net1252 net457 bitcell
+xi94 net1246 net1248 net457 bitcell
+xi93 net1242 net1244 net457 bitcell
+xi92 net1483 net1229 net457 bitcell
+xi91 net533 net672 net456 bitcell
+xi90 net534 net826 net456 bitcell
+xi89 net536 net680 net456 bitcell
+xi88 net538 net688 net456 bitcell
+xi87 net512 net824 net456 bitcell
+xi86 net514 net1084 net456 bitcell
+xi85 net516 net1091 net456 bitcell
+xi84 net1475 net819 net456 bitcell
+xi83 net540 net689 net456 bitcell
+xi82 net542 net827 net456 bitcell
+xi81 net529 net664 net456 bitcell
+xi80 net531 net684 net456 bitcell
+xi79 net1250 net1252 net456 bitcell
+xi78 net1246 net1248 net456 bitcell
+xi77 net1242 net1244 net456 bitcell
+xi76 net1483 net1229 net456 bitcell
+xi75 net533 net672 net455 bitcell
+xi74 net534 net826 net455 bitcell
+xi73 net536 net680 net455 bitcell
+xi72 net538 net688 net455 bitcell
+xi71 net512 net824 net455 bitcell
+xi70 net514 net1084 net455 bitcell
+xi69 net516 net1091 net455 bitcell
+xi68 net1475 net819 net455 bitcell
+xi67 net540 net689 net455 bitcell
+xi66 net542 net827 net455 bitcell
+xi65 net529 net664 net455 bitcell
+xi64 net531 net684 net455 bitcell
+xi63 net1250 net1252 net455 bitcell
+xi62 net1246 net1248 net455 bitcell
+xi61 net1242 net1244 net455 bitcell
+xi60 net1483 net1229 net455 bitcell
+xi59 net533 net672 net423 bitcell
+xi58 net534 net826 net423 bitcell
+xi57 net536 net680 net423 bitcell
+xi56 net538 net688 net423 bitcell
+xi55 net512 net824 net423 bitcell
+xi54 net514 net1084 net423 bitcell
+xi53 net516 net1091 net423 bitcell
+xi52 net1475 net819 net423 bitcell
+xi51 net540 net689 net423 bitcell
+xi50 net542 net827 net423 bitcell
+xi49 net529 net664 net423 bitcell
+xi48 net531 net684 net423 bitcell
+xi47 net1250 net1252 net423 bitcell
+xi46 net1246 net1248 net423 bitcell
+xi45 net1242 net1244 net423 bitcell
+xi44 net1483 net1229 net423 bitcell
+xi43 net533 net672 net422 bitcell
+xi42 net534 net826 net422 bitcell
+xi41 net536 net680 net422 bitcell
+xi40 net538 net688 net422 bitcell
+xi39 net512 net824 net422 bitcell
+xi38 net514 net1084 net422 bitcell
+xi37 net516 net1091 net422 bitcell
+xi36 net1475 net819 net422 bitcell
+xi35 net540 net689 net422 bitcell
+xi34 net542 net827 net422 bitcell
+xi33 net529 net664 net422 bitcell
+xi32 net531 net684 net422 bitcell
+xi31 net1250 net1252 net422 bitcell
+xi30 net1246 net1248 net422 bitcell
+xi29 net1242 net1244 net422 bitcell
+xi28 net1483 net1229 net422 bitcell
+xi23 net533 net672 net421 bitcell
+xi22 net534 net826 net421 bitcell
+xi21 net536 net680 net421 bitcell
+xi20 net538 net688 net421 bitcell
+xi19 net512 net824 net421 bitcell
+xi18 net514 net1084 net421 bitcell
+xi17 net516 net1091 net421 bitcell
+xi16 net1475 net819 net421 bitcell
+xi27 net540 net689 net421 bitcell
+xi26 net542 net827 net421 bitcell
+xi25 net529 net664 net421 bitcell
+xi24 net531 net684 net421 bitcell
+xi3 net1250 net1252 net421 bitcell
+xi2 net1246 net1248 net421 bitcell
+xi1 net1242 net1244 net421 bitcell
+xi0 net1483 net1229 net421 bitcell
+xi215 net512 net824 clk bit_conditioning
+xi214 net514 net1084 clk bit_conditioning
+xi213 net516 net1091 clk bit_conditioning
+xi212 net1475 net819 clk bit_conditioning
+xi211 net1250 net1252 clk bit_conditioning
+xi210 net1246 net1248 clk bit_conditioning
+xi209 net1242 net1244 clk bit_conditioning
+xf net1483 net1229 clk bit_conditioning
+xi216 net538 net688 clk bit_conditioning
+xi217 net536 net680 clk bit_conditioning
+xi218 net534 net826 clk bit_conditioning
+xi219 net533 net672 clk bit_conditioning
+xi220 net531 net684 clk bit_conditioning
+xi221 net529 net664 clk bit_conditioning
+xi222 net542 net827 clk bit_conditioning
+xi223 net540 net689 clk bit_conditioning
+xi142 a<2> a<3> a<4> net421 net422 net423 net455 net456 net457 net464 net1050
++ rowdecoder
+xi461 net1547 net1523 wenb d<3> write_driver
+xi460 net1546 net1532 wenb d<2> write_driver
+xi459 net1545 net1528 wenb d<1> write_driver
+xi458 net1544 net1524 wenb d<0> write_driver
+.ends bit_cell_array
+
+********************************************************************************
+* Library          : mylib
+* Cell             : tb2022
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+c1 q<1> gnd! c=1f
+c3 q<3> gnd! c=1f
+c2 q<2> gnd! c=1f
+c0 q<0> gnd! c=1f
+r33 i_a<4> gnd! r=1meg
+rdwenb i_wenb gnd! r=1meg
+rdar1 i_a<3> gnd! r=1meg
+rdar0 i_a<2> gnd! r=1meg
+rdaw1 i_a<1> gnd! r=1meg
+rdaw0 i_a<0> gnd! r=1meg
+rddw3 i_d<3> gnd! r=1meg
+rddw2 i_d<2> gnd! r=1meg
+rddw1 i_d<1> gnd! r=1meg
+rddw0 i_d<0> gnd! r=1meg
+xi34 a<4> i_a<4> inputbuf
+xi25 clk net35 inputbuf
+xbwenb wenb i_wenb inputbuf
+xbar1 a<3> i_a<3> inputbuf
+xbar0 a<2> i_a<2> inputbuf
+xbaw1 a<1> i_a<1> inputbuf
+xbaw0 a<0> i_a<0> inputbuf
+xbdw3 d<3> i_d<3> inputbuf
+xbdw2 d<2> i_d<2> inputbuf
+xbdw1 d<1> i_d<1> inputbuf
+xbdw0 d<0> i_d<0> inputbuf
+vclk net35 gnd! dc=0 pulse ( 0 'vdd' 0 'clkrise' 'clkrise' '((clkperiod/2)-clkrise)' 'clkperiod'
++  )
+vdd vdd! gnd! dc='vdd'
+xi36 a<0> a<1> a<2> a<3> a<4> clk d<0> d<1> d<2> d<3> q<0> q<1> q<2> q<3> wenb
++ bit_cell_array
+

@@ -1,0 +1,36 @@
+arrayName {default_HSPICE}
+arraySize {-1}
+cdplJobId {}
+cmdLine { /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,bit_cell_array,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/netlist/runSimulation  > /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,bit_cell_array,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/results/run.log 2>&1}
+creationTime {1649310836}
+data {resultsDir /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,bit_cell_array,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/results masterResultsDir /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,bit_cell_array,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/results session saeSession0 testbench default simulator HSPICE historyIndex 1 historyName history_1}
+dataReadyProc {}
+deferred {0}
+exitProc {sa::simulationDone}
+exitStatus {0}
+exitTime {1649310839}
+files {/afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,bit_cell_array,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/results/hspice.lis /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,bit_cell_array,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/results/hspice.valog /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,bit_cell_array,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/results/run.log /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,bit_cell_array,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/results/hspice.st0}
+gridOptions {}
+group {oa:0x2e0bdad0}
+host {localhost}
+inFd {}
+isCalling {0}
+isLocallyQueued {0}
+isQueued {0}
+isTerminating {0}
+jobClass {oa:0x3b59f860}
+jobType {batch}
+menuProc {sa::_utils::populateSimJobCSM}
+name {HSPICE_14}
+outFd {}
+procId {17249}
+queueEngine {}
+queueIdentifier {}
+readOnlyFiles {}
+ready {0}
+readyProc {}
+remoteSubmit {0}
+runDesc {HSPICE simulation:  /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,bit_cell_array,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/netlist/runSimulation  > /afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,bit_cell_array,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/results/run.log 2>&1}
+startTime {1649310836}
+status {FINISHED}
+submitHost {}

@@ -1,0 +1,3 @@
+column_decoder_new::column_decoder_new { nmos::NMOS pmos::PMOS }
+pmos::PMOS { }
+nmos::NMOS { }

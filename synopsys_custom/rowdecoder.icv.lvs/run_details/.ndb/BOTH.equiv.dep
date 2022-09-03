@@ -1,0 +1,3 @@
+pmos::PMOS { }
+nmos::NMOS { }
+rowdecoder::rowdecoder { nmos::NMOS pmos::PMOS }

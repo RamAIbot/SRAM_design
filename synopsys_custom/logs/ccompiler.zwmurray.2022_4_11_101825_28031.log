@@ -1,0 +1,373 @@
+[10:18:33.00] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c                  Version S-2021.09 for linux64 - Aug 25, 2021 
+              /c 
+              /c                     Copyright (c) 2004 - 2021 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c    or distribution of this software is strictly prohibited.  Licensed Products
+              /c      communicate with Synopsys servers for the purpose of providing software
+              /c     updates, detecting software piracy and verifying that customers are using
+              /c     Licensed Products in conformity with the applicable License Key for such
+              /c   Licensed Products. Synopsys will use information gathered in connection with
+              /c     this process to deliver software updates and pursue software pirates and
+              /c                                    infringers.
+              /c 
+              /c  Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+              /c             Inclusivity and Diversity" (Refer to article 000036315 at
+              /c                         https://solvnetplus.synopsys.com)
+              /c 
+              /c Build  (OPT) Config 6809741 compiled on Wed Aug 25 11:47:50 2021 for CentOS64 7.3
+              /c Invocation: /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/platform/bin/custom_compiler
+              /c Execution time: Mon Apr 11 10:18:25 2022
+              /c Host: grendel28.ece.ncsu.edu
+              /c Working directory: /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp
+              /c 
+[10:18:51.01] /r giShowFrameTabs true
+[10:18:51.01] /r giWindowId 1
+[10:18:51.01] /r giWindowGeometry 1040x800
+[10:18:55.25] /i db::setAttr maximized -of [gi::getFrames 1] -value true
+[10:18:55.51] /i db::setAttr geometry -of [gi::getFrames 1] -value 1920x1114+0+46
+[10:18:56.57] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[10:18:56.57] /# 
+[10:18:56.87] /i gi::addWindow [dm::openLibraryManager] -to 1
+[10:18:56.87] /r giWindowId 2
+[10:18:56.87] /r giWindowGeometry 660x600+50+50
+[10:18:58.63] /i gi::setCurrentIndex {libs} -index {basic} -in [gi::getWindows 2]
+[10:18:58.73] /i gi::setItemSelection {libs} -index {basic} -in [gi::getWindows 2]
+[10:18:59.25] /i gi::setCurrentIndex {libs} -index {mylib} -in [gi::getWindows 2]
+[10:18:59.27] /i gi::setItemSelection {libs} -index {mylib} -in [gi::getWindows 2]
+[10:19:09.19] /i gi::setCurrentIndex {cells} -index {tb2022} -in [gi::getWindows 2]
+[10:19:09.20] /i gi::setItemSelection {cells} -index {tb2022} -in [gi::getWindows 2]
+[10:19:10.31] /i gi::setCurrentIndex {views} -index {HSPICE_default} -in [gi::getWindows 2]
+[10:19:10.31] /i gi::setItemSelection {views} -index {HSPICE_default} -in [gi::getWindows 2]
+[10:19:10.47] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[10:19:24.69] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[10:19:25.03] /r giWindowId 3
+[10:19:25.04] /r giWindowGeometry 600x500
+[10:19:55.99] /m Information: Launching Background pw_shell Server Process "cd /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp && pw_shell -log pw_shell_session0_job1 -libDefFile /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/lib.defs"
+[10:20:16.78] /m Information: Received ready-for-commands signal from background job 'pw_shell_session0_job1' after 21 seconds.
+[10:25:40.88] /i gi::executeAction {menuPreShow} -in [gi::getWindows 3]
+[10:25:40.88] /r giMenuAccess db::getNext [gi::getMenus saConsoleSetupMenu -from [gi::getWindows 3]]
+[10:25:41.35] /i gi::executeAction {menuPreShow} -in [gi::getWindows 3]
+[10:25:41.35] /r giMenuAccess db::getNext [gi::getMenus saVariablesMenu -from [gi::getWindows 3]]
+[10:25:41.78] /i gi::executeAction {menuPreShow} -in [gi::getWindows 3]
+[10:25:41.78] /r giMenuAccess db::getNext [gi::getMenus saConsoleOutputsMenu -from [gi::getWindows 3]]
+[10:25:41.94] /i gi::executeAction {menuPreShow} -in [gi::getWindows 3]
+[10:25:41.94] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 3]]
+[10:25:42.83] /# gi::executeAction {saNetlistAndRun} -in [gi::getWindows 3]
+[10:25:42.83] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 3] -mode [sa::_utils::findRunMode 3]
+[10:25:43.24] /r giWindowId 4
+[10:25:43.25] /r giWindowGeometry 800x600
+[10:25:43.37] /m Information: "Starting incremental netlisting for design "mylib/tb2022/schematic"..." (NETLISTING-010)
+[10:25:43.54] /o Loading: Callback files...
+[10:25:43.54] /o Loading: scripts/callbacks/callbacks.tcl
+[10:25:43.54] /o 
+              /c [INFO] : Loading display.drf from /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/syncust/NCSU_TechLib_FreePDK3
+              /c 
+              /c  if you wish to Load other display.drf, please set shell environment valiable "iPDK_load_display_NCSU_TechLib_FreePDK3" to value = 0
+[10:25:43.54] /o 
+[10:25:43.60] /o 	#######################################
+[10:25:43.60] /o 	CC-PDK Library Name	: FreePDK3
+[10:25:43.60] /o 	#######################################
+[10:25:43.60] /o 
+[10:25:43.67] /o No Design Integrity rule violations found in "mylib/tb2022/schematic"
+[10:25:44.44] /m Information: "Netlisting design "mylib/tb2022/schematic" finished successfully." (NETLISTING-012)
+[10:25:44.52] /m Information: "Composing simulator input file for design "mylib/tb2022/schematic"..."
+[10:25:44.99] /m Information: "Simulator input file composed successfully for design "mylib/tb2022/schematic""
+[10:25:46.09] /m Information: "Starting PrimeSim HSPICE simulation for design: mylib/tb2022/schematic"
+[10:25:47.62] /m Information: Launching Result Viewer "cd /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/synopsys_custom &&  /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/bin/../auxx/auxx_for_cc/../../linux64/swv/bin/swv  -bg_gui -log rvcmd.log -ptype rv -k -cdesigner -parent_cc_pid 28031 -spxkey /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/auxx_for_cc/waveform/sae.spxkey -spxrc /tmp/tmp_sae_spxrc_GAZnt3 -unique_string 98b6766741b6f3a2919710c87a2a86a53b3a965d3326affad62ca06c255f2b1065f989a094f7851aa86219f85b21e72d30bcf609c2dc5c69 -lic_type 3    > /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/synopsys_custom/rviewer.log 2>&1"
+[10:25:49.87] /r giWindowId 5
+[10:25:49.88] /r giWindowGeometry 100x100
+[10:26:44.22] /i gi::setActiveWindow 4
+[10:26:44.22] /i gi::setActiveWindow 4 -raise true
+[10:27:07.20] /m Information: Simulation completed successfully for design: mylib/tb2022/schematic  (PW-651)
+[10:27:07.29] /m Information: "Evaluating and plotting outputs..."
+[10:27:09.21] /m Information: Launching Waveform Viewer "cd /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/synopsys_custom &&  /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/bin/../auxx/auxx_for_cc/../../linux64/swv/bin/swv  -bg_gui -k -cdesigner -ptype wv -spxkey /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/auxx_for_cc/waveform/sae.spxkey -spxrc /tmp/tmp_sae_spxrc_d7B78t -unique_string 98b6766741b6f3a2919710c87a2a86a53b3a965d3326affad62ca06c255f2b1065f989a094f7851a77f644e3750a5b02e8fa06657387b4ec -lic_type 3    > /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/synopsys_custom/viewer.log 2>&1"
+[10:27:09.21] /i gi::collapse {jobMonitorTable} -index {0.0,0} -in [gi::getWindows 4]
+[10:27:14.61] /m Information: Launching Background pw_shell Server Process "cd /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp && pw_shell -log pw_shell_session0_job2 -libDefFile /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/lib.defs"
+[10:27:14.61] /i gi::collapse {jobMonitorTable} -index {0.0.1,0} -in [gi::getWindows 4]
+[10:27:14.65] /r giWindowId 6
+[10:27:14.67] /r giWindowGeometry 1024x768
+[10:27:15.06] /i db::setAttr geometry -of [gi::getFrames 2] -value 1024x792+447+191
+[10:27:15.89] /m Information: Measurement calculations completed for testbench: HSPICE_default in 0s
+[10:27:35.18] /m Information: Received ready-for-commands signal from background job 'pw_shell_session0_job2' after 21 seconds.
+[10:29:40.52] /i gi::executeAction giCloseWindow -in [gi::getWindows 6]
+[10:29:41.17] /m Information: Waveform viewer exited normally.
+[10:29:43.92] /i gi::setActiveWindow 4
+[10:29:43.92] /i gi::setActiveWindow 4 -raise true
+[10:29:45.97] /i gi::setActiveWindow 3
+[10:29:45.97] /i gi::setActiveWindow 3 -raise true
+[10:30:01.57] /i gi::setCurrentIndex {variablesTable} -index {1,1} -in [gi::getWindows 3]
+[10:30:01.57] /i gi::setItemSelection {variablesTable} -index {1,1} -in [gi::getWindows 3]
+[10:30:06.00] /i gi::setField {variablesTable} -index {1,1} -value {400p} -in [gi::getWindows 3]
+[10:30:06.00] /i gi::setCurrentIndex {variablesTable} -index {2,1} -in [gi::getWindows 3]
+[10:30:06.01] /i gi::setItemSelection {variablesTable} -index {2,1} -in [gi::getWindows 3]
+[10:30:06.92] /i gi::setField {variablesTable} -index {2,1} -value {5p} -in [gi::getWindows 3]
+[10:30:07.50] /i gi::setItemSelection {variablesTable} -index {} -in [gi::getWindows 3]
+[10:30:49.12] /i gi::executeAction {menuPreShow} -in [gi::getWindows 3]
+[10:30:49.12] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 3]]
+[10:30:49.89] /# gi::executeAction {saNetlistAndRun} -in [gi::getWindows 3]
+[10:30:49.89] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 3] -mode [sa::_utils::findRunMode 3]
+[10:30:50.04] /m Information: "Starting incremental netlisting for design "mylib/tb2022/schematic"..." (NETLISTING-010)
+[10:30:50.27] /o No Design Integrity rule violations found in "mylib/tb2022/schematic"
+[10:30:50.64] /m Information: "Netlisting design "mylib/tb2022/schematic" finished successfully." (NETLISTING-012)
+[10:30:50.69] /m Information: "Composing simulator input file for design "mylib/tb2022/schematic"..."
+[10:30:51.13] /m Information: "Simulator input file composed successfully for design "mylib/tb2022/schematic""
+[10:30:52.59] /m Information: "Starting PrimeSim HSPICE simulation for design: mylib/tb2022/schematic"
+[10:30:52.59] /i gi::collapse {jobMonitorTable} -index {0.0.0.0,0} -in [gi::getWindows 4]
+[10:32:04.63] /i gi::setCurrentIndex {jobMonitorTable} -index {0,0} -in [gi::getWindows 4]
+[10:32:22.19] /m Information: Simulation completed successfully for design: mylib/tb2022/schematic  (PW-651)
+[10:32:22.28] /m Information: "Evaluating and plotting outputs..."
+[10:32:24.11] /m Information: Launching Waveform Viewer "cd /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/synopsys_custom &&  /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/bin/../auxx/auxx_for_cc/../../linux64/swv/bin/swv  -bg_gui -k -cdesigner -ptype wv -spxkey /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/auxx_for_cc/waveform/sae.spxkey -spxrc /tmp/tmp_sae_spxrc_JBYWm1 -unique_string 98b6766741b6f3a2919710c87a2a86a53b3a965d3326affad62ca06c255f2b1065f989a094f7851a93459b037879d89f6e85162e46126390 -lic_type 3    > /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/synopsys_custom/viewer.log 2>&1"
+[10:32:24.11] /i gi::collapse {jobMonitorTable} -index {0.0,0} -in [gi::getWindows 4]
+[10:32:28.87] /r giWindowId 7
+[10:32:28.89] /r giWindowGeometry 1024x768
+[10:32:29.28] /i db::setAttr geometry -of [gi::getFrames 3] -value 1024x792+447+191
+[10:32:29.79] /m Information: Measurement calculations completed for testbench: HSPICE_default in 0s
+[10:32:48.48] /i db::setAttr maximized -of [gi::getFrames 3] -value true
+[10:32:48.76] /i db::setAttr geometry -of [gi::getFrames 3] -value 1920x1114+0+46
+[11:15:10.68] /i gi::setActiveWindow 4
+[11:15:10.68] /i gi::setActiveWindow 4 -raise true
+[11:15:26.21] /i gi::setActiveWindow 7
+[11:15:26.21] /i gi::setActiveWindow 7 -raise true
+[11:15:27.67] /i gi::setActiveWindow 4
+[11:15:27.67] /i gi::setActiveWindow 4 -raise true
+[11:15:28.91] /i gi::setActiveWindow 7
+[11:15:28.91] /i gi::setActiveWindow 7 -raise true
+[11:24:55.20] /i gi::setActiveWindow 4
+[11:24:55.20] /i gi::setActiveWindow 4 -raise true
+[11:24:56.50] /i gi::setActiveWindow 3
+[11:24:56.50] /i gi::setActiveWindow 3 -raise true
+[11:24:57.41] /i gi::executeAction {menuPreShow} -in [gi::getWindows 3]
+[11:24:57.41] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 3]]
+[11:24:58.23] /# gi::executeAction {saNetlistAndRun} -in [gi::getWindows 3]
+[11:24:58.23] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 3] -mode [sa::_utils::findRunMode 3]
+[11:24:58.37] /m Information: "Starting incremental netlisting for design "mylib/tb2022/schematic"..." (NETLISTING-010)
+[11:24:59.21] /o No Design Integrity rule violations found in "mylib/tb2022/schematic"
+[11:25:00.22] /m Information: "Netlisting design "mylib/tb2022/schematic" finished successfully." (NETLISTING-012)
+[11:25:00.88] /m Information: "Composing simulator input file for design "mylib/tb2022/schematic"..."
+[11:25:01.71] /m Information: "Simulator input file composed successfully for design "mylib/tb2022/schematic""
+[11:25:02.97] /m Information: "Starting PrimeSim HSPICE simulation for design: mylib/tb2022/schematic"
+[11:25:02.98] /i gi::collapse {jobMonitorTable} -index {0.0.0.0,0} -in [gi::getWindows 4]
+[11:26:32.60] /m Information: Simulation completed successfully for design: mylib/tb2022/schematic  (PW-651)
+[11:26:32.68] /m Information: "Evaluating and plotting outputs..."
+[11:26:38.79] /m Information: Measurement calculations completed for testbench: HSPICE_default in 0s
+[11:27:31.04] /i gi::setActiveWindow 7
+[11:27:31.04] /i gi::setActiveWindow 7 -raise true
+[11:29:24.96] /i gi::setActiveWindow 4
+[11:29:24.96] /i gi::setActiveWindow 4 -raise true
+[11:29:26.13] /i gi::setActiveWindow 3
+[11:29:26.13] /i gi::setActiveWindow 3 -raise true
+[11:29:27.61] /i gi::setCurrentIndex {variablesTable} -index {1,1} -in [gi::getWindows 3]
+[11:29:27.61] /i gi::setItemSelection {variablesTable} -index {1,1} -in [gi::getWindows 3]
+[11:29:31.34] /i gi::setField {variablesTable} -index {1,1} -value {600p} -in [gi::getWindows 3]
+[11:29:31.34] /i gi::setCurrentIndex {variablesTable} -index {2,1} -in [gi::getWindows 3]
+[11:29:31.34] /i gi::setItemSelection {variablesTable} -index {2,1} -in [gi::getWindows 3]
+[11:29:32.03] /i gi::setField {variablesTable} -index {2,1} -value {5p} -in [gi::getWindows 3]
+[11:29:32.03] /i gi::setCurrentIndex {variablesTable} -index {1,1} -in [gi::getWindows 3]
+[11:29:32.03] /i gi::setItemSelection {variablesTable} -index {1,1} -in [gi::getWindows 3]
+[11:29:34.08] /i gi::setField {variablesTable} -index {1,1} -value {600p} -in [gi::getWindows 3]
+[11:29:34.08] /i gi::expand {analysisPane} -index {0,0} -in [gi::getWindows 3]
+[11:29:34.13] /i gi::setSectionSizes {analysisPane} -values {126 41 28 918} -in [gi::getWindows 3]
+[11:29:35.25] /i gi::setCurrentIndex {analysisPane} -index {0.6,3} -in [gi::getWindows 3]
+[11:29:35.25] /i gi::setItemSelection {analysisPane} -index {0.6,3} -in [gi::getWindows 3]
+[11:29:35.26] /i gi::setItemSelection {variablesTable} -index {} -in [gi::getWindows 3]
+[11:29:41.75] /i gi::setField {analysisPane} -index {0.6,3} -value {20n} -in [gi::getWindows 3]
+[11:29:41.75] /i gi::executeAction {menuPreShow} -in [gi::getWindows 3]
+[11:29:41.75] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 3]]
+[11:29:43.34] /# gi::executeAction {saNetlistAndRun} -in [gi::getWindows 3]
+[11:29:43.34] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 3] -mode [sa::_utils::findRunMode 3]
+[11:29:43.49] /m Information: "Starting incremental netlisting for design "mylib/tb2022/schematic"..." (NETLISTING-010)
+[11:29:44.40] /o No Design Integrity rule violations found in "mylib/tb2022/schematic"
+[11:29:44.81] /m Information: "Netlisting design "mylib/tb2022/schematic" finished successfully." (NETLISTING-012)
+[11:29:44.86] /m Information: "Composing simulator input file for design "mylib/tb2022/schematic"..."
+[11:29:46.11] /m Information: "Simulator input file composed successfully for design "mylib/tb2022/schematic""
+[11:29:48.16] /m Information: "Starting PrimeSim HSPICE simulation for design: mylib/tb2022/schematic"
+[11:29:48.17] /i gi::collapse {jobMonitorTable} -index {0.0.0.0,0} -in [gi::getWindows 4]
+[11:29:55.38] /i gi::setActiveWindow 7
+[11:29:55.38] /i gi::setActiveWindow 7 -raise true
+[11:31:17.20] /m Information: Simulation completed successfully for design: mylib/tb2022/schematic  (PW-651)
+[11:31:17.27] /m Information: "Evaluating and plotting outputs..."
+[11:31:24.59] /m Information: Measurement calculations completed for testbench: HSPICE_default in 0s
+[11:33:38.81] /i gi::setActiveWindow 4
+[11:33:38.81] /i gi::setActiveWindow 4 -raise true
+[11:33:40.06] /i gi::setActiveWindow 3
+[11:33:40.06] /i gi::setActiveWindow 3 -raise true
+[11:33:41.46] /i gi::setCurrentIndex {variablesTable} -index {1,1} -in [gi::getWindows 3]
+[11:33:41.46] /i gi::setItemSelection {variablesTable} -index {1,1} -in [gi::getWindows 3]
+[11:33:41.46] /i gi::setItemSelection {analysisPane} -index {} -in [gi::getWindows 3]
+[11:33:42.92] /i gi::setField {variablesTable} -index {1,1} -value {400p} -in [gi::getWindows 3]
+[11:33:42.92] /i gi::setField {variablesTable} -index {1,1} -value {400p} -in [gi::getWindows 3]
+[11:33:44.29] /i gi::executeAction {menuPreShow} -in [gi::getWindows 3]
+[11:33:44.29] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 3]]
+[11:33:45.15] /# gi::executeAction {saNetlistAndRun} -in [gi::getWindows 3]
+[11:33:45.15] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 3] -mode [sa::_utils::findRunMode 3]
+[11:33:45.30] /m Information: "Starting incremental netlisting for design "mylib/tb2022/schematic"..." (NETLISTING-010)
+[11:33:45.97] /o No Design Integrity rule violations found in "mylib/tb2022/schematic"
+[11:33:46.34] /m Information: "Netlisting design "mylib/tb2022/schematic" finished successfully." (NETLISTING-012)
+[11:33:46.38] /m Information: "Composing simulator input file for design "mylib/tb2022/schematic"..."
+[11:33:46.80] /m Information: "Simulator input file composed successfully for design "mylib/tb2022/schematic""
+[11:33:48.05] /m Information: "Starting PrimeSim HSPICE simulation for design: mylib/tb2022/schematic"
+[11:33:48.05] /i gi::collapse {jobMonitorTable} -index {0.0.0.0,0} -in [gi::getWindows 4]
+[11:34:03.21] /i gi::setActiveWindow 3
+[11:34:03.21] /i gi::setActiveWindow 3 -raise true
+[11:34:04.59] /i gi::setActiveWindow 4
+[11:34:04.59] /i gi::setActiveWindow 4 -raise true
+[11:35:38.70] /m Information: Simulation completed successfully for design: mylib/tb2022/schematic  (PW-651)
+[11:35:38.78] /m Information: "Evaluating and plotting outputs..."
+[11:35:45.59] /m Information: Measurement calculations completed for testbench: HSPICE_default in 0s
+[11:35:46.42] /i gi::setActiveWindow 7
+[11:35:46.42] /i gi::setActiveWindow 7 -raise true
+[11:39:38.83] /i gi::setActiveWindow 4
+[11:39:38.83] /i gi::setActiveWindow 4 -raise true
+[11:39:40.88] /i gi::setActiveWindow 3
+[11:39:40.88] /i gi::setActiveWindow 3 -raise true
+[11:39:42.01] /i gi::executeAction {menuPreShow} -in [gi::getWindows 3]
+[11:39:42.01] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 3]]
+[11:39:42.81] /# gi::executeAction {saNetlistAndRun} -in [gi::getWindows 3]
+[11:39:42.81] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 3] -mode [sa::_utils::findRunMode 3]
+[11:39:42.97] /m Information: "Starting incremental netlisting for design "mylib/tb2022/schematic"..." (NETLISTING-010)
+[11:39:43.24] /o No Design Integrity rule violations found in "mylib/tb2022/schematic"
+[11:39:44.04] /m Information: "Netlisting design "mylib/tb2022/schematic" finished successfully." (NETLISTING-012)
+[11:39:44.09] /m Information: "Composing simulator input file for design "mylib/tb2022/schematic"..."
+[11:39:44.53] /m Information: "Simulator input file composed successfully for design "mylib/tb2022/schematic""
+[11:39:45.81] /m Information: "Starting PrimeSim HSPICE simulation for design: mylib/tb2022/schematic"
+[11:39:45.82] /i gi::collapse {jobMonitorTable} -index {0.0.0.0,0} -in [gi::getWindows 4]
+[11:41:36.79] /m Information: Simulation completed successfully for design: mylib/tb2022/schematic  (PW-651)
+[11:41:36.88] /m Information: "Evaluating and plotting outputs..."
+[11:41:43.29] /m Information: Measurement calculations completed for testbench: HSPICE_default in 0s
+[11:41:46.66] /i gi::setActiveWindow 7
+[11:41:46.66] /i gi::setActiveWindow 7 -raise true
+[11:42:13.35] /i gi::setActiveWindow 4
+[11:42:13.35] /i gi::setActiveWindow 4 -raise true
+[11:42:15.47] /i gi::setActiveWindow 2
+[11:42:15.47] /i gi::setActiveWindow 2 -raise true
+[11:42:17.31] /i gi::setCurrentIndex {cells} -index {bit_cell_array} -in [gi::getWindows 2]
+[11:42:17.32] /i gi::setItemSelection {cells} -index {bit_cell_array} -in [gi::getWindows 2]
+[11:42:18.29] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[11:42:18.29] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[11:42:20.64] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[11:42:20.66] /m Information: License 'Apex' checked out. (LICENSE-003)
+[11:42:20.79] /r giWindowId 8
+[11:42:20.81] /r giWindowGeometry 1632x1080
+[11:42:25.97] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 8]
+[11:42:25.97] /i de::zoom -window [gi::getWindows 8] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {20.54375 1.725}
+[11:42:26.00] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 8]
+[11:42:26.00] /i de::zoom -window [gi::getWindows 8] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {20.54375 1.725}
+[11:42:26.03] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 8]
+[11:42:26.03] /i de::zoom -window [gi::getWindows 8] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {20.54375 1.73125}
+[11:42:26.07] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 8]
+[11:42:26.07] /i de::zoom -window [gi::getWindows 8] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {20.54375 1.725}
+[11:42:27.31] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 8]
+[11:42:27.31] /i de::zoom -window [gi::getWindows 8] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {20.54375 1.73125}
+[11:42:27.54] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 8]
+[11:42:27.54] /i de::zoom -window [gi::getWindows 8] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {20.54375 1.73125}
+[11:42:27.81] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 8]
+[11:42:27.81] /i de::zoom -window [gi::getWindows 8] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {20.54375 1.73125}
+[11:42:28.87] /# gi::executeAction {deFitEdit} -in [gi::getWindows 8]
+[11:42:28.87] /i de::fit -window 8 -fitEdit true
+[11:42:40.17] /w Warning: Nothing is bound to the 'Button7' in the current active set. (WINDOW-015)
+[11:44:33.08] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 8]
+[11:44:33.08] /i de::zoom -window [gi::getWindows 8] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {4.775 29.3625}
+[11:44:33.09] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 8]
+[11:44:33.09] /i de::zoom -window [gi::getWindows 8] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {4.775 29.3625}
+[11:44:33.11] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 8]
+[11:44:33.11] /i de::zoom -window [gi::getWindows 8] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {4.775 29.3625}
+[11:44:34.70] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 8]
+[11:44:34.70] /i de::zoom -window [gi::getWindows 8] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {5.70625 29.63125}
+[11:44:34.74] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 8]
+[11:44:34.74] /i de::zoom -window [gi::getWindows 8] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {5.70625 29.625}
+[11:44:35.67] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 8]
+[11:44:35.67] /i de::zoom -window [gi::getWindows 8] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {6.56875 31.25}
+[11:45:44.13] /i gi::setActiveWindow 3
+[11:45:44.13] /i gi::setActiveWindow 3 -raise true
+[11:45:46.94] /i gi::setActiveWindow 8
+[11:45:46.94] /i gi::setActiveWindow 8 -raise true
+[11:45:52.40] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 8]
+[11:45:52.40] /i de::zoom -window [gi::getWindows 8] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {4.95 30.5375}
+[11:45:52.41] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 8]
+[11:45:52.41] /i de::zoom -window [gi::getWindows 8] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {4.95 30.5375}
+[11:45:52.48] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 8]
+[11:45:52.48] /i de::zoom -window [gi::getWindows 8] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {4.95 30.5375}
+[11:45:52.93] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 8]
+[11:45:52.93] /i de::zoom -window [gi::getWindows 8] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {4.95 30.5375}
+[11:45:52.96] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 8]
+[11:45:52.96] /i de::zoom -window [gi::getWindows 8] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {4.95 30.5375}
+[11:45:52.96] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 8]
+[11:45:52.96] /i de::zoom -window [gi::getWindows 8] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {4.95 30.5375}
+[11:45:52.96] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 8]
+[11:45:52.96] /i de::zoom -window [gi::getWindows 8] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {4.95 30.5375}
+[11:46:10.28] /i gi::setActiveWindow 3
+[11:46:10.28] /i gi::setActiveWindow 3 -raise true
+[11:46:11.19] /i gi::executeAction {menuPreShow} -in [gi::getWindows 3]
+[11:46:11.19] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 3]]
+[11:46:11.89] /# gi::executeAction {saNetlistAndRun} -in [gi::getWindows 3]
+[11:46:11.89] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 3] -mode [sa::_utils::findRunMode 3]
+[11:46:12.39] /m Information: "Starting incremental netlisting for design "mylib/tb2022/schematic"..." (NETLISTING-010)
+[11:46:12.55] /o No Design Integrity rule violations found in "mylib/tb2022/schematic"
+[11:46:12.91] /m Information: "Netlisting design "mylib/tb2022/schematic" finished successfully." (NETLISTING-012)
+[11:46:12.96] /m Information: "Composing simulator input file for design "mylib/tb2022/schematic"..."
+[11:46:13.36] /m Information: "Simulator input file composed successfully for design "mylib/tb2022/schematic""
+[11:46:14.86] /m Information: "Starting PrimeSim HSPICE simulation for design: mylib/tb2022/schematic"
+[11:46:14.87] /i gi::collapse {jobMonitorTable} -index {0.0.0.0,0} -in [gi::getWindows 4]
+[11:48:09.30] /m Information: Simulation completed successfully for design: mylib/tb2022/schematic  (PW-651)
+[11:48:09.38] /m Information: "Evaluating and plotting outputs..."
+[11:48:14.99] /m Information: Measurement calculations completed for testbench: HSPICE_default in 0s
+[11:48:17.13] /i gi::setActiveWindow 7
+[11:48:17.13] /i gi::setActiveWindow 7 -raise true
+[11:48:21.45] /i gi::setActiveWindow 4
+[11:48:21.45] /i gi::setActiveWindow 4 -raise true
+[11:48:22.52] /i gi::setActiveWindow 7
+[11:48:22.52] /i gi::setActiveWindow 7 -raise true
+[11:50:24.18] /i gi::setActiveWindow 4
+[11:50:24.18] /i gi::setActiveWindow 4 -raise true
+[11:50:26.18] /i gi::setActiveWindow 3
+[11:50:26.18] /i gi::setActiveWindow 3 -raise true
+[11:50:26.98] /i gi::executeAction {menuPreShow} -in [gi::getWindows 3]
+[11:50:26.98] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 3]]
+[11:50:27.72] /# gi::executeAction {saNetlistAndRun} -in [gi::getWindows 3]
+[11:50:27.72] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 3] -mode [sa::_utils::findRunMode 3]
+[11:50:28.14] /m Information: "Starting incremental netlisting for design "mylib/tb2022/schematic"..." (NETLISTING-010)
+[11:50:28.29] /o No Design Integrity rule violations found in "mylib/tb2022/schematic"
+[11:50:29.05] /m Information: "Netlisting design "mylib/tb2022/schematic" finished successfully." (NETLISTING-012)
+[11:50:29.11] /m Information: "Composing simulator input file for design "mylib/tb2022/schematic"..."
+[11:50:30.11] /m Information: "Simulator input file composed successfully for design "mylib/tb2022/schematic""
+[11:50:32.17] /m Information: "Starting PrimeSim HSPICE simulation for design: mylib/tb2022/schematic"
+[11:50:32.18] /i gi::collapse {jobMonitorTable} -index {0.0.0.0,0} -in [gi::getWindows 4]
+[11:50:41.96] /i gi::setCurrentIndex {jobMonitorTable} -index {0.0.1.1,0} -in [gi::getWindows 4]
+[11:50:41.97] /i gi::setItemSelection {jobMonitorTable} -index {0.0.1.1,all} -in [gi::getWindows 4]
+[11:50:44.22] /i gi::setActiveWindow 3
+[11:50:44.22] /i gi::setActiveWindow 3 -raise true
+[11:50:45.20] /i gi::executeAction {menuPreShow} -in [gi::getWindows 3]
+[11:50:45.20] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 3]]
+[11:50:46.53] /# gi::executeAction {saStop} -in [gi::getWindows 3]
+[11:50:46.53] /i isa::stop -testbench [sa::findActiveTestbench -window 3]
+[11:50:46.55] /m Information: Killing 1 jobs for testbench HSPICE_default
+[11:50:46.89] /m Information: Simulation killed for design: mylib/tb2022/schematic  (PW-652)
+[11:50:47.25] /i gi::executeAction {menuPreShow} -in [gi::getWindows 3]
+[11:50:47.25] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 3]]
+[11:50:47.89] /# gi::executeAction {saNetlistAndRun} -in [gi::getWindows 3]
+[11:50:47.89] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 3] -mode [sa::_utils::findRunMode 3]
+[11:50:48.26] /m Information: "Starting incremental netlisting for design "mylib/tb2022/schematic"..." (NETLISTING-010)
+[11:50:48.60] /o No Design Integrity rule violations found in "mylib/tb2022/schematic"
+[11:50:50.16] /m Information: "Netlisting design "mylib/tb2022/schematic" finished successfully." (NETLISTING-012)
+[11:50:50.20] /m Information: "Composing simulator input file for design "mylib/tb2022/schematic"..."
+[11:50:50.59] /m Information: "Simulator input file composed successfully for design "mylib/tb2022/schematic""
+[11:50:51.92] /m Information: "Starting PrimeSim HSPICE simulation for design: mylib/tb2022/schematic"
+[11:50:51.92] /i gi::collapse {jobMonitorTable} -index {0.0.0.0,0} -in [gi::getWindows 4]
+[11:51:02.11] /i gi::setCurrentIndex {jobMonitorTable} -index {0.0.0.0.0,1} -in [gi::getWindows 4]
+[11:51:02.11] /i gi::setItemSelection {jobMonitorTable} -index {0.0.0.0.0,all} -in [gi::getWindows 4]
+[11:51:04.56] /i gi::setItemSelection {jobMonitorTable} -index {} -in [gi::getWindows 4]
+[11:52:44.40] /m Information: Simulation completed successfully for design: mylib/tb2022/schematic  (PW-651)
+[11:52:44.48] /m Information: "Evaluating and plotting outputs..."
+[11:52:54.09] /m Information: Measurement calculations completed for testbench: HSPICE_default in 0s
+[11:52:57.37] /i gi::setActiveWindow 7
+[11:52:57.37] /i gi::setActiveWindow 7 -raise true
+[12:14:19.28] /i gi::executeAction giCloseWindow -in [gi::getWindows 7]
+[12:14:19.92] /m Information: Waveform viewer exited normally.
+[12:20:19.34] /o Error: X connection is broken. Error code: (APPLICATION_GUI-002)1
+[12:20:19.36] /e Error: The application was unexpectedly terminated.
+              /c See the session log file for recovery details. (SHUT_DOWN-001)

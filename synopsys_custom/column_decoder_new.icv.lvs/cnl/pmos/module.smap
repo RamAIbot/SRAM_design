@@ -1,0 +1,12 @@
+<module name="vsl: NCSU_TechLib_FreePDK3 pmos auCdl">
+<scope name="Terminal">
+<forward>
+<mapping dst="D G S" src="&lt;unmappedTermOrder>"/>
+<mapping dst="D G S" src="&lt;termOrder>"/>
+</forward>
+<reverse>
+<mapping dst="&lt;unmappedTermOrder>" src="D G S"/>
+</reverse>
+</scope>
+<master_instances/>
+</module>

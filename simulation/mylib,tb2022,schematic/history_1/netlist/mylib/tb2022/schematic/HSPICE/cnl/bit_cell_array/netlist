@@ -1,0 +1,170 @@
+********************************************************************************
+* Library          : mylib
+* Cell             : bit_cell_array
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt bit_cell_array a0 a1 a<2> a<3> a<4> clk d<0> d<1> d<2> d<3> q<0> q<1>
++ q<2> q<3> wenb
+xi146 clk net1544 q<0> tspc_flip_flop
+xi145 clk net1545 q<1> tspc_flip_flop
+xi144 clk net1546 q<2> tspc_flip_flop
+xi143 clk net1547 q<3> tspc_flip_flop
+xi453 a0 a1 net1483 net1229 net1242 net1244 net1246 net1248 net1250 net1252
++ net1475 net819 net516 net1091 net514 net1084 net512 net824 net538 net688
++ net536 net680 net534 net826 net533 net672 net531 net684 net529 net664 net542
++ net827 net540 net689 net1524 net1528 net1532 net1547 net1544 net1545 net1546
++ net1523 column_decoder_new
+xi139 net533 net672 net1050 bitcell
+xi138 net534 net826 net1050 bitcell
+xi137 net536 net680 net1050 bitcell
+xi136 net538 net688 net1050 bitcell
+xi135 net512 net824 net1050 bitcell
+xi134 net514 net1084 net1050 bitcell
+xi133 net516 net1091 net1050 bitcell
+xi132 net1475 net819 net1050 bitcell
+xi131 net540 net689 net1050 bitcell
+xi130 net542 net827 net1050 bitcell
+xi129 net529 net664 net1050 bitcell
+xi128 net531 net684 net1050 bitcell
+xi127 net1250 net1252 net1050 bitcell
+xi126 net1246 net1248 net1050 bitcell
+xi125 net1242 net1244 net1050 bitcell
+xi124 net1483 net1229 net1050 bitcell
+xi123 net533 net672 net464 bitcell
+xi122 net534 net826 net464 bitcell
+xi121 net536 net680 net464 bitcell
+xi120 net538 net688 net464 bitcell
+xi119 net512 net824 net464 bitcell
+xi118 net514 net1084 net464 bitcell
+xi117 net516 net1091 net464 bitcell
+xi116 net1475 net819 net464 bitcell
+xi115 net540 net689 net464 bitcell
+xi114 net542 net827 net464 bitcell
+xi113 net529 net664 net464 bitcell
+xi112 net531 net684 net464 bitcell
+xi111 net1250 net1252 net464 bitcell
+xi110 net1246 net1248 net464 bitcell
+xi109 net1242 net1244 net464 bitcell
+xi108 net1483 net1229 net464 bitcell
+xi107 net533 net672 net457 bitcell
+xi106 net534 net826 net457 bitcell
+xi105 net536 net680 net457 bitcell
+xi104 net538 net688 net457 bitcell
+xi103 net512 net824 net457 bitcell
+xi102 net514 net1084 net457 bitcell
+xi101 net516 net1091 net457 bitcell
+xi100 net1475 net819 net457 bitcell
+xi99 net540 net689 net457 bitcell
+xi98 net542 net827 net457 bitcell
+xi97 net529 net664 net457 bitcell
+xi96 net531 net684 net457 bitcell
+xi95 net1250 net1252 net457 bitcell
+xi94 net1246 net1248 net457 bitcell
+xi93 net1242 net1244 net457 bitcell
+xi92 net1483 net1229 net457 bitcell
+xi91 net533 net672 net456 bitcell
+xi90 net534 net826 net456 bitcell
+xi89 net536 net680 net456 bitcell
+xi88 net538 net688 net456 bitcell
+xi87 net512 net824 net456 bitcell
+xi86 net514 net1084 net456 bitcell
+xi85 net516 net1091 net456 bitcell
+xi84 net1475 net819 net456 bitcell
+xi83 net540 net689 net456 bitcell
+xi82 net542 net827 net456 bitcell
+xi81 net529 net664 net456 bitcell
+xi80 net531 net684 net456 bitcell
+xi79 net1250 net1252 net456 bitcell
+xi78 net1246 net1248 net456 bitcell
+xi77 net1242 net1244 net456 bitcell
+xi76 net1483 net1229 net456 bitcell
+xi75 net533 net672 net455 bitcell
+xi74 net534 net826 net455 bitcell
+xi73 net536 net680 net455 bitcell
+xi72 net538 net688 net455 bitcell
+xi71 net512 net824 net455 bitcell
+xi70 net514 net1084 net455 bitcell
+xi69 net516 net1091 net455 bitcell
+xi68 net1475 net819 net455 bitcell
+xi67 net540 net689 net455 bitcell
+xi66 net542 net827 net455 bitcell
+xi65 net529 net664 net455 bitcell
+xi64 net531 net684 net455 bitcell
+xi63 net1250 net1252 net455 bitcell
+xi62 net1246 net1248 net455 bitcell
+xi61 net1242 net1244 net455 bitcell
+xi60 net1483 net1229 net455 bitcell
+xi59 net533 net672 net423 bitcell
+xi58 net534 net826 net423 bitcell
+xi57 net536 net680 net423 bitcell
+xi56 net538 net688 net423 bitcell
+xi55 net512 net824 net423 bitcell
+xi54 net514 net1084 net423 bitcell
+xi53 net516 net1091 net423 bitcell
+xi52 net1475 net819 net423 bitcell
+xi51 net540 net689 net423 bitcell
+xi50 net542 net827 net423 bitcell
+xi49 net529 net664 net423 bitcell
+xi48 net531 net684 net423 bitcell
+xi47 net1250 net1252 net423 bitcell
+xi46 net1246 net1248 net423 bitcell
+xi45 net1242 net1244 net423 bitcell
+xi44 net1483 net1229 net423 bitcell
+xi43 net533 net672 net422 bitcell
+xi42 net534 net826 net422 bitcell
+xi41 net536 net680 net422 bitcell
+xi40 net538 net688 net422 bitcell
+xi39 net512 net824 net422 bitcell
+xi38 net514 net1084 net422 bitcell
+xi37 net516 net1091 net422 bitcell
+xi36 net1475 net819 net422 bitcell
+xi35 net540 net689 net422 bitcell
+xi34 net542 net827 net422 bitcell
+xi33 net529 net664 net422 bitcell
+xi32 net531 net684 net422 bitcell
+xi31 net1250 net1252 net422 bitcell
+xi30 net1246 net1248 net422 bitcell
+xi29 net1242 net1244 net422 bitcell
+xi28 net1483 net1229 net422 bitcell
+xi23 net533 net672 net421 bitcell
+xi22 net534 net826 net421 bitcell
+xi21 net536 net680 net421 bitcell
+xi20 net538 net688 net421 bitcell
+xi19 net512 net824 net421 bitcell
+xi18 net514 net1084 net421 bitcell
+xi17 net516 net1091 net421 bitcell
+xi16 net1475 net819 net421 bitcell
+xi27 net540 net689 net421 bitcell
+xi26 net542 net827 net421 bitcell
+xi25 net529 net664 net421 bitcell
+xi24 net531 net684 net421 bitcell
+xi3 net1250 net1252 net421 bitcell
+xi2 net1246 net1248 net421 bitcell
+xi1 net1242 net1244 net421 bitcell
+xi0 net1483 net1229 net421 bitcell
+xi215 net512 net824 clk bit_conditioning
+xi214 net514 net1084 clk bit_conditioning
+xi213 net516 net1091 clk bit_conditioning
+xi212 net1475 net819 clk bit_conditioning
+xi211 net1250 net1252 clk bit_conditioning
+xi210 net1246 net1248 clk bit_conditioning
+xi209 net1242 net1244 clk bit_conditioning
+xf net1483 net1229 clk bit_conditioning
+xi216 net538 net688 clk bit_conditioning
+xi217 net536 net680 clk bit_conditioning
+xi218 net534 net826 clk bit_conditioning
+xi219 net533 net672 clk bit_conditioning
+xi220 net531 net684 clk bit_conditioning
+xi221 net529 net664 clk bit_conditioning
+xi222 net542 net827 clk bit_conditioning
+xi223 net540 net689 clk bit_conditioning
+xi142 a<2> a<3> a<4> net421 net422 net423 net455 net456 net457 net464 net1050
++ rowdecoder
+xi461 net1547 net1523 wenb d<3> write_driver
+xi460 net1546 net1532 wenb d<2> write_driver
+xi459 net1545 net1528 wenb d<1> write_driver
+xi458 net1544 net1524 wenb d<0> write_driver
+.ends bit_cell_array
+

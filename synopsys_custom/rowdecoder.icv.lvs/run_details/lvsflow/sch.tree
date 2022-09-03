@@ -1,0 +1,27 @@
+rowdecoder Level=0 Count=1
+   nor_5 Level=1 Count=8
+   inv_2 Level=1 Count=3
+
++--------------------------------------------------------------------------+
+|                             CELL STATISTICS                              |
++--------------------------------------------------------------------------+
+
+
+CELL = rowdecoder
+	Flat Placements      =	1
+
+CELL = nor_5
+	Flat Placements      =	8
+
+CELL = inv_2
+	Flat Placements      =	3
+
+TOP CELL = rowdecoder
+	Ports                =	13
+
++--------------------------------------------------------------------------+
+|                            DEVICE STATISTICS                             |
++--------------------------------------------------------------------------+
+
+	NMOS[nmos] = 27
+	PMOS[pmos] = 27

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!--Custom Compiler Version S-2021.09-->
+<file-format version="2.0" name="synopsysPrefs"/>
+<preferences>
+	<pref name="dbGenerateCellViewEditor" value="Symbol Editor"/>
+	<pref name="deDescendMode" value="auto"/>
+	<pref name="deDescendRead" value="true"/>
+	<pref name="dmNewLibTechLib" value="NCSU_TechLib_FreePDK3"/>
+	<pref name="dmNewLibTechType" value="lib"/>
+	<pref name="giPromptCloseMultipleTabs" value="false"/>
+	<pref name="leAbstractGenOptionSetDefault" value=""/>
+	<pref name="leCreatePinDialogMode" value="true"/>
+	<pref name="saFineSimProEnvOptsIncludePath" value="/afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/syncust/NCSU_TechLib_FreePDK3/../../hspice/models/"/>
+	<pref name="saFineSimProModelsFiles" value="{fet.mod nfet_typ} {fet.mod pfet_typ}"/>
+	<pref name="saFineSimProModelsIncludePath" value="/afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/syncust/NCSU_TechLib_FreePDK3/../../hspice/models/"/>
+	<pref name="saHSPICEEnvOptsIncludePath" value="/afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/syncust/NCSU_TechLib_FreePDK3/../../hspice/models/"/>
+	<pref name="saHSPICEModelsFiles" value="{fet.mod nfet_typ} {fet.mod pfet_typ}"/>
+	<pref name="saHSPICEModelsIncludePath" value="/afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/syncust/NCSU_TechLib_FreePDK3/../../hspice/models/"/>
+	<pref name="saResultsDir" value="./simulation"/>
+	<pref name="saSimulator" value="HSPICE"/>
+	<pref name="xtDRCICVIncludePaths" value="/afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/syncust/NCSU_TechLib_FreePDK3/../../icv"/>
+	<pref name="xtDRCICVRunsetFile" value="/afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/syncust/NCSU_TechLib_FreePDK3/../../icv/FreePDK3_main.drc.rs"/>
+	<pref name="xtDRCLayDBFormat" value="Stream"/>
+	<pref name="xtLPEOpenParasiticView" value="false"/>
+	<pref name="xtLPEStarOADeviceMappingFile" value="/afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/syncust/NCSU_TechLib_FreePDK3/../../starrc/oa.device.map"/>
+	<pref name="xtLVSICVIncludePaths" value="/afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/syncust/NCSU_TechLib_FreePDK3/../../icv"/>
+	<pref name="xtLVSICVRunsetFile" value="/afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/syncust/NCSU_TechLib_FreePDK3/../../icv/FreePDK3_main.lvs.rs"/>
+	<pref name="xtLVSLayDBFormat" value="Stream"/>
+	<pref name="xtNetlistingPrefixes" value="background_netlisting pw_shell_netlist"/>
+	<pref name="xtSAEShellJobLimit" value="2"/>
+	<pref name="xtSAEShellPrefixes" value="pw_shell_results_viewer"/>
+	<pref name="xtSimulationPrefixes" value="HSIM HSPICE Nanosim Spectre VHDL Verilog XA FineSimPro FineSimProSpectre FineSimProVCS FineSimProVCSSpectre HSIMHSPICE PrimeSim PrimeSimVCS PrimeSimXA XAEldo XAHSPICE XASpectre XAVCSHSPICE"/>
+	<pref name="xtStarOALayerMappingFile" value="/afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/syncust/NCSU_TechLib_FreePDK3/../../starrc/oa.layer.map"/>
+	<pref name="xtStarTcadGrdFile" value="/afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/syncust/NCSU_TechLib_FreePDK3/../../starrc/FreePDK3_RCtyp.nxtgrd"/>
+</preferences>
+

@@ -1,0 +1,24 @@
+********************************************************************************
+* Library          : mylib
+* Cell             : rowdecoder
+* View             : schematic
+* View Search List : auCdl schematic symbol
+* View Stop List   : auCdl
+********************************************************************************
+.subckt rowdecoder A<2> A<3> A<4> WL<0> WL<1> WL<2> WL<3> WL<4> WL<5> WL<6>
++ WL<7>
+*.PININFO A<2>:I A<3>:I A<4>:I WL<0>:O WL<1>:O WL<2>:O WL<3>:O WL<4>:O WL<5>:O
+*.PININFO WL<6>:O WL<7>:O
+XI60 A<4> A<3> ~A<0> WL<1> nor_5
+XI54 ~A<2> ~A<1> ~A<0> WL<7> nor_5
+XI59 A<4> ~A<1> A<2> WL<2> nor_5
+XI55 ~A<2> ~A<1> A<2> WL<6> nor_5
+XI56 ~A<2> A<3> ~A<0> WL<5> nor_5
+XI57 ~A<2> A<3> A<2> WL<4> nor_5
+XI61 A<4> A<3> A<2> WL<0> nor_5
+XI58 A<4> ~A<1> ~A<0> WL<3> nor_5
+XI21 A<2> ~A<0> inv_2
+XI20 A<3> ~A<1> inv_2
+XI19 A<4> ~A<2> inv_2
+.ends rowdecoder
+

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Fri Apr  8 01:38:05 2022-->
+<file-format name="netlisting-timestamps" version="2.0">
+<module viewSearchList="hspice hspiceD schematic spice veriloga" contextID="switched: NCSU_TechLib_FreePDK3 nmos hspiceD vl: hspice hspiceD schematic spice veriloga sl: hspice hspiceD" isSubcircuit="1" timestamp="58" viewStopList="hspice hspiceD">
+<parameterizedConnections>
+<connectDefs timestamp="0"/>
+<oaAssignments timestamp="0"/>
+<dbAssignValue timestamp="0"/>
+<dbAssignAssignment timestamp="0"/>
+</parameterizedConnections>
+<parameters timestamp="1"/>
+<lib_parameters/>
+<LineageParams/>
+<ParentParams/>
+<Terms timestamp="54"/>
+<PortOrder><![CDATA[DGS]]></PortOrder>
+<ShortOptions timestamp="3580584169"/>
+</module>
+</file-format>

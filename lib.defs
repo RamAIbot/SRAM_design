@@ -1,0 +1,3 @@
+INCLUDE /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/syncust/lib.defs
+DEFINE proj_common /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/ece546/proj_common
+DEFINE mylib ./mylib

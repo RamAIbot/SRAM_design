@@ -1,0 +1,16 @@
+********************************************************************************
+* Library          : mylib
+* Cell             : Write_Driver
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt write_driver bl blb we write_data
+m3 net10 net13 gnd! nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m2 blb net16 net10 nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m1 net15 write_data gnd! nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m0 bl net16 net15 nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+xi9 we net16 inv_2
+xi8 write_data net13 inv_2
+.ends write_driver
+

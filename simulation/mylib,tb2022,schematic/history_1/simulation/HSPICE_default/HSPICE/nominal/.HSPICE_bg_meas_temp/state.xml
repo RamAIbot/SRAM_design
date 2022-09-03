@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Wed May  4 03:43:27 2022-->
+<file-format name="stateData" version="1.0">
+ <attribute type="giString" name="description" value=""/>
+ <attribute type="dmCellView" name="design" value="mylib/tb2022/schematic"/>
+ <attribute type="giBoolean" name="enabled" value="1"/>
+ <attribute type="giBoolean" name="enabledJobClass" value="0"/>
+ <attribute type="giString" name="migratedSimulator" value="HSPICE"/>
+ <attribute type="giString" name="name" value="HSPICE_default"/>
+ <attribute type="dmCellView" name="openaccessState" value="mylib/tb2022/HSPICE_default"/>
+ <attribute type="giString" name="simulator" value="HSPICE"/>
+ <comment></comment>
+ <integration version="1"/>
+</file-format>

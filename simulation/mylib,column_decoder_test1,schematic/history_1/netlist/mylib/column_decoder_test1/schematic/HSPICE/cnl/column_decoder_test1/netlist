@@ -1,0 +1,13 @@
+********************************************************************************
+* Library          : mylib
+* Cell             : column_decoder_test1
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+xi0 net23 net25 net29 gnd! gnd! gnd! net29 gnd! gnd! gnd! gnd! net29 gnd! net29
++ gnd! gnd! net29 net29 bit0 bit1 bit02 bit3 column_decoder
+v2 net25 gnd! dc=0.8 pulse ( 0 0.8 0 5p 5p 100p 200p )
+v1 net23 gnd! dc=0.8 pulse ( 0 0.8 0 5p 5p 50p 100p )
+v8 vdd! gnd! dc=.8
+v4 net29 gnd! dc=0.8

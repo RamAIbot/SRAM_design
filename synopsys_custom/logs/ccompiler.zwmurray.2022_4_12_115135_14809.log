@@ -1,0 +1,1148 @@
+[11:51:52.78] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c                  Version S-2021.09 for linux64 - Aug 25, 2021 
+              /c 
+              /c                     Copyright (c) 2004 - 2021 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c    or distribution of this software is strictly prohibited.  Licensed Products
+              /c      communicate with Synopsys servers for the purpose of providing software
+              /c     updates, detecting software piracy and verifying that customers are using
+              /c     Licensed Products in conformity with the applicable License Key for such
+              /c   Licensed Products. Synopsys will use information gathered in connection with
+              /c     this process to deliver software updates and pursue software pirates and
+              /c                                    infringers.
+              /c 
+              /c  Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+              /c             Inclusivity and Diversity" (Refer to article 000036315 at
+              /c                         https://solvnetplus.synopsys.com)
+              /c 
+              /c Build  (OPT) Config 6809741 compiled on Wed Aug 25 11:47:50 2021 for CentOS64 7.3
+              /c Invocation: /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/platform/bin/custom_compiler
+              /c Execution time: Tue Apr 12 11:51:35 2022
+              /c Host: grendel32.ece.ncsu.edu
+              /c Working directory: /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp
+              /c 
+[11:56:55.95] /r giShowFrameTabs true
+[11:56:55.95] /r giWindowId 1
+[11:56:55.96] /r giWindowGeometry 1040x800
+[11:59:48.25] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[11:59:48.88] /# 
+[11:59:49.18] /i gi::addWindow [dm::openLibraryManager] -to 1
+[11:59:49.18] /r giWindowId 2
+[11:59:49.18] /r giWindowGeometry 660x600+50+50
+[12:07:43.28] /i gi::setCurrentIndex {libs} -index {mylib} -in [gi::getWindows 2]
+[12:07:44.66] /i gi::setItemSelection {libs} -index {mylib} -in [gi::getWindows 2]
+[12:07:59.36] /i gi::setCurrentIndex {cells} -index {tb2022} -in [gi::getWindows 2]
+[12:07:59.38] /i gi::setItemSelection {cells} -index {tb2022} -in [gi::getWindows 2]
+[12:08:01.37] /i gi::setCurrentIndex {views} -index {HSPICE_default} -in [gi::getWindows 2]
+[12:08:01.37] /i gi::setItemSelection {views} -index {HSPICE_default} -in [gi::getWindows 2]
+[12:08:01.49] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[12:08:20.68] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[12:08:20.98] /r giWindowId 3
+[12:08:20.98] /r giWindowGeometry 600x500
+[12:08:21.52] /m Information: Launching Background pw_shell Server Process "cd /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp && pw_shell -log pw_shell_session0_job1 -libDefFile /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/lib.defs"
+[12:08:31.77] /i db::setAttr maximized -of [gi::getFrames 1] -value true
+[12:08:31.95] /i db::setAttr geometry -of [gi::getFrames 1] -value 1920x986+0+46
+[12:08:45.93] /m Information: Received ready-for-commands signal from background job 'pw_shell_session0_job1' after 24 seconds.
+[12:10:16.93] /i gi::executeAction {menuPreShow} -in [gi::getWindows 3]
+[12:10:16.93] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 3]]
+[12:10:19.54] /i gi::setCurrentIndex {variablesTable} -index {1,1} -in [gi::getWindows 3]
+[12:10:19.54] /i gi::setItemSelection {variablesTable} -index {1,1} -in [gi::getWindows 3]
+[12:10:22.86] /i gi::setField {variablesTable} -index {1,1} -value {400p} -in [gi::getWindows 3]
+[12:10:22.86] /i gi::setField {variablesTable} -index {1,1} -value {400p} -in [gi::getWindows 3]
+[12:10:25.72] /i gi::executeAction {menuPreShow} -in [gi::getWindows 3]
+[12:10:25.72] /r giMenuAccess db::getNext [gi::getMenus saConsoleSessionMenu -from [gi::getWindows 3]]
+[12:10:27.26] /# gi::executeAction {saSaveState} -in [gi::getWindows 3]
+[12:10:27.26] /i sa::showSaveState -parent 3
+[12:10:27.96] /i db::setAttr geometry -of [gi::getDialogs {saShowSaveState} -parent [gi::getWindows 3]] -value 528x666+700+366
+[12:10:28.60] /i gi::setActiveDialog [gi::getDialogs {saShowSaveState} -parent [gi::getWindows 3]]
+[12:10:30.04] /i gi::pressButton {/categories/checkAll} -in [gi::getDialogs {saShowSaveState} -parent [gi::getWindows 3]]
+[12:10:30.60] /i gi::pressButton {/ok} -in [gi::getDialogs {saShowSaveState} -parent [gi::getWindows 3]]
+[12:10:35.74] /i gi::setCurrentIndex {outputsTable} -index {26,1} -in [gi::getWindows 3]
+[12:10:35.74] /i gi::setItemSelection {outputsTable} -index {26,1} -in [gi::getWindows 3]
+[12:10:35.74] /i gi::setItemSelection {variablesTable} -index {} -in [gi::getWindows 3]
+[12:10:35.96] /i gi::setItemSelection {outputsTable} -index {25,1 26,1} -in [gi::getWindows 3]
+[12:10:35.96] /i gi::setCurrentIndex {outputsTable} -index {25,1} -in [gi::getWindows 3]
+[12:10:36.02] /i gi::setItemSelection {outputsTable} -index {24,1 25,1 26,1} -in [gi::getWindows 3]
+[12:10:36.02] /i gi::setCurrentIndex {outputsTable} -index {24,1} -in [gi::getWindows 3]
+[12:10:36.08] /i gi::setItemSelection {outputsTable} -index {23,1 24,1 25,1 26,1} -in [gi::getWindows 3]
+[12:10:36.08] /i gi::setCurrentIndex {outputsTable} -index {23,1} -in [gi::getWindows 3]
+[12:10:36.11] /i gi::setItemSelection {outputsTable} -index {22,1 23,1 24,1 25,1 26,1} -in [gi::getWindows 3]
+[12:10:36.11] /i gi::setCurrentIndex {outputsTable} -index {22,1} -in [gi::getWindows 3]
+[12:10:36.14] /i gi::setItemSelection {outputsTable} -index {21,1 22,1 23,1 24,1 25,1 26,1} -in [gi::getWindows 3]
+[12:10:36.14] /i gi::setCurrentIndex {outputsTable} -index {21,1} -in [gi::getWindows 3]
+[12:10:36.17] /i gi::setItemSelection {outputsTable} -index {20,1 21,1 22,1 23,1 24,1 25,1 26,1} -in [gi::getWindows 3]
+[12:10:36.17] /i gi::setCurrentIndex {outputsTable} -index {20,1} -in [gi::getWindows 3]
+[12:10:36.21] /i gi::setItemSelection {outputsTable} -index {19,1 20,1 21,1 22,1 23,1 24,1 25,1 26,1} -in [gi::getWindows 3]
+[12:10:36.21] /i gi::setCurrentIndex {outputsTable} -index {19,1} -in [gi::getWindows 3]
+[12:10:36.29] /i gi::setItemSelection {outputsTable} -index {18,1 19,1 20,1 21,1 22,1 23,1 24,1 25,1 26,1} -in [gi::getWindows 3]
+[12:10:36.29] /i gi::setCurrentIndex {outputsTable} -index {18,1} -in [gi::getWindows 3]
+[12:10:36.44] /i gi::setItemSelection {outputsTable} -index {17,1 18,1 19,1 20,1 21,1 22,1 23,1 24,1 25,1 26,1} -in [gi::getWindows 3]
+[12:10:36.44] /i gi::setCurrentIndex {outputsTable} -index {17,1} -in [gi::getWindows 3]
+[12:10:36.96] /i gi::setItemSelection {outputsTable} -index {16,1 17,1 18,1 19,1 20,1 21,1 22,1 23,1 24,1 25,1 26,1} -in [gi::getWindows 3]
+[12:10:36.96] /i gi::setCurrentIndex {outputsTable} -index {16,1} -in [gi::getWindows 3]
+[12:10:40.32] /# gi::executeAction {saDelete} -in [gi::getWindows 3]
+[12:10:40.32] /i sa::deleteSelected -window 3
+[12:10:40.36] /i gi::setCurrentIndex {outputsTable} -index {15,0} -in [gi::getWindows 3]
+[12:10:40.36] /i gi::setItemSelection {outputsTable} -index {15,0-22} -in [gi::getWindows 3]
+[12:10:41.80] /i gi::setCurrentIndex {outputsTable} -index {16,1} -in [gi::getWindows 3]
+[12:10:41.80] /i gi::setItemSelection {outputsTable} -index {16,1} -in [gi::getWindows 3]
+[12:10:42.01] /i gi::setItemSelection {outputsTable} -index {15,1 16,1} -in [gi::getWindows 3]
+[12:10:42.01] /i gi::setCurrentIndex {outputsTable} -index {15,1} -in [gi::getWindows 3]
+[12:10:42.04] /i gi::setItemSelection {outputsTable} -index {14,1 15,1 16,1} -in [gi::getWindows 3]
+[12:10:42.04] /i gi::setCurrentIndex {outputsTable} -index {14,1} -in [gi::getWindows 3]
+[12:10:42.07] /i gi::setItemSelection {outputsTable} -index {13,1 14,1 15,1 16,1} -in [gi::getWindows 3]
+[12:10:42.07] /i gi::setCurrentIndex {outputsTable} -index {13,1} -in [gi::getWindows 3]
+[12:10:42.13] /i gi::setItemSelection {outputsTable} -index {12,1 13,1 14,1 15,1 16,1} -in [gi::getWindows 3]
+[12:10:42.13] /i gi::setCurrentIndex {outputsTable} -index {12,1} -in [gi::getWindows 3]
+[12:10:42.19] /i gi::setItemSelection {outputsTable} -index {11,1 12,1 13,1 14,1 15,1 16,1} -in [gi::getWindows 3]
+[12:10:42.19] /i gi::setCurrentIndex {outputsTable} -index {11,1} -in [gi::getWindows 3]
+[12:10:42.45] /i gi::setItemSelection {outputsTable} -index {12,1 13,1 14,1 15,1 16,1} -in [gi::getWindows 3]
+[12:10:42.45] /i gi::setCurrentIndex {outputsTable} -index {12,1} -in [gi::getWindows 3]
+[12:10:42.48] /i gi::setItemSelection {outputsTable} -index {13,1 14,1 15,1 16,1} -in [gi::getWindows 3]
+[12:10:42.48] /i gi::setCurrentIndex {outputsTable} -index {13,1} -in [gi::getWindows 3]
+[12:10:42.51] /i gi::setItemSelection {outputsTable} -index {14,1 15,1 16,1} -in [gi::getWindows 3]
+[12:10:42.51] /i gi::setCurrentIndex {outputsTable} -index {14,1} -in [gi::getWindows 3]
+[12:10:42.56] /i gi::setItemSelection {outputsTable} -index {15,1 16,1} -in [gi::getWindows 3]
+[12:10:42.56] /i gi::setCurrentIndex {outputsTable} -index {15,1} -in [gi::getWindows 3]
+[12:10:42.62] /i gi::setItemSelection {outputsTable} -index {16,1} -in [gi::getWindows 3]
+[12:10:42.62] /i gi::setCurrentIndex {outputsTable} -index {16,1} -in [gi::getWindows 3]
+[12:10:44.33] /i gi::setField {outputsTable} -index {16,1} -value {v(/Q<0>)} -in [gi::getWindows 3]
+[12:10:44.33] /i gi::setCurrentIndex {outputsTable} -index {13,1} -in [gi::getWindows 3]
+[12:10:44.33] /i gi::setItemSelection {outputsTable} -index {13,1} -in [gi::getWindows 3]
+[12:10:45.01] /i gi::setField {outputsTable} -index {13,1} -value {v(/Q<1>)} -in [gi::getWindows 3]
+[12:10:45.09] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 3]
+[12:10:48.87] /i gi::executeAction {menuPreShow} -in [gi::getWindows 3]
+[12:10:48.87] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 3]]
+[12:10:49.61] /# gi::executeAction {saNetlistAndRun} -in [gi::getWindows 3]
+[12:10:49.61] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 3] -mode [sa::_utils::findRunMode 3]
+[12:10:49.70] /r giWindowId 4
+[12:10:49.71] /r giWindowGeometry 800x600
+[12:10:49.84] /m Information: "Starting incremental netlisting for design "mylib/tb2022/schematic"..." (NETLISTING-010)
+[12:10:50.00] /o Loading: Callback files...
+[12:10:50.00] /o Loading: scripts/callbacks/callbacks.tcl
+[12:10:50.00] /o 
+              /c [INFO] : Loading display.drf from /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/syncust/NCSU_TechLib_FreePDK3
+              /c 
+              /c  if you wish to Load other display.drf, please set shell environment valiable "iPDK_load_display_NCSU_TechLib_FreePDK3" to value = 0
+[12:10:50.00] /o 
+[12:10:50.05] /o 	#######################################
+[12:10:50.05] /o 	CC-PDK Library Name	: FreePDK3
+[12:10:50.05] /o 	#######################################
+[12:10:50.05] /o 
+[12:10:50.12] /o No Design Integrity rule violations found in "mylib/tb2022/schematic"
+[12:10:51.02] /m Information: "Netlisting design "mylib/tb2022/schematic" finished successfully." (NETLISTING-012)
+[12:10:51.09] /m Information: "Composing simulator input file for design "mylib/tb2022/schematic"..."
+[12:10:51.42] /m Information: "Simulator input file composed successfully for design "mylib/tb2022/schematic""
+[12:10:52.75] /m Information: "Starting PrimeSim HSPICE simulation for design: mylib/tb2022/schematic"
+[12:10:54.36] /m Information: Launching Result Viewer "cd /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/synopsys_custom &&  /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/bin/../auxx/auxx_for_cc/../../linux64/swv/bin/swv  -bg_gui -log rvcmd.log -ptype rv -k -cdesigner -parent_cc_pid 14809 -spxkey /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/auxx_for_cc/waveform/sae.spxkey -spxrc /tmp/tmp_sae_spxrc_ZEOHFN -unique_string 129b461732dfbb081dd0752b5a1cdc2f3b3a965d3326affad62ca06c255f2b1065f989a094f7851a6903bfb4038e932eaa87bd065f119abd -lic_type 3    > /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/synopsys_custom/rviewer.log 2>&1"
+[12:10:56.71] /r giWindowId 5
+[12:10:56.72] /r giWindowGeometry 100x100
+[12:11:31.68] /i gi::setActiveWindow 4
+[12:11:31.68] /i gi::setActiveWindow 4 -raise true
+[12:11:44.94] /m Information: Simulation completed successfully for design: mylib/tb2022/schematic  (PW-651)
+[12:11:45.04] /m Information: "Evaluating and plotting outputs..."
+[12:11:46.58] /m Information: Launching Waveform Viewer "cd /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/synopsys_custom &&  /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/bin/../auxx/auxx_for_cc/../../linux64/swv/bin/swv  -bg_gui -k -cdesigner -ptype wv -spxkey /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/auxx/auxx_for_cc/waveform/sae.spxkey -spxrc /tmp/tmp_sae_spxrc_yrW6fl -unique_string 129b461732dfbb081dd0752b5a1cdc2f3b3a965d3326affad62ca06c255f2b1065f989a094f7851a34b91d11376e5bb1487a7efdb05c140c -lic_type 3    > /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/synopsys_custom/viewer.log 2>&1"
+[12:11:46.58] /i gi::collapse {jobMonitorTable} -index {0.0,0} -in [gi::getWindows 4]
+[12:11:49.06] /i db::setAttr maximized -of [gi::getFrames 1] -value false
+[12:11:49.06] /i db::setAttr iconified -of [gi::getFrames 1] -value true
+[12:11:49.33] /i db::setAttr geometry -of [gi::getFrames 1] -value 1920x986+0+23
+[12:11:49.76] /i db::setAttr maximized -of [gi::getFrames 1] -value true
+[12:11:49.76] /i db::setAttr iconified -of [gi::getFrames 1] -value false
+[12:11:49.93] /i db::setAttr geometry -of [gi::getFrames 1] -value 1920x986+0+46
+[12:11:51.00] /m Information: Launching Background pw_shell Server Process "cd /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp && pw_shell -log pw_shell_session0_job2 -libDefFile /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/lib.defs"
+[12:11:51.00] /i gi::collapse {jobMonitorTable} -index {0.0.1,0} -in [gi::getWindows 4]
+[12:11:51.06] /r giWindowId 6
+[12:11:51.07] /r giWindowGeometry 1024x768
+[12:11:51.43] /i db::setAttr geometry -of [gi::getFrames 2] -value 1024x792+447+131
+[12:11:51.93] /m Information: Measurement calculations completed for testbench: HSPICE_default in 0s
+[12:11:54.32] /i db::setAttr maximized -of [gi::getFrames 2] -value true
+[12:11:54.61] /i db::setAttr geometry -of [gi::getFrames 2] -value 1920x986+0+46
+[12:12:11.73] /m Information: Received ready-for-commands signal from background job 'pw_shell_session0_job2' after 20 seconds.
+[12:12:12.21] /i gi::setActiveWindow 4
+[12:12:12.21] /i gi::setActiveWindow 4 -raise true
+[12:12:12.95] /i gi::setActiveWindow 6
+[12:12:12.95] /i gi::setActiveWindow 6 -raise true
+[12:14:00.99] /i gi::setActiveWindow 4
+[12:14:00.99] /i gi::setActiveWindow 4 -raise true
+[12:14:02.03] /i gi::setActiveWindow 3
+[12:14:02.03] /i gi::setActiveWindow 3 -raise true
+[12:14:02.59] /i gi::executeAction {menuPreShow} -in [gi::getWindows 3]
+[12:14:02.59] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 3]]
+[12:14:03.24] /# gi::executeAction {saNetlistAndRun} -in [gi::getWindows 3]
+[12:14:03.24] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 3] -mode [sa::_utils::findRunMode 3]
+[12:14:03.63] /m Information: "Starting incremental netlisting for design "mylib/tb2022/schematic"..." (NETLISTING-010)
+[12:14:03.71] /o No Design Integrity rule violations found in "mylib/tb2022/schematic"
+[12:14:04.25] /m Information: "Netlisting design "mylib/tb2022/schematic" finished successfully." (NETLISTING-012)
+[12:14:04.29] /m Information: "Composing simulator input file for design "mylib/tb2022/schematic"..."
+[12:14:04.61] /m Information: "Simulator input file composed successfully for design "mylib/tb2022/schematic""
+[12:14:05.77] /m Information: "Starting PrimeSim HSPICE simulation for design: mylib/tb2022/schematic"
+[12:14:05.77] /i gi::collapse {jobMonitorTable} -index {0.0.0.0,0} -in [gi::getWindows 4]
+[12:14:58.74] /m Information: Simulation completed successfully for design: mylib/tb2022/schematic  (PW-651)
+[12:14:58.83] /m Information: "Evaluating and plotting outputs..."
+[12:15:02.33] /m Information: Measurement calculations completed for testbench: HSPICE_default in 0s
+[12:15:18.95] /i gi::setActiveWindow 6
+[12:15:18.95] /i gi::setActiveWindow 6 -raise true
+[12:17:02.46] /i gi::setActiveWindow 4
+[12:17:02.46] /i gi::setActiveWindow 4 -raise true
+[12:17:03.58] /i gi::setActiveWindow 2
+[12:17:03.58] /i gi::setActiveWindow 2 -raise true
+[12:17:04.75] /i gi::setActiveWindow 3
+[12:17:04.75] /i gi::setActiveWindow 3 -raise true
+[12:17:05.71] /i gi::executeAction {menuPreShow} -in [gi::getWindows 3]
+[12:17:05.71] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 3]]
+[12:17:06.41] /# gi::executeAction {saNetlistAndRun} -in [gi::getWindows 3]
+[12:17:06.41] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 3] -mode [sa::_utils::findRunMode 3]
+[12:17:06.62] /m Information: "Starting incremental netlisting for design "mylib/tb2022/schematic"..." (NETLISTING-010)
+[12:17:06.70] /o No Design Integrity rule violations found in "mylib/tb2022/schematic"
+[12:17:07.27] /m Information: "Netlisting design "mylib/tb2022/schematic" finished successfully." (NETLISTING-012)
+[12:17:07.51] /m Information: "Composing simulator input file for design "mylib/tb2022/schematic"..."
+[12:17:07.82] /m Information: "Simulator input file composed successfully for design "mylib/tb2022/schematic""
+[12:17:08.78] /m Information: "Starting PrimeSim HSPICE simulation for design: mylib/tb2022/schematic"
+[12:17:08.78] /i gi::collapse {jobMonitorTable} -index {0.0.0.0,0} -in [gi::getWindows 4]
+[12:18:02.24] /m Information: Simulation completed successfully for design: mylib/tb2022/schematic  (PW-651)
+[12:18:02.32] /m Information: "Evaluating and plotting outputs..."
+[12:18:06.03] /m Information: Measurement calculations completed for testbench: HSPICE_default in 0s
+[12:18:19.88] /i gi::setActiveWindow 6
+[12:18:19.88] /i gi::setActiveWindow 6 -raise true
+[12:19:05.45] /i gi::setActiveWindow 4
+[12:19:05.45] /i gi::setActiveWindow 4 -raise true
+[12:19:06.22] /i gi::setActiveWindow 3
+[12:19:06.22] /i gi::setActiveWindow 3 -raise true
+[12:19:07.52] /i gi::setActiveWindow 2
+[12:19:07.52] /i gi::setActiveWindow 2 -raise true
+[12:19:08.90] /i gi::setCurrentIndex {cells} -index {bit_cell_array} -in [gi::getWindows 2]
+[12:19:08.93] /i gi::setItemSelection {cells} -index {bit_cell_array} -in [gi::getWindows 2]
+[12:19:10.37] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[12:19:10.37] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[12:19:10.49] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[12:19:10.50] /m Information: License 'Apex' checked out. (LICENSE-003)
+[12:19:10.57] /r giWindowId 7
+[12:19:10.58] /r giWindowGeometry 1632x972
+[12:19:12.06] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:19:12.06] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {21.99375 -6.8875}
+[12:19:12.12] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:19:12.12] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {21.99375 -6.8875}
+[12:19:12.12] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:19:12.12] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {21.99375 -6.8875}
+[12:19:12.73] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:19:12.73] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {21.38125 -6.40625}
+[12:19:12.75] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:19:12.75] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {21.35 -6.45}
+[12:19:12.81] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:19:12.81] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {21.325 -6.45}
+[12:19:12.82] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:19:12.82] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {21.325 -6.45625}
+[12:19:12.86] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:19:12.86] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {21.325 -6.45625}
+[12:19:13.26] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:19:13.26] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {18.29375 -10.65}
+[12:19:13.31] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:19:13.31] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {18.29375 -10.65}
+[12:19:13.37] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:19:13.37] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {18.29375 -10.65}
+[12:19:13.43] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:19:13.43] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {18.29375 -10.65}
+[12:19:13.55] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:19:13.55] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {18.29375 -10.65}
+[12:19:14.14] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:19:14.14] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {19.05625 -8.96875}
+[12:19:14.28] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:19:14.28] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {19.0625 -8.9625}
+[12:19:15.02] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:19:15.02] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {21.975 -4.94375}
+[12:19:15.20] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:19:15.20] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {21.875 -4.84375}
+[12:19:15.79] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:19:15.79] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {21.29375 -4.8375}
+[12:19:16.93] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:19:16.93] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {21.2625 -4.29375}
+[12:19:16.98] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:19:16.98] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {21.25625 -4.29375}
+[12:19:17.03] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:19:17.03] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {21.375 -4}
+[12:19:17.40] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:19:17.40] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {19.15625 -0.50625}
+[12:19:17.46] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:19:17.46] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {19.15625 -0.50625}
+[12:19:18.20] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:19:18.20] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {21.1375 -2.6375}
+[12:19:19.10] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:19:19.10] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {20.23125 -6.45625}
+[12:19:19.18] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:19:19.18] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {20.26875 -6.48125}
+[12:19:19.25] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:19:19.25] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {20.2625 -6.48125}
+[12:19:19.32] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:19:19.33] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {20.38125 -6.8375}
+[12:19:19.69] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:19:19.69] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {21.31875 -7.76875}
+[12:19:19.80] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:19:19.80] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {21.31875 -7.76875}
+[12:19:19.98] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:19:19.98] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {21.31875 -7.76875}
+[12:19:20.04] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:19:20.04] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {21.31875 -7.76875}
+[12:19:20.10] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:19:20.10] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {21.30625 -7.78125}
+[12:19:23.18] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:19:23.18] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {19.25 -4.73125}
+[12:19:23.23] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:19:23.23] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {19.2375 -4.725}
+[12:19:23.71] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:19:23.71] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {18.68125 -3.15625}
+[12:19:23.82] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:19:23.82] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {18.66875 -3.15625}
+[12:19:29.35] /i gi::executeAction {deCanvasDragSelect} -in [gi::getWindows 7]
+[12:19:29.35] /r deCanvasDragStart 18.05 -3.95
+[12:19:32.12] /# gi::executeAction {deCanvasDragEnd} -in [gi::getWindows 7]
+[12:19:32.12] /i gi::executeAction deCanvasDragEnd -in [gi::getWindows 7]
+[12:19:32.12] /r deCanvasDragEnd 22.4625 -5.26875
+[12:19:33.96] /i gi::executeAction {deCanvasDragCancel} -in [gi::getWindows 7]
+[12:19:34.25] /i gi::executeAction {deCanvasDragCancel} -in [gi::getWindows 7]
+[12:19:34.81] /# gi::executeAction {deSelectActive} -in [gi::getWindows 7]
+[12:19:34.81] /i de::deselectAll [db::getNext [de::getContexts -window 7]]
+[12:19:34.81] /i de::select [de::getActiveFigure [gi::getWindows 7] -point {22.5125 -4.875} -index 0 -intent none]
+[12:19:34.81] /o oa:0x3a593cb0
+[12:19:35.68] /# gi::executeAction {seDelete} -in [gi::getWindows 7]
+[12:19:35.68] /i ise::delete
+[12:19:37.01] /# gi::executeAction {deSelectActive} -in [gi::getWindows 7]
+[12:19:37.01] /i de::deselectAll [db::getNext [de::getContexts -window 7]]
+[12:19:37.01] /i de::select [de::getActiveFigure [gi::getWindows 7] -point {17.80625 -4.6875} -index 0 -intent none]
+[12:19:37.01] /o oa:0x3ae998f0
+[12:19:37.25] /# gi::executeAction {seDelete} -in [gi::getWindows 7]
+[12:19:37.25] /i ise::delete
+[12:19:38.36] /i gi::executeAction {deCanvasDragSelect} -in [gi::getWindows 7]
+[12:19:38.36] /r deCanvasDragStart 17.8813 -4.09375
+[12:19:38.87] /# gi::executeAction {deCanvasDragEnd} -in [gi::getWindows 7]
+[12:19:38.87] /i gi::executeAction deCanvasDragEnd -in [gi::getWindows 7]
+[12:19:38.87] /r deCanvasDragEnd 22.8 -5.1625
+[12:19:39.41] /# gi::executeAction {seButton1DragStart} -in [gi::getWindows 7]
+[12:19:39.41] /i ise::stretch -point {21.875 -4.8125}
+[12:19:40.55] /# gi::executeAction {deEndDrag} -in [gi::getWindows 7]
+[12:19:40.55] /i de::endDrag {26.96875 -5.75625} -context [db::getNext [de::getContexts -window 7]]
+[12:19:41.80] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:19:41.80] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {21.65625 -6.1625}
+[12:19:41.92] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:19:41.92] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {21.65625 -6.16875}
+[12:19:42.24] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:19:42.24] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {22.0625 -6.16875}
+[12:19:42.34] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:19:42.34] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {22.21875 -6.2}
+[12:19:42.91] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:19:42.91] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {20.8625 -5.7375}
+[12:19:43.43] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:19:43.43] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {18.6375 -5.2}
+[12:19:44.88] /# gi::executeAction {seSchCreateWire} -in [gi::getWindows 7]
+[12:19:44.88] /i ise::createWire
+[12:19:46.86] /# gi::executeAction {deAddPoint} -in [gi::getWindows 7]
+[12:19:46.86] /i de::addPoint {22.5125 -5.93125} -context [db::getNext [de::getContexts -window 7]]
+[12:19:46.95] /i de::setCursor -point {22.5 -5.875 }
+[12:19:49.29] /# gi::executeAction {deAddPoint} -in [gi::getWindows 7]
+[12:19:49.29] /i de::addPoint {17.7 -4.6625} -context [db::getNext [de::getContexts -window 7]]
+[12:19:50.15] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:19:50.15] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {17.71875 -4.71875}
+[12:19:50.20] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:19:50.20] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {17.625 -4.70625}
+[12:19:50.29] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:19:50.29] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {17.60625 -4.69375}
+[12:19:50.61] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:19:50.61] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {17.63125 -4.7}
+[12:19:50.64] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:19:50.64] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {17.63125 -4.7}
+[12:19:51.10] /# gi::executeAction {deAbortCommand} -in [gi::getWindows 7]
+[12:19:51.10] /i de::abortCommand -context [db::getNext [de::getContexts -window 7]]
+[12:19:51.27] /i gi::executeAction {deCanvasDragCancel} -in [gi::getWindows 7]
+[12:19:51.45] /i gi::executeAction {deCanvasDragCancel} -in [gi::getWindows 7]
+[12:19:51.59] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:19:51.59] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {17.6875 -4.7}
+[12:19:51.62] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:19:51.62] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {17.70625 -4.7}
+[12:19:51.62] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:19:51.62] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {17.70625 -4.7}
+[12:19:51.62] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:19:51.62] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {17.7 -4.70625}
+[12:19:51.68] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:19:51.68] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {17.89375 -4.70625}
+[12:19:51.68] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:19:51.68] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {17.9 -4.70625}
+[12:19:51.68] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:19:51.68] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {17.9 -4.70625}
+[12:19:53.04] /# gi::executeAction {seSchCheckAndSave} -in [gi::getWindows 7]
+[12:19:53.04] /i ise::check
+[12:19:53.05] /m Information: 
+              /c Cross view checking for mylib/bit_cell_array/symbol with mylib/bit_cell_array/schematic
+              /c No violations found. (DE_EDIT-007)
+[12:19:53.05] /m Information: 
+[12:19:53.05] /o Checking "mylib/bit_cell_array/schematic"
+[12:19:53.05] /o 	[warning] Floating Input Instance Pins
+[12:19:53.05] /o 		Input pin 'A' of instance 'I263' is floating
+[12:19:53.05] /o 	[warning] Floating Output Instance Pins
+[12:19:53.05] /o 		Output pin 'Z' of instance 'I266' is floating
+[12:19:53.06] /o 0 Error(s),2 Warning(s),0 Message(s) found   in "mylib/bit_cell_array/schematic"
+[12:19:53.06] /m Information: Checking process is completed: marking the design violations
+[12:19:53.17] /m Information: Marking of designs is completed
+[12:19:54.66] /# gi::executeAction {deSelectActive} -in [gi::getWindows 7]
+[12:19:54.66] /i de::deselectAll [db::getNext [de::getContexts -window 7]]
+[12:19:54.66] /i de::deselectAllLogic -context [de::getContexts -filter {%editDesign==[db::getAttr editDesign -of [db::getNext [de::getContexts -window 7]]]}]
+[12:19:59.16] /i gi::setActiveWindow 3
+[12:19:59.16] /i gi::setActiveWindow 3 -raise true
+[12:20:01.07] /i gi::setActiveWindow 2
+[12:20:01.07] /i gi::setActiveWindow 2 -raise true
+[12:20:01.87] /i gi::setActiveWindow 7
+[12:20:01.87] /i gi::setActiveWindow 7 -raise true
+[12:20:02.98] /# gi::executeAction {seSchCheckAndSave} -in [gi::getWindows 7]
+[12:20:02.98] /i ise::check
+[12:20:02.98] /m Information: 
+              /c Cross view checking for mylib/bit_cell_array/symbol with mylib/bit_cell_array/schematic
+              /c No violations found. (DE_EDIT-007)
+[12:20:02.98] /m Information: 
+[12:20:02.98] /o Checking "mylib/bit_cell_array/schematic"
+[12:20:02.99] /o 	[warning] Floating Input Instance Pins
+[12:20:02.99] /o 		Input pin 'A' of instance 'I263' is floating
+[12:20:02.99] /o 	[warning] Floating Output Instance Pins
+[12:20:02.99] /o 		Output pin 'Z' of instance 'I266' is floating
+[12:20:02.99] /o 0 Error(s),2 Warning(s),0 Message(s) found   in "mylib/bit_cell_array/schematic"
+[12:20:02.99] /m Information: Checking process is completed: marking the design violations
+[12:20:03.08] /m Information: Marking of designs is completed
+[12:20:05.85] /i gi::pressButton {ConsoleToggleButton} -in [db::getAttr statusbar -of [gi::getWindows 7]]
+[12:20:09.99] /i gi::pressButton {ConsoleToggleButton} -in [db::getAttr statusbar -of [gi::getWindows 7]]
+[12:20:11.97] /i gi::setActiveWindow 3
+[12:20:11.97] /i gi::setActiveWindow 3 -raise true
+[12:20:13.14] /i gi::executeAction {menuPreShow} -in [gi::getWindows 3]
+[12:20:13.14] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 3]]
+[12:20:13.70] /# gi::executeAction {saNetlistAndRun} -in [gi::getWindows 3]
+[12:20:13.70] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 3] -mode [sa::_utils::findRunMode 3]
+[12:20:13.89] /m Information: "Starting incremental netlisting for design "mylib/tb2022/schematic"..." (NETLISTING-010)
+[12:20:13.97] /o No Design Integrity rule violations found in "mylib/tb2022/schematic"
+[12:20:14.23] /m Information: "mylib bit_cell_array schematic" renetlisted. (NETLISTING-056)
+[12:20:14.37] /m Information: "Netlisting design "mylib/tb2022/schematic" finished successfully." (NETLISTING-012)
+[12:20:14.40] /m Information: "Composing simulator input file for design "mylib/tb2022/schematic"..."
+[12:20:14.70] /m Information: "Simulator input file composed successfully for design "mylib/tb2022/schematic""
+[12:20:16.71] /m Information: "Starting PrimeSim HSPICE simulation for design: mylib/tb2022/schematic"
+[12:20:16.72] /i gi::collapse {jobMonitorTable} -index {0.0.0.0,0} -in [gi::getWindows 4]
+[12:21:05.84] /m Information: Simulation completed successfully for design: mylib/tb2022/schematic  (PW-651)
+[12:21:05.93] /m Information: "Evaluating and plotting outputs..."
+[12:21:09.63] /m Information: Measurement calculations completed for testbench: HSPICE_default in 0s
+[12:21:15.25] /i gi::setActiveWindow 6
+[12:21:15.25] /i gi::setActiveWindow 6 -raise true
+[12:22:09.34] /i gi::setActiveWindow 4
+[12:22:09.34] /i gi::setActiveWindow 4 -raise true
+[12:22:10.88] /i gi::setActiveWindow 3
+[12:22:10.88] /i gi::setActiveWindow 3 -raise true
+[12:22:12.36] /i gi::setActiveWindow 7
+[12:22:12.36] /i gi::setActiveWindow 7 -raise true
+[12:22:13.57] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:22:13.57] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {21.425 -5.09375}
+[12:22:13.62] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:22:13.62] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {21.425 -5.09375}
+[12:22:13.65] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:22:13.65] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {21.425 -5.09375}
+[12:22:14.04] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:22:14.04] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {21.425 -5.09375}
+[12:22:14.76] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:22:14.76] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {21.26875 -5.25625}
+[12:22:15.43] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:22:15.43] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {22.11875 -4.9}
+[12:22:16.40] /# gi::executeAction {deSelectActive} -in [gi::getWindows 7]
+[12:22:16.40] /i de::deselectAll [db::getNext [de::getContexts -window 7]]
+[12:22:16.40] /i de::select [de::getActiveFigure [gi::getWindows 7] -point {22.50625 -5.28125} -index 0 -intent none]
+[12:22:16.40] /o oa:0x3b19ded0
+[12:22:17.94] /# gi::executeAction {seDelete} -in [gi::getWindows 7]
+[12:22:17.94] /i ise::delete
+[12:22:18.67] /# gi::executeAction {deSelectActive} -in [gi::getWindows 7]
+[12:22:18.67] /i de::deselectAllLogic -context [de::getContexts -filter {%editDesign==[db::getAttr editDesign -of [db::getNext [de::getContexts -window 7]]]}]
+[12:22:19.02] /# gi::executeAction {deSelectActive} -in [gi::getWindows 7]
+[12:22:19.03] /i de::deselectAll [db::getNext [de::getContexts -window 7]]
+[12:22:19.03] /i de::select [de::getActiveFigure [gi::getWindows 7] -point {21.41875 -4.70625} -index 0 -intent none]
+[12:22:19.03] /o oa:0x3b11f9d0
+[12:22:19.19] /# gi::executeAction {seDelete} -in [gi::getWindows 7]
+[12:22:19.19] /i ise::delete
+[12:22:20.40] /# gi::executeAction {deSelectActive} -in [gi::getWindows 7]
+[12:22:20.40] /i de::deselectAll [db::getNext [de::getContexts -window 7]]
+[12:22:20.40] /i de::select [de::getActiveFigure [gi::getWindows 7] -point {17.7 -4.4625} -index 0 -intent none]
+[12:22:20.40] /o oa:0x3a071f40
+[12:22:20.57] /# gi::executeAction {seDelete} -in [gi::getWindows 7]
+[12:22:20.57] /i ise::delete
+[12:22:21.18] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:22:21.18] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {23.79375 -5.2875}
+[12:22:21.21] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:22:21.21] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {23.79375 -5.2875}
+[12:22:22.11] /i gi::executeAction {deCanvasDragSelect} -in [gi::getWindows 7]
+[12:22:22.11] /r deCanvasDragStart 22.6938 -4.7875
+[12:22:22.59] /# gi::executeAction {deCanvasDragEnd} -in [gi::getWindows 7]
+[12:22:22.59] /i gi::executeAction deCanvasDragEnd -in [gi::getWindows 7]
+[12:22:22.59] /r deCanvasDragEnd 28.025 -6.3625
+[12:22:22.87] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:22:22.87] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {27.2375 -6.1875}
+[12:22:22.93] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:22:22.93] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {26.9625 -6.175}
+[12:22:23.75] /# gi::executeAction {seButton1DragStart} -in [gi::getWindows 7]
+[12:22:23.75] /i ise::stretch -point {26.875 -5.6875}
+[12:22:27.11] /# gi::executeAction {deEndDrag} -in [gi::getWindows 7]
+[12:22:27.11] /i de::endDrag {21.8125 -4.875} -context [db::getNext [de::getContexts -window 7]]
+[12:22:27.60] /# gi::executeAction {deSelectActive} -in [gi::getWindows 7]
+[12:22:27.60] /i de::deselectAll [db::getNext [de::getContexts -window 7]]
+[12:22:27.60] /i de::deselectAllLogic -context [de::getContexts -filter {%editDesign==[db::getAttr editDesign -of [db::getNext [de::getContexts -window 7]]]}]
+[12:22:27.84] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:22:27.84] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {21.8 -4.98125}
+[12:22:27.88] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:22:27.88] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {21.7875 -4.975}
+[12:22:27.93] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:22:27.93] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {21.5625 -5.00625}
+[12:22:27.99] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:22:27.99] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {20.15625 -5.0625}
+[12:22:28.46] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:22:28.46] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {16.075 -1.45625}
+[12:22:28.52] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:22:28.52] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {16.25 -1.45625}
+[12:22:28.58] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:22:28.58] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {16.74375 -1.775}
+[12:22:29.50] /i gi::executeAction {deCanvasDragSelect} -in [gi::getWindows 7]
+[12:22:29.50] /r deCanvasDragStart 17.2375 -4.00625
+[12:22:30.04] /# gi::executeAction {deCanvasDragEnd} -in [gi::getWindows 7]
+[12:22:30.04] /i gi::executeAction deCanvasDragEnd -in [gi::getWindows 7]
+[12:22:30.04] /r deCanvasDragEnd 24.075 -5.59375
+[12:22:30.93] /# gi::executeAction {seCopy} -in [gi::getWindows 7]
+[12:22:30.93] /i ise::copy
+[12:22:31.81] /# gi::executeAction {deStartDrag} -in [gi::getWindows 7]
+[12:22:31.81] /i de::startDrag {21.7875 -4.90625} -context [db::getNext [de::getContexts -window 7]]
+[12:22:35.45] /# gi::executeAction {deEndDrag} -in [gi::getWindows 7]
+[12:22:35.45] /i de::endDrag {21.83125 -3.0125} -context [db::getNext [de::getContexts -window 7]]
+[12:22:37.50] /# gi::executeAction {seCopy} -in [gi::getWindows 7]
+[12:22:37.51] /i ise::copy
+[12:22:38.05] /# gi::executeAction {deStartDrag} -in [gi::getWindows 7]
+[12:22:38.05] /i de::startDrag {22.05 -2.88125} -context [db::getNext [de::getContexts -window 7]]
+[12:22:38.67] /# gi::executeAction {seOptionsRotate90} -in [gi::getWindows 7]
+[12:22:38.67] /i de::commandOption R90
+[12:22:39.02] /# gi::executeAction {seOptionsRotate90} -in [gi::getWindows 7]
+[12:22:39.02] /i de::commandOption R90
+[12:22:42.24] /# gi::executeAction {deEndDrag} -in [gi::getWindows 7]
+[12:22:42.24] /i de::endDrag {18.48125 -3.8625} -context [db::getNext [de::getContexts -window 7]]
+[12:22:42.77] /# gi::executeAction {deSelectActive} -in [gi::getWindows 7]
+[12:22:42.77] /i de::deselectAll [db::getNext [de::getContexts -window 7]]
+[12:22:42.77] /i de::deselectAllLogic -context [de::getContexts -filter {%editDesign==[db::getAttr editDesign -of [db::getNext [de::getContexts -window 7]]]}]
+[12:22:43.80] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:22:43.80] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {19.1625 -5.1125}
+[12:22:44.84] /# gi::executeAction {seSchCreateWire} -in [gi::getWindows 7]
+[12:22:44.84] /i ise::createWire
+[12:22:46.32] /# gi::executeAction {deAddPoint} -in [gi::getWindows 7]
+[12:22:46.32] /i de::addPoint {22.48125 -5.9375} -context [db::getNext [de::getContexts -window 7]]
+[12:22:46.51] /i de::setCursor -point {22.75 -5.625 }
+[12:22:47.98] /# gi::executeAction {deAddPoint} -in [gi::getWindows 7]
+[12:22:47.98] /i de::addPoint {22.55 -4.81875} -context [db::getNext [de::getContexts -window 7]]
+[12:22:49.34] /# gi::executeAction {deAddPoint} -in [gi::getWindows 7]
+[12:22:49.34] /i de::addPoint {18.14375 -4.8} -context [db::getNext [de::getContexts -window 7]]
+[12:22:49.55] /i de::setCursor -point {18.0625 -4.75 }
+[12:22:49.57] /i de::setCursor -point {18.0625 -4.6875 }
+[12:22:49.58] /i de::setCursor -point {18 -4.6875 }
+[12:22:49.60] /i de::setCursor -point {18 -4.625 }
+[12:22:50.89] /# gi::executeAction {deAddPoint} -in [gi::getWindows 7]
+[12:22:50.89] /i de::addPoint {18.05625 -3.86875} -context [db::getNext [de::getContexts -window 7]]
+[12:22:52.44] /# gi::executeAction {deAddPoint} -in [gi::getWindows 7]
+[12:22:52.44] /i de::addPoint {22.43125 -3.86875} -context [db::getNext [de::getContexts -window 7]]
+[12:22:52.49] /i de::setCursor -point {22.5 -3.875 }
+[12:22:52.50] /i de::setCursor -point {22.5 -3.8125 }
+[12:22:52.50] /i de::setCursor -point {22.5625 -3.8125 }
+[12:22:53.36] /# gi::executeAction {deAddPoint} -in [gi::getWindows 7]
+[12:22:53.36] /i de::addPoint {22.5625 -2.86875} -context [db::getNext [de::getContexts -window 7]]
+[12:22:54.92] /# gi::executeAction {deAddPoint} -in [gi::getWindows 7]
+[12:22:54.92] /i de::addPoint {18.10625 -2.8625} -context [db::getNext [de::getContexts -window 7]]
+[12:22:56.53] /# gi::executeAction {deAddPoint} -in [gi::getWindows 7]
+[12:22:56.53] /i de::addPoint {17.7625 -2.125} -context [db::getNext [de::getContexts -window 7]]
+[12:22:56.95] /# gi::executeAction {deAbortCommand} -in [gi::getWindows 7]
+[12:22:56.95] /i de::abortCommand -context [db::getNext [de::getContexts -window 7]]
+[12:22:57.25] /i gi::executeAction {deCanvasDragCancel} -in [gi::getWindows 7]
+[12:22:57.40] /i gi::executeAction {deCanvasDragCancel} -in [gi::getWindows 7]
+[12:22:58.13] /i gi::executeAction {deCanvasDragSelect} -in [gi::getWindows 7]
+[12:22:58.13] /r deCanvasDragStart 17.525 -1.93125
+[12:22:58.78] /# gi::executeAction {deCanvasDragEnd} -in [gi::getWindows 7]
+[12:22:58.78] /i gi::executeAction deCanvasDragEnd -in [gi::getWindows 7]
+[12:22:58.78] /r deCanvasDragEnd 17.9812 -2.20625
+[12:22:59.92] /# gi::executeAction {seDelete} -in [gi::getWindows 7]
+[12:22:59.92] /i ise::delete
+[12:23:01.04] /i gi::executeAction {deCanvasDragSelect} -in [gi::getWindows 7]
+[12:23:01.04] /r deCanvasDragStart 17.9438 -3.69375
+[12:23:01.48] /# gi::executeAction {deCanvasDragEnd} -in [gi::getWindows 7]
+[12:23:01.48] /i gi::executeAction deCanvasDragEnd -in [gi::getWindows 7]
+[12:23:01.48] /r deCanvasDragEnd 18.1375 -4.0125
+[12:23:01.92] /# gi::executeAction {seDelete} -in [gi::getWindows 7]
+[12:23:01.92] /i ise::delete
+[12:23:03.55] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:23:03.55] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {18.4 -3.65625}
+[12:23:05.96] /# gi::executeAction {seSchCheckAndSave} -in [gi::getWindows 7]
+[12:23:05.96] /i ise::check
+[12:23:05.97] /m Information: 
+              /c Cross view checking for mylib/bit_cell_array/symbol with mylib/bit_cell_array/schematic
+              /c No violations found. (DE_EDIT-007)
+[12:23:05.97] /m Information: 
+[12:23:05.97] /o Checking "mylib/bit_cell_array/schematic"
+[12:23:05.97] /o 	[warning] Floating Input Instance Pins
+[12:23:05.97] /o 		Input pin 'A' of instance 'I330' is floating
+[12:23:05.97] /o 	[warning] Floating Output Instance Pins
+[12:23:05.97] /o 		Output pin 'Z' of instance 'I266' is floating
+[12:23:05.98] /o 0 Error(s),2 Warning(s),0 Message(s) found   in "mylib/bit_cell_array/schematic"
+[12:23:05.98] /m Information: Checking process is completed: marking the design violations
+[12:23:06.06] /m Information: Marking of designs is completed
+[12:23:07.27] /i gi::setActiveWindow 3
+[12:23:07.27] /i gi::setActiveWindow 3 -raise true
+[12:23:07.91] /i gi::executeAction {menuPreShow} -in [gi::getWindows 3]
+[12:23:07.91] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 3]]
+[12:23:08.51] /# gi::executeAction {saNetlistAndRun} -in [gi::getWindows 3]
+[12:23:08.51] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 3] -mode [sa::_utils::findRunMode 3]
+[12:23:08.72] /m Information: "Starting incremental netlisting for design "mylib/tb2022/schematic"..." (NETLISTING-010)
+[12:23:08.80] /o No Design Integrity rule violations found in "mylib/tb2022/schematic"
+[12:23:09.10] /m Information: "mylib bit_cell_array schematic" renetlisted. (NETLISTING-056)
+[12:23:09.47] /m Information: "Netlisting design "mylib/tb2022/schematic" finished successfully." (NETLISTING-012)
+[12:23:09.51] /m Information: "Composing simulator input file for design "mylib/tb2022/schematic"..."
+[12:23:10.02] /m Information: "Simulator input file composed successfully for design "mylib/tb2022/schematic""
+[12:23:10.96] /m Information: "Starting PrimeSim HSPICE simulation for design: mylib/tb2022/schematic"
+[12:23:10.96] /i gi::collapse {jobMonitorTable} -index {0.0.0.0,0} -in [gi::getWindows 4]
+[12:23:58.54] /m Information: Simulation completed successfully for design: mylib/tb2022/schematic  (PW-651)
+[12:23:58.64] /m Information: "Evaluating and plotting outputs..."
+[12:24:02.43] /m Information: Measurement calculations completed for testbench: HSPICE_default in 0s
+[12:24:04.05] /i gi::setActiveWindow 6
+[12:24:04.05] /i gi::setActiveWindow 6 -raise true
+[12:24:29.04] /i gi::setActiveWindow 4
+[12:24:29.04] /i gi::setActiveWindow 4 -raise true
+[12:24:30.08] /i gi::setActiveWindow 3
+[12:24:30.08] /i gi::setActiveWindow 3 -raise true
+[12:24:32.49] /i gi::setActiveWindow 7
+[12:24:32.49] /i gi::setActiveWindow 7 -raise true
+[12:24:35.45] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:24:35.45] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {17.625 -3.7125}
+[12:24:35.48] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:24:35.48] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {17.625 -3.7125}
+[12:24:35.54] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:24:35.54] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {17.625 -3.7125}
+[12:24:35.54] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:24:35.54] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {17.625 -3.7125}
+[12:24:37.54] /# gi::executeAction {seSchCreateWire} -in [gi::getWindows 7]
+[12:24:37.55] /i ise::createWire
+[12:24:38.25] /# gi::executeAction {deAddPoint} -in [gi::getWindows 7]
+[12:24:38.25] /i de::addPoint {18.0625 -3.88125} -context [db::getNext [de::getContexts -window 7]]
+[12:24:38.39] /i de::setCursor -point {18.125 -3.875 }
+[12:24:38.80] /# gi::executeAction {deAddPoint} -in [gi::getWindows 7]
+[12:24:38.80] /i de::addPoint {18.11875 -3.875} -context [db::getNext [de::getContexts -window 7]]
+[12:24:39.04] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:24:39.04] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {18.10625 -3.9}
+[12:24:39.04] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:24:39.04] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {18.10625 -3.89375}
+[12:24:39.08] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:24:39.08] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {18.1125 -3.90625}
+[12:24:39.12] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:24:39.12] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {18.1 -3.9375}
+[12:24:39.51] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:24:39.51] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {18.2375 -4.9}
+[12:24:39.56] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:24:39.56] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {18.2375 -4.9}
+[12:24:40.30] /# gi::executeAction {deAbortCommand} -in [gi::getWindows 7]
+[12:24:40.30] /i de::abortCommand -context [db::getNext [de::getContexts -window 7]]
+[12:24:40.51] /i gi::executeAction {deCanvasDragCancel} -in [gi::getWindows 7]
+[12:24:40.66] /i gi::executeAction {deCanvasDragCancel} -in [gi::getWindows 7]
+[12:24:40.78] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:24:40.78] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {18.225 -4.8625}
+[12:24:40.82] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:24:40.83] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {18.225 -4.8625}
+[12:24:40.84] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:24:40.84] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {18.225 -4.8625}
+[12:24:40.89] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:24:40.89] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {18.225 -4.8625}
+[12:24:41.32] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:24:41.32] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {18.2 -4.8625}
+[12:24:41.33] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:24:41.33] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {18.19375 -4.8625}
+[12:24:41.40] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:24:41.40] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {18.1625 -4.8625}
+[12:24:41.40] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:24:41.40] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {18.1625 -4.85625}
+[12:24:41.44] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:24:41.44] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {18.13125 -4.85}
+[12:24:41.50] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:24:41.50] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {18.04375 -4.81875}
+[12:24:43.16] /# gi::executeAction {seSchCheckAndSave} -in [gi::getWindows 7]
+[12:24:43.16] /i ise::check
+[12:24:43.17] /m Information: 
+              /c Cross view checking for mylib/bit_cell_array/symbol with mylib/bit_cell_array/schematic
+              /c No violations found. (DE_EDIT-007)
+[12:24:43.17] /m Information: 
+[12:24:43.17] /o Checking "mylib/bit_cell_array/schematic"
+[12:24:43.18] /o No rule violations found in "mylib/bit_cell_array/schematic"
+[12:24:43.18] /m Information: Checking process is completed: marking the design violations
+[12:24:43.25] /m Information: Marking of designs is completed
+[12:24:45.31] /i gi::setActiveWindow 3
+[12:24:45.31] /i gi::setActiveWindow 3 -raise true
+[12:24:46.02] /i gi::executeAction {menuPreShow} -in [gi::getWindows 3]
+[12:24:46.02] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 3]]
+[12:24:46.46] /# gi::executeAction {saNetlistAndRun} -in [gi::getWindows 3]
+[12:24:46.46] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 3] -mode [sa::_utils::findRunMode 3]
+[12:24:46.64] /m Information: "Starting incremental netlisting for design "mylib/tb2022/schematic"..." (NETLISTING-010)
+[12:24:46.72] /o No Design Integrity rule violations found in "mylib/tb2022/schematic"
+[12:24:47.00] /m Information: "mylib bit_cell_array schematic" renetlisted. (NETLISTING-056)
+[12:24:47.14] /m Information: "Netlisting design "mylib/tb2022/schematic" finished successfully." (NETLISTING-012)
+[12:24:47.17] /m Information: "Composing simulator input file for design "mylib/tb2022/schematic"..."
+[12:24:47.48] /m Information: "Simulator input file composed successfully for design "mylib/tb2022/schematic""
+[12:24:48.62] /m Information: "Starting PrimeSim HSPICE simulation for design: mylib/tb2022/schematic"
+[12:24:48.63] /i gi::collapse {jobMonitorTable} -index {0.0.0.0,0} -in [gi::getWindows 4]
+[12:25:50.94] /m Information: Simulation completed successfully for design: mylib/tb2022/schematic  (PW-651)
+[12:25:51.03] /m Information: "Evaluating and plotting outputs..."
+[12:25:55.23] /m Information: Measurement calculations completed for testbench: HSPICE_default in 1s
+[12:25:58.66] /i gi::setActiveWindow 6
+[12:25:58.66] /i gi::setActiveWindow 6 -raise true
+[12:26:20.78] /i gi::setActiveWindow 4
+[12:26:20.78] /i gi::setActiveWindow 4 -raise true
+[12:26:21.89] /i gi::setActiveWindow 7
+[12:26:21.89] /i gi::setActiveWindow 7 -raise true
+[12:26:22.81] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:26:22.81] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {19.5 -2.9625}
+[12:26:22.87] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:26:22.87] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {19.825 -3.1375}
+[12:26:23.23] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:26:23.23] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {21.8625 -3.01875}
+[12:26:24.75] /i gi::executeAction {deCanvasDragSelect} -in [gi::getWindows 7]
+[12:26:24.75] /r deCanvasDragStart 16.6187 -2.525
+[12:26:25.51] /# gi::executeAction {deCanvasDragEnd} -in [gi::getWindows 7]
+[12:26:25.51] /i gi::executeAction deCanvasDragEnd -in [gi::getWindows 7]
+[12:26:25.51] /r deCanvasDragEnd 25.125 -9.60625
+[12:26:26.67] /# gi::executeAction {seButton1DragStart} -in [gi::getWindows 7]
+[12:26:26.67] /i ise::stretch -point {22.125 -3.125}
+[12:26:28.48] /# gi::executeAction {deEndDrag} -in [gi::getWindows 7]
+[12:26:28.48] /i de::endDrag {22.125 -6.98125} -context [db::getNext [de::getContexts -window 7]]
+[12:26:28.81] /# gi::executeAction {deSelectActive} -in [gi::getWindows 7]
+[12:26:28.81] /i de::deselectAll [db::getNext [de::getContexts -window 7]]
+[12:26:28.81] /i de::deselectAllLogic -context [de::getContexts -filter {%editDesign==[db::getAttr editDesign -of [db::getNext [de::getContexts -window 7]]]}]
+[12:26:29.61] /# gi::executeAction {deSelectActive} -in [gi::getWindows 7]
+[12:26:29.61] /i de::deselectAll [db::getNext [de::getContexts -window 7]]
+[12:26:29.61] /i de::select [de::getActiveFigure [gi::getWindows 7] -point {17.75 -5.40625} -index 0 -intent none]
+[12:26:29.61] /o oa:0x397725f0
+[12:26:30.35] /# gi::executeAction {seDelete} -in [gi::getWindows 7]
+[12:26:30.35] /i ise::delete
+[12:26:31.94] /i gi::executeAction {deCanvasDragSelect} -in [gi::getWindows 7]
+[12:26:31.94] /r deCanvasDragStart 17.2563 -5.75625
+[12:26:35.00] /# gi::executeAction {deCanvasDragEnd} -in [gi::getWindows 7]
+[12:26:35.00] /i gi::executeAction deCanvasDragEnd -in [gi::getWindows 7]
+[12:26:35.00] /r deCanvasDragEnd 23.525 -9.2875
+[12:26:35.83] /# gi::executeAction {seCopy} -in [gi::getWindows 7]
+[12:26:35.83] /i ise::copy
+[12:26:36.76] /# gi::executeAction {deStartDrag} -in [gi::getWindows 7]
+[12:26:36.76] /i de::startDrag {22.00625 -8.90625} -context [db::getNext [de::getContexts -window 7]]
+[12:26:41.66] /# gi::executeAction {deEndDrag} -in [gi::getWindows 7]
+[12:26:41.66] /i de::endDrag {22.00625 -5.7875} -context [db::getNext [de::getContexts -window 7]]
+[12:26:42.11] /# gi::executeAction {deSelectActive} -in [gi::getWindows 7]
+[12:26:42.11] /i de::deselectAll [db::getNext [de::getContexts -window 7]]
+[12:26:42.11] /i de::deselectAllLogic -context [de::getContexts -filter {%editDesign==[db::getAttr editDesign -of [db::getNext [de::getContexts -window 7]]]}]
+[12:26:42.85] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:26:42.85] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {18.91875 -3.98125}
+[12:26:42.91] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:26:42.91] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {18.91875 -3.98125}
+[12:26:42.99] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:26:42.99] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {18.91875 -3.98125}
+[12:26:43.81] /# gi::executeAction {seSchCreateWire} -in [gi::getWindows 7]
+[12:26:43.81] /i ise::createWire
+[12:26:44.34] /# gi::executeAction {deAddPoint} -in [gi::getWindows 7]
+[12:26:44.34] /i de::addPoint {17.74375 -3.625} -context [db::getNext [de::getContexts -window 7]]
+[12:26:44.46] /i de::setCursor -point {17.75 -3.5625 }
+[12:26:44.66] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:26:44.66] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {17.7375 -3.04375}
+[12:26:44.74] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:26:44.74] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {17.73125 -3.04375}
+[12:26:45.27] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:26:45.27] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {17.80625 -2.06875}
+[12:26:45.33] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:26:45.33] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {17.80625 -2.06875}
+[12:26:46.66] /# gi::executeAction {deAddPoint} -in [gi::getWindows 7]
+[12:26:46.66] /i de::addPoint {17.75 -2.13125} -context [db::getNext [de::getContexts -window 7]]
+[12:26:47.47] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:26:47.47] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {18.61875 -3.60625}
+[12:26:47.54] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:26:47.54] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {18.65 -3.625}
+[12:26:48.10] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:26:48.10] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {21.89375 -4.84375}
+[12:26:48.18] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:26:48.18] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {21.89375 -4.875}
+[12:26:48.23] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:26:48.23] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {21.9 -4.93125}
+[12:26:48.72] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:26:48.72] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {21.89375 -8.30625}
+[12:26:48.80] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:26:48.80] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {21.6625 -8.71875}
+[12:26:48.90] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:26:48.90] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {21.25625 -9.24375}
+[12:26:50.14] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:26:50.14] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {17.50625 -6.8375}
+[12:26:51.03] /# gi::executeAction {deAddPoint} -in [gi::getWindows 7]
+[12:26:51.03] /i de::addPoint {17.70625 -6.75} -context [db::getNext [de::getContexts -window 7]]
+[12:26:51.15] /i de::setCursor -point {17.75 -6.75 }
+[12:26:51.16] /i de::setCursor -point {17.75 -6.6875 }
+[12:26:51.19] /i de::setCursor -point {17.75 -6.625 }
+[12:26:51.94] /# gi::executeAction {deAddPoint} -in [gi::getWindows 7]
+[12:26:51.94] /i de::addPoint {17.90625 -6.16875} -context [db::getNext [de::getContexts -window 7]]
+[12:26:52.01] /i de::setCursor -point {18 -6.1875 }
+[12:26:53.19] /# gi::executeAction {deAddPoint} -in [gi::getWindows 7]
+[12:26:53.19] /i de::addPoint {22.9 -6.0875} -context [db::getNext [de::getContexts -window 7]]
+[12:26:53.28] /i de::setCursor -point {22.875 -6 }
+[12:26:54.99] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:26:54.99] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {22.5875 -5.58125}
+[12:26:55.02] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:26:55.02] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {22.58125 -5.5875}
+[12:26:55.06] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:26:55.06] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {22.58125 -5.5875}
+[12:26:56.21] /# gi::executeAction {deAddPoint} -in [gi::getWindows 7]
+[12:26:56.21] /i de::addPoint {22.54375 -5.56875} -context [db::getNext [de::getContexts -window 7]]
+[12:26:56.61] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:26:56.61] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {22.55625 -5.60625}
+[12:26:56.62] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:26:56.62] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {22.55625 -5.6125}
+[12:26:56.67] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:26:56.67] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {22.55 -5.60625}
+[12:26:57.08] /# gi::executeAction {deAbortCommand} -in [gi::getWindows 7]
+[12:26:57.08] /i de::abortCommand -context [db::getNext [de::getContexts -window 7]]
+[12:26:57.25] /i gi::executeAction {deCanvasDragCancel} -in [gi::getWindows 7]
+[12:26:57.43] /i gi::executeAction {deCanvasDragCancel} -in [gi::getWindows 7]
+[12:26:57.63] /i gi::executeAction {deCanvasDragCancel} -in [gi::getWindows 7]
+[12:26:57.85] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:26:57.85] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {19.03125 -5.5625}
+[12:27:02.55] /# gi::executeAction {seSchCheckAndSave} -in [gi::getWindows 7]
+[12:27:02.55] /i ise::check
+[12:27:02.55] /m Information: 
+              /c Cross view checking for mylib/bit_cell_array/symbol with mylib/bit_cell_array/schematic
+              /c No violations found. (DE_EDIT-007)
+[12:27:02.56] /m Information: 
+[12:27:02.56] /o Checking "mylib/bit_cell_array/schematic"
+[12:27:02.56] /o 	[warning] Floating Input Instance Pins
+[12:27:02.56] /o 		Input pin 'A' of instance 'I334' is floating
+[12:27:02.56] /o 	[warning] Floating Output Instance Pins
+[12:27:02.56] /o 		Output pin 'Z' of instance 'I323' is floating
+[12:27:02.57] /o 0 Error(s),2 Warning(s),0 Message(s) found   in "mylib/bit_cell_array/schematic"
+[12:27:02.57] /m Information: Checking process is completed: marking the design violations
+[12:27:02.64] /m Information: Marking of designs is completed
+[12:27:04.85] /i gi::setActiveWindow 3
+[12:27:04.85] /i gi::setActiveWindow 3 -raise true
+[12:27:06.09] /i gi::executeAction {menuPreShow} -in [gi::getWindows 3]
+[12:27:06.09] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 3]]
+[12:27:06.69] /# gi::executeAction {saNetlistAndRun} -in [gi::getWindows 3]
+[12:27:06.69] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 3] -mode [sa::_utils::findRunMode 3]
+[12:27:06.91] /m Information: "Starting incremental netlisting for design "mylib/tb2022/schematic"..." (NETLISTING-010)
+[12:27:06.99] /o No Design Integrity rule violations found in "mylib/tb2022/schematic"
+[12:27:07.27] /m Information: "mylib bit_cell_array schematic" renetlisted. (NETLISTING-056)
+[12:27:07.42] /m Information: "Netlisting design "mylib/tb2022/schematic" finished successfully." (NETLISTING-012)
+[12:27:07.46] /m Information: "Composing simulator input file for design "mylib/tb2022/schematic"..."
+[12:27:08.15] /m Information: "Simulator input file composed successfully for design "mylib/tb2022/schematic""
+[12:27:09.10] /m Information: "Starting PrimeSim HSPICE simulation for design: mylib/tb2022/schematic"
+[12:27:09.10] /i gi::collapse {jobMonitorTable} -index {0.0.0.0,0} -in [gi::getWindows 4]
+[12:28:05.74] /m Information: Simulation completed successfully for design: mylib/tb2022/schematic  (PW-651)
+[12:28:05.83] /m Information: "Evaluating and plotting outputs..."
+[12:28:09.34] /m Information: Measurement calculations completed for testbench: HSPICE_default in 0s
+[12:28:13.02] /i gi::setActiveWindow 6
+[12:28:13.02] /i gi::setActiveWindow 6 -raise true
+[12:28:17.75] /i gi::setActiveWindow 4
+[12:28:17.75] /i gi::setActiveWindow 4 -raise true
+[12:28:18.55] /i gi::setActiveWindow 7
+[12:28:18.55] /i gi::setActiveWindow 7 -raise true
+[12:28:19.57] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:28:19.57] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {21.51875 -9.16875}
+[12:28:19.66] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:28:19.66] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {21.575 -9.2875}
+[12:28:19.69] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:28:19.69] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {21.58125 -9.3375}
+[12:28:20.08] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:28:20.08] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {23.44375 -13.775}
+[12:28:20.13] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:28:20.13] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {23.44375 -13.775}
+[12:28:20.19] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:28:20.19] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {23.44375 -13.775}
+[12:28:21.33] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:28:21.33] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {17.7 -6.86875}
+[12:28:21.43] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:28:21.43] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {17.69375 -6.875}
+[12:28:21.52] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:28:21.52] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {17.69375 -6.875}
+[12:28:22.98] /# gi::executeAction {seSchCreateWire} -in [gi::getWindows 7]
+[12:28:22.98] /i ise::createWire
+[12:28:23.94] /# gi::executeAction {deAddPoint} -in [gi::getWindows 7]
+[12:28:23.94] /i de::addPoint {17.69375 -6.75625} -context [db::getNext [de::getContexts -window 7]]
+[12:28:24.01] /i de::setCursor -point {17.75 -6.75 }
+[12:28:24.43] /# gi::executeAction {deAddPoint} -in [gi::getWindows 7]
+[12:28:24.43] /i de::addPoint {17.74375 -6.76875} -context [db::getNext [de::getContexts -window 7]]
+[12:28:24.65] /# gi::executeAction {deAbortCommand} -in [gi::getWindows 7]
+[12:28:24.65] /i de::abortCommand -context [db::getNext [de::getContexts -window 7]]
+[12:28:24.84] /i gi::executeAction {deCanvasDragCancel} -in [gi::getWindows 7]
+[12:28:25.01] /i gi::executeAction {deCanvasDragCancel} -in [gi::getWindows 7]
+[12:28:25.17] /i gi::executeAction {deCanvasDragCancel} -in [gi::getWindows 7]
+[12:28:27.06] /# gi::executeAction {seSchCheckAndSave} -in [gi::getWindows 7]
+[12:28:27.07] /i ise::check
+[12:28:27.07] /m Information: 
+              /c Cross view checking for mylib/bit_cell_array/symbol with mylib/bit_cell_array/schematic
+              /c No violations found. (DE_EDIT-007)
+[12:28:27.07] /m Information: 
+[12:28:27.07] /o Checking "mylib/bit_cell_array/schematic"
+[12:28:27.08] /o No rule violations found in "mylib/bit_cell_array/schematic"
+[12:28:27.08] /m Information: Checking process is completed: marking the design violations
+[12:28:27.15] /m Information: Marking of designs is completed
+[12:28:28.04] /i gi::setActiveWindow 3
+[12:28:28.04] /i gi::setActiveWindow 3 -raise true
+[12:28:28.80] /i gi::executeAction {menuPreShow} -in [gi::getWindows 3]
+[12:28:28.80] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 3]]
+[12:28:29.25] /# gi::executeAction {saNetlistAndRun} -in [gi::getWindows 3]
+[12:28:29.25] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 3] -mode [sa::_utils::findRunMode 3]
+[12:28:29.44] /m Information: "Starting incremental netlisting for design "mylib/tb2022/schematic"..." (NETLISTING-010)
+[12:28:29.52] /o No Design Integrity rule violations found in "mylib/tb2022/schematic"
+[12:28:29.79] /m Information: "mylib bit_cell_array schematic" renetlisted. (NETLISTING-056)
+[12:28:29.93] /m Information: "Netlisting design "mylib/tb2022/schematic" finished successfully." (NETLISTING-012)
+[12:28:29.96] /m Information: "Composing simulator input file for design "mylib/tb2022/schematic"..."
+[12:28:30.26] /m Information: "Simulator input file composed successfully for design "mylib/tb2022/schematic""
+[12:28:31.19] /m Information: "Starting PrimeSim HSPICE simulation for design: mylib/tb2022/schematic"
+[12:28:31.20] /i gi::collapse {jobMonitorTable} -index {0.0.0.0,0} -in [gi::getWindows 4]
+[12:28:34.06] /i gi::setActiveWindow 6
+[12:28:34.06] /i gi::setActiveWindow 6 -raise true
+[12:29:22.87] /i gi::setActiveWindow 4
+[12:29:22.87] /i gi::setActiveWindow 4 -raise true
+[12:29:25.03] /i gi::setActiveWindow 6
+[12:29:25.03] /i gi::setActiveWindow 6 -raise true
+[12:29:40.74] /m Information: Simulation completed successfully for design: mylib/tb2022/schematic  (PW-651)
+[12:29:40.83] /m Information: "Evaluating and plotting outputs..."
+[12:29:44.73] /m Information: Measurement calculations completed for testbench: HSPICE_default in 0s
+[12:46:41.22] /i gi::setActiveWindow 4
+[12:46:41.22] /i gi::setActiveWindow 4 -raise true
+[12:46:42.51] /i gi::setActiveWindow 7
+[12:46:42.51] /i gi::setActiveWindow 7 -raise true
+[12:46:43.26] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:46:43.26] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {18.09375 -7.475}
+[12:46:43.26] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:46:43.26] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {18.09375 -7.46875}
+[12:46:43.28] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:46:43.28] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {18.0875 -7.48125}
+[12:46:43.32] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:46:43.32] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {18.09375 -7.475}
+[12:46:43.32] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:46:43.32] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {18.0875 -7.475}
+[12:46:43.36] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:46:43.36] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {18.0875 -7.7125}
+[12:46:44.20] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:46:44.20] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {20.5375 -8.64375}
+[12:46:44.30] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:46:44.30] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {20.5375 -8.64375}
+[12:46:44.41] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:46:44.41] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {20.5375 -8.64375}
+[12:46:44.92] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:46:44.92] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {21.5 -9.2}
+[12:46:44.92] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:46:44.92] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {21.5 -9.19375}
+[12:46:44.94] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:46:44.94] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {21.5 -9.2}
+[12:46:45.00] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:46:45.00] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {21.6125 -9.3125}
+[12:46:45.35] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:46:45.35] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {30.0125 -15.8375}
+[12:46:45.41] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:46:45.41] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {29.89375 -15.8375}
+[12:46:45.60] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:46:45.60] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {29.89375 -15.8375}
+[12:46:46.19] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:46:46.19] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {23.6 -11.14375}
+[12:46:46.81] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:46:46.81] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {19.00625 -6.93125}
+[12:46:46.89] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:46:46.89] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {19.00625 -6.93125}
+[12:46:47.52] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:46:47.52] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {15.225 -1.74375}
+[12:46:47.60] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:46:47.60] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {15.225 -1.74375}
+[12:46:48.17] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:46:48.17] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {18.1375 -3.4625}
+[12:46:48.52] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:46:48.52] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {18.08125 -3.2625}
+[12:46:48.63] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:46:48.63] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {18.0375 -3.175}
+[12:46:48.96] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:46:48.96] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {18.225 -3.25}
+[12:46:49.65] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:46:49.65] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {18.14375 -3.15625}
+[12:46:50.47] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:46:50.47] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {18.58125 -3.5375}
+[12:46:51.09] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:46:51.09] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {18.375 -3.6125}
+[12:46:51.72] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:46:51.72] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {18.2875 -3.49375}
+[12:46:52.36] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:46:52.36] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {18.2875 -3.48125}
+[12:46:54.67] /i gi::executeAction {deCanvasDragSelect} -in [gi::getWindows 7]
+[12:46:54.67] /r deCanvasDragStart 17.9125 -2.6875
+[12:46:56.17] /# gi::executeAction {deCanvasDragEnd} -in [gi::getWindows 7]
+[12:46:56.17] /i gi::executeAction deCanvasDragEnd -in [gi::getWindows 7]
+[12:46:56.17] /r deCanvasDragEnd 23.7688 -10.3562
+[12:46:56.33] /# gi::executeAction {deSelectActive} -in [gi::getWindows 7]
+[12:46:56.33] /i de::deselectAll [db::getNext [de::getContexts -window 7]]
+[12:46:56.33] /i de::deselectAllLogic -context [de::getContexts -filter {%editDesign==[db::getAttr editDesign -of [db::getNext [de::getContexts -window 7]]]}]
+[12:46:57.28] /i gi::executeAction {deCanvasDragSelect} -in [gi::getWindows 7]
+[12:46:57.28] /r deCanvasDragStart 23.825 -10.3875
+[12:47:04.76] /# gi::executeAction {deCanvasDragEnd} -in [gi::getWindows 7]
+[12:47:04.76] /i gi::executeAction deCanvasDragEnd -in [gi::getWindows 7]
+[12:47:04.76] /r deCanvasDragEnd 24.7625 -8.69375
+[12:47:04.85] /# gi::executeAction {deSelectActive} -in [gi::getWindows 7]
+[12:47:04.85] /i de::deselectAllLogic -context [de::getContexts -filter {%editDesign==[db::getAttr editDesign -of [db::getNext [de::getContexts -window 7]]]}]
+[12:47:27.85] /# gi::executeAction {deSelectActive} -in [gi::getWindows 7]
+[12:47:27.85] /i de::deselectAllLogic -context [de::getContexts -filter {%editDesign==[db::getAttr editDesign -of [db::getNext [de::getContexts -window 7]]]}]
+[12:47:29.02] /i gi::executeAction {deCanvasDragSelect} -in [gi::getWindows 7]
+[12:47:29.02] /r deCanvasDragStart 18 -2.8375
+[12:47:32.98] /# gi::executeAction {deCanvasDragEnd} -in [gi::getWindows 7]
+[12:47:32.98] /i gi::executeAction deCanvasDragEnd -in [gi::getWindows 7]
+[12:47:32.98] /r deCanvasDragEnd 23.4187 -8.4
+[12:47:34.24] /# gi::executeAction {seDelete} -in [gi::getWindows 7]
+[12:47:34.24] /i ise::delete
+[12:47:35.59] /i gi::executeAction {deCanvasDragSelect} -in [gi::getWindows 7]
+[12:47:35.59] /r deCanvasDragStart 16.25 -4.875
+[12:47:36.09] /# gi::executeAction {deCanvasDragEnd} -in [gi::getWindows 7]
+[12:47:36.09] /i gi::executeAction deCanvasDragEnd -in [gi::getWindows 7]
+[12:47:36.09] /r deCanvasDragEnd 24.7875 -7.4125
+[12:47:36.83] /# gi::executeAction {seDelete} -in [gi::getWindows 7]
+[12:47:36.83] /i ise::delete
+[12:47:38.04] /i gi::executeAction {deCanvasDragSelect} -in [gi::getWindows 7]
+[12:47:38.04] /r deCanvasDragStart 16.8875 -6.48125
+[12:47:38.62] /# gi::executeAction {deCanvasDragEnd} -in [gi::getWindows 7]
+[12:47:38.62] /i gi::executeAction deCanvasDragEnd -in [gi::getWindows 7]
+[12:47:38.62] /r deCanvasDragEnd 25.025 -14.4062
+[12:47:39.77] /i gi::executeAction {deCanvasDragSelect} -in [gi::getWindows 7]
+[12:47:39.77] /r deCanvasDragStart 22.1062 -11.1687
+[12:47:41.50] /# gi::executeAction {deCanvasDragEnd} -in [gi::getWindows 7]
+[12:47:41.50] /i gi::executeAction deCanvasDragEnd -in [gi::getWindows 7]
+[12:47:41.50] /r deCanvasDragEnd 25.6375 -10.2125
+[12:47:42.20] /i gi::executeAction {deCanvasDragSelect} -in [gi::getWindows 7]
+[12:47:42.20] /r deCanvasDragStart 25.2563 -12.7188
+[12:47:42.50] /# gi::executeAction {deCanvasDragEnd} -in [gi::getWindows 7]
+[12:47:42.50] /i gi::executeAction deCanvasDragEnd -in [gi::getWindows 7]
+[12:47:42.50] /r deCanvasDragEnd 13.5938 -3.53125
+[12:47:43.90] /# gi::executeAction {deSelectActive} -in [gi::getWindows 7]
+[12:47:43.90] /i de::deselectAll [db::getNext [de::getContexts -window 7]]
+[12:47:43.91] /i de::deselectAllLogic -context [de::getContexts -filter {%editDesign==[db::getAttr editDesign -of [db::getNext [de::getContexts -window 7]]]}]
+[12:47:44.43] /i gi::executeAction {deCanvasDragSelect} -in [gi::getWindows 7]
+[12:47:44.43] /r deCanvasDragStart 25.2 -13.2438
+[12:47:44.68] /# gi::executeAction {deCanvasDragEnd} -in [gi::getWindows 7]
+[12:47:44.68] /i gi::executeAction deCanvasDragEnd -in [gi::getWindows 7]
+[12:47:44.68] /r deCanvasDragEnd 11.9938 -5.51875
+[12:47:45.80] /# gi::executeAction {seButton1DragStart} -in [gi::getWindows 7]
+[12:47:45.80] /i ise::stretch -point {19.375 -8.6875}
+[12:47:47.52] /# gi::executeAction {deEndDrag} -in [gi::getWindows 7]
+[12:47:47.52] /i de::endDrag {19.075 -4.55625} -context [db::getNext [de::getContexts -window 7]]
+[12:47:48.01] /# gi::executeAction {deSelectActive} -in [gi::getWindows 7]
+[12:47:48.01] /i de::deselectAll [db::getNext [de::getContexts -window 7]]
+[12:47:48.01] /i de::deselectAllLogic -context [de::getContexts -filter {%editDesign==[db::getAttr editDesign -of [db::getNext [de::getContexts -window 7]]]}]
+[12:47:48.40] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:47:48.40] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {18.525 -3.44375}
+[12:47:48.45] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:47:48.45] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {18.2625 -3.475}
+[12:47:48.51] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:47:48.51] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {18.18125 -3.48125}
+[12:47:49.20] /# gi::executeAction {deSelectActive} -in [gi::getWindows 7]
+[12:47:49.20] /i de::deselectAll [db::getNext [de::getContexts -window 7]]
+[12:47:49.21] /i de::select [de::getActiveFigure [gi::getWindows 7] -point {17.90625 -3.63125} -index 0 -intent none]
+[12:47:49.21] /o oa:0x3b23db40
+[12:47:49.91] /# gi::executeAction {seDelete} -in [gi::getWindows 7]
+[12:47:49.91] /i ise::delete
+[12:47:50.52] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:47:50.52] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {17.90625 -3.63125}
+[12:47:50.54] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:47:50.54] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {17.91875 -3.65}
+[12:47:50.56] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:47:50.56] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {17.91875 -3.66875}
+[12:47:50.62] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:47:50.62] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {17.9125 -3.7}
+[12:47:50.63] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:47:50.63] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {17.9125 -3.7}
+[12:47:50.93] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:47:50.93] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {27.475 -9.99375}
+[12:47:50.93] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:47:50.93] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {27.475 -9.99375}
+[12:47:51.49] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:47:51.49] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {20.24375 -5.275}
+[12:47:51.56] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:47:51.56] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {18.20625 -5.26875}
+[12:47:51.56] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:47:51.56] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {18.2125 -5.26875}
+[12:47:51.62] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:47:51.62] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {15.64375 -5.50625}
+[12:47:51.99] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:47:51.99] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {11.9125 21.08125}
+[12:47:52.23] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:47:52.23] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {4.2125 24.1125}
+[12:47:52.27] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:47:52.27] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {4.5625 22.3625}
+[12:47:52.40] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:47:52.40] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {6.4875 20.0875}
+[12:47:52.52] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 7]
+[12:47:52.52] /i de::zoom -window [gi::getWindows 7] -factor [db::getPrefValue deCanvasMouseZoomFactor] -center {7.33125 18.95}
+[12:47:52.85] /i de::finishEvalTextRendering -window [gi::getWindows 7]
+[12:47:52.86] /o 0
+[12:47:52.86] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:47:52.86] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {7.75625 18.55625}
+[12:47:52.86] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 7]
+[12:47:52.86] /i de::zoom -window [gi::getWindows 7] -factor [expr {1.0/[db::getPrefValue deCanvasMouseZoomFactor]}] -center {7.78125 18.5}
+[12:47:54.60] /# gi::executeAction {seSchCheckAndSave} -in [gi::getWindows 7]
+[12:47:54.60] /i ise::check
+[12:47:54.60] /m Information: 
+              /c Cross view checking for mylib/bit_cell_array/symbol with mylib/bit_cell_array/schematic
+              /c No violations found. (DE_EDIT-007)
+[12:47:54.60] /m Information: 
+[12:47:54.60] /o Checking "mylib/bit_cell_array/schematic"
+[12:47:54.61] /o No rule violations found in "mylib/bit_cell_array/schematic"
+[12:47:54.61] /m Information: Checking process is completed: marking the design violations
+[12:47:54.69] /m Information: Marking of designs is completed
+[12:47:56.30] /i gi::setActiveWindow 3
+[12:47:56.30] /i gi::setActiveWindow 3 -raise true
+[12:47:57.41] /i gi::executeAction {menuPreShow} -in [gi::getWindows 3]
+[12:47:57.41] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 3]]
+[12:47:58.09] /# gi::executeAction {saNetlistAndRun} -in [gi::getWindows 3]
+[12:47:58.09] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 3] -mode [sa::_utils::findRunMode 3]
+[12:47:58.30] /m Information: "Starting incremental netlisting for design "mylib/tb2022/schematic"..." (NETLISTING-010)
+[12:47:58.38] /o No Design Integrity rule violations found in "mylib/tb2022/schematic"
+[12:47:58.69] /m Information: "mylib bit_cell_array schematic" renetlisted. (NETLISTING-056)
+[12:47:59.09] /m Information: "Netlisting design "mylib/tb2022/schematic" finished successfully." (NETLISTING-012)
+[12:47:59.13] /m Information: "Composing simulator input file for design "mylib/tb2022/schematic"..."
+[12:47:59.44] /m Information: "Simulator input file composed successfully for design "mylib/tb2022/schematic""
+[12:48:00.42] /m Information: "Starting PrimeSim HSPICE simulation for design: mylib/tb2022/schematic"
+[12:48:00.43] /i gi::collapse {jobMonitorTable} -index {0.0.0.0,0} -in [gi::getWindows 4]
+[12:48:51.15] /m Information: Simulation completed successfully for design: mylib/tb2022/schematic  (PW-651)
+[12:48:51.24] /m Information: "Evaluating and plotting outputs..."
+[12:48:54.93] /m Information: Measurement calculations completed for testbench: HSPICE_default in 0s
+[12:48:58.45] /i gi::setActiveWindow 6
+[12:48:58.45] /i gi::setActiveWindow 6 -raise true
+[12:49:08.78] /i gi::executeAction giCloseWindow -in [gi::getWindows 6]
+[12:49:09.14] /i gi::setActiveWindow 4
+[12:49:09.14] /i gi::setActiveWindow 4 -raise true
+[12:49:09.53] /m Information: Waveform viewer exited normally.
+[12:49:16.18] /i gi::setCurrentIndex {jobMonitorTable} -index {0,0} -in [gi::getWindows 4]
+[12:49:24.68] /i gi::setActiveWindow 3
+[12:49:24.68] /i gi::setActiveWindow 3 -raise true
+[12:49:25.66] /i gi::executeAction {menuPreShow} -in [gi::getWindows 3]
+[12:49:25.66] /r giMenuAccess db::getNext [gi::getMenus saConsoleSessionMenu -from [gi::getWindows 3]]
+[12:49:26.78] /# gi::executeAction {saSaveState} -in [gi::getWindows 3]
+[12:49:26.78] /i sa::showSaveState -parent 3
+[12:49:27.31] /i db::setAttr geometry -of [gi::getDialogs {saShowSaveState} -parent [gi::getWindows 3]] -value 528x666+700+366
+[12:49:27.60] /i gi::setActiveDialog [gi::getDialogs {saShowSaveState} -parent [gi::getWindows 3]]
+[12:49:28.18] /i gi::pressButton {/categories/checkAll} -in [gi::getDialogs {saShowSaveState} -parent [gi::getWindows 3]]
+[12:49:28.74] /i gi::pressButton {/ok} -in [gi::getDialogs {saShowSaveState} -parent [gi::getWindows 3]]
+[12:49:31.32] /i gi::setActiveWindow 7
+[12:49:31.32] /i gi::setActiveWindow 7 -raise true
+[12:49:32.84] /# gi::executeAction {seSchCheckAndSave} -in [gi::getWindows 7]
+[12:49:32.84] /i ise::check
+[12:49:32.84] /m Information: 
+              /c Cross view checking for mylib/bit_cell_array/symbol with mylib/bit_cell_array/schematic
+              /c No violations found. (DE_EDIT-007)
+[12:49:32.84] /m Information: 
+[12:49:32.84] /o Checking "mylib/bit_cell_array/schematic"
+[12:49:32.85] /o No rule violations found in "mylib/bit_cell_array/schematic"
+[12:49:32.85] /m Information: Checking process is completed: marking the design violations
+[12:49:32.85] /m Information: Marking of designs is completed
+[12:49:33.84] /r giDialog gi::setActiveDialog [gi::getDialogs {giCloseFrame}]
+[12:49:34.13] /r giDialog db::setAttr geometry -of [gi::getDialogs {giCloseFrame}] -value 299x108+801+433
+[12:49:35.08] /r giDialog gi::pressButton {giCloseTabsButton} -in [gi::getDialogs {giCloseFrame}]
+[12:49:35.10] /i exit
+[12:49:35.14] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 7]]
+[12:49:35.43] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 7]] -value 419x181+741+397
+[12:49:36.34] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 7]]
+[12:49:38.42] /o Shutdown time: Tue Apr 12 12:49:38 2022
+[12:49:38.42] /o Elapsed session real time: 57.93 minutes
+[12:49:38.42] /o Session terminated. Log is at /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_temp/synopsys_custom/logs/ccompiler.zwmurray.2022_4_12_115135_14809.log

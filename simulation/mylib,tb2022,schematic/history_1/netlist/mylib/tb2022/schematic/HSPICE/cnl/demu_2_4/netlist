@@ -1,0 +1,16 @@
+********************************************************************************
+* Library          : mylib
+* Cell             : demu_2_4
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt demu_2_4 a0 a1 out0 out1 out2 out3
+xi3 net13 net15 out0 and_2
+xi2 a0 a1 out3 and_2
+xi1 net13 a1 out2 and_2
+xi0 a0 net15 out1 and_2
+xi5 a1 net15 inv_2
+xi4 a0 net13 inv_2
+.ends demu_2_4
+

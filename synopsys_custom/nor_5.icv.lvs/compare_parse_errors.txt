@@ -1,0 +1,3 @@
+/afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/FreePDK3_main.lvs.rs.user_functions:1: warning: Converted [CR+LF] to [LF]
+    // 3nm FreePDK(TM) ICV LVS Functions
+

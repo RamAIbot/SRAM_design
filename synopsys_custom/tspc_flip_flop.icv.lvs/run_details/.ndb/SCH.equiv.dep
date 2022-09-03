@@ -1,0 +1,3 @@
+tspc_flip_flop { nmos pmos }
+nmos { }
+pmos { }

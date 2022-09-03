@@ -1,0 +1,5 @@
+
+/* top equiv */
+equiv_options({{"demu_2_4", "DEMU_2_4"}});
+
+/* Generated system equivalence points are listed in this section */

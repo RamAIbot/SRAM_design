@@ -1,0 +1,1292 @@
+
+                                  PYDB_Server 
+
+          Version S-2021.06-SP2 for linux64 - Aug 30, 2021 cl#6831572
+
+                    Copyright (c) 2007 - 2021 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+variable width coordinate support enabled.
+Removing old database /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/bit_cell_array.icv.drc/run_details/pydb/PYDB_bit_cell_array
+Listening for connections on port 7436
+PYDB_Server Started on host grendel27.ece.ncsu.edu, Wed 05/04/2022 03:39:16
+Client grendel27.ece.ncsu.edu(7322):18 connected (1 total client)
+Verified current licenses.
+Opening file:/afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/bit_cell_array.icv.drc/run_details/pydb/PYDB_bit_cell_array?nolock=1
+SQLite page_size=65536
+SQLite cache_size=65536
+SQLite mmap_size=0
+SQLite journal_mode=OFF
+SQLite version 3.33.0
+Client grendel27.ece.ncsu.edu(7419):25 connected (2 total clients)
+Client grendel27.ece.ncsu.edu(7446):26 connected (3 total clients)
+Client grendel27.ece.ncsu.edu(7446):26 connection closed
+Client grendel27.ece.ncsu.edu(7446):26 disconnected (2 clients remain)
+Client grendel27.ece.ncsu.edu(7419):25 connection closed
+Client grendel27.ece.ncsu.edu(7419):25 disconnected (1 client remains)
+Client grendel27.ece.ncsu.edu(7446):25 connected (2 total clients)
+Command record inserted (no error output): layout_drawn_errors:missing_cell
+Error insertion complete: layout_drawn_errors:missing_cell
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Client grendel27.ece.ncsu.edu(7419):26 connected (3 total clients)
+Client grendel27.ece.ncsu.edu(7419):26 connection closed
+Client grendel27.ece.ncsu.edu(7419):26 disconnected (2 clients remain)
+Command record inserted (no error output): layout_drawn_errors:duplicate_placement
+Error insertion complete: layout_drawn_errors:duplicate_placement
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): layout_drawn_errors:duplicate_placement
+Error insertion complete: layout_drawn_errors:duplicate_placement
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v4.drc.rs:11:not_aspect_ratio
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v4.drc.rs:11:not_aspect_ratio
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v4.drc.rs:16:aspect_ratio
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v4.drc.rs:16:aspect_ratio
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v4.drc.rs:21:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v4.drc.rs:21:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v4.drc.rs:23:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v4.drc.rs:23:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v4.drc.rs:33:not_interacting
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v4.drc.rs:33:not_interacting
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v4.drc.rs:34:not_interacting
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v4.drc.rs:34:not_interacting
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v4.drc.rs:41:enclose_error
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v4.drc.rs:41:enclose_error
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v4.drc.rs:42:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v4.drc.rs:42:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v4.drc.rs:49:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v4.drc.rs:49:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v4.drc.rs:56:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v4.drc.rs:56:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v4.drc.rs:63:enclose_error
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v4.drc.rs:63:enclose_error
+  Error Insertion Time=0:00:00  User=0.01 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v4.drc.rs:64:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v4.drc.rs:64:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v4.drc.rs:70:area
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v4.drc.rs:70:area
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m5.drc.rs:11:internal1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m5.drc.rs:11:internal1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m5.drc.rs:16:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m5.drc.rs:16:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m5.drc.rs:22:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m5.drc.rs:22:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m5.drc.rs:38:or
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m5.drc.rs:38:or
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m5.drc.rs:46:or
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m5.drc.rs:46:or
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m5.drc.rs:53:or
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m5.drc.rs:53:or
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v5.drc.rs:11:not_aspect_ratio
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v5.drc.rs:11:not_aspect_ratio
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v5.drc.rs:16:aspect_ratio
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v5.drc.rs:16:aspect_ratio
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v5.drc.rs:21:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v5.drc.rs:21:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v5.drc.rs:22:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v5.drc.rs:22:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v5.drc.rs:27:not_interacting
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v5.drc.rs:27:not_interacting
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.01 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v5.drc.rs:28:not_interacting
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v5.drc.rs:28:not_interacting
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v5.drc.rs:35:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v5.drc.rs:35:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v5.drc.rs:42:enclose_error
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v5.drc.rs:42:enclose_error
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v5.drc.rs:43:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v5.drc.rs:43:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v5.drc.rs:50:enclose_error
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v5.drc.rs:50:enclose_error
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v5.drc.rs:51:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v5.drc.rs:51:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v5.drc.rs:58:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v5.drc.rs:58:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v5.drc.rs:64:area
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v5.drc.rs:64:area
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m6.drc.rs:11:internal1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m6.drc.rs:11:internal1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.003 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m6.drc.rs:16:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m6.drc.rs:16:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.003 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m6.drc.rs:22:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m6.drc.rs:22:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.003 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m6.drc.rs:38:or
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m6.drc.rs:38:or
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.01 Mem=0.003 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m6.drc.rs:46:or
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m6.drc.rs:46:or
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.003 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m6.drc.rs:53:or
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m6.drc.rs:53:or
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.003 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v6.drc.rs:11:not_rectangles
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v6.drc.rs:11:not_rectangles
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.003 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v6.drc.rs:17:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v6.drc.rs:17:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.003 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v6.drc.rs:19:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v6.drc.rs:19:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.003 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v6.drc.rs:24:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v6.drc.rs:24:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.003 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v6.drc.rs:29:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v6.drc.rs:29:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.003 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v6.drc.rs:34:not_interacting
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v6.drc.rs:34:not_interacting
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.003 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v6.drc.rs:35:not_interacting
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v6.drc.rs:35:not_interacting
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.003 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v6.drc.rs:42:enclose_error
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v6.drc.rs:42:enclose_error
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.003 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v6.drc.rs:43:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v6.drc.rs:43:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.003 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v6.drc.rs:49:and_edge
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v6.drc.rs:49:and_edge
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.01 Mem=0.003 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v6.drc.rs:55:and_edge
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v6.drc.rs:55:and_edge
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.003 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v6.drc.rs:62:enclose_error
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v6.drc.rs:62:enclose_error
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.003 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v6.drc.rs:63:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v6.drc.rs:63:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.003 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v6.drc.rs:69:area
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v6.drc.rs:69:area
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.003 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m7.drc.rs:11:internal1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m7.drc.rs:11:internal1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.003 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m7.drc.rs:16:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m7.drc.rs:16:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.003 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m7.drc.rs:22:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m7.drc.rs:22:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.003 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m7.drc.rs:38:or
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m7.drc.rs:38:or
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m7.drc.rs:46:or
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m7.drc.rs:46:or
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m7.drc.rs:53:or
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m7.drc.rs:53:or
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v7.drc.rs:11:not_aspect_ratio
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v7.drc.rs:11:not_aspect_ratio
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v7.drc.rs:16:aspect_ratio
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v7.drc.rs:16:aspect_ratio
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v7.drc.rs:21:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v7.drc.rs:21:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.01 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v7.drc.rs:22:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v7.drc.rs:22:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v7.drc.rs:27:not_interacting
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v7.drc.rs:27:not_interacting
+  Error Insertion Time=0:00:00  User=0.01 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v7.drc.rs:28:not_interacting
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v7.drc.rs:28:not_interacting
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v7.drc.rs:35:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v7.drc.rs:35:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v7.drc.rs:42:enclose_error
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v7.drc.rs:42:enclose_error
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v7.drc.rs:43:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v7.drc.rs:43:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v7.drc.rs:50:enclose_error
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v7.drc.rs:50:enclose_error
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v7.drc.rs:51:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v7.drc.rs:51:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v7.drc.rs:58:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v7.drc.rs:58:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v7.drc.rs:64:area
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v7.drc.rs:64:area
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m8.drc.rs:11:internal1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m8.drc.rs:11:internal1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m8.drc.rs:16:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m8.drc.rs:16:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.01 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m8.drc.rs:22:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m8.drc.rs:22:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m8.drc.rs:38:or
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m8.drc.rs:38:or
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m8.drc.rs:46:or
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m8.drc.rs:46:or
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m8.drc.rs:53:or
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m8.drc.rs:53:or
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v8.drc.rs:11:not_aspect_ratio
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v8.drc.rs:11:not_aspect_ratio
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v8.drc.rs:16:aspect_ratio
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v8.drc.rs:16:aspect_ratio
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v8.drc.rs:21:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v8.drc.rs:21:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v8.drc.rs:22:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v8.drc.rs:22:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v8.drc.rs:27:not_interacting
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v8.drc.rs:27:not_interacting
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v8.drc.rs:28:not_interacting
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v8.drc.rs:28:not_interacting
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v8.drc.rs:35:enclose_error
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v8.drc.rs:35:enclose_error
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.01 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v8.drc.rs:36:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v8.drc.rs:36:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v8.drc.rs:43:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v8.drc.rs:43:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v8.drc.rs:50:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v8.drc.rs:50:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v8.drc.rs:57:enclose_error
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v8.drc.rs:57:enclose_error
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v8.drc.rs:58:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v8.drc.rs:58:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v8.drc.rs:64:area
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v8.drc.rs:64:area
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m9.drc.rs:11:internal1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m9.drc.rs:11:internal1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m9.drc.rs:16:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m9.drc.rs:16:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m9.drc.rs:22:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m9.drc.rs:22:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m9.drc.rs:38:or
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m9.drc.rs:38:or
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m9.drc.rs:46:or
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m9.drc.rs:46:or
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m9.drc.rs:53:or
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m9.drc.rs:53:or
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v9.drc.rs:11:not_rectangles
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v9.drc.rs:11:not_rectangles
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v9.drc.rs:17:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v9.drc.rs:17:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v9.drc.rs:19:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v9.drc.rs:19:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v9.drc.rs:24:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v9.drc.rs:24:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.01 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v9.drc.rs:29:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v9.drc.rs:29:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v9.drc.rs:34:not_interacting
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v9.drc.rs:34:not_interacting
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v9.drc.rs:35:not_interacting
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v9.drc.rs:35:not_interacting
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v9.drc.rs:42:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v9.drc.rs:42:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v9.drc.rs:49:enclose_error
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v9.drc.rs:49:enclose_error
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v9.drc.rs:50:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v9.drc.rs:50:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v9.drc.rs:57:enclose_error
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v9.drc.rs:57:enclose_error
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v9.drc.rs:58:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v9.drc.rs:58:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v9.drc.rs:65:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v9.drc.rs:65:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v9.drc.rs:71:area
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v9.drc.rs:71:area
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m10.drc.rs:11:internal1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m10.drc.rs:11:internal1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m10.drc.rs:16:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m10.drc.rs:16:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m10.drc.rs:22:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m10.drc.rs:22:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.01 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m10.drc.rs:38:or
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m10.drc.rs:38:or
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m10.drc.rs:46:or
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m10.drc.rs:46:or
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m10.drc.rs:53:or
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m10.drc.rs:53:or
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v10.drc.rs:11:not_aspect_ratio
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v10.drc.rs:11:not_aspect_ratio
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v10.drc.rs:16:aspect_ratio
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v10.drc.rs:16:aspect_ratio
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v10.drc.rs:21:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v10.drc.rs:21:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v10.drc.rs:22:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v10.drc.rs:22:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v10.drc.rs:27:not_interacting
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v10.drc.rs:27:not_interacting
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v10.drc.rs:28:not_interacting
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v10.drc.rs:28:not_interacting
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v10.drc.rs:35:enclose_error
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v10.drc.rs:35:enclose_error
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.002 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v10.drc.rs:36:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v10.drc.rs:36:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v10.drc.rs:43:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v10.drc.rs:43:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.01 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v10.drc.rs:50:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v10.drc.rs:50:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v10.drc.rs:57:enclose_error
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v10.drc.rs:57:enclose_error
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v10.drc.rs:58:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v10.drc.rs:58:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v10.drc.rs:64:area
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v10.drc.rs:64:area
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m11.drc.rs:11:internal1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m11.drc.rs:11:internal1
+  Error Insertion Time=0:00:00  User=0.01 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m11.drc.rs:16:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m11.drc.rs:16:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m11.drc.rs:22:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m11.drc.rs:22:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m11.drc.rs:38:or
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m11.drc.rs:38:or
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m11.drc.rs:46:or
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m11.drc.rs:46:or
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m11.drc.rs:53:or
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m11.drc.rs:53:or
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v11.drc.rs:11:not_rectangles
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v11.drc.rs:11:not_rectangles
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v11.drc.rs:17:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v11.drc.rs:17:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v11.drc.rs:19:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v11.drc.rs:19:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.01 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v11.drc.rs:24:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v11.drc.rs:24:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v11.drc.rs:29:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v11.drc.rs:29:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v11.drc.rs:34:not_interacting
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v11.drc.rs:34:not_interacting
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v11.drc.rs:35:not_interacting
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v11.drc.rs:35:not_interacting
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v11.drc.rs:42:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v11.drc.rs:42:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v11.drc.rs:49:enclose_error
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v11.drc.rs:49:enclose_error
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v11.drc.rs:50:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v11.drc.rs:50:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v11.drc.rs:57:enclose_error
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v11.drc.rs:57:enclose_error
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v11.drc.rs:58:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v11.drc.rs:58:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v11.drc.rs:65:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v11.drc.rs:65:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v11.drc.rs:71:area
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v11.drc.rs:71:area
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m12.drc.rs:11:internal1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m12.drc.rs:11:internal1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m12.drc.rs:16:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m12.drc.rs:16:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m12.drc.rs:22:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m12.drc.rs:22:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m12.drc.rs:38:or
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m12.drc.rs:38:or
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m12.drc.rs:46:or
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m12.drc.rs:46:or
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m12.drc.rs:53:or
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m12.drc.rs:53:or
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v12.drc.rs:11:not_aspect_ratio
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v12.drc.rs:11:not_aspect_ratio
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v12.drc.rs:16:aspect_ratio
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v12.drc.rs:16:aspect_ratio
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v12.drc.rs:21:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v12.drc.rs:21:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v12.drc.rs:22:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v12.drc.rs:22:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v12.drc.rs:27:not_interacting
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v12.drc.rs:27:not_interacting
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v12.drc.rs:28:not_interacting
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v12.drc.rs:28:not_interacting
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v12.drc.rs:35:enclose_error
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v12.drc.rs:35:enclose_error
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v12.drc.rs:36:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v12.drc.rs:36:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.01 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v12.drc.rs:43:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v12.drc.rs:43:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v12.drc.rs:50:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v12.drc.rs:50:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v12.drc.rs:57:enclose_error
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v12.drc.rs:57:enclose_error
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v12.drc.rs:58:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v12.drc.rs:58:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v12.drc.rs:64:area
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v12.drc.rs:64:area
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m13.drc.rs:11:internal1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m13.drc.rs:11:internal1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m13.drc.rs:16:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m13.drc.rs:16:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m13.drc.rs:22:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m13.drc.rs:22:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m13.drc.rs:38:or
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m13.drc.rs:38:or
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m13.drc.rs:46:or
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m13.drc.rs:46:or
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m13.drc.rs:53:or
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m13.drc.rs:53:or
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vrdl.drc.rs:11:not_aspect_ratio
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vrdl.drc.rs:11:not_aspect_ratio
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vrdl.drc.rs:16:aspect_ratio
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vrdl.drc.rs:16:aspect_ratio
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vrdl.drc.rs:21:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vrdl.drc.rs:21:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vrdl.drc.rs:22:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vrdl.drc.rs:22:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vrdl.drc.rs:27:not_interacting
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vrdl.drc.rs:27:not_interacting
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vrdl.drc.rs:28:not_interacting
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vrdl.drc.rs:28:not_interacting
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vrdl.drc.rs:33:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vrdl.drc.rs:33:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Client grendel27.ece.ncsu.edu(7419):28 connected (3 total clients)
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vrdl.drc.rs:40:enclose_error
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vrdl.drc.rs:40:enclose_error
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vrdl.drc.rs:41:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vrdl.drc.rs:41:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vrdl.drc.rs:48:enclose_error
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vrdl.drc.rs:48:enclose_error
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vrdl.drc.rs:49:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vrdl.drc.rs:49:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vrdl.drc.rs:56:enclose_error
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vrdl.drc.rs:56:enclose_error
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.01 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vrdl.drc.rs:57:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vrdl.drc.rs:57:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vrdl.drc.rs:63:area
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vrdl.drc.rs:63:area
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.rdl.drc.rs:11:internal1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.rdl.drc.rs:11:internal1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.rdl.drc.rs:16:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.rdl.drc.rs:16:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): layout_drawn_errors:duplicate_placement
+Error insertion complete: layout_drawn_errors:duplicate_placement
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Client grendel27.ece.ncsu.edu(7446):25 connection closed
+Client grendel27.ece.ncsu.edu(7446):25 disconnected (2 clients remain)
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.act.drc.rs:35:not_rectangles
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.act.drc.rs:35:not_rectangles
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.act.drc.rs:11:internal1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.act.drc.rs:11:internal1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.act.drc.rs:27:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.act.drc.rs:27:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Client grendel27.ece.ncsu.edu(7446):25 connected (3 total clients)
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.act.drc.rs:20:internal1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.act.drc.rs:20:internal1
+  Error Insertion Time=0:00:00  User=0.01 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.act.drc.rs:15:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.act.drc.rs:15:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.nw.drc.rs:18:area
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.nw.drc.rs:18:area
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.nw.drc.rs:22:angle_edge
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.nw.drc.rs:22:angle_edge
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.nw.drc.rs:10:internal1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.nw.drc.rs:10:internal1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.nw.drc.rs:14:internal1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.nw.drc.rs:14:internal1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vbpr.drc.rs:51:external2
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vbpr.drc.rs:51:external2
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.01 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vbpr.drc.rs:10:not_rectangles
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vbpr.drc.rs:10:not_rectangles
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vbpr.drc.rs:47:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vbpr.drc.rs:47:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vbpr.drc.rs:42:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vbpr.drc.rs:42:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vbpr.drc.rs:21:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vbpr.drc.rs:21:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vbpr.drc.rs:16:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vbpr.drc.rs:16:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vbpr.drc.rs:29:enclose_error
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vbpr.drc.rs:29:enclose_error
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gate.drc.rs:25:not_rectangles
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gate.drc.rs:25:not_rectangles
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.nw.drc.rs:27:enclose
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.nw.drc.rs:27:enclose
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gate.drc.rs:41:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gate.drc.rs:41:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gate.drc.rs:36:internal1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gate.drc.rs:36:internal1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.01 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gate.drc.rs:30:enclose
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gate.drc.rs:30:enclose
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gate.drc.rs:19:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gate.drc.rs:19:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.bpr.drc.rs:27:not_rectangles
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.bpr.drc.rs:27:not_rectangles
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.act.drc.rs:31:external2
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.act.drc.rs:31:external2
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gate.drc.rs:14:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gate.drc.rs:14:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.bpr.drc.rs:22:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.bpr.drc.rs:22:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.bpr.drc.rs:16:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.bpr.drc.rs:16:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.bpr.drc.rs:11:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.bpr.drc.rs:11:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vbpr.drc.rs:56:interacting
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vbpr.drc.rs:56:interacting
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.dummy.drc.rs:33:not_inside
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.dummy.drc.rs:33:not_inside
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.01 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.dummy.drc.rs:38:and_edge
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.dummy.drc.rs:38:and_edge
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.dummy.drc.rs:29:not_rectangles
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.dummy.drc.rs:29:not_rectangles
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.dummy.drc.rs:24:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.dummy.drc.rs:24:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gate.drc.rs:20:external2
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gate.drc.rs:20:external2
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.dummy.drc.rs:18:internal1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.dummy.drc.rs:18:internal1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.dummy.drc.rs:13:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.dummy.drc.rs:13:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vbpr.drc.rs:57:interacting
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vbpr.drc.rs:57:interacting
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.act.drc.rs:41:not_edge
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.act.drc.rs:41:not_edge
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcut.drc.rs:55:interacting
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcut.drc.rs:55:interacting
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.act.drc.rs:26:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.act.drc.rs:26:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcut.drc.rs:43:not_cutting
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcut.drc.rs:43:not_cutting
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcut.drc.rs:38:and_edge
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcut.drc.rs:38:and_edge
+  Error Insertion Time=0:00:00  User=0.01 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcut.drc.rs:33:not_rectangles
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcut.drc.rs:33:not_rectangles
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcut.drc.rs:60:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcut.drc.rs:60:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcut.drc.rs:23:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcut.drc.rs:23:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.01 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcut.drc.rs:28:external2
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcut.drc.rs:28:external2
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcut.drc.rs:17:internal1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcut.drc.rs:17:internal1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcut.drc.rs:12:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcut.drc.rs:12:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.nimpim.drc.rs:39:area
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.nimpim.drc.rs:39:area
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.nimpim.drc.rs:11:internal1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.nimpim.drc.rs:11:internal1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.nimpim.drc.rs:14:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.nimpim.drc.rs:14:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.nimpim.drc.rs:22:internal1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.nimpim.drc.rs:22:internal1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.nimpim.drc.rs:13:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.nimpim.drc.rs:13:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.01 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.nimpim.drc.rs:45:interacting
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.nimpim.drc.rs:45:interacting
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m0a.drc.rs:64:area
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m0a.drc.rs:64:area
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m0a.drc.rs:59:not_cutting
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m0a.drc.rs:59:not_cutting
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m0a.drc.rs:45:internal1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m0a.drc.rs:45:internal1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m0a.drc.rs:39:not_rectangles
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m0a.drc.rs:39:not_rectangles
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m0a.drc.rs:34:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m0a.drc.rs:34:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m0a.drc.rs:29:internal1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m0a.drc.rs:29:internal1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m0a.drc.rs:11:internal1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m0a.drc.rs:11:internal1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m0a.drc.rs:16:external2
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m0a.drc.rs:16:external2
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.01 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vbpr.drc.rs:37:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vbpr.drc.rs:37:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m0a.drc.rs:23:enclose_error
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m0a.drc.rs:23:enclose_error
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vbpr.drc.rs:36:and_edge
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.vbpr.drc.rs:36:and_edge
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.nimpim.drc.rs:38:area
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.nimpim.drc.rs:38:area
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.nimpim.drc.rs:28:not_enclosed_by
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.nimpim.drc.rs:28:not_enclosed_by
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.nimpim.drc.rs:33:not_enclosed_by
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.nimpim.drc.rs:33:not_enclosed_by
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.nimpim.drc.rs:12:internal1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.nimpim.drc.rs:12:internal1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.nimpim.drc.rs:23:internal1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.nimpim.drc.rs:23:internal1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.nimpim.drc.rs:16:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.nimpim.drc.rs:16:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.01 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.nimpim.drc.rs:15:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.nimpim.drc.rs:15:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcon.drc.rs:81:interacting
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcon.drc.rs:81:interacting
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0a.drc.rs:87:area
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0a.drc.rs:87:area
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcon.drc.rs:64:not_rectangles
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcon.drc.rs:64:not_rectangles
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcon.drc.rs:59:area
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcon.drc.rs:59:area
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcon.drc.rs:75:area
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcon.drc.rs:75:area
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcon.drc.rs:22:not_interacting
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcon.drc.rs:22:not_interacting
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcon.drc.rs:54:external2
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcon.drc.rs:54:external2
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcon.drc.rs:39:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcon.drc.rs:39:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcon.drc.rs:34:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcon.drc.rs:34:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcon.drc.rs:44:external2
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcon.drc.rs:44:external2
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcon.drc.rs:18:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcon.drc.rs:18:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.01 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcon.drc.rs:12:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcon.drc.rs:12:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0a.drc.rs:82:interacting
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0a.drc.rs:82:interacting
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0a.drc.rs:81:interacting
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0a.drc.rs:81:interacting
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0a.drc.rs:57:and_edge
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0a.drc.rs:57:and_edge
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0a.drc.rs:29:not_interacting
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0a.drc.rs:29:not_interacting
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0a.drc.rs:64:enclose_error
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0a.drc.rs:64:enclose_error
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0a.drc.rs:25:external_corner1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0a.drc.rs:25:external_corner1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0a.drc.rs:55:enclose_error
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0a.drc.rs:55:enclose_error
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0a.drc.rs:19:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0a.drc.rs:19:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0a.drc.rs:20:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0a.drc.rs:20:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.01 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0a.drc.rs:10:not_aspect_ratio
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0a.drc.rs:10:not_aspect_ratio
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0a.drc.rs:14:aspect_ratio
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0a.drc.rs:14:aspect_ratio
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m0b.drc.rs:48:area
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m0b.drc.rs:48:area
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m0b.drc.rs:31:not_rectangles
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m0b.drc.rs:31:not_rectangles
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0b.drc.rs:54:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0b.drc.rs:54:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0b.drc.rs:43:not_interacting
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0b.drc.rs:43:not_interacting
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0b.drc.rs:38:external_corner1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0b.drc.rs:38:external_corner1
+  Error Insertion Time=0:00:00  User=0.01 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0b.drc.rs:33:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0b.drc.rs:33:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0b.drc.rs:28:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0b.drc.rs:28:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.01 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0b.drc.rs:23:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0b.drc.rs:23:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0b.drc.rs:17:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0b.drc.rs:17:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0b.drc.rs:11:not_rectangles
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0b.drc.rs:11:not_rectangles
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0a.drc.rs:46:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0a.drc.rs:46:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0b.drc.rs:63:and_edge
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0b.drc.rs:63:and_edge
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m0b.drc.rs:38:enclose_error
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m0b.drc.rs:38:enclose_error
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0b.drc.rs:53:enclose_error
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0b.drc.rs:53:enclose_error
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0a.drc.rs:38:and_edge
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0a.drc.rs:38:and_edge
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0a.drc.rs:37:enclose_error
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0a.drc.rs:37:enclose_error
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0a.drc.rs:45:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0a.drc.rs:45:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0a.drc.rs:30:not_interacting
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0a.drc.rs:30:not_interacting
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcon.drc.rs:29:enclose
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcon.drc.rs:29:enclose
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcon.drc.rs:69:area
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcon.drc.rs:69:area
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m0b.drc.rs:21:internal1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m0b.drc.rs:21:internal1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.01 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m0b.drc.rs:26:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m0b.drc.rs:26:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m0b.drc.rs:16:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m0b.drc.rs:16:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m0b.drc.rs:11:internal1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m0b.drc.rs:11:internal1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v1.drc.rs:44:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v1.drc.rs:44:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v1.drc.rs:65:area
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v1.drc.rs:65:area
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v1.drc.rs:36:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v1.drc.rs:36:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v1.drc.rs:28:not_interacting
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v1.drc.rs:28:not_interacting
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m1.drc.rs:61:or
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m1.drc.rs:61:or
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m1.drc.rs:16:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m1.drc.rs:16:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m1.drc.rs:11:internal1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m1.drc.rs:11:internal1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.01 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m1.drc.rs:51:or
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m1.drc.rs:51:or
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m1.drc.rs:40:or
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m1.drc.rs:40:or
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0b.drc.rs:81:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0b.drc.rs:81:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0b.drc.rs:44:not_interacting
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0b.drc.rs:44:not_interacting
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v1.drc.rs:43:enclose_error
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v1.drc.rs:43:enclose_error
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0b.drc.rs:80:enclose_error
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0b.drc.rs:80:enclose_error
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0b.drc.rs:71:and_edge
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0b.drc.rs:71:and_edge
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v1.drc.rs:21:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v1.drc.rs:21:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v1.drc.rs:22:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v1.drc.rs:22:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.01 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v1.drc.rs:11:not_aspect_ratio
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v1.drc.rs:11:not_aspect_ratio
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v1.drc.rs:16:aspect_ratio
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v1.drc.rs:16:aspect_ratio
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v2.drc.rs:43:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v2.drc.rs:43:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v2.drc.rs:64:area
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v2.drc.rs:64:area
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v2.drc.rs:36:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v2.drc.rs:36:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v2.drc.rs:27:not_interacting
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v2.drc.rs:27:not_interacting
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m2.drc.rs:16:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m2.drc.rs:16:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m2.drc.rs:56:or
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m2.drc.rs:56:or
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m2.drc.rs:49:or
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m2.drc.rs:49:or
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.01 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m2.drc.rs:41:or
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m2.drc.rs:41:or
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v1.drc.rs:59:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v1.drc.rs:59:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m2.drc.rs:11:internal1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m2.drc.rs:11:internal1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m2.drc.rs:25:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m2.drc.rs:25:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v1.drc.rs:52:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v1.drc.rs:52:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v1.drc.rs:29:not_interacting
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v1.drc.rs:29:not_interacting
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v2.drc.rs:35:enclose_error
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v2.drc.rs:35:enclose_error
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v1.drc.rs:51:enclose_error
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v1.drc.rs:51:enclose_error
+  Error Insertion Time=0:00:00  User=0.01 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v2.drc.rs:21:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v2.drc.rs:21:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v2.drc.rs:22:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v2.drc.rs:22:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v2.drc.rs:11:not_aspect_ratio
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v2.drc.rs:11:not_aspect_ratio
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v2.drc.rs:16:aspect_ratio
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v2.drc.rs:16:aspect_ratio
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v3.drc.rs:50:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v3.drc.rs:50:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v3.drc.rs:71:area
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v3.drc.rs:71:area
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v3.drc.rs:42:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v3.drc.rs:42:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v3.drc.rs:34:not_interacting
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v3.drc.rs:34:not_interacting
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m3.drc.rs:16:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m3.drc.rs:16:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m3.drc.rs:53:or
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m3.drc.rs:53:or
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m3.drc.rs:46:or
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m3.drc.rs:46:or
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m3.drc.rs:38:or
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m3.drc.rs:38:or
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m3.drc.rs:11:internal1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m3.drc.rs:11:internal1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v2.drc.rs:58:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v2.drc.rs:58:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m3.drc.rs:22:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m3.drc.rs:22:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v2.drc.rs:50:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v2.drc.rs:50:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v3.drc.rs:49:enclose_error
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v3.drc.rs:49:enclose_error
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.01 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v2.drc.rs:57:enclose_error
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v2.drc.rs:57:enclose_error
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v2.drc.rs:28:not_interacting
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v2.drc.rs:28:not_interacting
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v3.drc.rs:29:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v3.drc.rs:29:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v3.drc.rs:24:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v3.drc.rs:24:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v3.drc.rs:19:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v3.drc.rs:19:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v3.drc.rs:17:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v3.drc.rs:17:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v3.drc.rs:11:not_rectangles
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v3.drc.rs:11:not_rectangles
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m4.drc.rs:53:or
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m4.drc.rs:53:or
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m4.drc.rs:46:or
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m4.drc.rs:46:or
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m4.drc.rs:16:external1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m4.drc.rs:16:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.01 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m4.drc.rs:38:or
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m4.drc.rs:38:or
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v3.drc.rs:65:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v3.drc.rs:65:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m4.drc.rs:11:internal1
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m4.drc.rs:11:internal1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m4.drc.rs:22:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m4.drc.rs:22:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v3.drc.rs:58:not
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v3.drc.rs:58:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v3.drc.rs:35:not_interacting
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v3.drc.rs:35:not_interacting
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v3.drc.rs:57:enclose_error
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v3.drc.rs:57:enclose_error
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m9.drc.rs:68:density
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m9.drc.rs:68:density
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m9.drc.rs:68:density
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m8.drc.rs:71:density
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m8.drc.rs:71:density
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m8.drc.rs:71:density
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m7.drc.rs:71:density
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m7.drc.rs:71:density
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m7.drc.rs:71:density
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m9.drc.rs:61:copy
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m9.drc.rs:61:copy
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m8.drc.rs:61:copy
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m8.drc.rs:61:copy
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m7.drc.rs:61:copy
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m7.drc.rs:61:copy
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.01 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m3.drc.rs:61:copy
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m3.drc.rs:61:copy
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m2.drc.rs:63:copy
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m2.drc.rs:63:copy
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m1.drc.rs:69:copy
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.m1.drc.rs:69:copy
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gate.drc.rs:53:external2
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gate.drc.rs:53:external2
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0a.drc.rs:75:external2
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0a.drc.rs:75:external2
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Begin error insertion: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.antenna.drc.rs:106:net_area_ratio:net_select
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.antenna.drc.rs:106:net_area_ratio:net_select
+  Error Insertion Time=0:00:00  User=0.04 Sys=0.02 Mem=0.001 GB SQLite=0.009 GB Unpooled=0.000 GB
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.antenna.drc.rs:106:net_area_ratio:net_select_inst
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.009 GB Unpooled=0.000 GB
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.antenna.drc.rs:106:net_area_ratio:net_select_inst
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.009 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.antenna.drc.rs:106:net_area_ratio:net_select_inst
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.antenna.drc.rs:106:net_area_ratio:net_select_inst
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.009 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0a.drc.rs:70:external2
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.v0a.drc.rs:70:external2
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.009 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcon.drc.rs:49:external2
+Error insertion complete: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/icv/Include/FreePDK3.gcon.drc.rs:49:external2
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.009 GB Unpooled=0.000 GB
+Client grendel27.ece.ncsu.edu(7446):25 connection closed
+Client grendel27.ece.ncsu.edu(7446):25 disconnected (2 clients remain)
+Client grendel27.ece.ncsu.edu(7419):28 connection closed
+Client grendel27.ece.ncsu.edu(7419):28 disconnected (1 client remains)
+ Total error insertion Time=0:00:04  User=0.12 Sys=0.35 Mem=0.003 GB SQLite=0.009 GB Unpooled=0.000 GB
+  Total Commands: 400
+  Total Errors: 3388
+  Avg Time/Cmd: Wall=0 User=0.00 Sys=0.00 Mem=0.001 GB MySQL Mem=0.000 GB
+Generating /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/bit_cell_array.icv.drc/bit_cell_array.LAYOUT_ERRORS
+  Generation Time=0:00:00  User=0.02 Sys=0.02 Mem=0.002 GB
+Shutdown requested by client grendel27.ece.ncsu.edu(7322):18
+0 clients remain connected
+Client grendel27.ece.ncsu.edu(7322):18 connection closed
+Overall server Time=0:00:06  User=0.17 Sys=0.48 Mem=0.003 GB SQLite=0.009 GB Unpooled=0.000 GB
+
+                                  PYDB_Server 
+
+          Version S-2021.06-SP2 for linux64 - Aug 30, 2021 cl#6831572
+
+                    Copyright (c) 2007 - 2021 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+variable width coordinate support enabled.
+Listening for connections on port 8762
+PYDB_Server Started on host grendel27.ece.ncsu.edu, Wed 05/04/2022 03:39:25
+Client grendel27.ece.ncsu.edu(7812):9 connected (1 total client)
+Verified current licenses.
+Opening file:/afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/bit_cell_array.icv.drc/run_details/pydb/PYDB_bit_cell_array?nolock=1
+SQLite page_size=65536
+SQLite cache_size=65536
+SQLite mmap_size=0
+SQLite journal_mode=OFF
+SQLite version 3.33.0
+Shutdown requested by client grendel27.ece.ncsu.edu(7812):9
+0 clients remain connected
+Client grendel27.ece.ncsu.edu(7812):9 connection closed
+Overall server Time=0:00:02  User=0.01 Sys=0.01 Mem=0.001 GB SQLite=0.002 GB Unpooled=0.000 GB

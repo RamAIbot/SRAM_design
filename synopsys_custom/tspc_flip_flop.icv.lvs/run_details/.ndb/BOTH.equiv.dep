@@ -1,0 +1,3 @@
+pmos::PMOS { }
+tspc_flip_flop::tspc_flip_flop { nmos::NMOS pmos::PMOS }
+nmos::NMOS { }

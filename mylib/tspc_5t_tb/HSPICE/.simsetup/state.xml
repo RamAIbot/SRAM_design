@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Sun Apr  3 21:46:44 2022-->
+<file-format version="1.0" name="stateData">
+ <attribute type="giString" value="" name="description"/>
+ <attribute type="dmCellView" value="mylib/tspc_5t_tb/schematic" name="design"/>
+ <attribute type="giBoolean" value="1" name="enabled"/>
+ <attribute type="giBoolean" value="0" name="enabledJobClass"/>
+ <attribute type="giString" value="HSPICE" name="migratedSimulator"/>
+ <attribute type="giString" value="HSPICE_default" name="name"/>
+ <attribute type="dmCellView" value="mylib/tspc_5t_tb/HSPICE_default" name="openaccessState"/>
+ <attribute type="giString" value="HSPICE" name="simulator"/>
+ <comment></comment>
+ <integration version="1"/>
+</file-format>

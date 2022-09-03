@@ -1,0 +1,202 @@
+<module name="vsl: mylib column_decoder schematic vl: hspice hspiceD schematic spice veriloga">
+<scope name="Instance">
+<forward>
+<mapping src="M43" dst="m43"/>
+<mapping src="M1" dst="m1"/>
+<mapping src="M2" dst="m2"/>
+<mapping src="M27" dst="m27"/>
+<mapping src="M30" dst="m30"/>
+<mapping src="M9" dst="m9"/>
+<mapping src="M0" dst="m0"/>
+<mapping src="M32" dst="m32"/>
+<mapping src="M33" dst="m33"/>
+<mapping src="M34" dst="m34"/>
+<mapping src="M36" dst="m36"/>
+<mapping src="M45" dst="m45"/>
+<mapping src="M28" dst="m28"/>
+<mapping src="M38" dst="m38"/>
+<mapping src="M40" dst="m40"/>
+<mapping src="M41" dst="m41"/>
+<mapping src="M29" dst="m29"/>
+<mapping src="M16" dst="m16"/>
+<mapping src="M20" dst="m20"/>
+<mapping src="M26" dst="m26"/>
+<mapping src="M35" dst="m35"/>
+<mapping src="M25" dst="m25"/>
+<mapping src="M24" dst="m24"/>
+<mapping src="M37" dst="m37"/>
+<mapping src="M42" dst="m42"/>
+<mapping src="M39" dst="m39"/>
+<mapping src="M31" dst="m31"/>
+<mapping src="M44" dst="m44"/>
+</forward>
+<reverse>
+<mapping src="m43" dst="M43"/>
+<mapping src="m45" dst="M45"/>
+<mapping src="m27" dst="M27"/>
+<mapping src="m28" dst="M28"/>
+<mapping src="m41" dst="M41"/>
+<mapping src="m29" dst="M29"/>
+<mapping src="m31" dst="M31"/>
+<mapping src="m35" dst="M35"/>
+<mapping src="m1" dst="M1"/>
+<mapping src="m16" dst="M16"/>
+<mapping src="m36" dst="M36"/>
+<mapping src="m38" dst="M38"/>
+<mapping src="m0" dst="M0"/>
+<mapping src="m40" dst="M40"/>
+<mapping src="m20" dst="M20"/>
+<mapping src="m39" dst="M39"/>
+<mapping src="m26" dst="M26"/>
+<mapping src="m25" dst="M25"/>
+<mapping src="m32" dst="M32"/>
+<mapping src="m37" dst="M37"/>
+<mapping src="m34" dst="M34"/>
+<mapping src="m2" dst="M2"/>
+<mapping src="m24" dst="M24"/>
+<mapping src="m30" dst="M30"/>
+<mapping src="m42" dst="M42"/>
+<mapping src="m33" dst="M33"/>
+<mapping src="m9" dst="M9"/>
+<mapping src="m44" dst="M44"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward>
+<mapping src="Bit3" dst="bit3"/>
+<mapping src="Bit2" dst="bit2"/>
+<mapping src="Bit0" dst="bit0"/>
+<mapping src="B15" dst="b15"/>
+<mapping src="B14" dst="b14"/>
+<mapping src="B13" dst="b13"/>
+<mapping src="B11" dst="b11"/>
+<mapping src="B9" dst="b9"/>
+<mapping src="Bit1" dst="bit1"/>
+<mapping src="B8" dst="b8"/>
+<mapping src="B10" dst="b10"/>
+<mapping src="B7" dst="b7"/>
+<mapping src="B5" dst="b5"/>
+<mapping src="B4" dst="b4"/>
+<mapping src="B12" dst="b12"/>
+<mapping src="B3" dst="b3"/>
+<mapping src="B6" dst="b6"/>
+<mapping src="B1" dst="b1"/>
+<mapping src="B0" dst="b0"/>
+<mapping src="A1" dst="a1"/>
+<mapping src="B2" dst="b2"/>
+<mapping src="A0" dst="a0"/>
+</forward>
+<reverse>
+<mapping src="bit0" dst="Bit0"/>
+<mapping src="b15" dst="B15"/>
+<mapping src="b14" dst="B14"/>
+<mapping src="b13" dst="B13"/>
+<mapping src="b12" dst="B12"/>
+<mapping src="b11" dst="B11"/>
+<mapping src="b10" dst="B10"/>
+<mapping src="b8" dst="B8"/>
+<mapping src="b7" dst="B7"/>
+<mapping src="b6" dst="B6"/>
+<mapping src="bit3" dst="Bit3"/>
+<mapping src="b2" dst="B2"/>
+<mapping src="b5" dst="B5"/>
+<mapping src="b9" dst="B9"/>
+<mapping src="b4" dst="B4"/>
+<mapping src="b1" dst="B1"/>
+<mapping src="b0" dst="B0"/>
+<mapping src="bit2" dst="Bit2"/>
+<mapping src="bit1" dst="Bit1"/>
+<mapping src="b3" dst="B3"/>
+<mapping src="a1" dst="A1"/>
+<mapping src="a0" dst="A0"/>
+</reverse>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping src="&lt;termOrder>" dst="a0 a1 b0 b1 b2 b3 b4 b5 b6 b7 b8 b9 b10 b11 b12 b13 b14 b15 bit0 bit1 bit2 bit3"/>
+<mapping src="Bit3" dst="bit3"/>
+<mapping src="Bit2" dst="bit2"/>
+<mapping src="Bit0" dst="bit0"/>
+<mapping src="&lt;unmappedTermOrder>" dst="A0 A1 B0 B1 B2 B3 B4 B5 B6 B7 B8 B9 B10 B11 B12 B13 B14 B15 Bit0 Bit1 Bit2 Bit3"/>
+<mapping src="B15" dst="b15"/>
+<mapping src="B14" dst="b14"/>
+<mapping src="B13" dst="b13"/>
+<mapping src="B11" dst="b11"/>
+<mapping src="B9" dst="b9"/>
+<mapping src="Bit1" dst="bit1"/>
+<mapping src="B8" dst="b8"/>
+<mapping src="B10" dst="b10"/>
+<mapping src="B7" dst="b7"/>
+<mapping src="B5" dst="b5"/>
+<mapping src="B4" dst="b4"/>
+<mapping src="B12" dst="b12"/>
+<mapping src="B3" dst="b3"/>
+<mapping src="B6" dst="b6"/>
+<mapping src="B1" dst="b1"/>
+<mapping src="B0" dst="b0"/>
+<mapping src="A1" dst="a1"/>
+<mapping src="B2" dst="b2"/>
+<mapping src="A0" dst="a0"/>
+</forward>
+<reverse>
+<mapping src="A0 A1 B0 B1 B2 B3 B4 B5 B6 B7 B8 B9 B10 B11 B12 B13 B14 B15 Bit0 Bit1 Bit2 Bit3" dst="&lt;unmappedTermOrder>"/>
+<mapping src="a0 a1 b0 b1 b2 b3 b4 b5 b6 b7 b8 b9 b10 b11 b12 b13 b14 b15 bit0 bit1 bit2 bit3" dst="&lt;termOrder>"/>
+<mapping src="bit0" dst="Bit0"/>
+<mapping src="b15" dst="B15"/>
+<mapping src="b14" dst="B14"/>
+<mapping src="b13" dst="B13"/>
+<mapping src="b12" dst="B12"/>
+<mapping src="b11" dst="B11"/>
+<mapping src="b10" dst="B10"/>
+<mapping src="b8" dst="B8"/>
+<mapping src="b7" dst="B7"/>
+<mapping src="b6" dst="B6"/>
+<mapping src="bit3" dst="Bit3"/>
+<mapping src="b2" dst="B2"/>
+<mapping src="b5" dst="B5"/>
+<mapping src="b9" dst="B9"/>
+<mapping src="b4" dst="B4"/>
+<mapping src="b1" dst="B1"/>
+<mapping src="b0" dst="B0"/>
+<mapping src="bit2" dst="Bit2"/>
+<mapping src="bit1" dst="Bit1"/>
+<mapping src="b3" dst="B3"/>
+<mapping src="a1" dst="A1"/>
+<mapping src="a0" dst="A0"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="nmos">
+<instance name="M0"/>
+<instance name="M1"/>
+<instance name="M16"/>
+<instance name="M2"/>
+<instance name="M20"/>
+<instance name="M24"/>
+<instance name="M25"/>
+<instance name="M26"/>
+<instance name="M27"/>
+<instance name="M28"/>
+<instance name="M29"/>
+<instance name="M30"/>
+<instance name="M31"/>
+<instance name="M32"/>
+<instance name="M33"/>
+<instance name="M34"/>
+<instance name="M35"/>
+<instance name="M36"/>
+<instance name="M37"/>
+<instance name="M38"/>
+<instance name="M39"/>
+<instance name="M40"/>
+<instance name="M41"/>
+<instance name="M42"/>
+<instance name="M44"/>
+<instance name="M9"/>
+</instance_header>
+<instance_header master="pmos">
+<instance name="M43"/>
+<instance name="M45"/>
+</instance_header>
+</master_instances>
+</module>

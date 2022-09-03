@@ -1,0 +1,2558 @@
+Wed May  4 03:42:44 2022
+
+                                  ICV_Engine 
+
+          Version S-2021.06-SP2 for linux64 - Aug 30, 2021 cl#6831572
+
+                    Copyright (c) 1996 - 2021 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+
+
+Running Multi-Threaded code with 2 shared thread(s)
+
+Runset file ......................  /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/bit_cell_array.icv.lvs/FreePDK3_main.lvs.lvs.rs
+Current Directory ................  /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/bit_cell_array.icv.lvs
+Hostname .........................  grendel27.ece.ncsu.edu
+Platform type ....................  LINUX.64
+GDSII input file name ............  /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/bit_cell_array.icv.lvs/bit_cell_array.custom_compiler.gds
+GDSII block name .................  bit_cell_array
+Run details ......................  /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/bit_cell_array.icv.lvs/run_details
+Group file directory .............  /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/bit_cell_array.icv.lvs/run_details/group
+Check reference structures .......  no
+
+single pass sequential reading.
+library() at /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/inv_2.icv.lvs/FreePDK3_main.lvs.lvs.rs:155
+library(cell = "cell", format = GDSII, library_name = "inlib")
+
+schematic() at /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/inv_2.icv.lvs/FreePDK3_main.lvs.lvs.rs:161
+schematic_db = schematic(schematic_file = { { "sch", SPICE } })
+
+run_options() at /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/inv_2.icv.lvs/FreePDK3_main.lvs.lvs.rs:165
+run_options(lvs_netlist_flow = SPICE, lvs_user_unit = METER, uppercase = run_options_uppercase)
+
+compatibility_options() at /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/inv_2.icv.lvs/FreePDK3_main.lvs.lvs.rs:171
+compatibility_options(drc = { { orphan_edge_membership = NONE } })
+
+error_options() at /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/inv_2.icv.lvs/FreePDK3_main.lvs.lvs.rs:175
+error_options(error_limit_per_check = 1000, report_empty_violations = true)
+
+gds_options() at /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/inv_2.icv.lvs/FreePDK3_main.lvs.lvs.rs:180
+gds_options(duplicate_cell = DROP)
+
+resolution_options() at /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/inv_2.icv.lvs/FreePDK3_main.lvs.lvs.rs:184
+resolution_options(drc_angle_precision = 0.0, drc_length_precision = 0.0, internal_resolution = 0.0005, spacing_tolerance = 0.0)
+
+layout_drawn_options() at /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/inv_2.icv.lvs/FreePDK3_main.lvs.lvs.rs:191
+layout_drawn_options(self_intersect_action = FILL)
+
+layout_grid_options() at /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/inv_2.icv.lvs/FreePDK3_main.lvs.lvs.rs:195
+layout_grid_options(check_45 = {  }, check_90 = {  })
+
+text_options() at /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/inv_2.icv.lvs/FreePDK3_main.lvs.lvs.rs:200
+text_options(allow_all_numeric = true, colon_text = REGULAR_TEXT, layout_ground = vLVS_GROUND_NAMES, layout_power = vLVS_POWER_NAMES, replace_text_characters_regex = { { { { search_string = "[\s\*"={},]", replace_string = "_" } } } }, semicolon_text = REGULAR_TEXT)
+
+net_options() at /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/inv_2.icv.lvs/FreePDK3_main.lvs.lvs.rs:209
+net_options(schematic_ground = vLVS_GROUND_NAMES, schematic_power = vLVS_POWER_NAMES)
+
+lvs_options() at /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/inv_2.icv.lvs/FreePDK3_main.lvs.lvs.rs:214
+lvs_options(spice_multiplier_names = { "M" })
+
+[Generated Command]
+drc_black_box_options()
+
+[Generated Command]
+incremental_options()
+
+[Generated Command]
+layout_integrity_options()
+
+[Generated Command]
+hierarchy_options()
+
+[Generated Command]
+prototype_options()
+
+[Generated Command]
+hierarchy_auto_options()
+
+[Generated Command]
+text_net_global_options()
+
+[Generated Command]
+waiver_options()
+
+   Prescan Library Time=0:00:00  User=0.01 Sys=0.00 Mem=0.006 GB
+
+   Scan Hierarchy Time=0:00:00  User=0.00 Sys=0.01 Mem=0.005 GB
+
+Wed May  4 03:42:45 2022
+
+                                  ICV_Engine 
+
+          Version S-2021.06-SP2 for linux64 - Aug 30, 2021 cl#6831572
+
+                    Copyright (c) 1996 - 2021 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+
+
+Running Multi-Threaded code with 2 shared thread(s)
+single pass sequential reading.
+ML for preprocessing is disabled for small designs.
+     Find Top Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+[HA] Hierarchy : Cell Area =        0.000 M : Cell Flat Area =        0.000 M : Child Area Factor =  0.21 x
+    Create Hierarchy Tree Phase: 0 Time=0:00:00  User=0.16 Sys=0.01 Mem=0.012 GB
+
+0 Total errors found.
+  Set 11 schematic file cells to NO_EXPLODE
+Prototype Placement Pass 1
+Preprocessing group files...
+Preprocess Step 1 : Exploding
+    Create Hierarchy Tree Phase: 1 Time=0:00:00  User=0.01 Sys=0.01 Mem=0.006 GB
+
+Find duplicate placements in cells
+    Create Hierarchy Tree Phase: 1 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     Determine Region Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+      Compress struct nums Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+      Init regions Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+      Highest text setup for instances Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+      write_verbose_text Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     Create Layer Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+    Create Hierarchy Tree Phase: 2 Time=0:00:00  User=0.02 Sys=0.01 Mem=0.007 GB
+
+   Create Hierarchy Tree Time=0:00:00  User=0.20 Sys=0.03 Mem=0.012 GB
+
+     OHT record layer intent before V-Cell Pairing Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+      Pairing Iteration 1 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+      Pairing Iteration 2 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+      Pairing Iteration 3 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+      Pairing Iteration 4 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     Pairing Time=0:00:00  User=0.01 Sys=0.00 Mem=0.006 GB
+
+    Combined VCELL Time=0:00:00  User=0.01 Sys=0.00 Mem=0.007 GB
+
+Preprocess Step 14 : Post-VCell Explodes
+    Post VCell Time=0:00:00  User=0.01 Sys=0.00 Mem=0.006 GB
+
+[HA] Hierarchy : Cell Area =        0.000 M : Cell Flat Area =        0.000 M : Child Area Factor =  0.20 x
+name=column_decoder_new,explode_code=AUTO_EXPLODED (PLACEMENT_LIMIT),no_explode_code=   USED (NO EXPLODE),
+name=column_decoder_new,explode_code=AUTO_EXPLODED (BIG_SPARSE_CELL),no_explode_code=   USED (NO EXPLODE),
+name=  demu_2_4,explode_code=AUTO_EXPLODED (PLACEMENT_LIMIT),no_explode_code=   USED (NO EXPLODE),
+name=rowdecoder,explode_code=AUTO_EXPLODED (PLACEMENT_LIMIT),no_explode_code=   USED (NO EXPLODE),
+
+     Compress struct nums Time=0:00:00  User=0.00 Sys=0.01 Mem=0.006 GB
+
+     Init regions Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     Highest text setup for instances Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     Update inums Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     Write Instance Name Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     End uniquify verbose names Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+     write_verbose_text Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+    Create Layer Setup Time=0:00:00  User=0.00 Sys=0.01 Mem=0.006 GB
+
+     OHT Write recipe for current exploded hrchy + record hrchy/recipe mem in hdb Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+    
+Hierarchy Cleanup Time=0:00:00  User=0.01 Sys=0.00 Mem=0.007 GB
+
+   Optimize Hierarchy Tree Time=0:00:00  User=0.18 Sys=0.04 Mem=0.007 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.01 Mem=0.007 GB
+
+Hierarchy Cleanup
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+Wed May  4 03:42:46 2022
+
+                                  ICV_Engine 
+
+          Version S-2021.06-SP2 for linux64 - Aug 30, 2021 cl#6831572
+
+                    Copyright (c) 1996 - 2021 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+
+
+Running Multi-Threaded code with 2 shared thread(s)
+single pass sequential reading.
+Reading error hierarchy hrchy1.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:251:Layer creation
+aM4 = assign({ { 20 } })
+  Function: assign
+  Inputs: aM4.polygonlayer.0001, aM4.polygonlayer.0001
+  Outputs: aM4.polygonlayer.0002, 
+1 unique polygon written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.010 GB
+
+assign_text() at FreePDK3_main.lvs.lvs.rs:249:Layer creation
+tM3 = assign_text({ { 18 } })
+  Function: assign_text
+  Inputs: tM3.textlayer.0001.TEXT, tM3.textlayer.0001.TEXT
+  Outputs: tM3.textlayer.0002.TEXT, 
+2 text strings written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:248:Layer creation
+aM3 = assign({ { 18 } })
+  Function: assign
+  Inputs: aM3.polygonlayer.0001, aM3.polygonlayer.0001
+  Outputs: aM3.polygonlayer.0002, 
+13 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.012 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:245:Layer creation
+aM2 = assign({ { 16 } })
+  Function: assign
+  Inputs: aM2.polygonlayer.0001, aM2.polygonlayer.0001
+  Outputs: aM2.polygonlayer.0002, 
+82 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+
+assign_text() at FreePDK3_main.lvs.lvs.rs:243:Layer creation
+tM1 = assign_text({ { 14 } })
+  Function: assign_text
+  Inputs: tM1.textlayer.0001.TEXT, tM1.textlayer.0001.TEXT
+  Outputs: tM1.textlayer.0002.TEXT, 
+6 text strings written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.009 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:242:Layer creation
+aM1 = assign({ { 14 } })
+  Function: assign
+  Inputs: aM1.polygonlayer.0001, aM1.polygonlayer.0001
+  Outputs: aM1.polygonlayer.0002, 
+270 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.013 GB
+
+assign_text() at FreePDK3_main.lvs.lvs.rs:240:Layer creation
+tM0B = assign_text({ { 12 } })
+  Function: assign_text
+  Inputs: tM0B.textlayer.0001.TEXT, tM0B.textlayer.0001.TEXT
+  Outputs: tM0B.textlayer.0002.TEXT, 
+92 text strings written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:238:Layer creation
+aGCON = assign({ { 11 } })
+  Function: assign
+  Inputs: aGCON.polygonlayer.0001, aGCON.polygonlayer.0001
+  Outputs: aGCON.polygonlayer.0002, 
+64 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:237:Layer creation
+aV0A = assign({ { 10 } })
+  Function: assign
+  Inputs: aV0A.polygonlayer.0001, aV0A.polygonlayer.0001
+  Outputs: aV0A.polygonlayer.0002, 
+213 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.013 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:234:Layer creation
+aPIM = assign({ { 8 } })
+  Function: assign
+  Inputs: aPIM.polygonlayer.0001, aPIM.polygonlayer.0001
+  Outputs: aPIM.polygonlayer.0002, 
+30 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.012 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:232:Layer creation
+aDUMMY = assign({ { 6 } })
+  Function: assign
+  Inputs: aDUMMY.polygonlayer.0001, aDUMMY.polygonlayer.0001
+  Outputs: aDUMMY.polygonlayer.0002, 
+435 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:230:Layer creation
+aGATE = assign({ { 4 } })
+  Function: assign
+  Inputs: aGATE.polygonlayer.0001, aGATE.polygonlayer.0001
+  Outputs: aGATE.polygonlayer.0002, 
+1305 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.012 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:227:Layer creation
+aVBPR = assign({ { 1 } })
+  Function: assign
+  Inputs: aVBPR.polygonlayer.0001, aVBPR.polygonlayer.0001
+  Outputs: aVBPR.polygonlayer.0002, 
+73 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.013 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:225
+aBPR = assign({ { 0 } })
+  Value of SPACE GRID is 1.31 micron
+A total of 12 relations are recorded
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.009 GB
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:225
+aBPR = assign({ { 0 } })
+A total of 20 relations are recorded
+ref_ref_file error._hier.0001.refref
+   Check Time=0:00:00  User=0.02 Sys=0.00 Mem=0.008 GB
+
+Generating associated layer #inserted_q.associated.0001
+  Source: aVBPR.polygonlayer.0003
+  Target: { aVBPR.polygonlayer.0003, aBPR.polygonlayer.0003 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.01 Mem=0.010 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+5 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.010 GB
+
+Generating associated layer #inserted_q.associated.0002
+  Source: aBPR.polygonlayer.0003
+  Target: { aVBPR.polygonlayer.0003, aBPR.polygonlayer.0003 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Cycle Out Time=0:00:00  User=0.01 Sys=0.00 Mem=0.010 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+77 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.010 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Inputs: aVBPR.polygonlayer.0003, #inserted_q.associated.0001, aBPR.polygonlayer.0003, #inserted_q.associated.0002
+  Outputs: CONNECT_DB.polygonlayer.0021
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Small Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.01 Mem=0.014 GB
+73 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.014 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:233:Layer creation
+aNIM = assign({ { 7 } })
+  Function: assign
+  Inputs: aNIM.polygonlayer.0002, aNIM.polygonlayer.0002
+  Outputs: aNIM.polygonlayer.0003, 
+32 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.010 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:234:Layer creation
+aPIM = assign({ { 8 } })
+  Function: assign
+  Inputs: aPIM.polygonlayer.0002, aPIM.polygonlayer.0002
+  Outputs: aPIM.polygonlayer.0003, 
+30 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:235:Layer creation
+aM0A = assign({ { 9 } })
+  Function: assign
+  Inputs: aM0A.polygonlayer.0002, aM0A.polygonlayer.0002
+  Outputs: aM0A.polygonlayer.0003, 
+470 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.010 GB
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: aM0A.polygonlayer.0003, .handle.0002
+  Outputs: CONNECT_DB.polygonlayer.0023
+216 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.01 Sys=0.00 Mem=0.009 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:237:Layer creation
+aV0A = assign({ { 10 } })
+  Function: assign
+  Inputs: aV0A.polygonlayer.0002, aV0A.polygonlayer.0002
+  Outputs: aV0A.polygonlayer.0003, 
+213 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.010 GB
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+Generating associated layer #inserted_q.associated.0007
+  Source: aV0A.polygonlayer.0003
+  Target: { aV0A.polygonlayer.0003, aM0A.polygonlayer.0003 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+Generating associated layer #inserted_q.associated.0008
+  Source: aM0A.polygonlayer.0003
+  Target: { aV0A.polygonlayer.0003, aM0A.polygonlayer.0003 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.01 Sys=0.00 Mem=0.011 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+46 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.011 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Inputs: aV0A.polygonlayer.0003, #inserted_q.associated.0007, aM0A.polygonlayer.0003, #inserted_q.associated.0008
+  Outputs: CONNECT_DB.polygonlayer.0024
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Small Cell Time=0:00:00  User=0.00 Sys=0.01 Mem=0.014 GB
+    Large Cell Time=0:00:00  User=0.01 Sys=0.00 Mem=0.014 GB
+213 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.014 GB
+
+Generating associated layer #inserted_q.associated.0009
+  Source: CONNECT_DB.polygonlayer.0024
+  Target: { CONNECT_DB.polygonlayer.0024, aM0B.polygonlayer.0003 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+7 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+Generating associated layer #inserted_q.associated.0010
+  Source: aM0B.polygonlayer.0003
+  Target: { CONNECT_DB.polygonlayer.0024, aM0B.polygonlayer.0003 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+92 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.012 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Inputs: CONNECT_DB.polygonlayer.0024, #inserted_q.associated.0009, aM0B.polygonlayer.0003, #inserted_q.associated.0010
+  Outputs: CONNECT_DB.polygonlayer.0025
+    Setup Time=0:00:00  User=0.01 Sys=0.00 Mem=0.013 GB
+    Small Cell Time=0:00:00  User=0.00 Sys=0.01 Mem=0.014 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+213 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.014 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:242:Layer creation
+aM1 = assign({ { 14 } })
+  Function: assign
+  Inputs: aM1.polygonlayer.0002, aM1.polygonlayer.0002
+  Outputs: aM1.polygonlayer.0003, 
+270 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+Generating associated layer #inserted_q.associated.0013
+  Source: CONNECT_DB.polygonlayer.0026
+  Target: { CONNECT_DB.polygonlayer.0026, aM1.polygonlayer.0003 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+28 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+Generating associated layer #inserted_q.associated.0014
+  Source: aM1.polygonlayer.0003
+  Target: { CONNECT_DB.polygonlayer.0026, aM1.polygonlayer.0003 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+119 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Inputs: CONNECT_DB.polygonlayer.0026, #inserted_q.associated.0013, aM1.polygonlayer.0003, #inserted_q.associated.0014
+  Outputs: CONNECT_DB.polygonlayer.0027
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Small Cell Time=0:00:00  User=0.01 Sys=0.00 Mem=0.014 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+364 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.014 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.01 Mem=0.009 GB
+
+assign_text() at FreePDK3_main.lvs.lvs.rs:243:Layer creation
+tM1 = assign_text({ { 14 } })
+  Function: assign_text
+  Inputs: tM1.textlayer.0002.TEXT, tM1.textlayer.0002.TEXT
+  Outputs: tM1.textlayer.0003.TEXT, 
+6 text strings written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:247:Layer creation
+aV2 = assign({ { 17 } })
+  Function: assign
+  Inputs: aV2.polygonlayer.0002, aV2.polygonlayer.0002
+  Outputs: aV2.polygonlayer.0003, 
+13 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:248:Layer creation
+aM3 = assign({ { 18 } })
+  Function: assign
+  Inputs: aM3.polygonlayer.0002, aM3.polygonlayer.0002
+  Outputs: aM3.polygonlayer.0003, 
+13 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+Generating associated layer #inserted_q.associated.0017
+  Source: aV2.polygonlayer.0003
+  Target: { aV2.polygonlayer.0003, aM2.polygonlayer.0003 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+No output written.
+Layer "#inserted_q.associated.0017" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.012 GB
+
+Generating associated layer #inserted_q.associated.0018
+  Source: aM2.polygonlayer.0003
+  Target: { aV2.polygonlayer.0003, aM2.polygonlayer.0003 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+4 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Inputs: aV2.polygonlayer.0003, #inserted_q.associated.0017, aM2.polygonlayer.0003, #inserted_q.associated.0018
+  Outputs: CONNECT_DB.polygonlayer.0029
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Small Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+13 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+
+Generating associated layer #inserted_q.associated.0021
+  Source: CONNECT_DB.polygonlayer.0029
+  Target: { CONNECT_DB.polygonlayer.0029, aM3.polygonlayer.0003 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+4 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+Generating associated layer #inserted_q.associated.0022
+  Source: aM3.polygonlayer.0003
+  Target: { CONNECT_DB.polygonlayer.0029, aM3.polygonlayer.0003 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+4 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.012 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Inputs: CONNECT_DB.polygonlayer.0029, #inserted_q.associated.0021, aM3.polygonlayer.0003, #inserted_q.associated.0022
+  Outputs: CONNECT_DB.polygonlayer.0031
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Small Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+13 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign_text() at FreePDK3_main.lvs.lvs.rs:249:Layer creation
+tM3 = assign_text({ { 18 } })
+  Function: assign_text
+  Inputs: tM3.textlayer.0002.TEXT, tM3.textlayer.0002.TEXT
+  Outputs: tM3.textlayer.0003.TEXT, 
+2 text strings written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:251:Layer creation
+aM4 = assign({ { 20 } })
+  Function: assign
+  Inputs: aM4.polygonlayer.0002, aM4.polygonlayer.0002
+  Outputs: aM4.polygonlayer.0003, 
+1 unique polygon written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+Generating associated layer #inserted_q.associated.0025
+  Source: CONNECT_DB.polygonlayer.0032
+  Target: { CONNECT_DB.polygonlayer.0032, aM4.polygonlayer.0003 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.01 Mem=0.011 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+No output written.
+Layer "#inserted_q.associated.0025" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.012 GB
+
+Generating associated layer #inserted_q.associated.0026
+  Source: aM4.polygonlayer.0003
+  Target: { CONNECT_DB.polygonlayer.0032, aM4.polygonlayer.0003 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+No output written.
+Layer "#inserted_q.associated.0026" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Inputs: CONNECT_DB.polygonlayer.0032, #inserted_q.associated.0025, aM4.polygonlayer.0003, #inserted_q.associated.0026
+  Outputs: CONNECT_DB.polygonlayer.0033
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Small Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+
+init_device_matrix() at FreePDK3_main.lvs.lvs.rs:412
+dev_matrix : device_matrix = init_device_matrix(CONNECT_DB)
+  Function: init_device_matrix
+  Outputs: _ICV_FLAT_PROPERTY_.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+cell_extent() at FreePDK3_main.lvs.lvs.rs:357
+gBULK = cell_extent(cell_list = { "*" }, exclude_text_layers = false, extent_layers = USED_ASSIGN_LAYERS)
+  Function: cell_extent
+  Outputs: gBULK.polygonlayer.0001
+12 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+Generating associated layer #inserted_q.associated.0027
+  Source: gBULK.polygonlayer.0001
+  Target: { gBULK.polygonlayer.0001, aNW.polygonlayer.0003 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.01 Mem=0.011 GB
+26 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.012 GB
+
+Generating associated layer #inserted_q.associated.0028
+  Source: aNW.polygonlayer.0003
+  Target: { gBULK.polygonlayer.0001 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Enclosed grids in 1 cells.
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Push Down Time=0:00:00  User=0.01 Sys=0.00 Mem=0.011 GB
+15 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.011 GB
+
+not() at FreePDK3_main.lvs.lvs.rs:359
+gPWELL = gBULK not aNW
+  Function: not
+  Inputs: gBULK.polygonlayer.0001, #inserted_q.associated.0027, aNW.polygonlayer.0003, #inserted_q.associated.0028
+  Outputs: gPWELL.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Small Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+    Large Cell Time=0:00:00  User=0.01 Sys=0.00 Mem=0.016 GB
+28 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.016 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: gPWELL.polygonlayer.0001, .handle.0002
+  Outputs: CONNECT_DB.polygonlayer.0034
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.011 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.polygonlayer.0020
+No output written.
+Layer "CONNECT_DB.polygonlayer.0020" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.polygonlayer.0018
+No output written.
+Layer "CONNECT_DB.polygonlayer.0018" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.polygonlayer.0016
+No output written.
+Layer "CONNECT_DB.polygonlayer.0016" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.polygonlayer.0014
+No output written.
+Layer "CONNECT_DB.polygonlayer.0014" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.polygonlayer.0012
+No output written.
+Layer "CONNECT_DB.polygonlayer.0012" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.polygonlayer.0010
+No output written.
+Layer "CONNECT_DB.polygonlayer.0010" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.polygonlayer.0008
+No output written.
+Layer "CONNECT_DB.polygonlayer.0008" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.polygonlayer.0006
+No output written.
+Layer "CONNECT_DB.polygonlayer.0006" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.polygonlayer.0004
+No output written.
+Layer "CONNECT_DB.polygonlayer.0004" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.polygonlayer.0002
+No output written.
+Layer "CONNECT_DB.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+init_device_matrix() at FreePDK3_main.lvs.lvs.rs:412
+dev_matrix : device_matrix = init_device_matrix(CONNECT_DB)
+  Function: init_device_matrix
+  Outputs: dev_matrix.polygonlayer.0001
+No output written.
+Layer "dev_matrix.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:281
+aRDL = assign({ { 40 } })
+  Function: assign
+  Outputs: aRDL.polygonlayer.0002
+No output written.
+Layer "aRDL.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign_text() at FreePDK3_main.lvs.lvs.rs:279
+tM13 = assign_text({ { 38 } })
+  Function: assign_text
+  Outputs: tM13.textlayer.0002.TEXT
+No output written.
+Layer "tM13.textlayer.0002.TEXT" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:277
+aV12 = assign({ { 37 } })
+  Function: assign
+  Outputs: aV12.polygonlayer.0002
+No output written.
+Layer "aV12.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:275
+aM12 = assign({ { 36 } })
+  Function: assign
+  Outputs: aM12.polygonlayer.0002
+No output written.
+Layer "aM12.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign_text() at FreePDK3_main.lvs.lvs.rs:273
+tM11 = assign_text({ { 34 } })
+  Function: assign_text
+  Outputs: tM11.textlayer.0002.TEXT
+No output written.
+Layer "tM11.textlayer.0002.TEXT" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:271
+aV10 = assign({ { 33 } })
+  Function: assign
+  Outputs: aV10.polygonlayer.0002
+No output written.
+Layer "aV10.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:269
+aM10 = assign({ { 32 } })
+  Function: assign
+  Outputs: aM10.polygonlayer.0002
+No output written.
+Layer "aM10.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign_text() at FreePDK3_main.lvs.lvs.rs:267
+tM9 = assign_text({ { 30 } })
+  Function: assign_text
+  Outputs: tM9.textlayer.0002.TEXT
+No output written.
+Layer "tM9.textlayer.0002.TEXT" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:265
+aV8 = assign({ { 29 } })
+  Function: assign
+  Outputs: aV8.polygonlayer.0002
+No output written.
+Layer "aV8.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:263
+aM8 = assign({ { 28 } })
+  Function: assign
+  Outputs: aM8.polygonlayer.0002
+No output written.
+Layer "aM8.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign_text() at FreePDK3_main.lvs.lvs.rs:261
+tM7 = assign_text({ { 26 } })
+  Function: assign_text
+  Outputs: tM7.textlayer.0002.TEXT
+No output written.
+Layer "tM7.textlayer.0002.TEXT" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:259
+aV6 = assign({ { 25 } })
+  Function: assign
+  Outputs: aV6.polygonlayer.0002
+No output written.
+Layer "aV6.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:257
+aM6 = assign({ { 24 } })
+  Function: assign
+  Outputs: aM6.polygonlayer.0002
+No output written.
+Layer "aM6.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign_text() at FreePDK3_main.lvs.lvs.rs:255
+tM5 = assign_text({ { 22 } })
+  Function: assign_text
+  Outputs: tM5.textlayer.0002.TEXT
+No output written.
+Layer "tM5.textlayer.0002.TEXT" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign() at FreePDK3_main.lvs.lvs.rs:253
+aV4 = assign({ { 21 } })
+  Function: assign
+  Outputs: aV4.polygonlayer.0002
+No output written.
+Layer "aV4.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+assign_text() at FreePDK3_main.lvs.lvs.rs:246
+tM2 = assign_text({ { 16 } })
+  Function: assign_text
+  Outputs: tM2.textlayer.0002.TEXT
+No output written.
+Layer "tM2.textlayer.0002.TEXT" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+No output written.
+Layer "empty_layer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+Generating associated layer #inserted_q.associated.0035
+  Source: aNIM.polygonlayer.0003
+  Target: { aNIM.polygonlayer.0003, aM0A.polygonlayer.0003 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+16 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+Generating associated layer #inserted_q.associated.0036
+  Source: aM0A.polygonlayer.0003
+  Target: { aNIM.polygonlayer.0003, aM0A.polygonlayer.0003 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.01 Sys=0.01 Mem=0.012 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+70 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.012 GB
+
+and() at FreePDK3_main.lvs.lvs.rs:393
+gVNW1 = aNIM and aM0A
+  Function: and
+  Inputs: aNIM.polygonlayer.0003, #inserted_q.associated.0035, aM0A.polygonlayer.0003, #inserted_q.associated.0036
+  Outputs: gVNW1.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Small Cell Time=0:00:00  User=0.01 Sys=0.00 Mem=0.015 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+132 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.015 GB
+
+Generating associated layer #inserted_q.associated.0031
+  Source: gPWELL.polygonlayer.0001
+  Target: { gPWELL.polygonlayer.0001, aACT.polygonlayer.0003 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+20 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+Generating associated layer #inserted_q.associated.0032
+  Source: aACT.polygonlayer.0003
+  Target: { gPWELL.polygonlayer.0001, aACT.polygonlayer.0003 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Cycle Out Time=0:00:00  User=0.01 Sys=0.00 Mem=0.011 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+83 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.012 GB
+
+and() at FreePDK3_main.lvs.lvs.rs:361
+gN_ACTIVE_AREA = gPWELL and aACT
+  Function: and
+  Inputs: gPWELL.polygonlayer.0001, #inserted_q.associated.0031, aACT.polygonlayer.0003, #inserted_q.associated.0032
+  Outputs: gN_ACTIVE_AREA.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Small Cell Time=0:00:00  User=0.00 Sys=0.01 Mem=0.014 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+189 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.015 GB
+
+Generating associated layer #inserted_q.associated.0039
+  Source: gN_ACTIVE_AREA.polygonlayer.0001
+  Target: { gN_ACTIVE_AREA.polygonlayer.0001, aNIM.polygonlayer.0003 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+39 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+Generating associated layer #inserted_q.associated.0040
+  Source: aNIM.polygonlayer.0003
+  Target: { gN_ACTIVE_AREA.polygonlayer.0001, aNIM.polygonlayer.0003 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+16 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.012 GB
+
+and() at FreePDK3_main.lvs.lvs.rs:363
+gN_FIN_AREA = gN_ACTIVE_AREA and aNIM
+  Function: and
+  Inputs: gN_ACTIVE_AREA.polygonlayer.0001, #inserted_q.associated.0039, aNIM.polygonlayer.0003, #inserted_q.associated.0040
+  Outputs: gN_FIN_AREA.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Small Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Large Cell Time=0:00:00  User=0.01 Sys=0.00 Mem=0.016 GB
+57 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.016 GB
+
+Generating associated layer #inserted_q.associated.0041
+  Source: gN_FIN_AREA.polygonlayer.0001
+  Target: { gN_FIN_AREA.polygonlayer.0001, gPOLY.polygonlayer.0002 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+23 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+
+Generating associated layer #inserted_q.associated.0042
+  Source: gPOLY.polygonlayer.0002
+  Target: { gN_FIN_AREA.polygonlayer.0001, gPOLY.polygonlayer.0002 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Cycle Out Time=0:00:00  User=0.01 Sys=0.00 Mem=0.013 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+165 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.013 GB
+
+and() at FreePDK3_main.lvs.lvs.rs:365
+gNGATE1 = gN_FIN_AREA and gPOLY
+  Function: and
+  Inputs: gN_FIN_AREA.polygonlayer.0001, #inserted_q.associated.0041, gPOLY.polygonlayer.0002, #inserted_q.associated.0042
+  Outputs: gNGATE1.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.01 Mem=0.015 GB
+    Small Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+    Large Cell Time=0:00:00  User=0.01 Sys=0.00 Mem=0.016 GB
+61 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.016 GB
+
+Generating associated layer #inserted_q.associated.0047
+  Source: gNGATE1.polygonlayer.0001
+  Target: { gNGATE1.polygonlayer.0001, gPWELL.polygonlayer.0001 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+No output written.
+Layer "#inserted_q.associated.0047" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+
+Generating associated layer #inserted_q.associated.0048
+  Source: gPWELL.polygonlayer.0001
+  Target: { gNGATE1.polygonlayer.0001, gPWELL.polygonlayer.0001 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Compute Mask Time=0:00:00  User=0.01 Sys=0.00 Mem=0.013 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+20 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.013 GB
+
+interacting() at FreePDK3_main.lvs.lvs.rs:414
+nmos(bulk_relationship = INTERACT, device_name = "nmos", drain = gNFINS, gate = gPOLY, matrix = dev_matrix, properties = { { "W" }, { "L" }, { "NFIN" }, { "ADEO" }, { "ASEO" }, { "PDEO" }, { "PSEO" } }, property_function = dev_func_MY_FET_PROPERTIES, recognition_layer = (gNGATE1 interacting gPWELL), processing_layer_hash = { "DUMMY" => { aDUMMY, 0.050 } }, simulation_model_name = "nmos", source = gNFINS)
+  Function: interacting
+  Inputs: gNGATE1.polygonlayer.0001, #inserted_q.associated.0047, gPWELL.polygonlayer.0001, #inserted_q.associated.0048
+  Outputs: temp.polygonlayer.0001
+61 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+not() at FreePDK3_main.lvs.lvs.rs:369
+gNFINS = (gN_FIN_AREA not gNGATE1) not aDUMMY
+  Function: not
+  Inputs: gNGATE1.polygonlayer.0001, aDUMMY.polygonlayer.0003
+  Outputs: gNFINS.polygonlayer.0001
+496 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.014 GB
+
+Generating associated layer #inserted_q.associated.0051
+  Source: gN_FIN_AREA.polygonlayer.0001
+  Target: { gN_FIN_AREA.polygonlayer.0001, gNFINS.polygonlayer.0001 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+23 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+
+Generating associated layer #inserted_q.associated.0052
+  Source: gNFINS.polygonlayer.0001
+  Target: { gN_FIN_AREA.polygonlayer.0001 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+48 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.013 GB
+
+not() at FreePDK3_main.lvs.lvs.rs:369
+gNFINS = (gN_FIN_AREA not gNGATE1) not aDUMMY
+  Function: not
+  Inputs: gN_FIN_AREA.polygonlayer.0001, #inserted_q.associated.0051, gNFINS.polygonlayer.0001, #inserted_q.associated.0052
+  Outputs: gNFINS.polygonlayer.0002
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Small Cell Time=0:00:00  User=0.01 Sys=0.01 Mem=0.018 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.018 GB
+237 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.018 GB
+
+nmos() at FreePDK3_main.lvs.lvs.rs:414
+nmos(bulk_relationship = INTERACT, device_name = "nmos", drain = gNFINS, gate = gPOLY, matrix = dev_matrix, properties = { { "W" }, { "L" }, { "NFIN" }, { "ADEO" }, { "ASEO" }, { "PDEO" }, { "PSEO" } }, property_function = dev_func_MY_FET_PROPERTIES, recognition_layer = (gNGATE1 interacting gPWELL), processing_layer_hash = { "DUMMY" => { aDUMMY, 0.050 } }, simulation_model_name = "nmos", source = gNFINS)
+  Function: nmos
+  Inputs: gPOLY.polygonlayer.0002, gNFINS.polygonlayer.0002, gNFINS.polygonlayer.0002, aDUMMY.polygonlayer.0003, temp.polygonlayer.0001, aGATE.polygonlayer.0003
+  Outputs: gPOLY.polygonlayer.0003, gNFINS.polygonlayer.0003, gNFINS.polygonlayer.0004, temp.polygonlayer.0002, aDUMMY.polygonlayer.0004
+Preprocessing device layers for nmos nmos ...
+    Pulldown Reduce Time=0:00:00  User=0.01 Sys=0.00 Mem=0.020 GB
+    Pulldown Cleanup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.019 GB
+Pulled 0 polygons
+    Pulldown Reduce Time=0:00:00  User=0.00 Sys=0.01 Mem=0.021 GB
+    Pulldown Cleanup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.020 GB
+Pulled 0 polygons
+    Pulldown Reduce Time=0:00:00  User=0.00 Sys=0.00 Mem=0.022 GB
+    Pulldown Cleanup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.021 GB
+Pulled 0 polygons
+    Pulldown Reduce Time=0:00:00  User=0.01 Sys=0.00 Mem=0.022 GB
+     Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.024 GB
+     Small Cell Time=0:00:00  User=0.00 Sys=0.01 Mem=0.024 GB
+     Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.025 GB
+    Pulldown Cleanup Time=0:00:00  User=0.00 Sys=0.01 Mem=0.025 GB
+Pulled 16 polygons
+Post cleaning ...
+435 unique polygons written.
+   Check Time=0:00:00  User=0.19 Sys=0.06 Mem=0.032 GB
+
+extract_devices() at FreePDK3_main.lvs.lvs.rs:422
+device_db = extract_devices(dev_matrix)
+  Function: extract_devices
+Merging device layers ...
+1917 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.014 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: gNFINS.polygonlayer.0005, .handle.0002
+  Outputs: CONNECT_DB.polygonlayer.0055
+1804 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.014 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: gNWELL.polygonlayer.0001, .handle.0002
+  Outputs: CONNECT_DB.polygonlayer.0053
+16 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+
+text_net() at FreePDK3_main.lvs.lvs.rs:350
+CONNECT_DB = text_net(CONNECT_DB, text_layer_items = text_net_items, use_text = TOP, attach_text = ALL, opens = MERGE_CONNECTED_AND_TOP, merge_open_net_names = merge_open_net_names_items, rename_open_nets = KEEP_ONE)
+  Function: text_net
+  Inputs: aRDL.polygonlayer.0002, tRDL.textlayer.0002.TEXT
+  Outputs: CONNECT_DB.polygonlayer.0051, CONNECT_DB.textlayer.0017.TEXT
+Input layer "aRDL.polygonlayer.0002" is empty.
+No output written.
+Layer "CONNECT_DB.polygonlayer.0051" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.011 GB
+
+text_net() at FreePDK3_main.lvs.lvs.rs:350
+CONNECT_DB = text_net(CONNECT_DB, text_layer_items = text_net_items, use_text = TOP, attach_text = ALL, opens = MERGE_CONNECTED_AND_TOP, merge_open_net_names = merge_open_net_names_items, rename_open_nets = KEEP_ONE)
+  Function: text_net
+  Inputs: aM9.polygonlayer.0002, tM9.textlayer.0002.TEXT
+  Outputs: CONNECT_DB.polygonlayer.0050, CONNECT_DB.textlayer.0016.TEXT
+Input layer "aM9.polygonlayer.0002" is empty.
+No output written.
+Layer "CONNECT_DB.polygonlayer.0050" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+text_net() at FreePDK3_main.lvs.lvs.rs:350
+CONNECT_DB = text_net(CONNECT_DB, text_layer_items = text_net_items, use_text = TOP, attach_text = ALL, opens = MERGE_CONNECTED_AND_TOP, merge_open_net_names = merge_open_net_names_items, rename_open_nets = KEEP_ONE)
+  Function: text_net
+  Inputs: aM8.polygonlayer.0002, tM8.textlayer.0002.TEXT
+  Outputs: CONNECT_DB.polygonlayer.0049, CONNECT_DB.textlayer.0015.TEXT
+Input layer "aM8.polygonlayer.0002" is empty.
+No output written.
+Layer "CONNECT_DB.polygonlayer.0049" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+text_net() at FreePDK3_main.lvs.lvs.rs:350
+CONNECT_DB = text_net(CONNECT_DB, text_layer_items = text_net_items, use_text = TOP, attach_text = ALL, opens = MERGE_CONNECTED_AND_TOP, merge_open_net_names = merge_open_net_names_items, rename_open_nets = KEEP_ONE)
+  Function: text_net
+  Inputs: aM7.polygonlayer.0002, tM7.textlayer.0002.TEXT
+  Outputs: CONNECT_DB.polygonlayer.0048, CONNECT_DB.textlayer.0014.TEXT
+Input layer "aM7.polygonlayer.0002" is empty.
+No output written.
+Layer "CONNECT_DB.polygonlayer.0048" is empty.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.011 GB
+
+extract_devices() at FreePDK3_main.lvs.lvs.rs:422
+device_db = extract_devices(dev_matrix)
+  Function: extract_devices
+Merging device layers ...
+1870 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.015 GB
+
+Generating associated layer #inserted_q.associated.0069
+  Source: aGCON.polygonlayer.0003
+  Target: { aGCON.polygonlayer.0003, gPOLY.polygonlayer.0005 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.01 Sys=0.00 Mem=0.014 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+No output written.
+Layer "#inserted_q.associated.0069" is empty.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.014 GB
+
+Generating associated layer #inserted_q.associated.0070
+  Source: gPOLY.polygonlayer.0005
+  Target: { aGCON.polygonlayer.0003, gPOLY.polygonlayer.0005 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+231 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.015 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Inputs: aGCON.polygonlayer.0003, #inserted_q.associated.0069, gPOLY.polygonlayer.0005, #inserted_q.associated.0070
+  Outputs: CONNECT_DB.polygonlayer.0062
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+    Small Cell Time=0:00:00  User=0.01 Sys=0.00 Mem=0.017 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+64 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.017 GB
+
+Generating associated layer #inserted_q.associated.0073
+  Source: CONNECT_DB.polygonlayer.0062
+  Target: { CONNECT_DB.polygonlayer.0062, aM0B.polygonlayer.0003 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.01 Sys=0.00 Mem=0.014 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+No output written.
+Layer "#inserted_q.associated.0073" is empty.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.014 GB
+
+Generating associated layer #inserted_q.associated.0074
+  Source: aM0B.polygonlayer.0003
+  Target: { CONNECT_DB.polygonlayer.0062, aM0B.polygonlayer.0003 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Cycle Out Time=0:00:00  User=0.01 Sys=0.00 Mem=0.014 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+92 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.014 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Inputs: CONNECT_DB.polygonlayer.0062, #inserted_q.associated.0073, aM0B.polygonlayer.0003, #inserted_q.associated.0074
+  Outputs: CONNECT_DB.polygonlayer.0068
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+    Small Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+64 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+
+Generating associated layer #inserted_q.associated.0099
+  Source: CONNECT_DB.polygonlayer.0068
+  Target: { aM0B.polygonlayer.0003, aGCON.polygonlayer.0003, gPOLY.polygonlayer.0005, CONNECT_DB.polygonlayer.0068 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+No output written.
+Layer "#inserted_q.associated.0099" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+
+Generating associated layer #inserted_q.associated.0098
+  Source: gPOLY.polygonlayer.0005
+  Target: { gPOLY.polygonlayer.0005, CONNECT_DB.polygonlayer.0068 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.01 Sys=0.00 Mem=0.014 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+231 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.015 GB
+
+Generating associated layer #inserted_q.associated.0097
+  Source: CONNECT_DB.polygonlayer.0033
+  Target: { aM3.polygonlayer.0003, aV3.polygonlayer.0003, aM4.polygonlayer.0003, CONNECT_DB.polygonlayer.0033 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+No output written.
+Layer "#inserted_q.associated.0097" is empty.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.016 GB
+
+Generating associated layer #inserted_q.associated.0096
+  Source: aM4.polygonlayer.0003
+  Target: { CONNECT_DB.polygonlayer.0002, aM4.polygonlayer.0003, CONNECT_DB.polygonlayer.0033 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+No output written.
+Layer "#inserted_q.associated.0096" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+Generating associated layer #inserted_q.associated.0095
+  Source: CONNECT_DB.polygonlayer.0031
+  Target: { aV2.polygonlayer.0003, aM2.polygonlayer.0003, aM3.polygonlayer.0003, CONNECT_DB.polygonlayer.0031 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+4 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+
+Generating associated layer #inserted_q.associated.0094
+  Source: aV3.polygonlayer.0003
+  Target: { aV3.polygonlayer.0003, CONNECT_DB.polygonlayer.0033 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.01 Sys=0.00 Mem=0.014 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+No output written.
+Layer "#inserted_q.associated.0094" is empty.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.015 GB
+
+Generating associated layer #inserted_q.associated.0093
+  Source: CONNECT_DB.polygonlayer.0030
+  Target: { aM1.polygonlayer.0003, aV1.polygonlayer.0003, aM2.polygonlayer.0003, CONNECT_DB.polygonlayer.0030 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+7 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+
+Generating associated layer #inserted_q.associated.0092
+  Source: aM3.polygonlayer.0003
+  Target: { aM3.polygonlayer.0003, CONNECT_DB.polygonlayer.0031, CONNECT_DB.polygonlayer.0033 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+4 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.015 GB
+
+Generating associated layer #inserted_q.associated.0091
+  Source: aM2.polygonlayer.0003
+  Target: { aM2.polygonlayer.0003, CONNECT_DB.polygonlayer.0030, CONNECT_DB.polygonlayer.0031 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.01 Sys=0.00 Mem=0.015 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+4 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.015 GB
+
+Generating associated layer #inserted_q.associated.0090
+  Source: aV2.polygonlayer.0003
+  Target: { aV2.polygonlayer.0003, CONNECT_DB.polygonlayer.0031 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.01 Mem=0.014 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+No output written.
+Layer "#inserted_q.associated.0090" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.014 GB
+
+Generating associated layer #inserted_q.associated.0089
+  Source: CONNECT_DB.polygonlayer.0027
+  Target: { aM0B.polygonlayer.0003, aV0B.polygonlayer.0003, aM1.polygonlayer.0003, CONNECT_DB.polygonlayer.0027 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+40 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+
+Generating associated layer #inserted_q.associated.0088
+  Source: aV1.polygonlayer.0003
+  Target: { aV1.polygonlayer.0003, CONNECT_DB.polygonlayer.0030 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.01 Sys=0.00 Mem=0.014 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+No output written.
+Layer "#inserted_q.associated.0088" is empty.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.014 GB
+
+Generating associated layer #inserted_q.associated.0087
+  Source: aM1.polygonlayer.0003
+  Target: { aM1.polygonlayer.0003, CONNECT_DB.polygonlayer.0027, CONNECT_DB.polygonlayer.0030 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+119 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+Generating associated layer #inserted_q.associated.0086
+  Source: CONNECT_DB.polygonlayer.0025
+  Target: { aM0A.polygonlayer.0003, aV0A.polygonlayer.0003, aM0B.polygonlayer.0003, CONNECT_DB.polygonlayer.0025 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Compute Mask Time=0:00:00  User=0.01 Sys=0.00 Mem=0.015 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+7 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.016 GB
+
+Generating associated layer #inserted_q.associated.0085
+  Source: aV0B.polygonlayer.0003
+  Target: { aV0B.polygonlayer.0003, CONNECT_DB.polygonlayer.0027 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+22 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+Generating associated layer #inserted_q.associated.0084
+  Source: aGCON.polygonlayer.0003
+  Target: { aGCON.polygonlayer.0003, CONNECT_DB.polygonlayer.0068 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Cycle Out Time=0:00:00  User=0.01 Sys=0.00 Mem=0.015 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+No output written.
+Layer "#inserted_q.associated.0084" is empty.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.015 GB
+
+Generating associated layer #inserted_q.associated.0083
+  Source: aM0B.polygonlayer.0003
+  Target: { aM0B.polygonlayer.0003, CONNECT_DB.polygonlayer.0025, CONNECT_DB.polygonlayer.0027, CONNECT_DB.polygonlayer.0068 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+92 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+
+Generating associated layer #inserted_q.associated.0082
+  Source: CONNECT_DB.polygonlayer.0022
+  Target: { aBPR.polygonlayer.0003, aVBPR.polygonlayer.0003, aM0A.polygonlayer.0003, CONNECT_DB.polygonlayer.0022 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+5 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.016 GB
+
+Generating associated layer #inserted_q.associated.0081
+  Source: aV0A.polygonlayer.0003
+  Target: { aV0A.polygonlayer.0003, CONNECT_DB.polygonlayer.0025 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+Generating associated layer #inserted_q.associated.0080
+  Source: aM0A.polygonlayer.0003
+  Target: { aM0A.polygonlayer.0003, CONNECT_DB.polygonlayer.0022, CONNECT_DB.polygonlayer.0025 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+46 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.015 GB
+
+Generating associated layer #inserted_q.associated.0079
+  Source: aVBPR.polygonlayer.0003
+  Target: { aVBPR.polygonlayer.0003, CONNECT_DB.polygonlayer.0022 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+No output written.
+Layer "#inserted_q.associated.0079" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+
+Generating associated layer #inserted_q.associated.0078
+  Source: aBPR.polygonlayer.0003
+  Target: { aBPR.polygonlayer.0003, CONNECT_DB.polygonlayer.0022 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+77 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.015 GB
+
+Generating associated layer #inserted_q.associated.0077
+  Source: CONNECT_DB.polygonlayer.0002
+  Target: { CONNECT_DB.polygonlayer.0002, aM4.polygonlayer.0003 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+Input layer "CONNECT_DB.polygonlayer.0002" is empty.
+Q generation skipped because source layer is empty.
+No output written.
+Layer "#inserted_q.associated.0077" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.012 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:309:Combined with subsequent incremental_connect.
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { aBPR, aM0A }, aVBPR, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.connect_database.0004
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:311:Combined with subsequent incremental_connect.
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { aM0A, aM0B }, aV0A, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.connect_database.0004
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:313:Combined with subsequent incremental_connect.
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { aM0B, aM1 }, aV0B, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.connect_database.0004
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:315:Combined with subsequent incremental_connect.
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { aM1, aM2 }, aV1, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.connect_database.0004
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:317:Combined with subsequent incremental_connect.
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { aM2, aM3 }, aV2, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.connect_database.0004
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:319:Combined with subsequent incremental_connect.
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { aM3, aM4 }, aV3, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.connect_database.0004
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:321:Combined with subsequent incremental_connect.
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { aM4, aM5 }, aV4, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.connect_database.0004
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:323:Combined with subsequent incremental_connect.
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { aM5, aM6 }, aV5, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.connect_database.0004
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:325:Combined with subsequent incremental_connect.
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { aM6, aM7 }, aV6, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.connect_database.0004
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:327:Combined with subsequent incremental_connect.
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { aM7, aM8 }, aV7, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.connect_database.0004
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:329:Combined with subsequent incremental_connect.
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { aM8, aM9 }, aV8, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.connect_database.0004
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:331:Combined with subsequent incremental_connect.
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { aM9, aM10 }, aV9, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.connect_database.0004
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:333:Combined with subsequent incremental_connect.
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { aM10, aM11 }, aV10, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.connect_database.0004
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:335:Combined with subsequent incremental_connect.
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { aM11, aM12 }, aV11, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.connect_database.0004
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:337:Combined with subsequent incremental_connect.
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { aM12, aM13 }, aV12, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.connect_database.0004
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:339:Combined with subsequent incremental_connect.
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { aM13, aRDL }, aVRDL, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.connect_database.0004
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+incremental_connect() at FreePDK3_main.lvs.lvs.rs:346
+CONNECT_DB = incremental_connect(CONNECT_DB, { { { gPOLY, aM0B }, aGCON, NONE, SHIELDED_OVERLAP } })
+  Function: incremental_connect
+  Outputs: CONNECT_DB.connect_database.0004
+#max block size is set as 8388608, prev_max_block_size is = 1048576
+Layer "aRDL.polygonlayer.0002" is empty.
+Layer "CONNECT_DB.polygonlayer.0002" is empty.
+Layer "aM13.polygonlayer.0002" is empty.
+Layer "aVRDL.polygonlayer.0002" is empty.
+Layer "CONNECT_DB.polygonlayer.0004" is empty.
+Layer "aM12.polygonlayer.0002" is empty.
+Layer "aV12.polygonlayer.0002" is empty.
+Layer "CONNECT_DB.polygonlayer.0006" is empty.
+Layer "aM11.polygonlayer.0002" is empty.
+Layer "aV11.polygonlayer.0002" is empty.
+Layer "CONNECT_DB.polygonlayer.0008" is empty.
+Layer "aM10.polygonlayer.0002" is empty.
+Layer "aV10.polygonlayer.0002" is empty.
+Layer "CONNECT_DB.polygonlayer.0010" is empty.
+Layer "aM9.polygonlayer.0002" is empty.
+Layer "aV9.polygonlayer.0002" is empty.
+Layer "CONNECT_DB.polygonlayer.0012" is empty.
+Layer "aM8.polygonlayer.0002" is empty.
+Layer "aV8.polygonlayer.0002" is empty.
+Layer "CONNECT_DB.polygonlayer.0014" is empty.
+Layer "aM7.polygonlayer.0002" is empty.
+Layer "aV7.polygonlayer.0002" is empty.
+Layer "CONNECT_DB.polygonlayer.0016" is empty.
+Layer "aM6.polygonlayer.0002" is empty.
+Layer "aV6.polygonlayer.0002" is empty.
+Layer "CONNECT_DB.polygonlayer.0018" is empty.
+Layer "aM5.polygonlayer.0002" is empty.
+Layer "aV5.polygonlayer.0002" is empty.
+Layer "CONNECT_DB.polygonlayer.0020" is empty.
+Layer "aV4.polygonlayer.0002" is empty.
+    Setup Time=0:00:00  User=0.02 Sys=0.01 Mem=0.045 GB
+    Small Cell Time=0:00:00  User=0.04 Sys=0.02 Mem=0.050 GB
+    Large Cell Time=0:00:00  User=0.02 Sys=0.01 Mem=0.053 GB
+   Check Time=0:00:00  User=0.10 Sys=0.06 Mem=0.053 GB
+
+text_net() at FreePDK3_main.lvs.lvs.rs:350
+CONNECT_DB = text_net(CONNECT_DB, text_layer_items = text_net_items, use_text = TOP, attach_text = ALL, opens = MERGE_CONNECTED_AND_TOP, merge_open_net_names = merge_open_net_names_items, rename_open_nets = KEEP_ONE)
+  Function: text_net
+  Inputs: CONNECT_DB.polygonlayer.0035, CONNECT_DB.polygonlayer.0036, CONNECT_DB.polygonlayer.0037, CONNECT_DB.polygonlayer.0038, CONNECT_DB.polygonlayer.0039, CONNECT_DB.polygonlayer.0040, CONNECT_DB.polygonlayer.0041, CONNECT_DB.polygonlayer.0042, CONNECT_DB.polygonlayer.0043, CONNECT_DB.polygonlayer.0044, CONNECT_DB.polygonlayer.0045, CONNECT_DB.polygonlayer.0046, CONNECT_DB.polygonlayer.0047, CONNECT_DB.polygonlayer.0048, CONNECT_DB.polygonlayer.0049, CONNECT_DB.polygonlayer.0050, CONNECT_DB.polygonlayer.0051, CONNECT_DB.textlayer.0001.TEXT, CONNECT_DB.textlayer.0002.TEXT, CONNECT_DB.textlayer.0003.TEXT, CONNECT_DB.textlayer.0004.TEXT, CONNECT_DB.textlayer.0005.TEXT, CONNECT_DB.textlayer.0006.TEXT, CONNECT_DB.textlayer.0007.TEXT, CONNECT_DB.textlayer.0008.TEXT, CONNECT_DB.textlayer.0009.TEXT, CONNECT_DB.textlayer.0010.TEXT, CONNECT_DB.textlayer.0011.TEXT, CONNECT_DB.textlayer.0012.TEXT, CONNECT_DB.textlayer.0013.TEXT, CONNECT_DB.textlayer.0014.TEXT, CONNECT_DB.textlayer.0015.TEXT, CONNECT_DB.textlayer.0016.TEXT, CONNECT_DB.textlayer.0017.TEXT
+    connect_by_name = MERGE_CONNECTED_AND_TOP 
+  ## Texting 17 pairs, skipping 0 pair, doing opens.
+Input layer "CONNECT_DB.polygonlayer.0035" is empty.
+     Text aBPR by tBPR Time=0:00:00  User=0.00 Sys=0.00 Mem=0.022 GB
+
+Input layer "CONNECT_DB.polygonlayer.0036" is empty.
+     Text aM0A by tM0A Time=0:00:00  User=0.00 Sys=0.00 Mem=0.022 GB
+
+     Text aM0B by tM0B Time=0:00:00  User=0.00 Sys=0.01 Mem=0.024 GB
+
+Input layer "CONNECT_DB.polygonlayer.0038" is empty.
+     Text aM1 by tM1 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.024 GB
+
+Input layer "aM10.polygonlayer.0002" is empty.
+     Text aM10 by tM10 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.024 GB
+
+Input layer "aM11.polygonlayer.0002" is empty.
+     Text aM11 by tM11 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.024 GB
+
+Input layer "aM12.polygonlayer.0002" is empty.
+     Text aM12 by tM12 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.025 GB
+
+Input layer "aM13.polygonlayer.0002" is empty.
+     Text aM13 by tM13 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.025 GB
+
+Input layer "CONNECT_DB.polygonlayer.0043" is empty.
+     Text aM2 by tM2 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.026 GB
+
+Input layer "CONNECT_DB.polygonlayer.0044" is empty.
+     Text aM3 by tM3 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.027 GB
+
+Input layer "CONNECT_DB.polygonlayer.0045" is empty.
+     Text aM4 by tM4 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.027 GB
+
+Input layer "aM5.polygonlayer.0002" is empty.
+     Text aM5 by tM5 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.027 GB
+
+Input layer "aM6.polygonlayer.0002" is empty.
+     Text aM6 by tM6 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.028 GB
+
+Input layer "aM7.polygonlayer.0002" is empty.
+     Text aM7 by tM7 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.028 GB
+
+Input layer "aM8.polygonlayer.0002" is empty.
+     Text aM8 by tM8 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.029 GB
+
+Input layer "aM9.polygonlayer.0002" is empty.
+     Text aM9 by tM9 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.029 GB
+
+Input layer "aRDL.polygonlayer.0002" is empty.
+     Text aRDL by tRDL Time=0:00:00  User=0.00 Sys=0.00 Mem=0.030 GB
+
+     sn_process_all_text_pair Time=0:00:00  User=0.00 Sys=0.01 Mem=0.030 GB
+
+   Check Time=0:00:00  User=0.03 Sys=0.02 Mem=0.035 GB
+
+text_net() at FreePDK3_main.lvs.lvs.rs:350
+CONNECT_DB = text_net(CONNECT_DB, text_layer_items = text_net_items, use_text = TOP, attach_text = ALL, opens = MERGE_CONNECTED_AND_TOP, merge_open_net_names = merge_open_net_names_items, rename_open_nets = KEEP_ONE)
+    connect_by_name = MERGE_CONNECTED_AND_TOP 
+Completed opens check. Now merging/renaming nets based on text.
+    0 merged net.
+    0 net is renamed.
+   Check Time=0:00:00  User=0.03 Sys=0.02 Mem=0.031 GB
+
+Generating associated layer #inserted_q.associated.0105
+  Source: CONNECT_DB.polygonlayer.0069
+  Target: { aM0A.polygonlayer.0003, gVPW.polygonlayer.0001, CONNECT_DB.polygonlayer.0069 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+No output written.
+Layer "#inserted_q.associated.0105" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+
+Generating associated layer #inserted_q.associated.0104
+  Source: gVPW.polygonlayer.0001
+  Target: { gVPW.polygonlayer.0001, CONNECT_DB.polygonlayer.0069 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+No output written.
+Layer "#inserted_q.associated.0104" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.016 GB
+
+Generating associated layer #inserted_q.associated.0103
+  Source: aM0A.polygonlayer.0003
+  Target: { CONNECT_DB.polygonlayer.0061, aM0A.polygonlayer.0003, CONNECT_DB.polygonlayer.0069 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+46 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.017 GB
+
+Generating associated layer #inserted_q.associated.0102
+  Source: CONNECT_DB.polygonlayer.0061
+  Target: { CONNECT_DB.polygonlayer.0061, aM0A.polygonlayer.0003 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+Input layer "CONNECT_DB.polygonlayer.0061" is empty.
+Q generation skipped because source layer is empty.
+No output written.
+Layer "#inserted_q.associated.0102" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: CONNECT_DB.connect_database.0002
+  Outputs: CONNECT_DB.connect_database.0005
+#max block size is set as 8388608, prev_max_block_size is = 1048576
+Layer "CONNECT_DB.polygonlayer.0061" is empty.
+Layer "gVNW.polygonlayer.0001" is empty.
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.030 GB
+    Small Cell Time=0:00:00  User=0.01 Sys=0.01 Mem=0.031 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.031 GB
+   Check Time=0:00:00  User=0.03 Sys=0.02 Mem=0.034 GB
+
+Generating associated layer #inserted_q.associated.0112
+  Source: CONNECT_DB.polygonlayer.0078
+  Target: { aM0A.polygonlayer.0003, CONNECT_DB.polygonlayer.0078 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+77 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.017 GB
+
+Generating associated layer #inserted_q.associated.0111
+  Source: CONNECT_DB.polygonlayer.0076
+  Target: { aM0A.polygonlayer.0003, CONNECT_DB.polygonlayer.0076 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Cycle Out Time=0:00:00  User=0.01 Sys=0.00 Mem=0.017 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+48 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.017 GB
+
+Generating associated layer #inserted_q.associated.0110
+  Source: CONNECT_DB.polygonlayer.0073
+  Target: { aM0A.polygonlayer.0003, CONNECT_DB.polygonlayer.0073 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.017 GB
+
+Generating associated layer #inserted_q.associated.0109
+  Source: CONNECT_DB.polygonlayer.0072
+  Target: { aM0A.polygonlayer.0003, CONNECT_DB.polygonlayer.0072 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+No output written.
+Layer "#inserted_q.associated.0109" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+
+Generating associated layer #inserted_q.associated.0108
+  Source: CONNECT_DB.polygonlayer.0023
+  Target: { aM0A.polygonlayer.0003, CONNECT_DB.polygonlayer.0023 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+52 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.017 GB
+
+Generating associated layer #inserted_q.associated.0107
+  Source: aM0A.polygonlayer.0003
+  Target: { CONNECT_DB.polygonlayer.0065, aM0A.polygonlayer.0003, CONNECT_DB.polygonlayer.0023, CONNECT_DB.polygonlayer.0072, CONNECT_DB.polygonlayer.0073, CONNECT_DB.polygonlayer.0076, CONNECT_DB.polygonlayer.0078 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.020 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.020 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.019 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.019 GB
+    Cycle Out Time=0:00:00  User=0.01 Sys=0.00 Mem=0.019 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.020 GB
+46 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.020 GB
+
+Generating associated layer #inserted_q.associated.0106
+  Source: CONNECT_DB.polygonlayer.0065
+  Target: { CONNECT_DB.polygonlayer.0065, aM0A.polygonlayer.0003 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+Input layer "CONNECT_DB.polygonlayer.0065" is empty.
+Q generation skipped because source layer is empty.
+No output written.
+Layer "#inserted_q.associated.0106" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: CONNECT_DB.connect_database.0005
+  Outputs: CONNECT_DB.connect_database.0006
+  Inputs: CONNECT_DB.polygonlayer.0078, CONNECT_DB.polygonlayer.0023, CONNECT_DB.polygonlayer.0076, CONNECT_DB.polygonlayer.0023, CONNECT_DB.polygonlayer.0072, CONNECT_DB.polygonlayer.0023, CONNECT_DB.polygonlayer.0073, CONNECT_DB.polygonlayer.0065, CONNECT_DB.polygonlayer.0023, CONNECT_DB.polygonlayer.0066
+#max block size is set as 8388608, prev_max_block_size is = 1048576
+Layer "CONNECT_DB.polygonlayer.0065" is empty.
+Layer "CONNECT_DB.polygonlayer.0066" is empty.
+    Setup Time=0:00:00  User=0.01 Sys=0.00 Mem=0.044 GB
+    Small Cell Time=0:00:00  User=0.01 Sys=0.00 Mem=0.045 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.045 GB
+   Check Time=0:00:00  User=0.06 Sys=0.03 Mem=0.049 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: CONNECT_DB.polygonlayer.0067, CONNECT_DB.polygonlayer.0065, gVNW.polygonlayer.0001, CONNECT_DB.polygonlayer.0023, CONNECT_DB.polygonlayer.0066
+  Outputs: CONNECT_DB.polygonlayer.0091, CONNECT_DB.polygonlayer.0090, CONNECT_DB.polygonlayer.0092
+Input layer "CONNECT_DB.polygonlayer.0065" is empty.
+Input layer "gVNW.polygonlayer.0001" is empty.
+Input layer "CONNECT_DB.polygonlayer.0066" is empty.
+No output written.
+Layer "CONNECT_DB.polygonlayer.0090" is empty.
+No output written.
+Layer "CONNECT_DB.polygonlayer.0092" is empty.
+No output written.
+Layer "CONNECT_DB.polygonlayer.0091" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.035 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: CONNECT_DB.polygonlayer.0090, gVNW.polygonlayer.0001
+  Outputs: CONNECT_DB.polygonlayer.0093
+Input layer "CONNECT_DB.polygonlayer.0090" is empty.
+Input layer "gVNW.polygonlayer.0001" is empty.
+No output written.
+Layer "CONNECT_DB.polygonlayer.0093" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: CONNECT_DB.polygonlayer.0080, CONNECT_DB.polygonlayer.0076, aM0A.polygonlayer.0003, CONNECT_DB.polygonlayer.0023, .handle.0002
+  Outputs: CONNECT_DB.polygonlayer.0085, CONNECT_DB.polygonlayer.0084, CONNECT_DB.polygonlayer.0086
+865 unique polygons written.
+No output written.
+Layer "CONNECT_DB.polygonlayer.0086" is empty.
+No output written.
+Layer "CONNECT_DB.polygonlayer.0085" is empty.
+   Check Time=0:00:00  User=0.02 Sys=0.01 Mem=0.036 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: CONNECT_DB.polygonlayer.0084, aM0A.polygonlayer.0003
+  Outputs: CONNECT_DB.polygonlayer.0095
+    Pulldown Reduce Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+     Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+     Small Cell Time=0:00:00  User=0.01 Sys=0.00 Mem=0.018 GB
+     Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.018 GB
+74 unique polygons written.
+    Pulldown Cleanup Time=0:00:00  User=0.01 Sys=0.00 Mem=0.018 GB
+Pulled 73 polygons
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.018 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: CONNECT_DB.polygonlayer.0081, aM0A.polygonlayer.0003
+  Outputs: CONNECT_DB.polygonlayer.0096
+    Pulldown Reduce Time=0:00:00  User=0.01 Sys=0.00 Mem=0.017 GB
+     Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+     Small Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.018 GB
+     Large Cell Time=0:00:00  User=0.01 Sys=0.00 Mem=0.019 GB
+178 unique polygons written.
+    Pulldown Cleanup Time=0:00:00  User=0.01 Sys=0.00 Mem=0.019 GB
+Pulled 140 polygons
+   Check Time=0:00:00  User=0.02 Sys=0.00 Mem=0.019 GB
+
+Generating associated layer #inserted_q.associated.0121
+  Source: CONNECT_DB.polygonlayer.0096
+  Target: { aM0A.polygonlayer.0003, gNFINS.polygonlayer.0005, CONNECT_DB.polygonlayer.0096 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.01 Mem=0.018 GB
+8 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.018 GB
+
+Generating associated layer #inserted_q.associated.0120
+  Source: CONNECT_DB.polygonlayer.0095
+  Target: { aM0A.polygonlayer.0003, gPFINS.polygonlayer.0005, CONNECT_DB.polygonlayer.0095 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.018 GB
+3 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.018 GB
+
+Generating associated layer #inserted_q.associated.0119
+  Source: CONNECT_DB.polygonlayer.0094
+  Target: { aM0A.polygonlayer.0003, gPWELL.polygonlayer.0001, CONNECT_DB.polygonlayer.0094 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.01 Sys=0.00 Mem=0.017 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.018 GB
+4 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.018 GB
+
+Generating associated layer #inserted_q.associated.0118
+  Source: gPFINS.polygonlayer.0005
+  Target: { gPFINS.polygonlayer.0005, CONNECT_DB.polygonlayer.0095 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Push Down Time=0:00:00  User=0.01 Sys=0.00 Mem=0.017 GB
+151 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.017 GB
+
+Generating associated layer #inserted_q.associated.0117
+  Source: gNFINS.polygonlayer.0005
+  Target: { gNFINS.polygonlayer.0005, CONNECT_DB.polygonlayer.0096 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Push Down Time=0:00:00  User=0.01 Sys=0.00 Mem=0.018 GB
+289 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.018 GB
+
+Generating associated layer #inserted_q.associated.0116
+  Source: gNWELL.polygonlayer.0001
+  Target: { CONNECT_DB.polygonlayer.0093, gNWELL.polygonlayer.0001 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+15 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.017 GB
+
+Generating associated layer #inserted_q.associated.0115
+  Source: gPWELL.polygonlayer.0001
+  Target: { gPWELL.polygonlayer.0001, CONNECT_DB.polygonlayer.0094 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+    Cycle Out Time=0:00:00  User=0.01 Sys=0.00 Mem=0.017 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.017 GB
+20 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.017 GB
+
+Generating associated layer #inserted_q.associated.0114
+  Source: aM0A.polygonlayer.0003
+  Target: { CONNECT_DB.polygonlayer.0093, aM0A.polygonlayer.0003, CONNECT_DB.polygonlayer.0094, CONNECT_DB.polygonlayer.0095, CONNECT_DB.polygonlayer.0096 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+  RR optimization modified to reflect layer size.
+    Hierarchy & Small Cell Staging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.019 GB
+    Compute Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.018 GB
+    Cell Flags Time=0:00:00  User=0.00 Sys=0.00 Mem=0.018 GB
+    Paint Mask Time=0:00:00  User=0.00 Sys=0.00 Mem=0.018 GB
+    Cycle Out Time=0:00:00  User=0.00 Sys=0.00 Mem=0.018 GB
+    Push Down Time=0:00:00  User=0.00 Sys=0.00 Mem=0.019 GB
+46 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.019 GB
+
+Generating associated layer #inserted_q.associated.0113
+  Source: CONNECT_DB.polygonlayer.0093
+  Target: { CONNECT_DB.polygonlayer.0093, aM0A.polygonlayer.0003, gNWELL.polygonlayer.0001 }
+  Options: avalue=-1.0000 svalue=-1.0000 rropt=1 qiopt=1 source_of_q=ALL
+Input layer "CONNECT_DB.polygonlayer.0093" is empty.
+Q generation skipped because source layer is empty.
+No output written.
+Layer "#inserted_q.associated.0113" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+
+soft_connect() at FreePDK3_main.lvs.lvs.rs:400
+CONNECT_DB = soft_connect(CONNECT_DB, soft_connect_layers, conflict_resolution = TRAPEZOID_COUNT)
+  Function: soft_connect
+  Inputs: CONNECT_DB.connect_database.0005
+  Outputs: CONNECT_DB.connect_database.0007
+#max block size is set as 8388608, prev_max_block_size is = 1048576
+Layer "CONNECT_DB.polygonlayer.0093" is empty.
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.045 GB
+    Small Cell Time=0:00:00  User=0.03 Sys=0.01 Mem=0.047 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.047 GB
+   Check Time=0:00:00  User=0.06 Sys=0.03 Mem=0.047 GB
+
+create_ports() at FreePDK3_main.lvs.lvs.rs:410
+CONNECT_DB = create_ports(CONNECT_DB, { { aBPR, aBPR }, { aM0A, aM0A }, { aM0B, aM0B }, { aM1, aM1 }, { aM2, aM2 }, { aM3, aM3 }, { aM4, aM4 }, { aM5, aM5 }, { aM6, aM6 }, { aM7, aM7 }, { aM8, aM8 }, { aM9, aM9 }, { aM10, aM10 }, { aM11, aM11 }, { aM12, aM12 }, { aM13, aM13 }, { aRDL, aRDL } })
+Input layer "aM5.polygonlayer.0002" is empty.
+Input layer "aM6.polygonlayer.0002" is empty.
+Input layer "aM7.polygonlayer.0002" is empty.
+Input layer "aM8.polygonlayer.0002" is empty.
+Input layer "aM9.polygonlayer.0002" is empty.
+Input layer "aM10.polygonlayer.0002" is empty.
+Input layer "aM11.polygonlayer.0002" is empty.
+Input layer "aM12.polygonlayer.0002" is empty.
+Input layer "aM13.polygonlayer.0002" is empty.
+Input layer "aRDL.polygonlayer.0002" is empty.
+    Load connect database Time=0:00:00  User=0.01 Sys=0.00 Mem=0.026 GB
+
+    Process all port items Time=0:00:00  User=0.01 Sys=0.01 Mem=0.027 GB
+
+    65 new ports are created. 
+     Store connect database Time=0:00:00  User=0.02 Sys=0.01 Mem=0.027 GB
+
+    Postprocessing  Time=0:00:00  User=0.02 Sys=0.01 Mem=0.028 GB
+
+   Check Time=0:00:00  User=0.04 Sys=0.02 Mem=0.028 GB
+
+extract_devices() at FreePDK3_main.lvs.lvs.rs:422
+device_db = extract_devices(dev_matrix)
+Creating netlisting connect database ...
+Print precise coordinates FALSE.
+   Check Time=0:00:00  User=0.03 Sys=0.02 Mem=0.028 GB
+
+nmos() at FreePDK3_main.lvs.lvs.rs:414
+nmos(bulk_relationship = INTERACT, device_name = "nmos", drain = gNFINS, gate = gPOLY, matrix = dev_matrix, properties = { { "W" }, { "L" }, { "NFIN" }, { "ADEO" }, { "ASEO" }, { "PDEO" }, { "PSEO" } }, property_function = dev_func_MY_FET_PROPERTIES, recognition_layer = (gNGATE1 interacting gPWELL), processing_layer_hash = { "DUMMY" => { aDUMMY, 0.050 } }, simulation_model_name = "nmos", source = gNFINS)
+  Function: nmos
+  Inputs: gPOLY.polygonlayer.0005, gNFINS.polygonlayer.0005, gNFINS.polygonlayer.0005, temp.polygonlayer.0002, gPOLY.polygonlayer.0003, aDUMMY.polygonlayer.0004
+nmos(bulk_relationship = INTERACT, device_name = \"nmos\", drain = gNFINS, gate = gPOLY, matrix = dev_matrix, properties = { { \"W\" }, { \"L\" }, { \"NFIN\" }, { \"ADEO\" }, { \"ASEO\" }, { \"PDEO\" }, { \"PSEO\" } }, property_function = dev_func_MY_FET_PROPERTIES, recognition_layer = (gNGATE1 interacting gPWELL), processing_layer_hash = { \"DUMMY\" => { aDUMMY, 0.050 } }, simulation_model_name = \"nmos\", source = gNFINS)
+Extracted 616 unique 3-terminal "nmos" devices.
+   Check Time=0:00:00  User=0.10 Sys=0.01 Mem=0.037 GB
+
+extract_devices() at FreePDK3_main.lvs.lvs.rs:422
+device_db = extract_devices(dev_matrix)
+  Function: extract_devices
+Connecting devices ...
+   Device Connect Time=0:00:00  User=0.03 Sys=0.02 Mem=0.015 GB
+
+pex_generate_database() at FreePDK3_main.lvs.lvs.rs:515
+pex_generate_database(pex_matrix = pex_matrix, pex_library = pex_layout_library_handle, pex_library_layer_map = pex_layout_library_layer_map_handle, pex_netlist_file = pex_spice_netlist_file_handle, pex_cell_extents_file = pex_cell_extents_file_handle, pex_cell_port_file = pex_cell_port_file_handle, pex_process_map_file = pex_process_handle, pex_runset_report_file = pex_report_handle)
+  Function: pex_generate_database
+  Inputs: aM0B.polygonlayer.0003, CONNECT_DB.polygonlayer.0068, gPOLY.polygonlayer.0005, aGCON.polygonlayer.0003, aM4.polygonlayer.0003, CONNECT_DB.polygonlayer.0033, aM3.polygonlayer.0003, aV3.polygonlayer.0003, CONNECT_DB.polygonlayer.0031, aM2.polygonlayer.0003, aV2.polygonlayer.0003, CONNECT_DB.polygonlayer.0030, aM1.polygonlayer.0003, aV1.polygonlayer.0003, CONNECT_DB.polygonlayer.0027, aV0B.polygonlayer.0003, CONNECT_DB.polygonlayer.0025, aM0A.polygonlayer.0003, aV0A.polygonlayer.0003, CONNECT_DB.polygonlayer.0022, aBPR.polygonlayer.0003, aVBPR.polygonlayer.0003, gVPW.polygonlayer.0001, gNFINS.polygonlayer.0005, gPFINS.polygonlayer.0005, gPWELL.polygonlayer.0001, gNWELL.polygonlayer.0001
+Writing stream file pex.gds
+
+Outputs:
+  aM0B (1;0) ....................................... 488 polygons written
+  CONNECT_DB (2;0) ................................. 64 polygons written
+  gPOLY (3;0) ...................................... 1870 polygons written
+  aGCON (4;0) ...................................... 64 polygons written
+  aM4 (5;0) ........................................ 1 polygon written
+  CONNECT_DB (6;0) ................................. 2 polygons written
+  aM3 (7;0) ........................................ 13 polygons written
+  aV3 (8;0) ........................................ 2 polygons written
+  CONNECT_DB (9;0) ................................. 13 polygons written
+  aM2 (10;0) ....................................... 82 polygons written
+  aV2 (11;0) ....................................... 13 polygons written
+  CONNECT_DB (12;0) ................................ 147 polygons written
+  aM1 (13;0) ....................................... 270 polygons written
+  aV1 (14;0) ....................................... 147 polygons written
+  CONNECT_DB (15;0) ................................ 364 polygons written
+  aV0B (16;0) ...................................... 364 polygons written
+  CONNECT_DB (17;0) ................................ 213 polygons written
+  aM0A (18;0) ...................................... 470 polygons written
+  aV0A (19;0) ...................................... 213 polygons written
+  CONNECT_DB (20;0) ................................ 73 polygons written
+  aBPR (21;0) ...................................... 357 polygons written
+  aVBPR (22;0) ..................................... 73 polygons written
+  gVPW (23;0) ...................................... 19 polygons written
+  gNFINS (24;0) .................................... 1917 polygons written
+  gPFINS (25;0) .................................... 830 polygons written
+  gPWELL (26;0) .................................... 28 polygons written
+  gNWELL (27;0) .................................... 13 polygons written
+
+   Writing Time=0:00:00  User=0.14 Sys=0.06 Mem=0.051 GB
+
+pex_generate_database() at FreePDK3_main.lvs.lvs.rs:515
+pex_generate_database(pex_matrix = pex_matrix, pex_library = pex_layout_library_handle, pex_library_layer_map = pex_layout_library_layer_map_handle, pex_netlist_file = pex_spice_netlist_file_handle, pex_cell_extents_file = pex_cell_extents_file_handle, pex_cell_port_file = pex_cell_port_file_handle, pex_process_map_file = pex_process_handle, pex_runset_report_file = pex_report_handle)
+  Function: pex_generate_database
+  Inputs: aM0B.polygonlayer.0003, CONNECT_DB.polygonlayer.0068, gPOLY.polygonlayer.0005, aGCON.polygonlayer.0003, aRDL.polygonlayer.0002, CONNECT_DB.polygonlayer.0002, aM13.polygonlayer.0002, aVRDL.polygonlayer.0002, CONNECT_DB.polygonlayer.0004, aM12.polygonlayer.0002, aV12.polygonlayer.0002, CONNECT_DB.polygonlayer.0006, aM11.polygonlayer.0002, aV11.polygonlayer.0002, CONNECT_DB.polygonlayer.0008, aM10.polygonlayer.0002, aV10.polygonlayer.0002, CONNECT_DB.polygonlayer.0010, aM9.polygonlayer.0002, aV9.polygonlayer.0002, CONNECT_DB.polygonlayer.0012, aM8.polygonlayer.0002, aV8.polygonlayer.0002, CONNECT_DB.polygonlayer.0014, aM7.polygonlayer.0002, aV7.polygonlayer.0002, CONNECT_DB.polygonlayer.0016, aM6.polygonlayer.0002, aV6.polygonlayer.0002, CONNECT_DB.polygonlayer.0018, aM5.polygonlayer.0002, aV5.polygonlayer.0002, CONNECT_DB.polygonlayer.0020, aM4.polygonlayer.0003, aV4.polygonlayer.0002, CONNECT_DB.polygonlayer.0033, aM3.polygonlayer.0003, aV3.polygonlayer.0003, CONNECT_DB.polygonlayer.0031, aM2.polygonlayer.0003, aV2.polygonlayer.0003, CONNECT_DB.polygonlayer.0030, aM1.polygonlayer.0003, aV1.polygonlayer.0003, CONNECT_DB.polygonlayer.0027, aV0B.polygonlayer.0003, CONNECT_DB.polygonlayer.0025, aM0A.polygonlayer.0003, aV0A.polygonlayer.0003, CONNECT_DB.polygonlayer.0022, aBPR.polygonlayer.0003, aVBPR.polygonlayer.0003, gVPW.polygonlayer.0001, gVNW.polygonlayer.0001, gNFINS.polygonlayer.0005, gPFINS.polygonlayer.0005, gPWELL.polygonlayer.0001, gNWELL.polygonlayer.0001
+Input layer "aM5.polygonlayer.0002" is empty.
+Input layer "aM5.polygonlayer.0002" is empty.
+Input layer "aM6.polygonlayer.0002" is empty.
+Input layer "aM6.polygonlayer.0002" is empty.
+Input layer "aM7.polygonlayer.0002" is empty.
+Input layer "aM7.polygonlayer.0002" is empty.
+Input layer "aM8.polygonlayer.0002" is empty.
+Input layer "aM8.polygonlayer.0002" is empty.
+Input layer "aM9.polygonlayer.0002" is empty.
+Input layer "aM9.polygonlayer.0002" is empty.
+Input layer "aM10.polygonlayer.0002" is empty.
+Input layer "aM10.polygonlayer.0002" is empty.
+Input layer "aM11.polygonlayer.0002" is empty.
+Input layer "aM11.polygonlayer.0002" is empty.
+Input layer "aM12.polygonlayer.0002" is empty.
+Input layer "aM12.polygonlayer.0002" is empty.
+Input layer "aM13.polygonlayer.0002" is empty.
+Input layer "aM13.polygonlayer.0002" is empty.
+Input layer "aRDL.polygonlayer.0002" is empty.
+Input layer "aRDL.polygonlayer.0002" is empty.
+Input layer "aRDL.polygonlayer.0002" is empty.
+Input layer "CONNECT_DB.polygonlayer.0002" is empty.
+Input layer "aM13.polygonlayer.0002" is empty.
+Input layer "aVRDL.polygonlayer.0002" is empty.
+Input layer "CONNECT_DB.polygonlayer.0004" is empty.
+Input layer "aM12.polygonlayer.0002" is empty.
+Input layer "aV12.polygonlayer.0002" is empty.
+Input layer "CONNECT_DB.polygonlayer.0006" is empty.
+Input layer "aM11.polygonlayer.0002" is empty.
+Input layer "aV11.polygonlayer.0002" is empty.
+Input layer "CONNECT_DB.polygonlayer.0008" is empty.
+Input layer "aM10.polygonlayer.0002" is empty.
+Input layer "aV10.polygonlayer.0002" is empty.
+Input layer "CONNECT_DB.polygonlayer.0010" is empty.
+Input layer "aM9.polygonlayer.0002" is empty.
+Input layer "aV9.polygonlayer.0002" is empty.
+Input layer "CONNECT_DB.polygonlayer.0012" is empty.
+Input layer "aM8.polygonlayer.0002" is empty.
+Input layer "aV8.polygonlayer.0002" is empty.
+Input layer "CONNECT_DB.polygonlayer.0014" is empty.
+Input layer "aM7.polygonlayer.0002" is empty.
+Input layer "aV7.polygonlayer.0002" is empty.
+Input layer "CONNECT_DB.polygonlayer.0016" is empty.
+Input layer "aM6.polygonlayer.0002" is empty.
+Input layer "aV6.polygonlayer.0002" is empty.
+Input layer "CONNECT_DB.polygonlayer.0018" is empty.
+Input layer "aM5.polygonlayer.0002" is empty.
+Input layer "aV5.polygonlayer.0002" is empty.
+Input layer "CONNECT_DB.polygonlayer.0020" is empty.
+Input layer "aV4.polygonlayer.0002" is empty.
+Input layer "gVNW.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.05 Sys=0.02 Mem=0.080 GB
+
+extract_devices() at FreePDK3_main.lvs.lvs.rs:422
+device_db = extract_devices(dev_matrix)
+LCL_DVD_skip_unuse_data = 0
+Writing VUE info.
+Input layer "aRDL.polygonlayer.0002" is empty.
+Input layer "CONNECT_DB.polygonlayer.0002" is empty.
+Input layer "aM13.polygonlayer.0002" is empty.
+Input layer "aVRDL.polygonlayer.0002" is empty.
+Input layer "CONNECT_DB.polygonlayer.0004" is empty.
+Input layer "aM12.polygonlayer.0002" is empty.
+Input layer "aV12.polygonlayer.0002" is empty.
+Input layer "CONNECT_DB.polygonlayer.0006" is empty.
+Input layer "aM11.polygonlayer.0002" is empty.
+Input layer "aV11.polygonlayer.0002" is empty.
+Input layer "CONNECT_DB.polygonlayer.0008" is empty.
+Input layer "aM10.polygonlayer.0002" is empty.
+Input layer "aV10.polygonlayer.0002" is empty.
+Input layer "CONNECT_DB.polygonlayer.0010" is empty.
+Input layer "aM9.polygonlayer.0002" is empty.
+Input layer "aV9.polygonlayer.0002" is empty.
+Input layer "CONNECT_DB.polygonlayer.0012" is empty.
+Input layer "aM8.polygonlayer.0002" is empty.
+Input layer "aV8.polygonlayer.0002" is empty.
+Input layer "CONNECT_DB.polygonlayer.0014" is empty.
+Input layer "aM7.polygonlayer.0002" is empty.
+Input layer "aV7.polygonlayer.0002" is empty.
+Input layer "CONNECT_DB.polygonlayer.0016" is empty.
+Input layer "aM6.polygonlayer.0002" is empty.
+Input layer "aV6.polygonlayer.0002" is empty.
+Input layer "CONNECT_DB.polygonlayer.0018" is empty.
+Input layer "aM5.polygonlayer.0002" is empty.
+Input layer "aV5.polygonlayer.0002" is empty.
+Input layer "CONNECT_DB.polygonlayer.0020" is empty.
+Input layer "aV4.polygonlayer.0002" is empty.
+Input layer "gVNW.polygonlayer.0001" is empty.
+Input layer "CONNECT_DB.polygonlayer.0061" is empty.
+Input layer "CONNECT_DB.polygonlayer.0093" is empty.
+Creating VUE info directory.
+Running with cell_thread_count = 8, region_thread_count = 8
+   Check Time=0:00:00  User=0.47 Sys=0.06 Mem=0.058 GB
+
+Reading error hierarchy error._hier.0001 ...
+ Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+
+  File Cleanup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+

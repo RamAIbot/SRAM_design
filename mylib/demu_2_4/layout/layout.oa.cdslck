@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      zwmurray
+HostName                       grendel29.ece.ncsu.edu
+ProcessIdentifier              10254
+ProcessCreationTime_UTC        1650929572
+ProcessCreationTime_Readable   Mon 25 Apr 2022 07:32:52 PM EDT EDT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/mylib/demu_2_4/layout/layout.oa.cdslck
+TimeEditLocked                 Mon 25 Apr 2022 07:34:57 PM EDT EDT

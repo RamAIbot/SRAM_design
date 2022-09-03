@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Fri Apr 22 03:51:18 2022-->
+<file-format name="netlisting-timestamps" version="2.0">
+<module contextID="switched: mylib Write_Driver schematic vl: hspice hspiceD schematic spice veriloga sl: hspice hspiceD" isSubcircuit="1" viewStopList="hspice hspiceD" viewSearchList="hspice hspiceD schematic spice veriloga" timestamp="359">
+<parameterizedConnections>
+<connectDefs timestamp="0"/>
+<oaAssignments timestamp="0"/>
+<dbAssignValue timestamp="0"/>
+<dbAssignAssignment timestamp="0"/>
+</parameterizedConnections>
+<parameters timestamp="2"/>
+<lib_parameters timestamp="1"/>
+<LineageParams/>
+<ParentParams/>
+<Terms timestamp="288"/>
+<PortOrder><![CDATA[BLBLBWEWrite_data]]></PortOrder>
+<ShortOptions timestamp="3580584169"/>
+</module>
+</file-format>

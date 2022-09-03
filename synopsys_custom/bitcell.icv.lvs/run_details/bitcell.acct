@@ -1,0 +1,8 @@
+bitcell
+	Cell Level Device Counts
+		NMOS[nmos] = 4
+		PMOS[pmos] = 2
+
+********  DEVICE EXTRACTION STATS    TOPBLOCK = bitcell  *******
+		NMOS[nmos] = 4
+		PMOS[pmos] = 2

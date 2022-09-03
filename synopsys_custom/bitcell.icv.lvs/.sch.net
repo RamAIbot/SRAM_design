@@ -1,0 +1,20 @@
+{netlist .sch.net
+{version 3 1 0}
+{net_global vdd! gnd! }
+{cell bitcell
+{port BL BLB WL}
+{inst MM3=nmos {TYPE MOS} 
+{pin Q=DRN QB=GATE gnd!=SRC}}
+{inst MM2=nmos {TYPE MOS} 
+{pin Q=DRN WL=GATE BL=SRC}}
+{inst MM1=nmos {TYPE MOS} 
+{pin QB=DRN Q=GATE gnd!=SRC}}
+{inst MM0=nmos {TYPE MOS} 
+{pin BLB=DRN WL=GATE QB=SRC}}
+{inst MM5=pmos {TYPE MOS} 
+{pin Q=DRN QB=GATE vdd!=SRC}}
+{inst MM4=pmos {TYPE MOS} 
+{pin QB=DRN Q=GATE vdd!=SRC}}
+}
+
+}

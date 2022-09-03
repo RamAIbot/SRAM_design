@@ -1,0 +1,66 @@
+<module name="vsl: mylib tspc_flip_flop schematic vl: auCdl schematic symbol">
+<scope name="Instance">
+<forward>
+<mapping dst="MM3" src="M3"/>
+<mapping dst="MM6" src="M6"/>
+<mapping dst="MM4" src="M4"/>
+<mapping dst="MM9" src="M9"/>
+<mapping dst="MM17" src="M17"/>
+<mapping dst="MM21" src="M21"/>
+<mapping dst="MM2" src="M2"/>
+<mapping dst="MM5" src="M5"/>
+<mapping dst="MM8" src="M8"/>
+<mapping dst="MM7" src="M7"/>
+<mapping dst="MM10" src="M10"/>
+<mapping dst="MM16" src="M16"/>
+<mapping dst="MM20" src="M20"/>
+</forward>
+<reverse>
+<mapping dst="M3" src="MM3"/>
+<mapping dst="M9" src="MM9"/>
+<mapping dst="M21" src="MM21"/>
+<mapping dst="M2" src="MM2"/>
+<mapping dst="M4" src="MM4"/>
+<mapping dst="M5" src="MM5"/>
+<mapping dst="M7" src="MM7"/>
+<mapping dst="M6" src="MM6"/>
+<mapping dst="M8" src="MM8"/>
+<mapping dst="M17" src="MM17"/>
+<mapping dst="M10" src="MM10"/>
+<mapping dst="M16" src="MM16"/>
+<mapping dst="M20" src="MM20"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward/>
+<reverse/>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping dst="CLK D Qbar" src="&lt;unmappedTermOrder>"/>
+<mapping dst="CLK D Qbar" src="&lt;termOrder>"/>
+</forward>
+<reverse>
+<mapping dst="&lt;unmappedTermOrder>" src="CLK D Qbar"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="nmos">
+<instance name="M10"/>
+<instance name="M16"/>
+<instance name="M2"/>
+<instance name="M20"/>
+<instance name="M5"/>
+<instance name="M7"/>
+<instance name="M8"/>
+</instance_header>
+<instance_header master="pmos">
+<instance name="M17"/>
+<instance name="M21"/>
+<instance name="M3"/>
+<instance name="M4"/>
+<instance name="M6"/>
+<instance name="M9"/>
+</instance_header>
+</master_instances>
+</module>

@@ -1,0 +1,126 @@
+<module name="vsl: mylib column_decoder_new schematic vl: auCdl schematic symbol">
+<scope name="Instance">
+<forward>
+<mapping src="M8" dst="MM8"/>
+<mapping src="M9" dst="MM9"/>
+<mapping src="M4" dst="MM4"/>
+<mapping src="M11" dst="MM11"/>
+<mapping src="M12" dst="MM12"/>
+<mapping src="M7" dst="MM7"/>
+<mapping src="M13" dst="MM13"/>
+<mapping src="M10" dst="MM10"/>
+<mapping src="M5" dst="MM5"/>
+<mapping src="M15" dst="MM15"/>
+<mapping src="M34" dst="MM34"/>
+<mapping src="M35" dst="MM35"/>
+<mapping src="M36" dst="MM36"/>
+<mapping src="M37" dst="MM37"/>
+<mapping src="M16" dst="MM16"/>
+<mapping src="M41" dst="MM41"/>
+<mapping src="M14" dst="MM14"/>
+<mapping src="M39" dst="MM39"/>
+<mapping src="M42" dst="MM42"/>
+<mapping src="M43" dst="MM43"/>
+<mapping src="M44" dst="MM44"/>
+<mapping src="M17" dst="MM17"/>
+<mapping src="M46" dst="MM46"/>
+<mapping src="M2" dst="MM2"/>
+<mapping src="M47" dst="MM47"/>
+<mapping src="M45" dst="MM45"/>
+<mapping src="M49" dst="MM49"/>
+<mapping src="M6" dst="MM6"/>
+<mapping src="M3" dst="MM3"/>
+<mapping src="M38" dst="MM38"/>
+<mapping src="M40" dst="MM40"/>
+<mapping src="M48" dst="MM48"/>
+<mapping src="I1" dst="XI1"/>
+</forward>
+<reverse>
+<mapping src="MM2" dst="M2"/>
+<mapping src="MM3" dst="M3"/>
+<mapping src="MM9" dst="M9"/>
+<mapping src="MM10" dst="M10"/>
+<mapping src="MM11" dst="M11"/>
+<mapping src="MM5" dst="M5"/>
+<mapping src="MM4" dst="M4"/>
+<mapping src="MM12" dst="M12"/>
+<mapping src="MM14" dst="M14"/>
+<mapping src="MM13" dst="M13"/>
+<mapping src="MM35" dst="M35"/>
+<mapping src="MM36" dst="M36"/>
+<mapping src="MM37" dst="M37"/>
+<mapping src="MM38" dst="M38"/>
+<mapping src="MM41" dst="M41"/>
+<mapping src="MM6" dst="M6"/>
+<mapping src="MM42" dst="M42"/>
+<mapping src="MM8" dst="M8"/>
+<mapping src="MM16" dst="M16"/>
+<mapping src="MM40" dst="M40"/>
+<mapping src="MM43" dst="M43"/>
+<mapping src="MM15" dst="M15"/>
+<mapping src="MM44" dst="M44"/>
+<mapping src="MM46" dst="M46"/>
+<mapping src="MM7" dst="M7"/>
+<mapping src="MM17" dst="M17"/>
+<mapping src="MM47" dst="M47"/>
+<mapping src="MM48" dst="M48"/>
+<mapping src="MM34" dst="M34"/>
+<mapping src="MM45" dst="M45"/>
+<mapping src="MM39" dst="M39"/>
+<mapping src="MM49" dst="M49"/>
+<mapping src="XI1" dst="I1"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward/>
+<reverse/>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping src="&lt;unmappedTermOrder>" dst="A0 A1 B0 B0B B1 B1B B2 B2B B3 B3B B4 B4B B5 B5B B6 B6B B7 B7B B8 B8B B9 B9B B10 B10B B11 B11B B12 B12B B13 B13B B14 B14B B15 B15B OutB_0 OutB_1 OutB_2 OutB_3 Out_0 Out_1 Out_2 Out_3"/>
+<mapping src="&lt;termOrder>" dst="A0 A1 B0 B0B B1 B1B B2 B2B B3 B3B B4 B4B B5 B5B B6 B6B B7 B7B B8 B8B B9 B9B B10 B10B B11 B11B B12 B12B B13 B13B B14 B14B B15 B15B OutB_0 OutB_1 OutB_2 OutB_3 Out_0 Out_1 Out_2 Out_3"/>
+</forward>
+<reverse>
+<mapping src="A0 A1 B0 B0B B1 B1B B2 B2B B3 B3B B4 B4B B5 B5B B6 B6B B7 B7B B8 B8B B9 B9B B10 B10B B11 B11B B12 B12B B13 B13B B14 B14B B15 B15B OutB_0 OutB_1 OutB_2 OutB_3 Out_0 Out_1 Out_2 Out_3" dst="&lt;unmappedTermOrder>"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="demu_2_4">
+<instance name="I1"/>
+</instance_header>
+<instance_header master="nmos">
+<instance name="M10"/>
+<instance name="M11"/>
+<instance name="M12"/>
+<instance name="M13"/>
+<instance name="M14"/>
+<instance name="M15"/>
+<instance name="M16"/>
+<instance name="M17"/>
+<instance name="M2"/>
+<instance name="M3"/>
+<instance name="M34"/>
+<instance name="M35"/>
+<instance name="M36"/>
+<instance name="M37"/>
+<instance name="M38"/>
+<instance name="M39"/>
+<instance name="M4"/>
+<instance name="M40"/>
+<instance name="M41"/>
+<instance name="M42"/>
+<instance name="M43"/>
+<instance name="M44"/>
+<instance name="M45"/>
+<instance name="M46"/>
+<instance name="M47"/>
+<instance name="M48"/>
+<instance name="M49"/>
+<instance name="M5"/>
+<instance name="M6"/>
+<instance name="M7"/>
+<instance name="M8"/>
+<instance name="M9"/>
+</instance_header>
+</master_instances>
+</module>

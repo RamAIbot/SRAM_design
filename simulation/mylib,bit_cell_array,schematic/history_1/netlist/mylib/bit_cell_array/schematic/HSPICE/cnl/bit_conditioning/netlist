@@ -1,0 +1,12 @@
+********************************************************************************
+* Library          : mylib
+* Cell             : bit_conditioning
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt bit_conditioning bl blb clk
+m5 vdd! clk bl nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m1 vdd! clk blb nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+.ends bit_conditioning
+

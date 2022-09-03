@@ -1,0 +1,3 @@
+inv_2 { NMOS PMOS }
+NMOS { }
+PMOS { }

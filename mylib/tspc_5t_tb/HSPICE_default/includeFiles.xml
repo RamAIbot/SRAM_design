@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Mon Apr  4 15:15:59 2022-->
+<file-format version="1.0" name="stateCategory">
+ <collection name="includeFiles">
+  <object version="1" type="saIncludeFile" name="includeFiles">
+   <attribute type="giBoolean" value="1" name="enabled"/>
+   <attribute type="giString" value="/afs/unity.ncsu.edu/users/z/zwmurray/ece546/project_flipflop/floptest.dat" name="filename"/>
+   <attribute type="giString" value="Digital Vector" name="includeType"/>
+   <attribute type="giString" value="" name="section"/>
+  </object>
+ </collection>
+</file-format>

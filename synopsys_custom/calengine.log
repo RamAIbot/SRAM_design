@@ -1,0 +1,170 @@
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 457.02MB -*-
+  -*- CPU Time :     0.31s -*-
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 459.98MB -*-
+  -*- CPU Time :     0.34s -*-
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 459.98MB -*-
+  -*- CPU Time :     0.34s -*-
+sx_set_data_directory {/afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results}
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 460.38MB -*-
+  -*- CPU Time :     0.36s -*-
+Table version created.
+"REPLACE INTO version (id) VALUES (2)"
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+Table is not exists.
+QSqlError("", "Unable to fetch row", "No query")
+   *** loading waveform file /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml ... ***
+   *** loading waveform file /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/hspice_wdf.tr0 ... ***
+   *** loading waveform file /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml ... ***
+   *** loading waveform file /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/hspice.mt0 ... ***
+   *** Loading waveform file finished ***
+QSqlError("", "Unable to fetch row", "No query")
+QSqlError("", "Unable to fetch row", "No query")
+QSqlError("", "Unable to fetch row", "No query")
+Table probe created.
+"REPLACE INTO probe (id, is_wave, value,is_error,error_val, expr_index) VALUES ('v(/CLK):tran',1,'',0,'',2)"
+Table probe created.
+"REPLACE INTO probe (id, is_wave, value,is_error,error_val, expr_index) VALUES ('v(/WENB):tran',1,'',0,'',3)"
+Table probe created.
+"REPLACE INTO probe (id, is_wave, value,is_error,error_val, expr_index) VALUES ('v(/A<0>):tran',1,'',0,'',6)"
+Table probe created.
+"REPLACE INTO probe (id, is_wave, value,is_error,error_val, expr_index) VALUES ('v(/A<1>):tran',1,'',0,'',7)"
+Table probe created.
+"REPLACE INTO probe (id, is_wave, value,is_error,error_val, expr_index) VALUES ('v(/A<2>):tran',1,'',0,'',8)"
+Table probe created.
+"REPLACE INTO probe (id, is_wave, value,is_error,error_val, expr_index) VALUES ('v(/A<3>):tran',1,'',0,'',9)"
+Table probe created.
+"REPLACE INTO probe (id, is_wave, value,is_error,error_val, expr_index) VALUES ('v(/A<4>):tran',1,'',0,'',10)"
+Table probe created.
+"REPLACE INTO probe (id, is_wave, value,is_error,error_val, expr_index) VALUES ('v(/D<0>):tran',1,'',0,'',11)"
+Table probe created.
+"REPLACE INTO probe (id, is_wave, value,is_error,error_val, expr_index) VALUES ('v(/D<1>):tran',1,'',0,'',12)"
+Table probe created.
+"REPLACE INTO probe (id, is_wave, value,is_error,error_val, expr_index) VALUES ('v(/D<2>):tran',1,'',0,'',13)"
+Table probe created.
+"REPLACE INTO probe (id, is_wave, value,is_error,error_val, expr_index) VALUES ('v(/D<3>):tran',1,'',0,'',14)"
+Table probe created.
+"REPLACE INTO probe (id, is_wave, value,is_error,error_val, expr_index) VALUES ('v(/Q<1>):tran',1,'',0,'',15)"
+Table probe created.
+"REPLACE INTO probe (id, is_wave, value,is_error,error_val, expr_index) VALUES ('v(/Q<2>):tran',1,'',0,'',16)"
+Table probe created.
+"REPLACE INTO probe (id, is_wave, value,is_error,error_val, expr_index) VALUES ('v(/Q<3>):tran',1,'',0,'',17)"
+Table probe created.
+"REPLACE INTO probe (id, is_wave, value,is_error,error_val, expr_index) VALUES ('v(/Q<0>):tran',1,'',0,'',18)"
+Table probe created.
+"REPLACE INTO probe (id, is_wave, value,is_error,error_val, expr_index) VALUES ('WL0:v(/I36/net421):tran',1,'',0,'',19)"
+Table probe created.
+"REPLACE INTO probe (id, is_wave, value,is_error,error_val, expr_index) VALUES ('v(/I36/I0/Q):tran',1,'',0,'',20)"
+Table probe created.
+"REPLACE INTO probe (id, is_wave, value,is_error,error_val, expr_index) VALUES ('v(/I36/I1/Q):tran',1,'',0,'',21)"
+Table probe created.
+"REPLACE INTO probe (id, is_wave, value,is_error,error_val, expr_index) VALUES ('v(/I36/I2/Q):tran',1,'',0,'',22)"
+Table probe created.
+"REPLACE INTO probe (id, is_wave, value,is_error,error_val, expr_index) VALUES ('v(/I36/I3/Q):tran',1,'',0,'',23)"
+Table euqation created.
+"REPLACE INTO equation (id, result_type, is_wave, wave_file_id, idx_in_wavefile, real_val, imag_val, logic_val, error_val, expr_index) VALUES ('Qtot:meas(Qtot):tranMeasure:tranMeasure',3,0,1,1,'-6.912e-12','0.0','','',4)"
+QSqlError("", "Unable to fetch row", "No query")
+QSqlError("", "Unable to fetch row", "No query")
+Table equation_alias_in_wave_file created.
+"REPLACE INTO equation_alias_in_wave_file (eqn_id, alias) VALUES ('Qtot:meas(Qtot):tranMeasure:tranMeasure','meas(Qtot)#tranMeasure#tranMeasure')"
+Table euqation created.
+"REPLACE INTO equation (id, result_type, is_wave, wave_file_id, idx_in_wavefile, real_val, imag_val, logic_val, error_val, expr_index) VALUES ('Etot:meas(Etot):tranMeasure:tranMeasure',3,0,1,1,'5.53e-12','0.0','','',5)"
+QSqlError("", "Unable to fetch row", "No query")
+QSqlError("", "Unable to fetch row", "No query")
+Table equation_alias_in_wave_file created.
+"REPLACE INTO equation_alias_in_wave_file (eqn_id, alias) VALUES ('Etot:meas(Etot):tranMeasure:tranMeasure','meas(Etot)#tranMeasure#tranMeasure')"
+------wdf file /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/post1.wave
+sx_exit

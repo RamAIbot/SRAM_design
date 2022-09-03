@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler (TM), build #, on Tue May  3 21:19:05 2022
+-->
+<synopsysFile name="synopsysFavoriteDevices" version="1.0">
+        <favoriteDevices viewType="maskLayout">
+                <cellView view="layout" library="NCSU_TechLib_FreePDK3" cell="M0A_M0B">
+                        <alias name="M0A_M0B"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView view="layout" library="NCSU_TechLib_FreePDK3" cell="M1_M2">
+                        <alias name="M1_M2"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView view="layout" library="NCSU_TechLib_FreePDK3" cell="M0B_M1">
+                        <alias name="M0B_M1"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView view="layout" library="mylib" cell="column_decoder_new">
+                        <alias name="column_decoder_new"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView view="layout" library="mylib" cell="Write_Driver">
+                        <alias name="Write_Driver"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+        </favoriteDevices>
+        <favoriteDevices viewType="schematic">
+                <cellView view="symbol" library="analogLib" cell="pmos">
+                        <alias name="pmos"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView view="symbol" library="NCSU_TechLib_FreePDK3" cell="pmos">
+                        <alias name="pmos"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView view="symbol" library="NCSU_TechLib_FreePDK3" cell="nmos">
+                        <alias name="nmos"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView view="symbol" library="mylib" cell="nor_2">
+                        <alias name="nor_2"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView view="symbol" library="mylib" cell="inv_2">
+                        <alias name="inv_2"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+        </favoriteDevices>
+</synopsysFile>

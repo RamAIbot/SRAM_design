@@ -1,0 +1,60 @@
+<module name="vsl: mylib rowdecoder schematic vl: auCdl schematic symbol">
+<scope name="Instance">
+<forward>
+<mapping src="I19" dst="XI19"/>
+<mapping src="I21" dst="XI21"/>
+<mapping src="I20" dst="XI20"/>
+<mapping src="I57" dst="XI57"/>
+<mapping src="I56" dst="XI56"/>
+<mapping src="I55" dst="XI55"/>
+<mapping src="I58" dst="XI58"/>
+<mapping src="I59" dst="XI59"/>
+<mapping src="I54" dst="XI54"/>
+<mapping src="I61" dst="XI61"/>
+<mapping src="I60" dst="XI60"/>
+</forward>
+<reverse>
+<mapping src="XI20" dst="I20"/>
+<mapping src="XI21" dst="I21"/>
+<mapping src="XI58" dst="I58"/>
+<mapping src="XI57" dst="I57"/>
+<mapping src="XI56" dst="I56"/>
+<mapping src="XI55" dst="I55"/>
+<mapping src="XI61" dst="I61"/>
+<mapping src="XI59" dst="I59"/>
+<mapping src="XI54" dst="I54"/>
+<mapping src="XI19" dst="I19"/>
+<mapping src="XI60" dst="I60"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward/>
+<reverse/>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping src="&lt;unmappedTermOrder>" dst="A WL"/>
+<mapping src="&lt;termOrder>" dst="A WL"/>
+</forward>
+<reverse>
+<mapping src="A WL" dst="&lt;unmappedTermOrder>"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="inv_2">
+<instance name="I19"/>
+<instance name="I20"/>
+<instance name="I21"/>
+</instance_header>
+<instance_header master="nor_5">
+<instance name="I54"/>
+<instance name="I55"/>
+<instance name="I56"/>
+<instance name="I57"/>
+<instance name="I58"/>
+<instance name="I59"/>
+<instance name="I60"/>
+<instance name="I61"/>
+</instance_header>
+</master_instances>
+</module>

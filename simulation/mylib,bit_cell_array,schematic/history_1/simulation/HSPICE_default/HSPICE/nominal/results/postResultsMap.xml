@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Created by WV (TM), build , on Fri Apr  8 01:38:14 2022-->
+<file-format name="saResultsMap" version="1.0">
+<object name="saResultsMap" version="1" type="saResultsMap">
+  <attribute name="cornerParamNames" value="" type="giString"/>
+  <attribute name="masterResultsDir" value="." type="giString"/>
+  <attribute name="name" value="postResultsMap.xml" type="giString"/>
+  <collection name="resultsInfo">
+    <object name="resultsInfo" version="1" type="saResultsInfo">
+      <collection name="dependentVars"/>
+      <attribute name="netlistDir" value="../netlist" type="giString"/>
+      <attribute name="resultsDir" value="." type="giString"/>
+      <attribute name="resultsFiles" value="postResults.xml" type="giString"/>
+    </object>
+  </collection>
+  <attribute name="timeStamp" value="Fri Apr  8 01:38:14 2022" type="giString"/>
+</object>
+</file-format>

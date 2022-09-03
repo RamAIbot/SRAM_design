@@ -1,0 +1,856 @@
+00400000-1ba4c000 r-xp 00000000 00:2b 8317693537                         /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/platform/bin/cdesigner
+1ba4d000-1c715000 r-xp 1b64c000 00:2b 8317693537                         /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/platform/bin/cdesigner
+1c715000-1c8fa000 rwxp 1c314000 00:2b 8317693537                         /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/platform/bin/cdesigner
+1c8fa000-21fb7000 rwxp 00000000 00:00 0 
+22df8000-3c995000 rwxp 00000000 00:00 0                                  [heap]
+7ff828000000-7ff828055000 rwxp 00000000 00:00 0 
+7ff828055000-7ff82c000000 ---p 00000000 00:00 0 
+7ff830000000-7ff830061000 rwxp 00000000 00:00 0 
+7ff830061000-7ff834000000 ---p 00000000 00:00 0 
+7ff834000000-7ff8340bc000 rwxp 00000000 00:00 0 
+7ff8340bc000-7ff838000000 ---p 00000000 00:00 0 
+7ff838000000-7ff838021000 rwxp 00000000 00:00 0 
+7ff838021000-7ff83c000000 ---p 00000000 00:00 0 
+7ff83c000000-7ff83c065000 rwxp 00000000 00:00 0 
+7ff83c065000-7ff840000000 ---p 00000000 00:00 0 
+7ff840000000-7ff840021000 rwxp 00000000 00:00 0 
+7ff840021000-7ff844000000 ---p 00000000 00:00 0 
+7ff844000000-7ff844061000 rwxp 00000000 00:00 0 
+7ff844061000-7ff848000000 ---p 00000000 00:00 0 
+7ff848000000-7ff848021000 rwxp 00000000 00:00 0 
+7ff848021000-7ff84c000000 ---p 00000000 00:00 0 
+7ff84e7fd000-7ff84e7fe000 ---p 00000000 00:00 0 
+7ff84e7fe000-7ff84effe000 rwxp 00000000 00:00 0 
+7ff84effe000-7ff84efff000 ---p 00000000 00:00 0 
+7ff84efff000-7ff84f7ff000 rwxp 00000000 00:00 0 
+7ff84f7ff000-7ff84f800000 ---p 00000000 00:00 0 
+7ff84f800000-7ff850000000 rwxp 00000000 00:00 0 
+7ff850000000-7ff850021000 rwxp 00000000 00:00 0 
+7ff850021000-7ff854000000 ---p 00000000 00:00 0 
+7ff854000000-7ff854217000 rwxp 00000000 00:00 0 
+7ff854217000-7ff858000000 ---p 00000000 00:00 0 
+7ff8581a9000-7ff8587f9000 r-xs 00000000 fd:00 1116210                    /var/lib/sss/mc/group
+7ff8587f9000-7ff8587fa000 ---p 00000000 00:00 0 
+7ff8587fa000-7ff858ffa000 rwxp 00000000 00:00 0 
+7ff858ffa000-7ff858ffb000 ---p 00000000 00:00 0 
+7ff858ffb000-7ff8597fb000 rwxp 00000000 00:00 0 
+7ff8597fb000-7ff8597fc000 ---p 00000000 00:00 0 
+7ff8597fc000-7ff859ffc000 rwxp 00000000 00:00 0 
+7ff859ffc000-7ff859ffd000 ---p 00000000 00:00 0 
+7ff859ffd000-7ff85a7fd000 rwxp 00000000 00:00 0 
+7ff85a7fd000-7ff85a7fe000 ---p 00000000 00:00 0 
+7ff85a7fe000-7ff85affe000 rwxp 00000000 00:00 0 
+7ff85affe000-7ff85afff000 ---p 00000000 00:00 0 
+7ff85afff000-7ff85b7ff000 rwxp 00000000 00:00 0 
+7ff85b7ff000-7ff85b800000 ---p 00000000 00:00 0 
+7ff85b800000-7ff85c000000 rwxp 00000000 00:00 0 
+7ff85c000000-7ff85c021000 rwxp 00000000 00:00 0 
+7ff85c021000-7ff860000000 ---p 00000000 00:00 0 
+7ff860000000-7ff860021000 rwxp 00000000 00:00 0 
+7ff860021000-7ff864000000 ---p 00000000 00:00 0 
+7ff8643da000-7ff86447f000 r-xp 00000000 fd:00 537889610                  /usr/share/fonts/dejavu/DejaVuSans-Bold.ttf
+7ff86447f000-7ff86452f000 r-xp 00000000 fd:00 537889614                  /usr/share/fonts/dejavu/DejaVuSans.ttf
+7ff86452f000-7ff86468d000 r-xp 00000000 00:2b 8317693603                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/tclpy/PY2.6.2/tclpy.so
+7ff86468d000-7ff86468e000 ---p 0015e000 00:2b 8317693603                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/tclpy/PY2.6.2/tclpy.so
+7ff86468e000-7ff864692000 r-xp 0015e000 00:2b 8317693603                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/tclpy/PY2.6.2/tclpy.so
+7ff864692000-7ff864699000 rwxp 00162000 00:2b 8317693603                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/tclpy/PY2.6.2/tclpy.so
+7ff864699000-7ff86469a000 rwxp 00000000 00:00 0 
+7ff86469a000-7ff8646a1000 r-xs 00000000 fd:00 40652                      /usr/lib64/gconv/gconv-modules.cache
+7ff8646a1000-7ff8646a8000 r-xp 00000000 00:2b 8323609289                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/pkg_commands/pkg_commands_tcl.rcc
+7ff8646a8000-7ff8646a9000 r-xp 00000000 00:2b 8306089560                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/topology_assistant/topology_assistant_tcl.rcc
+7ff8646a9000-7ff8646ab000 r-xp 00000000 00:2b 8323611292                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/template/template_tcl.rcc
+7ff8646ab000-7ff8646ac000 r-xp 00000000 00:2b 8320703680                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/relative_placement/relative_placement_tcl.rcc
+7ff8646ac000-7ff8646ad000 r-xp 00000000 00:2b 8323603948                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/ilt_template_commands/ilt_template_commands_tcl.rcc
+7ff8646ad000-7ff8646af000 r-xp 00000000 00:2b 8323603926                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/flightline/flightline_tcl.rcc
+7ff8646af000-7ff8646b5000 r-xp 00000000 00:2b 8320703609                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/primewave/primewave_tcl.rcc
+7ff8646b5000-7ff8646b6000 r-xp 00000000 00:2b 8323662988                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/pcell_caching_commands/pcell_caching_commands_tcl.rcc
+7ff8646b6000-7ff8646b9000 r-xp 00000000 00:2b 8306087303                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/parameter_gui_commands/parameter_gui_commands_tcl.rcc
+7ff8646b9000-7ff8646ba000 r-xp 00000000 00:2b 8323609217                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/parameter_commands/parameter_commands_tcl.rcc
+7ff8646ba000-7ff8646bb000 r-xp 00000000 00:2b 8323662983                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/opto_designer_integ/opto_designer_integ_tcl.rcc
+7ff8646bb000-7ff864720000 r-xp 00000000 00:2b 8323664884                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/simenv/simenv_tcl.rcc
+7ff864720000-7ff86472d000 r-xp 00000000 00:2b 8317693726                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/helix/helix_tcl.rcc
+7ff86472d000-7ff86472e000 r-xp 00000000 00:2b 8317693801                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/logical_selection/logical_selection_tcl.rcc
+7ff86472e000-7ff864755000 r-xp 00000000 00:2b 8317693819                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/ndm_oa/ndm_oa_tcl.rcc
+7ff864755000-7ff86477a000 r-xp 00000000 00:2b 8323604055                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/mwbridge/mwbridge_tcl.rcc
+7ff86477a000-7ff86477d000 r-xp 00000000 00:2b 8317693772                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/legalizer_cd_commands/legalizer_cd_commands_tcl.rcc
+7ff86477d000-7ff86477e000 r-xp 00000000 00:2b 8317693761                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/le_create_commands/le_create_commands_tcl.rcc
+7ff86477e000-7ff86477f000 r-xp 00000000 00:2b 8323603878                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/device_label_editor/device_label_editor_tcl.rcc
+7ff86477f000-7ff864780000 r-xp 00000000 00:2b 8317693694                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/design_review/design_review_tcl.rcc
+7ff864780000-7ff864781000 r-xp 00000000 00:2b 8323603919                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/find_replace_commands/find_replace_commands_tcl.rcc
+7ff864781000-7ff864783000 r-xp 00000000 00:2b 8317693620                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/cellview_generation_commands/cellview_generation_commands_tcl.rcc
+7ff864783000-7ff8647bd000 r-xp 00000000 00:2b 8306081816                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/fonts/DejaVuLGCSansMono.ttf
+7ff8647bd000-7ff8647be000 ---p 00000000 00:00 0 
+7ff8647be000-7ff864fbe000 rwxp 00000000 00:00 0 
+7ff864fbe000-7ff864fc0000 r-xp 00000000 00:2b 8317693663                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/constraint_editor/constraint_editor_tcl.rcc
+7ff864fc0000-7ff864fc1000 r-xp 00000000 00:2b 8323662968                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/on_canvas_property_editor/on_canvas_property_editor_tcl.rcc
+7ff864fc1000-7ff864fc3000 r-xp 00000000 00:2b 8323611281                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/tech_manager/tech_manager_tcl.rcc
+7ff864fc3000-7ff864fc4000 r-xp 00000000 00:2b 8320699021                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/hierarchy_navigator/hierarchy_navigator_tcl.rcc
+7ff864fc4000-7ff864fc8000 r-xp 00000000 00:2b 8320699016                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/hierarchy_editor/hierarchy_editor_tcl.rcc
+7ff864fc8000-7ff864fc9000 r-xp 00000000 00:2b 8323664795                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/sbr_pattern_route_assistant/sbr_pattern_route_assistant_tcl.rcc
+7ff864fc9000-7ff864feb000 r-xp 00000000 00:2b 8323664785                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/sbr/sbr_tcl.rcc
+7ff864feb000-7ff864fec000 r-xp 00000000 00:2b 8320705925                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/vtp/vtp_tcl.rcc
+7ff864fec000-7ff864fed000 r-xp 00000000 00:2b 8320705909                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/voltage_annotation/voltage_annotation_tcl.rcc
+7ff864fed000-7ff864ff2000 r-xp 00000000 00:2b 8306089569                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/udd/udd_tcl.rcc
+7ff864ff2000-7ff864ff4000 r-xp 00000000 00:2b 8323611330                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/text_viewer/text_viewer_tcl.rcc
+7ff864ff4000-7ff864ffc000 r-xp 00000000 00:2b 8306089260                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/symbolic_editor_window/symbolic_editor_window_tcl.rcc
+7ff864ffc000-7ff865000000 r-xp 00000000 00:2b 8306081787                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/design_editor/design_editor_tcl.rcc
+7ff865000000-7ff865001000 ---p 00000000 00:00 0 
+7ff865001000-7ff865801000 rwxp 00000000 00:00 0 
+7ff865801000-7ff865809000 r-xp 00000000 00:2b 8320705559                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/sdp/sdp_tcl.rcc
+7ff865809000-7ff865819000 r-xp 00000000 fd:00 146235                     /usr/lib64/libavahi-client.so.3.2.9
+7ff865819000-7ff865a18000 ---p 00010000 fd:00 146235                     /usr/lib64/libavahi-client.so.3.2.9
+7ff865a18000-7ff865a19000 r-xp 0000f000 fd:00 146235                     /usr/lib64/libavahi-client.so.3.2.9
+7ff865a19000-7ff865a1a000 rwxp 00010000 fd:00 146235                     /usr/lib64/libavahi-client.so.3.2.9
+7ff865a1a000-7ff865a26000 r-xp 00000000 fd:00 146237                     /usr/lib64/libavahi-common.so.3.5.3
+7ff865a26000-7ff865c25000 ---p 0000c000 fd:00 146237                     /usr/lib64/libavahi-common.so.3.5.3
+7ff865c25000-7ff865c26000 r-xp 0000b000 fd:00 146237                     /usr/lib64/libavahi-common.so.3.5.3
+7ff865c26000-7ff865c27000 rwxp 0000c000 fd:00 146237                     /usr/lib64/libavahi-common.so.3.5.3
+7ff865c27000-7ff865c8a000 r-xp 00000000 fd:00 2132355                    /usr/lib64/libcups.so.2
+7ff865c8a000-7ff865e8a000 ---p 00063000 fd:00 2132355                    /usr/lib64/libcups.so.2
+7ff865e8a000-7ff865e8e000 r-xp 00063000 fd:00 2132355                    /usr/lib64/libcups.so.2
+7ff865e8e000-7ff865e8f000 rwxp 00067000 fd:00 2132355                    /usr/lib64/libcups.so.2
+7ff865e8f000-7ff865e90000 rwxp 00000000 00:00 0 
+7ff865e90000-7ff865e91000 r-xp 00000000 00:2b 8320705907                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/undo_gui/undo_gui_tcl.rcc
+7ff865e91000-7ff865e92000 r-xp 00000000 00:2b 8323611302                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/template_designer_gui/template_designer_gui_tcl.rcc
+7ff865e92000-7ff865e94000 r-xp 00000000 00:2b 8323662950                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/object_access/object_access_tcl.rcc
+7ff865e94000-7ff865e98000 r-xp 00000000 00:2b 8323662976                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/opal/opal_tcl.rcc
+7ff865e98000-7ff865eaa000 r-xp 00000000 00:2b 8323663120                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/rule_generation/rule_generation_tcl.rcc
+7ff865eaa000-7ff865f01000 r-xp 00000000 00:2b 8323663040                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/physical_verification/physical_verification_tcl.rcc
+7ff865f01000-7ff865f07000 r-xp 00000000 fd:00 1792785                    /usr/lib64/libnss_dns-2.17.so
+7ff865f07000-7ff866106000 ---p 00006000 fd:00 1792785                    /usr/lib64/libnss_dns-2.17.so
+7ff866106000-7ff866107000 r-xp 00005000 fd:00 1792785                    /usr/lib64/libnss_dns-2.17.so
+7ff866107000-7ff866108000 rwxp 00006000 fd:00 1792785                    /usr/lib64/libnss_dns-2.17.so
+7ff866108000-7ff86610b000 r-xp 00000000 fd:00 2068142                    /usr/lib64/libnss_mdns4_minimal.so.2
+7ff86610b000-7ff86630a000 ---p 00003000 fd:00 2068142                    /usr/lib64/libnss_mdns4_minimal.so.2
+7ff86630a000-7ff86630b000 r-xp 00002000 fd:00 2068142                    /usr/lib64/libnss_mdns4_minimal.so.2
+7ff86630b000-7ff86630c000 rwxp 00003000 fd:00 2068142                    /usr/lib64/libnss_mdns4_minimal.so.2
+7ff86630c000-7ff866325000 r-xp 00000000 00:2b 8320698901                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/tcl-dp/lib/libdp42.so
+7ff866325000-7ff866525000 ---p 00019000 00:2b 8320698901                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/tcl-dp/lib/libdp42.so
+7ff866525000-7ff866526000 r-xp 00019000 00:2b 8320698901                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/tcl-dp/lib/libdp42.so
+7ff866526000-7ff866527000 rwxp 0001a000 00:2b 8320698901                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/tcl-dp/lib/libdp42.so
+7ff866527000-7ff866528000 rwxp 00000000 00:00 0 
+7ff866528000-7ff866529000 ---p 00000000 00:00 0 
+7ff866529000-7ff866d29000 rwxp 00000000 00:00 0 
+7ff866d29000-7ff866d2a000 ---p 00000000 00:00 0 
+7ff866d2a000-7ff86752a000 rwxp 00000000 00:00 0 
+7ff86752a000-7ff867587000 r-xp 00000000 00:2b 8323603791                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/qt/plugins/imageformats/libqwebp.so
+7ff867587000-7ff867786000 ---p 0005d000 00:2b 8323603791                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/qt/plugins/imageformats/libqwebp.so
+7ff867786000-7ff867789000 rwxp 0005c000 00:2b 8323603791                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/qt/plugins/imageformats/libqwebp.so
+7ff867789000-7ff86778e000 r-xp 00000000 00:2b 8323603790                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/qt/plugins/imageformats/libqwbmp.so
+7ff86778e000-7ff86798d000 ---p 00005000 00:2b 8323603790                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/qt/plugins/imageformats/libqwbmp.so
+7ff86798d000-7ff86798e000 rwxp 00004000 00:2b 8323603790                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/qt/plugins/imageformats/libqwbmp.so
+7ff86798e000-7ff8679f1000 r-xp 00000000 fd:00 2100648                    /usr/lib64/libtiff.so.3.9.4
+7ff8679f1000-7ff867bf0000 ---p 00063000 fd:00 2100648                    /usr/lib64/libtiff.so.3.9.4
+7ff867bf0000-7ff867bf2000 r-xp 00062000 fd:00 2100648                    /usr/lib64/libtiff.so.3.9.4
+7ff867bf2000-7ff867bf3000 rwxp 00064000 fd:00 2100648                    /usr/lib64/libtiff.so.3.9.4
+7ff867bf3000-7ff867bfa000 r-xp 00000000 00:2b 8323603784                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/qt/plugins/imageformats/libqtiff.so
+7ff867bfa000-7ff867dfa000 ---p 00007000 00:2b 8323603784                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/qt/plugins/imageformats/libqtiff.so
+7ff867dfa000-7ff867dfb000 rwxp 00007000 00:2b 8323603784                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/qt/plugins/imageformats/libqtiff.so
+7ff867dfb000-7ff867e00000 r-xp 00000000 00:2b 8323603785                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/qt/plugins/imageformats/libqtga.so
+7ff867e00000-7ff867fff000 ---p 00005000 00:2b 8323603785                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/qt/plugins/imageformats/libqtga.so
+7ff867fff000-7ff868000000 rwxp 00004000 00:2b 8323603785                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/qt/plugins/imageformats/libqtga.so
+7ff868000000-7ff868021000 rwxp 00000000 00:00 0 
+7ff868021000-7ff86c000000 ---p 00000000 00:00 0 
+7ff86c000000-7ff86c001000 r-xp 00000000 00:2b 8323611296                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/template_designer_commands/template_designer_commands_tcl.rcc
+7ff86c001000-7ff86c003000 r-xp 00000000 00:2b 8320705577                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/selection_highlighting/selection_highlighting_tcl.rcc
+7ff86c003000-7ff86c004000 r-xp 00000000 00:2b 8320698998                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/hierarchy_commands/hierarchy_commands_tcl.rcc
+7ff86c004000-7ff86c005000 r-xp 00000000 00:2b 8320705552                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/sdl_browser/sdl_browser_tcl.rcc
+7ff86c005000-7ff86c00d000 r-xp 00000000 00:2b 8320705542                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/sdl/sdl_tcl.rcc
+7ff86c00d000-7ff86c00f000 r-xp 00000000 00:2b 8320698973                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/error_viewer/error_viewer_tcl.rcc
+7ff86c00f000-7ff86c010000 r-xp 00000000 00:2b 8320703707                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/report_generation/report_generation_tcl.rcc
+7ff86c010000-7ff86c013000 r-xp 00000000 00:2b 8306087397                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/python/python_tcl.rcc
+7ff86c013000-7ff86c015000 r-xp 00000000 00:2b 8323609307                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/printing/printing_tcl.rcc
+7ff86c015000-7ff86c016000 r-xp 00000000 00:2b 8306087387                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/power_device/power_device_tcl.rcc
+7ff86c016000-7ff86c01d000 r-xp 00000000 00:2b 8323609249                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/pattern_generation/pattern_generation_tcl.rcc
+7ff86c01d000-7ff86c031000 r-xp 00000000 00:2b 8320703567                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/parasitics/parasitics_tcl.rcc
+7ff86c031000-7ff86c033000 r-xp 00000000 00:2b 8306087311                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/parameterized_connections_gui/parameterized_connections_gui_tcl.rcc
+7ff86c033000-7ff86c041000 r-xp 00000000 00:2b 8320699038                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/library_manager/library_manager_tcl.rcc
+7ff86c041000-7ff86c043000 r-xp 00000000 00:2b 8317693751                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/lde_commands/lde_commands_tcl.rcc
+7ff86c043000-7ff86c047000 r-xp 00000000 00:2b 8323604016                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/job_monitor/job_monitor_tcl.rcc
+7ff86c047000-7ff86c04d000 r-xp 00000000 00:2b 8306081835                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/isbr/isbr_tcl.rcc
+7ff86c04d000-7ff86c060000 r-xp 00000000 00:2b 8320698962                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/data_io/data_io_tcl.rcc
+7ff86c060000-7ff86c078000 r-xp 00000000 00:2b 8306081759                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/customsim/customsim_tcl.rcc
+7ff86c078000-7ff86c09b000 r-xp 00000000 00:2b 8320705529                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/schematic_editor/schematic_editor_tcl.rcc
+7ff86c09b000-7ff86c0a0000 r-xp 00000000 00:2b 8323603811                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/base_editor/base_editor_tcl.rcc
+7ff86c0a0000-7ff86c0a9000 r-xp 00000000 00:2b 8323604009                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/job/job_tcl.rcc
+7ff86c0a9000-7ff86c0bb000 r-xp 00000000 00:2b 8323603866                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/constraints/constraints_tcl.rcc
+7ff86c0bb000-7ff86c0bc000 r-xp 00000000 00:2b 8323603986                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/info_commands/info_commands_tcl.rcc
+7ff86c0bc000-7ff86c0be000 r-xp 00000000 00:2b 8320699031                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/home/home_tcl.rcc
+7ff86c0be000-7ff86c0c1000 r-xp 00000000 00:2b 8323603908                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/find_replace/find_replace_tcl.rcc
+7ff86c0c1000-7ff86c0c4000 r-xp 00000000 00:2b 8306081811                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/estimated_parasitics/estimated_parasitics_tcl.rcc
+7ff86c0c4000-7ff86c0c5000 r-xp 00000000 00:2b 8323663054                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/property_editor/property_editor_tcl.rcc
+7ff86c0c5000-7ff86c0c6000 r-xp 00000000 00:2b 8323603901                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/em_backannotation/em_backannotation_tcl.rcc
+7ff86c0c6000-7ff86c0cd000 r-xp 00000000 00:2b 8317693629                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/cellview_generators/cellview_generators_tcl.rcc
+7ff86c0cd000-7ff86c13a000 r-xp 00000000 00:2b 8323603933                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/fonts/DejaVuLGCSans.ttf
+7ff86c13a000-7ff86c152000 r-xs 00000000 fd:00 2066844                    /usr/lib/fontconfig/cache/3ccc04be-b2af-43f4-8b31-b685a6613fa8-le64.cache-7
+7ff86c152000-7ff86c157000 r-xs 00000000 fd:00 5151331                    /usr/lib/fontconfig/cache/cdc6a6df-e37f-4dea-8569-3540fd8f47d0-le64.cache-7
+7ff86c157000-7ff86c159000 r-xs 00000000 fd:00 5150858                    /usr/lib/fontconfig/cache/e375abc1-760c-4e1a-b639-26d7b6431f5e-le64.cache-7
+7ff86c159000-7ff86c15b000 r-xs 00000000 fd:00 5150984                    /usr/lib/fontconfig/cache/0f9e8bfc-41e0-4106-90a8-0ea5f62f102a-le64.cache-7
+7ff86c15b000-7ff86c166000 r-xs 00000000 fd:00 5150839                    /usr/lib/fontconfig/cache/b90108db-7bdb-40d9-9154-eff81427cec6-le64.cache-7
+7ff86c166000-7ff86c16b000 r-xs 00000000 fd:00 2152576                    /usr/lib/fontconfig/cache/42af5e78-bbcc-4eb9-82e5-26711d5d6b26-le64.cache-7
+7ff86c16b000-7ff86c16e000 r-xp 00000000 00:2b 8306081674                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/bookmarks/bookmarks_tcl.rcc
+7ff86c16e000-7ff86c174000 r-xp 00000000 00:2b 8323611310                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/text_editor/text_editor_tcl.rcc
+7ff86c174000-7ff86c176000 r-xp 00000000 00:2b 8306081800                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/design_navigator/design_navigator_tcl.rcc
+7ff86c176000-7ff86c178000 r-xp 00000000 00:2b 8323603895                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/display_resources/display_resources_tcl.rcc
+7ff86c178000-7ff86c17b000 r-xp 00000000 00:2b 8323662959                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/object_layer/object_layer_tcl.rcc
+7ff86c17b000-7ff86c17f000 r-xp 00000000 00:2b 8323609230                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/parameter_editor/parameter_editor_tcl.rcc
+7ff86c17f000-7ff86c183000 r-xp 00000000 00:2b 8323604086                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/netlist_editor/netlist_editor_tcl.rcc
+7ff86c183000-7ff86c188000 r-xp 00000000 00:2b 8323603789                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/qt/plugins/imageformats/libqsvg.so
+7ff86c188000-7ff86c388000 ---p 00005000 00:2b 8323603789                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/qt/plugins/imageformats/libqsvg.so
+7ff86c388000-7ff86c389000 rwxp 00005000 00:2b 8323603789                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/qt/plugins/imageformats/libqsvg.so
+7ff86c389000-7ff86c3cc000 r-xp 00000000 fd:00 1905871                    /usr/lib64/libjpeg.so.62.1.0
+7ff86c3cc000-7ff86c5cc000 ---p 00043000 fd:00 1905871                    /usr/lib64/libjpeg.so.62.1.0
+7ff86c5cc000-7ff86c5cd000 r-xp 00043000 fd:00 1905871                    /usr/lib64/libjpeg.so.62.1.0
+7ff86c5cd000-7ff86c5ce000 rwxp 00044000 fd:00 1905871                    /usr/lib64/libjpeg.so.62.1.0
+7ff86c5ce000-7ff86c5de000 rwxp 00000000 00:00 0 
+7ff86c5de000-7ff86c64b000 r-xp 00000000 fd:00 3511803                    /usr/lib64/libmng.so.1.0.0
+7ff86c64b000-7ff86c84b000 ---p 0006d000 fd:00 3511803                    /usr/lib64/libmng.so.1.0.0
+7ff86c84b000-7ff86c84e000 r-xp 0006d000 fd:00 3511803                    /usr/lib64/libmng.so.1.0.0
+7ff86c84e000-7ff86c850000 rwxp 00070000 fd:00 3511803                    /usr/lib64/libmng.so.1.0.0
+7ff86c850000-7ff86c856000 r-xp 00000000 00:2b 8323603788                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/qt/plugins/imageformats/libqmng.so
+7ff86c856000-7ff86ca55000 ---p 00006000 00:2b 8323603788                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/qt/plugins/imageformats/libqmng.so
+7ff86ca55000-7ff86ca56000 rwxp 00005000 00:2b 8323603788                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/qt/plugins/imageformats/libqmng.so
+7ff86ca56000-7ff86ca96000 r-xp 00000000 00:2b 8317693594                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/qt/plugins/imageformats/libqjpeg.so
+7ff86ca96000-7ff86cc96000 ---p 00040000 00:2b 8317693594                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/qt/plugins/imageformats/libqjpeg.so
+7ff86cc96000-7ff86cc97000 rwxp 00040000 00:2b 8317693594                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/qt/plugins/imageformats/libqjpeg.so
+7ff86cc97000-7ff86cc9e000 r-xp 00000000 00:2b 8323603787                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/qt/plugins/imageformats/libqico.so
+7ff86cc9e000-7ff86ce9d000 ---p 00007000 00:2b 8323603787                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/qt/plugins/imageformats/libqico.so
+7ff86ce9d000-7ff86ce9e000 rwxp 00006000 00:2b 8323603787                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/qt/plugins/imageformats/libqico.so
+7ff86ce9e000-7ff86cea7000 r-xp 00000000 00:2b 8323603786                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/qt/plugins/imageformats/libqicns.so
+7ff86cea7000-7ff86d0a6000 ---p 00009000 00:2b 8323603786                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/qt/plugins/imageformats/libqicns.so
+7ff86d0a6000-7ff86d0a7000 rwxp 00008000 00:2b 8323603786                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/qt/plugins/imageformats/libqicns.so
+7ff86d0a7000-7ff86d0ad000 r-xp 00000000 00:2b 8317693595                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/qt/plugins/imageformats/libqgif.so
+7ff86d0ad000-7ff86d2ad000 ---p 00006000 00:2b 8317693595                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/qt/plugins/imageformats/libqgif.so
+7ff86d2ad000-7ff86d2ae000 rwxp 00006000 00:2b 8317693595                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/qt/plugins/imageformats/libqgif.so
+7ff86d2ae000-7ff86d2b9000 r-xp 00000000 00:2b 8317693596                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/qt/plugins/imageformats/libqdds.so
+7ff86d2b9000-7ff86d4b8000 ---p 0000b000 00:2b 8317693596                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/qt/plugins/imageformats/libqdds.so
+7ff86d4b8000-7ff86d4b9000 rwxp 0000a000 00:2b 8317693596                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/qt/plugins/imageformats/libqdds.so
+7ff86d4b9000-7ff86d4ba000 ---p 00000000 00:00 0 
+7ff86d4ba000-7ff86dcba000 rwxp 00000000 00:00 0 
+7ff86dcba000-7ff86dcf6000 r-xp 00000000 fd:00 135301                     /usr/lib64/libblkid.so.1.1.0
+7ff86dcf6000-7ff86def5000 ---p 0003c000 fd:00 135301                     /usr/lib64/libblkid.so.1.1.0
+7ff86def5000-7ff86def8000 r-xp 0003b000 fd:00 135301                     /usr/lib64/libblkid.so.1.1.0
+7ff86def8000-7ff86def9000 rwxp 0003e000 fd:00 135301                     /usr/lib64/libblkid.so.1.1.0
+7ff86def9000-7ff86defa000 rwxp 00000000 00:00 0 
+7ff86defa000-7ff86df3a000 r-xp 00000000 fd:00 111                        /usr/lib64/libmount.so.1.1.0
+7ff86df3a000-7ff86e13a000 ---p 00040000 fd:00 111                        /usr/lib64/libmount.so.1.1.0
+7ff86e13a000-7ff86e13b000 r-xp 00040000 fd:00 111                        /usr/lib64/libmount.so.1.1.0
+7ff86e13b000-7ff86e13c000 rwxp 00041000 fd:00 111                        /usr/lib64/libmount.so.1.1.0
+7ff86e13c000-7ff86e13d000 rwxp 00000000 00:00 0 
+7ff86e13d000-7ff86e140000 r-xp 00000000 fd:00 2112279                    /usr/lib64/libgmodule-2.0.so.0.5600.1
+7ff86e140000-7ff86e33f000 ---p 00003000 fd:00 2112279                    /usr/lib64/libgmodule-2.0.so.0.5600.1
+7ff86e33f000-7ff86e340000 r-xp 00002000 fd:00 2112279                    /usr/lib64/libgmodule-2.0.so.0.5600.1
+7ff86e340000-7ff86e341000 rwxp 00003000 fd:00 2112279                    /usr/lib64/libgmodule-2.0.so.0.5600.1
+7ff86e341000-7ff86e348000 r-xp 00000000 fd:00 80144                      /usr/lib64/libffi.so.6.0.1
+7ff86e348000-7ff86e547000 ---p 00007000 fd:00 80144                      /usr/lib64/libffi.so.6.0.1
+7ff86e547000-7ff86e548000 r-xp 00006000 fd:00 80144                      /usr/lib64/libffi.so.6.0.1
+7ff86e548000-7ff86e549000 rwxp 00007000 fd:00 80144                      /usr/lib64/libffi.so.6.0.1
+7ff86e549000-7ff86e598000 r-xp 00000000 fd:00 2112281                    /usr/lib64/libgobject-2.0.so.0.5600.1
+7ff86e598000-7ff86e798000 ---p 0004f000 fd:00 2112281                    /usr/lib64/libgobject-2.0.so.0.5600.1
+7ff86e798000-7ff86e799000 r-xp 0004f000 fd:00 2112281                    /usr/lib64/libgobject-2.0.so.0.5600.1
+7ff86e799000-7ff86e79a000 rwxp 00050000 fd:00 2112281                    /usr/lib64/libgobject-2.0.so.0.5600.1
+7ff86e79a000-7ff86e930000 r-xp 00000000 fd:00 376542                     /usr/lib64/libgio-2.0.so.0.5600.1
+7ff86e930000-7ff86eb30000 ---p 00196000 fd:00 376542                     /usr/lib64/libgio-2.0.so.0.5600.1
+7ff86eb30000-7ff86eb35000 r-xp 00196000 fd:00 376542                     /usr/lib64/libgio-2.0.so.0.5600.1
+7ff86eb35000-7ff86eb38000 rwxp 0019b000 fd:00 376542                     /usr/lib64/libgio-2.0.so.0.5600.1
+7ff86eb38000-7ff86eb3a000 rwxp 00000000 00:00 0 
+7ff86eb3a000-7ff86eb60000 r-xp 00000000 fd:00 348084                     /usr/lib64/libdbus-glib-1.so.2.2.2
+7ff86eb60000-7ff86ed60000 ---p 00026000 fd:00 348084                     /usr/lib64/libdbus-glib-1.so.2.2.2
+7ff86ed60000-7ff86ed61000 r-xp 00026000 fd:00 348084                     /usr/lib64/libdbus-glib-1.so.2.2.2
+7ff86ed61000-7ff86ed62000 rwxp 00027000 fd:00 348084                     /usr/lib64/libdbus-glib-1.so.2.2.2
+7ff86ed62000-7ff86ed76000 r-xp 00000000 fd:00 2122175                    /usr/lib64/libudev.so.1.6.2
+7ff86ed76000-7ff86ef76000 ---p 00014000 fd:00 2122175                    /usr/lib64/libudev.so.1.6.2
+7ff86ef76000-7ff86ef77000 r-xp 00014000 fd:00 2122175                    /usr/lib64/libudev.so.1.6.2
+7ff86ef77000-7ff86ef78000 rwxp 00015000 fd:00 2122175                    /usr/lib64/libudev.so.1.6.2
+7ff86ef78000-7ff86ef79000 r-xs 00000000 fd:00 3047012                    /usr/lib/fontconfig/cache/714f19b0-f021-44a3-b32c-f79289600af8-le64.cache-7
+7ff86ef79000-7ff86ef7a000 r-xp 00000000 00:2b 8323603888                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/device_palette/device_palette_tcl.rcc
+7ff86ef7a000-7ff86ef7c000 r-xp 00000000 00:2b 8317693740                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/integrated_tool_help/integrated_tool_help_tcl.rcc
+7ff86ef7c000-7ff86ef80000 r-xp 00000000 00:2b 8306087299                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/parameter_evaluation/parameter_evaluation_tcl.rcc
+7ff86ef80000-7ff86ef92000 r-xp 00000000 00:2b 8323604026                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/layout_editor/layout_editor_tcl.rcc
+7ff86ef92000-7ff86efcc000 r-xp 00000000 00:2b 8306072379                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/libsnpsLibDef.so
+7ff86efcc000-7ff86f1cc000 ---p 0003a000 00:2b 8306072379                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/libsnpsLibDef.so
+7ff86f1cc000-7ff86f1cd000 r-xp 0003a000 00:2b 8306072379                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/libsnpsLibDef.so
+7ff86f1cd000-7ff86f1ce000 rwxp 0003b000 00:2b 8306072379                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/libsnpsLibDef.so
+7ff86f1ce000-7ff86f1cf000 rwxp 00000000 00:00 0 
+7ff86f1cf000-7ff86f1eb000 r-xp 00000000 00:2b 8323603931                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/fonts/INFOT_Synopsys.ttf
+7ff86f1eb000-7ff86f1fd000 r-xp 00000000 00:2b 8317693715                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/fonts/luxisb.ttf
+7ff86f1fd000-7ff86f20e000 r-xp 00000000 00:2b 8306081821                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/fonts/luxisr.ttf
+7ff86f20e000-7ff86f220000 r-xp 00000000 00:2b 8323603939                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/fonts/COUR.ttf
+7ff86f220000-7ff86f232000 r-xp 00000000 00:2b 8323603939                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/fonts/COUR.ttf
+7ff86f232000-7ff86f244000 r-xp 00000000 00:2b 8323603939                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/fonts/COUR.ttf
+7ff86f244000-7ff86f260000 r-xp 00000000 00:2b 8323603931                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/fonts/INFOT_Synopsys.ttf
+7ff86f260000-7ff86f278000 r-xp 00000000 00:2b 8317693716                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/fonts/AM196___.TTF
+7ff86f278000-7ff86f2aa000 r-xp 00000000 00:2b 8306081815                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/fonts/TNR_WG__.ttf
+7ff86f2aa000-7ff86f2dc000 r-xp 00000000 00:2b 8306081815                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/fonts/TNR_WG__.ttf
+7ff86f2dc000-7ff86f881000 r-xp 00000000 00:2b 8323603961                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/images/images.rcc
+7ff86f881000-7ff86f894000 r-xp 00000000 00:2b 8319728369                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTclEngine.so
+7ff86f894000-7ff86fa93000 ---p 00013000 00:2b 8319728369                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTclEngine.so
+7ff86fa93000-7ff86fa94000 r-xp 00012000 00:2b 8319728369                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTclEngine.so
+7ff86fa94000-7ff86fa95000 rwxp 00013000 00:2b 8319728369                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTclEngine.so
+7ff86fa95000-7ff86fbbe000 rwxp 00000000 00:00 0 
+7ff86fbbe000-7ff86fbc7000 r-xp 00000000 00:2b 8306072380                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaNativeLock.so
+7ff86fbc7000-7ff86fdc7000 ---p 00009000 00:2b 8306072380                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaNativeLock.so
+7ff86fdc7000-7ff86fdc8000 r-xp 00009000 00:2b 8306072380                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaNativeLock.so
+7ff86fdc8000-7ff86fdc9000 rwxp 0000a000 00:2b 8306072380                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaNativeLock.so
+7ff86fdc9000-7ff86fe0b000 r-xp 00000000 00:2b 8306081633                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/qt/plugins/platforminputcontexts/libcomposeplatforminputcontextplugin.so
+7ff86fe0b000-7ff87000b000 ---p 00042000 00:2b 8306081633                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/qt/plugins/platforminputcontexts/libcomposeplatforminputcontextplugin.so
+7ff87000b000-7ff87000d000 rwxp 00042000 00:2b 8306081633                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/qt/plugins/platforminputcontexts/libcomposeplatforminputcontextplugin.so
+7ff87000d000-7ff87000e000 ---p 00000000 00:00 0 
+7ff87000e000-7ff87080e000 rwxp 00000000 00:00 0 
+7ff87080e000-7ff87081d000 r-xp 00000000 fd:00 80011                      /usr/lib64/libbz2.so.1.0.6
+7ff87081d000-7ff870a1c000 ---p 0000f000 fd:00 80011                      /usr/lib64/libbz2.so.1.0.6
+7ff870a1c000-7ff870a1d000 r-xp 0000e000 fd:00 80011                      /usr/lib64/libbz2.so.1.0.6
+7ff870a1d000-7ff870a1e000 rwxp 0000f000 fd:00 80011                      /usr/lib64/libbz2.so.1.0.6
+7ff870a1e000-7ff870a35000 r-xp 00000000 fd:00 2139729                    /usr/lib64/libelf-0.176.so
+7ff870a35000-7ff870c34000 ---p 00017000 fd:00 2139729                    /usr/lib64/libelf-0.176.so
+7ff870c34000-7ff870c35000 r-xp 00016000 fd:00 2139729                    /usr/lib64/libelf-0.176.so
+7ff870c35000-7ff870c36000 rwxp 00017000 fd:00 2139729                    /usr/lib64/libelf-0.176.so
+7ff870c36000-7ff870c3a000 r-xp 00000000 fd:00 80129                      /usr/lib64/libattr.so.1.1.0
+7ff870c3a000-7ff870e39000 ---p 00004000 fd:00 80129                      /usr/lib64/libattr.so.1.1.0
+7ff870e39000-7ff870e3a000 r-xp 00003000 fd:00 80129                      /usr/lib64/libattr.so.1.1.0
+7ff870e3a000-7ff870e3b000 rwxp 00004000 fd:00 80129                      /usr/lib64/libattr.so.1.1.0
+7ff870e3b000-7ff870e89000 r-xp 00000000 fd:00 1842684                    /usr/lib64/libdw-0.176.so
+7ff870e89000-7ff871089000 ---p 0004e000 fd:00 1842684                    /usr/lib64/libdw-0.176.so
+7ff871089000-7ff87108b000 r-xp 0004e000 fd:00 1842684                    /usr/lib64/libdw-0.176.so
+7ff87108b000-7ff87108c000 rwxp 00050000 fd:00 1842684                    /usr/lib64/libdw-0.176.so
+7ff87108c000-7ff871090000 r-xp 00000000 fd:00 80150                      /usr/lib64/libgpg-error.so.0.10.0
+7ff871090000-7ff87128f000 ---p 00004000 fd:00 80150                      /usr/lib64/libgpg-error.so.0.10.0
+7ff87128f000-7ff871290000 r-xp 00003000 fd:00 80150                      /usr/lib64/libgpg-error.so.0.10.0
+7ff871290000-7ff871291000 rwxp 00004000 fd:00 80150                      /usr/lib64/libgpg-error.so.0.10.0
+7ff871291000-7ff87130e000 r-xp 00000000 fd:00 80153                      /usr/lib64/libgcrypt.so.11.8.2
+7ff87130e000-7ff87150d000 ---p 0007d000 fd:00 80153                      /usr/lib64/libgcrypt.so.11.8.2
+7ff87150d000-7ff87150e000 r-xp 0007c000 fd:00 80153                      /usr/lib64/libgcrypt.so.11.8.2
+7ff87150e000-7ff871511000 rwxp 0007d000 fd:00 80153                      /usr/lib64/libgcrypt.so.11.8.2
+7ff871511000-7ff871512000 rwxp 00000000 00:00 0 
+7ff871512000-7ff871520000 r-xp 00000000 fd:00 80365                      /usr/lib64/liblz4.so.1.8.3
+7ff871520000-7ff87171f000 ---p 0000e000 fd:00 80365                      /usr/lib64/liblz4.so.1.8.3
+7ff87171f000-7ff871720000 r-xp 0000d000 fd:00 80365                      /usr/lib64/liblz4.so.1.8.3
+7ff871720000-7ff871721000 rwxp 0000e000 fd:00 80365                      /usr/lib64/liblz4.so.1.8.3
+7ff871721000-7ff871725000 r-xp 00000000 fd:00 40676                      /usr/lib64/libcap.so.2.22
+7ff871725000-7ff871924000 ---p 00004000 fd:00 40676                      /usr/lib64/libcap.so.2.22
+7ff871924000-7ff871925000 r-xp 00003000 fd:00 40676                      /usr/lib64/libcap.so.2.22
+7ff871925000-7ff871926000 rwxp 00004000 fd:00 40676                      /usr/lib64/libcap.so.2.22
+7ff871926000-7ff871955000 r-xp 00000000 fd:00 1871256                    /usr/lib64/libsystemd.so.0.6.0
+7ff871955000-7ff871b55000 ---p 0002f000 fd:00 1871256                    /usr/lib64/libsystemd.so.0.6.0
+7ff871b55000-7ff871b56000 r-xp 0002f000 fd:00 1871256                    /usr/lib64/libsystemd.so.0.6.0
+7ff871b56000-7ff871b57000 rwxp 00030000 fd:00 1871256                    /usr/lib64/libsystemd.so.0.6.0
+7ff871b57000-7ff871bdb000 r-xp 00000000 00:2b 8306081505                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5DBus.so.5.6.2
+7ff871bdb000-7ff871dda000 ---p 00084000 00:2b 8306081505                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5DBus.so.5.6.2
+7ff871dda000-7ff871ddd000 rwxp 00083000 00:2b 8306081505                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5DBus.so.5.6.2
+7ff871ddd000-7ff871df7000 r-xp 00000000 00:2b 8306081516                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libxcb-xkb.so.1.0.0
+7ff871df7000-7ff871ff7000 ---p 0001a000 00:2b 8306081516                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libxcb-xkb.so.1.0.0
+7ff871ff7000-7ff871ff8000 rwxp 0001a000 00:2b 8306081516                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libxcb-xkb.so.1.0.0
+7ff871ff8000-7ff871ffa000 r-xp 00000000 00:2b 8306081515                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libxcb-xinerama.so.0.0.0
+7ff871ffa000-7ff8721f9000 ---p 00002000 00:2b 8306081515                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libxcb-xinerama.so.0.0.0
+7ff8721f9000-7ff8721fa000 rwxp 00001000 00:2b 8306081515                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libxcb-xinerama.so.0.0.0
+7ff8721fa000-7ff8721fc000 r-xp 00000000 00:2b 8323603688                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libxcb-keysyms.so.1.0.0
+7ff8721fc000-7ff8723fb000 ---p 00002000 00:2b 8323603688                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libxcb-keysyms.so.1.0.0
+7ff8723fb000-7ff8723fc000 rwxp 00001000 00:2b 8323603688                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libxcb-keysyms.so.1.0.0
+7ff8723fc000-7ff8723fe000 r-xp 00000000 00:2b 8323603693                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libxcb-shape.so.0.0.0
+7ff8723fe000-7ff8725fe000 ---p 00002000 00:2b 8323603693                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libxcb-shape.so.0.0.0
+7ff8725fe000-7ff8725ff000 rwxp 00002000 00:2b 8323603693                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libxcb-shape.so.0.0.0
+7ff8725ff000-7ff8754ee000 r-xp 00000000 00:2b 8320688738                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/platform/lib/libprimewave.so
+7ff8754ee000-7ff8756df000 r-xp 02eee000 00:2b 8320688738                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/platform/lib/libprimewave.so
+7ff8756df000-7ff87576c000 rwxp 030df000 00:2b 8320688738                 /mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/linux64/platform/lib/libprimewave.so
+7ff87576c000-7ff875abd000 rwxp 00000000 00:00 0 
+7ff875abd000-7ff87c000000 r-xp 00000000 fd:00 268518553                  /usr/lib/locale/locale-archive
+7ff87c000000-7ff87c027000 rwxp 00000000 00:00 0 
+7ff87c027000-7ff880000000 ---p 00000000 00:00 0 
+7ff880000000-7ff88000f000 r-xp 00000000 00:2b 8323603932                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/fonts/INFOL___.TTF
+7ff88000f000-7ff88001b000 r-xp 00000000 00:2b 8306081820                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/fonts/td______.pfb
+7ff88001b000-7ff8800e1000 rwxp 00000000 00:00 0 
+7ff8800e1000-7ff8800e5000 r-xp 00000000 00:2b 8306081506                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libxcb-icccm.so.4.0.0
+7ff8800e5000-7ff8802e4000 ---p 00004000 00:2b 8306081506                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libxcb-icccm.so.4.0.0
+7ff8802e4000-7ff8802e5000 rwxp 00003000 00:2b 8306081506                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libxcb-icccm.so.4.0.0
+7ff8802e5000-7ff880333000 r-xp 00000000 fd:00 1889490                    /usr/lib64/libdbus-1.so.3.14.14
+7ff880333000-7ff880532000 ---p 0004e000 fd:00 1889490                    /usr/lib64/libdbus-1.so.3.14.14
+7ff880532000-7ff880533000 r-xp 0004d000 fd:00 1889490                    /usr/lib64/libdbus-1.so.3.14.14
+7ff880533000-7ff880534000 rwxp 0004e000 fd:00 1889490                    /usr/lib64/libdbus-1.so.3.14.14
+7ff880534000-7ff880535000 rwxp 00000000 00:00 0 
+7ff880535000-7ff880538000 r-xp 00000000 00:2b 8320698795                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libxcb-render-util.so.0.0.0
+7ff880538000-7ff880737000 ---p 00003000 00:2b 8320698795                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libxcb-render-util.so.0.0.0
+7ff880737000-7ff880738000 rwxp 00002000 00:2b 8320698795                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libxcb-render-util.so.0.0.0
+7ff880738000-7ff880739000 r-xp 00000000 00:2b 8317693497                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libX11-xcb.so.1.0.0
+7ff880739000-7ff880938000 ---p 00001000 00:2b 8317693497                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libX11-xcb.so.1.0.0
+7ff880938000-7ff880939000 rwxp 00000000 00:2b 8317693497                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libX11-xcb.so.1.0.0
+7ff880939000-7ff880a51000 r-xp 00000000 00:2b 8320698779                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5XcbQpa.so.5.6.2
+7ff880a51000-7ff880c50000 ---p 00118000 00:2b 8320698779                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5XcbQpa.so.5.6.2
+7ff880c50000-7ff880c59000 rwxp 00117000 00:2b 8320698779                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5XcbQpa.so.5.6.2
+7ff880c59000-7ff880c5b000 r-xp 00000000 00:2b 8306081635                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/qt/plugins/platforms/libqxcb.so
+7ff880c5b000-7ff880e5b000 ---p 00002000 00:2b 8306081635                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/qt/plugins/platforms/libqxcb.so
+7ff880e5b000-7ff880e5c000 rwxp 00002000 00:2b 8306081635                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/qt/plugins/platforms/libqxcb.so
+7ff880e5c000-7ff880f5d000 rwxp 00000000 00:00 0 
+7ff880f5d000-7ff880f82000 r-xp 00000000 fd:00 80002                      /usr/lib64/liblzma.so.5.2.2
+7ff880f82000-7ff881181000 ---p 00025000 fd:00 80002                      /usr/lib64/liblzma.so.5.2.2
+7ff881181000-7ff881182000 r-xp 00024000 fd:00 80002                      /usr/lib64/liblzma.so.5.2.2
+7ff881182000-7ff881183000 rwxp 00025000 fd:00 80002                      /usr/lib64/liblzma.so.5.2.2
+7ff881183000-7ff8812e1000 r-xp 00000000 fd:00 2144445                    /usr/lib64/libxml2.so.2.9.1
+7ff8812e1000-7ff8814e1000 ---p 0015e000 fd:00 2144445                    /usr/lib64/libxml2.so.2.9.1
+7ff8814e1000-7ff8814e9000 r-xp 0015e000 fd:00 2144445                    /usr/lib64/libxml2.so.2.9.1
+7ff8814e9000-7ff8814eb000 rwxp 00166000 fd:00 2144445                    /usr/lib64/libxml2.so.2.9.1
+7ff8814eb000-7ff8814ed000 rwxp 00000000 00:00 0 
+7ff8814ed000-7ff88171c000 r-xp 00000000 00:2b 8317693510                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libnsys.so
+7ff88171c000-7ff88171d000 ---p 0022f000 00:2b 8317693510                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libnsys.so
+7ff88171d000-7ff881726000 r-xp 0022f000 00:2b 8317693510                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libnsys.so
+7ff881726000-7ff88172a000 rwxp 00238000 00:2b 8317693510                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libnsys.so
+7ff88172a000-7ff881740000 rwxp 00000000 00:00 0 
+7ff881740000-7ff8826ee000 r-xp 00000000 00:2b 8320698785                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libnffr.so
+7ff8826ee000-7ff882754000 r-xp 00fad000 00:2b 8320698785                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libnffr.so
+7ff882754000-7ff882786000 rwxp 01013000 00:2b 8320698785                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libnffr.so
+7ff882786000-7ff8832a4000 rwxp 00000000 00:00 0 
+7ff8832a4000-7ff8832a5000 ---p 00000000 00:00 0 
+7ff8832a5000-7ff8844a6000 rwxp 00000000 00:00 0 
+7ff8844a6000-7ff884dbe000 rwxs 00000000 00:04 2392115                    /SYSVffef4482 (deleted)
+7ff884dbe000-7ff884ebf000 rwxp 00000000 00:00 0 
+7ff884ebf000-7ff88572a000 r-xs 00000000 fd:00 1116209                    /var/lib/sss/mc/passwd
+7ff88572a000-7ff885732000 r-xp 00000000 fd:00 2061124                    /usr/lib64/libnss_sss.so.2
+7ff885732000-7ff885931000 ---p 00008000 fd:00 2061124                    /usr/lib64/libnss_sss.so.2
+7ff885931000-7ff885932000 r-xp 00007000 fd:00 2061124                    /usr/lib64/libnss_sss.so.2
+7ff885932000-7ff885933000 rwxp 00008000 fd:00 2061124                    /usr/lib64/libnss_sss.so.2
+7ff885933000-7ff88593f000 r-xp 00000000 fd:00 1945762                    /usr/lib64/libnss_files-2.17.so
+7ff88593f000-7ff885b3e000 ---p 0000c000 fd:00 1945762                    /usr/lib64/libnss_files-2.17.so
+7ff885b3e000-7ff885b3f000 r-xp 0000b000 fd:00 1945762                    /usr/lib64/libnss_files-2.17.so
+7ff885b3f000-7ff885b40000 rwxp 0000c000 fd:00 1945762                    /usr/lib64/libnss_files-2.17.so
+7ff885b40000-7ff885b46000 rwxp 00000000 00:00 0 
+7ff885b46000-7ff885b6a000 r-xp 00000000 fd:00 40662                      /usr/lib64/libselinux.so.1
+7ff885b6a000-7ff885d69000 ---p 00024000 fd:00 40662                      /usr/lib64/libselinux.so.1
+7ff885d69000-7ff885d6a000 r-xp 00023000 fd:00 40662                      /usr/lib64/libselinux.so.1
+7ff885d6a000-7ff885d6b000 rwxp 00024000 fd:00 40662                      /usr/lib64/libselinux.so.1
+7ff885d6b000-7ff885d6d000 rwxp 00000000 00:00 0 
+7ff885d6d000-7ff885d83000 r-xp 00000000 fd:00 1945764                    /usr/lib64/libresolv-2.17.so
+7ff885d83000-7ff885f83000 ---p 00016000 fd:00 1945764                    /usr/lib64/libresolv-2.17.so
+7ff885f83000-7ff885f84000 r-xp 00016000 fd:00 1945764                    /usr/lib64/libresolv-2.17.so
+7ff885f84000-7ff885f85000 rwxp 00017000 fd:00 1945764                    /usr/lib64/libresolv-2.17.so
+7ff885f85000-7ff885f87000 rwxp 00000000 00:00 0 
+7ff885f87000-7ff885f8a000 r-xp 00000000 fd:00 80380                      /usr/lib64/libkeyutils.so.1.5
+7ff885f8a000-7ff886189000 ---p 00003000 fd:00 80380                      /usr/lib64/libkeyutils.so.1.5
+7ff886189000-7ff88618a000 r-xp 00002000 fd:00 80380                      /usr/lib64/libkeyutils.so.1.5
+7ff88618a000-7ff88618b000 rwxp 00003000 fd:00 80380                      /usr/lib64/libkeyutils.so.1.5
+7ff88618b000-7ff886199000 r-xp 00000000 fd:00 146228                     /usr/lib64/libkrb5support.so.0.1
+7ff886199000-7ff886399000 ---p 0000e000 fd:00 146228                     /usr/lib64/libkrb5support.so.0.1
+7ff886399000-7ff88639a000 r-xp 0000e000 fd:00 146228                     /usr/lib64/libkrb5support.so.0.1
+7ff88639a000-7ff88639b000 rwxp 0000f000 fd:00 146228                     /usr/lib64/libkrb5support.so.0.1
+7ff88639b000-7ff8863cc000 r-xp 00000000 fd:00 2126723                    /usr/lib64/libk5crypto.so.3.1
+7ff8863cc000-7ff8865cb000 ---p 00031000 fd:00 2126723                    /usr/lib64/libk5crypto.so.3.1
+7ff8865cb000-7ff8865cd000 r-xp 00030000 fd:00 2126723                    /usr/lib64/libk5crypto.so.3.1
+7ff8865cd000-7ff8865ce000 rwxp 00032000 fd:00 2126723                    /usr/lib64/libk5crypto.so.3.1
+7ff8865ce000-7ff8865d1000 r-xp 00000000 fd:00 40664                      /usr/lib64/libcom_err.so.2.1
+7ff8865d1000-7ff8867d0000 ---p 00003000 fd:00 40664                      /usr/lib64/libcom_err.so.2.1
+7ff8867d0000-7ff8867d1000 r-xp 00002000 fd:00 40664                      /usr/lib64/libcom_err.so.2.1
+7ff8867d1000-7ff8867d2000 rwxp 00003000 fd:00 40664                      /usr/lib64/libcom_err.so.2.1
+7ff8867d2000-7ff8868ab000 r-xp 00000000 fd:00 146226                     /usr/lib64/libkrb5.so.3.3
+7ff8868ab000-7ff886aaa000 ---p 000d9000 fd:00 146226                     /usr/lib64/libkrb5.so.3.3
+7ff886aaa000-7ff886ab8000 r-xp 000d8000 fd:00 146226                     /usr/lib64/libkrb5.so.3.3
+7ff886ab8000-7ff886abb000 rwxp 000e6000 fd:00 146226                     /usr/lib64/libkrb5.so.3.3
+7ff886abb000-7ff886b05000 r-xp 00000000 fd:00 146219                     /usr/lib64/libgssapi_krb5.so.2.2
+7ff886b05000-7ff886d05000 ---p 0004a000 fd:00 146219                     /usr/lib64/libgssapi_krb5.so.2.2
+7ff886d05000-7ff886d06000 r-xp 0004a000 fd:00 146219                     /usr/lib64/libgssapi_krb5.so.2.2
+7ff886d06000-7ff886d08000 rwxp 0004b000 fd:00 146219                     /usr/lib64/libgssapi_krb5.so.2.2
+7ff886d08000-7ff886d0a000 r-xp 00000000 fd:00 1792801                    /usr/lib64/libutil-2.17.so
+7ff886d0a000-7ff886f09000 ---p 00002000 fd:00 1792801                    /usr/lib64/libutil-2.17.so
+7ff886f09000-7ff886f0a000 r-xp 00001000 fd:00 1792801                    /usr/lib64/libutil-2.17.so
+7ff886f0a000-7ff886f0b000 rwxp 00002000 fd:00 1792801                    /usr/lib64/libutil-2.17.so
+7ff886f0b000-7ff886f31000 r-xp 00000000 00:2b 8320693364                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/PyCellStudio/linux64/lib/libexpat.so.1
+7ff886f31000-7ff887130000 ---p 00026000 00:2b 8320693364                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/PyCellStudio/linux64/lib/libexpat.so.1
+7ff887130000-7ff887133000 rwxp 00025000 00:2b 8320693364                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/PyCellStudio/linux64/lib/libexpat.so.1
+7ff887133000-7ff887138000 r-xp 00000000 fd:00 3551889                    /usr/lib64/libXdmcp.so.6.0.0
+7ff887138000-7ff887337000 ---p 00005000 fd:00 3551889                    /usr/lib64/libXdmcp.so.6.0.0
+7ff887337000-7ff887338000 r-xp 00004000 fd:00 3551889                    /usr/lib64/libXdmcp.so.6.0.0
+7ff887338000-7ff887339000 rwxp 00005000 fd:00 3551889                    /usr/lib64/libXdmcp.so.6.0.0
+7ff887339000-7ff88733b000 r-xp 00000000 fd:00 3575519                    /usr/lib64/libXau.so.6.0.0
+7ff88733b000-7ff88753b000 ---p 00002000 fd:00 3575519                    /usr/lib64/libXau.so.6.0.0
+7ff88753b000-7ff88753c000 r-xp 00002000 fd:00 3575519                    /usr/lib64/libXau.so.6.0.0
+7ff88753c000-7ff88753d000 rwxp 00003000 fd:00 3575519                    /usr/lib64/libXau.so.6.0.0
+7ff88753d000-7ff887542000 r-xp 00000000 fd:00 2099867                    /usr/lib64/libXfixes.so.3.1.0
+7ff887542000-7ff887741000 ---p 00005000 fd:00 2099867                    /usr/lib64/libXfixes.so.3.1.0
+7ff887741000-7ff887742000 r-xp 00004000 fd:00 2099867                    /usr/lib64/libXfixes.so.3.1.0
+7ff887742000-7ff887743000 rwxp 00005000 fd:00 2099867                    /usr/lib64/libXfixes.so.3.1.0
+7ff887743000-7ff887747000 r-xp 00000000 fd:00 2126931                    /usr/lib64/libuuid.so.1.3.0
+7ff887747000-7ff887946000 ---p 00004000 fd:00 2126931                    /usr/lib64/libuuid.so.1.3.0
+7ff887946000-7ff887947000 r-xp 00003000 fd:00 2126931                    /usr/lib64/libuuid.so.1.3.0
+7ff887947000-7ff887948000 rwxp 00004000 fd:00 2126931                    /usr/lib64/libuuid.so.1.3.0
+7ff887948000-7ff8879a8000 r-xp 00000000 fd:00 79980                      /usr/lib64/libpcre.so.1.2.0
+7ff8879a8000-7ff887ba8000 ---p 00060000 fd:00 79980                      /usr/lib64/libpcre.so.1.2.0
+7ff887ba8000-7ff887ba9000 r-xp 00060000 fd:00 79980                      /usr/lib64/libpcre.so.1.2.0
+7ff887ba9000-7ff887baa000 rwxp 00061000 fd:00 79980                      /usr/lib64/libpcre.so.1.2.0
+7ff887baa000-7ff887dde000 r-xp 00000000 00:2b 8320698772                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libcrypto.so.1.0.2k
+7ff887dde000-7ff887fde000 ---p 00234000 00:2b 8320698772                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libcrypto.so.1.0.2k
+7ff887fde000-7ff887ffa000 r-xp 00234000 00:2b 8320698772                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libcrypto.so.1.0.2k
+7ff887ffa000-7ff888007000 rwxp 00250000 00:2b 8320698772                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libcrypto.so.1.0.2k
+7ff888007000-7ff88800b000 rwxp 00000000 00:00 0 
+7ff88800b000-7ff888072000 r-xp 00000000 00:2b 8317693484                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libssl.so.1.0.2k
+7ff888072000-7ff888272000 ---p 00067000 00:2b 8317693484                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libssl.so.1.0.2k
+7ff888272000-7ff888276000 r-xp 00067000 00:2b 8317693484                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libssl.so.1.0.2k
+7ff888276000-7ff88827d000 rwxp 0006b000 00:2b 8317693484                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libssl.so.1.0.2k
+7ff88827d000-7ff88827f000 r-xp 00000000 fd:00 78735                      /usr/lib64/libfreebl3.so
+7ff88827f000-7ff88847e000 ---p 00002000 fd:00 78735                      /usr/lib64/libfreebl3.so
+7ff88847e000-7ff88847f000 r-xp 00001000 fd:00 78735                      /usr/lib64/libfreebl3.so
+7ff88847f000-7ff888480000 rwxp 00002000 fd:00 78735                      /usr/lib64/libfreebl3.so
+7ff888480000-7ff888601000 r-xp 00000000 00:2b 8317688543                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/PyCellStudio/linux64/3rd/Python/lib/libpythonSV2.6.so.1.0
+7ff888601000-7ff888602000 ---p 00181000 00:2b 8317688543                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/PyCellStudio/linux64/3rd/Python/lib/libpythonSV2.6.so.1.0
+7ff888602000-7ff888603000 r-xp 00181000 00:2b 8317688543                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/PyCellStudio/linux64/3rd/Python/lib/libpythonSV2.6.so.1.0
+7ff888603000-7ff88863d000 rwxp 00182000 00:2b 8317688543                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/PyCellStudio/linux64/3rd/Python/lib/libpythonSV2.6.so.1.0
+7ff88863d000-7ff88864c000 rwxp 00000000 00:00 0 
+7ff88864c000-7ff888810000 r-xp 00000000 fd:00 79720                      /usr/lib64/libc-2.17.so
+7ff888810000-7ff888a0f000 ---p 001c4000 fd:00 79720                      /usr/lib64/libc-2.17.so
+7ff888a0f000-7ff888a13000 r-xp 001c3000 fd:00 79720                      /usr/lib64/libc-2.17.so
+7ff888a13000-7ff888a15000 rwxp 001c7000 fd:00 79720                      /usr/lib64/libc-2.17.so
+7ff888a15000-7ff888a1a000 rwxp 00000000 00:00 0 
+7ff888a1a000-7ff888a30000 r-xp 00000000 00:2b 8317693483                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libgcc_s.so.1
+7ff888a30000-7ff888c30000 ---p 00016000 00:2b 8317693483                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libgcc_s.so.1
+7ff888c30000-7ff888c31000 r-xp 00016000 00:2b 8317693483                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libgcc_s.so.1
+7ff888c31000-7ff888c32000 rwxp 00017000 00:2b 8317693483                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libgcc_s.so.1
+7ff888c32000-7ff888c67000 r-xp 00000000 00:2b 8317693504                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libgomp.so.1.0.0
+7ff888c67000-7ff888e66000 ---p 00035000 00:2b 8317693504                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libgomp.so.1.0.0
+7ff888e66000-7ff888e67000 r-xp 00034000 00:2b 8317693504                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libgomp.so.1.0.0
+7ff888e67000-7ff888e68000 rwxp 00035000 00:2b 8317693504                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libgomp.so.1.0.0
+7ff888e68000-7ff888e6a000 r-xp 00000000 fd:00 1945756                    /usr/lib64/libdl-2.17.so
+7ff888e6a000-7ff88906a000 ---p 00002000 fd:00 1945756                    /usr/lib64/libdl-2.17.so
+7ff88906a000-7ff88906b000 r-xp 00002000 fd:00 1945756                    /usr/lib64/libdl-2.17.so
+7ff88906b000-7ff88906c000 rwxp 00003000 fd:00 1945756                    /usr/lib64/libdl-2.17.so
+7ff88906c000-7ff889073000 r-xp 00000000 fd:00 1945765                    /usr/lib64/librt-2.17.so
+7ff889073000-7ff889272000 ---p 00007000 fd:00 1945765                    /usr/lib64/librt-2.17.so
+7ff889272000-7ff889273000 r-xp 00006000 fd:00 1945765                    /usr/lib64/librt-2.17.so
+7ff889273000-7ff889274000 rwxp 00007000 fd:00 1945765                    /usr/lib64/librt-2.17.so
+7ff889274000-7ff889276000 r-xp 00000000 fd:00 1892702                    /usr/lib64/libXss.so.1.0.0
+7ff889276000-7ff889476000 ---p 00002000 fd:00 1892702                    /usr/lib64/libXss.so.1.0.0
+7ff889476000-7ff889477000 r-xp 00002000 fd:00 1892702                    /usr/lib64/libXss.so.1.0.0
+7ff889477000-7ff889478000 rwxp 00003000 fd:00 1892702                    /usr/lib64/libXss.so.1.0.0
+7ff889478000-7ff88948d000 r-xp 00000000 fd:00 3065261                    /usr/lib64/libXft.so.2.3.2
+7ff88948d000-7ff88968c000 ---p 00015000 fd:00 3065261                    /usr/lib64/libXft.so.2.3.2
+7ff88968c000-7ff88968d000 r-xp 00014000 fd:00 3065261                    /usr/lib64/libXft.so.2.3.2
+7ff88968d000-7ff88968e000 rwxp 00015000 fd:00 3065261                    /usr/lib64/libXft.so.2.3.2
+7ff88968e000-7ff8897c8000 r-xp 00000000 00:2b 8323603703                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libtk-O.so
+7ff8897c8000-7ff8897de000 r-xp 00139000 00:2b 8323603703                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libtk-O.so
+7ff8897de000-7ff8897e8000 rwxp 0014f000 00:2b 8323603703                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libtk-O.so
+7ff8897e8000-7ff88991f000 r-xp 00000000 00:2b 8323603695                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libX11.so.6.3.0
+7ff88991f000-7ff889b1f000 ---p 00137000 00:2b 8323603695                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libX11.so.6.3.0
+7ff889b1f000-7ff889b25000 rwxp 00137000 00:2b 8323603695                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libX11.so.6.3.0
+7ff889b25000-7ff889b36000 r-xp 00000000 fd:00 1905906                    /usr/lib64/libXext.so.6.4.0
+7ff889b36000-7ff889d35000 ---p 00011000 fd:00 1905906                    /usr/lib64/libXext.so.6.4.0
+7ff889d35000-7ff889d36000 r-xp 00010000 fd:00 1905906                    /usr/lib64/libXext.so.6.4.0
+7ff889d36000-7ff889d37000 rwxp 00011000 fd:00 1905906                    /usr/lib64/libXext.so.6.4.0
+7ff889d37000-7ff889d77000 r-xp 00000000 fd:00 3065220                    /usr/lib64/libfontconfig.so.1.11.1
+7ff889d77000-7ff889f76000 ---p 00040000 fd:00 3065220                    /usr/lib64/libfontconfig.so.1.11.1
+7ff889f76000-7ff889f78000 r-xp 0003f000 fd:00 3065220                    /usr/lib64/libfontconfig.so.1.11.1
+7ff889f78000-7ff889f79000 rwxp 00041000 fd:00 3065220                    /usr/lib64/libfontconfig.so.1.11.1
+7ff889f79000-7ff889f7d000 r-xp 00000000 00:2b 8306081514                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libxcb-util.so.1.0.0
+7ff889f7d000-7ff88a17d000 ---p 00004000 00:2b 8306081514                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libxcb-util.so.1.0.0
+7ff88a17d000-7ff88a17e000 rwxp 00004000 00:2b 8306081514                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libxcb-util.so.1.0.0
+7ff88a17e000-7ff88a180000 r-xp 00000000 00:2b 8320698782                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libxcb-shm.so.0.0.0
+7ff88a180000-7ff88a37f000 ---p 00002000 00:2b 8320698782                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libxcb-shm.so.0.0.0
+7ff88a37f000-7ff88a380000 rwxp 00001000 00:2b 8320698782                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libxcb-shm.so.0.0.0
+7ff88a380000-7ff88a384000 r-xp 00000000 00:2b 8323603711                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libxcb-image.so.0.0.0
+7ff88a384000-7ff88a583000 ---p 00004000 00:2b 8323603711                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libxcb-image.so.0.0.0
+7ff88a583000-7ff88a584000 rwxp 00003000 00:2b 8323603711                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libxcb-image.so.0.0.0
+7ff88a584000-7ff88a58a000 r-xp 00000000 00:2b 8323603694                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libxcb-xfixes.so.0.0.0
+7ff88a58a000-7ff88a78a000 ---p 00006000 00:2b 8323603694                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libxcb-xfixes.so.0.0.0
+7ff88a78a000-7ff88a78b000 rwxp 00006000 00:2b 8323603694                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libxcb-xfixes.so.0.0.0
+7ff88a78b000-7ff88a790000 r-xp 00000000 00:2b 8323603712                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libxcb-sync.so.1.0.0
+7ff88a790000-7ff88a990000 ---p 00005000 00:2b 8323603712                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libxcb-sync.so.1.0.0
+7ff88a990000-7ff88a991000 rwxp 00005000 00:2b 8323603712                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libxcb-sync.so.1.0.0
+7ff88a991000-7ff88a99c000 r-xp 00000000 00:2b 8323603691                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libxcb-render.so.0.0.0
+7ff88a99c000-7ff88ab9c000 ---p 0000b000 00:2b 8323603691                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libxcb-render.so.0.0.0
+7ff88ab9c000-7ff88ab9d000 rwxp 0000b000 00:2b 8323603691                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libxcb-render.so.0.0.0
+7ff88ab9d000-7ff88abab000 r-xp 00000000 00:2b 8323603690                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libxcb-randr.so.0.1.0
+7ff88abab000-7ff88adab000 ---p 0000e000 00:2b 8323603690                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libxcb-randr.so.0.1.0
+7ff88adab000-7ff88adac000 rwxp 0000e000 00:2b 8323603690                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libxcb-randr.so.0.1.0
+7ff88adac000-7ff88add0000 r-xp 00000000 00:2b 8317693494                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libxcb.so.1.1.0
+7ff88add0000-7ff88afd0000 ---p 00024000 00:2b 8317693494                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libxcb.so.1.1.0
+7ff88afd0000-7ff88afd1000 rwxp 00024000 00:2b 8317693494                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libxcb.so.1.1.0
+7ff88afd1000-7ff88b04d000 r-xp 00000000 00:2b 8317693306                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/freeType/libfreetype.so.6.3.20
+7ff88b04d000-7ff88b24c000 ---p 0007c000 00:2b 8317693306                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/freeType/libfreetype.so.6.3.20
+7ff88b24c000-7ff88b252000 rwxp 0007b000 00:2b 8317693306                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/freeType/libfreetype.so.6.3.20
+7ff88b252000-7ff88b254000 r-xp 00000000 fd:00 3065267                    /usr/lib64/libXinerama.so.1.0.0
+7ff88b254000-7ff88b453000 ---p 00002000 fd:00 3065267                    /usr/lib64/libXinerama.so.1.0.0
+7ff88b453000-7ff88b454000 r-xp 00001000 fd:00 3065267                    /usr/lib64/libXinerama.so.1.0.0
+7ff88b454000-7ff88b455000 rwxp 00002000 fd:00 3065267                    /usr/lib64/libXinerama.so.1.0.0
+7ff88b455000-7ff88b45e000 r-xp 00000000 fd:00 2846382                    /usr/lib64/libXcursor.so.1.0.2
+7ff88b45e000-7ff88b65e000 ---p 00009000 fd:00 2846382                    /usr/lib64/libXcursor.so.1.0.2
+7ff88b65e000-7ff88b65f000 r-xp 00009000 fd:00 2846382                    /usr/lib64/libXcursor.so.1.0.2
+7ff88b65f000-7ff88b660000 rwxp 0000a000 fd:00 2846382                    /usr/lib64/libXcursor.so.1.0.2
+7ff88b660000-7ff88b66a000 r-xp 00000000 fd:00 3065256                    /usr/lib64/libXrandr.so.2.2.0
+7ff88b66a000-7ff88b869000 ---p 0000a000 fd:00 3065256                    /usr/lib64/libXrandr.so.2.2.0
+7ff88b869000-7ff88b86a000 r-xp 00009000 fd:00 3065256                    /usr/lib64/libXrandr.so.2.2.0
+7ff88b86a000-7ff88b86b000 rwxp 0000a000 fd:00 3065256                    /usr/lib64/libXrandr.so.2.2.0
+7ff88b86b000-7ff88b874000 r-xp 00000000 fd:00 3550761                    /usr/lib64/libXrender.so.1.3.0
+7ff88b874000-7ff88ba74000 ---p 00009000 fd:00 3550761                    /usr/lib64/libXrender.so.1.3.0
+7ff88ba74000-7ff88ba75000 r-xp 00009000 fd:00 3550761                    /usr/lib64/libXrender.so.1.3.0
+7ff88ba75000-7ff88ba76000 rwxp 0000a000 fd:00 3550761                    /usr/lib64/libXrender.so.1.3.0
+7ff88ba76000-7ff88ba85000 r-xp 00000000 fd:00 3551883                    /usr/lib64/libXi.so.6.1.0
+7ff88ba85000-7ff88bc84000 ---p 0000f000 fd:00 3551883                    /usr/lib64/libXi.so.6.1.0
+7ff88bc84000-7ff88bc85000 r-xp 0000e000 fd:00 3551883                    /usr/lib64/libXi.so.6.1.0
+7ff88bc85000-7ff88bc86000 rwxp 0000f000 fd:00 3551883                    /usr/lib64/libXi.so.6.1.0
+7ff88bc86000-7ff88bc9d000 r-xp 00000000 fd:00 1905866                    /usr/lib64/libICE.so.6.3.0
+7ff88bc9d000-7ff88be9c000 ---p 00017000 fd:00 1905866                    /usr/lib64/libICE.so.6.3.0
+7ff88be9c000-7ff88be9d000 r-xp 00016000 fd:00 1905866                    /usr/lib64/libICE.so.6.3.0
+7ff88be9d000-7ff88be9e000 rwxp 00017000 fd:00 1905866                    /usr/lib64/libICE.so.6.3.0
+7ff88be9e000-7ff88bea2000 rwxp 00000000 00:00 0 
+7ff88bea2000-7ff88bea9000 r-xp 00000000 fd:00 1905868                    /usr/lib64/libSM.so.6.0.1
+7ff88bea9000-7ff88c0a8000 ---p 00007000 fd:00 1905868                    /usr/lib64/libSM.so.6.0.1
+7ff88c0a8000-7ff88c0a9000 r-xp 00006000 fd:00 1905868                    /usr/lib64/libSM.so.6.0.1
+7ff88c0a9000-7ff88c0aa000 rwxp 00007000 fd:00 1905868                    /usr/lib64/libSM.so.6.0.1
+7ff88c0aa000-7ff88c0e8000 r-xp 00000000 00:2b 8320698783                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5WebKitWidgets.so.5.5.1
+7ff88c0e8000-7ff88c2e7000 ---p 0003e000 00:2b 8320698783                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5WebKitWidgets.so.5.5.1
+7ff88c2e7000-7ff88c2eb000 rwxp 0003d000 00:2b 8320698783                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5WebKitWidgets.so.5.5.1
+7ff88c2eb000-7ff88e000000 r-xp 00000000 00:2b 8317693498                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5WebKit.so.5.5.1
+7ff88e000000-7ff88e1ff000 ---p 01d15000 00:2b 8317693498                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5WebKit.so.5.5.1
+7ff88e1ff000-7ff88e379000 rwxp 01d14000 00:2b 8317693498                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5WebKit.so.5.5.1
+7ff88e379000-7ff88e3a5000 rwxp 00000000 00:00 0 
+7ff88e3a5000-7ff88e3f5000 r-xp 00000000 00:2b 8317693508                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5Svg.so.5.6.2
+7ff88e3f5000-7ff88e5f5000 ---p 00050000 00:2b 8317693508                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5Svg.so.5.6.2
+7ff88e5f5000-7ff88e5f8000 rwxp 00050000 00:2b 8317693508                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5Svg.so.5.6.2
+7ff88e5f8000-7ff88e628000 r-xp 00000000 00:2b 8306081507                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5Test.so.5.6.2
+7ff88e628000-7ff88e827000 ---p 00030000 00:2b 8306081507                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5Test.so.5.6.2
+7ff88e827000-7ff88e82a000 rwxp 0002f000 00:2b 8306081507                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5Test.so.5.6.2
+7ff88e82a000-7ff88e82e000 rwxp 00000000 00:00 0 
+7ff88e82e000-7ff88e898000 r-xp 00000000 00:2b 8306081512                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5PrintSupport.so.5.6.2
+7ff88e898000-7ff88ea97000 ---p 0006a000 00:2b 8306081512                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5PrintSupport.so.5.6.2
+7ff88ea97000-7ff88ea9c000 rwxp 00069000 00:2b 8306081512                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5PrintSupport.so.5.6.2
+7ff88ea9c000-7ff88ead9000 r-xp 00000000 00:2b 8320698788                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5Positioning.so.5.6.2
+7ff88ead9000-7ff88ecd9000 ---p 0003d000 00:2b 8320698788                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5Positioning.so.5.6.2
+7ff88ecd9000-7ff88ecdb000 rwxp 0003d000 00:2b 8320698788                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5Positioning.so.5.6.2
+7ff88ecdb000-7ff88ed14000 r-xp 00000000 00:2b 8320698778                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5Sensors.so.5.6.2
+7ff88ed14000-7ff88ef13000 ---p 00039000 00:2b 8320698778                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5Sensors.so.5.6.2
+7ff88ef13000-7ff88ef17000 rwxp 00038000 00:2b 8320698778                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5Sensors.so.5.6.2
+7ff88ef17000-7ff88ef1a000 r-xp 00000000 00:2b 8306081504                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5X11Extras.so.5.6.2
+7ff88ef1a000-7ff88f119000 ---p 00003000 00:2b 8306081504                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5X11Extras.so.5.6.2
+7ff88f119000-7ff88f11a000 rwxp 00002000 00:2b 8306081504                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5X11Extras.so.5.6.2
+7ff88f11a000-7ff88f6de000 r-xp 00000000 00:2b 8306081527                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5Widgets.so.5.6.2
+7ff88f6de000-7ff88f8dd000 ---p 005c4000 00:2b 8306081527                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5Widgets.so.5.6.2
+7ff88f8dd000-7ff88f909000 rwxp 005c3000 00:2b 8306081527                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5Widgets.so.5.6.2
+7ff88f909000-7ff88fdd7000 r-xp 00000000 00:2b 8320698781                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5Gui.so.5.6.2
+7ff88fdd7000-7ff88ffd7000 ---p 004ce000 00:2b 8320698781                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5Gui.so.5.6.2
+7ff88ffd7000-7ff88ffea000 rwxp 004ce000 00:2b 8320698781                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5Gui.so.5.6.2
+7ff88ffea000-7ff88ffef000 rwxp 00000000 00:00 0 
+7ff88ffef000-7ff8900ac000 r-xp 00000000 00:2b 8320698803                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libsqlite3.so
+7ff8900ac000-7ff8902ab000 ---p 000bd000 00:2b 8320698803                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libsqlite3.so
+7ff8902ab000-7ff8902af000 rwxp 000bc000 00:2b 8320698803                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libsqlite3.so
+7ff8902af000-7ff8902b0000 rwxp 00000000 00:00 0 
+7ff8902b0000-7ff8903c4000 r-xp 00000000 fd:00 2112277                    /usr/lib64/libglib-2.0.so.0.5600.1
+7ff8903c4000-7ff8905c3000 ---p 00114000 fd:00 2112277                    /usr/lib64/libglib-2.0.so.0.5600.1
+7ff8905c3000-7ff8905c4000 r-xp 00113000 fd:00 2112277                    /usr/lib64/libglib-2.0.so.0.5600.1
+7ff8905c4000-7ff8905c5000 rwxp 00114000 fd:00 2112277                    /usr/lib64/libglib-2.0.so.0.5600.1
+7ff8905c5000-7ff8905c6000 rwxp 00000000 00:00 0 
+7ff8905c6000-7ff8905c7000 r-xp 00000000 fd:00 2112283                    /usr/lib64/libgthread-2.0.so.0.5600.1
+7ff8905c7000-7ff8907c6000 ---p 00001000 fd:00 2112283                    /usr/lib64/libgthread-2.0.so.0.5600.1
+7ff8907c6000-7ff8907c7000 r-xp 00000000 fd:00 2112283                    /usr/lib64/libgthread-2.0.so.0.5600.1
+7ff8907c7000-7ff8907c8000 rwxp 00001000 fd:00 2112283                    /usr/lib64/libgthread-2.0.so.0.5600.1
+7ff8907c8000-7ff891ff2000 r-xp 00000000 00:2b 8306081522                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libicudata.so.54.1
+7ff891ff2000-7ff8921f1000 ---p 0182a000 00:2b 8306081522                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libicudata.so.54.1
+7ff8921f1000-7ff8921f2000 rwxp 01829000 00:2b 8306081522                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libicudata.so.54.1
+7ff8921f2000-7ff892396000 r-xp 00000000 00:2b 8320698791                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libicuuc.so.54.1
+7ff892396000-7ff892596000 ---p 001a4000 00:2b 8320698791                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libicuuc.so.54.1
+7ff892596000-7ff8925a7000 rwxp 001a4000 00:2b 8320698791                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libicuuc.so.54.1
+7ff8925a7000-7ff8925ac000 rwxp 00000000 00:00 0 
+7ff8925ac000-7ff89281e000 r-xp 00000000 00:2b 8320698798                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libicui18n.so.54.1
+7ff89281e000-7ff892a1e000 ---p 00272000 00:2b 8320698798                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libicui18n.so.54.1
+7ff892a1e000-7ff892a2f000 rwxp 00272000 00:2b 8320698798                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libicui18n.so.54.1
+7ff892a2f000-7ff892a30000 rwxp 00000000 00:00 0 
+7ff892a30000-7ff892a7c000 r-xp 00000000 00:2b 8306081530                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5Sql.so.5.6.2
+7ff892a7c000-7ff892c7b000 ---p 0004c000 00:2b 8306081530                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5Sql.so.5.6.2
+7ff892c7b000-7ff892c7e000 rwxp 0004b000 00:2b 8306081530                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5Sql.so.5.6.2
+7ff892c7e000-7ff892ddc000 r-xp 00000000 00:2b 8317693511                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5Network.so.5.6.2
+7ff892ddc000-7ff892fdc000 ---p 0015e000 00:2b 8317693511                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5Network.so.5.6.2
+7ff892fdc000-7ff892fe4000 rwxp 0015e000 00:2b 8317693511                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5Network.so.5.6.2
+7ff892fe4000-7ff893502000 r-xp 00000000 00:2b 8317693503                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5Core.so.5.6.2
+7ff893502000-7ff893701000 ---p 0051e000 00:2b 8317693503                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5Core.so.5.6.2
+7ff893701000-7ff89370f000 rwxp 0051d000 00:2b 8317693503                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5Core.so.5.6.2
+7ff89370f000-7ff893712000 rwxp 00000000 00:00 0 
+7ff893712000-7ff893ab2000 r-xp 00000000 00:2b 8317693487                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5XmlPatterns.so.5.6.2
+7ff893ab2000-7ff893cb1000 ---p 003a0000 00:2b 8317693487                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5XmlPatterns.so.5.6.2
+7ff893cb1000-7ff893ce8000 rwxp 0039f000 00:2b 8317693487                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5XmlPatterns.so.5.6.2
+7ff893ce8000-7ff893d20000 r-xp 00000000 00:2b 8320698796                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5Xml.so.5.6.2
+7ff893d20000-7ff893f1f000 ---p 00038000 00:2b 8320698796                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5Xml.so.5.6.2
+7ff893f1f000-7ff893f21000 rwxp 00037000 00:2b 8320698796                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libQt5Xml.so.5.6.2
+7ff893f21000-7ff893f29000 r-xp 00000000 fd:00 1792773                    /usr/lib64/libcrypt-2.17.so
+7ff893f29000-7ff894128000 ---p 00008000 fd:00 1792773                    /usr/lib64/libcrypt-2.17.so
+7ff894128000-7ff894129000 r-xp 00007000 fd:00 1792773                    /usr/lib64/libcrypt-2.17.so
+7ff894129000-7ff89412a000 rwxp 00008000 fd:00 1792773                    /usr/lib64/libcrypt-2.17.so
+7ff89412a000-7ff894158000 rwxp 00000000 00:00 0 
+7ff894158000-7ff8941a4000 r-xp 00000000 00:2b 8306072374                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaUtil.so
+7ff8941a4000-7ff8943a4000 ---p 0004c000 00:2b 8306072374                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaUtil.so
+7ff8943a4000-7ff8943a6000 r-xp 0004c000 00:2b 8306072374                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaUtil.so
+7ff8943a6000-7ff8943a7000 rwxp 0004e000 00:2b 8306072374                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaUtil.so
+7ff8943a7000-7ff8943ab000 rwxp 00000000 00:00 0 
+7ff8943ab000-7ff8943b0000 r-xp 00000000 00:2b 8320689363                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaDMFileSysBase.so
+7ff8943b0000-7ff8945af000 ---p 00005000 00:2b 8320689363                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaDMFileSysBase.so
+7ff8945af000-7ff8945b0000 r-xp 00004000 00:2b 8320689363                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaDMFileSysBase.so
+7ff8945b0000-7ff8945b1000 rwxp 00005000 00:2b 8320689363                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaDMFileSysBase.so
+7ff8945b1000-7ff8945fa000 r-xp 00000000 00:2b 8319728371                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaDMFileSys.so
+7ff8945fa000-7ff8947fa000 ---p 00049000 00:2b 8319728371                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaDMFileSys.so
+7ff8947fa000-7ff8947fc000 r-xp 00049000 00:2b 8319728371                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaDMFileSys.so
+7ff8947fc000-7ff8947fd000 rwxp 0004b000 00:2b 8319728371                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaDMFileSys.so
+7ff8947fd000-7ff8947fe000 rwxp 00000000 00:00 0 
+7ff8947fe000-7ff894896000 r-xp 00000000 00:2b 8320689365                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaWafer.so
+7ff894896000-7ff894a95000 ---p 00098000 00:2b 8320689365                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaWafer.so
+7ff894a95000-7ff894a9c000 r-xp 00097000 00:2b 8320689365                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaWafer.so
+7ff894a9c000-7ff894a9d000 rwxp 0009e000 00:2b 8320689365                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaWafer.so
+7ff894a9d000-7ff894a9e000 rwxp 00000000 00:00 0 
+7ff894a9e000-7ff894ad3000 r-xp 00000000 00:2b 8320689371                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaCM.so
+7ff894ad3000-7ff894cd3000 ---p 00035000 00:2b 8320689371                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaCM.so
+7ff894cd3000-7ff894cd5000 r-xp 00035000 00:2b 8320689371                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaCM.so
+7ff894cd5000-7ff894cd6000 rwxp 00037000 00:2b 8320689371                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaCM.so
+7ff894cd6000-7ff894cd8000 r-xp 00000000 00:2b 8319728374                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTclPlugIn.so
+7ff894cd8000-7ff894ed8000 ---p 00002000 00:2b 8319728374                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTclPlugIn.so
+7ff894ed8000-7ff894ed9000 r-xp 00002000 00:2b 8319728374                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTclPlugIn.so
+7ff894ed9000-7ff894eda000 rwxp 00003000 00:2b 8319728374                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTclPlugIn.so
+7ff894eda000-7ff8954e3000 r-xp 00000000 00:2b 8317685221                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTclHelp.so
+7ff8954e3000-7ff8956e2000 ---p 00609000 00:2b 8317685221                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTclHelp.so
+7ff8956e2000-7ff8956e3000 r-xp 00608000 00:2b 8317685221                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTclHelp.so
+7ff8956e3000-7ff8956e4000 rwxp 00609000 00:2b 8317685221                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTclHelp.so
+7ff8956e4000-7ff8957c4000 r-xp 00000000 00:2b 8306072375                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaDM.so
+7ff8957c4000-7ff8959c4000 ---p 000e0000 00:2b 8306072375                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaDM.so
+7ff8959c4000-7ff8959cd000 r-xp 000e0000 00:2b 8306072375                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaDM.so
+7ff8959cd000-7ff8959cf000 rwxp 000e9000 00:2b 8306072375                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaDM.so
+7ff8959cf000-7ff8959d1000 rwxp 00000000 00:00 0 
+7ff8959d1000-7ff895a02000 r-xp 00000000 00:2b 8319728373                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaCommon.so
+7ff895a02000-7ff895c02000 ---p 00031000 00:2b 8319728373                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaCommon.so
+7ff895c02000-7ff895c03000 r-xp 00031000 00:2b 8319728373                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaCommon.so
+7ff895c03000-7ff895c04000 rwxp 00032000 00:2b 8319728373                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaCommon.so
+7ff895c04000-7ff895e27000 r-xp 00000000 00:2b 8320689372                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTech.so
+7ff895e27000-7ff896027000 ---p 00223000 00:2b 8320689372                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTech.so
+7ff896027000-7ff896041000 r-xp 00223000 00:2b 8320689372                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTech.so
+7ff896041000-7ff896045000 rwxp 0023d000 00:2b 8320689372                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTech.so
+7ff896045000-7ff896047000 rwxp 00000000 00:00 0 
+7ff896047000-7ff89646f000 r-xp 00000000 00:2b 8319728376                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaBase.so
+7ff89646f000-7ff89666f000 ---p 00428000 00:2b 8319728376                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaBase.so
+7ff89666f000-7ff896694000 r-xp 00428000 00:2b 8319728376                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaBase.so
+7ff896694000-7ff89669b000 rwxp 0044d000 00:2b 8319728376                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaBase.so
+7ff89669b000-7ff8966c0000 rwxp 00000000 00:00 0 
+7ff8966c0000-7ff896eef000 r-xp 00000000 00:2b 8320689367                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaDesign.so
+7ff896eef000-7ff8970ee000 ---p 0082f000 00:2b 8320689367                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaDesign.so
+7ff8970ee000-7ff897140000 r-xp 0082e000 00:2b 8320689367                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaDesign.so
+7ff897140000-7ff89714c000 rwxp 00880000 00:2b 8320689367                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaDesign.so
+7ff89714c000-7ff897152000 rwxp 00000000 00:00 0 
+7ff897152000-7ff89715b000 r-xp 00000000 00:2b 8319728375                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaLangBase.so
+7ff89715b000-7ff89735a000 ---p 00009000 00:2b 8319728375                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaLangBase.so
+7ff89735a000-7ff89735b000 r-xp 00008000 00:2b 8319728375                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaLangBase.so
+7ff89735b000-7ff89735c000 rwxp 00009000 00:2b 8319728375                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaLangBase.so
+7ff89735c000-7ff89736c000 r-xp 00000000 00:2b 8320689364                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaPlugIn.so
+7ff89736c000-7ff89756b000 ---p 00010000 00:2b 8320689364                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaPlugIn.so
+7ff89756b000-7ff89756d000 r-xp 0000f000 00:2b 8320689364                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaPlugIn.so
+7ff89756d000-7ff89756e000 rwxp 00011000 00:2b 8320689364                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaPlugIn.so
+7ff89756e000-7ff8977a7000 r-xp 00000000 00:2b 8320689366                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaLangInfo.so
+7ff8977a7000-7ff8979a7000 ---p 00239000 00:2b 8320689366                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaLangInfo.so
+7ff8979a7000-7ff8979c2000 r-xp 00239000 00:2b 8320689366                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaLangInfo.so
+7ff8979c2000-7ff8979c4000 rwxp 00254000 00:2b 8320689366                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaLangInfo.so
+7ff8979c4000-7ff8979d3000 r-xp 00000000 00:2b 8319728377                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTclCommon.so
+7ff8979d3000-7ff897bd3000 ---p 0000f000 00:2b 8319728377                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTclCommon.so
+7ff897bd3000-7ff897bd4000 r-xp 0000f000 00:2b 8319728377                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTclCommon.so
+7ff897bd4000-7ff897bd5000 rwxp 00010000 00:2b 8319728377                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTclCommon.so
+7ff897bd5000-7ff897be6000 r-xp 00000000 00:2b 8317685222                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTclBase.so
+7ff897be6000-7ff897de6000 ---p 00011000 00:2b 8317685222                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTclBase.so
+7ff897de6000-7ff897de7000 r-xp 00011000 00:2b 8317685222                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTclBase.so
+7ff897de7000-7ff897de8000 rwxp 00012000 00:2b 8317685222                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTclBase.so
+7ff897de8000-7ff898b75000 r-xp 00000000 00:2b 8320689368                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTcl.so
+7ff898b75000-7ff898d74000 ---p 00d8d000 00:2b 8320689368                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTcl.so
+7ff898d74000-7ff898d83000 r-xp 00d8c000 00:2b 8320689368                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTcl.so
+7ff898d83000-7ff898d93000 rwxp 00d9b000 00:2b 8320689368                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt/liboaTcl.so
+7ff898d93000-7ff898f03000 r-xp 00000000 00:2b 8317693509                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/liboasis-O.so
+7ff898f03000-7ff898f04000 ---p 00170000 00:2b 8317693509                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/liboasis-O.so
+7ff898f04000-7ff898f05000 r-xp 00170000 00:2b 8317693509                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/liboasis-O.so
+7ff898f05000-7ff898f07000 rwxp 00171000 00:2b 8317693509                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/liboasis-O.so
+7ff898f07000-7ff898f08000 rwxp 00000000 00:00 0 
+7ff898f08000-7ff898f2d000 r-xp 00000000 fd:00 79917                      /usr/lib64/libtinfo.so.5.9
+7ff898f2d000-7ff89912d000 ---p 00025000 fd:00 79917                      /usr/lib64/libtinfo.so.5.9
+7ff89912d000-7ff899131000 r-xp 00025000 fd:00 79917                      /usr/lib64/libtinfo.so.5.9
+7ff899131000-7ff899132000 rwxp 00029000 fd:00 79917                      /usr/lib64/libtinfo.so.5.9
+7ff899132000-7ff899158000 r-xp 00000000 fd:00 79907                      /usr/lib64/libncurses.so.5.9
+7ff899158000-7ff899357000 ---p 00026000 fd:00 79907                      /usr/lib64/libncurses.so.5.9
+7ff899357000-7ff899358000 r-xp 00025000 fd:00 79907                      /usr/lib64/libncurses.so.5.9
+7ff899358000-7ff899359000 rwxp 00026000 fd:00 79907                      /usr/lib64/libncurses.so.5.9
+7ff899359000-7ff8994f5000 r-xp 00000000 00:2b 8317693481                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libtcl-O.so
+7ff8994f5000-7ff8994f6000 ---p 0019c000 00:2b 8317693481                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libtcl-O.so
+7ff8994f6000-7ff899504000 r-xp 0019c000 00:2b 8317693481                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libtcl-O.so
+7ff899504000-7ff899506000 rwxp 001aa000 00:2b 8317693481                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libtcl-O.so
+7ff899506000-7ff899507000 rwxp 00000000 00:00 0 
+7ff899507000-7ff899681000 r-xp 00000000 00:2b 8306081500                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libsym_datacore-O.so
+7ff899681000-7ff899880000 ---p 0017a000 00:2b 8306081500                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libsym_datacore-O.so
+7ff899880000-7ff899889000 r-xp 00179000 00:2b 8306081500                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libsym_datacore-O.so
+7ff899889000-7ff89988c000 rwxp 00182000 00:2b 8306081500                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libsym_datacore-O.so
+7ff89988c000-7ff8998b0000 r-xp 00000000 00:2b 8320698777                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libmym_core-O.so
+7ff8998b0000-7ff899aaf000 ---p 00024000 00:2b 8320698777                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libmym_core-O.so
+7ff899aaf000-7ff899ab1000 r-xp 00023000 00:2b 8320698777                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libmym_core-O.so
+7ff899ab1000-7ff899ab2000 rwxp 00025000 00:2b 8320698777                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libmym_core-O.so
+7ff899ab2000-7ff899b97000 r-xp 00000000 00:2b 8306081518                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libgui_controls-O.so
+7ff899b97000-7ff899d96000 ---p 000e5000 00:2b 8306081518                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libgui_controls-O.so
+7ff899d96000-7ff899d9d000 r-xp 000e4000 00:2b 8306081518                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libgui_controls-O.so
+7ff899d9d000-7ff899d9f000 rwxp 000eb000 00:2b 8306081518                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libgui_controls-O.so
+7ff899d9f000-7ff89a231000 r-xp 00000000 00:2b 8320698780                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libsnpsst-O.so
+7ff89a231000-7ff89a431000 ---p 00492000 00:2b 8320698780                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libsnpsst-O.so
+7ff89a431000-7ff89a44b000 r-xp 00492000 00:2b 8320698780                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libsnpsst-O.so
+7ff89a44b000-7ff89a454000 rwxp 004ac000 00:2b 8320698780                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libsnpsst-O.so
+7ff89a454000-7ff89a7c4000 r-xp 00000000 00:2b 8306081510                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libnpiL1.so
+7ff89a7c4000-7ff89a7c5000 ---p 00370000 00:2b 8306081510                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libnpiL1.so
+7ff89a7c5000-7ff89a7d3000 r-xp 00370000 00:2b 8306081510                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libnpiL1.so
+7ff89a7d3000-7ff89a7db000 rwxp 0037e000 00:2b 8306081510                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libnpiL1.so
+7ff89a7db000-7ff89a7e2000 rwxp 00000000 00:00 0 
+7ff89a7e2000-7ff89e6f2000 r-xp 00000000 00:2b 8317693492                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libNPI.so
+7ff89e6f2000-7ff89e6f3000 ---p 03f10000 00:2b 8317693492                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libNPI.so
+7ff89e6f3000-7ff89ed39000 r-xp 03f10000 00:2b 8317693492                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libNPI.so
+7ff89ed39000-7ff89ee5e000 rwxp 04556000 00:2b 8317693492                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libNPI.so
+7ff89ee5e000-7ff8a04ff000 rwxp 00000000 00:00 0 
+7ff8a04ff000-7ff8a0519000 r-xp 00000000 00:2b 8323603705                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libz.so.1.2.11
+7ff8a0519000-7ff8a0719000 ---p 0001a000 00:2b 8323603705                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libz.so.1.2.11
+7ff8a0719000-7ff8a071a000 rwxp 0001a000 00:2b 8323603705                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libz.so.1.2.11
+7ff8a071a000-7ff8a08e9000 r-xp 00000000 00:2b 8306081528                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libstdc++.so.6.0.27
+7ff8a08e9000-7ff8a0ae8000 ---p 001cf000 00:2b 8306081528                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libstdc++.so.6.0.27
+7ff8a0ae8000-7ff8a0af3000 r-xp 001ce000 00:2b 8306081528                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libstdc++.so.6.0.27
+7ff8a0af3000-7ff8a0af6000 rwxp 001d9000 00:2b 8306081528                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libstdc++.so.6.0.27
+7ff8a0af6000-7ff8a0af9000 rwxp 00000000 00:00 0 
+7ff8a0af9000-7ff8a0bfa000 r-xp 00000000 fd:00 1945758                    /usr/lib64/libm-2.17.so
+7ff8a0bfa000-7ff8a0df9000 ---p 00101000 fd:00 1945758                    /usr/lib64/libm-2.17.so
+7ff8a0df9000-7ff8a0dfa000 r-xp 00100000 fd:00 1945758                    /usr/lib64/libm-2.17.so
+7ff8a0dfa000-7ff8a0dfb000 rwxp 00101000 fd:00 1945758                    /usr/lib64/libm-2.17.so
+7ff8a0dfb000-7ff8a0e12000 r-xp 00000000 fd:00 1792793                    /usr/lib64/libpthread-2.17.so
+7ff8a0e12000-7ff8a1011000 ---p 00017000 fd:00 1792793                    /usr/lib64/libpthread-2.17.so
+7ff8a1011000-7ff8a1012000 r-xp 00016000 fd:00 1792793                    /usr/lib64/libpthread-2.17.so
+7ff8a1012000-7ff8a1013000 rwxp 00017000 fd:00 1792793                    /usr/lib64/libpthread-2.17.so
+7ff8a1013000-7ff8a1017000 rwxp 00000000 00:00 0 
+7ff8a1017000-7ff8a1039000 r-xp 00000000 fd:00 1801455                    /usr/lib64/ld-2.17.so
+7ff8a1039000-7ff8a103a000 r-xp 00000000 00:2b 8323603806                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/abstract_generator/abstract_generator_tcl.rcc
+7ff8a103a000-7ff8a103d000 r-xp 00000000 00:2b 8323611401                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/window/window_tcl.rcc
+7ff8a103d000-7ff8a1041000 rwxp 00000000 00:00 0 
+7ff8a1041000-7ff8a104c000 r-xp 00000000 00:2b 8323603938                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/fonts/lc______.ttf
+7ff8a1051000-7ff8a1099000 rwxp 00000000 00:00 0 
+7ff8a1099000-7ff8a109a000 ---p 00000000 00:00 0 
+7ff8a109a000-7ff8a112d000 rwxp 00000000 00:00 0 
+7ff8a112d000-7ff8a1132000 r-xp 00000000 00:2b 8323603707                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libtbcload-O.so
+7ff8a1132000-7ff8a1133000 r-xp 00004000 00:2b 8323603707                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libtbcload-O.so
+7ff8a1133000-7ff8a1134000 rwxp 00005000 00:2b 8323603707                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libtbcload-O.so
+7ff8a1134000-7ff8a1135000 rwxp 00000000 00:00 0 
+7ff8a1135000-7ff8a1151000 r-xp 00000000 00:2b 8320698797                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libtktable-O.so
+7ff8a1151000-7ff8a1152000 r-xp 0001b000 00:2b 8320698797                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libtktable-O.so
+7ff8a1152000-7ff8a115c000 rwxp 0001c000 00:2b 8320698797                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libtktable-O.so
+7ff8a115c000-7ff8a1174000 rwxp 00000000 00:00 0 
+7ff8a1174000-7ff8a11e5000 r-xp 00000000 00:2b 8317693490                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libvfs.so
+7ff8a11e5000-7ff8a11e6000 ---p 00071000 00:2b 8317693490                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libvfs.so
+7ff8a11e6000-7ff8a11e9000 r-xp 00071000 00:2b 8317693490                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libvfs.so
+7ff8a11e9000-7ff8a11ea000 rwxp 00074000 00:2b 8317693490                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libvfs.so
+7ff8a11ea000-7ff8a11ee000 rwxp 00000000 00:00 0 
+7ff8a11ee000-7ff8a120a000 r-xp 00000000 00:2b 8306081502                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libsnps_boost_1_73_0_filesystem-mt.so.1.73.0
+7ff8a120a000-7ff8a120b000 ---p 0001c000 00:2b 8306081502                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libsnps_boost_1_73_0_filesystem-mt.so.1.73.0
+7ff8a120b000-7ff8a120c000 r-xp 0001c000 00:2b 8306081502                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libsnps_boost_1_73_0_filesystem-mt.so.1.73.0
+7ff8a120c000-7ff8a120d000 rwxp 0001d000 00:2b 8306081502                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/lib/libsnps_boost_1_73_0_filesystem-mt.so.1.73.0
+7ff8a120d000-7ff8a120e000 rwxp 00000000 00:00 0 
+7ff8a120e000-7ff8a120f000 r-xp 00000000 00:2b 8306081853                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/marker_browser/marker_browser_tcl.rcc
+7ff8a120f000-7ff8a1211000 rwxp 00000000 00:00 0 
+7ff8a1211000-7ff8a1218000 r-xs 00000000 00:28 1463760140                 /afs/unity.ncsu.edu/users/r/rsekani/.cache/fontconfig/8da32c45-9509-4d7a-b694-eb761d50d373-le64.cache-7
+7ff8a1218000-7ff8a121d000 r-xp 00000000 00:2b 8317693652                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/console/console_tcl.rcc
+7ff8a121d000-7ff8a121e000 r-xp 00000000 00:2b 8320705627                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/startup/startup_tcl.rcc
+7ff8a121e000-7ff8a121f000 r-xp 00000000 00:2b 8323665137                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/auxx/tdk/tdk_tcl.rcc
+7ff8a121f000-7ff8a1223000 rwxp 00000000 00:00 0 
+7ff8a1223000-7ff8a1226000 r-xp 00000000 00:2b 8306081582                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/platform/lib/python-2.6/libsdp_python.so
+7ff8a1226000-7ff8a1227000 r-xp 00002000 00:2b 8306081582                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/platform/lib/python-2.6/libsdp_python.so
+7ff8a1227000-7ff8a1228000 rwxp 00003000 00:2b 8306081582                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/platform/lib/python-2.6/libsdp_python.so
+7ff8a1228000-7ff8a1234000 r-xp 00000000 00:2b 8317693545                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/platform/lib/python-2.6/libudd_python-O.so
+7ff8a1234000-7ff8a1235000 r-xp 0000b000 00:2b 8317693545                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/platform/lib/python-2.6/libudd_python-O.so
+7ff8a1235000-7ff8a1236000 rwxp 0000c000 00:2b 8317693545                 /mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/platform/lib/python-2.6/libudd_python-O.so
+7ff8a1236000-7ff8a1238000 rwxp 00000000 00:00 0 
+7ff8a1238000-7ff8a1239000 r-xp 00021000 fd:00 1801455                    /usr/lib64/ld-2.17.so
+7ff8a1239000-7ff8a123a000 rwxp 00022000 fd:00 1801455                    /usr/lib64/ld-2.17.so
+7ff8a123a000-7ff8a123b000 rwxp 00000000 00:00 0 
+7fff47213000-7fff47262000 rwxp 00000000 00:00 0                          [stack]
+7fff472f0000-7fff472f2000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]

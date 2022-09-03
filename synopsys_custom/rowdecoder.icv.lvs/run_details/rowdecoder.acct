@@ -1,0 +1,22 @@
+inv_2
+	Cell Level Device Counts
+		NMOS[nmos] = 1
+		PMOS[pmos] = 1
+	Flat Device Counts
+		NMOS[nmos] = 1
+		PMOS[pmos] = 1
+nor_5
+	Cell Level Device Counts
+		NMOS[nmos] = 0
+		PMOS[pmos] = 0
+	Flat Device Counts
+		NMOS[nmos] = 0
+		PMOS[pmos] = 0
+rowdecoder
+	Cell Level Device Counts
+		NMOS[nmos] = 24
+		PMOS[pmos] = 24
+
+********  DEVICE EXTRACTION STATS    TOPBLOCK = rowdecoder  *******
+		NMOS[nmos] = 27
+		PMOS[pmos] = 27

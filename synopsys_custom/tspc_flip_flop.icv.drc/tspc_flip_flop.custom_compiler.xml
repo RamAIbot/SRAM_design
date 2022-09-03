@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file-format version="1.0" synopsysExportStream="1.0">
+    <exportStream>
+        <options lib="mylib" gds="/afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/tspc_flip_flop.icv.drc/tspc_flip_flop.custom_compiler.gds" cell="tspc_flip_flop" view="layout" keepPcells="1" keepVias="1" keepAbuts="1" colorMapping="honor" hierDepth="256" referenceMap="/afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/tspc_flip_flop.icv.drc/tspc_flip_flop.custom_compiler.xml" useTechLayerMap="1" useTechObjectMap="1" textHeight="matchOABBox"/>
+        <mapping cellType="design" streamName="pmos" lib="NCSU_TechLib_FreePDK3" cell="pmos" view="layout"/>
+        <mapping cellType="design" streamName="nmos" lib="NCSU_TechLib_FreePDK3" cell="nmos" view="layout"/>
+        <mapping cellType="design" streamName="M0B_M1" lib="NCSU_TechLib_FreePDK3" cell="M0B_M1" view="layout"/>
+        <mapping cellType="design" streamName="M0A_M0B" lib="NCSU_TechLib_FreePDK3" cell="M0A_M0B" view="layout"/>
+        <mapping cellType="design" streamName="BPR_M0A" lib="NCSU_TechLib_FreePDK3" cell="BPR_M0A" view="layout"/>
+        <mapping cellType="design" streamName="GATE_M0B" lib="NCSU_TechLib_FreePDK3" cell="GATE_M0B" view="layout"/>
+        <mapping cellType="design" streamName="tspc_flip_flop" lib="mylib" cell="tspc_flip_flop" view="layout"/>
+    </exportStream>
+</file-format>

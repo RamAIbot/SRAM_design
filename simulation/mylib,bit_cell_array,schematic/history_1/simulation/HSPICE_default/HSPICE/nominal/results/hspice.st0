@@ -1,0 +1,57 @@
+****** PrimeSim HSPICE -- S-2021.09 linux64 (Aug 25 2021 7230000) ******
+Input File:
+lic:
+lic: FLEXlm: SDK_12.9.6
+lic: USER:   rsekani              HOSTNAME: grendel33.ece.ncsu.edu
+lic: HOSTID: e985262              PID:      30389
+lic: Using FLEXlm license file:
+lic: 27000@ece-lic-35.ece.ncsu.edu
+lic: Checkout 1 hspice
+lic: License/Maintenance for hspice will expire on 30-oct-2024/2021.09
+lic: 1(in_use)/160(total) FLOATING license(s) on SERVER 27000@ece-lic-35.ece.ncsu.edu
+lic:
+
+ init: begin read circuit files, cpu clock= 1.31E-01
+       option search = /mnt/apps/public/COE/synopsys_apps//hspice/S-2021.09/hspice/parts/ad
+       option search = /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/hspice/models
+       option search = /mnt/apps/public/COE/synopsys_apps//hspice/S-2021.09/hspice/parts/behave
+       option search = /mnt/apps/public/COE/synopsys_apps//hspice/S-2021.09/hspice/parts/bjt
+       option search = /mnt/apps/public/COE/synopsys_apps//hspice/S-2021.09/hspice/parts/burr_brn
+       option search = /mnt/apps/public/COE/synopsys_apps//hspice/S-2021.09/hspice/parts/dio
+       option search = /mnt/apps/public/COE/synopsys_apps//hspice/S-2021.09/hspice/parts/fet
+       option search = /mnt/apps/public/COE/synopsys_apps//hspice/S-2021.09/hspice/parts/lin_tech
+       option search = /mnt/apps/public/COE/synopsys_apps//hspice/S-2021.09/hspice/parts/pci
+       option search = /mnt/apps/public/COE/synopsys_apps//hspice/S-2021.09/hspice/parts/signet
+       option search = /mnt/apps/public/COE/synopsys_apps//hspice/S-2021.09/hspice/parts/ti
+       option search = /mnt/apps/public/COE/synopsys_apps//hspice/S-2021.09/hspice/parts/tline
+       option search = /mnt/apps/public/COE/synopsys_apps//hspice/S-2021.09/hspice/parts/xilinx
+       option parhier = local
+       option port_voltage_scale_to_2x =     1.00
+       option wdf =     1.00
+       option opfile =     1.00
+       option split_dp =     1.00
+       option probe =     1.00
+ init: end read circuit files, cpu clock= 1.34E-01 peak memory=     496 mb
+ init: begin check errors, cpu clock= 1.34E-01
+  **warning**  No DC path to ground from node        0:
+ init: end check errors, cpu clock= 1.68E-01 peak memory=     502 mb
+ init: begin setup matrix, pivot=     0 cpu clock= 1.68E-01
+       establish matrix -- done, cpu clock= 1.70E-01 peak memory=     502 mb
+       re-order matrix -- done, cpu clock= 1.75E-01 peak memory=     503 mb
+ init: end setup matrix, cpu clock= 1.82E-01 peak memory=     504 mb
+ dcop: begin dcop, cpu clock= 1.85E-01
+ dcop: end dcop, cpu clock= 2.18E-01 peak memory=     504 mb tot_iter=       2
+ sweep: tran tran0    begin, stop_t=  5.00E-10 #sweeps=5001 cpu clock= 2.20E-01
+ tran: time= 6.5440E-11 tot_iter=      10 conv_iter=       5 cpu clock= 2.33E-01
+ tran: time= 1.1544E-10 tot_iter=      14 conv_iter=       7 cpu clock= 2.37E-01
+ tran: time= 1.6544E-10 tot_iter=      18 conv_iter=       9 cpu clock= 2.41E-01
+ tran: time= 2.1544E-10 tot_iter=      22 conv_iter=      11 cpu clock= 2.45E-01
+ tran: time= 2.6544E-10 tot_iter=      26 conv_iter=      13 cpu clock= 2.50E-01
+ tran: time= 3.1544E-10 tot_iter=      30 conv_iter=      15 cpu clock= 2.54E-01
+ tran: time= 3.6544E-10 tot_iter=      34 conv_iter=      17 cpu clock= 2.58E-01
+ tran: time= 4.1544E-10 tot_iter=      38 conv_iter=      19 cpu clock= 2.62E-01
+ tran: time= 4.6544E-10 tot_iter=      42 conv_iter=      21 cpu clock= 2.66E-01
+ tran: time= 5.0000E-10 tot_iter=      46 conv_iter=      23 cpu clock= 2.71E-01
+ sweep: tran tran0    end, cpu clock= 2.72E-01 peak memory=     509 mb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

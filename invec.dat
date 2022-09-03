@@ -1,0 +1,67 @@
+; Digital input pattern for ECE546 Project
+; *******************************
+; Created by Rhett Davis, 3/22/2016
+; *******************************
+
+; A<4:0> - address
+; D<3:0> - write data
+; WENB   - write-enable bar (high - read, low - write)
+ 
+; Define the radix for each pin (1 for each pin)
+radix  11111 1111 1
+; List the pin names
+vname  i_A<[4:0]> i_D<[3:0]> i_WENB
+; Define pin I/O (i for each pin)
+io     iiiii iiii i
+; Define time unit (ns in this example)
+tunit ns
+; Define slope of signal edge (3 ps rising/falling 
+; time in this example)
+slope 0.003
+; Define high voltage (1.1V)
+vih   0.8
+; Define low voltage (0V)
+vil   0.0
+; Define the delay for the first instruction 
+; (Should be no larger than Tcycle minus the setup time for
+; your flip-flop, plus the insertion delay of your clock-tree) 
+tdelay 0.001
+; Define the period for the vectors
+period 0.500
+;
+; The following are the vectors
+; A<4> ... A<0>  D<3> ... D<0> WENB
+
+;00100 1010 0 ;office hour
+00000 1010 0
+11111 0111 0
+10010 0101 0
+00110 1101 0
+11101 0111 0
+01111 0100 0
+10111 1110 0
+01100 0111 0
+01000 0111 0
+01101 0100 0
+11100 1010 0
+10110 0111 0
+11000 0010 0
+10001 1001 0
+00010 1000 0
+;00000 0000 1 ;added during office hours
+;00100 0000 1 ;added during office hours
+11111 0000 1
+10111 0000 1
+01100 0000 1
+10010 0000 1
+10110 0000 1
+10001 0000 1
+11000 0000 1
+11101 0000 1
+01101 0000 1
+01111 0000 1
+01000 0000 1
+00010 0000 1
+00110 0000 1
+11100 0000 1
+00000 0000 1

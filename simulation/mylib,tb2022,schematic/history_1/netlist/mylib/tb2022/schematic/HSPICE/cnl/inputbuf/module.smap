@@ -1,0 +1,39 @@
+<module name="vsl: proj_common inputbuf schematic vl: hspice hspiceD schematic spice veriloga">
+<scope name="Instance">
+<forward>
+<mapping src="M10" dst="m10"/>
+<mapping src="M11" dst="m11"/>
+<mapping src="M8" dst="m8"/>
+<mapping src="M9" dst="m9"/>
+</forward>
+<reverse>
+<mapping src="m10" dst="M10"/>
+<mapping src="m8" dst="M8"/>
+<mapping src="m11" dst="M11"/>
+<mapping src="m9" dst="M9"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward/>
+<reverse/>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping src="&lt;termOrder>" dst="out in"/>
+<mapping src="&lt;unmappedTermOrder>" dst="out in"/>
+</forward>
+<reverse>
+<mapping src="out in" dst="&lt;unmappedTermOrder>"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="nmos">
+<instance name="M8"/>
+<instance name="M9"/>
+</instance_header>
+<instance_header master="pmos">
+<instance name="M10"/>
+<instance name="M11"/>
+</instance_header>
+</master_instances>
+</module>

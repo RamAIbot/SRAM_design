@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Wed Apr  6 17:07:19 2022-->
+<file-format version="1.0" name="stateCategory">
+ <collection name="analyses">
+  <object version="1" name="analyses" type="saAnalysis">
+   <attribute value="0" name="advanced" type="giBoolean"/>
+   <attribute value="" name="card" type="giString"/>
+   <attribute value="tran" name="definition" type="giString"/>
+   <attribute value="" name="description" type="giString"/>
+   <attribute value="0" name="doRestore" type="giBoolean"/>
+   <attribute value="0" name="doSave" type="giBoolean"/>
+   <attribute value="1" name="enabled" type="giBoolean"/>
+   <attribute value="Temp Sweep" name="method" type="giString"/>
+   <attribute value="tran" name="name" type="giString"/>
+   <attribute value="1" name="numIntervals" type="giString"/>
+   <collection name="options"/>
+   <attribute value="" name="otherOptions" type="giString"/>
+   <attribute value="" name="restorePoint" type="giString"/>
+   <attribute value="" name="runLevels" type="giString"/>
+   <attribute value="" name="saveList" type="giString"/>
+   <attribute value="0" name="soa" type="giBoolean"/>
+   <attribute value="0" name="start" type="giString"/>
+   <attribute value="0.1p" name="step" type="giString"/>
+   <attribute value="" name="step2" type="giString"/>
+   <attribute value="" name="step3" type="giString"/>
+   <attribute value="" name="step4" type="giString"/>
+   <attribute value="" name="step5" type="giString"/>
+   <attribute value="400p" name="stop" type="giString"/>
+   <attribute value="" name="stop2" type="giString"/>
+   <attribute value="" name="stop3" type="giString"/>
+   <attribute value="" name="stop4" type="giString"/>
+   <attribute value="" name="stop5" type="giString"/>
+   <attribute value="" name="tempStep" type="giString"/>
+   <attribute value="" name="tempValues" type="giString"/>
+   <attribute value="0" name="uic" type="giBoolean"/>
+   <attribute value="0" name="useCard" type="giBoolean"/>
+  </object>
+ </collection>
+</file-format>

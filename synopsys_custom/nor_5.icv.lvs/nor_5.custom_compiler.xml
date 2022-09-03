@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file-format version="1.0" synopsysExportStream="1.0">
+    <exportStream>
+        <options lib="mylib" gds="/afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/nor_5.icv.lvs/nor_5.custom_compiler.gds" cell="nor_5" view="layout" keepPcells="1" keepVias="1" keepAbuts="1" colorMapping="honor" hierDepth="256" referenceMap="/afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/nor_5.icv.lvs/nor_5.custom_compiler.xml" useTechLayerMap="1" useTechObjectMap="1" textHeight="matchOABBox"/>
+        <mapping cellType="design" streamName="pmos" lib="NCSU_TechLib_FreePDK3" cell="pmos" view="layout"/>
+        <mapping cellType="design" streamName="M0A_M0B" lib="NCSU_TechLib_FreePDK3" cell="M0A_M0B" view="layout"/>
+        <mapping cellType="design" streamName="nmos" lib="NCSU_TechLib_FreePDK3" cell="nmos" view="layout"/>
+        <mapping cellType="design" streamName="M0B_M1" lib="NCSU_TechLib_FreePDK3" cell="M0B_M1" view="layout"/>
+        <mapping cellType="design" streamName="M1_M2" lib="NCSU_TechLib_FreePDK3" cell="M1_M2" view="layout"/>
+        <mapping cellType="design" streamName="GATE_M0B" lib="NCSU_TechLib_FreePDK3" cell="GATE_M0B" view="layout"/>
+        <mapping cellType="design" streamName="BPR_M0A" lib="NCSU_TechLib_FreePDK3" cell="BPR_M0A" view="layout"/>
+        <mapping cellType="design" streamName="nor_5" lib="mylib" cell="nor_5" view="layout"/>
+    </exportStream>
+</file-format>

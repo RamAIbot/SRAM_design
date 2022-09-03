@@ -1,0 +1,63 @@
+
+; Digital output pattern for ECE546 Project
+; *******************************
+; Created by Rhett Davis, 3/22/2016
+; *******************************
+
+; Q<3:0> - SRAM data out
+
+; Define the radix for each pin (1 for each pin)
+radix  1111 
+; List the pin names
+vname  Q<[3:0]> 
+; Define pin I/O (o for each pin)
+io     oooo
+; Define time unit (ns in this example)
+tunit ns
+; Define slope of signal edge (20ps rising/falling 
+; time in this example)
+slope 0.003
+; Define high voltage (1.1V)
+voh   0.6
+; Define low voltage (0V)
+vol   0.2
+; Define the delay for output checking 
+; (Modeled here as one cycle plus the clock-tree insertion delay plus 
+; the clk-q delay of the registers)
+tdelay 0.55
+; Define the period for the vectors
+period 0.500
+;
+; The following are the vectors
+; Q<3> ... Q<0>
+
+xxxx
+xxxx
+xxxx
+xxxx
+xxxx
+xxxx
+xxxx
+xxxx
+xxxx
+xxxx
+xxxx
+xxxx
+xxxx
+xxxx
+xxxx
+0111
+1110
+0111
+0101
+0111
+1001
+0010
+0111
+0100
+0100
+0111
+1000
+1101
+1010
+1010

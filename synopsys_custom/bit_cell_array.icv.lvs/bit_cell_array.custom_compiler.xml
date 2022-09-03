@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file-format version="1.0" synopsysExportStream="1.0">
+    <exportStream>
+        <options lib="mylib" gds="/afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/bit_cell_array.icv.lvs/bit_cell_array.custom_compiler.gds" cell="bit_cell_array" view="layout" keepPcells="1" keepVias="1" keepAbuts="1" colorMapping="honor" hierDepth="256" referenceMap="/afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/bit_cell_array.icv.lvs/bit_cell_array.custom_compiler.xml" useTechLayerMap="1" useTechObjectMap="1" textHeight="matchOABBox"/>
+        <mapping cellType="design" streamName="nmos" lib="NCSU_TechLib_FreePDK3" cell="nmos" view="layout"/>
+        <mapping cellType="design" streamName="pmos" lib="NCSU_TechLib_FreePDK3" cell="pmos" view="layout"/>
+        <mapping cellType="design" streamName="GATE_M0B" lib="NCSU_TechLib_FreePDK3" cell="GATE_M0B" view="layout"/>
+        <mapping cellType="design" streamName="BPR_M0A" lib="NCSU_TechLib_FreePDK3" cell="BPR_M0A" view="layout"/>
+        <mapping cellType="design" streamName="M0B_M1" lib="NCSU_TechLib_FreePDK3" cell="M0B_M1" view="layout"/>
+        <mapping cellType="design" streamName="M0A_M0B" lib="NCSU_TechLib_FreePDK3" cell="M0A_M0B" view="layout"/>
+        <mapping cellType="design" streamName="bitcell" lib="mylib" cell="bitcell" view="layout"/>
+        <mapping cellType="design" streamName="inv_2" lib="mylib" cell="inv_2" view="layout"/>
+        <mapping cellType="design" streamName="and_2" lib="mylib" cell="and_2" view="layout"/>
+        <mapping cellType="design" streamName="M1_M2" lib="NCSU_TechLib_FreePDK3" cell="M1_M2" view="layout"/>
+        <mapping cellType="design" streamName="M2_M3" lib="NCSU_TechLib_FreePDK3" cell="M2_M3" view="layout"/>
+        <mapping cellType="design" streamName="demu_2_4" lib="mylib" cell="demu_2_4" view="layout"/>
+        <mapping cellType="design" streamName="column_decoder_new" lib="mylib" cell="column_decoder_new" view="layout"/>
+        <mapping cellType="design" streamName="M3_M4" lib="NCSU_TechLib_FreePDK3" cell="M3_M4" view="layout"/>
+        <mapping cellType="design" streamName="inverter_write_driver" lib="mylib" cell="inverter_write_driver" view="layout"/>
+        <mapping cellType="design" streamName="Write_Driver" lib="mylib" cell="Write_Driver" view="layout"/>
+        <mapping cellType="design" streamName="tspc_flip_flop" lib="mylib" cell="tspc_flip_flop" view="layout"/>
+        <mapping cellType="design" streamName="bit_conditioning" lib="mylib" cell="bit_conditioning" view="layout"/>
+        <mapping cellType="design" streamName="nor_5" lib="mylib" cell="nor_5" view="layout"/>
+        <mapping cellType="design" streamName="rowdecoder" lib="mylib" cell="rowdecoder" view="layout"/>
+        <mapping cellType="design" streamName="bit_cell_array" lib="mylib" cell="bit_cell_array" view="layout"/>
+    </exportStream>
+</file-format>

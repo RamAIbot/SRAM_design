@@ -1,0 +1,3 @@
+bitcell { nmos pmos }
+nmos { }
+pmos { }

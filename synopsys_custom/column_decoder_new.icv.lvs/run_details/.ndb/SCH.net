@@ -1,0 +1,120 @@
+{netlist .sch.net
+{version 3 1 0}
+{net_global vdd! gnd! }
+{cell inv_2
+{port A Z}
+{inst MM0=nmos {TYPE MOS} 
+{pin Z=DRN A=GATE gnd!=SRC}}
+{inst MM1=pmos {TYPE MOS} 
+{pin Z=DRN A=GATE vdd!=SRC}}
+}
+
+{cell and_2
+{port A B Z}
+{inst MM10=nmos {TYPE MOS} 
+{pin Z=DRN net26=GATE gnd!=SRC}}
+{inst MM1=nmos {TYPE MOS} 
+{pin net22=DRN B=GATE gnd!=SRC}}
+{inst MM0=nmos {TYPE MOS} 
+{pin net26=DRN A=GATE net22=SRC}}
+{inst MM9=pmos {TYPE MOS} 
+{pin Z=DRN net26=GATE vdd!=SRC}}
+{inst MM3=pmos {TYPE MOS} 
+{pin net26=DRN A=GATE vdd!=SRC}}
+{inst MM2=pmos {TYPE MOS} 
+{pin net26=DRN B=GATE vdd!=SRC}}
+}
+
+{cell demu_2_4
+{port A0 A1 Out0 Out1 Out2 Out3}
+{inst XI3=and_2 {TYPE CELL} 
+{pin net13=A net15=B Out0=Z}}
+{inst XI2=and_2 {TYPE CELL} 
+{pin A0=A A1=B Out3=Z}}
+{inst XI1=and_2 {TYPE CELL} 
+{pin net13=A A1=B Out2=Z}}
+{inst XI0=and_2 {TYPE CELL} 
+{pin A0=A net15=B Out1=Z}}
+{inst XI5=inv_2 {TYPE CELL} 
+{pin A1=A net15=Z}}
+{inst XI4=inv_2 {TYPE CELL} 
+{pin A0=A net13=Z}}
+}
+
+{cell column_decoder_new
+{port A0 A1 B0 B0B B1 B1B
+ B2 B2B B3 B3B B4 B4B B5
+ B5B B6 B6B B7 B7B B8 B8B
+ B9 B9B B10 B10B B11 B11B B12
+ B12B B13 B13B B14 B14B B15 B15B
+ OutB_0 OutB_1 OutB_2 OutB_3 Out_0 Out_1 Out_2
+ Out_3}
+{inst XI1=demu_2_4 {TYPE CELL} 
+{pin A0=A0 A1=A1 net20=Out0 net44=Out1 net56=Out2 net68=Out3}}
+{inst MM49=nmos {TYPE MOS} 
+{pin B15B=DRN net68=GATE OutB_3=SRC}}
+{inst MM48=nmos {TYPE MOS} 
+{pin B14B=DRN net68=GATE OutB_2=SRC}}
+{inst MM47=nmos {TYPE MOS} 
+{pin B13B=DRN net68=GATE OutB_1=SRC}}
+{inst MM46=nmos {TYPE MOS} 
+{pin B12B=DRN net68=GATE OutB_0=SRC}}
+{inst MM45=nmos {TYPE MOS} 
+{pin B15=DRN net68=GATE Out_3=SRC}}
+{inst MM44=nmos {TYPE MOS} 
+{pin B14=DRN net68=GATE Out_2=SRC}}
+{inst MM43=nmos {TYPE MOS} 
+{pin B13=DRN net68=GATE Out_1=SRC}}
+{inst MM42=nmos {TYPE MOS} 
+{pin B12=DRN net68=GATE Out_0=SRC}}
+{inst MM41=nmos {TYPE MOS} 
+{pin B11B=DRN net56=GATE OutB_3=SRC}}
+{inst MM40=nmos {TYPE MOS} 
+{pin B10B=DRN net56=GATE OutB_2=SRC}}
+{inst MM39=nmos {TYPE MOS} 
+{pin B9B=DRN net56=GATE OutB_1=SRC}}
+{inst MM38=nmos {TYPE MOS} 
+{pin B8B=DRN net56=GATE OutB_0=SRC}}
+{inst MM37=nmos {TYPE MOS} 
+{pin B11=DRN net56=GATE Out_3=SRC}}
+{inst MM36=nmos {TYPE MOS} 
+{pin B10=DRN net56=GATE Out_2=SRC}}
+{inst MM35=nmos {TYPE MOS} 
+{pin B9=DRN net56=GATE Out_1=SRC}}
+{inst MM34=nmos {TYPE MOS} 
+{pin B8=DRN net56=GATE Out_0=SRC}}
+{inst MM17=nmos {TYPE MOS} 
+{pin B7B=DRN net44=GATE OutB_3=SRC}}
+{inst MM16=nmos {TYPE MOS} 
+{pin B6B=DRN net44=GATE OutB_2=SRC}}
+{inst MM15=nmos {TYPE MOS} 
+{pin B5B=DRN net44=GATE OutB_1=SRC}}
+{inst MM14=nmos {TYPE MOS} 
+{pin B4B=DRN net44=GATE OutB_0=SRC}}
+{inst MM13=nmos {TYPE MOS} 
+{pin B7=DRN net44=GATE Out_3=SRC}}
+{inst MM12=nmos {TYPE MOS} 
+{pin B6=DRN net44=GATE Out_2=SRC}}
+{inst MM11=nmos {TYPE MOS} 
+{pin B5=DRN net44=GATE Out_1=SRC}}
+{inst MM10=nmos {TYPE MOS} 
+{pin B4=DRN net44=GATE Out_0=SRC}}
+{inst MM9=nmos {TYPE MOS} 
+{pin B3B=DRN net20=GATE OutB_3=SRC}}
+{inst MM8=nmos {TYPE MOS} 
+{pin B2B=DRN net20=GATE OutB_2=SRC}}
+{inst MM7=nmos {TYPE MOS} 
+{pin B1B=DRN net20=GATE OutB_1=SRC}}
+{inst MM6=nmos {TYPE MOS} 
+{pin B0B=DRN net20=GATE OutB_0=SRC}}
+{inst MM5=nmos {TYPE MOS} 
+{pin B3=DRN net20=GATE Out_3=SRC}}
+{inst MM4=nmos {TYPE MOS} 
+{pin B2=DRN net20=GATE Out_2=SRC}}
+{inst MM3=nmos {TYPE MOS} 
+{pin B1=DRN net20=GATE Out_1=SRC}}
+{inst MM2=nmos {TYPE MOS} 
+{pin B0=DRN net20=GATE Out_0=SRC}}
+}
+
+}

@@ -1,0 +1,210 @@
+<module name="vsl: mylib tb2022 schematic vl: hspice hspiceD schematic spice veriloga">
+<scope name="Instance">
+<forward>
+<mapping src="VCLK" dst="vclk"/>
+<mapping src="bDW2" dst="xbdw2"/>
+<mapping src="bDW0" dst="xbdw0"/>
+<mapping src="Vdd" dst="vdd"/>
+<mapping src="bAW1" dst="xbaw1"/>
+<mapping src="bAR0" dst="xbar0"/>
+<mapping src="bAR1" dst="xbar1"/>
+<mapping src="RdDW2" dst="rddw2"/>
+<mapping src="bWENB" dst="xbwenb"/>
+<mapping src="bDW3" dst="xbdw3"/>
+<mapping src="RdDW3" dst="rddw3"/>
+<mapping src="RdDW0" dst="rddw0"/>
+<mapping src="RdAW0" dst="rdaw0"/>
+<mapping src="I34" dst="xi34"/>
+<mapping src="RdAW1" dst="rdaw1"/>
+<mapping src="I36" dst="xi36"/>
+<mapping src="RdAR0" dst="rdar0"/>
+<mapping src="I25" dst="xi25"/>
+<mapping src="bDW1" dst="xbdw1"/>
+<mapping src="RdWENB" dst="rdwenb"/>
+<mapping src="C2" dst="c2"/>
+<mapping src="C3" dst="c3"/>
+<mapping src="C0" dst="c0"/>
+<mapping src="R33" dst="r33"/>
+<mapping src="RdDW1" dst="rddw1"/>
+<mapping src="RdAR1" dst="rdar1"/>
+<mapping src="bAW0" dst="xbaw0"/>
+<mapping src="C1" dst="c1"/>
+</forward>
+<reverse>
+<mapping src="xi36" dst="I36"/>
+<mapping src="vclk" dst="VCLK"/>
+<mapping src="xbar0" dst="bAR0"/>
+<mapping src="xbar1" dst="bAR1"/>
+<mapping src="xbdw0" dst="bDW0"/>
+<mapping src="xbdw1" dst="bDW1"/>
+<mapping src="xbaw0" dst="bAW0"/>
+<mapping src="xbwenb" dst="bWENB"/>
+<mapping src="xbaw1" dst="bAW1"/>
+<mapping src="rddw0" dst="RdDW0"/>
+<mapping src="rddw1" dst="RdDW1"/>
+<mapping src="xbdw3" dst="bDW3"/>
+<mapping src="rddw3" dst="RdDW3"/>
+<mapping src="rdar1" dst="RdAR1"/>
+<mapping src="r33" dst="R33"/>
+<mapping src="rdaw0" dst="RdAW0"/>
+<mapping src="vdd" dst="Vdd"/>
+<mapping src="c0" dst="C0"/>
+<mapping src="rdwenb" dst="RdWENB"/>
+<mapping src="xbdw2" dst="bDW2"/>
+<mapping src="c2" dst="C2"/>
+<mapping src="rddw2" dst="RdDW2"/>
+<mapping src="xi34" dst="I34"/>
+<mapping src="rdaw1" dst="RdAW1"/>
+<mapping src="c3" dst="C3"/>
+<mapping src="c1" dst="C1"/>
+<mapping src="rdar0" dst="RdAR0"/>
+<mapping src="xi25" dst="I25"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward>
+<mapping src="A&lt;2>" dst="a&lt;2>"/>
+<mapping src="D&lt;3>" dst="d&lt;3>"/>
+<mapping src="D&lt;2>" dst="d&lt;2>"/>
+<mapping src="WENB" dst="wenb"/>
+<mapping src="i_A&lt;2>" dst="i_a&lt;2>"/>
+<mapping src="D&lt;1>" dst="d&lt;1>"/>
+<mapping src="A&lt;3>" dst="a&lt;3>"/>
+<mapping src="CLK" dst="clk"/>
+<mapping src="A&lt;1>" dst="a&lt;1>"/>
+<mapping src="A&lt;4>" dst="a&lt;4>"/>
+<mapping src="i_D&lt;3>" dst="i_d&lt;3>"/>
+<mapping src="A&lt;0>" dst="a&lt;0>"/>
+<mapping src="D" dst="d"/>
+<mapping src="i_D&lt;2>" dst="i_d&lt;2>"/>
+<mapping src="i_D&lt;1>" dst="i_d&lt;1>"/>
+<mapping src="i_A&lt;4>" dst="i_a&lt;4>"/>
+<mapping src="i_WENB" dst="i_wenb"/>
+<mapping src="A" dst="a"/>
+<mapping src="i_A&lt;1>" dst="i_a&lt;1>"/>
+<mapping src="i_D&lt;0>" dst="i_d&lt;0>"/>
+<mapping src="i_A&lt;0>" dst="i_a&lt;0>"/>
+<mapping src="Q&lt;3>" dst="q&lt;3>"/>
+<mapping src="D&lt;0>" dst="d&lt;0>"/>
+<mapping src="Q&lt;2>" dst="q&lt;2>"/>
+<mapping src="i_A&lt;3>" dst="i_a&lt;3>"/>
+<mapping src="Q&lt;1>" dst="q&lt;1>"/>
+<mapping src="Q&lt;0>" dst="q&lt;0>"/>
+</forward>
+<reverse>
+<mapping src="d&lt;3>" dst="D&lt;3>"/>
+<mapping src="a&lt;2>" dst="A&lt;2>"/>
+<mapping src="clk" dst="CLK"/>
+<mapping src="d" dst="D"/>
+<mapping src="a" dst="A"/>
+<mapping src="i_d&lt;3>" dst="i_D&lt;3>"/>
+<mapping src="i_wenb" dst="i_WENB"/>
+<mapping src="i_d&lt;2>" dst="i_D&lt;2>"/>
+<mapping src="i_d&lt;1>" dst="i_D&lt;1>"/>
+<mapping src="a&lt;0>" dst="A&lt;0>"/>
+<mapping src="i_d&lt;0>" dst="i_D&lt;0>"/>
+<mapping src="d&lt;0>" dst="D&lt;0>"/>
+<mapping src="i_a&lt;3>" dst="i_A&lt;3>"/>
+<mapping src="d&lt;2>" dst="D&lt;2>"/>
+<mapping src="i_a&lt;2>" dst="i_A&lt;2>"/>
+<mapping src="wenb" dst="WENB"/>
+<mapping src="i_a&lt;4>" dst="i_A&lt;4>"/>
+<mapping src="i_a&lt;1>" dst="i_A&lt;1>"/>
+<mapping src="i_a&lt;0>" dst="i_A&lt;0>"/>
+<mapping src="q&lt;3>" dst="Q&lt;3>"/>
+<mapping src="a&lt;4>" dst="A&lt;4>"/>
+<mapping src="a&lt;3>" dst="A&lt;3>"/>
+<mapping src="q&lt;2>" dst="Q&lt;2>"/>
+<mapping src="d&lt;1>" dst="D&lt;1>"/>
+<mapping src="a&lt;1>" dst="A&lt;1>"/>
+<mapping src="q&lt;1>" dst="Q&lt;1>"/>
+<mapping src="q&lt;0>" dst="Q&lt;0>"/>
+</reverse>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping src="&lt;unmappedTermOrder>" dst="Q&lt;0> Q&lt;1> Q&lt;2> Q&lt;3> i_A&lt;0> i_A&lt;1> i_A&lt;2> i_A&lt;3> i_A&lt;4> i_D&lt;0> i_D&lt;1> i_D&lt;2> i_D&lt;3> i_WENB"/>
+<mapping src="i_A&lt;1>" dst="i_a&lt;1>"/>
+<mapping src="i_WENB" dst="i_wenb"/>
+<mapping src="i_D&lt;3>" dst="i_d&lt;3>"/>
+<mapping src="i_D&lt;1>" dst="i_d&lt;1>"/>
+<mapping src="i_D&lt;2>" dst="i_d&lt;2>"/>
+<mapping src="i_D" dst="i_d"/>
+<mapping src="i_A&lt;2>" dst="i_a&lt;2>"/>
+<mapping src="i_D&lt;0>" dst="i_d&lt;0>"/>
+<mapping src="i_A&lt;0>" dst="i_a&lt;0>"/>
+<mapping src="&lt;termOrder>" dst="q&lt;0> q&lt;1> q&lt;2> q&lt;3> i_a&lt;0> i_a&lt;1> i_a&lt;2> i_a&lt;3> i_a&lt;4> i_d&lt;0> i_d&lt;1> i_d&lt;2> i_d&lt;3> i_wenb"/>
+<mapping src="i_A&lt;4>" dst="i_a&lt;4>"/>
+<mapping src="i_A" dst="i_a"/>
+<mapping src="Q&lt;2>" dst="q&lt;2>"/>
+<mapping src="i_A&lt;3>" dst="i_a&lt;3>"/>
+<mapping src="Q&lt;1>" dst="q&lt;1>"/>
+<mapping src="Q&lt;0>" dst="q&lt;0>"/>
+<mapping src="Q&lt;3>" dst="q&lt;3>"/>
+<mapping src="Q" dst="q"/>
+</forward>
+<reverse>
+<mapping src="Q&lt;0> Q&lt;1> Q&lt;2> Q&lt;3> i_A&lt;0> i_A&lt;1> i_A&lt;2> i_A&lt;3> i_A&lt;4> i_D&lt;0> i_D&lt;1> i_D&lt;2> i_D&lt;3> i_WENB" dst="&lt;unmappedTermOrder>"/>
+<mapping src="q&lt;0> q&lt;1> q&lt;2> q&lt;3> i_a&lt;0> i_a&lt;1> i_a&lt;2> i_a&lt;3> i_a&lt;4> i_d&lt;0> i_d&lt;1> i_d&lt;2> i_d&lt;3> i_wenb" dst="&lt;termOrder>"/>
+<mapping src="i_d&lt;0>" dst="i_D&lt;0>"/>
+<mapping src="i_d&lt;1>" dst="i_D&lt;1>"/>
+<mapping src="i_d&lt;2>" dst="i_D&lt;2>"/>
+<mapping src="i_a&lt;3>" dst="i_A&lt;3>"/>
+<mapping src="i_a&lt;2>" dst="i_A&lt;2>"/>
+<mapping src="i_a&lt;0>" dst="i_A&lt;0>"/>
+<mapping src="i_d&lt;3>" dst="i_D&lt;3>"/>
+<mapping src="i_wenb" dst="i_WENB"/>
+<mapping src="i_a" dst="i_A"/>
+<mapping src="q&lt;3>" dst="Q&lt;3>"/>
+<mapping src="q&lt;2>" dst="Q&lt;2>"/>
+<mapping src="q&lt;1>" dst="Q&lt;1>"/>
+<mapping src="q&lt;0>" dst="Q&lt;0>"/>
+<mapping src="i_a&lt;1>" dst="i_A&lt;1>"/>
+<mapping src="i_d" dst="i_D"/>
+<mapping src="q" dst="Q"/>
+<mapping src="i_a&lt;4>" dst="i_A&lt;4>"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="bit_cell_array">
+<instance name="I36"/>
+</instance_header>
+<instance_header master="cap">
+<instance name="C0"/>
+<instance name="C1"/>
+<instance name="C2"/>
+<instance name="C3"/>
+</instance_header>
+<instance_header master="inputbuf">
+<instance name="I25"/>
+<instance name="I34"/>
+<instance name="bAR0"/>
+<instance name="bAR1"/>
+<instance name="bAW0"/>
+<instance name="bAW1"/>
+<instance name="bDW0"/>
+<instance name="bDW1"/>
+<instance name="bDW2"/>
+<instance name="bDW3"/>
+<instance name="bWENB"/>
+</instance_header>
+<instance_header master="res">
+<instance name="R33"/>
+<instance name="RdAR0"/>
+<instance name="RdAR1"/>
+<instance name="RdAW0"/>
+<instance name="RdAW1"/>
+<instance name="RdDW0"/>
+<instance name="RdDW1"/>
+<instance name="RdDW2"/>
+<instance name="RdDW3"/>
+<instance name="RdWENB"/>
+</instance_header>
+<instance_header master="vdc">
+<instance name="Vdd"/>
+</instance_header>
+<instance_header master="vpulse">
+<instance name="VCLK"/>
+</instance_header>
+</master_instances>
+</module>

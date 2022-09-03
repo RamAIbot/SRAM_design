@@ -1,0 +1,44 @@
+<module name="vsl: mylib inv_2 schematic vl: hspice hspiceD schematic spice veriloga">
+<scope name="Instance">
+<forward>
+<mapping src="M1" dst="m1"/>
+<mapping src="M0" dst="m0"/>
+</forward>
+<reverse>
+<mapping src="m1" dst="M1"/>
+<mapping src="m0" dst="M0"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward>
+<mapping src="Z" dst="z"/>
+<mapping src="A" dst="a"/>
+</forward>
+<reverse>
+<mapping src="z" dst="Z"/>
+<mapping src="a" dst="A"/>
+</reverse>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping src="&lt;unmappedTermOrder>" dst="A Z"/>
+<mapping src="&lt;termOrder>" dst="a z"/>
+<mapping src="Z" dst="z"/>
+<mapping src="A" dst="a"/>
+</forward>
+<reverse>
+<mapping src="A Z" dst="&lt;unmappedTermOrder>"/>
+<mapping src="a z" dst="&lt;termOrder>"/>
+<mapping src="z" dst="Z"/>
+<mapping src="a" dst="A"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="nmos">
+<instance name="M0"/>
+</instance_header>
+<instance_header master="pmos">
+<instance name="M1"/>
+</instance_header>
+</master_instances>
+</module>

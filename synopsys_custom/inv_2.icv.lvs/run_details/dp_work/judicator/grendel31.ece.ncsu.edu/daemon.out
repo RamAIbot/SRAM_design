@@ -1,0 +1,568 @@
+[JudicatorDaemon] Daemon started with pid = 20468
+bind to socket file /tmp/judisock_xrjBpN, socklen = 22.
+started listen() on socket 18
+  New connection to poll - 18
+  New connection to poll - 19
+  Listening socket is readable
+  New connection to poll - 20
+added new engine pid=20485,rank=1,slot=0
+  Listening socket is readable
+  New connection to poll - 21
+Adding fd 21 (pid=20485,rank=1,slot=0) to connection catalog
+Engine 1 (pid 20485) host memory = 128672MB.
+  Listening socket is readable
+  New connection to poll - 23
+added new engine pid=20512,rank=0,slot=1
+  Listening socket is readable
+  New connection to poll - 24
+Adding fd 24 (pid=20512,rank=0,slot=1) to connection catalog
+Engine 0 (pid 20512) host memory = 128672MB.
+Auto thread command 2082 552.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+Auto thread command 2082 552.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 2082 552.0.0 ended on engine pid=20485,rank=1,slot=0
+command 2082 552.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 1822 477.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 1822 477.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 1829 479.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 1829 479.0.0 ended on engine pid=20512,rank=0,slot=1
+Removing fd 24 from connection catalog
+  Descriptor 24 hang up
+Cannot identify connection with fd 24. No engine to shutdown.
+Closing socket 24
+  Listening socket is readable
+  New connection to poll - 24
+Adding fd 24 (pid=20512,rank=0,slot=1) to connection catalog
+Engine 0 (pid 20512) host memory = 128672MB.
+Auto thread command 1836 482.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 1836 482.0.0 ended on engine pid=20485,rank=1,slot=0
+Removing fd 21 from connection catalog
+  Descriptor 21 hang up
+Cannot identify connection with fd 21. No engine to shutdown.
+Closing socket 21
+Auto thread command 2082 552.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 2082 552.0.0 ended on engine pid=20512,rank=0,slot=1
+  Listening socket is readable
+  New connection to poll - 21
+Adding fd 21 (pid=20485,rank=1,slot=0) to connection catalog
+Engine 1 (pid 20485) host memory = 128672MB.
+Auto thread command 1868 489.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+[1.000400s] usr=0.0s, sys=0.0s
+Auto thread command 2082 552.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2082 552.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 0 0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 0 0 ended on engine pid=20485,rank=1,slot=0
+Removing fd 21 from connection catalog
+  Descriptor 21 hang up
+Cannot identify connection with fd 21. No engine to shutdown.
+Closing socket 21
+command 1868 489.0.0 ended on engine pid=20512,rank=0,slot=1
+  Listening socket is readable
+  New connection to poll - 21
+Adding fd 21 (pid=20485,rank=1,slot=0) to connection catalog
+Engine 1 (pid 20485) host memory = 128672MB.
+Auto thread command 2090 556.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+Auto thread command 2082 552.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2082 552.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 5831 1796.0.0.1798.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2090 556.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 2099 557.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 2099 557.0.0 ended on engine pid=20512,rank=0,slot=1
+Removing fd 24 from connection catalog
+  Descriptor 24 hang up
+Cannot identify connection with fd 24. No engine to shutdown.
+Closing socket 24
+command 5831 1796.0.0.1798.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2498 681.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2498 681.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2472 673.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2472 673.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2446 665.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2446 665.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2420 657.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2420 657.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2391 647.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2391 647.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2365 639.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2365 639.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2339 631.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2339 631.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2313 623.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2313 623.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2269 608.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2269 608.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2243 600.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2243 600.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2217 592.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2217 592.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2191 584.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2191 584.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2180 581.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+  Listening socket is readable
+  New connection to poll - 24
+Adding fd 24 (pid=20512,rank=0,slot=1) to connection catalog
+Engine 0 (pid 20512) host memory = 128672MB.
+command 2180 581.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2145 573.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2145 573.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2087 555.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2087 555.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2157 574.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2157 574.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2185 582.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2185 582.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2196 585.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2196 585.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2222 593.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2222 593.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2248 601.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2248 601.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2274 609.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2274 609.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2318 624.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2318 624.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2102 558.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2102 558.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 4031 1241.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 4031 1241.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 3055 908.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 3055 908.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 3060 910.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 3060 910.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 5048 1566.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 5048 1566.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 3071 914.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 3071 914.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 3078 916.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 3078 916.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 4638 1418.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 4638 1418.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2104 559.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2104 559.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2344 632.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2344 632.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2370 640.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2370 640.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2396 648.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2396 648.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 4428 1338.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 4428 1338.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 4044 1245.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 4044 1245.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2425 658.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2425 658.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 4001 1231.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 4001 1231.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2451 666.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2451 666.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2477 674.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2477 674.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 4014 1235.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 4014 1235.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2503 682.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2503 682.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 5865 1809.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 5865 1809.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 5581 1728.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 5581 1728.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 3988 1226.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 3988 1226.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 3982 1223.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 3982 1223.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 3974 1219.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 3974 1219.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 3968 1216.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 3968 1216.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 3960 1212.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 3960 1212.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 3954 1209.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 3954 1209.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 3946 1205.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 3946 1205.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 3940 1202.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 3940 1202.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 3932 1198.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 3932 1198.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 3926 1195.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 3926 1195.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 3918 1191.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 3918 1191.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 3912 1188.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 3912 1188.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 3904 1184.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 3904 1184.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 3898 1181.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 3898 1181.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 3890 1177.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 3890 1177.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 3884 1174.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 3884 1174.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 3876 1170.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 3876 1170.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 3870 1167.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 3870 1167.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 3862 1163.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 3862 1163.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 3856 1160.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 3856 1160.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 3848 1156.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 3848 1156.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 3842 1153.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 3842 1153.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 3834 1149.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 3834 1149.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 3828 1146.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 3828 1146.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 3820 1142.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 3820 1142.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 3814 1139.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 3814 1139.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 3806 1135.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 3806 1135.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 3800 1132.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 3800 1132.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 3066 912.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 3066 912.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 3052 906.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 3052 906.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2082 552.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 2082 552.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 3034 899.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+Auto thread command 3016 892.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 3034 899.0.0 ended on engine pid=20485,rank=1,slot=0
+command 3016 892.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 3013 890.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 3013 890.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2995 883.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 2995 883.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 2977 876.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2977 876.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2974 874.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+Auto thread command 2956 867.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2974 874.0.0 ended on engine pid=20512,rank=0,slot=1
+command 2956 867.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2938 860.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 2938 860.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 2935 858.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2935 858.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2917 851.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 2917 851.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 2899 844.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2899 844.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2896 842.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 2896 842.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 2878 835.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2878 835.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2860 828.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 2860 828.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 2857 826.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2857 826.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2839 819.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+Auto thread command 2821 812.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2839 819.0.0 ended on engine pid=20512,rank=0,slot=1
+command 2821 812.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2818 810.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 2818 810.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 2800 803.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2800 803.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2782 796.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 2782 796.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 2779 794.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+Auto thread command 2761 787.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 2779 794.0.0 ended on engine pid=20485,rank=1,slot=0
+command 2761 787.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 2743 780.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2743 780.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2740 778.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 2740 778.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 2722 771.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+Auto thread command 2704 764.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 2722 771.0.0 ended on engine pid=20485,rank=1,slot=0
+command 2704 764.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 2701 762.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2701 762.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2683 755.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 2683 755.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 2665 748.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2665 748.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2662 746.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 2662 746.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 2644 739.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2644 739.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2626 732.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 2626 732.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 2623 730.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2623 730.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2605 723.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 2605 723.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 2587 716.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2587 716.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2584 714.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 2584 714.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 2566 707.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2566 707.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2548 700.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 2548 700.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 2545 698.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2545 698.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2527 691.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 2527 691.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 2509 684.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2509 684.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2417 655.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 2417 655.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 2295 616.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2295 616.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 2084 554.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 2084 554.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 0 0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 0 0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 4408 1332.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+Removing fd 21 from connection catalog
+  Descriptor 21 hang up
+Cannot identify connection with fd 21. No engine to shutdown.
+Closing socket 21
+command 4408 1332.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4387 1327.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4387 1327.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4397 1329.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4397 1329.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4478 1358.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4478 1358.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 3089 919.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 3089 919.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 3100 922.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 3100 922.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 3111 925.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 3111 925.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 3183 947.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 3183 947.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 3117 927.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 3117 927.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 3122 929.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 3122 929.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 3399 1007.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 3399 1007.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 3753 1115.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 3753 1115.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4582 1393.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4582 1393.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 3133 932.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 3133 932.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4419 1335.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4419 1335.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4527 1375.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4527 1375.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 3144 935.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 3144 935.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 3155 938.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 3155 938.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 3166 941.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 3166 941.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 3191 949.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 3191 949.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 3172 943.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 3172 943.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 3177 945.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 3177 945.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 3672 1087.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 3672 1087.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 3760 1118.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 3760 1118.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4487 1361.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4487 1361.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4497 1363.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4497 1363.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4503 1365.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4503 1365.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4507 1367.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4507 1367.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4511 1369.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4511 1369.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4656 1426.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4656 1426.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4515 1371.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4515 1371.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4536 1378.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4536 1378.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4547 1381.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4547 1381.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4553 1383.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4553 1383.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4557 1385.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4557 1385.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4561 1387.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4561 1387.0.0 ended on engine pid=20512,rank=0,slot=1
+  Listening socket is readable
+  New connection to poll - 21
+Adding fd 21 (pid=20485,rank=1,slot=0) to connection catalog
+Engine 1 (pid 20485) host memory = 128672MB.
+Auto thread command 4565 1389.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4565 1389.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4460 1350.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4460 1350.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4466 1352.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4466 1352.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4470 1354.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4470 1354.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4437 1341.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4437 1341.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4443 1343.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4443 1343.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4447 1345.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4447 1345.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4595 1399.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4595 1399.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4609 1405.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4609 1405.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4624 1412.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4624 1412.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 3746 1112.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 3746 1112.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 3777 1124.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 3777 1124.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 3790 1128.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 3790 1128.0.0 ended on engine pid=20512,rank=0,slot=1
+[2.000251s] usr=0.0s, sys=0.02s
+Auto thread command 4157 1250.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4157 1250.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4670 1432.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4670 1432.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4688 1440.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4688 1440.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4316 1307.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4316 1307.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4311 1305.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4311 1305.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4306 1303.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4306 1303.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4301 1301.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4301 1301.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4296 1299.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4296 1299.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4291 1297.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4291 1297.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4286 1295.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4286 1295.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4281 1293.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4281 1293.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4276 1291.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4276 1291.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4271 1289.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4271 1289.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4266 1287.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4266 1287.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4261 1285.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4261 1285.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4256 1283.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4256 1283.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4251 1281.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4251 1281.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4246 1279.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4246 1279.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4241 1277.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4241 1277.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4236 1275.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4236 1275.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4321 1309.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4321 1309.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4354 1319.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4354 1319.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4722 1454.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4722 1454.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4743 1458.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4743 1458.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4844 1502.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+Auto thread command 2082 552.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 2082 552.0.0 ended on engine pid=20485,rank=1,slot=0
+command 4844 1502.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4811 1488.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+Auto thread command 4858 1508.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4858 1508.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4779 1474.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4811 1488.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 4825 1494.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 4825 1494.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 4747 1460.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 4779 1474.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4793 1480.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4793 1480.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 0 0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 0 0 ended on engine pid=20512,rank=0,slot=1
+command 4747 1460.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 4761 1466.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+Auto thread command 0 0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 0 0 ended on engine pid=20485,rank=1,slot=0
+command 4761 1466.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4904 1523.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4904 1523.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 4975 1543.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 4975 1543.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 5319 1660.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+Auto thread command 5230 1633.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 5319 1660.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 5123 1593.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 5123 1593.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 0 0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 0 0 ended on engine pid=20512,rank=0,slot=1
+command 5230 1633.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 5354 1670.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+Auto thread command 0 0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 0 0 ended on engine pid=20485,rank=1,slot=0
+command 5354 1670.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 14565 4174.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+Auto thread command 14548 4168.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 14565 4174.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 14501 4155.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 14501 4155.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 5579 1727.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 14548 4168.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 5377 1676.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 5377 1676.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 5644 1751.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 5644 1751.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 5993 1848.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 5579 1727.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 5686 1769.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 5686 1769.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 5666 1760.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 5993 1848.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 5996 1849.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 5666 1760.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 5391 1682.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 5391 1682.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 5384 1679.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 5996 1849.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 0 0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 0 0 ended on engine pid=20485,rank=1,slot=0
+command 5384 1679.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 14812 4245.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+Auto thread command 14812 4245.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+Reported thread stats of engine 0, 1 to dp memory manager
+[3.000409s] usr=0.0s, sys=0.03s
+command 14812 4245.0.0 ended on engine pid=20512,rank=0,slot=1
+command 14812 4245.0.0 ended on engine pid=20485,rank=1,slot=0
+Auto thread command 14813 4246.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+command 14813 4246.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 14815 4247.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+Auto thread command 14815 4247.0.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+command 14815 4247.0.0 ended on engine pid=20485,rank=1,slot=0
+command 14815 4247.0.0 ended on engine pid=20512,rank=0,slot=1
+Auto thread command 26 10.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20512,rank=0,slot=1
+Auto thread command 26 10.0 (w=0.0 aw=0.0 lp=0 grd=0) started on engine pid=20485,rank=1,slot=0
+  Descriptor 24 hang up
+Removing fd 24 from connection catalog
+Closing socket 24
+  Descriptor 21 hang up
+Removing fd 21 from connection catalog
+Closing socket 21
+  Descriptor 20 hang up
+Cannot identify connection with fd 20. No engine to shutdown.
+Closing socket 20
+  Descriptor 23 hang up
+Cannot identify connection with fd 23. No engine to shutdown.
+Closing socket 23
+Received msg 66 from parent process.
+JudicatorDaemon terminated.
+Closing socket 18
+Closing socket 19
+[JudicatorDaemon] exits

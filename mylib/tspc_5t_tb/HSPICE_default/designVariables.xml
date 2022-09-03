@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Mon Apr  4 15:15:59 2022-->
+<file-format version="1.0" name="stateCategory">
+ <object version="1" type="saDesignVariables" name="designVariables">
+  <attribute type="giString" value="default" name="variableSet"/>
+  <collection name="variableSets">
+   <object version="1" type="saDesignVariableSet" name="variableSets">
+    <collection name="designVariables">
+     <object version="1" type="saDesignVariable" name="designVariables">
+      <attribute type="giString" value="" name="description"/>
+      <attribute type="giString" value="VDD" name="name"/>
+      <attribute type="giBoolean" value="1" name="useLocal"/>
+      <attribute type="giString" value="0.8" name="value"/>
+      <attribute type="enVariableType" value="none" name="variableType"/>
+     </object>
+     <object version="1" type="saDesignVariable" name="designVariables">
+      <attribute type="giString" value="" name="description"/>
+      <attribute type="giString" value="delaytime" name="name"/>
+      <attribute type="giBoolean" value="1" name="useLocal"/>
+      <attribute type="giString" value="0" name="value"/>
+      <attribute type="enVariableType" value="none" name="variableType"/>
+     </object>
+     <object version="1" type="saDesignVariable" name="designVariables">
+      <attribute type="giString" value="" name="description"/>
+      <attribute type="giString" value="falltime" name="name"/>
+      <attribute type="giBoolean" value="1" name="useLocal"/>
+      <attribute type="giString" value="5p" name="value"/>
+      <attribute type="enVariableType" value="none" name="variableType"/>
+     </object>
+     <object version="1" type="saDesignVariable" name="designVariables">
+      <attribute type="giString" value="" name="description"/>
+      <attribute type="giString" value="period" name="name"/>
+      <attribute type="giBoolean" value="1" name="useLocal"/>
+      <attribute type="giString" value="200p" name="value"/>
+      <attribute type="enVariableType" value="none" name="variableType"/>
+     </object>
+     <object version="1" type="saDesignVariable" name="designVariables">
+      <attribute type="giString" value="" name="description"/>
+      <attribute type="giString" value="pwidth" name="name"/>
+      <attribute type="giBoolean" value="1" name="useLocal"/>
+      <attribute type="giString" value="95p" name="value"/>
+      <attribute type="enVariableType" value="none" name="variableType"/>
+     </object>
+     <object version="1" type="saDesignVariable" name="designVariables">
+      <attribute type="giString" value="" name="description"/>
+      <attribute type="giString" value="risetime" name="name"/>
+      <attribute type="giBoolean" value="1" name="useLocal"/>
+      <attribute type="giString" value="5p" name="value"/>
+      <attribute type="enVariableType" value="none" name="variableType"/>
+     </object>
+    </collection>
+    <attribute type="giString" value="default" name="name"/>
+   </object>
+  </collection>
+ </object>
+</file-format>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Mon May  2 23:52:43 2022-->
+<file-format name="netlisting-timestamps" version="2.0">
+<module viewStopList="auCdl" timestamp="6222" contextID="switched: mylib column_decoder_new schematic vl: auCdl schematic symbol sl: auCdl" isSubcircuit="1" viewSearchList="auCdl schematic symbol">
+<parameterizedConnections>
+<connectDefs timestamp="0"/>
+<oaAssignments timestamp="0"/>
+<dbAssignValue timestamp="0"/>
+<dbAssignAssignment timestamp="0"/>
+</parameterizedConnections>
+<parameters timestamp="14"/>
+<lib_parameters timestamp="1"/>
+<LineageParams/>
+<ParentParams/>
+<Terms timestamp="5879"/>
+<PortOrder><![CDATA[A0A1B0B0BB1B1BB2B2BB3B3BB4B4BB5B5BB6B6BB7B7BB8B8BB9B9BB10B10BB11B11BB12B12BB13B13BB14B14BB15B15BOutB_0OutB_1OutB_2OutB_3Out_0Out_1Out_2Out_3]]></PortOrder>
+<ShortOptions timestamp="1009512283"/>
+</module>
+</file-format>

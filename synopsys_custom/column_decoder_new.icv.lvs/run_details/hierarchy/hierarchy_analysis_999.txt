@@ -1,0 +1,158 @@
+* Description of frequently used terms in hierarchy_analysis files*
+M indicates that the value of that column is in millions
+Hier Plc Count(Hierarchical Placement Count) : Number of unique instances of the cell in another cell (Parent)
+Flat Plc Count(Flat Placement Count)         : Total number of instances of the cell in the layout
+
+Example : 
+                               A                     
+                              / \                   Cell  Hier Plc Count Flat Plc Count 
+                             /   \                     A               1              1 
+                            B     B                    B               2              2 
+                           / \  /  \                   C               2              4 
+                          C   C C   C                
+------------------------------------------------------------------------------------------------------ 
+
+
+* Cells with flat area > 0.01 of top cell *
+Reports cells with flat area > 0.01 of top cell
+
+Flat A(Flat Area) : Total area covered by this cell in the layout(cell area * flat placement count)
+Cell A(Cell Area) : Area of this cell
+Percent of top    : Percentage of area of this cell w.r.t area of top cell
+This table contains 3 entries
+Original table contains 3 entries
+
+ Name                                          | Flat A (mm^2), Cell A (mm^2), Flat Plc Count, Hier Plc Count, Percent of top
+-----------------------------------------------
+ column_decoder_new                            |         0.000,         0.000,              1,              1,       100.00 %
+ demu_2_4                                      |         0.000,         0.000,              1,              1,         6.67 %
+ and_2                                         |         0.000,         0.000,              4,              4,         4.09 %
+===============================================
+
+* Large-Area cells and child area ratio *
+This table reports cells with large areas and ratio of its area with total area covered by its children
+
+Num Inst(Number of instances) : Total Number of instances of the cell
+Child A(Child Area)           : Total area covered by all the children of the cell
+Pct of parent(Percent of area): Percentage of total area covered by its childern w.r.t area of this cell
+This table contains 3 entries
+Original table contains 3 entries
+
+ Name                                          | Flat A (mm^2), Cell A (mm^2), Num Inst (M), Child A (mm^2), Pct of parent
+-----------------------------------------------
+ column_decoder_new                            |         0.000,         0.000,        0.000,         0.000,        6.67 %
+ demu_2_4                                      |         0.000,         0.000,        0.000,         0.000,       71.35 %
+ and_2                                         |         0.000,         0.000,        0.000,         0.000,        0.00 %
+===============================================
+
+* Exploded Cell Information *
+Displays information of exploded cells
+
+Parent cell           : Name of the parent cell the cell has exploded into
+Exploded Inst Count   : Total number of instances of the cell that has expldoed to the parent cell
+Parent Flat Plc Count : Parent cell flat placement count
+Parent Hier Plc Count : Parent cell hierarchical placement count
+This table contains 21 entries
+Original table contains 21 entries
+
+ Exploded Cell                                 | Parent Cell                                   | Exploded Inst Count, Parent Flat Plc Count, Parent Hier Plc Count
+----------------------------------------------- -----------------------------------------------
+ M0B_M1                                        | column_decoder_new                            |                  90,                     1,                     1
+ M0A_M0B                                       | column_decoder_new                            |                  64,                     1,                     1
+ GATE_M0B                                      | column_decoder_new                            |                  34,                     1,                     1
+ nmos                                          | column_decoder_new                            |                  32,                     1,                     1
+ M0B_M1                                        | demu_2_4                                      |                  18,                     1,                     1
+ M1_M2                                         | demu_2_4                                      |                  12,                     1,                     1
+ M1_M2                                         | column_decoder_new                            |                  10,                     1,                     1
+ pmos                                          | and_2                                         |                   6,                     4,                     4
+ BPR_M0A                                       | and_2                                         |                   5,                     4,                     4
+ nmos                                          | and_2                                         |                   5,                     4,                     4
+ GATE_M0B                                      | and_2                                         |                   4,                     4,                     4
+ M0A_M0B                                       | and_2                                         |                   4,                     4,                     4
+ M0B_M1                                        | and_2                                         |                   4,                     4,                     4
+ BPR_M0A                                       | demu_2_4                                      |                   2,                     1,                     1
+ M0A_M0B                                       | demu_2_4                                      |                   2,                     1,                     1
+ BPR_M0A                                       | inv_2                                         |                   2,                     2,                     2
+ pmos                                          | inv_2                                         |                   2,                     2,                     2
+ M2_M3                                         | demu_2_4                                      |                   1,                     1,                     1
+ GATE_M0B                                      | inv_2                                         |                   1,                     2,                     2
+ M0A_M0B                                       | inv_2                                         |                   1,                     2,                     2
+ nmos                                          | inv_2                                         |                   1,                     2,                     2
+=============================================== ===============================================
+
+* Layer Report with Estimated Data *
+Reports information of layers present in the layout
+
+Trap        : Number of hierarchical trapezoids in the layer
+Poly        : Number of hierarchical polygons in the layer
+Text        : Number of hierarchical text primitives in the layer
+Flat Trap   : Number of flat trapezoids 
+Flat Poly   : Number of flat polygons
+Flat Text   : Number of flat text primitives 
+Trap F/H    : Ratio of flat and hierarchical placements of the trapezoids
+Base, Metal, Via, Fill, Colored : Indicates layer intent
+This table contains 19 entries
+Original table contains 19 entries
+
+ Name                                          | Trap (M), Poly (M), Text (M), Flat Trap (M), Flat Poly (M), Flat Text (M), Trap F/H, Base, Metal, Via, Fill, Colored
+-----------------------------------------------
+ aM0B                                          |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     1.17,    0,     0,   0,    0,       0
+ aGATE                                         |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     1.51,    0,     0,   0,    0,       0
+ aM0A                                          |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     1.56,    0,     0,   0,    0,       0
+ aM1                                           |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     1.09,    0,     0,   0,    0,       0
+ aV0B                                          |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     1.11,    0,     0,   0,    0,       0
+ aV0A                                          |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     1.18,    0,     0,   0,    0,       0
+ aDUMMY                                        |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     1.66,    0,     0,   0,    0,       0
+ tM0B                                          |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     0.00,    0,     0,   0,    0,       0
+ aACT                                          |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     1.75,    0,     0,   0,    0,       0
+ aNIM                                          |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     1.47,    0,     0,   0,    0,       0
+ aGCON                                         |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     1.33,    0,     0,   0,    0,       0
+ aM2                                           |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     1.00,    0,     0,   0,    0,       0
+ aBPR                                          |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     2.38,    0,     0,   0,    0,       0
+ aV1                                           |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     1.00,    0,     0,   0,    0,       0
+ aNW                                           |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     2.85,    0,     0,   0,    0,       0
+ aVBPR                                         |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     2.89,    0,     0,   0,    0,       0
+ tBPR                                          |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     0.00,    0,     0,   0,    0,       0
+ aGCUT                                         |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     1.00,    0,     0,   0,    0,       0
+ tM0A                                          |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     0.00,    0,     0,   0,    0,       0
+===============================================
+
+* Explosion tries on no explode cells *
+Reports the attempts to explode cells which can not be exploded
+Explosion Try         : Reason behind the attempt to explode that particular cell
+Not Exploding Reason  : Reason why the cell is not being exploded
+This table contains 2 entries
+Original table contains 2 entries
+
+ Cell Name                                     | Explosion Try                                 |                          Not Exploding Reason
+----------------------------------------------- ----------------------------------------------- -----------------------------------------------
+ demu_2_4                                      | AUTO_EXPLODED (PLACEMENT_LIMIT)               |                             USED (NO EXPLODE)
+ demu_2_4                                      | AUTO_EXPLODED (BIG_SPARSE_CELL)               |                             USED (NO EXPLODE)
+=============================================== =============================================== ===============================================
+
+* Top cells pushing ref->ref data *
+Reports cells sorted on count of pushed references
+Cell Snum           : Indicates an unique structure number to identify the cell
+Reference Count     : Indicates the number of references pushed by the cell
+This table contains 2 entries
+Original table contains 2 entries
+
+ Name                                          |    Reference Count,     Cell Snum
+-----------------------------------------------
+ inv_2                                         |                  4,             2
+ and_2                                         |                  4,             3
+===============================================
+
+* Top cells accepting ref->ref data *
+Reports cells sorted on count of accepted references
+Cell Snum           : Indicates an unique structure number to identify the cell
+Reference Count     : Indicates the number of references accepted by the cell
+This table contains 2 entries
+Original table contains 2 entries
+
+ Name                                          |    Reference Count,     Cell Snum
+-----------------------------------------------
+ inv_2                                         |                  4,             2
+ and_2                                         |                  4,             3
+===============================================
+

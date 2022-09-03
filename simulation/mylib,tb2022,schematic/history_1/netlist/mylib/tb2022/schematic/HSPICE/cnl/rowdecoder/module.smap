@@ -1,0 +1,119 @@
+<module name="vsl: mylib rowdecoder schematic vl: hspice hspiceD schematic spice veriloga">
+<scope name="Instance">
+<forward>
+<mapping src="I19" dst="xi19"/>
+<mapping src="I20" dst="xi20"/>
+<mapping src="I57" dst="xi57"/>
+<mapping src="I21" dst="xi21"/>
+<mapping src="I56" dst="xi56"/>
+<mapping src="I55" dst="xi55"/>
+<mapping src="I59" dst="xi59"/>
+<mapping src="I58" dst="xi58"/>
+<mapping src="I54" dst="xi54"/>
+<mapping src="I61" dst="xi61"/>
+<mapping src="I60" dst="xi60"/>
+</forward>
+<reverse>
+<mapping src="xi19" dst="I19"/>
+<mapping src="xi56" dst="I56"/>
+<mapping src="xi20" dst="I20"/>
+<mapping src="xi21" dst="I21"/>
+<mapping src="xi57" dst="I57"/>
+<mapping src="xi55" dst="I55"/>
+<mapping src="xi59" dst="I59"/>
+<mapping src="xi58" dst="I58"/>
+<mapping src="xi54" dst="I54"/>
+<mapping src="xi61" dst="I61"/>
+<mapping src="xi60" dst="I60"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward>
+<mapping src="~A&lt;2>" dst="~a&lt;2>"/>
+<mapping src="~A" dst="~a"/>
+<mapping src="WL&lt;5>" dst="wl&lt;5>"/>
+<mapping src="WL&lt;4>" dst="wl&lt;4>"/>
+<mapping src="~A&lt;1>" dst="~a&lt;1>"/>
+<mapping src="WL&lt;1>" dst="wl&lt;1>"/>
+<mapping src="WL&lt;3>" dst="wl&lt;3>"/>
+<mapping src="~A&lt;0>" dst="~a&lt;0>"/>
+<mapping src="WL&lt;6>" dst="wl&lt;6>"/>
+<mapping src="WL&lt;0>" dst="wl&lt;0>"/>
+<mapping src="WL&lt;2>" dst="wl&lt;2>"/>
+<mapping src="A&lt;4>" dst="a&lt;4>"/>
+<mapping src="A&lt;3>" dst="a&lt;3>"/>
+<mapping src="WL&lt;7>" dst="wl&lt;7>"/>
+<mapping src="A&lt;2>" dst="a&lt;2>"/>
+</forward>
+<reverse>
+<mapping src="~a&lt;1>" dst="~A&lt;1>"/>
+<mapping src="~a&lt;2>" dst="~A&lt;2>"/>
+<mapping src="~a&lt;0>" dst="~A&lt;0>"/>
+<mapping src="~a" dst="~A"/>
+<mapping src="wl&lt;6>" dst="WL&lt;6>"/>
+<mapping src="wl&lt;5>" dst="WL&lt;5>"/>
+<mapping src="wl&lt;2>" dst="WL&lt;2>"/>
+<mapping src="wl&lt;7>" dst="WL&lt;7>"/>
+<mapping src="wl&lt;0>" dst="WL&lt;0>"/>
+<mapping src="wl&lt;4>" dst="WL&lt;4>"/>
+<mapping src="wl&lt;1>" dst="WL&lt;1>"/>
+<mapping src="a&lt;4>" dst="A&lt;4>"/>
+<mapping src="a&lt;3>" dst="A&lt;3>"/>
+<mapping src="wl&lt;3>" dst="WL&lt;3>"/>
+<mapping src="a&lt;2>" dst="A&lt;2>"/>
+</reverse>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping src="&lt;unmappedTermOrder>" dst="A&lt;2> A&lt;3> A&lt;4> WL&lt;0> WL&lt;1> WL&lt;2> WL&lt;3> WL&lt;4> WL&lt;5> WL&lt;6> WL&lt;7>"/>
+<mapping src="WL&lt;1>" dst="wl&lt;1>"/>
+<mapping src="WL&lt;3>" dst="wl&lt;3>"/>
+<mapping src="&lt;termOrder>" dst="a&lt;2> a&lt;3> a&lt;4> wl&lt;0> wl&lt;1> wl&lt;2> wl&lt;3> wl&lt;4> wl&lt;5> wl&lt;6> wl&lt;7>"/>
+<mapping src="WL&lt;4>" dst="wl&lt;4>"/>
+<mapping src="WL&lt;0>" dst="wl&lt;0>"/>
+<mapping src="WL&lt;6>" dst="wl&lt;6>"/>
+<mapping src="WL" dst="wl"/>
+<mapping src="WL&lt;2>" dst="wl&lt;2>"/>
+<mapping src="A&lt;4>" dst="a&lt;4>"/>
+<mapping src="A&lt;3>" dst="a&lt;3>"/>
+<mapping src="WL&lt;7>" dst="wl&lt;7>"/>
+<mapping src="A&lt;2>" dst="a&lt;2>"/>
+<mapping src="WL&lt;5>" dst="wl&lt;5>"/>
+<mapping src="A" dst="a"/>
+</forward>
+<reverse>
+<mapping src="wl&lt;6>" dst="WL&lt;6>"/>
+<mapping src="wl&lt;5>" dst="WL&lt;5>"/>
+<mapping src="wl&lt;7>" dst="WL&lt;7>"/>
+<mapping src="wl&lt;2>" dst="WL&lt;2>"/>
+<mapping src="A&lt;2> A&lt;3> A&lt;4> WL&lt;0> WL&lt;1> WL&lt;2> WL&lt;3> WL&lt;4> WL&lt;5> WL&lt;6> WL&lt;7>" dst="&lt;unmappedTermOrder>"/>
+<mapping src="wl&lt;0>" dst="WL&lt;0>"/>
+<mapping src="wl" dst="WL"/>
+<mapping src="wl&lt;4>" dst="WL&lt;4>"/>
+<mapping src="wl&lt;1>" dst="WL&lt;1>"/>
+<mapping src="a&lt;4>" dst="A&lt;4>"/>
+<mapping src="a&lt;3>" dst="A&lt;3>"/>
+<mapping src="wl&lt;3>" dst="WL&lt;3>"/>
+<mapping src="a&lt;2>" dst="A&lt;2>"/>
+<mapping src="a&lt;2> a&lt;3> a&lt;4> wl&lt;0> wl&lt;1> wl&lt;2> wl&lt;3> wl&lt;4> wl&lt;5> wl&lt;6> wl&lt;7>" dst="&lt;termOrder>"/>
+<mapping src="a" dst="A"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="inv_2">
+<instance name="I19"/>
+<instance name="I20"/>
+<instance name="I21"/>
+</instance_header>
+<instance_header master="nor_5">
+<instance name="I54"/>
+<instance name="I55"/>
+<instance name="I56"/>
+<instance name="I57"/>
+<instance name="I58"/>
+<instance name="I59"/>
+<instance name="I60"/>
+<instance name="I61"/>
+</instance_header>
+</master_instances>
+</module>

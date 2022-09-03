@@ -1,0 +1,4 @@
+$DATA1 SOURCE='PrimeSim HSPICE' VERSION='S-2021.09 linux64' PARAM_COUNT=0
+.TITLE '*  generated for: primesim'
+ qtot             etot             temper           alter#          
+ -6.912e-12        5.530e-12         25.0000        1               

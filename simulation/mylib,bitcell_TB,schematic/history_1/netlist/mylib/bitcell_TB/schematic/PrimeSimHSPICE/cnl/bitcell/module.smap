@@ -1,0 +1,64 @@
+<module name="vsl: mylib bitcell schematic vl: hspice hspiceD schematic spice veriloga">
+<scope name="Instance">
+<forward>
+<mapping src="M4" dst="m4"/>
+<mapping src="M3" dst="m3"/>
+<mapping src="M0" dst="m0"/>
+<mapping src="M5" dst="m5"/>
+<mapping src="M1" dst="m1"/>
+<mapping src="M2" dst="m2"/>
+</forward>
+<reverse>
+<mapping src="m1" dst="M1"/>
+<mapping src="m0" dst="M0"/>
+<mapping src="m4" dst="M4"/>
+<mapping src="m2" dst="M2"/>
+<mapping src="m5" dst="M5"/>
+<mapping src="m3" dst="M3"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward>
+<mapping src="QB" dst="qb"/>
+<mapping src="WL" dst="wl"/>
+<mapping src="Q" dst="q"/>
+<mapping src="BLB" dst="blb"/>
+<mapping src="BL" dst="bl"/>
+</forward>
+<reverse>
+<mapping src="qb" dst="QB"/>
+<mapping src="q" dst="Q"/>
+<mapping src="wl" dst="WL"/>
+<mapping src="blb" dst="BLB"/>
+<mapping src="bl" dst="BL"/>
+</reverse>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping src="BLB" dst="blb"/>
+<mapping src="&lt;unmappedTermOrder>" dst="BL BLB WL"/>
+<mapping src="BL" dst="bl"/>
+<mapping src="&lt;termOrder>" dst="bl blb wl"/>
+<mapping src="WL" dst="wl"/>
+</forward>
+<reverse>
+<mapping src="bl blb wl" dst="&lt;termOrder>"/>
+<mapping src="BL BLB WL" dst="&lt;unmappedTermOrder>"/>
+<mapping src="wl" dst="WL"/>
+<mapping src="blb" dst="BLB"/>
+<mapping src="bl" dst="BL"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="nmos">
+<instance name="M0"/>
+<instance name="M1"/>
+<instance name="M2"/>
+<instance name="M3"/>
+</instance_header>
+<instance_header master="pmos">
+<instance name="M4"/>
+<instance name="M5"/>
+</instance_header>
+</master_instances>
+</module>

@@ -1,0 +1,297 @@
+<module name="vsl: mylib column_decoder_new schematic vl: hspice hspiceD schematic spice veriloga">
+<scope name="Instance">
+<forward>
+<mapping src="M8" dst="m8"/>
+<mapping src="M9" dst="m9"/>
+<mapping src="M4" dst="m4"/>
+<mapping src="M11" dst="m11"/>
+<mapping src="M36" dst="m36"/>
+<mapping src="M12" dst="m12"/>
+<mapping src="M7" dst="m7"/>
+<mapping src="M10" dst="m10"/>
+<mapping src="M13" dst="m13"/>
+<mapping src="M15" dst="m15"/>
+<mapping src="M5" dst="m5"/>
+<mapping src="M34" dst="m34"/>
+<mapping src="M35" dst="m35"/>
+<mapping src="M37" dst="m37"/>
+<mapping src="M41" dst="m41"/>
+<mapping src="M16" dst="m16"/>
+<mapping src="M14" dst="m14"/>
+<mapping src="M42" dst="m42"/>
+<mapping src="M39" dst="m39"/>
+<mapping src="M43" dst="m43"/>
+<mapping src="M17" dst="m17"/>
+<mapping src="M44" dst="m44"/>
+<mapping src="M46" dst="m46"/>
+<mapping src="M47" dst="m47"/>
+<mapping src="M2" dst="m2"/>
+<mapping src="M3" dst="m3"/>
+<mapping src="M6" dst="m6"/>
+<mapping src="M49" dst="m49"/>
+<mapping src="M45" dst="m45"/>
+<mapping src="M38" dst="m38"/>
+<mapping src="M48" dst="m48"/>
+<mapping src="M40" dst="m40"/>
+<mapping src="I1" dst="xi1"/>
+</forward>
+<reverse>
+<mapping src="m5" dst="M5"/>
+<mapping src="m11" dst="M11"/>
+<mapping src="m12" dst="M12"/>
+<mapping src="m6" dst="M6"/>
+<mapping src="m2" dst="M2"/>
+<mapping src="m8" dst="M8"/>
+<mapping src="m37" dst="M37"/>
+<mapping src="m34" dst="M34"/>
+<mapping src="m16" dst="M16"/>
+<mapping src="m13" dst="M13"/>
+<mapping src="m15" dst="M15"/>
+<mapping src="m36" dst="M36"/>
+<mapping src="m10" dst="M10"/>
+<mapping src="m38" dst="M38"/>
+<mapping src="m39" dst="M39"/>
+<mapping src="m7" dst="M7"/>
+<mapping src="m4" dst="M4"/>
+<mapping src="m40" dst="M40"/>
+<mapping src="m41" dst="M41"/>
+<mapping src="m14" dst="M14"/>
+<mapping src="m42" dst="M42"/>
+<mapping src="m43" dst="M43"/>
+<mapping src="m9" dst="M9"/>
+<mapping src="m44" dst="M44"/>
+<mapping src="m35" dst="M35"/>
+<mapping src="m46" dst="M46"/>
+<mapping src="m3" dst="M3"/>
+<mapping src="m17" dst="M17"/>
+<mapping src="m47" dst="M47"/>
+<mapping src="m48" dst="M48"/>
+<mapping src="m49" dst="M49"/>
+<mapping src="xi1" dst="I1"/>
+<mapping src="m45" dst="M45"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward>
+<mapping src="Out_3" dst="out_3"/>
+<mapping src="B5" dst="b5"/>
+<mapping src="B15" dst="b15"/>
+<mapping src="OutB_0" dst="outb_0"/>
+<mapping src="B14B" dst="b14b"/>
+<mapping src="Out_0" dst="out_0"/>
+<mapping src="OutB_2" dst="outb_2"/>
+<mapping src="B9" dst="b9"/>
+<mapping src="Out_2" dst="out_2"/>
+<mapping src="OutB_1" dst="outb_1"/>
+<mapping src="B14" dst="b14"/>
+<mapping src="B2B" dst="b2b"/>
+<mapping src="OutB_3" dst="outb_3"/>
+<mapping src="B11" dst="b11"/>
+<mapping src="B11B" dst="b11b"/>
+<mapping src="B15B" dst="b15b"/>
+<mapping src="B6B" dst="b6b"/>
+<mapping src="B13" dst="b13"/>
+<mapping src="B10B" dst="b10b"/>
+<mapping src="Out_1" dst="out_1"/>
+<mapping src="B9B" dst="b9b"/>
+<mapping src="B12" dst="b12"/>
+<mapping src="B7" dst="b7"/>
+<mapping src="B4B" dst="b4b"/>
+<mapping src="B12B" dst="b12b"/>
+<mapping src="B4" dst="b4"/>
+<mapping src="B10" dst="b10"/>
+<mapping src="B3B" dst="b3b"/>
+<mapping src="B8" dst="b8"/>
+<mapping src="B8B" dst="b8b"/>
+<mapping src="B3" dst="b3"/>
+<mapping src="B6" dst="b6"/>
+<mapping src="B1" dst="b1"/>
+<mapping src="B5B" dst="b5b"/>
+<mapping src="B0B" dst="b0b"/>
+<mapping src="B1B" dst="b1b"/>
+<mapping src="B0" dst="b0"/>
+<mapping src="B13B" dst="b13b"/>
+<mapping src="B2" dst="b2"/>
+<mapping src="A1" dst="a1"/>
+<mapping src="B7B" dst="b7b"/>
+<mapping src="A0" dst="a0"/>
+</forward>
+<reverse>
+<mapping src="out_3" dst="Out_3"/>
+<mapping src="b5b" dst="B5B"/>
+<mapping src="outb_3" dst="OutB_3"/>
+<mapping src="outb_1" dst="OutB_1"/>
+<mapping src="out_1" dst="Out_1"/>
+<mapping src="out_0" dst="Out_0"/>
+<mapping src="b7" dst="B7"/>
+<mapping src="b14b" dst="B14B"/>
+<mapping src="b13b" dst="B13B"/>
+<mapping src="b8" dst="B8"/>
+<mapping src="b15b" dst="B15B"/>
+<mapping src="b15" dst="B15"/>
+<mapping src="b10b" dst="B10B"/>
+<mapping src="b13" dst="B13"/>
+<mapping src="b12" dst="B12"/>
+<mapping src="b10" dst="B10"/>
+<mapping src="b9b" dst="B9B"/>
+<mapping src="b11" dst="B11"/>
+<mapping src="b12b" dst="B12B"/>
+<mapping src="b6" dst="B6"/>
+<mapping src="b4b" dst="B4B"/>
+<mapping src="b3b" dst="B3B"/>
+<mapping src="out_2" dst="Out_2"/>
+<mapping src="b2b" dst="B2B"/>
+<mapping src="b9" dst="B9"/>
+<mapping src="b5" dst="B5"/>
+<mapping src="b2" dst="B2"/>
+<mapping src="outb_0" dst="OutB_0"/>
+<mapping src="b4" dst="B4"/>
+<mapping src="outb_2" dst="OutB_2"/>
+<mapping src="b14" dst="B14"/>
+<mapping src="b1b" dst="B1B"/>
+<mapping src="b11b" dst="B11B"/>
+<mapping src="b0b" dst="B0B"/>
+<mapping src="b1" dst="B1"/>
+<mapping src="b0" dst="B0"/>
+<mapping src="b6b" dst="B6B"/>
+<mapping src="b3" dst="B3"/>
+<mapping src="b8b" dst="B8B"/>
+<mapping src="a1" dst="A1"/>
+<mapping src="a0" dst="A0"/>
+<mapping src="b7b" dst="B7B"/>
+</reverse>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping src="Out_0" dst="out_0"/>
+<mapping src="B14B" dst="b14b"/>
+<mapping src="&lt;unmappedTermOrder>" dst="A0 A1 B0 B0B B1 B1B B2 B2B B3 B3B B4 B4B B5 B5B B6 B6B B7 B7B B8 B8B B9 B9B B10 B10B B11 B11B B12 B12B B13 B13B B14 B14B B15 B15B OutB_0 OutB_1 OutB_2 OutB_3 Out_0 Out_1 Out_2 Out_3"/>
+<mapping src="OutB_0" dst="outb_0"/>
+<mapping src="B15" dst="b15"/>
+<mapping src="&lt;termOrder>" dst="a0 a1 b0 b0b b1 b1b b2 b2b b3 b3b b4 b4b b5 b5b b6 b6b b7 b7b b8 b8b b9 b9b b10 b10b b11 b11b b12 b12b b13 b13b b14 b14b b15 b15b outb_0 outb_1 outb_2 outb_3 out_0 out_1 out_2 out_3"/>
+<mapping src="B13" dst="b13"/>
+<mapping src="Out_3" dst="out_3"/>
+<mapping src="B5" dst="b5"/>
+<mapping src="OutB_2" dst="outb_2"/>
+<mapping src="OutB_1" dst="outb_1"/>
+<mapping src="B2B" dst="b2b"/>
+<mapping src="OutB_3" dst="outb_3"/>
+<mapping src="B14" dst="b14"/>
+<mapping src="B11" dst="b11"/>
+<mapping src="B11B" dst="b11b"/>
+<mapping src="B15B" dst="b15b"/>
+<mapping src="B6B" dst="b6b"/>
+<mapping src="B10B" dst="b10b"/>
+<mapping src="B12" dst="b12"/>
+<mapping src="Out_1" dst="out_1"/>
+<mapping src="B9B" dst="b9b"/>
+<mapping src="B9" dst="b9"/>
+<mapping src="Out_2" dst="out_2"/>
+<mapping src="B7" dst="b7"/>
+<mapping src="B4B" dst="b4b"/>
+<mapping src="B12B" dst="b12b"/>
+<mapping src="B4" dst="b4"/>
+<mapping src="B10" dst="b10"/>
+<mapping src="B3B" dst="b3b"/>
+<mapping src="B8" dst="b8"/>
+<mapping src="B8B" dst="b8b"/>
+<mapping src="B3" dst="b3"/>
+<mapping src="B6" dst="b6"/>
+<mapping src="B1" dst="b1"/>
+<mapping src="B5B" dst="b5b"/>
+<mapping src="B0B" dst="b0b"/>
+<mapping src="B1B" dst="b1b"/>
+<mapping src="B0" dst="b0"/>
+<mapping src="B13B" dst="b13b"/>
+<mapping src="B2" dst="b2"/>
+<mapping src="A1" dst="a1"/>
+<mapping src="B7B" dst="b7b"/>
+<mapping src="A0" dst="a0"/>
+</forward>
+<reverse>
+<mapping src="A0 A1 B0 B0B B1 B1B B2 B2B B3 B3B B4 B4B B5 B5B B6 B6B B7 B7B B8 B8B B9 B9B B10 B10B B11 B11B B12 B12B B13 B13B B14 B14B B15 B15B OutB_0 OutB_1 OutB_2 OutB_3 Out_0 Out_1 Out_2 Out_3" dst="&lt;unmappedTermOrder>"/>
+<mapping src="outb_1" dst="OutB_1"/>
+<mapping src="out_3" dst="Out_3"/>
+<mapping src="b5b" dst="B5B"/>
+<mapping src="outb_3" dst="OutB_3"/>
+<mapping src="a0 a1 b0 b0b b1 b1b b2 b2b b3 b3b b4 b4b b5 b5b b6 b6b b7 b7b b8 b8b b9 b9b b10 b10b b11 b11b b12 b12b b13 b13b b14 b14b b15 b15b outb_0 outb_1 outb_2 outb_3 out_0 out_1 out_2 out_3" dst="&lt;termOrder>"/>
+<mapping src="out_1" dst="Out_1"/>
+<mapping src="out_0" dst="Out_0"/>
+<mapping src="b15b" dst="B15B"/>
+<mapping src="b8" dst="B8"/>
+<mapping src="b15" dst="B15"/>
+<mapping src="b10b" dst="B10B"/>
+<mapping src="b13b" dst="B13B"/>
+<mapping src="b14b" dst="B14B"/>
+<mapping src="b13" dst="B13"/>
+<mapping src="b12" dst="B12"/>
+<mapping src="b10" dst="B10"/>
+<mapping src="b9b" dst="B9B"/>
+<mapping src="b11" dst="B11"/>
+<mapping src="b7" dst="B7"/>
+<mapping src="b12b" dst="B12B"/>
+<mapping src="b6" dst="B6"/>
+<mapping src="b4b" dst="B4B"/>
+<mapping src="b3b" dst="B3B"/>
+<mapping src="out_2" dst="Out_2"/>
+<mapping src="b2b" dst="B2B"/>
+<mapping src="b9" dst="B9"/>
+<mapping src="b5" dst="B5"/>
+<mapping src="b2" dst="B2"/>
+<mapping src="outb_0" dst="OutB_0"/>
+<mapping src="b4" dst="B4"/>
+<mapping src="outb_2" dst="OutB_2"/>
+<mapping src="b1b" dst="B1B"/>
+<mapping src="b14" dst="B14"/>
+<mapping src="b11b" dst="B11B"/>
+<mapping src="b0b" dst="B0B"/>
+<mapping src="b1" dst="B1"/>
+<mapping src="b0" dst="B0"/>
+<mapping src="b6b" dst="B6B"/>
+<mapping src="b3" dst="B3"/>
+<mapping src="b8b" dst="B8B"/>
+<mapping src="a1" dst="A1"/>
+<mapping src="a0" dst="A0"/>
+<mapping src="b7b" dst="B7B"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="demu_2_4">
+<instance name="I1"/>
+</instance_header>
+<instance_header master="nmos">
+<instance name="M10"/>
+<instance name="M11"/>
+<instance name="M12"/>
+<instance name="M13"/>
+<instance name="M14"/>
+<instance name="M15"/>
+<instance name="M16"/>
+<instance name="M17"/>
+<instance name="M2"/>
+<instance name="M3"/>
+<instance name="M34"/>
+<instance name="M35"/>
+<instance name="M36"/>
+<instance name="M37"/>
+<instance name="M38"/>
+<instance name="M39"/>
+<instance name="M4"/>
+<instance name="M40"/>
+<instance name="M41"/>
+<instance name="M42"/>
+<instance name="M43"/>
+<instance name="M44"/>
+<instance name="M45"/>
+<instance name="M46"/>
+<instance name="M47"/>
+<instance name="M48"/>
+<instance name="M49"/>
+<instance name="M5"/>
+<instance name="M6"/>
+<instance name="M7"/>
+<instance name="M8"/>
+<instance name="M9"/>
+</instance_header>
+</master_instances>
+</module>

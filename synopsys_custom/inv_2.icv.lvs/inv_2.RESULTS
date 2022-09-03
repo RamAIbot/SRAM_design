@@ -1,0 +1,177 @@
+                         LVS Compare Results: PASS
+
+                          ####   ###    ####   ####
+                         #   #  #   #  #      #
+                         ####   #####  #####  #####
+                         #      #   #      #      #
+                         #      #   #  ####   #### 
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+                     DRC and Extraction Results: CLEAN
+
+                      ####  #      #####   ###   #   #
+                     #      #      #      #   #  ##  #
+                     #      #      ####   #####  # # #
+                     #      #      #      #   #  #  ##
+                      ####  #####  #####  #   #  #   #
+
+===========================================================================
+
+
+---------------------------------------------------------------------------
+ICV Execution
+---------------------------------------------------------------------------
+
+
+                                 IC Validator 
+
+          Version S-2021.06-SP2 for linux64 - Aug 30, 2021 cl#6831572
+
+                    Copyright (c) 1996 - 2021 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Called as: icv -f gdsii -i /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/inv_2.icv.lvs/inv_2.custom_compiler.gds -c inv_2 -I /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/syncust/NCSU_TechLib_FreePDK3/../../icv -s /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/inv_2.icv.lvs/inv_2.icv.sp -sf SPICE -stc inv_2 -oa_dm6 -vue /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/inv_2.icv.lvs/FreePDK3_main.lvs.lvs.rs
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Input file name:        /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/inv_2.icv.lvs/inv_2.custom_compiler.gds
+Top cell name:          inv_2
+Layout format:          GDSII
+Runset file:            /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/inv_2.icv.lvs/FreePDK3_main.lvs.lvs.rs
+Working directory:      /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/inv_2.icv.lvs
+Run details directory:  /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/inv_2.icv.lvs/run_details
+LVS error file:         inv_2.LVS_ERRORS
+Layout error file:      inv_2.LAYOUT_ERRORS
+User name:              zwmurray
+Time started:           2022/04/19 03:20:13PM
+Time ended:             2022/04/19 03:20:25PM
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+---------------------------------------------------------------------------
+Results Summary
+---------------------------------------------------------------------------
+
+LVS Device Extraction Error Summary
+
+2 total rules were run.
+0 rules NOT EXECUTED.
+0 rules have violations.
+There are 0 total violations.
+Refer to inv_2.LAYOUT_ERRORS
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+LVS Compare Summary
+
+LVS Compare Result: PASS
+TOP equivalence point: [inv_2, inv_2]
+
+    blackbox cells checked: 0
+      passed  0
+      failed  0
+
+    equivalence points checked: 1
+      passed  1
+      failed  0
+
+Refer to inv_2.LVS_ERRORS for LVS Error Diagnostics
+
+
+    [PASS]  inv_2 == inv_2   (level 0)
+
+
+---------------------------------------------------------------------------
+Assign Layer Statistics
+---------------------------------------------------------------------------
+
+Utilized Assign Layers = 58
+ Empty Utilized Assign Layers = 44
+ Non-Empty Utilized Assign Layers = 14
+Pruned Assign Layers = 0
+
+
+---------------------------------------------------------------------------
+Run Configuration
+---------------------------------------------------------------------------
+
+run_options()
+ verbose_results_file = { ERRORS }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+hierarchy_options()
+ delete = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+error_options()
+ error_limit_per_check = 1000
+ match_errors = { }
+ match_errors_processing_mode = HIERARCHICAL
+ match_errors_tolerance = 0.0000
+ violation_options = { }
+ report_empty_violations = true
+ clean_classifications = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Production Environment Variables
+
+HOME = "/afs/unity.ncsu.edu/users/z/zwmurray"
+ICV_HOME_DIR = "/mnt/apps/public/COE/synopsys_apps/icvalidator/S-2021.06-SP2"
+PATH = "/mnt/apps/public/COE/synopsys_apps/icvalidator/S-2021.06-SP2/bin/LINUX64_L31el:/mnt/apps/public/COE/synopsys_apps/icvalidator/S-2021.06-SP2/contrib/bin/LINUX64_L31el:/mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/bin:/mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/bin:/mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/bin:/mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/PyCellStudio/linux64/3rd/bin:/mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/PyCellStudio/bin:/mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/bin:/mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/bin:/mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/bin:/mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/PyCellStudio/linux64/3rd/bin:/mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/PyCellStudio/bin:/mnt/apps/public/COE/synopsys_apps/hspice/S-2021.09/hspice/bin:/mnt/apps/public/COE/synopsys_apps/hspice/S-2021.09/hspice/GNU/linux64/gcc/bin:/mnt/apps/public/COE/synopsys_apps/hspice/S-2021.09/hspice/linux64:/mnt/apps/public/COE/synopsys_apps/verdi/S-2021.09-SP1/bin:/mnt/apps/public/COE/synopsys_apps/qatk_acad/S-2021.06-SP1/bin:/mnt/apps/public/COE/synopsys_apps/wv/S-2021.09/bin:/mnt/apps/public/COE/synopsys_apps/icvalidator/S-2021.06-SP2/bin:/mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/bin:/mnt/apps/public/COE/synopsys_apps/starrc/S-2021.06-SP3/bin:/mnt/apps/public/COE/synopsys_apps/icc2/S-2021.06-SP3/bin:/mnt/apps/public/COE/synopsys_apps/cscope64/P-2019.06/bin:/mnt/apps/public/COE/synopsys_apps/vcs/S-2021.09/bin:/mnt/apps/public/COE/synopsys_apps/hspice/S-2021.09/bin:/mnt/apps/public/COE/synopsys_apps/coretools/S-2021.09-SP1/bin:/mnt/apps/public/COE/synopsys_apps/sentaurus/S-2021.06-SP1/bin:/mnt/apps/public/COE/synopsys_apps/syn/S-2021.06-SP3/bin:/mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/bin:/mnt/apps/public/COE/synopsys_apps/fm/S-2021.06-SP3/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/bin"
+SNPSLMD_LICENSE_FILE = "27000@ece-lic-35.ece.ncsu.edu"
+USER = "zwmurray"
+
+5 production environment variables set.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Debug Environment Variables
+
+0 debug environment variables set.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Distributed Processing
+ Distributed Cores = 2
+
+ grendel31.ece.ncsu.edu (2/32)
+   Commands: 2 in parallel, maximum
+   Model: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+   CPU:   32 cpu 2551 MHz
+   Cores: 16 HT
+   RAM:   125.656 GB
+   Swap:  3.999 GB
+
+
+---------------------------------------------------------------------------
+Performance Statistics
+---------------------------------------------------------------------------
+
+IC Validator Run Time = 0:00:12
+Peak Single Command Memory = 0.068 GB
+Peak Disk Usage = 0.000 GB
+Network Disk Usage Peak=0.006 GB
+Group File Disk Usage Peak=0.000 GB
+
+Distributed Host Memory Usage
+ grendel31.ece.ncsu.edu (2/32)  ....  Average=0.088 GB, Peak=0.088 GB / 125.656 GB
+
+Overall Distributed Utilization: not available
+IC Validator is done.

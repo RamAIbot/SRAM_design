@@ -1,0 +1,21 @@
+********************************************************************************
+* Library          : mylib
+* Cell             : row0_selector
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt row0_selector a0 a1 bl blb c_bl c_blb
+xi3 a1 a0 net8 or_2
+xi0 a1 a0 net5 or_2
+xi4 c_blb net19 net8 blb _2to1mux
+xi1 c_bl net23 net5 bl _2to1mux
+m12 net19 vdd! vdd! pfet nfin=16 adeo=4.536e-15 aseo=4.536e-15 pdeo=9.36e-07
++ pseo=9.36e-07
+m13 vdd! vdd! net23 pfet nfin=16 adeo=4.536e-15 aseo=4.536e-15 pdeo=9.36e-07
++ pseo=9.36e-07
+m11 net23 vdd! net19 pfet nfin=16 adeo=4.536e-15 aseo=4.536e-15 pdeo=9.36e-07
++ pseo=9.36e-07
+xi15 c_bl c_blb inv_2
+.ends row0_selector
+

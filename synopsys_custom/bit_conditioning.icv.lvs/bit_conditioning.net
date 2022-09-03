@@ -1,0 +1,18 @@
+* bit_conditioning
+
+
+.subckt inv_2 2 3 4 5 
+M1 3 2 4 nmos W=2.1e-08 L=1.5e-08 NFIN=2 ADEO=2.835e-16 ASEO=2.835e-16 PDEO=5.85e-08 
++    PSEO=5.85e-08 $X=0.0000 $Y=0.0425 
+M2 3 2 5 pmos W=2.1e-08 L=1.5e-08 NFIN=4 ADEO=5.67e-16 ASEO=5.67e-16 PDEO=1.17e-07 
++    PSEO=1.17e-07 $X=0.0000 $Y=0.0425 
+.ends inv_2
+
+.subckt bit_conditioning 2 BLB BL CLK VDD! GND! 
+M1 BL 2 VDD! pmos W=2.1e-08 L=1.5e-08 NFIN=2 ADEO=2.835e-16 ASEO=2.835e-16 PDEO=5.85e-08 
++    PSEO=5.85e-08 $X=0.6660 $Y=0.4595 
+M2 BLB 2 VDD! pmos W=2.1e-08 L=1.5e-08 NFIN=2 ADEO=2.835e-16 ASEO=2.835e-16 PDEO=5.85e-08 
++    PSEO=5.85e-08 $X=0.5820 $Y=0.4595 
+X7E46B1F01 CLK 2 GND! VDD! inv_2 $T=0.7500 0.4170 0 0 
+.ends bit_conditioning
+

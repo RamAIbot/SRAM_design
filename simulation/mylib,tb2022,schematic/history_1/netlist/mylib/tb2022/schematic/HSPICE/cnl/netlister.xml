@@ -1,0 +1,77 @@
+<netlister tool="hspiceD">
+<procedures>
+<procedure ID="0" command="nl::spiceAllowNameMap"/>
+<procedure ID="1" command="nl::spiceIsTextModule"/>
+<procedure ID="2" command="nl::isModuleUpToDate"/>
+<procedure ID="3" command="nl::saveModuleState"/>
+<procedure ID="4" command="nl::crossViewCheckSpice"/>
+<procedure ID="5" command="nl::utils::_preNetlist"/>
+</procedures>
+<events>
+<event ID="0" command="nl::netlistMainHandler"/>
+<event ID="1" command="nl::spiceNetlistBegin"/>
+<event ID="2" command="nl::spiceNetlistBody"/>
+<event ID="3" command="nl::spiceTextModule"/>
+<event ID="4" command="nl::moduleHandler"/>
+<event ID="5" command="nl::spiceModulePreprocess"/>
+<event ID="6" command="nl::spiceModuleHeader"/>
+<event ID="7" command="nl::spiceModuleBody"/>
+<event ID="8" command="nlPrintSpiceInstance"/>
+<event ID="9" command=""/>
+<event ID="10" command="nl::instHeaderHandler"/>
+<event ID="11" command="nl::spiceModuleFooter"/>
+<event ID="12" command="nl::spiceNetlistEnd"/>
+</events>
+<attributes>
+<attribute nameMapProc="nl::spiceNameMapProc"/>
+<attribute supportsFeedthroughs="0"/>
+<attribute amsWorkerMode="0"/>
+<attribute shortNetsByJumper="0"/>
+<attribute collectGlobals="1"/>
+<attribute instOrder="0"/>
+<attribute scalarizeTerminals="1"/>
+<attribute scalarizeInsts="1"/>
+<attribute instHeaderOrder="0"/>
+<attribute commentPrefix="*"/>
+<attribute indentDepth="2"/>
+<attribute lineMaxLength="80"/>
+<attribute lineWrapSuffix=""/>
+<attribute ignoreParasitics="0"/>
+<attribute processNetTypes="0"/>
+<attribute keepBitOrderForSorting="0"/>
+<attribute checkLeafTerminals=""/>
+<attribute ignoredConnectDefsPref=""/>
+<attribute sortInstHeaders="0"/>
+<attribute sortInsts="0"/>
+<attribute domain="1"/>
+<attribute moduleOrder="1"/>
+<attribute defaultNetlistProc="nlPrintSpiceInstance"/>
+<attribute instPostProc=""/>
+<attribute instHeaderProc="nl::instHeaderHandler"/>
+<attribute isTextModuleProc="nl::spiceIsTextModule"/>
+<attribute modulePreprocessProc="nl::spiceModulePreprocess"/>
+<attribute moduleProc="nl::spiceTextModule"/>
+<attribute netlistMainProc="nl::netlistMainHandler"/>
+<attribute saveModuleStateProc="nl::saveModuleState"/>
+<attribute crossViewCheckProc="nl::crossViewCheckSpice"/>
+<attribute textModuleProc="nl::spiceIsTextModule"/>
+<attribute netlistBeginProc="nl::spiceNetlistBegin"/>
+<attribute netlistBodyProc="nl::spiceNetlistBody"/>
+<attribute netlistEndProc="nl::spiceNetlistEnd"/>
+<attribute moduleBodyProc="nl::spiceModuleBody"/>
+<attribute moduleFooterProc="nl::spiceModuleFooter"/>
+<attribute moduleHeaderProc="nl::spiceModuleHeader"/>
+<attribute checkModuleProc="nl::isModuleUpToDate"/>
+<attribute allowNameMapProc="nl::spiceAllowNameMap"/>
+<keepBitOrder value="0"/>
+</attributes>
+<validationProcs/>
+<expressionsMapping>
+<valueProc name="nl::hspiceValue"/>
+<designVarProc name=""/>
+<unaryOperatorProc name="nl::hspiceUnaryOperator"/>
+<binaryOperatorProc name=""/>
+<ternaryOperatorProc name="nl::hspiceTernaryOperator"/>
+<functionProc name=""/>
+</expressionsMapping>
+</netlister>

@@ -1,0 +1,24 @@
+*Custom Compiler Version S-2021.09
+*Mon May  2 16:35:47 2022
+
+*.SCALE METER
+*.LDD
+.GLOBAL gnd! vdd!
+********************************************************************************
+* Library          : mylib
+* Cell             : and_2
+* View             : schematic
+* View Search List : auCdl schematic symbol
+* View Stop List   : auCdl
+********************************************************************************
+.subckt and_2 A B Z
+*.PININFO A:I B:I Z:O
+MM10 Z net26 gnd! nmos
+MM1 net22 B gnd! nmos
+MM0 net26 A net22 nmos
+MM9 Z net26 vdd! pmos
+MM3 net26 A vdd! pmos
+MM2 net26 B vdd! pmos
+.ends and_2
+
+

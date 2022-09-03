@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Wed Apr  6 17:11:37 2022-->
+<file-format version="1.0" name="historyPointData">
+ <object version="1" name="historyPointData" type="saHistoryPoint">
+  <attribute value="" name="base" type="giString"/>
+  <attribute value="Run Simulation" name="description" type="giString"/>
+  <attribute value="simulation" name="historyPointType" type="enHistoryPointType"/>
+  <attribute value="1" name="index" type="giString"/>
+  <attribute value="0" name="locked" type="giBoolean"/>
+ </object>
+</file-format>

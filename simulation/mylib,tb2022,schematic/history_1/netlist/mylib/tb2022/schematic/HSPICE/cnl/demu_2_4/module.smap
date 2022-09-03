@@ -1,0 +1,72 @@
+<module name="vsl: mylib demu_2_4 schematic vl: hspice hspiceD schematic spice veriloga">
+<scope name="Instance">
+<forward>
+<mapping src="I4" dst="xi4"/>
+<mapping src="I0" dst="xi0"/>
+<mapping src="I2" dst="xi2"/>
+<mapping src="I1" dst="xi1"/>
+<mapping src="I5" dst="xi5"/>
+<mapping src="I3" dst="xi3"/>
+</forward>
+<reverse>
+<mapping src="xi4" dst="I4"/>
+<mapping src="xi2" dst="I2"/>
+<mapping src="xi1" dst="I1"/>
+<mapping src="xi5" dst="I5"/>
+<mapping src="xi0" dst="I0"/>
+<mapping src="xi3" dst="I3"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward>
+<mapping src="Out3" dst="out3"/>
+<mapping src="Out1" dst="out1"/>
+<mapping src="Out0" dst="out0"/>
+<mapping src="A1" dst="a1"/>
+<mapping src="Out2" dst="out2"/>
+<mapping src="A0" dst="a0"/>
+</forward>
+<reverse>
+<mapping src="out1" dst="Out1"/>
+<mapping src="out3" dst="Out3"/>
+<mapping src="a1" dst="A1"/>
+<mapping src="out0" dst="Out0"/>
+<mapping src="out2" dst="Out2"/>
+<mapping src="a0" dst="A0"/>
+</reverse>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping src="&lt;unmappedTermOrder>" dst="A0 A1 Out0 Out1 Out2 Out3"/>
+<mapping src="Out3" dst="out3"/>
+<mapping src="&lt;termOrder>" dst="a0 a1 out0 out1 out2 out3"/>
+<mapping src="Out1" dst="out1"/>
+<mapping src="Out0" dst="out0"/>
+<mapping src="A1" dst="a1"/>
+<mapping src="Out2" dst="out2"/>
+<mapping src="A0" dst="a0"/>
+</forward>
+<reverse>
+<mapping src="A0 A1 Out0 Out1 Out2 Out3" dst="&lt;unmappedTermOrder>"/>
+<mapping src="out2" dst="Out2"/>
+<mapping src="a0 a1 out0 out1 out2 out3" dst="&lt;termOrder>"/>
+<mapping src="out0" dst="Out0"/>
+<mapping src="out3" dst="Out3"/>
+<mapping src="out1" dst="Out1"/>
+<mapping src="a1" dst="A1"/>
+<mapping src="a0" dst="A0"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="and_2">
+<instance name="I0"/>
+<instance name="I1"/>
+<instance name="I2"/>
+<instance name="I3"/>
+</instance_header>
+<instance_header master="inv_2">
+<instance name="I4"/>
+<instance name="I5"/>
+</instance_header>
+</master_instances>
+</module>

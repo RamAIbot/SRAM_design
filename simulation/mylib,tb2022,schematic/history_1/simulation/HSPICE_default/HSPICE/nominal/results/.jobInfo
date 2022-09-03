@@ -1,0 +1,36 @@
+arrayName {HSPICE_default_HSPICE}
+arraySize {-1}
+cdplJobId {}
+cmdLine { /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/netlist/runSimulation  > /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/run.log 2>&1}
+creationTime {1651650207}
+data {resultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results masterResultsDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results session saeSession0 testbench HSPICE_default simulator HSPICE historyIndex 1 historyName history_1}
+dataReadyProc {}
+deferred {0}
+exitProc {sa::simulationDone}
+exitStatus {0}
+exitTime {1651650282}
+files {/afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/hspice.lis /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/hspice.valog /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/run.log /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/hspice.st0}
+gridOptions {}
+group {oa:0x4121a1d0}
+host {localhost}
+inFd {}
+isCalling {0}
+isLocallyQueued {0}
+isQueued {0}
+isTerminating {0}
+jobClass {oa:0x2f708e90}
+jobType {batch}
+menuProc {sa::_utils::populateSimJobCSM}
+name {HSPICE_1}
+outFd {}
+procId {12432}
+queueEngine {}
+queueIdentifier {}
+readOnlyFiles {}
+ready {0}
+readyProc {}
+remoteSubmit {0}
+runDesc {HSPICE simulation:  /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/netlist/runSimulation  > /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/simulation/mylib,tb2022,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/run.log 2>&1}
+startTime {1651650207}
+status {FINISHED}
+submitHost {}

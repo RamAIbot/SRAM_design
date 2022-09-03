@@ -1,0 +1,67 @@
+*  Generated for: PrimeSim
+*  Design library name: mylib
+*  Design cell name: bitcell_TB
+*  Design view name: schematic
+.option search='/afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/hspice/models'
+
+
+.option PARHIER = LOCAL
+.option PORT_VOLTAGE_SCALE_TO_2X = 1
+
+.option WDF=1
+.temp 25
+.lib 'fet.mod' nfet_typ
+.lib 'fet.mod' pfet_typ
+
+*Custom Compiler Version S-2021.09
+*Wed Apr  6 17:07:18 2022
+
+.global gnd! vdd!
+********************************************************************************
+* Library          : mylib
+* Cell             : bitcell
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt bitcell bl blb wl
+m3 q qb gnd! nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m2 q wl bl nfet nfin=4 adeo=1.134e-15 aseo=1.134e-15 pdeo=2.34e-07 pseo=2.34e-07
+m1 qb q gnd! nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m0 blb wl qb nfet nfin=2 adeo=5.67e-16 aseo=5.67e-16 pdeo=117n pseo=117n
+m5 q qb vdd! pfet nfin=4 adeo=1.134e-15 aseo=1.134e-15 pdeo=2.34e-07 pseo=2.34e-07
+m4 qb q vdd! pfet nfin=4 adeo=1.134e-15 aseo=1.134e-15 pdeo=2.34e-07 pseo=2.34e-07
+.ends bitcell
+
+********************************************************************************
+* Library          : mylib
+* Cell             : bitcell_TB
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+xi0 bl blb wl bitcell
+v2 vdd! gnd! dc=0.8
+v9 bl gnd! dc=0.8 pulse ( 0.8 0 0 5p 5p 50p 100p )
+v8 wl gnd! dc=0.8 pulse ( 0.8 0 0 5p 5p 100p 200p )
+v7 blb gnd! dc=0.8 pulse ( 0 0.8 0 5p 5p 50p 100p )
+
+
+
+
+
+
+
+
+
+
+.tran 0.1p 400p start=0
+.option opfile=1 split_dp=1
+.option probe=1
+.probe tran v(*) level=1
+.probe tran v(bl) v(blb) v(xi0.q) v(xi0.qb) v(wl)
+
+
+
+
+.end

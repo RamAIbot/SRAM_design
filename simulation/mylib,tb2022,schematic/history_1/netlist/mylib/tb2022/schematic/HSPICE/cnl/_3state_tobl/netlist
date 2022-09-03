@@ -1,0 +1,12 @@
+********************************************************************************
+* Library          : mylib
+* Cell             : 3state_toBL
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt _3state_tobl bl blb decode we wenb
+xi4 decode we bl tri_state_buffer
+xi3 blb wenb decode tri_state_buffer
+.ends _3state_tobl
+

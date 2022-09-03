@@ -1,0 +1,45 @@
+<module name="vsl: mylib nor_5 schematic vl: auCdl schematic symbol">
+<scope name="Instance">
+<forward>
+<mapping src="M20" dst="MM20"/>
+<mapping src="M19" dst="MM19"/>
+<mapping src="M18" dst="MM18"/>
+<mapping src="M8" dst="MM8"/>
+<mapping src="M22" dst="MM22"/>
+<mapping src="M21" dst="MM21"/>
+</forward>
+<reverse>
+<mapping src="MM20" dst="M20"/>
+<mapping src="MM19" dst="M19"/>
+<mapping src="MM18" dst="M18"/>
+<mapping src="MM8" dst="M8"/>
+<mapping src="MM22" dst="M22"/>
+<mapping src="MM21" dst="M21"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward/>
+<reverse/>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping src="&lt;unmappedTermOrder>" dst="A B C Z"/>
+<mapping src="&lt;termOrder>" dst="A B C Z"/>
+</forward>
+<reverse>
+<mapping src="A B C Z" dst="&lt;unmappedTermOrder>"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="nmos">
+<instance name="M21"/>
+<instance name="M22"/>
+<instance name="M8"/>
+</instance_header>
+<instance_header master="pmos">
+<instance name="M18"/>
+<instance name="M19"/>
+<instance name="M20"/>
+</instance_header>
+</master_instances>
+</module>

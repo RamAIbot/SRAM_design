@@ -1,0 +1,14 @@
+********************************************************************************
+* Library          : mylib
+* Cell             : bit_conditioning
+* View             : schematic
+* View Search List : auCdl schematic symbol
+* View Stop List   : auCdl
+********************************************************************************
+.subckt bit_conditioning BL BLB CLK
+*.PININFO BL:B BLB:B CLK:I
+MM8 BLB net22 vdd! pmos
+MM7 BL net22 vdd! pmos
+XI9 CLK net22 inv_2
+.ends bit_conditioning
+

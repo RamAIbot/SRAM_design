@@ -1,0 +1,3 @@
+nor_5::nor_5 { nmos::NMOS pmos::PMOS }
+pmos::PMOS { }
+nmos::NMOS { }

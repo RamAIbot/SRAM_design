@@ -1,0 +1,474 @@
+                               RESULTS: CLEAN
+
+                      ####  #      #####   ###   #   #
+                     #      #      #      #   #  ##  #
+                     #      #      ####   #####  # # #
+                     #      #      #      #   #  #  ##
+                      ####  #####  #####  #   #  #   #
+
+===========================================================================
+
+
+---------------------------------------------------------------------------
+ICV Execution
+---------------------------------------------------------------------------
+
+
+                                 IC Validator 
+
+          Version S-2021.06-SP2 for linux64 - Aug 30, 2021 cl#6831572
+
+                    Copyright (c) 1996 - 2021 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Called as: icv -f gdsii -i /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/nor_5.icv.drc/nor_5.custom_compiler.gds -c nor_5 -I /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/syncust/NCSU_TechLib_FreePDK3/../../icv -oa_dm6 -vue /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/nor_5.icv.drc/FreePDK3_main.drc.drc.rs
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Input file name:        /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/nor_5.icv.drc/nor_5.custom_compiler.gds
+Top cell name:          nor_5
+Layout format:          GDSII
+Runset file:            /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/nor_5.icv.drc/FreePDK3_main.drc.drc.rs
+Working directory:      /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/nor_5.icv.drc
+Run details directory:  /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/nor_5.icv.drc/run_details
+Layout error file:      nor_5.LAYOUT_ERRORS
+User name:              zwmurray
+Time started:           2022/04/19 08:23:47PM
+Time ended:             2022/04/19 08:23:54PM
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+---------------------------------------------------------------------------
+Results Summary
+---------------------------------------------------------------------------
+
+Rule and DRC Error Summary
+
+318 total rules were run.
+3 rules NOT EXECUTED.
+0 rules have violations.
+There are 0 total violations.
+Refer to nor_5.LAYOUT_ERRORS
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Rule                          Zero Violations
+ACT.1                         v = 0
+ACT.2                         v = 0
+ACT.3                         v = 0
+ACT.4                         v = 0
+ACT.5                         v = 0
+ACT.6                         v = 0
+ACT.7                         v = 0
+ANT.1                         v = 0
+BPR.2                         v = 0
+BPR.3                         v = 0
+BPR.4                         v = 0
+BRP.1                         v = 0
+DUMMY.1                       v = 0
+DUMMY.2                       v = 0
+DUMMY.3                       v = 0
+DUMMY.4                       v = 0
+DUMMY.5                       v = 0
+DUMMY.6                       v = 0
+GATE.1                        v = 0
+GATE.2                        v = 0
+GATE.3                        v = 0
+GATE.4                        v = 0
+GATE.5                        v = 0
+GATE.6                        v = 0
+GATE.8                        v = 0
+GCON.1                        v = 0
+GCON.10                       v = 0
+GCON.11                       v = 0
+GCON.12                       v = 0
+GCON.13                       v = 0
+GCON.14                       v = 0
+GCON.2                        v = 0
+GCON.3                        v = 0
+GCON.4                        v = 0
+GCON.5                        v = 0
+GCON.6                        v = 0
+GCON.7                        v = 0
+GCON.8                        v = 0
+GCON.9                        v = 0
+GCUT.1                        v = 0
+GCUT.10                       v = 0
+GCUT.2                        v = 0
+GCUT.3                        v = 0
+GCUT.4                        v = 0
+GCUT.5                        v = 0
+GCUT.6                        v = 0
+GCUT.7                        v = 0
+GCUT.9                        v = 0
+M0A.1                         v = 0
+M0A.2                         v = 0
+M0A.3                         v = 0
+M0A.4                         v = 0
+M0A.5                         v = 0
+M0A.6                         v = 0
+M0A.7                         v = 0
+M0A.8                         v = 0
+M0A.9                         v = 0
+M0B.1                         v = 0
+M0B.2                         v = 0
+M0B.3                         v = 0
+M0B.4                         v = 0
+M0B.5                         v = 0
+M0B.6                         v = 0
+M0B.8                         v = 0
+M1.1                          v = 0
+M1.2                          v = 0
+M1.4                          v = 0
+M1.5                          v = 0
+M1.6                          v = 0
+M1.7                          v = 0
+M10.1                         v = 0
+M10.2                         v = 0
+M10.3                         v = 0
+M10.4                         v = 0
+M10.5                         v = 0
+M10.6                         v = 0
+M11.1                         v = 0
+M11.2                         v = 0
+M11.3                         v = 0
+M11.4                         v = 0
+M11.5                         v = 0
+M11.6                         v = 0
+M12.1                         v = 0
+M12.2                         v = 0
+M12.3                         v = 0
+M12.4                         v = 0
+M12.5                         v = 0
+M12.6                         v = 0
+M13.1                         v = 0
+M13.2                         v = 0
+M13.3                         v = 0
+M13.4                         v = 0
+M13.5                         v = 0
+M13.6                         v = 0
+M2.1                          v = 0
+M2.2                          v = 0
+M2.3                          v = 0
+M2.4                          v = 0
+M2.5                          v = 0
+M2.6                          v = 0
+M2.7                          v = 0
+M3.1                          v = 0
+M3.2                          v = 0
+M3.3                          v = 0
+M3.4                          v = 0
+M3.5                          v = 0
+M3.6                          v = 0
+M3.7                          v = 0
+M4.1                          v = 0
+M4.2                          v = 0
+M4.3                          v = 0
+M4.4                          v = 0
+M4.5                          v = 0
+M4.6                          v = 0
+M5.1                          v = 0
+M5.2                          v = 0
+M5.3                          v = 0
+M5.4                          v = 0
+M5.5                          v = 0
+M5.6                          v = 0
+M6.1                          v = 0
+M6.2                          v = 0
+M6.3                          v = 0
+M6.4                          v = 0
+M6.5                          v = 0
+M6.6                          v = 0
+M7.1                          v = 0
+M7.2                          v = 0
+M7.3                          v = 0
+M7.4                          v = 0
+M7.5                          v = 0
+M7.6                          v = 0
+M7.7                          v = 0
+M7.8                          v = 0
+M8.1                          v = 0
+M8.2                          v = 0
+M8.3                          v = 0
+M8.4                          v = 0
+M8.5                          v = 0
+M8.6                          v = 0
+M8.7                          v = 0
+M8.8                          v = 0
+M9.1                          v = 0
+M9.2                          v = 0
+M9.3                          v = 0
+M9.4                          v = 0
+M9.5                          v = 0
+M9.6                          v = 0
+M9.7                          v = 0
+M9.8                          v = 0
+MRDL.1                        v = 0
+MRDL.2                        v = 0
+NIM/PIM.1                     v = 0
+NIM/PIM.10                    v = 0
+NIM/PIM.2                     v = 0
+NIM/PIM.5                     v = 0
+NIM/PIM.6                     v = 0
+NIM/PIM.7                     v = 0
+NW.1                          v = 0
+NW.2                          v = 0
+NW.3                          v = 0
+NW.4                          v = 0
+NW.5                          v = 0
+V0A.1                         v = 0
+V0A.10                        v = 0
+V0A.11                        v = 0
+V0A.12                        v = 0
+V0A.13                        v = 0
+V0A.2                         v = 0
+V0A.3                         v = 0
+V0A.4                         v = 0
+V0A.5                         v = 0
+V0A.6                         v = 0
+V0A.7                         v = 0
+V0A.8                         v = 0
+V0A.9                         v = 0
+V0B.1                         v = 0
+V0B.10                        v = 0
+V0B.11                        v = 0
+V0B.2                         v = 0
+V0B.3                         v = 0
+V0B.4                         v = 0
+V0B.5                         v = 0
+V0B.6                         v = 0
+V0B.7                         v = 0
+V0B.8                         v = 0
+V0B.9                         v = 0
+V1.1                          v = 0
+V1.2                          v = 0
+V1.3                          v = 0
+V1.4                          v = 0
+V1.5                          v = 0
+V1.6                          v = 0
+V1.7                          v = 0
+V1.8                          v = 0
+V1.9                          v = 0
+V10.1                         v = 0
+V10.2                         v = 0
+V10.3                         v = 0
+V10.4                         v = 0
+V10.5                         v = 0
+V10.6                         v = 0
+V10.7                         v = 0
+V10.8                         v = 0
+V10.9                         v = 0
+V11.1                         v = 0
+V11.2                         v = 0
+V11.3a                        v = 0
+V11.3b                        v = 0
+V11.4                         v = 0
+V11.5                         v = 0
+V11.6                         v = 0
+V11.7                         v = 0
+V11.8                         v = 0
+V11.9                         v = 0
+V12.1                         v = 0
+V12.2                         v = 0
+V12.3                         v = 0
+V12.4                         v = 0
+V12.5                         v = 0
+V12.6                         v = 0
+V12.7                         v = 0
+V12.8                         v = 0
+V12.9                         v = 0
+V2.1                          v = 0
+V2.2                          v = 0
+V2.3                          v = 0
+V2.4                          v = 0
+V2.5                          v = 0
+V2.6                          v = 0
+V2.7                          v = 0
+V2.8                          v = 0
+V2.9                          v = 0
+V3.1                          v = 0
+V3.2                          v = 0
+V3.3a                         v = 0
+V3.3b                         v = 0
+V3.4                          v = 0
+V3.5                          v = 0
+V3.6                          v = 0
+V3.7                          v = 0
+V3.8                          v = 0
+V3.9                          v = 0
+V4.1                          v = 0
+V4.2                          v = 0
+V4.3                          v = 0
+V4.4                          v = 0
+V4.5                          v = 0
+V4.6                          v = 0
+V4.7                          v = 0
+V4.8                          v = 0
+V4.9                          v = 0
+V5.1                          v = 0
+V5.2                          v = 0
+V5.3                          v = 0
+V5.4                          v = 0
+V5.5                          v = 0
+V5.6                          v = 0
+V5.7                          v = 0
+V5.8                          v = 0
+V5.9                          v = 0
+V6.1                          v = 0
+V6.2                          v = 0
+V6.3a                         v = 0
+V6.3b                         v = 0
+V6.4                          v = 0
+V6.5                          v = 0
+V6.6                          v = 0
+V6.7                          v = 0
+V6.8                          v = 0
+V6.9                          v = 0
+V7.1                          v = 0
+V7.2                          v = 0
+V7.3                          v = 0
+V7.4                          v = 0
+V7.5                          v = 0
+V7.6                          v = 0
+V7.7                          v = 0
+V7.8                          v = 0
+V7.9                          v = 0
+V8.1                          v = 0
+V8.2                          v = 0
+V8.3                          v = 0
+V8.4                          v = 0
+V8.5                          v = 0
+V8.6                          v = 0
+V8.7                          v = 0
+V8.8                          v = 0
+V8.9                          v = 0
+V9.1                          v = 0
+V9.2                          v = 0
+V9.3a                         v = 0
+V9.3b                         v = 0
+V9.4                          v = 0
+V9.5                          v = 0
+V9.6                          v = 0
+V9.7                          v = 0
+V9.8                          v = 0
+V9.9                          v = 0
+VBPR.1                        v = 0
+VBPR.2                        v = 0
+VBPR.3                        v = 0
+VBPR.4                        v = 0
+VBPR.5                        v = 0
+VBPR.6                        v = 0
+VBPR.7                        v = 0
+VBPR.8                        v = 0
+VBPR.9                        v = 0
+VRDL.1                        v = 0
+VRDL.2                        v = 0
+VRDL.3                        v = 0
+VRDL.4                        v = 0
+VRDL.5                        v = 0
+VRDL.6                        v = 0
+VRDL.7                        v = 0
+VRDL.8                        v = 0
+VRDL.9                        v = 0
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Rule                          Not Executed
+GATE.7                        v = Not Executed
+GCUT.8                        v = Not Executed
+M0B.7                         v = Not Executed
+
+
+---------------------------------------------------------------------------
+Assign Layer Statistics
+---------------------------------------------------------------------------
+
+Utilized Assign Layers = 41
+ Empty Utilized Assign Layers = 25
+ Non-Empty Utilized Assign Layers = 16
+Pruned Assign Layers = 12
+
+
+---------------------------------------------------------------------------
+Run Configuration
+---------------------------------------------------------------------------
+
+run_options()
+ verbose_results_file = { ERRORS }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+hierarchy_options()
+ delete = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+error_options()
+ error_limit_per_check = ERROR_LIMIT_UNLIMITED
+ match_errors = { }
+ match_errors_processing_mode = HIERARCHICAL
+ match_errors_tolerance = 0.0000
+ violation_options = { }
+ report_empty_violations = true
+ clean_classifications = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Production Environment Variables
+
+HOME = "/afs/unity.ncsu.edu/users/z/zwmurray"
+ICV_HOME_DIR = "/mnt/apps/public/COE/synopsys_apps/icvalidator/S-2021.06-SP2"
+PATH = "/mnt/apps/public/COE/synopsys_apps/icvalidator/S-2021.06-SP2/bin/LINUX64_L31el:/mnt/apps/public/COE/synopsys_apps/icvalidator/S-2021.06-SP2/contrib/bin/LINUX64_L31el:/mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/bin:/mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/bin:/mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/bin:/mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/PyCellStudio/linux64/3rd/bin:/mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/PyCellStudio/bin:/mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/bin:/mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/bin:/mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/OA/bin:/mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/PyCellStudio/linux64/3rd/bin:/mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/linux64/PyCellStudio/bin:/mnt/apps/public/COE/synopsys_apps/hspice/S-2021.09/hspice/bin:/mnt/apps/public/COE/synopsys_apps/hspice/S-2021.09/hspice/GNU/linux64/gcc/bin:/mnt/apps/public/COE/synopsys_apps/hspice/S-2021.09/hspice/linux64:/mnt/apps/public/COE/synopsys_apps/verdi/S-2021.09-SP1/bin:/mnt/apps/public/COE/synopsys_apps/qatk_acad/S-2021.06-SP1/bin:/mnt/apps/public/COE/synopsys_apps/wv/S-2021.09/bin:/mnt/apps/public/COE/synopsys_apps/icvalidator/S-2021.06-SP2/bin:/mnt/apps/public/COE/synopsys_apps/customcompiler/S-2021.09/bin:/mnt/apps/public/COE/synopsys_apps/starrc/S-2021.06-SP3/bin:/mnt/apps/public/COE/synopsys_apps/icc2/S-2021.06-SP3/bin:/mnt/apps/public/COE/synopsys_apps/cscope64/P-2019.06/bin:/mnt/apps/public/COE/synopsys_apps/vcs/S-2021.09/bin:/mnt/apps/public/COE/synopsys_apps/hspice/S-2021.09/bin:/mnt/apps/public/COE/synopsys_apps/coretools/S-2021.09-SP1/bin:/mnt/apps/public/COE/synopsys_apps/sentaurus/S-2021.06-SP1/bin:/mnt/apps/public/COE/synopsys_apps/syn/S-2021.06-SP3/bin:/mnt/apps/public/COE/synopsys_apps/primewave/S-2021.09/bin:/mnt/apps/public/COE/synopsys_apps/fm/S-2021.06-SP3/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/bin"
+SNPSLMD_LICENSE_FILE = "27000@ece-lic-35.ece.ncsu.edu"
+USER = "zwmurray"
+
+5 production environment variables set.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Debug Environment Variables
+
+0 debug environment variables set.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Distributed Processing
+ Distributed Cores = 2
+
+ grendel31.ece.ncsu.edu (2/32)
+   Commands: 2 in parallel, maximum
+   Model: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+   CPU:   32 cpu 2659 MHz
+   Cores: 16 HT
+   RAM:   125.656 GB
+   Swap:  3.999 GB
+
+
+---------------------------------------------------------------------------
+Performance Statistics
+---------------------------------------------------------------------------
+
+IC Validator Run Time = 0:00:07
+Peak Single Command Memory = 0.049 GB
+Peak Disk Usage = 0.008 GB
+Network Disk Usage Peak=0.010 GB
+Group File Disk Usage Peak=0.000 GB
+
+Distributed Host Memory Usage
+ grendel31.ece.ncsu.edu (2/32)  ....  Average=0.049 GB, Peak=0.049 GB / 125.656 GB
+
+Overall Distributed Utilization: not available
+IC Validator is done.

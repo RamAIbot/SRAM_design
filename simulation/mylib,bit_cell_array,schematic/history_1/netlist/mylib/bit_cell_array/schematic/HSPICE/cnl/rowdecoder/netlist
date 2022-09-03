@@ -1,0 +1,22 @@
+********************************************************************************
+* Library          : mylib
+* Cell             : rowdecoder
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt rowdecoder a<2> a<3> a<4> wl<0> wl<1> wl<2> wl<3> wl<4> wl<5> wl<6>
++ wl<7>
+xi60 a<4> a<3> ~a<0> wl<1> nor_5
+xi54 ~a<2> ~a<1> ~a<0> wl<7> nor_5
+xi59 a<4> ~a<1> a<2> wl<2> nor_5
+xi55 ~a<2> ~a<1> a<2> wl<6> nor_5
+xi56 ~a<2> a<3> ~a<0> wl<5> nor_5
+xi57 ~a<2> a<3> a<2> wl<4> nor_5
+xi61 a<4> a<3> a<2> wl<0> nor_5
+xi58 a<4> ~a<1> ~a<0> wl<3> nor_5
+xi21 a<2> ~a<0> inv_2
+xi20 a<3> ~a<1> inv_2
+xi19 a<4> ~a<2> inv_2
+.ends rowdecoder
+

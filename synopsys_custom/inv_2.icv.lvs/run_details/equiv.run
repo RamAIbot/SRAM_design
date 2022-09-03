@@ -1,0 +1,5 @@
+
+/* top equiv */
+equiv_options({{"inv_2", "INV_2"}});
+
+/* Generated system equivalence points are listed in this section */

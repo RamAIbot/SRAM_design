@@ -1,0 +1,31 @@
+* "simulator" "PrimeSim HSPICE"
+* "version" "S-2021.09 linux64"
+* "format" "HSP"
+* "rundate" "17:43:27 04/06/2022 "
+* "netlist" "/afs/unity.ncsu.edu/users/r/rsekani/bin/ece546/project/project/simulation/mylib,column_decoder_test1,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/netlist/input.spi "
+* "runtitle" "*  generated for: primesim"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ bit0 = 749.4871m       
++ bit02 =   4.1474n       
++ bit1 =  22.7357u       
++ bit3 =  22.8273u       
++ net23 =   0.            
++ net25 =   0.            
++ net29 = 800.0000m       
++ vdd! = 800.0000m       
++ xi0.net100 = 764.9589m       
++ xi0.net107 =  11.4126u       
++ xi0.net116 = 799.9718m       
++ xi0.net119 = 799.9718m       
++ xi0.net29 =  11.3727u       
++ xi0.net50 = 765.0336m       
++ xi0.net74 = 748.9029m       
++ xi0.net81 =  11.3668u       
++ xi0.net87 =  11.5059u       
++ xi0.net94 =   2.0735n       
+***   END: Saved Operating Point ***                     

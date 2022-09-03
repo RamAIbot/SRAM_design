@@ -1,0 +1,15 @@
+inv_2
+	Cell Level Device Counts
+		NMOS[nmos] = 1
+		PMOS[pmos] = 1
+	Flat Device Counts
+		NMOS[nmos] = 1
+		PMOS[pmos] = 1
+bit_conditioning
+	Cell Level Device Counts
+		NMOS[nmos] = 0
+		PMOS[pmos] = 2
+
+********  DEVICE EXTRACTION STATS    TOPBLOCK = bit_conditioning  *******
+		NMOS[nmos] = 1
+		PMOS[pmos] = 3

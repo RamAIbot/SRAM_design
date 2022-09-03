@@ -1,0 +1,14 @@
+********************************************************************************
+* Library          : mylib
+* Cell             : 2to1mux
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt _2to1mux a0 a1 s z
+xi9 net22 net23 z or_2
+xi7 a0 net7 net22 and_2
+xi8 a1 s net23 and_2
+xi4 s net7 inv_2
+.ends _2to1mux
+

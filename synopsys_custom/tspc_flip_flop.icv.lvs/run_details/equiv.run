@@ -1,0 +1,5 @@
+
+/* top equiv */
+equiv_options({{"tspc_flip_flop", "TSPC_FLIP_FLOP"}});
+
+/* Generated system equivalence points are listed in this section */

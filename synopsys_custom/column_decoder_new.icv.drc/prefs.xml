@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--Custom Compiler Version S-2021.09-->
+<file-format version="2.0" name="synopsysPrefs"/>
+<preferences>
+	<pref name="xtDRCLayCell" value="column_decoder_new"/>
+	<pref name="xtDRCLayLCV" value="mylib/column_decoder_new/layout"/>
+	<pref name="xtDRCLayOasisFile" value="/afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/column_decoder_new.icv.drc/column_decoder_new.custom_compiler.oas"/>
+	<pref name="xtDRCLayStreamFile" value="/afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/column_decoder_new.icv.drc/column_decoder_new.custom_compiler.gds"/>
+	<pref name="xtDRCTool" value="IC Validator"/>
+</preferences>
+

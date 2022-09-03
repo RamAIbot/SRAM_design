@@ -1,0 +1,8 @@
+nor_5
+	Cell Level Device Counts
+		NMOS[nmos] = 3
+		PMOS[pmos] = 3
+
+********  DEVICE EXTRACTION STATS    TOPBLOCK = nor_5  *******
+		NMOS[nmos] = 3
+		PMOS[pmos] = 3

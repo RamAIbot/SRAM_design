@@ -1,0 +1,51 @@
+<module name="vsl: mylib bit_conditioning schematic vl: hspice hspiceD schematic spice veriloga">
+<scope name="Instance">
+<forward>
+<mapping src="I9" dst="xi9"/>
+<mapping src="M7" dst="m7"/>
+<mapping src="M8" dst="m8"/>
+</forward>
+<reverse>
+<mapping src="xi9" dst="I9"/>
+<mapping src="m7" dst="M7"/>
+<mapping src="m8" dst="M8"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward>
+<mapping src="CLK" dst="clk"/>
+<mapping src="BLB" dst="blb"/>
+<mapping src="BL" dst="bl"/>
+</forward>
+<reverse>
+<mapping src="clk" dst="CLK"/>
+<mapping src="blb" dst="BLB"/>
+<mapping src="bl" dst="BL"/>
+</reverse>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping src="&lt;unmappedTermOrder>" dst="BL BLB CLK"/>
+<mapping src="&lt;termOrder>" dst="bl blb clk"/>
+<mapping src="CLK" dst="clk"/>
+<mapping src="BLB" dst="blb"/>
+<mapping src="BL" dst="bl"/>
+</forward>
+<reverse>
+<mapping src="BL BLB CLK" dst="&lt;unmappedTermOrder>"/>
+<mapping src="bl blb clk" dst="&lt;termOrder>"/>
+<mapping src="clk" dst="CLK"/>
+<mapping src="blb" dst="BLB"/>
+<mapping src="bl" dst="BL"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="inv_2">
+<instance name="I9"/>
+</instance_header>
+<instance_header master="pmos">
+<instance name="M7"/>
+<instance name="M8"/>
+</instance_header>
+</master_instances>
+</module>

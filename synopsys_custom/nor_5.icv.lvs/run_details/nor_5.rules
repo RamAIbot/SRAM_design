@@ -1,0 +1,37 @@
+
+                                  ICV_Manager 
+
+          Version S-2021.06-SP2 for linux64 - Aug 30, 2021 cl#6831572
+
+                    Copyright (c) 1996 - 2021 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Called as: icv -f gdsii -i /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/nor_5.icv.lvs/nor_5.custom_compiler.gds -c nor_5 -I /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/syncust/NCSU_TechLib_FreePDK3/../../icv -s /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/nor_5.icv.lvs/nor_5.icv.sp -sf SPICE -stc nor_5 -oa_dm6 -vue /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/nor_5.icv.lvs/FreePDK3_main.lvs.lvs.rs
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+User name:        zwmurray
+Layout format:    GDSII
+Input file name:  /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/nor_5.icv.lvs/nor_5.custom_compiler.gds
+Top cell name:    nor_5
+Time started:     2022/04/19 08:24:17PM
+
+--------------------------------------------------------------------------------
+                          Signoff Rules to be Executed                          
+--------------------------------------------------------------------------------
+
+	Unresolved violation name/comment found at /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/inv_2.icv.lvs/FreePDK3_main.lvs.lvs.rs:515
+@ "Violation"

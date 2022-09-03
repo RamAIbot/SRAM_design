@@ -1,0 +1,31 @@
+column_decoder_new Level=0 Count=1
+   demu_2_4 Level=1 Count=1
+      and_2 Level=2 Count=4
+      inv_2 Level=2 Count=2
+
++--------------------------------------------------------------------------+
+|                             CELL STATISTICS                              |
++--------------------------------------------------------------------------+
+
+
+CELL = column_decoder_new
+	Flat Placements      =	1
+
+CELL = demu_2_4
+	Flat Placements      =	1
+
+CELL = and_2
+	Flat Placements      =	4
+
+CELL = inv_2
+	Flat Placements      =	2
+
+TOP CELL = column_decoder_new
+	Ports                =	44
+
++--------------------------------------------------------------------------+
+|                            DEVICE STATISTICS                             |
++--------------------------------------------------------------------------+
+
+	NMOS[nmos] = 46
+	PMOS[pmos] = 14

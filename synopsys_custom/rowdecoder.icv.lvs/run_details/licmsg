@@ -1,0 +1,18 @@
+04/20/2022 01:54:36 (DP)  Using license file: 27000@ece-lic-35.ece.ncsu.edu
+04/20/2022 01:54:36 (DP)  Requesting 1 (ICValidator-Manager/2021.06) license.
+04/20/2022 01:54:36 (DP)    License obtained.
+04/20/2022 01:54:36 (DP)  
+04/20/2022 01:54:36 (DP)  Obtained 1 total ICValidator-Manager license.
+04/20/2022 01:54:36 (DP)  This will allow up to 4 engine processes to run.
+
+04/20/2022 01:54:37 (DLM) Requesting (ICValidator2-GeometryEngine/2021.06)
+04/20/2022 01:54:37 (DLM)   ICValidator2-GeometryEngine license obtained.
+04/20/2022 01:54:37 (DLM) Using existing copy of (ICValidator2-GeometryEngine/2021.06)
+04/20/2022 01:54:37 (DLM) Using existing copy of (ICValidator2-GeometryEngine/2021.06)
+04/20/2022 01:54:37 (DLM) Using existing copy of (ICValidator2-GeometryEngine/2021.06)
+04/20/2022 01:54:38 (DLM) Using existing copy of (ICValidator2-GeometryEngine/2021.06)
+04/20/2022 01:54:38 (DLM) Using existing copy of (ICValidator2-GeometryEngine/2021.06)
+04/20/2022 01:54:40 (DP)  Releasing all DP licenses
+04/20/2022 01:54:41 (DLM) Releasing (ICValidator2-GeometryEngine/2021.06)
+04/20/2022 01:54:41 (DLM)   ICValidator2-GeometryEngine/2021.06 released.
+04/20/2022 01:54:41 (DLM) License manager shutting down.

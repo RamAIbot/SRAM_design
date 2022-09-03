@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--Created by WV (TM)-->
+<file-format name="saResults" version="1.0">
+<object name="saResults" version="1" type="saResults">
+ <attribute name="name" value="resultsMap.xml" type="giString"/>
+ <attribute name="netlistDir" value="../netlist" type="giString"/>
+ <collection name="resultFiles">
+  <object name="resultFiles" version="1" type="saResultFile">
+   <attribute name="analysisName" value="null1" type="giString"/>
+   <attribute name="filename" value="post1.wave" type="giString"/>
+   <attribute name="format" value="psf" type="giString"/>
+   <attribute name="resultType" value="null" type="giString"/>
+  </object>
+ </collection>
+ <attribute name="resultsDir" value="." type="giString"/>
+</object>
+</file-format>

@@ -1,0 +1,141 @@
+Unset QT_XCB_NATIVE_PAINTING for VUE
+  + INFO: Connected to Custom Compiler at 9189.
+
+< LAYOUT: start_vue >
+V SET_COLOR white       white
+V SET_COLOR red         red
+V SET_COLOR darkRed     maroon
+V SET_COLOR green       lime
+V SET_COLOR darkGreen   forest
+V SET_COLOR blue        blue
+V SET_COLOR darkBlue    navy
+V SET_COLOR cyan        cyan
+V SET_COLOR darkCyan    cadetBlue
+V SET_COLOR magenta     magenta
+V SET_COLOR darkMagenta purple
+V SET_COLOR yellow      yellow
+V SET_FILL  blank       blank
+V SET_FILL  solid       solid
+V SET_FILL  backSlash   backSlash
+V SET_FILL  slash       slash
+V SET_FILL  dot         dots
+V SET_FILL  diagCross   X
+V SET_FILL  brick       brick
+V SET_FILL  horizontal  hLine
+V SET_FILL  vertical    vLine
+L startFilter LAY
+L setTopLayLCV  ""
+L setCurLayLCV  ""
+
+< LAYOUT: start_filter >
+L setWorkingDir "[pwd]"
+  + INFO: Timer already set.
+  + INFO: Connected to Custom Compiler at 9189.
+
+< SCHEMATIC: start_vue >
+V SET_COLOR white       white
+V SET_COLOR red         red
+V SET_COLOR darkRed     maroon
+V SET_COLOR green       lime
+V SET_COLOR darkGreen   forest
+V SET_COLOR blue        blue
+V SET_COLOR darkBlue    navy
+V SET_COLOR cyan        cyan
+V SET_COLOR darkCyan    cadetBlue
+V SET_COLOR magenta     magenta
+V SET_COLOR darkMagenta purple
+V SET_COLOR yellow      yellow
+V SET_FILL  blank       blank
+V SET_FILL  solid       solid
+V SET_FILL  backSlash   backSlash
+V SET_FILL  slash       slash
+V SET_FILL  dot         dots
+V SET_FILL  diagCross   X
+V SET_FILL  brick       brick
+V SET_FILL  horizontal  hLine
+V SET_FILL  vertical    vLine
+S startFilter SCH
+S setCurModule ""
+
+< SCHEMATIC: start_filter >
+S setWorkingDir "[pwd]"
+
+< LAYOUT: load_hercules >
+L setWorkingDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/column_decoder_new.icv.lvs
+
+< SCHEMATIC: load_hercules >
+L setTopLayLCV /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/column_decoder_new.icv.lvs/column_decoder_new.custom_compiler.gds/column_decoder_new/
+S setCurModule column_decoder_new
+L openLCV /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/column_decoder_new.icv.lvs/column_decoder_new.custom_compiler.gds/column_decoder_new/
+S setWorkingDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/column_decoder_new.icv.lvs
+S openModule
+
+< LAYOUT: remove_hilites >
+L clearAllHighlights
+
+< SCHEMATIC: remove_hilites >
+S clearAllProbes
+
+< LAYOUT: remove_hilites >
+L clearAllHighlights
+
+< SCHEMATIC: remove_hilites >
+S clearAllProbes
+
+< SCHEMATIC: new_block >
+
+< LAYOUT: edit_in_place >
+V ZOOM_EXTENTS_RESET
+L clearAllHighlights
+S clearAllProbes
+L setCurLayLCV /column_decoder_new/
+S setCurModule column_decoder_new
+L openLCVInstance
+S openModule
+
+< LAYOUT: remove_hilites >
+L clearAllHighlights
+
+< SCHEMATIC: remove_hilites >
+S clearAllProbes
+
+< LAYOUT: remove_hilites >
+L clearAllHighlights
+
+< SCHEMATIC: remove_hilites >
+S clearAllProbes
+
+< LAYOUT: remove_hilites >
+L clearAllHighlights
+
+< SCHEMATIC: remove_hilites >
+S clearAllProbes
+
+< LAYOUT: load_hercules >
+L setWorkingDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/column_decoder_new.icv.lvs
+L setTopLayLCV /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/column_decoder_new.icv.lvs/column_decoder_new.custom_compiler.gds/column_decoder_new/
+L openLCV /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/column_decoder_new.icv.lvs/column_decoder_new.custom_compiler.gds/column_decoder_new/
+
+< SCHEMATIC: load_hercules >
+S setCurModule column_decoder_new
+
+< LAYOUT: edit_in_place >
+V ZOOM_EXTENTS_RESET
+L clearAllHighlights
+S setWorkingDir /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/column_decoder_new.icv.lvs
+L setCurLayLCV /column_decoder_new/
+S openModule
+L openLCVInstance
+
+< SCHEMATIC: new_block >
+S clearAllProbes
+S setCurModule column_decoder_new
+S openModule
+
+< LAYOUT: remove_hilites >
+L clearAllHighlights
+
+< SCHEMATIC: remove_hilites >
+S clearAllProbes
+  + INFO: Close the connection with Custom Compiler.
+  + INFO: Close the connection with Custom Compiler.

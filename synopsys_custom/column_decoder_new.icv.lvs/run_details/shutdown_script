@@ -1,0 +1,11 @@
+#! /bin/sh
+
+echo $HOSTNAME | grep grendel32.ece.ncsu.edu > /dev/null 2>&1 
+if [ $? == 0  ]
+then 
+kill 8020 
+else 
+rsh grendel32.ece.ncsu.edu kill 8020 
+ sleep 10 
+rsh grendel32.ece.ncsu.edu kill -9 8020 
+fi

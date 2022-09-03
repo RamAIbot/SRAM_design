@@ -1,0 +1,3 @@
+NMOS { }
+PMOS { }
+bit_cell_array { NMOS PMOS }

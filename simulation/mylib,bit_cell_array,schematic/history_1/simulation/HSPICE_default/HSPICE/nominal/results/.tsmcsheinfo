@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Fri Apr  8 01:38:06 2022-->
+<file-format name="cacheCategory" version="1.0">
+ <attribute name="TSCMSHERunEnabled" type="giString" value="False"/>
+</file-format>

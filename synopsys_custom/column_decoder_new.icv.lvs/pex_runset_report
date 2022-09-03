@@ -1,0 +1,63 @@
+version 2.0
+
+schematic /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/column_decoder_new.icv.lvs/column_decoder_new.icv.sp
+compare_directory run_details/compare
+ndb_path run_details/.ndb
+annotated_layout pex.gds
+annotated_layout_layer_map pex.gds.layer.map
+annotated_layout_netlist pex.sp
+cell_extents_file pex.cell.extents
+cell_port_file pex.cell.port
+
+net_property 5
+instance_property 6
+
+database_unit 4000
+
+layout_power VDD vdd vdd! VDD!
+layout_ground VSS GND! gnd! vss
+schematic_power VDD vdd vdd! VDD!
+schematic_ground VSS GND! gnd! vss
+
+device NMOS nmos
+id 1001
+pins {ACTNFINS DRN TERMINAL} {GATEPOLY GATE TERMINAL} {ACTNFINS SRC TERMINAL} 
+x_card FALSE
+simulation_model_name nmos
+
+device PMOS pmos
+id 1003
+pins {ACTPFINS DRN TERMINAL} {GATEPOLY GATE TERMINAL} {ACTPFINS SRC TERMINAL} 
+x_card FALSE
+simulation_model_name pmos
+
+connect GATEPOLY M0B by GCON
+connect M13 RDL by VRDL
+connect M12 M13 by V12
+connect M11 M12 by V11
+connect M10 M11 by V10
+connect M9 M10 by V9
+connect M8 M9 by V8
+connect M7 M8 by V7
+connect M6 M7 by V6
+connect M5 M6 by V5
+connect M4 M5 by V4
+connect M3 M4 by V3
+connect M2 M3 by V2
+connect M1 M2 by V1
+connect M0B M1 by V0B
+connect M0A M0B by V0A
+connect BPR M0A by VBPR
+connect M0A ACTNFINS 
+connect M0A ACTPFINS 
+connect M0A SUBSTRATEPWELL by SUBSTRATEVPW
+connect M0A SUBSTRATENWELL by SUBSTRATEVNW
+
+compare
+detect_permutable_ports FALSE
+memory_array_comparison TRUE
+end compare
+
+process_map_file pex.process.map
+
+pex_tagname_required TRUE

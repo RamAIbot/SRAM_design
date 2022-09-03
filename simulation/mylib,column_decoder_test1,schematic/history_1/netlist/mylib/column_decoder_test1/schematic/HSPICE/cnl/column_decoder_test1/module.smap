@@ -1,0 +1,63 @@
+<module name="vsl: mylib column_decoder_test1 schematic vl: hspice hspiceD schematic spice veriloga">
+<scope name="Instance">
+<forward>
+<mapping src="V4" dst="v4"/>
+<mapping src="V8" dst="v8"/>
+<mapping src="V1" dst="v1"/>
+<mapping src="V2" dst="v2"/>
+<mapping src="I0" dst="xi0"/>
+</forward>
+<reverse>
+<mapping src="v4" dst="V4"/>
+<mapping src="v8" dst="V8"/>
+<mapping src="v1" dst="V1"/>
+<mapping src="v2" dst="V2"/>
+<mapping src="xi0" dst="I0"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward>
+<mapping src="Bit3" dst="bit3"/>
+<mapping src="Bit1" dst="bit1"/>
+<mapping src="Bit02" dst="bit02"/>
+<mapping src="Bit0" dst="bit0"/>
+</forward>
+<reverse>
+<mapping src="bit3" dst="Bit3"/>
+<mapping src="bit1" dst="Bit1"/>
+<mapping src="bit02" dst="Bit02"/>
+<mapping src="bit0" dst="Bit0"/>
+</reverse>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping src="&lt;unmappedTermOrder>" dst="Bit0 Bit02 Bit1 Bit3"/>
+<mapping src="&lt;termOrder>" dst="bit0 bit02 bit1 bit3"/>
+<mapping src="Bit3" dst="bit3"/>
+<mapping src="Bit1" dst="bit1"/>
+<mapping src="Bit02" dst="bit02"/>
+<mapping src="Bit0" dst="bit0"/>
+</forward>
+<reverse>
+<mapping src="Bit0 Bit02 Bit1 Bit3" dst="&lt;unmappedTermOrder>"/>
+<mapping src="bit0 bit02 bit1 bit3" dst="&lt;termOrder>"/>
+<mapping src="bit3" dst="Bit3"/>
+<mapping src="bit1" dst="Bit1"/>
+<mapping src="bit02" dst="Bit02"/>
+<mapping src="bit0" dst="Bit0"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="column_decoder">
+<instance name="I0"/>
+</instance_header>
+<instance_header master="vdc">
+<instance name="V4"/>
+<instance name="V8"/>
+</instance_header>
+<instance_header master="vpulse">
+<instance name="V1"/>
+<instance name="V2"/>
+</instance_header>
+</master_instances>
+</module>

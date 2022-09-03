@@ -1,0 +1,52 @@
+<module name="vsl: mylib bitcell_TB schematic vl: hspice hspiceD schematic spice veriloga">
+<scope name="Instance">
+<forward>
+<mapping src="V7" dst="v7"/>
+<mapping src="V8" dst="v8"/>
+<mapping src="V9" dst="v9"/>
+<mapping src="V2" dst="v2"/>
+<mapping src="I0" dst="xi0"/>
+</forward>
+<reverse>
+<mapping src="v8" dst="V8"/>
+<mapping src="v9" dst="V9"/>
+<mapping src="v7" dst="V7"/>
+<mapping src="v2" dst="V2"/>
+<mapping src="xi0" dst="I0"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward>
+<mapping src="WL" dst="wl"/>
+<mapping src="BLB" dst="blb"/>
+<mapping src="BL" dst="bl"/>
+</forward>
+<reverse>
+<mapping src="wl" dst="WL"/>
+<mapping src="blb" dst="BLB"/>
+<mapping src="bl" dst="BL"/>
+</reverse>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping src="&lt;unmappedTermOrder>" dst=""/>
+<mapping src="&lt;termOrder>" dst=""/>
+</forward>
+<reverse>
+<mapping src="" dst="&lt;unmappedTermOrder>"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="bitcell">
+<instance name="I0"/>
+</instance_header>
+<instance_header master="vdc">
+<instance name="V2"/>
+</instance_header>
+<instance_header master="vpulse">
+<instance name="V7"/>
+<instance name="V8"/>
+<instance name="V9"/>
+</instance_header>
+</master_instances>
+</module>

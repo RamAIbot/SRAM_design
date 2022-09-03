@@ -1,0 +1,3 @@
+demu_2_4 { nmos pmos }
+nmos { }
+pmos { }

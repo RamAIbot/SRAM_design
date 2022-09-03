@@ -1,0 +1,352 @@
+
+                                  ICV_Manager 
+
+          Version S-2021.06-SP2 for linux64 - Aug 30, 2021 cl#6831572
+
+                    Copyright (c) 1996 - 2021 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Called as: icv -f gdsii -i /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/rowdecoder.icv.drc/rowdecoder.custom_compiler.gds -c rowdecoder -I /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/FreePDK3/syncust/NCSU_TechLib_FreePDK3/../../icv -oa_dm6 -vue /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/rowdecoder.icv.drc/FreePDK3_main.drc.drc.rs
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+User name:        zwmurray
+Layout format:    GDSII
+Input file name:  /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/rowdecoder.icv.drc/rowdecoder.custom_compiler.gds
+Top cell name:    rowdecoder
+Time started:     2022/04/20 01:54:11AM
+
+--------------------------------------------------------------------------------
+                          Signoff Rules to be Executed                          
+--------------------------------------------------------------------------------
+
+rACT_1 @= { @ "ACT.1 : Minimum vertical width of ACT >= 21 nm" }
+rACT_2 @= { @ "ACT.2 : Minimum vertical spacing of ACT >= 21.5 nm" }
+rACT_3 @= { @ "ACT.3 : Minimum horizontal width of ACT >= 84 nm" }
+rACT_4 @= { @ "ACT.4 : ACT should be continuous" }
+rACT_5 @= { @ "ACT.5 : Minimum vertical spacing between ACT and BPR >= 10 nm" }
+rACT_6 @= { @ "ACT.6 : ACT may not bend" }
+rACT_7 @= { @ "ACT.7 : ACT must end inside a DUMMY layer" }
+rANTENNA_1 @= { @ "ANT.1 : ANTENNA Ratio of Maximum Allowed GATE Area to transistor Gate Area is 50 :1" }
+rBPR_1 @= { @ "BRP.1 : BPR vertical width = 31.5 nm" }
+rBPR_2 @= { @ "BPR.2 : Minimum vertical spacing between BPR layers >= 84 nm" }
+rBPR_3 @= { @ "BPR.3 : BPR must be continuous" }
+rBPR_4 @= { @ "BPR.4 : BPR may not bend" }
+rDUMMY_1 @= { @ "DUMMY.1 : DUMMY exact horizontal width = 15 nm" }
+rDUMMY_2 @= { @ "DUMMY.2 : DUMMY minimum vertical length >= 40 nm" }
+rDUMMY_3 @= { @ "DUMMY.3 : Minimum vertical space >= 32 nm" }
+rDUMMY_4 @= { @ "DUMMY.4 : DUMMY may not bend" }
+rDUMMY_5 @= { @ "DUMMY.5: DUMMY must completely overlap GATE" }
+rDUMMY_6 @= { @ "DUMMY.6 : Dummy horizontal edge maynot lie inside ACTIVE" }
+rGATE_1 @= { @ "GATE.1 : GATE exact horizontal width = 15 nm" }
+rGATE_2 @= { @ "GATE.2 : Minimum horizontal spacing between GATE or DUMMY layers >= 27 nm" }
+rGATE_3 @= { @ "GATE.3 : GATE may not bend" }
+rGATE_4 @= { @ "GATE.4 : GATE min extension past ACT in vertical direction >= 21.5 nm" }
+rGATE_5 @= { @ "GATE.5 : GATE minimum vertical length >= 40 nm" }
+rGATE_6 @= { @ "GATE.6 : GATE may not be discontinuous along the vertical axis. Use GCUT layer to mark cuts in the GATE " }
+rGATE_8 @= { @ "GATE.8 : Minimum horizontal spacing between ACT and GATE (not cut by GCUT and not interacting with ACT) >= 6 nm" }
+rGCON_1 @= { @ "GCON.1 : Exact VERTICAL width of GCON = 13 nm" }
+rGCON_10 @= { @ "GCON.10 : Minimum GCON Area >= 180 nm^2" }
+rGCON_11 @= { @ "GCON.11 : GCON may not bend" }
+rGCON_12 @= { @ "GCON.12 : Minumum area of overlap between GCON and M0B >= 165 nm^2" }
+rGCON_13 @= { @ "GCON.13 : Minimum area of overlap between GCON and GATE  >= 195 nm^2" }
+rGCON_14 @= { @ "GCON.14 : GCON may not  interact with GCUT or DUMMY" }
+rGCON_2 @= { @ "GCON.2 : Exact HORIZONTAL length of GCON = 15 nm" }
+rGCON_3 @= { @ "GCON.3 : GCON must overlap gate" }
+rGCON_4 @= { @ "GCON.4 : GCON extention past M0B in vertical direction >= 1 nm" }
+rGCON_5 @= { @ "GCON.5 : Minimum horizontal spacing between two GCON layer >= 25 nm" }
+rGCON_6 @= { @ "GCON.6 : Minimum vertical spacing between two GCON layer >= 28 nm" }
+rGCON_7 @= { @ "GCON.7 : Minimum spacing between GCON and M0A layer polygons >= 6 nm" }
+rGCON_8 @= { @ "GCON.8 : Minimum horizontal spacing between GCON and GATE layer >= 25 nm" }
+rGCON_9 @= { @ "GCON.9 : Minimum vertical spacing between GCON and GCUT >= 13.5 nm" }
+rGCUT_1 @= { @ "GCUT.1 : Exact vertical width of GCUT(shape is oriented horizontally) = 10.5 nm" }
+rGCUT_10 @= { @ "GCUT.10 : Minimum vertical spacing between two GCUT layer >= 105 nm" }
+rGCUT_2 @= { @ "GCUT.2 : Minimum horizontal length of GCUT(shape is oriented horizontally) >= 42 nm" }
+rGCUT_3 @= { @ "GCUT.3 : Minimum horizontal space of GCUT >= 69 nm" }
+rGCUT_4 @= { @ "GCUT.4 : GCUT minimum space to ACT >= 20.5 nm" }
+rGCUT_5 @= { @ "GCUT.5 : GCUT may not bend" }
+rGCUT_6 @= { @ "GCUT.6 : GCUT vertical edge must coinside with DUMMY vertical edge" }
+rGCUT_7 @= { @ "GCUT.7 : GCUT layer may not exist without the layer GATE" }
+rGCUT_9 @= { @ "GCUT.9 : GCUT may not interact with ACT" }
+rM0A_1 @= { @ "M0A.1 : Minimum horizontal width of M0A >= 15 nm" }
+rM0A_2 @= { @ "M0A.2 : Minimum spacing of M0A to GATE >= 6 nm" }
+rM0A_3 @= { @ "M0A.3 : Minimum extension of ACT past M0A (horizontal direction) >= 5 nm" }
+rM0A_4 @= { @ "M0A.4 : Minimun vertical length of M0A >= 21.5 nm" }
+rM0A_5 @= { @ "M0A.5 : Minimum vertical spacing of M0A >= 10 nm" }
+rM0A_6 @= { @ "M0A.6 : M0A may not bend" }
+rM0A_7 @= { @ "M0A.7 : Minimum vertical overlap between M0A and ACTIVE  >= 11 nm" }
+rM0A_8 @= { @ "M0A.8 : M0A may not exitst without ACTIVE " }
+rM0A_9 @= { @ "M0A.9 : Minimum M0A area >= 322.5 nm^2" }
+rM0B_1 @= { @ "M0B.1 : Minimum Vertical width of M0B >= 11 nm" }
+rM0B_2 @= { @ "M0B.2 : Minimum Vertical spacing of M0B >= 10 nm" }
+rM0B_3 @= { @ "M0B.3 : Minimum Horizontal width of M0B >= 22 nm" }
+rM0B_4 @= { @ "M0B.4 : M0B minimum horizontal spacing >= 20 nm" }
+rM0B_5 @= { @ "M0B.5 : M0B may not bend" }
+rM0B_6 @= { @ "M0B.6 : Minimum extention of MOB past GCON in horizontal direction >= 3.5 nm" }
+rM0B_8 @= { @ "M0B.8 : Minimum M0B area >= 242 nm^2" }
+rM10_1 @= { @ "M10.1 : METAL10 width minimum >= 80nm" }
+rM10_2 @= { @ "M10.2 : METAL10 spacing minimum >= 80nm" }
+rM10_3 @= { @ "M10.3 : METAL10 maximum width in vertical direction = 4000nm" }
+rM10_4 @= { @ "M10.4 : Minimum spacing of METAL10 wider than 240nm and longer than 240nm >= 240nm" }
+rM10_5 @= { @ "M10.5 : Minimum spacing of METAL10 wider than 720nm and longer than 720nm >= 720nm" }
+rM10_6 @= { @ "M10.6 : Minimum spacing of METAL10 wider than 2160nm and longer than 2160nm >= 2160nm" }
+rM11_1 @= { @ "M11.1 : METAL11 width minimum >= 80nm" }
+rM11_2 @= { @ "M11.2 : METAL11 spacing minimum >= 80nm" }
+rM11_3 @= { @ "M11.3 : METAL11 maximum width in horizontal direction = 4000nm" }
+rM11_4 @= { @ "M11.4 : Minimum spacing of METAL11 wider than 240nm and longer than 240nm >= 240nm" }
+rM11_5 @= { @ "M11.5 : Minimum spacing of METAL11 wider than 720nm and longer than 720nm >= 720nm" }
+rM11_6 @= { @ "M11.6 : Minimum spacing of METAL11 wider than 2160nm and longer than 2160nm >= 2160nm" }
+rM12_1 @= { @ "M12.1 : METAL12 width minimum >= 160nm" }
+rM12_2 @= { @ "M12.2 : METAL12 spacing minimum >= 160nm" }
+rM12_3 @= { @ "M12.3 : METAL12 maximum width in vertical direction = 8000nm" }
+rM12_4 @= { @ "M12.4 : Minimum spacing of METAL12 wider than 480nm and longer than 480nm >= 480nm" }
+rM12_5 @= { @ "M12.5 : Minimum spacing of METAL12 wider than 1440nm and longer than 1440nm >= 1440nm" }
+rM12_6 @= { @ "M12.6 : Minimum spacing of METAL12 wider than 4320nm and longer than 4320nm >= 4320nm" }
+rM13_1 @= { @ "M13.1 : METAL13 width minimum >= 160nm" }
+rM13_2 @= { @ "M13.2 : METAL13 spacing minimum >= 160nm" }
+rM13_3 @= { @ "M13.3 : METAL13 maximum width in horizontal direction = 8000nm" }
+rM13_4 @= { @ "M13.4 : Minimum spacing of METAL13 wider than 480nm and longer than 480nm >= 480nm" }
+rM13_5 @= { @ "M13.5 : Minimum spacing of METAL13 wider than 1440nm and longer than 1440nm >= 1440nm" }
+rM13_6 @= { @ "M13.6 : Minimum spacing of METAL13 wider than 4320nm and longer than 4320nm >= 4320nm" }
+rM1_1 @= { @ "M1.1 : METAL1 width minimum >= 14nm" }
+rM1_2 @= { @ "M1.2 : METAL1 spacing minimum >= 14nm" }
+rM1_4 @= { @ "M1.4 : Minimum spacing of METAL1 wider than 45nm and longer than 45nm >= 45nm" }
+rM1_5 @= { @ "M1.5 : Minimum spacing of METAL1 wider than 135nm and longer than 135nm >= 135nm" }
+rM1_6 @= { @ "M1.6 : Minimum spacing of METAL1 wider than 405nm and longer than 405nm >= 405nm" }
+rM1_7 @= { @ "M1.7 : Double patterning Error" }
+rM2_1 @= { @ "M2.1 : METAL2 width minimum >= 14nm" }
+rM2_2 @= { @ "M2.2 : METAL2 spacing minimum >= 14nm" }
+rM2_3 @= { @ "M2.3 : METAL2 maximum width in vertical direction = 750nm" }
+rM2_4 @= { @ "M2.4 : Minimum spacing of METAL2 wider than 45nm and longer than 45nm >= 45nm" }
+rM2_5 @= { @ "M2.5 : Minimum spacing of METAL2 wider than 135nm and longer than 135nm >= 135nm" }
+rM2_6 @= { @ "M2.6 : Minimum spacing of METAL2 wider than 405nm and longer than 405nm >= 405nm" }
+rM2_7 @= { @ "M2.7 : Double patterning Error" }
+rM3_1 @= { @ "M3.1 : METAL3 width minimum >= 15nm" }
+rM3_2 @= { @ "M3.2 : METAL3 spacing minimum >= 15nm" }
+rM3_3 @= { @ "M3.3 : METAL3 maximum width in horizontal direction = 750nm" }
+rM3_4 @= { @ "M3.4 : Minimum spacing of METAL3 wider than 45nm and longer than 45nm >= 45nm" }
+rM3_5 @= { @ "M3.5 : Minimum spacing of METAL3 wider than 135nm and longer than 135nm >= 135nm" }
+rM3_6 @= { @ "M3.6 : Minimum spacing of METAL3 wider than 405nm and longer than 405nm >= 405nm" }
+rM3_7 @= { @ "M3.7 : Double patterning Error" }
+rM4_1 @= { @ "M4.1 : METAL4 width minimum >= 24nm" }
+rM4_2 @= { @ "M4.2 : METAL4 spacing minimum >= 24nm" }
+rM4_3 @= { @ "M4.3 : METAL4 maximum width in vertical direction = 1200nm" }
+rM4_4 @= { @ "M4.4 : Minimum spacing of METAL4 wider than 72nm and longer than 72nm >= 72nm" }
+rM4_5 @= { @ "M4.5 : Minimum spacing of METAL4 wider than 216nm and longer than 216nm >= 216nm" }
+rM4_6 @= { @ "M4.6 : Minimum spacing of METAL4 wider than 648nm and longer than 648nm >= 648nm" }
+rM5_1 @= { @ "M5.1 : METAL5 width minimum >= 24nm" }
+rM5_2 @= { @ "M5.2 : METAL5 spacing minimum >= 24nm" }
+rM5_3 @= { @ "M5.3 : METAL5 maximum width in horizontal direction= 1200nm" }
+rM5_4 @= { @ "M5.4 : Minimum spacing of METAL5 wider than 72nm and longer than 72nm >= 72nm" }
+rM5_5 @= { @ "M5.5 : Minimum spacing of METAL5 wider than 216nm and longer than 216nm >= 216nm" }
+rM5_6 @= { @ "M5.6 : Minimum spacing of METAL5 wider than 648nm and longer than 648nm >= 648nm" }
+rM6_1 @= { @ "M6.1 : METAL6 width minimum >= 24nm" }
+rM6_2 @= { @ "M6.2 : METAL6 spacing minimum >= 24nm" }
+rM6_3 @= { @ "M6.3 : METAL6 maximum width in vertical direction = 1200nm" }
+rM6_4 @= { @ "M6.4 : Minimum spacing of METAL6 wider than 72nm and longer than 72nm >= 72nm" }
+rM6_5 @= { @ "M6.5 : Minimum spacing of METAL6 wider than 216nm and longer than 216nm >= 216nm" }
+rM6_6 @= { @ "M6.6 : Minimum spacing of METAL6 wider than 648nm and longer than 648nm >= 648nm" }
+rM7_1 @= { @ "M7.1 : METAL7 width minimum >= 40nm" }
+rM7_2 @= { @ "M7.2 : METAL7 spacing minimum >= 40nm" }
+rM7_3 @= { @ "M7.3 : METAL7 maximum width in horizontal direction = 2000nm" }
+rM7_4 @= { @ "M7.4 : Minimum spacing of METAL7 wider than 120nm and longer than 120nm >= 120nm" }
+rM7_5 @= { @ "M7.5 : Minimum spacing of METAL7 wider than 360nm and longer than 360nm >= 360nm" }
+rM7_6 @= { @ "M7.6 : Minimum spacing of METAL7 wider than 1080nm and longer than 1080nm >= 1080nm" }
+rM7_7 @= { @ "M7.7 : Double patterning Error" }
+rM7_8 @= { @ "M7.8 : Density Balancing Rule: The density of decomposed metals should be between 23 and 77%" }
+rM8_1 @= { @ "M8.1 : METAL8 width minimum >= 40nm" }
+rM8_2 @= { @ "M8.2 : METAL8 spacing minimum >= 40nm" }
+rM8_3 @= { @ "M8.3 : METAL8 maximum width in vertical direction = 2000nm" }
+rM8_4 @= { @ "M8.4 : Minimum spacing of METAL8 wider than 120nm and longer than 120nm >= 120nm" }
+rM8_5 @= { @ "M8.5 : Minimum spacing of METAL8 wider than 360nm and longer than 360nm >= 360nm" }
+rM8_6 @= { @ "M8.6 : Minimum spacing of METAL8 wider than 1080nm and longer than 1080nm >= 1080nm" }
+rM8_7 @= { @ "M8.7 : Double patterning Error" }
+rM8_8 @= { @ "M8.8 : Density Balancing Rule: The density of decomposed metals should be between 23 and 77%" }
+rM9_1 @= { @ "M9.1 : METAL9 width minimum >= 40nm" }
+rM9_2 @= { @ "M9.2 : METAL9 spacing minimum >= 40nm" }
+rM9_3 @= { @ "M9.3 : METAL9 maximum width in horizontal direction = 2000nm" }
+rM9_4 @= { @ "M9.4 : Minimum spacing of METAL9 wider than 120nm and longer than 120nm >= 120nm" }
+rM9_5 @= { @ "M9.5 : Minimum spacing of METAL9 wider than 360nm and longer than 360nm >= 360nm" }
+rM9_6 @= { @ "M9.6 : Minimum spacing of METAL9 wider than 1080nm and longer than 1080nm >= 1080nm" }
+rM9_7 @= { @ "M9.7 : Double patterning Error" }
+rM9_8 @= { @ "M9.8 : Density Balancing Rule: The density of decomposed metals should be between 23 and 77%" }
+rMRDL_1 @= { @ "MRDL.1 : RDL width minimum >= 1.6um" }
+rMRDL_2 @= { @ "MRDL.2 : RDL spacing minimum >= 1.6um" }
+rNIMPIM_1 @= { @ "NIM/PIM.1 : Minimum width/spacing/notch of NIM/PIM >= 84 nm" }
+rNIMPIM_10 @= { @ "NIM/PIM.10 : NIM and PIM may not overlap " }
+rNIMPIM_2 @= { @ "NIM/PIM.2 : Minimum vertical width of NIM/PIM  >= 57.5 nm" }
+rNIMPIM_5 @= { @ "NIM/PIM.5 : Minimum enlose of ACT by NIM/PIM on vertical direction >= 20 nm" }
+rNIMPIM_6 @= { @ "NIM/PIM.6 : Minimum enlose of ACT by NIM/PIM on horizontal direction >= 13.5 nm" }
+rNIMPIM_7 @= { @ "NIM/PIM.7 : Minimum NIM/PIM area/enclosed area >= 4830 nm^2" }
+rNW_1 @= { @ "NW.1 : Minimum vertical width of NW >= 57.5 nm" }
+rNW_2 @= { @ "NW.2 : Minimum horizontal width of NW >= 84 nm" }
+rNW_3 @= { @ "NW.3 : Minimum area/enclosed area of NW >= 6237 nm^2" }
+rNW_4 @= { @ "NW.4 : NW must be orthogonal" }
+rNW_5 @= { @ "NW.5 : Minimum extension of NW past GATE (not cut by GCUT) >= 7 nm" }
+rV0A_1 @= { @ "V0A.1 : V0A shape is a square" }
+rV0A_10 @= { @ "V0A.10 : Minimum space of V0A and M0B of different net >= 8 nm" }
+rV0A_11 @= { @ "V0A.11 : Minimum space of V0A and M0A of different net >= 16.5 nm" }
+rV0A_12 @= { @ "V0A.12 : V0A may not  interact with GCUT or DUMMY or GATE layer" }
+rV0A_13 @= { @ "V0A.13 : Minimum area overlap between M0A and V0A >= 156 nm^2" }
+rV0A_2 @= { @ "V0A.2 : V0A is a square with 13 nm edge length" }
+rV0A_3 @= { @ "V0A.3 : Minimum spacing of V0A - Full alignment >= 29 nm" }
+rV0A_4 @= { @ "V0A.4 : Minimum corner-to-corner spacing between two V0A instances >= 30 nm" }
+rV0A_5 @= { @ "V0A.5 : V0A must always interact with M0A and M0B" }
+rV0A_6 @= { @ "V0A.6 : V0A enclosure by M0B on two opposite sides, horizontal direction >= 6 nm" }
+rV0A_7 @= { @ "V0A.7 : V0A enclosure by M0B on two opposite sides, vertical direction = -1 nm" }
+rV0A_8 @= { @ "V0A.8 : V0A enclosure by M0A on two opposite sides, horizontal direction = 1 nm" }
+rV0A_9 @= { @ "V0A.9 : V0A enclosure by M0A on two opposite sides, vertical direction" }
+rV0B_1 @= { @ "V0B.1 : V0B shape is a rectangle" }
+rV0B_10 @= { @ "V0B.10 : V0B enclosure by M1 on two opposite sides, horizontal direction = 0 nm" }
+rV0B_11 @= { @ "V0B.11 : V0B enclosure by M1 on two opposite sides, VERTICAL direction = 2.5 nm" }
+rV0B_2 @= { @ "V0B.2 : V0B exact horizontal width  = 14 nm" }
+rV0B_3 @= { @ "V0B.3 : V0B exact vertical width = 10 nm" }
+rV0B_4 @= { @ "V0B.4 : Minimum vertical spacing of V0B - Full alignment >= 10.5 nm" }
+rV0B_5 @= { @ "V0B.5 : Minimum horizontal spacing of V0B - Full alignment >= 20 nm" }
+rV0B_6 @= { @ "V0B.6 : Minimum corner-to-corner spacing between two V0B instances >= 22 nm" }
+rV0B_7 @= { @ "V0B.7 : V0B must always interact with M0B and M1" }
+rV0B_8 @= { @ "V0B.8 : V0B enclosure by M0B on two opposite sides, horizontal direction = 4 nm" }
+rV0B_9 @= { @ "V0B.9 : V0B enclosure by M0B on two opposite sides, VERTICAL direction = 0 nm" }
+rV10_1 @= { @ "V10.1 : V10 shape is square" }
+rV10_2 @= { @ "V10.2 : V10 is a square with 80nm edge length" }
+rV10_3 @= { @ "V10.3 : Minimum spacing of V10 - Full alignment >= 80nm" }
+rV10_4 @= { @ "V10.4 : V10 should be enclosed between M10 and M11" }
+rV10_5 @= { @ "V10.5 : V10 enclosure by M10 on two opposite sides, horizontal direction >= 10nm" }
+rV10_6 @= { @ "V10.6 : V10 enclosure by M10 on two opposite sides, vertical direction = 0nm" }
+rV10_7 @= { @ "V10.7 : V10 enclosure by M11 on two opposite sides, horizontal direction = 0nm" }
+rV10_8 @= { @ "V10.8 : V10 enclosure by M11 on two opposite sides, vertical direction >= 10nm" }
+rV10_9 @= { @ "V10.9 : Minimum area overlap between M10 and V10 >= 6400nm^2" }
+rV11_1 @= { @ "V11.1 : V11 shape is rectangle" }
+rV11_2 @= { @ "V11.2 : V11 is a rectangle with 80nm horizontal edge and 160nm vertical edge" }
+rV11_3a @= { @ "V11.3a : Minimum horizontal spacing of V11 - Full alignment >= 80nm" }
+rV11_3b @= { @ "V11.3b : Minimum vertical spacing of V11 - Full alignment >= 160nm" }
+rV11_4 @= { @ "V11.4 : V11 should be enclosed between M11 and M12" }
+rV11_5 @= { @ "V11.5 : V11 enclosure by M11 on two opposite sides, horizontal direction = 0nm" }
+rV11_6 @= { @ "V11.6 : V11 enclosure by M11 on two opposite sides, vertical direction >= 10nm" }
+rV11_7 @= { @ "V11.7 : V11 enclosure by M12 on two opposite sides, horizontal direction >= 10nm" }
+rV11_8 @= { @ "V11.8 : V11 enclosure by M12 on two opposite sides, vertical direction = 0nm" }
+rV11_9 @= { @ "V11.9 : Minimum area overlap between M11 and V11 >= 12800nm^2" }
+rV12_1 @= { @ "V12.1 : V12 shape is square" }
+rV12_2 @= { @ "V12.2 : V12 is a square with 160nm edge length" }
+rV12_3 @= { @ "V12.3 : Minimum spacing of V12 - Full alignment >= 160nm" }
+rV12_4 @= { @ "V12.4 : V12 should be enclosed between M12 and M13" }
+rV12_5 @= { @ "V12.5 : V12 enclosure by M12 on two opposite sides, horizontal direction >= 10nm" }
+rV12_6 @= { @ "V12.6 : V12 enclosure by M12 on two opposite sides, vertical direction = 0nm" }
+rV12_7 @= { @ "V12.7 : V12 enclosure by M13 on two opposite sides, horizontal direction = 0nm" }
+rV12_8 @= { @ "V12.8 : V12 enclosure by M13 on two opposite sides, vertical direction >= 10nm" }
+rV12_9 @= { @ "V12.9 : Minimum area overlap between M12 and V12 >= 25600nm^2" }
+rV1_1 @= { @ "V1.1 : V1 shape is a square" }
+rV1_2 @= { @ "V1.2 : V1 is a square with 14nm edge length" }
+rV1_3 @= { @ "V1.3 : Minimum spacing of V1 - Full alignment >= 14 nm" }
+rV1_4 @= { @ "V1.4 : V1 should be enclosed between M1 and M2" }
+rV1_5 @= { @ "V1.5 : V1 enclosure by M1 on two opposite sides, horizontal direction = 0nm" }
+rV1_6 @= { @ "V1.6 : V1 enclosure by M1 on two opposite sides, vertical direction >= 3nm" }
+rV1_7 @= { @ "V1.7 : V1 enclosure by M2 on two opposite sides, horizontal direction >= 3nm" }
+rV1_8 @= { @ "V1.8 : V1 enclosure by M2 on two opposite sides, vertical direction = 0nm" }
+rV1_9 @= { @ "V1.9 : Minimum area overlap between M1 and V1 = 19nm^2" }
+rV2_1 @= { @ "V2.1 : V2 shape is square" }
+rV2_2 @= { @ "V2.2 : V2 is a square with 14nm edge length" }
+rV2_3 @= { @ "V2.3 : Minimum spacing of V2 - Full alignment >= 15nm" }
+rV2_4 @= { @ "V2.4 : V2 should be enclosed between M2 and M3" }
+rV2_5 @= { @ "V2.5 : V2 enclosure by M2 on two opposite sides, horizontal direction >= 3nm" }
+rV2_6 @= { @ "V2.6 : V2 enclosure by M2 on two opposite sides, vertical direction = 0nm" }
+rV2_7 @= { @ "V2.7 : V2 enclosure by M3 on two opposite sides, horizontal direction = 0nm" }
+rV2_8 @= { @ "V2.8 : V2 enclosure by M3 on two opposite sides, vertical direction >= 3nm" }
+rV2_9 @= { @ "V2.9 : Minimum area overlap between M2 and V2 >= 196nm^2" }
+rV3_1 @= { @ "V3.1 : V3 shape is rectangle" }
+rV3_2 @= { @ "V3.2 : V3 is a rectangle with 15nm horizontal edge and 24nm vertical edge" }
+rV3_3a @= { @ "V3.3a : Minimum horizontal spacing of V3 - Full alignment >= 15nm" }
+rV3_3b @= { @ "V3.3b : Minimum vertical spacing of V3 - Full alignment >= 24nm" }
+rV3_4 @= { @ "V3.4 : V3 should be enclosed between M3 and M4" }
+rV3_5 @= { @ "V3.5 : V3 enclosure by M3 on two opposite sides, horizontal direction == 0nm" }
+rV3_6 @= { @ "V3.6 : V3 enclosure by M3 on two opposite sides, vertical direction >= 3nm" }
+rV3_7 @= { @ "V3.7 : V3 enclosure by M4 on two opposite sides, horizontal direction >= 3nm" }
+rV3_8 @= { @ "V3.8 : V3 enclosure by M4 on two opposite sides, vertical direction == 0nm" }
+rV3_9 @= { @ "V3.9 : Minimum area overlap between M3 and V3 >= 360nm^2" }
+rV4_1 @= { @ "V4.1 : V4 shape is square" }
+rV4_2 @= { @ "V4.2 : V4 is a square with 24nm edge length" }
+rV4_3 @= { @ "V4.3 : Minimum spacing of V4 - Full alignment >= 24nm" }
+rV4_4 @= { @ "V4.4 : V4 should be enclosed between M4 and M5" }
+rV4_5 @= { @ "V4.5 : V4 enclosure by M4 on two opposite sides, horizontal direction >= 10nm" }
+rV4_6 @= { @ "V4.6 : V4 enclosure by M4 on two opposite sides, vertical direction == 0nm" }
+rV4_7 @= { @ "V4.7 : V4 enclosure by M5 on two opposite sides, horizontal direction == 0nm" }
+rV4_8 @= { @ "V4.8 : V4 enclosure by M5 on two opposite sides, vertical direction >= 10nm" }
+rV4_9 @= { @ "V4.9 : Minimum area overlap between M4 and V4 >= 576nm^2" }
+rV5_1 @= { @ "V5.1 : V5 shape is square" }
+rV5_2 @= { @ "V5.2 : V5 is a square with 24nm edge length" }
+rV5_3 @= { @ "V5.3 : Minimum spacing of V5 - Full alignment >= 24nm" }
+rV5_4 @= { @ "V5.4 : V5 should be enclosed between M5 and M6" }
+rV5_5 @= { @ "V5.5 : V5 enclosure by M5 on two opposite sides, horizontal direction = 0nm" }
+rV5_6 @= { @ "V5.6 : V5 enclosure by M5 on two opposite sides, vertical direction >= 10nm" }
+rV5_7 @= { @ "V5.7 : V5 enclosure by M6 on two opposite sides, horizontal direction >= 10nm" }
+rV5_8 @= { @ "V5.8 : V5 enclosure by M6 on two opposite sides, vertical direction = 0nm" }
+rV5_9 @= { @ "V5.9 : Minimum area overlap between M5 and V5 >= 576nm^2" }
+rV6_1 @= { @ "V6.1 : V6 shape is rectangle" }
+rV6_2 @= { @ "V6.2 : V6 is a rectangle with 40nm horizontal edge and 24nm vertical edge" }
+rV6_3a @= { @ "V6.3a : Minimum horizontal spacing of V6 - Full alignment >= 40nm" }
+rV6_3b @= { @ "V6.3b : Minimum vertical spacing of V6 - Full alignment >= 24nm" }
+rV6_4 @= { @ "V6.4 : V6 should be enclosed between M6 and M7" }
+rV6_5 @= { @ "V6.5 : V6 enclosure by M6 on two opposite sides, horizontal direction >= 10nm" }
+rV6_6 @= { @ "V6.6 : V6 enclosure by M6 on two opposite sides, vertical direction = 0nm" }
+rV6_7 @= { @ "V6.7 : V6 enclosure by M7 on two opposite sides, horizontal direction = 0nm" }
+rV6_8 @= { @ "V6.8 : V6 enclosure by M7 on two opposite sides, vertical direction >= 10nm" }
+rV6_9 @= { @ "V6.9 : Minimum area overlap between M6 and V6 >= 960 nm^2" }
+rV7_1 @= { @ "V7.1 : V7 shape is square" }
+rV7_2 @= { @ "V7.2 : V7 is a square with 40nm edge length" }
+rV7_3 @= { @ "V7.3 : Minimum spacing of V7 - Full alignment >= 40nm" }
+rV7_4 @= { @ "V7.4 : V7 should be enclosed between M7 and M8" }
+rV7_5 @= { @ "V7.5 : V7 enclosure by M7 on two opposite sides, horizontal direction = 0nm" }
+rV7_6 @= { @ "V7.6 : V7 enclosure by M7 on two opposite sides, vertical direction >= 10nm" }
+rV7_7 @= { @ "V7.7 : V7 enclosure by M8 on two opposite sides, horizontal direction >= 10nm" }
+rV7_8 @= { @ "V7.8 : V7 enclosure by M8 on two opposite sides, vertical direction = 0nm" }
+rV7_9 @= { @ "V7.9 : Minimum area overlap between M7 and V7 >= 1600 nm^2" }
+rV8_1 @= { @ "V8.1 : V8 shape is square" }
+rV8_2 @= { @ "V8.2 : V8 is a square with 40nm edge length" }
+rV8_3 @= { @ "V8.3 : Minimum spacing of V8 - Full alignment >= 40nm" }
+rV8_4 @= { @ "V8.4 : V8 should be enclosed between M8 and M9" }
+rV8_5 @= { @ "V8.5 : V8 enclosure by M8 on two opposite sides, horizontal direction >= 10nm" }
+rV8_6 @= { @ "V8.6 : V8 enclosure by M8 on two opposite sides, vertical direction = 0nm" }
+rV8_7 @= { @ "V8.7 : V8 enclosure by M9 on two opposite sides, horizontal direction = 0nm" }
+rV8_8 @= { @ "V8.8 : V8 enclosure by M9 on two opposite sides, vertical direction >= 10nm" }
+rV8_9 @= { @ "V8.9 : Minimum area overlap between M8 and V8 >= 1600nm^2" }
+rV9_1 @= { @ "V9.1 : V9 shape is rectangle" }
+rV9_2 @= { @ "V9.2 : V9 is a rectangle with 40nm horizontal edge and 80nm vertical edge" }
+rV9_3a @= { @ "V9.3a : Minimum horizontal spacing of V9 - Full alignment >= 40nm" }
+rV9_3b @= { @ "V9.3b : Minimum vertical spacing of V9 - Full alignment >= 80nm" }
+rV9_4 @= { @ "V9.4 : V9 should be enclosed between M9 and M10" }
+rV9_5 @= { @ "V9.5 : V9 enclosure by M9 on two opposite sides, horizontal direction = 0nm" }
+rV9_6 @= { @ "V9.6 : V9 enclosure by M9 on two opposite sides, vertical direction >= 10nm" }
+rV9_7 @= { @ "V9.7 : V9 enclosure by M10 on two opposite sides, horizontal direction >= 10nm" }
+rV9_8 @= { @ "V9.8 : V9 enclosure by M10 on two opposite sides, vertical direction = 0nm" }
+rV9_9 @= { @ "V9.9 : Minimum area overlap between M9 and V9 >= 3200nm^2" }
+rVBPR_1 @= { @ "VBPR.1 : VBPR must be rectangle" }
+rVBPR_2 @= { @ "VBPR.2 : Exact vertical width of VBPR = 10.5 nm" }
+rVBPR_3 @= { @ "VBPR.3 : Exact horizontal length of VBPR = 15 nm" }
+rVBPR_4 @= { @ "VBPR.4 : VBPR enclosure by BPR on two opposite sides, horizontal direction = 13.5 nm" }
+rVBPR_5 @= { @ "VBPR.5 : VBPR enclosure by M0A on two opposite sides, vertical direction = 0 nm" }
+rVBPR_6 @= { @ "VBPR.6 : Minimum horizontal spacing between two VBPR layers >= 27 nm" }
+rVBPR_7 @= { @ "VBPR.7 : Minimum vertical spacing betwenn two VBPR layers >= 10 nm" }
+rVBPR_8 @= { @ "VBPR.8 : Minmum spacing between VBPR and ACTIVE layer polygons not on the same net >= 10 nm" }
+rVBPR_9 @= { @ "VBPR.9 : VBPR may not interact with GCUT or GATE or DUMMY" }
+rVRDL_1 @= { @ "VRDL.1 : VRDL shape is square" }
+rVRDL_2 @= { @ "VRDL.2 : VRDL is a square with 160nm edge length" }
+rVRDL_3 @= { @ "VRDL.3 : Minimum spacing of V12 - Full alignment >= 160nm" }
+rVRDL_4 @= { @ "VRDL.4 : VRDL must be enclosed between M13 and RDL layers" }
+rVRDL_5 @= { @ "VRDL.5 : VRDL enclosure by M13 in horizontal direction >= 0nm" }
+rVRDL_6 @= { @ "VRDL.6 : VRDL enclosure by M13 in vertical direction >= 10nm" }
+rVRDL_7 @= { @ "VRDL.7 : VRDL enclosure by RDL in horizontal direction >= 80nm" }
+rVRDL_8 @= { @ "VRDL.8 : VRDL enclosure by RDL in vertical direction >= 80nm" }
+rVRDL_9 @= { @ "VRDL.9 : Minimum area overlap between M13 and VRDL >= 25600nm^2" }

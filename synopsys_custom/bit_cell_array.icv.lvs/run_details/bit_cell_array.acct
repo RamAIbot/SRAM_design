@@ -1,0 +1,99 @@
+bitcell
+	Cell Level Device Counts
+		NMOS[nmos] = 0
+		PMOS[pmos] = 0
+	Flat Device Counts
+		NMOS[nmos] = 0
+		PMOS[pmos] = 0
+tspc_flip_flop
+	Cell Level Device Counts
+		NMOS[nmos] = 0
+		PMOS[pmos] = 0
+	Flat Device Counts
+		NMOS[nmos] = 0
+		PMOS[pmos] = 0
+inverter_write_driver
+	Cell Level Device Counts
+		NMOS[nmos] = 1
+		PMOS[pmos] = 1
+	Flat Device Counts
+		NMOS[nmos] = 1
+		PMOS[pmos] = 1
+inv_2
+	Cell Level Device Counts
+		NMOS[nmos] = 0
+		PMOS[pmos] = 0
+	Flat Device Counts
+		NMOS[nmos] = 0
+		PMOS[pmos] = 0
+nor_5
+	Cell Level Device Counts
+		NMOS[nmos] = 0
+		PMOS[pmos] = 0
+	Flat Device Counts
+		NMOS[nmos] = 0
+		PMOS[pmos] = 0
+and_2
+	Cell Level Device Counts
+		NMOS[nmos] = 1
+		PMOS[pmos] = 0
+	Flat Device Counts
+		NMOS[nmos] = 1
+		PMOS[pmos] = 0
+Write_Driver
+	Cell Level Device Counts
+		NMOS[nmos] = 4
+		PMOS[pmos] = 0
+	Flat Device Counts
+		NMOS[nmos] = 6
+		PMOS[pmos] = 2
+bit_conditioning
+	Cell Level Device Counts
+		NMOS[nmos] = 1
+		PMOS[pmos] = 3
+	Flat Device Counts
+		NMOS[nmos] = 1
+		PMOS[pmos] = 3
+rowdecoder
+	Cell Level Device Counts
+		NMOS[nmos] = 27
+		PMOS[pmos] = 27
+	Flat Device Counts
+		NMOS[nmos] = 27
+		PMOS[pmos] = 27
+demu_2_4
+	Cell Level Device Counts
+		NMOS[nmos] = 10
+		PMOS[pmos] = 14
+	Flat Device Counts
+		NMOS[nmos] = 14
+		PMOS[pmos] = 14
+VCELLR4
+	Cell Level Device Counts
+		NMOS[nmos] = 0
+		PMOS[pmos] = 0
+	Flat Device Counts
+		NMOS[nmos] = 0
+		PMOS[pmos] = 0
+column_decoder_new
+	Cell Level Device Counts
+		NMOS[nmos] = 32
+		PMOS[pmos] = 0
+	Flat Device Counts
+		NMOS[nmos] = 46
+		PMOS[pmos] = 14
+VCELLR2
+	Cell Level Device Counts
+		NMOS[nmos] = 0
+		PMOS[pmos] = 0
+	Flat Device Counts
+		NMOS[nmos] = 2
+		PMOS[pmos] = 6
+bit_cell_array
+	Cell Level Device Counts
+		NMOS[nmos] = 540
+		PMOS[pmos] = 280
+
+********  DEVICE EXTRACTION STATS    TOPBLOCK = bit_cell_array  *******
+		NMOS[nmos] = 653
+		PMOS[pmos] = 377

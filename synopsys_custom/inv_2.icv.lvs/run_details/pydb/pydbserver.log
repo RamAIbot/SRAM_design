@@ -1,0 +1,117 @@
+
+                                  PYDB_Server 
+
+          Version S-2021.06-SP2 for linux64 - Aug 30, 2021 cl#6831572
+
+                    Copyright (c) 2007 - 2021 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+variable width coordinate support enabled.
+Listening for connections on port 8648
+PYDB_Server Started on host grendel31.ece.ncsu.edu, Tue 04/19/2022 15:20:22
+Client grendel31.ece.ncsu.edu(20312):18 connected (1 total client)
+Verified current licenses.
+Opening file:/afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/inv_2.icv.lvs/run_details/pydb/PYDB_inv_2?nolock=1
+SQLite page_size=65536
+SQLite cache_size=65536
+SQLite mmap_size=0
+SQLite journal_mode=OFF
+SQLite version 3.33.0
+Client grendel31.ece.ncsu.edu(20485):25 connected (2 total clients)
+Client grendel31.ece.ncsu.edu(20512):27 connected (3 total clients)
+Client grendel31.ece.ncsu.edu(20512):27 connection closed
+Client grendel31.ece.ncsu.edu(20512):27 disconnected (2 clients remain)
+Client grendel31.ece.ncsu.edu(20485):25 connection closed
+Client grendel31.ece.ncsu.edu(20485):25 disconnected (1 client remains)
+Client grendel31.ece.ncsu.edu(20512):25 connected (2 total clients)
+Command record inserted (no error output): layout_drawn_errors:missing_cell
+Error insertion complete: layout_drawn_errors:missing_cell
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Client grendel31.ece.ncsu.edu(20485):27 connected (3 total clients)
+Client grendel31.ece.ncsu.edu(20485):27 connection closed
+Client grendel31.ece.ncsu.edu(20485):27 disconnected (2 clients remain)
+Command record inserted (no error output): layout_drawn_errors:duplicate_placement
+Error insertion complete: layout_drawn_errors:duplicate_placement
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): layout_drawn_errors:duplicate_placement
+Error insertion complete: layout_drawn_errors:duplicate_placement
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): layout_drawn_errors:duplicate_placement
+Error insertion complete: layout_drawn_errors:duplicate_placement
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.01 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Client grendel31.ece.ncsu.edu(20485):27 connected (3 total clients)
+Client grendel31.ece.ncsu.edu(20512):25 connection closed
+Client grendel31.ece.ncsu.edu(20512):25 disconnected (2 clients remain)
+Client grendel31.ece.ncsu.edu(20512):25 connected (3 total clients)
+Client grendel31.ece.ncsu.edu(20485):27 connection closed
+Client grendel31.ece.ncsu.edu(20485):27 disconnected (2 clients remain)
+Client grendel31.ece.ncsu.edu(20485):27 connected (3 total clients)
+Command record inserted (no error output): /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/inv_2.icv.lvs/FreePDK3_main.lvs.lvs.rs:414:nmos[nmos]:device extraction errors
+Error insertion complete: /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/inv_2.icv.lvs/FreePDK3_main.lvs.lvs.rs:414:nmos[nmos]:device extraction errors
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Command record inserted (no error output): /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/inv_2.icv.lvs/FreePDK3_main.lvs.lvs.rs:416:pmos[pmos]:device extraction errors
+Error insertion complete: /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/inv_2.icv.lvs/FreePDK3_main.lvs.lvs.rs:416:pmos[pmos]:device extraction errors
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+Client grendel31.ece.ncsu.edu(20512):25 connection closed
+Client grendel31.ece.ncsu.edu(20512):25 disconnected (2 clients remain)
+Client grendel31.ece.ncsu.edu(20485):27 connection closed
+Client grendel31.ece.ncsu.edu(20485):27 disconnected (1 client remains)
+ Total error insertion Time=0:00:02  User=0.00 Sys=0.01 Mem=0.000 GB SQLite=0.006 GB Unpooled=0.000 GB
+  Total Commands: 6
+  Total Errors: 0
+  Avg Time/Cmd: Wall=0 User=0.00 Sys=0.00 Mem=0.000 GB MySQL Mem=0.000 GB
+Generating /afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/inv_2.icv.lvs/inv_2.LAYOUT_ERRORS
+  Generation Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB
+Shutdown requested by client grendel31.ece.ncsu.edu(20312):18
+0 clients remain connected
+Client grendel31.ece.ncsu.edu(20312):18 connection closed
+Overall server Time=0:00:03  User=0.01 Sys=0.09 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+
+                                  PYDB_Server 
+
+          Version S-2021.06-SP2 for linux64 - Aug 30, 2021 cl#6831572
+
+                    Copyright (c) 2007 - 2021 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+variable width coordinate support enabled.
+Listening for connections on port 7807
+PYDB_Server Started on host grendel31.ece.ncsu.edu, Tue 04/19/2022 15:20:28
+Client grendel31.ece.ncsu.edu(20904):9 connected (1 total client)
+Verified current licenses.
+Opening file:/afs/unity.ncsu.edu/users/z/zwmurray/ece546/proj_working/synopsys_custom/inv_2.icv.lvs/run_details/pydb/PYDB_inv_2?nolock=1
+SQLite page_size=65536
+SQLite cache_size=65536
+SQLite mmap_size=0
+SQLite journal_mode=OFF
+SQLite version 3.33.0
+Shutdown requested by client grendel31.ece.ncsu.edu(20904):9
+0 clients remain connected
+Client grendel31.ece.ncsu.edu(20904):9 connection closed
+Overall server Time=0:00:54  User=0.01 Sys=0.00 Mem=0.000 GB SQLite=0.002 GB Unpooled=0.000 GB
